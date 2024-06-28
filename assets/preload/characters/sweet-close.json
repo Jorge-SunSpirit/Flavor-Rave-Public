@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SweetCloseUpIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				-4
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SweetCloseUpLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				-40
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SweetCloseUpDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				-5
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SweetCloseUpUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				7
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SweetCloseUpRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				-39
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "SweetCloseUpMissDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				-5
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "SweetCloseUpMissUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				6
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "SweetCloseUpMissRight",
+			"indices": []
+		},
+		{
+			"offsets": [
+				2,
+				-2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "SweetCloseUpMissLeft"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SweetCloseUp",
+	"position": [
+		0,
+		110
+	],
+	"healthicon": "sweet",
+	"flip_x": true,
+	"healthbar_colors": [
+		240,
+		196,
+		189
+	],
+	"camera_position": [
+		-100,
+		100
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sweet",
+	"healthbar_image": "sweet"
+}

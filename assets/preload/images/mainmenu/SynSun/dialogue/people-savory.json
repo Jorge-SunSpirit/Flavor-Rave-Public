@@ -1,0 +1,114 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Savory? Hmm, doesn't ring a bell...",
+			"chara": "sundried",
+			"animation": "think",
+			"sound" : "wha"
+		},
+		{
+			"text": "That's cause he's before your time. I've read up on him a whole lot, though, so strap in, viewers.",
+			"sound" : "strapin",
+			"chara": "synthetic"
+		},
+		{
+			"text": "He was insanely popular in his region of Corianda over 20 years ago. The absolute heartthrob of the Latin Rock scene with his suave voice and finesse with the guitar.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "He was a lone wolf for a while, but his life would change unexpectedly. At the height of his career, he had a surprise performance alongside a talented young lady he had never met.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "That surprise duet sparked something between the two of them, and they quickly became passionate lovers.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Aww, that sounds so sweet! Reminds me a lot of how Sweet and Sour met.",
+			"sound" : "woah",
+			"animation": "excited",
+			"chara": "sundried"
+		},
+		{
+			"text": "...and that's where the good stuff ends.",
+			"animation": "sad",
+			"sound" : "well",
+			"chara": "synthetic"
+		},
+		{
+			"text": "One string of bad decisions after another, and his time in the spotlight was over as fast as it had started.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "And in turn, he lost his precious love as well.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Aww, no... What happened to him after that?",
+			"sound" : "oof",
+			"animation": "sad",
+			"chara": "sundried"
+		},
+		{
+			"text": "Savory basically vanished after his career died. Nobody had seen him since.",
+			"animation": "reset",
+			"chara": "synthetic"
+		},
+		{
+			"text": "...at least, that's what most people THINK happened. I have a theory, though.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "C'mon now, Syn, not another crazy conspiracy.",
+			"sound" : "ughsyn",
+			"animation": "nervous",
+			"chara": "sundried"
+		},
+		{
+			"text": "Please, hear me out on this one.",
+			"sound" : "hearmeout",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Not long after Savory's disappearance, this masked man began to pop up all around Corianda, helping lost travelers stuck in Corianda's labyrinth of pathways.",
+			"chara": "synthetic",
+			"tvArt" : "savory"
+		},
+		{
+			"text": "The tourists and locals call him 'The Wayfinder'. People keep saying they don't know his true identity, but c'mon now! That's gotta be Savory!",
+			"chara": "synthetic"
+		},
+		{
+			"text": "I'm... not gonna jump to conclusions like that.",
+			"chara": "sundried"
+		},
+		{
+			"text": "If it ends up being true, though, you know where you heard it first, viewers. This guy right here!",
+			"chara": "synthetic"
+		},
+		{
+			"text": "I will admit, this Wayfinder guy does have that similar suave look, and the timing is a little sus...",
+			"animation": "reset",
+			"chara": "sundried"
+		},
+		{
+			"text": "Heh, funny thing about that suaveness... According to his ex, most of it is just show. He's a wild, overdramatic klutz offstage.",
+			"sound" : "psst",
+			"animation": "hueh",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Hey, I told you not to look at those gross gossip sites for info!",
+			"sound" : "eugh",
+			"animation": "nervous",
+			"chara": "sundried"
+		},
+		{
+			"text": "You know I can't help it, Sunny.",
+			"sound" : "robolaugh",
+			"animation": "p03",
+			"chara": "synthetic"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Ooh, I've been wanting to discuss this! Talk of RAVE has been going up lately and everyone's dying to know what it's all about!",
+			"animation": "happy",
+			"sound" : "woah",
+			"chara": "syn"
+		},
+		{
+			"text": "I'm honestly not sure what to make of RAVE still. Sounds like people just get cool superpowers out of nowhere, I guess?",
+			"animation": "think",
+			"sound" : "hmm",
+			"chara": "sun"
+		},
+		{
+			"text": "Like... does anyone know what causes it? Can everyone do it? Is it just a musician thing?",
+			"chara": "sun"
+		},
+		{
+			"text": "Time for a quick research sesh! One moment please…",
+			"animation": "search",
+			"sound" : "scanningtheweb",
+			"chara": "syn"
+		},
+		{
+			"text": "Based on what I'm seeing, anyone can achieve some sort of power via RAVE regardless of what you do. It just so happens to be most common with performers, like musicians and dancers.",
+			"chara": "syn"
+		},
+		{
+			"text": "If you're really into what you're doing, then you can channel some form of RAVE.",
+			"chara": "syn"
+		},
+		{
+			"text": "Hmm, alright. So… it comes from passion? That would make it harder for different kinds of passions to produce some sort of RAVE effect, yeah?",
+			"chara": "sun"
+		},
+		{
+			"text": "Who knows? There's a few reported cases of crazy RAVE power from unexpected places.",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "There's a popular chef online who showcases his cooking with the aid of RAVE power, and then there's these twins who can both use RAVE to talk to animals; The list goes on and on.",
+			"chara": "syn"
+		},
+		{
+			"text": "So... even someone like me could do something RAVE-y if I try hard enough?",
+			"sound" : "ohrealize",
+			"animation": "reset",
+			"chara": "sun"
+		},
+		{
+			"text": "It's absolutely possible, Sunny!",
+			"animation": "happy",
+			"sound" : "yep",
+			"chara": "syn"
+		},
+		{
+			"text": "Though I don't suppose a machine like me could pull something off like that. Passion comes from the heart, mind, and soul, and I lack all those things.",
+			"animation": "quiet",
+			"chara": "syn"
+		},
+		{
+			"text": "Those crazy transformations Sweet and Sour had at their first show together is definitely what got me interested in RAVE.",
+			"chara": "sun"
+		},
+		{
+			"text": "Then when it happened again at Togarashi Town when those other two powered up with them... Ahh, I wish we were there to see it in person.",
+			"chara": "sun"
+		},
+		{
+			"text": "Oh! Maybe we could try getting people who use RAVE on stream one day to ask them more about what it's like?",
+			"animation": "excited",
+			"chara": "sun"
+		},
+		{
+			"text": "Getting Sweet and Sour would be a dream come true, but that might be pretty hard... but I'd love to learn more directly from the sources. How about it, Syn?",
+			"chara": "sun"
+		},
+		{
+			"text": "I'm down if you're down, Sunny! Bring on the RAVE!",
+			"animation": "happy",
+			"sound" : "doescompute",
+			"chara": "syn"
+		}
+	]
+}

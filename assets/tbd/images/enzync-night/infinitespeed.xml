@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="infinitespeed.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="RedSpeed0000" x="5" y="5" width="1119" height="630"/>
+	<SubTexture name="RedSpeed0001" x="1129" y="5" width="1119" height="630"/>
+	<SubTexture name="RedSpeed0002" x="2253" y="5" width="1119" height="630"/>
+	<SubTexture name="RedSpeed0003" x="5" y="640" width="1119" height="630"/>
+	<SubTexture name="RedSpeed0004" x="1129" y="640" width="1119" height="630"/>
+	<SubTexture name="RedSpeed0005" x="2253" y="640" width="1119" height="630"/>
+	<SubTexture name="RedSpeed0006" x="5" y="1275" width="1119" height="630"/>
+	<SubTexture name="RedSpeed0007" x="1129" y="1275" width="1119" height="630"/>
+	<SubTexture name="RedSpeed0008" x="2253" y="1275" width="1119" height="630"/>
+</TextureAtlas>

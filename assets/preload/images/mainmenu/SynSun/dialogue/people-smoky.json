@@ -1,0 +1,100 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "That guy sounds awfully familiar. I swear I saw his name on a poster you used to have in your room or something.",
+			"sound" : "hmm",
+			"chara": "syn"
+		},
+		{
+			"text": "Smoky? Yeah, he was the lead bass player in 7-Spice. I used to have a lot of their posters and CDs.",
+			"animation": "think",
+			"chara": "sun"
+		},
+		{
+			"text": "Yeah, that's right! 7-Spice! I remember you playing their albums and wearing their merch all the time!",
+			"animation": "happy",
+			"chara": "syn"
+		},
+		{
+			"text": "Heh, I remember you even had a crush on the lead singer, too.",
+			"chara": "syn"
+		},
+		{
+			"text": "Eughhh, yeah...",
+			"sound" : "eugh",
+			"animation": "blush",
+			"chara": "sun"
+		},
+		{
+			"text": "I... I never told you why I stopped listening to that group, didn't I, Syn?",
+			"chara": "sun"
+		},
+		{
+			"text": "I just figured they were a phase or something. Didn't know there was more to it.",
+			"animation": "reset",
+			"sound" : "oh",
+			"chara": "syn"
+		},
+		{
+			"text": "Well… Anyone tuning into stream today who knew about 7-Spice knows that they had a falling out not too long ago.",
+			"animation": "exhale",
+			"chara": "sun"
+		},
+		{
+			"text": "That news hit me like a truck when I found out. I wanted to hold onto all the albums and memorabilia I had of the band as much as I could, knowing that there wouldn't ever be more, but then…",
+			"chara": "sun"
+		},
+		{
+			"text": "The lead singer went on this big tirade on social media that just… I don't know. It made it seem like the falling out was for the better.",
+			"chara": "sun"
+		},
+		{
+			"text": "It's not the kind of thing I'd want to delve into on stream, though. Just a lot of gross drama nonsense I don't like.",
+			"sound" : "grumble",
+			"chara": "sun"
+		},
+		{
+			"text": "I'm curious why Smoky's name has been cropping up lately. Did something new happen with 7-Spice recently?",
+			"animation": "reset",
+			"chara": "sun"
+		},
+		{
+			"text": "You saw what happened in Togarashi Town last week.",
+			"chara": "syn"
+		},
+		{
+			"text": "Sweet and Sour had that whole performance with Smoky and that redhead girl, Spicy. The one with all the crazy, RAVE-y superpower stuff everywhere.",
+			"chara": "syn"
+		},
+		{
+			"text": "You've been watching it nonstop ever since its been posted online.",
+			"chara": "syn"
+		},
+		{
+			"text": "Yeah, I've seen that recording nearly a hundred times! But, wait… that's Smoky in the video?",
+			"sound" : "yeahyeah",
+			"chara": "sun"
+		},
+		{
+			"text": "He looks so much different than how he looked in 7-Spice. And I thought he played bass guitar. Did he drop bass and pick up shamisen after the band split?",
+			"chara": "sun"
+		},
+		{
+			"text": "Just did some quick research. It turns out Smoky's been playing shamisen much longer than bass guitar. That must be why he's an absolute beast on that thing.",
+			"animation": "search",
+			"sound" : "scanningtheweb",
+			"chara": "syn"
+		},
+		{
+			"text": "I can't find too much else on the guy though. Looks like we'll have to keep our eyes on him and Spicy.",
+			"chara": "syn"
+		},
+		{
+			"text": "If Smoky's moved onto a new group with Spicy... I wonder what's happened with the other six members of 7-Spice...",
+			"sound" : "hmm",
+			"animation": "think",
+			"chara": "sun"
+		}
+	]
+}

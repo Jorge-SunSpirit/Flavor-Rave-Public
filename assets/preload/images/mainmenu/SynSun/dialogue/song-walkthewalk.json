@@ -1,0 +1,14 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "This one's a Savory classic. He wrote it as a callout to people he saw who talked big game about romance, but couldn't back it up.",
+			"chara": "syn",
+			"bgm": "WalkTheWalk"
+		},
+		{
+			"text": "In hindsight, a VERY ironic message coming from him, heh.",
+			"chara": "syn"
+		}
+	]
+}

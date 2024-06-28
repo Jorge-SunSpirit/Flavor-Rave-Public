@@ -1,0 +1,456 @@
+{
+	"song": {
+		"events": [
+			[
+				1875,
+				[
+					[
+						"Note Camera Movement",
+						"12",
+						""
+					]
+				]
+			],
+			[
+				2343.75,
+				[
+					[
+						"Play SFX",
+						"sodapour",
+						"0.9"
+					]
+				]
+			],
+			[
+				30000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.7",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				30703.125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				31406.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				33750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				34453.125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				35156.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				37500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				38203.125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				38906.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				41250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				41953.125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				42656.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				45000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				45703.125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				46406.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				48750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				49453.125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				50156.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				52500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				53203.125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				53437.5,
+				[
+					[
+						"Play Animation",
+						"gasp",
+						"gf"
+					]
+				]
+			],
+			[
+				53554.6875,
+				[
+					[
+						"Alt Idle Animation",
+						"gf",
+						"-alt"
+					]
+				]
+			],
+			[
+				53906.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				56250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				56953.125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				57656.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				57890.625,
+				[
+					[
+						"Call on Luas",
+						"eventStepThingie",
+						"494"
+					]
+				]
+			],
+			[
+				58125,
+				[
+					[
+						"Note Camera Movement",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				59765.625,
+				[
+					[
+						"Change Character",
+						"dad",
+						"sour-close"
+					],
+					[
+						"Change Character",
+						"bf",
+						"sweet-close"
+					],
+					[
+						"Call on Luas",
+						"eventStepThingie",
+						"510"
+					]
+				]
+			],
+			[
+				60351.5625,
+				[
+					[
+						"Call on Luas",
+						"eventStepThingie",
+						"515"
+					]
+				]
+			],
+			[
+				66796.875,
+				[
+					[
+						"Call on Luas",
+						"eventStepThingie",
+						"570"
+					]
+				]
+			],
+			[
+				67031.25,
+				[
+					[
+						"Spawn Particles",
+						"",
+						""
+					],
+					[
+						"Call on Luas",
+						"eventStepThingie",
+						"572"
+					]
+				]
+			],
+			[
+				74296.875,
+				[
+					[
+						"Call on Luas",
+						"eventStepThingie",
+						"634"
+					]
+				]
+			],
+			[
+				74765.625,
+				[
+					[
+						"Call on Luas",
+						"eventStepThingie",
+						"638"
+					]
+				]
+			],
+			[
+				90000,
+				[
+					[
+						"Spawn Particles",
+						"",
+						""
+					],
+					[
+						"Call on Luas",
+						"eventStepThingie",
+						"768"
+					]
+				]
+			],
+			[
+				90351.5625,
+				[
+					[
+						"Change Character",
+						"dad",
+						"sour"
+					],
+					[
+						"Change Character",
+						"bf",
+						"sweet"
+					],
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-sad"
+					],
+					[
+						"Alt Idle Animation",
+						"bf",
+						"-sad"
+					]
+				]
+			],
+			[
+				93750,
+				[
+					[
+						"Note Camera Movement",
+						"12",
+						""
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.6"
+					]
+				]
+			],
+			[
+				150000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.6",
+						""
+					]
+				]
+			]
+		]
+	}
+}

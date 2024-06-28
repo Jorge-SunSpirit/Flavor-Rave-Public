@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				10,
+				182
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Infinite_IdleDance"
+		},
+		{
+			"offsets": [
+				-24,
+				230
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Infinite_SingLEFT"
+		},
+		{
+			"offsets": [
+				35,
+				167
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Infinite_SingDOWN"
+		},
+		{
+			"offsets": [
+				39,
+				173
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Infinite_SingUP"
+		},
+		{
+			"offsets": [
+				-113,
+				197
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Infinite_SingRIGHT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/imitation_I",
+	"position": [
+		20,
+		-180
+	],
+	"healthicon": "nikku",
+	"flip_x": false,
+	"healthbar_colors": [
+		240,
+		60,
+		115
+	],
+	"camera_position": [
+		-10,
+		-100
+	],
+	"sing_duration": 6,
+	"charaFloat": true,
+	"scale": 0.9,
+	"noteskin": "Infinite"
+}

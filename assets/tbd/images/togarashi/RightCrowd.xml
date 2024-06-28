@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="RightCrowd.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mazapan instance 10000" x="8" y="8" width="384" height="420" frameX="0" frameY="-7" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10001" x="8" y="8" width="384" height="420" frameX="0" frameY="-7" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10002" x="400" y="8" width="378" height="421" frameX="-3" frameY="-6" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10003" x="400" y="8" width="378" height="421" frameX="-3" frameY="-6" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10004" x="786" y="8" width="372" height="423" frameX="-6" frameY="-4" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10005" x="786" y="8" width="372" height="423" frameX="-6" frameY="-4" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10006" x="1166" y="8" width="372" height="425" frameX="-6" frameY="-2" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10007" x="1166" y="8" width="372" height="425" frameX="-6" frameY="-2" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10008" x="1546" y="8" width="372" height="427" frameX="-6" frameY="0" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10009" x="1546" y="8" width="372" height="427" frameX="-6" frameY="0" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10010" x="1546" y="8" width="372" height="427" frameX="-6" frameY="0" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10011" x="1546" y="8" width="372" height="427" frameX="-6" frameY="0" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10012" x="1546" y="8" width="372" height="427" frameX="-6" frameY="0" frameWidth="384" frameHeight="427"/>
+	<SubTexture name="Mazapan instance 10013" x="1546" y="8" width="372" height="427" frameX="-6" frameY="0" frameWidth="384" frameHeight="427"/>
+</TextureAtlas>

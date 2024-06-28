@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "!!!!!",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "..!!",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "..!",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "...",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "...",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

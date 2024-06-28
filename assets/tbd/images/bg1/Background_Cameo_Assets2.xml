@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Background_Cameo_Assets2.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="All0000" x="8" y="8" width="2511" height="665"/>
+	<SubTexture name="All0001" x="8" y="8" width="2511" height="665"/>
+	<SubTexture name="All0002" x="8" y="681" width="2511" height="665"/>
+	<SubTexture name="All0003" x="8" y="681" width="2511" height="665"/>
+	<SubTexture name="All0004" x="8" y="1354" width="2511" height="665"/>
+	<SubTexture name="All0005" x="8" y="1354" width="2511" height="665"/>
+	<SubTexture name="All0006" x="8" y="2027" width="2511" height="665"/>
+	<SubTexture name="All0007" x="8" y="2027" width="2511" height="665"/>
+	<SubTexture name="All0008" x="8" y="2027" width="2511" height="665"/>
+	<SubTexture name="All0009" x="8" y="2027" width="2511" height="665"/>
+	<SubTexture name="All0010" x="8" y="2027" width="2511" height="665"/>
+	<SubTexture name="All0011" x="8" y="2027" width="2511" height="665"/>
+	<SubTexture name="All0012" x="8" y="2027" width="2511" height="665"/>
+	<SubTexture name="All0013" x="8" y="2027" width="2511" height="665"/>
+</TextureAtlas>

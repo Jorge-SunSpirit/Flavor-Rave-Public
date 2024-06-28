@@ -1,0 +1,82 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				10,
+				182
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Nikku-ex idle"
+		},
+		{
+			"offsets": [
+				139,
+				123
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Nikku-ex left"
+		},
+		{
+			"offsets": [
+				5,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Nikku-ex down"
+		},
+		{
+			"offsets": [
+				-21,
+				203
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Nikku-ex up"
+		},
+		{
+			"offsets": [
+				-18,
+				98
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Nikku-ex right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Nikku24-1",
+	"position": [
+		20,
+		-180
+	],
+	"healthicon": "nikku",
+	"flip_x": false,
+	"healthbar_colors": [
+		240,
+		60,
+		115
+	],
+	"camera_position": [
+		-10,
+		-60
+	],
+	"sing_duration": 6,
+	"charaFloat": true,
+	"scale": 1,
+	"noteskin": "Nikku",
+	"healthbar_image": "nikku",
+	"musicNoteOffset": [-100,-100]
+}

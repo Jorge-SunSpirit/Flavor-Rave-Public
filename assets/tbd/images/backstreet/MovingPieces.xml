@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MovingPieces.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TogaAnim instance 10000" x="8" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10001" x="8" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10002" x="8" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10003" x="8" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10004" x="8" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10005" x="1102" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10006" x="1102" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10007" x="1102" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10008" x="1102" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10009" x="1102" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10010" x="2196" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10011" x="2196" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10012" x="2196" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10013" x="2196" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10014" x="2196" y="8" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10015" x="8" y="636" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10016" x="8" y="636" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10017" x="8" y="636" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10018" x="8" y="636" width="1086" height="620"/>
+	<SubTexture name="TogaAnim instance 10019" x="8" y="636" width="1086" height="620"/>
+</TextureAtlas>

@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I'm very proud of that one, I admit. Heh heh...",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Clean and simple. That's all a good performance needs to be.",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I'm not yet satisfied. There's still room for improvement.",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Hmm... Something is off. I need to fix this.",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Tch... I shouldn't be falling this far back. I... ugh... ",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

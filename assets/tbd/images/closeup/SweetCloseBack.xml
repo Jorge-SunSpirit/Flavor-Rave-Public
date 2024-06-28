@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SweetCloseBack.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SweetBack0000" x="10" y="10" width="633" height="735" frameX="0" frameY="0" frameWidth="633" frameHeight="736"/>
+	<SubTexture name="SweetBack0001" x="10" y="10" width="633" height="735" frameX="0" frameY="0" frameWidth="633" frameHeight="736"/>
+	<SubTexture name="SweetBack0002" x="10" y="10" width="633" height="735" frameX="0" frameY="0" frameWidth="633" frameHeight="736"/>
+	<SubTexture name="SweetBack0003" x="10" y="10" width="633" height="735" frameX="0" frameY="0" frameWidth="633" frameHeight="736"/>
+	<SubTexture name="SweetBack0004" x="10" y="10" width="633" height="735" frameX="0" frameY="0" frameWidth="633" frameHeight="736"/>
+	<SubTexture name="SweetBack0005" x="653" y="10" width="633" height="736"/>
+	<SubTexture name="SweetBack0006" x="653" y="10" width="633" height="736"/>
+	<SubTexture name="SweetBack0007" x="653" y="10" width="633" height="736"/>
+	<SubTexture name="SweetBack0008" x="653" y="10" width="633" height="736"/>
+	<SubTexture name="SweetBack0009" x="653" y="10" width="633" height="736"/>
+</TextureAtlas>

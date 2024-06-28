@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				118,
+				-63
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "TorrentMissLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				18,
+				-72
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "TorrentMissDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				80
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "TorrentMissUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-130,
+				9
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "TorrentMissRight",
+			"indices": []
+		},
+		{
+			"offsets": [
+				11,
+				-36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "TorrentIdle"
+		},
+		{
+			"offsets": [
+				118,
+				-61
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "TorrentLeft"
+		},
+		{
+			"offsets": [
+				5,
+				-56
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "TorrentDown"
+		},
+		{
+			"offsets": [
+				-30,
+				78
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "TorrentUp"
+		},
+		{
+			"offsets": [
+				-136,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "TorrentRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/TorrentComputer",
+	"position": [
+		0,
+		130
+	],
+	"healthicon": "torrent",
+	"flip_x": false,
+	"healthbar_colors": [
+		240,
+		196,
+		189
+	],
+	"camera_position": [
+		-100,
+		100
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Torrent",
+	"healthbar_image": "torrent"
+}

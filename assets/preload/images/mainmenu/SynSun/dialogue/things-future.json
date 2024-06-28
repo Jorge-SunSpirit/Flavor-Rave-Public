@@ -1,0 +1,43 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Well ain't that a loaded question.",
+			"chara": "synthetic",
+			"animation": "confused",
+			"sound" : "oh"
+		},
+		{
+			"text": "I know our future will be right here keeping everyone up to date on all things going on in the music world, right, Synthetic?",
+			"chara": "sundried"
+		},
+		{
+			"text": "You know it, Sunny. Though who knows what the future of that world will be...",
+			"animation": "reset",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Especially for Sweet and Sour! I hope they keep going strong for a long time and make more amazing music!",
+			"chara": "sundried"
+		},
+		{
+			"text": "There's something big waiting for them, I can just feel it!",
+			"animation": "determined",
+			"chara": "sundried",
+			"sound" : "yeahyeah"
+		},
+		{
+			"text": "I don't know why, but deep down, my code keeps telling me that wherever they end up...",
+			"chara": "synthetic"
+		},
+		{
+			"text": "...it'll be far beyond just funkin' around.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "We'll just have to wait and see! Gosh, I'm so excited!",
+			"sound" : "laugh",
+			"chara": "sundried"
+		}
+	]
+}

@@ -1,0 +1,817 @@
+{
+	"peeps": [
+		{
+			"realName": "SirDusterBuster",
+			"iconName": "duster",
+			"description": "Project Director,\nTeam TBD Lead,\nDialogue / Writing",
+			"color": [49,176,209],
+			"twitter": "https://twitter.com/SirDusterBuster",
+			"whichrole": 0
+		},
+		{
+			"realName": "Jorge - SunSpirit",
+			"iconName": "jorge",
+			"description": "Team TBD Lead",
+			"color": [92,186,187],
+			"twitter": "https://twitter.com/Jorge_SunSpirit",
+			"whichrole": 0
+		},
+		{
+			"realName": "HighPoweredKeyz",
+			"iconName": "hpk",
+			"description": "Team TBD Lead",
+			"color": [158,5,5],
+			"twitter": "https://twitter.com/HighPoweredArt",
+			"whichrole": 0
+		},
+		{
+			"realName": "Lezanikat",
+			"iconName": "leza",
+			"description": "Lead Character Designer",
+			"color": [252,150,255],
+			"twitter": "https://twitter.com/lezanikat",
+			"whichrole": 0
+		},
+		{
+			"realName": "SirDusterBuster",
+			"iconName": "duster",
+			"description": "Lead Sprite Artist, Animator, Character Art, Concept Artist",
+			"color": [49,176,209],
+			"twitter": "https://twitter.com/SirDusterBuster",
+			"whichrole": 1
+		},
+		{
+			"realName": "Amai Hisa",
+			"iconName": "Hisa",
+			"description": "Background Artist, CG Artist, Concept Artist",
+			"color": [255,166,166],
+			"twitter": "https://twitter.com/AmaiHisa",
+			"whichrole": 1
+		},
+		{
+			"realName": "Cocopuffs",
+			"iconName": "Coco",
+			"description": "Sprite Artist, Animator",
+			"color": [166,64,27],
+			"twitter": "https://twitter.com/file_corruption",
+			"whichrole": 1
+		},
+		{
+			"realName": "CoffeeBean",
+			"iconName": "Coffee",
+			"description": "Sprite Artist, Animator",
+			"color": [250,255,115],
+			"twitter": "https://twitter.com/coffeebeanfreak",
+			"whichrole": 1
+		},
+		{
+			"realName": "Faceless",
+			"iconName": "Faceless",
+			"description": "Sprite Artist, Animator",
+			"color": [162,8,196],
+			"twitter": "https://twitter.com/ThenameFaceless",
+			"whichrole": 1
+		},
+		{
+			"realName": "GrandHammer6",
+			"iconName": "grand",
+			"description": "Sprite Artist, Animator",
+			"color": [255,176,79],
+			"twitter": "https://twitter.com/GrandHammer6",
+			"whichrole": 1
+		},
+		{
+			"realName": "HighPoweredKeyz",
+			"iconName": "hpk",
+			"description": "UI Artist, Animator, VFX Animator, Concept Artist",
+			"color": [158,5,5],
+			"twitter": "https://twitter.com/HighPoweredArt",
+			"whichrole": 1
+		},
+		{
+			"realName": "Ito Saihara",
+			"iconName": "Ito",
+			"description": "Sprite Artist",
+			"color": [245,66,126],
+			"twitter": "https://twitter.com/ItoSaihara_",
+			"whichrole": 1
+		},
+		{
+			"realName": "JoaDash",
+			"iconName": "Joa",
+			"description": "Sprite Artist, Animator",
+			"color": [33,45,145],
+			"twitter": "https://twitter.com/TotallyNotJoa",
+			"whichrole": 1
+		},
+		{
+			"realName": "Juno Songs",
+			"iconName": "juno",
+			"description": "Background Artist, Title Screen Art",
+			"color": [152,71,252],
+			"twitter": "https://twitter.com/JunoSongsYT",
+			"whichrole": 1
+		},
+		{
+			"realName": "Kixel",
+			"iconName": "Kixel",
+			"description": "Sprite Artist, Animator",
+			"color": [245,66,149],
+			"twitter": "https://twitter.com/KixelArt",
+			"whichrole": 1
+		},
+		{
+			"realName": "Lezanikat",
+			"iconName": "leza",
+			"description": "Background Artist, Character Portraits, Concept Artist",
+			"color": [252,150,255],
+			"twitter": "https://twitter.com/lezanikat",
+			"whichrole": 1
+		},
+		{
+			"realName": "LV",
+			"iconName": "LV",
+			"description": "Background Artist, Concept Artist",
+			"color": [255,194,71],
+			"twitter": "https://twitter.com/LVArts_",
+			"whichrole": 1
+		},
+		{
+			"realName": "Millxr",
+			"iconName": "Miller",
+			"description": "Sprite Artist, Animator, Character Art",
+			"color": [133,81,201],
+			"twitter": "https://twitter.com/GetItMillxr",
+			"whichrole": 1
+		},
+		{
+			"realName": "Nayyco",
+			"iconName": "Nayyco",
+			"description": "Sprite Artist, Animator",
+			"color": [179,12,35],
+			"twitter": "https://twitter.com/nayyco",
+			"whichrole": 1
+		},
+		{
+			"realName": "Spyrodile",
+			"iconName": "Spyrodile",
+			"description": "Artist, Character Art",
+			"color": [177,29,245],
+			"twitter": "https://twitter.com/Spyrodile",
+			"whichrole": 1
+		},
+		{
+			"realName": "STS-Puelle",
+			"iconName": "Pia",
+			"description": "Menu Art",
+			"color": [55,166,64],
+			"twitter": "https://twitter.com/STS_PiaEsaya",
+			"whichrole": 1
+		},
+		{
+			"realName": "Zonian",
+			"iconName": "zonian",
+			"description": "Sprite Artist",
+			"color": [96,237,40],
+			"twitter": "https://twitter.com/MrZonian",
+			"whichrole": 1
+		},
+		{
+			"realName": "Cammy",
+			"iconName": "Cammy",
+			"description": "Background Artist",
+			"color": [85,69,128],
+			"twitter": "",
+			"whichrole": 2
+		},
+		{
+			"realName": "JChearts",
+			"iconName": "JC",
+			"description": "Menu Art, Character Art",
+			"color": [252,146,201],
+			"twitter": "https://twitter.com/jc_hearts",
+			"whichrole": 2
+		},
+		{
+			"realName": "JohnnyAnimates",
+			"iconName": "Johnny",
+			"description": "Animator",
+			"color": [49,156,225],
+			"twitter": "https://twitter.com/JohnnyAnimatez",
+			"whichrole": 2
+		},
+		{
+			"realName": "LilyTheDrawDork",
+			"iconName": "Lily",
+			"description": "Intro Animation",
+			"color": [82,110,255],
+			"twitter": "https://twitter.com/LilyTheDrawDork",
+			"whichrole": 2
+		},
+		{
+			"realName": "RixFX",
+			"iconName": "RixFX",
+			"description": "Background Artist, Sprite Artist, Animator",
+			"color": [189,4,102],
+			"twitter": "https://twitter.com/rixfx_",
+			"whichrole": 2
+		},
+		{
+			"realName": "SaltedSporks",
+			"iconName": "Sporks",
+			"description": "Sprite Artist, Animator",
+			"color": [255,238,112],
+			"twitter": "https://twitter.com/saltedsporks",
+			"whichrole": 2
+		},
+		{
+			"realName": "VonSketch",
+			"iconName": "Von",
+			"description": "Background Artist",
+			"color": [49,176,245],
+			"twitter": "https://twitter.com/VonSketchz",
+			"whichrole": 2
+		},
+		{
+			"realName": "YokuTzen",
+			"iconName": "Yoku",
+			"description": "Sprite Artist, Animator",
+			"color": [153,71,204],
+			"twitter": "https://twitter.com/YokuTzen_",
+			"whichrole": 2
+		},
+		{
+			"realName": "Jorge - SunSpirit",
+			"iconName": "jorge",
+			"description": "Lead Programmer",
+			"color": [92,186,187],
+			"twitter": "https://twitter.com/Jorge_SunSpirit",
+			"whichrole": 3
+		},
+		{
+			"realName": "M&M",
+			"iconName": "mandm",
+			"description": "Programmer",
+			"color": [140,50,219],
+			"twitter": "https://linktr.ee/ActualMandM",
+			"whichrole": 3
+		},
+		{
+			"realName": "Weeg",
+			"iconName": "Weeg",
+			"description": "Programmer",
+			"color": [255,105,175],
+			"twitter": "https://linktr.ee/itisiweeg",
+			"whichrole": 3
+		},
+		{
+			"realName": "Cerbera",
+			"iconName": "Cerbera",
+			"description": "Charter",
+			"color": [255,77,222],
+			"twitter": "https://twitter.com/Cerberaa",
+			"whichrole": 4
+		},
+		{
+			"realName": "Chompo",
+			"iconName": "chompo",
+			"description": "Charter",
+			"color": [120,255,66],
+			"twitter": "https://twitter.com/chompoWRLD",
+			"whichrole": 4
+		},
+		{
+			"realName": "Flootena",
+			"iconName": "flootena",
+			"description": "Charter",
+			"color": [0,173,171],
+			"twitter": "https://twitter.com/FlootenaDX",
+			"whichrole": 4
+		},
+		{
+			"realName": "Srife5",
+			"iconName": "Srife",
+			"description": "Charter",
+			"color": [230,41,51],
+			"twitter": "https://twitter.com/strife55",
+			"whichrole": 4
+		},
+		{
+			"realName": "DatDavi",
+			"iconName": "DatDavi",
+			"description": "Musician",
+			"color": [121,64,227],
+			"twitter": "https://twitter.com/dat_davi",
+			"whichrole": 5
+		},
+		{
+			"realName": "DPZ",
+			"iconName": "DPZ",
+			"description": "Musician",
+			"color": [247,166,25],
+			"twitter": "https://twitter.com/dpzmusic",
+			"whichrole": 5
+		},
+		{
+			"realName": "DrazicallyDTM",
+			"iconName": "Draz",
+			"description": "Musician",
+			"color": [68,46,128],
+			"twitter": "https://twitter.com/DrazicallyDTM",
+			"whichrole": 5
+		},
+		{
+			"realName": "Genechip",
+			"iconName": "Genechip",
+			"description": "Musician",
+			"color": [250,57,115],
+			"twitter": "https://twitter.com/genechipp",
+			"whichrole": 5
+		},
+		{
+			"realName": "GGalactigal",
+			"iconName": "Haruka",
+			"description": "Musician",
+			"color": [217,22,70],
+			"twitter": "https://twitter.com/GGalactigal",
+			"whichrole": 5
+		},
+		{
+			"realName": "HighPoweredKeyz",
+			"iconName": "hpk",
+			"description": "Musician",
+			"color": [158,5,5],
+			"twitter": "https://twitter.com/HighPoweredArt",
+			"whichrole": 5
+		},
+		{
+			"realName": "JACKALRUIN",
+			"iconName": "Jackal",
+			"description": "Musician",
+			"color": [56,45,48],
+			"twitter": "https://twitter.com/JACKALRUIN",
+			"whichrole": 5
+		},
+		{
+			"realName": "Kreagato",
+			"iconName": "Krea",
+			"description": "Musician",
+			"color": [255,77,222],
+			"twitter": "https://twitter.com/Kreagato",
+			"whichrole": 5
+		},
+		{
+			"realName": "Matt$",
+			"iconName": "Matt",
+			"description": "Musician",
+			"color": [10,255,75],
+			"twitter": "https://twitter.com/matt_currency",
+			"whichrole": 5
+		},
+		{
+			"realName": "Noichi",
+			"iconName": "Noichi",
+			"description": "Musician",
+			"color": [222,67,40],
+			"twitter": "https://twitter.com/Noichi_yt",
+			"whichrole": 5
+		},
+		{
+			"realName": "RixFX",
+			"iconName": "RixFX",
+			"description": "Musician",
+			"color": [189,4,102],
+			"twitter": "https://twitter.com/rixfx_",
+			"whichrole": 5
+		},
+		{
+			"realName": "SaltedSporks",
+			"iconName": "Sporks",
+			"description": "Musician",
+			"color": [255,238,112],
+			"twitter": "https://twitter.com/saltedsporks",
+			"whichrole": 5
+		},
+		{
+			"realName": "Stardust Tunes",
+			"iconName": "Stardust",
+			"description": "Musician",
+			"color": [54,7,163],
+			"twitter": "https://twitter.com/StardustTunes",
+			"whichrole": 5
+		},
+		{
+			"realName": "Zeroh",
+			"iconName": "Zeroh",
+			"description": "Musician",
+			"color": [227,14,95],
+			"twitter": "https://twitter.com/catsmirkk",
+			"whichrole": 5
+		},
+		{
+			"realName": "Cranberry Pop",
+			"iconName": "flavorrave",
+			"description": "Composed by DatDavi",
+			"color": [8,255,156],
+			"whichrole": 6
+		},
+		{
+			"realName": "Rockcandy",
+			"iconName": "flavorrave",
+			"description": "Composed by HighPoweredKeyz & JACKALRUIN",
+			"color": [56,215,255],
+			"twitter": "",
+			"whichrole": 6
+		},
+		{
+			"realName": "TIMESHOCK!",
+			"iconName": "flavorrave",
+			"description": "Composed by JACKALRUIN",
+			"color": [153,69,255],
+			"whichrole": 6
+		},
+		{
+			"realName": "Rainbow Sorbet",
+			"iconName": "flavorrave",
+			"description": "Composed by Stardust Tunes",
+			"color": [207,172,252],
+			"whichrole": 6
+		},
+		{
+			"realName": "Sugarcoat It",
+			"iconName": "flavorrave",
+			"description": "Composed by DatDavi",
+			"color": [255,133,200],
+			"whichrole": 6
+		},
+		{
+			"realName": "Tres Leches",
+			"iconName": "savory",
+			"description": "Composed by Stardust Tunes",
+			"color": [79,32,92],
+			"whichrole": 6
+		},
+		{
+			"realName": "Applewood",
+			"iconName": "umami",
+			"description": "Composed by Stardust Tunes",
+			"color": [255,171,3],
+			"whichrole": 6
+		},
+		{
+			"realName": "Caramelize",
+			"iconName": "spicy",
+			"description": "Composed by JACKALRUIN & HighPoweredKeyz",
+			"color": [184,12,0],
+			"whichrole": 6
+		},
+		{
+			"realName": "Wasabi",
+			"iconName": "smoky",
+			"description": "Composed by DPZ",
+			"color": [51,41,39],
+			"whichrole": 6
+		},
+		{
+			"realName": "Flavorscape",
+			"iconName": "togarashi",
+			"description": "Composed by JACKALRUIN & Matt$",
+			"color": [255,98,0],
+			"whichrole": 6
+		},
+		{
+			"realName": "Ignatius",
+			"iconName": "togarashi",
+			"description": "Composed by DrazicallyDTM & HighPoweredKeyz",
+			"color": [255,38,0],
+			"whichrole": 6
+		},
+		{
+			"realName": "MegaHeartz",
+			"iconName": "rika",
+			"description": "Composed by RixFX & Noichi",
+			"color": [55,250,162],
+			"whichrole": 6
+		},
+		{
+			"realName": "Double-Stacked",
+			"iconName": "rhythmrobo",
+			"description": "Composed by HighPoweredKeyz ft. DatDavi",
+			"color": [45,250,100],
+			"whichrole": 6
+		},
+		{
+			"realName": "Imitation Station",
+			"iconName": "nikku",
+			"description": "Composed by Noichi",
+			"color": [201,10,125],
+			"whichrole": 6
+		},
+		{
+			"realName": "Open Mic",
+			"iconName": "daisy",
+			"description": "Composed by Kreagato & HighPoweredKeyz ft. SaltedSporks",
+			"color": [247,195,25],
+			"whichrole": 6
+		},
+		{
+			"realName": "GAME-JAMMED",
+			"iconName": "troubleshootin",
+			"description": "Composed by DatDavi, Genechip, & Zeroh",
+			"color": [76,21,230],
+			"whichrole": 6
+		},
+		{
+			"realName": "n0.pressur3.temp",
+			"iconName": "sundried",
+			"description": "Composed by Noichi, JACKALRUIN, & HighPoweredKeyz",
+			"color": [228,240,120],
+			"whichrole": 6
+		},
+		{
+			"realName": "Citric Acid",
+			"iconName": "flavorrave",
+			"description": "Main Menu Theme\nComposed by GGalactigal",
+			"color": [31,255,244],
+			"whichrole": 6
+		},
+		{
+			"realName": "solr_powr.ogg",
+			"iconName": "sundried",
+			"description": "SynSun Menu Song\nComposed by HighPoweredKeyz",
+			"color": [228,240,120],
+			"whichrole": 6
+		},
+		{
+			"realName": "110th Street",
+			"iconName": "flavorrave",
+			"description": "Pause Menu Theme\nComposed by Tony Astro",
+			"color": [34,63,135],
+			"whichrole": 6
+		},
+		{
+			"realName": "Aftertaste",
+			"iconName": "flavorrave",
+			"description": "Game Over Theme\nComposed by HighPoweredKeyz",
+			"color": [82,12,84],
+			"whichrole": 6
+		},
+		{
+			"realName": "Mix Up",
+			"iconName": "flavorrave",
+			"description": "Cutscene Song\nComposed by JACKALRUIN",
+			"color": [8,255,156],
+			"whichrole": 6
+		},
+		{
+			"realName": "Lavender Park",
+			"iconName": "flavorrave",
+			"description": "Cutscene Song\nComposed by HighPoweredKeyz",
+			"color": [207,172,252],
+			"whichrole": 6
+		},
+		{
+			"realName": "Walk the Walk",
+			"iconName": "savory",
+			"description": "Cutscene Song\nComposed by Noichi",
+			"color": [79,32,92],
+			"whichrole": 6
+		},
+		{
+			"realName": "In the Mix",
+			"iconName": "umami",
+			"description": "Cutscene Song\nComposed by Noichi & HighPoweredKeyz",
+			"color": [255,171,3],
+			"whichrole": 6
+		},
+		{
+			"realName": "Togarashi Central",
+			"iconName": "spicy",
+			"description": "Cutscene Song\nComposed by JACKALRUIN",
+			"color": [140,65,0],
+			"whichrole": 6
+		},
+		{
+			"realName": "Dial it Back!",
+			"iconName": "spicy",
+			"description": "Cutscene Song\nComposed by JACKALRUIN",
+			"color": [184,12,0],
+			"whichrole": 6
+		},
+		{
+			"realName": "Stifled Strings",
+			"iconName": "smoky",
+			"description": "Cutscene Song\nComposed by HighPoweredKeyz",
+			"color": [51,41,39],
+			"whichrole": 6
+		},
+		{
+			"realName": "ReKindled",
+			"iconName": "togarashi",
+			"description": "Cutscene Song\nComposed by JACKALRUIN",
+			"color": [255,98,0],
+			"whichrole": 6
+		},
+		{
+			"realName": "JACKALRUIN",
+			"iconName": "Jackal",
+			"description": "Voice of Announcer",
+			"color": [56,45,48],
+			"twitter": "https://twitter.com/JACKALRUIN",
+			"whichrole": 7
+		},
+		{
+			"realName": "HighPoweredKeyz",
+			"iconName": "hpk",
+			"description": "Voice of Sour",
+			"color": [158,5,5],
+			"twitter": "https://twitter.com/HighPoweredArt",
+			"whichrole": 7
+		},
+		{
+			"realName": "Amai Hisa",
+			"iconName": "Hisa",
+			"description": "Voice of Sweet",
+			"color": [255,166,166],
+			"twitter": "https://twitter.com/AmaiHisa",
+			"whichrole": 7
+		},
+		{
+			"realName": "Kyle DeNigris",
+			"iconName": "Kyle",
+			"description": "Voice of Showman",
+			"color": [240,48,58],
+			"twitter": "https://twitter.com/ItsameWario48",
+			"whichrole": 7
+		},
+		{
+			"realName": "Alejandro Pedroza",
+			"iconName": "Deroza",
+			"description": "Voice of Savory",
+			"color": [78,160,166],
+			"twitter": "https://twitter.com/Alej_Pedroza",
+			"whichrole": 7
+		},
+		{
+			"realName": "Tyanni Mah",
+			"iconName": "Tyanni",
+			"description": "Voice of Umami",
+			"color": [145,64,207],
+			"twitter": "https://twitter.com/tyannimah",
+			"whichrole": 7
+		},
+		{
+			"realName": "Sandy Can",
+			"iconName": "Sandy",
+			"description": "Voice of Spicy",
+			"color": [216,86,245],
+			"twitter": "https://twitter.com/msparadoxspace",
+			"whichrole": 7
+		},
+		{
+			"realName": "Faceless",
+			"iconName": "Faceless",
+			"description": "Voice of Smoky",
+			"color": [162,8,196],
+			"twitter": "https://twitter.com/ThenameFaceless",
+			"whichrole": 7
+		},
+		{
+			"realName": "JChearts",
+			"iconName": "JC",
+			"description": "Voice of Sun-Dried",
+			"color": [252,146,201],
+			"twitter": "https://twitter.com/jc_hearts",
+			"whichrole": 7
+		},
+		{
+			"realName": "Maxwell Flinch",
+			"iconName": "Maxwell",
+			"description": "Voice of Synthetic",
+			"color": [37,115,36],
+			"twitter": "https://twitter.com/MaxwellFlinch",
+			"whichrole": 7
+		},
+		{
+			"realName": "NNovasaur",
+			"iconName": "Nova",
+			"description": "Voice of Rika",
+			"color": [253,255,125],
+			"twitter": "https://twitter.com/NNovasaur",
+			"whichrole": 7
+		},
+		{
+			"realName": "Carimelle",
+			"iconName": "Carimelle",
+			"description": "Voice of Tioda",
+			"color": [203,89,255],
+			"twitter": "https://twitter.com/carimellevo",
+			"whichrole": 7
+		},
+		{
+			"realName": "Bel Rusape Jr.",
+			"iconName": "Bel",
+			"description": "Voice of Pyroller",
+			"color": [59,55,120],
+			"twitter": "https://twitter.com/BelRusapeVO",
+			"whichrole": 7
+		},
+		{
+			"realName": "Melissa MekRose",
+			"iconName": "Melissa",
+			"description": "Voice of Daisy",
+			"color": [255,163,59],
+			"twitter": "https://twitter.com/Ms_Mekrose",
+			"whichrole": 7
+		},
+		{
+			"realName": "PhantomFear",
+			"iconName": "PhantomFear",
+			"description": "Voice of Torrent",
+			"color": [214,79,255],
+			"twitter": "https://twitter.com/PhantomFearOP",
+			"whichrole": 7
+		},
+		{
+			"realName": "PincerProd",
+			"iconName": "Pincer",
+			"description": "Voice of Nitro",
+			"color": [48,63,179],
+			"twitter": "https://twitter.com/PincerProd",
+			"whichrole": 7
+		},
+		{
+			"realName": "Daisy",
+			"iconName": "daisy",
+			"description": "BOO! Don't Get Spooked\n(SaltedSporks)",
+			"color": [247,195,25],
+			"twitter": "https://gamebanana.com/mods/331943",
+			"whichrole": 8
+		},
+		{
+			"realName": "Nikku",
+			"iconName": "nikku",
+			"description": "Hotline 024\n(Saruky & The Potions n' Spices Team)",
+			"color": [235,23,97],
+			"twitter": "https://gamebanana.com/mods/373298",
+			"whichrole": 8
+		},
+		{
+			"realName": "Rika",
+			"iconName": "rika",
+			"description": "Vs. Rika\n(RixFX)",
+			"color": [168,240,36],
+			"twitter": "https://gamebanana.com/mods/408207",
+			"whichrole": 8
+		},
+		{
+			"realName": "Tioda & Pyroller",
+			"iconName": "rhythmrobo",
+			"description": "Rhythm Robo / Vs. Tioda\n(Zonian, EnigmaticQube, & Team TBD)",
+			"color": [39,232,43],
+			"twitter": "https://gamebanana.com/mods/357868",
+			"whichrole": 8
+		},
+		{
+			"realName": "Torrent & Nitro",
+			"iconName": "troubleshootin",
+			"description": "Friday Night Troubleshootin'\n(The Friendship Club)",
+			"color": [76,21,230],
+			"twitter": "https://gamejolt.com/games/troubleshootin/644581",
+			"whichrole": 8
+		},
+		{
+			"realName": "OC Contest Winners",
+			"iconName": "flavorrave",
+			"description": "Starii.Fish, Space Dust, NaNaaaoto, Mellodi, Lillian",
+			"color": [34,63,135],
+			"twitter": "",
+			"whichrole": 9
+		},
+		{
+			"realName": "Psych Engine",
+			"iconName": "flavorrave",
+			"description": "Shadow Mario & Contributors",
+			"color": [152,38,240],
+			"twitter": "https://github.com/ShadowMario/FNF-PsychEngine",
+			"whichrole": 9
+		},
+		{
+			"realName": "Mythical Engine",
+			"iconName": "flavorrave",
+			"description": "Awoo, Binpuki, Codexes, GGalactigal",
+			"color": [97,229,255],
+			"twitter": "",
+			"whichrole": 9
+		},
+		{
+			"realName": "Funkin' Crew",
+			"iconName": "BF",
+			"description": "ninjamuffin99, PhantomArcade, Kawai Sprite, evilsk8r",
+			"color": [193,59,255],
+			"twitter": "https://funkin.me/",
+			"whichrole": 9
+		}
+	],
+	"listoroles": ["Project Directors", "Artists", "Guest Artists", "Programmers", "Charters", "Musicians", "Music", "Voices", "Cameos", "Additional Credits"]
+}

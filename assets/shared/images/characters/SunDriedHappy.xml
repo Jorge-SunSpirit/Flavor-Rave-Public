@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SunDriedHappy.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SDHappyDown0000" x="8" y="8" width="344" height="472" frameX="0" frameY="-18" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0001" x="8" y="8" width="344" height="472" frameX="0" frameY="-18" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0002" x="360" y="8" width="346" height="475" frameX="0" frameY="-15" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0003" x="360" y="8" width="346" height="475" frameX="0" frameY="-15" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0004" x="714" y="8" width="340" height="484" frameX="-13" frameY="-2" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0005" x="714" y="8" width="340" height="484" frameX="-13" frameY="-2" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0006" x="1062" y="8" width="342" height="486" frameX="-14" frameY="0" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0007" x="1062" y="8" width="342" height="486" frameX="-14" frameY="0" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0008" x="1062" y="8" width="342" height="486" frameX="-14" frameY="0" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0009" x="1062" y="8" width="342" height="486" frameX="-14" frameY="0" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0010" x="1062" y="8" width="342" height="486" frameX="-14" frameY="0" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0011" x="1062" y="8" width="342" height="486" frameX="-14" frameY="0" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0012" x="1062" y="8" width="342" height="486" frameX="-14" frameY="0" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyDown0013" x="1062" y="8" width="342" height="486" frameX="-14" frameY="0" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDHappyIdle0000" x="1412" y="8" width="371" height="471" frameX="-1" frameY="-15" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0001" x="1412" y="8" width="371" height="471" frameX="-1" frameY="-15" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0002" x="1791" y="8" width="373" height="466" frameX="0" frameY="-20" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0003" x="1791" y="8" width="373" height="466" frameX="0" frameY="-20" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0004" x="2172" y="8" width="369" height="485" frameX="-10" frameY="-2" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0005" x="2172" y="8" width="369" height="485" frameX="-10" frameY="-2" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0006" x="2549" y="8" width="372" height="487" frameX="-9" frameY="0" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0007" x="2549" y="8" width="372" height="487" frameX="-9" frameY="0" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0008" x="2549" y="8" width="372" height="487" frameX="-9" frameY="0" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0009" x="2549" y="8" width="372" height="487" frameX="-9" frameY="0" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0010" x="2549" y="8" width="372" height="487" frameX="-9" frameY="0" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0011" x="2549" y="8" width="372" height="487" frameX="-9" frameY="0" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0012" x="2549" y="8" width="372" height="487" frameX="-9" frameY="0" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyIdle0013" x="2549" y="8" width="372" height="487" frameX="-9" frameY="0" frameWidth="381" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0000" x="2929" y="8" width="493" height="487" frameX="0" frameY="0" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0001" x="2929" y="8" width="493" height="487" frameX="0" frameY="0" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0002" x="3430" y="8" width="490" height="484" frameX="-4" frameY="-3" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0003" x="3430" y="8" width="490" height="484" frameX="-4" frameY="-3" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0004" x="8" y="503" width="471" height="479" frameX="-17" frameY="-8" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0005" x="8" y="503" width="471" height="479" frameX="-17" frameY="-8" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0006" x="487" y="503" width="470" height="478" frameX="-17" frameY="-9" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0007" x="487" y="503" width="470" height="478" frameX="-17" frameY="-9" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0008" x="487" y="503" width="470" height="478" frameX="-17" frameY="-9" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0009" x="487" y="503" width="470" height="478" frameX="-17" frameY="-9" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0010" x="487" y="503" width="470" height="478" frameX="-17" frameY="-9" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0011" x="487" y="503" width="470" height="478" frameX="-17" frameY="-9" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0012" x="487" y="503" width="470" height="478" frameX="-17" frameY="-9" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyLeft0013" x="487" y="503" width="470" height="478" frameX="-17" frameY="-9" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDHappyRight0000" x="965" y="503" width="492" height="474" frameX="-25" frameY="-12" frameWidth="518" frameHeight="486"/>
+	<SubTexture name="SDHappyRight0001" x="965" y="503" width="492" height="474" frameX="-25" frameY="-12" frameWidth="518" frameHeight="486"/>
+	<SubTexture name="SDHappyRight0002" x="1465" y="503" width="490" height="475" frameX="-23" frameY="-11" frameWidth="518" frameHeight="486"/>
+	<SubTexture name="SDHappyRight0003" x="1465" y="503" width="490" height="475" frameX="-23" frameY="-11" frameWidth="518" frameHeight="486"/>
+	<SubTexture name="SDHappyRight0004" x="1963" y="503" width="516" height="485" frameX="0" frameY="-1" frameWidth="518" frameHeight="486"/>
+	<SubTexture name="SDHappyRight0005" x="1963" y="503" width="516" height="485" frameX="0" frameY="-1" frameWidth="518" frameHeight="486"/>
+	<SubTexture name="SDHappyRight0006" x="2487" y="503" width="518" height="486"/>
+	<SubTexture name="SDHappyRight0007" x="2487" y="503" width="518" height="486"/>
+	<SubTexture name="SDHappyRight0008" x="2487" y="503" width="518" height="486"/>
+	<SubTexture name="SDHappyRight0009" x="2487" y="503" width="518" height="486"/>
+	<SubTexture name="SDHappyRight0010" x="2487" y="503" width="518" height="486"/>
+	<SubTexture name="SDHappyRight0011" x="2487" y="503" width="518" height="486"/>
+	<SubTexture name="SDHappyRight0012" x="2487" y="503" width="518" height="486"/>
+	<SubTexture name="SDHappyRight0013" x="2487" y="503" width="518" height="486"/>
+	<SubTexture name="SDHappyUp0000" x="3013" y="503" width="342" height="490" frameX="-14" frameY="0" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0001" x="3013" y="503" width="342" height="490" frameX="-14" frameY="0" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0002" x="3363" y="503" width="339" height="490" frameX="-9" frameY="-1" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0003" x="3363" y="503" width="339" height="490" frameX="-9" frameY="-1" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0004" x="3710" y="503" width="332" height="479" frameX="0" frameY="-13" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0005" x="3710" y="503" width="332" height="479" frameX="0" frameY="-13" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0006" x="8" y="1001" width="335" height="486" frameX="0" frameY="-7" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0007" x="8" y="1001" width="335" height="486" frameX="0" frameY="-7" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0008" x="8" y="1001" width="335" height="486" frameX="0" frameY="-7" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0009" x="8" y="1001" width="335" height="486" frameX="0" frameY="-7" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0010" x="8" y="1001" width="335" height="486" frameX="0" frameY="-7" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0011" x="8" y="1001" width="335" height="486" frameX="0" frameY="-7" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0012" x="8" y="1001" width="335" height="486" frameX="0" frameY="-7" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDHappyUp0013" x="8" y="1001" width="335" height="486" frameX="0" frameY="-7" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDMissDown0000" x="8" y="8" width="344" height="472" frameX="-1" frameY="0" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDMissDown0001" x="8" y="8" width="344" height="472" frameX="-1" frameY="0" frameWidth="356" frameHeight="490"/>
+	<SubTexture name="SDMissDown0002" x="351" y="1001" width="341" height="451" frameX="0" frameY="-19" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissDown0003" x="351" y="1001" width="341" height="451" frameX="0" frameY="-19" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissDown0004" x="700" y="1001" width="327" height="463" frameX="-13" frameY="-4" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissDown0005" x="700" y="1001" width="327" height="463" frameX="-13" frameY="-4" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissDown0006" x="700" y="1001" width="327" height="463" frameX="-13" frameY="-4" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissDown0007" x="700" y="1001" width="327" height="463" frameX="-13" frameY="-4" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissDown0008" x="700" y="1001" width="327" height="463" frameX="-13" frameY="-4" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissDown0009" x="700" y="1001" width="327" height="463" frameX="-13" frameY="-4" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissDown0010" x="700" y="1001" width="327" height="463" frameX="-13" frameY="-4" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissDown0011" x="700" y="1001" width="327" height="463" frameX="-13" frameY="-4" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissDown0012" x="700" y="1001" width="327" height="463" frameX="-13" frameY="-4" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissDown0013" x="700" y="1001" width="327" height="463" frameX="-13" frameY="-4" frameWidth="345" frameHeight="472"/>
+	<SubTexture name="SDMissLeft0000" x="2929" y="8" width="493" height="487" frameX="0" frameY="0" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0001" x="2929" y="8" width="493" height="487" frameX="0" frameY="0" frameWidth="494" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0002" x="1035" y="1001" width="471" height="464" frameX="-18" frameY="-23" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0003" x="1035" y="1001" width="471" height="464" frameX="-18" frameY="-23" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0004" x="1514" y="1001" width="468" height="477" frameX="-19" frameY="-10" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0005" x="1514" y="1001" width="468" height="477" frameX="-19" frameY="-10" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0006" x="1514" y="1001" width="468" height="477" frameX="-19" frameY="-10" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0007" x="1514" y="1001" width="468" height="477" frameX="-19" frameY="-10" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0008" x="1514" y="1001" width="468" height="477" frameX="-19" frameY="-10" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0009" x="1514" y="1001" width="468" height="477" frameX="-19" frameY="-10" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0010" x="1514" y="1001" width="468" height="477" frameX="-19" frameY="-10" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0011" x="1514" y="1001" width="468" height="477" frameX="-19" frameY="-10" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0012" x="1514" y="1001" width="468" height="477" frameX="-19" frameY="-10" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissLeft0013" x="1514" y="1001" width="468" height="477" frameX="-19" frameY="-10" frameWidth="493" frameHeight="487"/>
+	<SubTexture name="SDMissRight0000" x="1990" y="1001" width="492" height="474" frameX="-25" frameY="-12" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0001" x="1990" y="1001" width="492" height="474" frameX="-25" frameY="-12" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0002" x="2490" y="1001" width="536" height="465" frameX="-2" frameY="-21" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0003" x="2490" y="1001" width="536" height="465" frameX="-2" frameY="-21" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0004" x="3034" y="1001" width="518" height="486" frameX="0" frameY="0" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0005" x="3034" y="1001" width="518" height="486" frameX="0" frameY="0" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0006" x="3034" y="1001" width="518" height="486" frameX="0" frameY="0" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0007" x="3034" y="1001" width="518" height="486" frameX="0" frameY="0" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0008" x="3034" y="1001" width="518" height="486" frameX="0" frameY="0" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0009" x="3034" y="1001" width="518" height="486" frameX="0" frameY="0" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0010" x="3034" y="1001" width="518" height="486" frameX="0" frameY="0" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0011" x="3034" y="1001" width="518" height="486" frameX="0" frameY="0" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0012" x="3034" y="1001" width="518" height="486" frameX="0" frameY="0" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissRight0013" x="3034" y="1001" width="518" height="486" frameX="0" frameY="0" frameWidth="538" frameHeight="486"/>
+	<SubTexture name="SDMissUp 0000" x="3013" y="503" width="342" height="490" frameX="-26" frameY="0" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0001" x="3013" y="503" width="342" height="490" frameX="-26" frameY="0" frameWidth="356" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0002" x="3560" y="1001" width="344" height="472" frameX="0" frameY="-21" frameWidth="368" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0003" x="3560" y="1001" width="344" height="472" frameX="0" frameY="-21" frameWidth="368" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0004" x="8" y="1495" width="335" height="486" frameX="-12" frameY="-7" frameWidth="368" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0005" x="8" y="1495" width="335" height="486" frameX="-12" frameY="-7" frameWidth="368" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0006" x="8" y="1495" width="335" height="486" frameX="-12" frameY="-7" frameWidth="368" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0007" x="8" y="1495" width="335" height="486" frameX="-12" frameY="-7" frameWidth="368" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0008" x="8" y="1495" width="335" height="486" frameX="-12" frameY="-7" frameWidth="368" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0009" x="8" y="1495" width="335" height="486" frameX="-12" frameY="-7" frameWidth="368" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0010" x="8" y="1495" width="335" height="486" frameX="-12" frameY="-7" frameWidth="368" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0011" x="8" y="1495" width="335" height="486" frameX="-12" frameY="-7" frameWidth="368" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0012" x="8" y="1495" width="335" height="486" frameX="-12" frameY="-7" frameWidth="368" frameHeight="493"/>
+	<SubTexture name="SDMissUp 0013" x="8" y="1495" width="335" height="486" frameX="-12" frameY="-7" frameWidth="368" frameHeight="493"/>
+</TextureAtlas>

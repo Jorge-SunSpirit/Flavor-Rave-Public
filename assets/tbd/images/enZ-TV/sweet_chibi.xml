@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sweet_chibi.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sweet dance0000" x="8" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0001" x="8" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0002" x="357" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0003" x="357" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0004" x="357" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0005" x="706" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0006" x="706" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0007" x="1055" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0008" x="1055" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0009" x="1055" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0010" x="1404" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0011" x="1404" y="8" width="341" height="472"/>
+	<SubTexture name="sweet dance0012" x="8" y="488" width="341" height="472"/>
+	<SubTexture name="sweet dance0013" x="8" y="488" width="341" height="472"/>
+	<SubTexture name="sweet dance0014" x="8" y="488" width="341" height="472"/>
+	<SubTexture name="sweet dance0015" x="357" y="488" width="341" height="472"/>
+	<SubTexture name="sweet dance0016" x="357" y="488" width="341" height="472"/>
+	<SubTexture name="sweet dance0017" x="706" y="488" width="341" height="472"/>
+	<SubTexture name="sweet dance0018" x="706" y="488" width="341" height="472"/>
+	<SubTexture name="sweet dance0019" x="706" y="488" width="341" height="472"/>
+</TextureAtlas>

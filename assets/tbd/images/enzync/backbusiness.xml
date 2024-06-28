@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="backbusiness.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="backbusiness0000" x="10" y="10" width="554" height="347"/>
+	<SubTexture name="backbusiness0001" x="10" y="10" width="554" height="347"/>
+	<SubTexture name="backbusiness0002" x="574" y="10" width="554" height="347"/>
+	<SubTexture name="backbusiness0003" x="574" y="10" width="554" height="347"/>
+	<SubTexture name="backbusiness0004" x="1138" y="10" width="554" height="347"/>
+	<SubTexture name="backbusiness0005" x="1138" y="10" width="554" height="347"/>
+	<SubTexture name="backbusiness0006" x="10" y="367" width="554" height="347"/>
+	<SubTexture name="backbusiness0007" x="10" y="367" width="554" height="347"/>
+	<SubTexture name="backbusiness0008" x="10" y="367" width="554" height="347"/>
+	<SubTexture name="backbusiness0009" x="10" y="367" width="554" height="347"/>
+	<SubTexture name="backbusiness0010" x="10" y="367" width="554" height="347"/>
+	<SubTexture name="backbusiness0011" x="10" y="367" width="554" height="347"/>
+	<SubTexture name="backbusiness0012" x="10" y="367" width="554" height="347"/>
+	<SubTexture name="backbusiness0013" x="10" y="367" width="554" height="347"/>
+</TextureAtlas>

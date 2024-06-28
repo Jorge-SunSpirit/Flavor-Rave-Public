@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="RAVE-BG.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="RaveBG0000" x="8" y="8" width="1280" height="720"/>
+	<SubTexture name="RaveBG0001" x="1296" y="8" width="1280" height="720"/>
+	<SubTexture name="RaveBG0002" x="2584" y="8" width="1280" height="720"/>
+	<SubTexture name="RaveBG0003" x="3872" y="8" width="1280" height="720"/>
+	<SubTexture name="RaveBG0004" x="5160" y="8" width="1280" height="720"/>
+	<SubTexture name="RaveBG0005" x="6448" y="8" width="1280" height="720"/>
+	<SubTexture name="RaveBG0006" x="8" y="736" width="1280" height="720"/>
+	<SubTexture name="RaveBG0007" x="1296" y="736" width="1280" height="720"/>
+	<SubTexture name="RaveBG0008" x="2584" y="736" width="1280" height="720"/>
+	<SubTexture name="RaveBG0009" x="3872" y="736" width="1280" height="720"/>
+	<SubTexture name="RaveBG0010" x="5160" y="736" width="1280" height="720"/>
+	<SubTexture name="RaveBG0011" x="6448" y="736" width="1280" height="720"/>
+	<SubTexture name="RaveBG0012" x="8" y="1464" width="1280" height="720"/>
+	<SubTexture name="RaveBG0013" x="1296" y="1464" width="1280" height="720"/>
+	<SubTexture name="RaveBG0014" x="2584" y="1464" width="1280" height="720"/>
+	<SubTexture name="RaveBG0015" x="3872" y="1464" width="1280" height="720"/>
+	<SubTexture name="RaveBG0016" x="5160" y="1464" width="1280" height="720"/>
+	<SubTexture name="RaveBG0017" x="6448" y="1464" width="1280" height="720"/>
+	<SubTexture name="RaveBG0018" x="8" y="2192" width="1280" height="720"/>
+	<SubTexture name="RaveBG0019" x="1296" y="2192" width="1280" height="720"/>
+	<SubTexture name="RaveBG0020" x="2584" y="2192" width="1280" height="720"/>
+	<SubTexture name="RaveBG0021" x="3872" y="2192" width="1280" height="720"/>
+	<SubTexture name="RaveBG0022" x="5160" y="2192" width="1280" height="720"/>
+	<SubTexture name="RaveBG0023" x="6448" y="2192" width="1280" height="720"/>
+	<SubTexture name="RaveBG0024" x="8" y="2920" width="1280" height="720"/>
+	<SubTexture name="RaveBG0025" x="1296" y="2920" width="1280" height="720"/>
+	<SubTexture name="RaveBG0026" x="2584" y="2920" width="1280" height="720"/>
+	<SubTexture name="RaveBG0027" x="3872" y="2920" width="1280" height="720"/>
+	<SubTexture name="RaveBG0028" x="5160" y="2920" width="1280" height="720"/>
+	<SubTexture name="RaveBG0029" x="6448" y="2920" width="1280" height="720"/>
+	<SubTexture name="RaveBG0030" x="8" y="3648" width="1280" height="720"/>
+	<SubTexture name="RaveBG0031" x="1296" y="3648" width="1280" height="720"/>
+	<SubTexture name="RaveBG0032" x="2584" y="3648" width="1280" height="720"/>
+	<SubTexture name="RaveBG0033" x="3872" y="3648" width="1280" height="720"/>
+	<SubTexture name="RaveBG0034" x="5160" y="3648" width="1280" height="720"/>
+	<SubTexture name="RaveBG0035" x="6448" y="3648" width="1280" height="720"/>
+	<SubTexture name="RaveBG0036" x="8" y="4376" width="1280" height="720"/>
+	<SubTexture name="RaveBG0037" x="1296" y="4376" width="1280" height="720"/>
+	<SubTexture name="RaveBG0038" x="2584" y="4376" width="1280" height="720"/>
+	<SubTexture name="RaveBG0039" x="3872" y="4376" width="1280" height="720"/>
+	<SubTexture name="RaveBG0040" x="5160" y="4376" width="1280" height="720"/>
+	<SubTexture name="RaveBG0041" x="6448" y="4376" width="1280" height="720"/>
+	<SubTexture name="RaveBG0042" x="8" y="5104" width="1280" height="720"/>
+	<SubTexture name="RaveBG0043" x="1296" y="5104" width="1280" height="720"/>
+	<SubTexture name="RaveBG0044" x="2584" y="5104" width="1280" height="720"/>
+	<SubTexture name="RaveBG0045" x="3872" y="5104" width="1280" height="720"/>
+	<SubTexture name="RaveBG0046" x="5160" y="5104" width="1280" height="720"/>
+	<SubTexture name="RaveBG0047" x="6448" y="5104" width="1280" height="720"/>
+</TextureAtlas>

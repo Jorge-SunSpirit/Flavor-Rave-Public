@@ -1,0 +1,125 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				80
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Sour_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				84
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Sour_left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				23,
+				55
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Sour_down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				86
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Sour_up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				46,
+				61
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Sour_right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				88,
+				85
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "Sour_play_left"
+		},
+		{
+			"offsets": [
+				1,
+				83
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "Sour_play_down"
+		},
+		{
+			"offsets": [
+				-18,
+				99
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "Sour_play_up"
+		},
+		{
+			"offsets": [
+				-4,
+				61
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "Sour_play_right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SourWasabi",
+	"position": [
+		0,
+		90
+	],
+	"healthicon": "sour",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		235,
+		169
+	],
+	"camera_position": [
+		-540,
+		-305
+	],
+	"sing_duration": 6,
+	"scale": 1.5,
+	"noteskin": "Sour",
+	"healthbar_image": "sour",
+	"musicNoteOffset": [-100,-200]
+}

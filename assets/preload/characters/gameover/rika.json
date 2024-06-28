@@ -1,0 +1,18 @@
+{
+	"image": "gameover/RikaGO",
+	"animation": "RikaGO",
+	"spriteOffset": [600,540],
+	"flip_x": false,
+	"scale": 1.2,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "rika/1",
+			"opponent": ""
+		},
+		{
+			"sound": "rika/2",
+			"opponent": ""
+		}
+	]
+}

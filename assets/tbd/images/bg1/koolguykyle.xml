@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="koolguykyle.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kool_guy_kyle0000" x="10" y="10" width="391" height="992" frameX="-1" frameY="-20" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0001" x="10" y="10" width="391" height="992" frameX="-1" frameY="-20" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0002" x="411" y="10" width="388" height="991" frameX="0" frameY="-20" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0003" x="411" y="10" width="388" height="991" frameX="0" frameY="-20" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0004" x="809" y="10" width="382" height="997" frameX="-3" frameY="-14" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0005" x="809" y="10" width="382" height="997" frameX="-3" frameY="-14" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0006" x="1201" y="10" width="378" height="1010" frameX="-7" frameY="-1" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0007" x="1201" y="10" width="378" height="1010" frameX="-7" frameY="-1" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0008" x="1589" y="10" width="377" height="1011" frameX="-8" frameY="0" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0009" x="1589" y="10" width="377" height="1011" frameX="-8" frameY="0" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0010" x="1589" y="10" width="377" height="1011" frameX="-8" frameY="0" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0011" x="1589" y="10" width="377" height="1011" frameX="-8" frameY="0" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0012" x="1589" y="10" width="377" height="1011" frameX="-8" frameY="0" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0013" x="1589" y="10" width="377" height="1011" frameX="-8" frameY="0" frameWidth="392" frameHeight="1012"/>
+	<SubTexture name="kool_guy_kyle0014" x="1589" y="10" width="377" height="1011" frameX="-8" frameY="0" frameWidth="392" frameHeight="1012"/>
+</TextureAtlas>

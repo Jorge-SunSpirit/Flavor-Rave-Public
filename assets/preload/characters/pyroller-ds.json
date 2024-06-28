@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Pyroller IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				25,
+				53
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Pyroller LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				39
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Pyroller DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-17,
+				68
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Pyroller UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				18,
+				30
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Pyroller RIGHT",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pyroller_ds",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "pyroller",
+	"flip_x": false,
+	"healthbar_colors": [
+		242,
+		110,
+		45
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Rhythm Robo",
+	"healthbar_image": "pyroller"
+}

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rave.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="RaveText0000" x="10" y="10" width="1280" height="720"/>
+	<SubTexture name="RaveText0001" x="1300" y="10" width="1280" height="720"/>
+	<SubTexture name="RaveText0002" x="2590" y="10" width="1280" height="720"/>
+	<SubTexture name="RaveText0003" x="3880" y="10" width="1280" height="720"/>
+	<SubTexture name="RaveText0004" x="5170" y="10" width="1280" height="720"/>
+	<SubTexture name="RaveText0005" x="6460" y="10" width="1280" height="720"/>
+	<SubTexture name="RaveText0006" x="10" y="740" width="1280" height="720"/>
+	<SubTexture name="RaveText0007" x="1300" y="740" width="1280" height="720"/>
+	<SubTexture name="RaveText0008" x="2590" y="740" width="1280" height="720"/>
+	<SubTexture name="RaveText0009" x="3880" y="740" width="1280" height="720"/>
+	<SubTexture name="RaveText0010" x="5170" y="740" width="1280" height="720"/>
+	<SubTexture name="RaveText0011" x="6460" y="740" width="1280" height="720"/>
+	<SubTexture name="RaveText0012" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="RaveText0013" x="1300" y="1470" width="1280" height="720"/>
+	<SubTexture name="RaveText0014" x="2590" y="1470" width="1280" height="720"/>
+	<SubTexture name="RaveText0015" x="3880" y="1470" width="1280" height="720"/>
+	<SubTexture name="RaveText0016" x="5170" y="1470" width="1280" height="720"/>
+	<SubTexture name="RaveText0017" x="6460" y="1470" width="1280" height="720"/>
+	<SubTexture name="RaveText0018" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="RaveText0019" x="1300" y="2200" width="1280" height="720"/>
+	<SubTexture name="RaveText0020" x="2590" y="2200" width="1280" height="720"/>
+	<SubTexture name="RaveText0021" x="3880" y="2200" width="1280" height="720"/>
+	<SubTexture name="RaveText0022" x="5170" y="2200" width="1280" height="720"/>
+	<SubTexture name="RaveText0023" x="5170" y="2200" width="1280" height="720"/>
+	<SubTexture name="RaveText0024" x="6460" y="2200" width="1280" height="720"/>
+	<SubTexture name="RaveText0025" x="6460" y="2200" width="1280" height="720"/>
+	<SubTexture name="RaveText0026" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0027" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0028" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0029" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0030" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0031" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0032" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0033" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0034" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0035" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0036" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0037" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0038" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0039" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0040" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0041" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0042" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="RaveText0043" x="10" y="2930" width="1280" height="720"/>
+</TextureAtlas>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GJ-BottomCameos.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BottomScrollChars instance 10000" x="8" y="8" width="3311" height="474" frameX="0" frameY="-9" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10001" x="3327" y="8" width="3311" height="474" frameX="0" frameY="-9" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10002" x="8" y="490" width="3313" height="472" frameX="0" frameY="-12" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10003" x="3329" y="490" width="3313" height="472" frameX="0" frameY="-12" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10004" x="8" y="970" width="3314" height="477" frameX="0" frameY="-6" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10005" x="3330" y="970" width="3314" height="477" frameX="0" frameY="-6" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10006" x="8" y="1455" width="3313" height="483" frameX="0" frameY="0" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10007" x="3329" y="1455" width="3313" height="483" frameX="0" frameY="0" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10008" x="8" y="1946" width="3311" height="482" frameX="0" frameY="-1" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10009" x="3327" y="1946" width="3311" height="482" frameX="0" frameY="-1" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10010" x="8" y="2436" width="3311" height="482" frameX="0" frameY="-1" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10011" x="3327" y="2436" width="3311" height="482" frameX="0" frameY="-1" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10012" x="8" y="2926" width="3311" height="482" frameX="0" frameY="-1" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10013" x="3327" y="2926" width="3311" height="482" frameX="0" frameY="-1" frameWidth="3314" frameHeight="484"/>
+	<SubTexture name="BottomScrollChars instance 10014" x="3327" y="2926" width="3311" height="482" frameX="0" frameY="-1" frameWidth="3314" frameHeight="484"/>
+</TextureAtlas>

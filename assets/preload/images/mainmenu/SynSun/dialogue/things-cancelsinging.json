@@ -1,0 +1,15 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "...on second thought, maybe let's save this for another day. I-I need time to practice!!!",
+			"animation": "nervous",
+			"chara": "sun"
+		},
+		{
+			"text": "Aww, man... Maybe next time, viewers.",
+			"animation": "sad",
+			"chara": "syn"
+		}
+	]
+}

@@ -1,0 +1,147 @@
+{
+	"dialogue": [
+		{
+			"background": "86",
+			"border": "black",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"text": "Ah, I’m so glad you made it! I was worried that the road here from the dock would’ve gotten you lost.",
+			"bgmVolume": 0.4,
+			"bgm": "LavenderPark"
+		},
+		{
+			"background": "86",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","laugh"],
+			"sound": ["sour","youknowit"],
+			"text": "I took a plane here instead. Beats those boat rides by a longshot."
+		},
+		{
+			"background": "86",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"text": "You look wonderful, too. I’ve never seen you wear something so formal."
+		},
+		{
+			"background": "86",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "This is a special event in your hometown, yeah? I gotta look clean as hell so we can match. Good thing my dad’s got this nice spare suit."
+		},
+		{
+			"background": "86",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"text": "Though if there’s anyone lookin’ wonderful right now, it’s you."
+		},
+		{
+			"background": "86",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"sound": ["sweet","giggle"],
+			"text": "Ahaha, you flatter me, Sour. Are you ready to head inside?"
+		},
+		{
+			"background": "86",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Sure am! I forgot to ask, but kind of event is this, by the way?"
+		},
+		{
+			"background": "87",
+			"character": "Daisy",
+			"border": "openmic",
+			"chara": ["daisy", 2, true],
+			"sound": ["daisy","awwyeah"],
+			"text": "Ah, Sweet! I’m so glad you could make it!"
+		},
+		{
+			"background": "87",
+			"character": "Daisy",
+			"chara": ["daisy", 2, true],
+			"text": "Oh, and you must be Sour! Sweet’s been telling me so much about you!"
+		},
+		{
+			"background": "87",
+			"character": "Daisy",
+			"chara": ["daisy", 2, true],
+			"text": "The music you two perform together is simply divine! Oh, it really is an honor to have you with us tonight!"
+		},
+		{
+			"background": "87",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Uh-"
+		},
+		{
+			"background": "87",
+			"character": "Daisy",
+			"chara": ["daisy", 0, true],
+			"sound": ["daisy","woah"],
+			"text": "Quickly, now! The stage is all set! We’re bound to have an absolutely lovely turnout at the open mic tonight!"
+		},
+		{
+			"background": "87",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","wonderful"],
+			"text": "Right! I’m ready when you are!"
+		},
+		{
+			"background": "87",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Hey, Sweet-"
+		},
+		{
+			"background": "87",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Yes, Sour?"
+		},
+		{
+			"background": "88",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Why is everyone else here… dead?"
+		},
+		{
+			"background": "88",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "They’re a lively bunch who visit from time to time."
+		},
+		{
+			"background": "88",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "This place used to be a music bar my dad would perform at when he was younger, but it had been abandoned so many years ago."
+		},
+		{
+			"background": "88",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "But the spirits here will come every few months and bring its life back with lovely music!"
+		},
+		{
+			"background": "88",
+			"character": "Daisy",
+			"chara": ["daisy", 2, true],
+			"text": "To have the daughter of someone who brought this place so many melodic memories with us today is an honor. I cannot thank you enough for joining us."
+		},
+		{
+			"background": "88",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","man"],
+			"text": "Man... life has gotten so much stranger since we’ve met."
+		},
+		{
+			"background": "88",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Alright, I’ll vibe with some ghosts, as long as I ain’t getting spooked."
+		}
+	]
+}

@@ -1,0 +1,85 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Hey, we saw her out on Main Street last week performing with Sour!",
+			"animation": "excited",
+			"chara": "sun",
+			"tvArt" : "umami"
+		},
+		{
+			"text": "We usually run into her at Uncle Hearty's. That's the first time I've seen her outside of that place.",
+			"chara": "syn"
+		},
+		{
+			"text": "Right, right. She's one of the nicest employees there too. I've always wanted to know more about her.",
+			"animation": "reset",
+			"chara": "sun"
+		},
+		{
+			"text": "I didn't even know she played saxophone until last week!",
+			"animation": "laugh",
+			"sound" : "giggle",
+			"chara": "sun"
+		},
+		{
+			"text": "I'm not finding too much about her online. Her social media is just selfies, artsy food pics, and quoted song lyrics.",
+			"sound" : "hmm",
+			"animation": "search",
+			"sound" : "beepboop",
+			"chara": "syn"
+		},
+		{
+			"text": "I think she may be attending college here in Enzync, too, though I'm honestly not sure. She's the absolute definition of 'lowkey'.",
+			"chara": "syn"
+		},
+		{
+			"text": "Then it's best we keep it that way.",
+			"animation": "reset",
+			"chara": "sun"
+		},
+		{
+			"text": "She's really good at playing sax, but she doesn't seem like she wants to make a name for herself with it.",
+			"chara": "sun"
+		},
+		{
+			"text": "Kind of a shame. Why choose to work a food service job with that kind of skill?",
+			"animation": "sad",
+			"chara": "syn"
+		},
+		{
+			"text": "We could always ask her ourselves on our own time. I don't wanna intrude so much on her personal life on stream.",
+			"animation": "happy",
+			"chara": "sun"
+		},
+		{
+			"text": "Well, someone in the chat did just ask us to talk about her, which sparked this discussion.",
+			"chara": "syn"
+		},
+		{
+			"text": "Oh! Look at that! Someone also just mentioned that they've heard her play with the Enzync City Night Crew! So she is putting her music work out there!",
+			"chara": "syn"
+		},
+		{
+			"text": "She ought to try and take her music career even more seriously, if you ask me.",
+			"animation": "idle",
+			"chara": "syn"
+		},
+		{
+			"text": "Maybe. Though there's always the chance she doesn't want to turn her hobby into work.",
+			"sound" : "maybe",
+			"animation": "reset",
+			"chara": "sun"
+		},
+		{
+			"text": "Though now we definitely gotta take a midnight city walk one day and check out the Night Crew! I'd love to see Umami play again.",
+			"chara": "sun"
+		},
+		{
+			"text": "If there's any chance that Umami is tuning in right now, we'd all love to hear more of your superb sax skills!",
+			"animation": "happy",
+			"sound" : "hahahaha",
+			"chara": "syn"
+		}
+	]
+}

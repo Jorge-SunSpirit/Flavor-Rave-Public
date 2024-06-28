@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["n0.pressur3.temp", "sundried", [165, 0, 77], ["synthetic", "sundried"], "synsun"]
+	],
+
+	"weekCharacters": [
+		"Synthetic",
+		"Sundried",
+		"Empty",
+		"Empty"
+	],
+	"charaSelect": [
+		"sundried",
+		"synthetic"
+	],
+	"weekBackground": "synsun",
+	"weekType": "Extra",
+	"storyName": "Extra Stories",
+	"weekBefore": "dinterlude3",
+	"weekName": "No Pressure",
+	"location": "SynSun Studio",
+	"startUnlocked": false,
+	"isExtra": false,
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

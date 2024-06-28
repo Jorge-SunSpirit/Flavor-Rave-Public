@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SourCutinSugarcoat.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SourCutinSugarcoat0000" x="8" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0001" x="8" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0002" x="8" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0003" x="8" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0004" x="1296" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0005" x="1296" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0006" x="1296" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0007" x="1296" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0008" x="8" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0009" x="8" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0010" x="8" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0011" x="8" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0012" x="1296" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0013" x="1296" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0014" x="1296" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0015" x="1296" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0016" x="2584" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0017" x="2584" y="8" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0018" x="8" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0019" x="8" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0020" x="1296" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0021" x="1296" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0022" x="2584" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0023" x="2584" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0024" x="2584" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0025" x="2584" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0026" x="8" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0027" x="8" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0028" x="8" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0029" x="8" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0030" x="2584" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0031" x="2584" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0032" x="2584" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0033" x="2584" y="285" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0034" x="8" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0035" x="8" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0036" x="8" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0037" x="8" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0038" x="1296" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0039" x="1296" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0040" x="1296" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0041" x="1296" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0042" x="2584" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0043" x="2584" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0044" x="2584" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0045" x="2584" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0046" x="1296" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0047" x="1296" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0048" x="1296" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0049" x="1296" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0050" x="2584" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0051" x="2584" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0052" x="2584" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0053" x="2584" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0054" x="1296" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0055" x="1296" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0056" x="1296" y="562" width="1280" height="269"/>
+	<SubTexture name="SourCutinSugarcoat0057" x="1296" y="562" width="1280" height="269"/>
+</TextureAtlas>

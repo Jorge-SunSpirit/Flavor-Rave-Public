@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GJ-TopCameos.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TopScrollChars instance 10000" x="8" y="8" width="4186" height="546" frameX="0" frameY="0" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10001" x="8" y="8" width="4186" height="546" frameX="0" frameY="0" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10002" x="8" y="562" width="4186" height="542" frameX="0" frameY="-5" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10003" x="8" y="562" width="4186" height="542" frameX="0" frameY="-5" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10004" x="8" y="1112" width="4186" height="533" frameX="0" frameY="-11" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10005" x="8" y="1112" width="4186" height="533" frameX="0" frameY="-11" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10006" x="8" y="1653" width="4186" height="533" frameX="0" frameY="-11" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10007" x="8" y="1653" width="4186" height="533" frameX="0" frameY="-11" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10008" x="8" y="2194" width="4186" height="533" frameX="0" frameY="-11" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10009" x="8" y="2194" width="4186" height="533" frameX="0" frameY="-11" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10010" x="8" y="2735" width="4186" height="534" frameX="0" frameY="-10" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10011" x="8" y="2735" width="4186" height="534" frameX="0" frameY="-10" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10012" x="8" y="3277" width="4186" height="534" frameX="0" frameY="-10" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10013" x="8" y="3277" width="4186" height="534" frameX="0" frameY="-10" frameWidth="4186" frameHeight="547"/>
+	<SubTexture name="TopScrollChars instance 10014" x="8" y="3277" width="4186" height="534" frameX="0" frameY="-10" frameWidth="4186" frameHeight="547"/>
+</TextureAtlas>

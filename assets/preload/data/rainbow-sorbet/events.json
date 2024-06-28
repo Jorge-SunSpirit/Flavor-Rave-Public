@@ -1,0 +1,201 @@
+{
+	"song": {
+		"events": [
+			[
+				2874.25149700599,
+				[
+					[
+						"Note Camera Movement",
+						"12",
+						""
+					]
+				]
+			],
+			[
+				34491.0179640718,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.8"
+					]
+				]
+			],
+			[
+				57485.0299401197,
+				[
+					[
+						"Change Camera Zoom",
+						"0.67",
+						"1.5"
+					]
+				]
+			],
+			[
+				68982.0359281437,
+				[
+					[
+						"Spawn Particles",
+						"closeup/RaveParticle",
+						"650"
+					]
+				]
+			],
+			[
+				69071.8562874251,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"1.5"
+					]
+				]
+			],
+			[
+				69431.1377245509,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"773"
+					]
+				]
+			],
+			[
+				74730.5389221557,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"832"
+					]
+				]
+			],
+			[
+				75449.1017964072,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"840"
+					]
+				]
+			],
+			[
+				75988.0239520958,
+				[
+					[
+						"Play SFX",
+						"RAVEsfx",
+						"1"
+					]
+				]
+			],
+			[
+				80479.0419161676,
+				[
+					[
+						"Screen Flash",
+						"1",
+						"white"
+					],
+					[
+						"Change Character",
+						"bf",
+						"sweet-rave"
+					],
+					[
+						"Change Character",
+						"dad",
+						"sour-rave"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"896"
+					],
+					[
+						"Play SFX",
+						"RAVEFlash",
+						"1"
+					]
+				]
+			],
+			[
+				86227.5449101796,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"960"
+					]
+				]
+			],
+			[
+				103293.413173653,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				103473.053892216,
+				[
+					[
+						"Change Character",
+						"dad",
+						"sour"
+					],
+					[
+						"Change Character",
+						"bf",
+						"sweet"
+					],
+					[
+						"Screen Flash",
+						"1",
+						"white"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1152"
+					]
+				]
+			],
+			[
+				103832.335329341,
+				[
+					[
+						"Spawn Particles",
+						"closeup/RaveParticle",
+						"650"
+					]
+				]
+			],
+			[
+				114970.059880239,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			]
+		]
+	}
+}

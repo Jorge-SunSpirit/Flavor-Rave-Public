@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-46,
+				34
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SweetBG",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SweetBG",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "sweet",
+	"flip_x": false,
+	"healthbar_colors": [
+		225,
+		120,
+		155
+	],
+	"camera_position": [
+		-110,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

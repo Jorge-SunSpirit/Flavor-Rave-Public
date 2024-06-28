@@ -1,0 +1,170 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				94,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "NEW RAVE Sweet Left"
+		},
+		{
+			"offsets": [
+				28,
+				-29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "NEW RAVE Sweet Down"
+		},
+		{
+			"offsets": [
+				115,
+				288
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "NEW RAVE Sweet Up"
+		},
+		{
+			"offsets": [
+				47,
+				-58
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "NEW RAVE Sweet Right"
+		},
+		{
+			"offsets": [
+				94,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "NEW RAVE Sweet Miss Left"
+		},
+		{
+			"offsets": [
+				35,
+				-30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "NEW RAVE Sweet Miss Down"
+		},
+		{
+			"offsets": [
+				120,
+				289
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "NEW RAVE Sweet Miss Up"
+		},
+		{
+			"offsets": [
+				46,
+				-59
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "NEW RAVE Sweet Miss Right"
+		},
+		{
+			"offsets": [
+				194,
+				-26
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "NEW RAVE Sweet Play Left"
+		},
+		{
+			"offsets": [
+				43,
+				-30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "NEW RAVE Sweet Play Down"
+		},
+		{
+			"offsets": [
+				55,
+				198
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "NEW RAVE Sweet Play Up"
+		},
+		{
+			"offsets": [
+				27,
+				-56
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "NEW RAVE Sweet Play Right"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				10,
+				-20
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "NEW RAVE Sweet Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sweet-RAVE",
+	"position": [
+		0,
+		-30
+	],
+	"healthicon": "sweet",
+	"flip_x": true,
+	"healthbar_colors": [
+		240,
+		196,
+		189
+	],
+	"camera_position": [
+		-10,
+		30
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sweet",
+	"healthbar_image": "sweet",
+	"musicNoteOffset": [-100,-200],
+	"charaFloat": true
+}

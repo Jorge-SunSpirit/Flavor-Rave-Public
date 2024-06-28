@@ -1,0 +1,256 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Play SFX",
+						"typing",
+						"1"
+					]
+				]
+			],
+			[
+				5678.57142857143,
+				[
+					[
+						"Play SFX",
+						"jump",
+						"1"
+					]
+				]
+			],
+			[
+				6857.14285714286,
+				[
+					[
+						"Play Animation",
+						"intro",
+						"dad"
+					]
+				]
+			],
+			[
+				12000,
+				[
+					[
+						"Play SFX",
+						"npt-3",
+						"1"
+					],
+					[
+						"Play Animation",
+						"count3",
+						"dad"
+					],
+					[
+						"Change Camera Zoom",
+						"1.35",
+						"0.3"
+					]
+				]
+			],
+			[
+				12321.4285714286,
+				[
+					[
+						"Play Animation",
+						"count2",
+						"dad"
+					]
+				]
+			],
+			[
+				12428.5714285714,
+				[
+					[
+						"Play SFX",
+						"npt-2",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"1.4",
+						"0.3"
+					]
+				]
+			],
+			[
+				12857.1428571429,
+				[
+					[
+						"Play SFX",
+						"npt-1",
+						"1"
+					],
+					[
+						"Play Animation",
+						"count1",
+						"dad"
+					],
+					[
+						"Change Camera Zoom",
+						"1.45",
+						"0.3"
+					]
+				]
+			],
+			[
+				13071.4285714286,
+				[
+					[
+						"Play SFX",
+						"npt-jam",
+						"1"
+					]
+				]
+			],
+			[
+				13285.7142857143,
+				[
+					[
+						"Play Animation",
+						"jam",
+						"dad"
+					],
+					[
+						"Change Camera Zoom",
+						"1.5",
+						"0.3"
+					]
+				]
+			],
+			[
+				13714.2857142857,
+				[
+					[
+						"Screen Flash",
+						"0.5",
+						"white"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				15642.8571428571,
+				[
+					[
+						"Play Animation",
+						"powerdown",
+						"dad"
+					]
+				]
+			],
+			[
+				28071.4285714286,
+				[
+					[
+						"Play Animation",
+						"powerdown",
+						"dad"
+					]
+				]
+			],
+			[
+				58500,
+				[
+					[
+						"Play Animation",
+						"powerdown",
+						"dad"
+					]
+				]
+			],
+			[
+				61500,
+				[
+					[
+						"Play Animation",
+						"powerdown",
+						"dad"
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				144000,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"1.4"
+					]
+				]
+			],
+			[
+				147428.571428571,
+				[
+					[
+						"Change Camera Zoom",
+						"14",
+						"3.4"
+					]
+				]
+			],
+			[
+				150857.142857143,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					],
+					[
+						"Spawn Particles",
+						"closeup/virtualheart",
+						"500"
+					]
+				]
+			],
+			[
+				174857.142857143,
+				[
+					[
+						"Spawn Particles",
+						"closeup/virtualheart",
+						"500"
+					]
+				]
+			],
+			[
+				178285.714285714,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					],
+					[
+						"Screen Flash",
+						"0.7",
+						"cyan"
+					]
+				]
+			]
+		]
+	}
+}

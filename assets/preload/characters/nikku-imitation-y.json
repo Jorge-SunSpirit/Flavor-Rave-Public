@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-50,
+				162
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "YuriIdle"
+		},
+		{
+			"offsets": [
+				39,
+				163
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "YuriLeft"
+		},
+		{
+			"offsets": [
+				1,
+				162
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "YuriDown"
+		},
+		{
+			"offsets": [
+				-48,
+				163
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "YuriUp"
+		},
+		{
+			"offsets": [
+				0,
+				163
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "YuriRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/imitation_Y",
+	"position": [
+		20,
+		20
+	],
+	"healthicon": "nikku",
+	"flip_x": false,
+	"healthbar_colors": [
+		240,
+		60,
+		115
+	],
+	"camera_position": [
+		-130,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1.4,
+	"noteskin": "DDTO (Bad Ending)"
+}

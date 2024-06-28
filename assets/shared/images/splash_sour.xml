@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="splash_sour.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="note splash blue 1 instance 10000" x="10" y="10" width="501" height="500"/>
+	<SubTexture name="note splash blue 1 instance 10001" x="521" y="10" width="501" height="500"/>
+	<SubTexture name="note splash blue 1 instance 10002" x="1032" y="10" width="501" height="500"/>
+	<SubTexture name="note splash blue 1 instance 10003" x="1543" y="10" width="501" height="500"/>
+	<SubTexture name="note splash blue 1 instance 10004" x="521" y="520" width="501" height="500"/>
+	<SubTexture name="note splash green 1 instance 10000" x="2054" y="10" width="501" height="500"/>
+	<SubTexture name="note splash green 1 instance 10001" x="2565" y="10" width="501" height="500"/>
+	<SubTexture name="note splash green 1 instance 10002" x="3076" y="10" width="501" height="500"/>
+	<SubTexture name="note splash green 1 instance 10003" x="10" y="520" width="501" height="500"/>
+	<SubTexture name="note splash green 1 instance 10004" x="521" y="520" width="501" height="500"/>
+	<SubTexture name="note splash purple 1 instance 10000" x="1032" y="520" width="501" height="500"/>
+	<SubTexture name="note splash purple 1 instance 10001" x="1543" y="520" width="501" height="500"/>
+	<SubTexture name="note splash purple 1 instance 10002" x="2054" y="520" width="501" height="500"/>
+	<SubTexture name="note splash purple 1 instance 10003" x="2565" y="520" width="501" height="500"/>
+	<SubTexture name="note splash purple 1 instance 10004" x="521" y="520" width="501" height="500"/>
+	<SubTexture name="note splash red 1 instance 10000" x="3076" y="520" width="501" height="500"/>
+	<SubTexture name="note splash red 1 instance 10001" x="10" y="1030" width="501" height="500"/>
+	<SubTexture name="note splash red 1 instance 10002" x="521" y="1030" width="501" height="500"/>
+	<SubTexture name="note splash red 1 instance 10003" x="1032" y="1030" width="501" height="500"/>
+	<SubTexture name="note splash red 1 instance 10004" x="1543" y="1030" width="501" height="500"/>
+</TextureAtlas>

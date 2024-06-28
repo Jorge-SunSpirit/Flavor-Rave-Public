@@ -1,0 +1,82 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Me? Right, I guess some people might be tuning in for the first time today. I'd be more than happy to give you a little intro on myself.",
+			"chara": "sun"
+		},
+		{
+			"text": "My name is Sun-Dried! Though you can call me Sunny, SunSun, SD, or whatever you'd like. I love cute nicknames.",
+			"animation": "greeting",
+			"chara": "sun"
+		},
+		{
+			"text": "Let's see... I'm 19 years old. I love music, technology, and all things cute and fluffy!",
+			"animation": "happy",
+			"chara": "sun"
+		},
+		{
+			"text": "My favorite color is orange. My favorite animals are bunnies. My favorite song is TIMESHOCK! by Sour and Sweet.",
+			"chara": "sun"
+		},
+		{
+			"text": "Hmm... I'm not sure what else to say, eheh.",
+			"animation": "think",
+			"chara": "sun"
+		},
+		{
+			"text": "C'mon, Sunny. The little personal details are nice and all, but you gotta tell everyone about all the cool things you've done!",
+			"chara": "syn"
+		},
+		{
+			"text": "I guess so. I don't like bragging about that kind of stuff.",
+			"animation": "reset",
+			"sound" : "iguessso",
+			"chara": "sun"
+		},
+		{
+			"text": "Then I'll do the bragging for you!",
+			"chara": "syn"
+		},
+		{
+			"text": "Sunny here was president of the Enzync Academy Robotics Club! She helped the school win more awards than my internal memory can count!",
+			"chara": "syn"
+		},
+		{
+			"text": "Plus, y'know... you helped build me! That's one of the coolest things a person could ever do! 100% unbiased, heh heh.",
+			"animation": "happy",
+			"sound" : "robolaugh",
+			"chara": "syn"
+		},
+		{
+			"text": "And don't forget that blog you run! Everything about it is just so well put together!",
+			"chara": "syn"
+		},
+		{
+			"text": "Eheh, I do take pride in that blog. Had to put my HTML knowledge to the test to make it that pretty. I'm a sucker for those old school aesthetics.",
+			"animation": "determined",
+			"sound" : "giggle",
+			"chara": "sun"
+		},
+		{
+			"text": "Oh, oh! I forgot to mention that she's also an upcoming musician herself. The stuff she's been cooking up has been absolutely stellar.",
+			"animation": "alert",
+			"chara": "syn"
+		},
+		{
+			"text": "That's... more just a little side experiment thing-",
+			"animation": "nervous",
+			"sound" : "eeh",
+			"chara": "sun"
+		},
+		{
+			"text": "Well, you gotta share with everyone one day, Sunny!",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "Maybe... I don't know. All my stuff doesn't sound finished yet...",
+			"chara": "sun"
+		}
+	]
+}

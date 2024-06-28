@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gate.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GateBump0000" x="10" y="10" width="2600" height="1080"/>
+	<SubTexture name="GateBump0001" x="10" y="10" width="2600" height="1080"/>
+	<SubTexture name="GateBump0002" x="2620" y="10" width="2600" height="1080"/>
+	<SubTexture name="GateBump0003" x="2620" y="10" width="2600" height="1080"/>
+	<SubTexture name="GateBump0004" x="5230" y="10" width="2600" height="1080"/>
+	<SubTexture name="GateBump0005" x="5230" y="10" width="2600" height="1080"/>
+	<SubTexture name="GateBump0006" x="10" y="1100" width="2600" height="1080"/>
+	<SubTexture name="GateBump0007" x="10" y="1100" width="2600" height="1080"/>
+	<SubTexture name="GateBump0008" x="2620" y="1100" width="2600" height="1080"/>
+	<SubTexture name="GateBump0009" x="2620" y="1100" width="2600" height="1080"/>
+	<SubTexture name="GateBump0010" x="2620" y="1100" width="2600" height="1080"/>
+	<SubTexture name="GateBump0011" x="2620" y="1100" width="2600" height="1080"/>
+	<SubTexture name="GateBump0012" x="2620" y="1100" width="2600" height="1080"/>
+	<SubTexture name="GateBump0013" x="2620" y="1100" width="2600" height="1080"/>
+</TextureAtlas>

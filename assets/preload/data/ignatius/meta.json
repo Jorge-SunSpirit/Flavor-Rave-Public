@@ -1,0 +1,14 @@
+{
+	"song": {
+		"name": "Ignatius",
+		"charter": "Cerbera",
+		"artist": "DrazicallyDTM & HighPoweredKeyz",
+		"titleCardStep": 80
+	},
+	"control": {
+		"happyEnding": true
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	}
+}

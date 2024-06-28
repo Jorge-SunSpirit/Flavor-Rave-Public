@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="imitation_Y.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="YuriDown0000" x="8" y="8" width="1191" height="794" frameX="0" frameY="-8" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0001" x="8" y="8" width="1191" height="794" frameX="0" frameY="-8" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0002" x="1207" y="8" width="1166" height="802" frameX="-12" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0003" x="1207" y="8" width="1166" height="802" frameX="-12" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0004" x="2381" y="8" width="1166" height="802" frameX="-12" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0005" x="2381" y="8" width="1166" height="802" frameX="-12" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0006" x="2381" y="8" width="1166" height="802" frameX="-12" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0007" x="2381" y="8" width="1166" height="802" frameX="-12" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0008" x="2381" y="8" width="1166" height="802" frameX="-12" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0009" x="2381" y="8" width="1166" height="802" frameX="-12" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0010" x="2381" y="8" width="1166" height="802" frameX="-12" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0011" x="2381" y="8" width="1166" height="802" frameX="-12" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0012" x="3555" y="8" width="1150" height="802" frameX="-20" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0013" x="3555" y="8" width="1150" height="802" frameX="-20" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0014" x="4713" y="8" width="1140" height="800" frameX="-25" frameY="-2" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0015" x="4713" y="8" width="1140" height="800" frameX="-25" frameY="-2" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriDown0016" x="5861" y="8" width="1113" height="802" frameX="-49" frameY="0" frameWidth="1191" frameHeight="802"/>
+	<SubTexture name="YuriIdle0000" x="6982" y="8" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriIdle0001" x="6982" y="8" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriIdle0002" x="8" y="818" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriIdle0003" x="8" y="818" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriIdle0004" x="1126" y="818" width="1113" height="802"/>
+	<SubTexture name="YuriIdle0005" x="1126" y="818" width="1113" height="802"/>
+	<SubTexture name="YuriIdle0006" x="2247" y="818" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriIdle0007" x="2247" y="818" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriIdle0008" x="3365" y="818" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriIdle0009" x="3365" y="818" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriIdle0010" x="4483" y="818" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriIdle0011" x="4483" y="818" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriIdle0012" x="6982" y="8" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriIdle0013" x="6982" y="8" width="1110" height="802" frameX="-2" frameY="0" frameWidth="1113" frameHeight="802"/>
+	<SubTexture name="YuriLeft0000" x="5601" y="818" width="1169" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0001" x="5601" y="818" width="1169" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0002" x="6778" y="818" width="1171" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0003" x="6778" y="818" width="1171" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0004" x="8" y="1628" width="1172" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0005" x="8" y="1628" width="1172" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0006" x="8" y="1628" width="1172" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0007" x="8" y="1628" width="1172" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0008" x="8" y="1628" width="1172" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0009" x="8" y="1628" width="1172" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0010" x="8" y="1628" width="1172" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0011" x="8" y="1628" width="1172" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0012" x="1188" y="1628" width="1176" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0013" x="1188" y="1628" width="1176" height="802" frameX="0" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0014" x="2372" y="1628" width="1166" height="802" frameX="-10" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0015" x="2372" y="1628" width="1166" height="802" frameX="-10" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriLeft0016" x="3546" y="1628" width="1135" height="802" frameX="-53" frameY="0" frameWidth="1188" frameHeight="802"/>
+	<SubTexture name="YuriRight0000" x="4689" y="1628" width="1138" height="802" frameX="-57" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0001" x="5835" y="1628" width="1138" height="802" frameX="-57" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0002" x="6981" y="1628" width="1153" height="802" frameX="-42" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0003" x="8" y="2438" width="1153" height="802" frameX="-42" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0004" x="1169" y="2438" width="1156" height="802" frameX="-39" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0005" x="1169" y="2438" width="1156" height="802" frameX="-39" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0006" x="1169" y="2438" width="1156" height="802" frameX="-39" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0007" x="2333" y="2438" width="1156" height="802" frameX="-39" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0008" x="2333" y="2438" width="1156" height="802" frameX="-39" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0009" x="2333" y="2438" width="1156" height="802" frameX="-39" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0010" x="1169" y="2438" width="1156" height="802" frameX="-39" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0011" x="1169" y="2438" width="1156" height="802" frameX="-39" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0012" x="3497" y="2438" width="1164" height="802" frameX="-31" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0013" x="3497" y="2438" width="1164" height="802" frameX="-31" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0014" x="4669" y="2438" width="1147" height="802" frameX="-17" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0015" x="4669" y="2438" width="1147" height="802" frameX="-17" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0016" x="5824" y="2438" width="1147" height="802" frameX="0" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriRight0017" x="5824" y="2438" width="1147" height="802" frameX="0" frameY="0" frameWidth="1195" frameHeight="802"/>
+	<SubTexture name="YuriUp0000" x="6979" y="2438" width="1068" height="802" frameX="-9" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0001" x="6979" y="2438" width="1068" height="802" frameX="-9" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0002" x="8" y="3248" width="1078" height="802" frameX="-9" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0003" x="8" y="3248" width="1078" height="802" frameX="-9" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0004" x="1094" y="3248" width="1071" height="802" frameX="-17" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0005" x="1094" y="3248" width="1071" height="802" frameX="-17" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0006" x="1094" y="3248" width="1071" height="802" frameX="-17" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0007" x="1094" y="3248" width="1071" height="802" frameX="-17" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0008" x="1094" y="3248" width="1071" height="802" frameX="-17" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0009" x="1094" y="3248" width="1071" height="802" frameX="-17" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0010" x="1094" y="3248" width="1071" height="802" frameX="-17" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0011" x="1094" y="3248" width="1071" height="802" frameX="-17" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0012" x="2173" y="3248" width="1075" height="802" frameX="-15" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0013" x="2173" y="3248" width="1075" height="802" frameX="-15" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0014" x="3256" y="3248" width="1113" height="802" frameX="-4" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0015" x="3256" y="3248" width="1113" height="802" frameX="-4" frameY="0" frameWidth="1121" frameHeight="802"/>
+	<SubTexture name="YuriUp0016" x="4377" y="3248" width="1121" height="802"/>
+	<SubTexture name="YuriUp0017" x="4377" y="3248" width="1121" height="802"/>
+</TextureAtlas>

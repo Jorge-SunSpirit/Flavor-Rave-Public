@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="leftcrowd.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="LeftCrowd0000" x="10" y="10" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0001" x="10" y="10" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0002" x="1261" y="10" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0003" x="1261" y="10" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0004" x="2512" y="10" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0005" x="2512" y="10" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0006" x="10" y="704" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0007" x="10" y="704" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0008" x="1261" y="704" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0009" x="1261" y="704" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0010" x="1261" y="704" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0011" x="1261" y="704" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0012" x="1261" y="704" width="1241" height="684"/>
+	<SubTexture name="LeftCrowd0013" x="1261" y="704" width="1241" height="684"/>
+</TextureAtlas>

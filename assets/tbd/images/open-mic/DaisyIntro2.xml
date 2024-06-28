@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DaisyIntro2.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DaisyAppear0000" x="8" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0001" x="8" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0002" x="785" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0003" x="785" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0004" x="1562" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0005" x="1562" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0006" x="2339" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0007" x="2339" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0008" x="3116" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0009" x="3116" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0010" x="3116" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0011" x="3116" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0012" x="3116" y="8" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0013" x="8" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0014" x="8" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0015" x="785" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0016" x="785" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0017" x="1562" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0018" x="1562" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0019" x="2339" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0020" x="2339" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0021" x="3116" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0022" x="3116" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0023" x="3116" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0024" x="3116" y="342" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0025" x="8" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0026" x="8" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0027" x="785" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0028" x="785" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0029" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0030" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0031" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0032" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0033" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0034" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0035" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0036" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0037" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0038" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0039" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0040" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0041" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0042" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0043" x="1562" y="676" width="769" height="326"/>
+	<SubTexture name="DaisyAppear0044" x="1562" y="676" width="769" height="326"/>
+</TextureAtlas>

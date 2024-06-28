@@ -1,0 +1,145 @@
+{
+	"noteSkins":
+	[
+		{
+			"skinName": "Default",
+			"note": "",
+			"noteSplash": [],
+			"ratings_folder": "",
+			"songReq": ""
+		},
+		{
+			"skinName": "Sour",
+			"note": "note_sour",
+			"noteSplash": ["splash_sour", -70, -70, 0.6, 1],
+			"ratings_folder": "sour",
+			"songReq": ""
+		},
+		{
+			"skinName": "Sweet",
+			"note": "note_sweet",
+			"noteSplash": ["splash_sweet", -85, -80, 0.6, 1],
+			"ratings_folder": "sweet",
+			"songReq": ""
+		},
+		{
+			"skinName": "Savory",
+			"note": "note_savory",
+			"noteSplash": ["splash_savory", -20, -30, 0.6, 0.6],
+			"ratings_folder": "savory",
+			"songReq": "Tres Leches"
+		},
+		{
+			"skinName": "Umami",
+			"note": "note_umami",
+			"noteSplash": ["splash_umami", -80, -75, 0.6, 1],
+			"ratings_folder": "umami",
+			"songReq": "Applewood"
+		},
+		{
+			"skinName": "Spicy",
+			"note": "note_spicy",
+			"noteSplash": ["splash_spicy", -80, -80, 0.6, 1],
+			"ratings_folder": "spicy",
+			"songReq": "Caramelize"
+		},
+		{
+			"skinName": "Smoky",
+			"note": "note_smoky",
+			"noteSplash": ["splash_smoky", -60, -60, 0.6, 0.6],
+			"ratings_folder": "smoky",
+			"songReq": "Wasabi"
+		},
+		{
+			"skinName": "Sun-Dried",
+			"note": "SunDriedNOTE_assets",
+			"noteSplash": ["splash_sundried", -70, -70, 0.6, 1],
+			"ratings_folder": "sundried",
+			"songReq": "n0.pressur3.temp"
+		},
+		{
+			"skinName": "Synthetic",
+			"note": "SyntheticNOTE_assets",
+			"noteSplash": ["splash_synthetic", -75, -70, 0.6, 1],
+			"ratings_folder": "synthetic",
+			"songReq": "n0.pressur3.temp"
+		},
+		{
+			"skinName": "Rika",
+			"note": "NOTE_assetsRika",
+			"noteSplash": ["noteSplashesRika", 20, 0, 1, 0.6],
+			"ratings_folder": "rika",
+			"songReq": "MegaHeartz"
+		},
+		{
+			"skinName": "Rhythm Robo",
+			"note": "RRNOTE_assets",
+			"noteSplash": ["splash_RR", -70, -70, 0.6, 1],
+			"ratings_folder": "rhythmrobo",
+			"songReq": "Double-Stacked"
+		},
+		{
+			"skinName": "Nikku",
+			"note": "NikkuNOTE_assets",
+			"noteSplash": ["splash_nikku", 20, 0, 1, 0.6],
+			"ratings_folder": "nikku",
+			"songReq": "Imitation Station"
+		},
+		{
+			"skinName": "Nikku (Mimic)",
+			"note": "NikkuMimicNOTE_assets",
+			"noteSplash": ["splash_nikku", 20, 0, 1, 0.6],
+			"ratings_folder": "nikku",
+			"songReq": "Imitation Station"
+		},
+		{
+			"skinName": "Daisy",
+			"note": "DaisyArrows",
+			"noteSplash": ["splash_DGS", 15, 15, 0.8, 0.6],
+			"ratings_folder": "daisy",
+			"songReq": "Heartstrings"
+		},
+		{
+			"skinName": "Torrent",
+			"note": "NOTE_assetsStinky",
+			"noteSplash": ["splash_torrent", 20, 0, 1, 0.6],
+			"ratings_folder": "troubleshootin",
+			"songReq": "GAME-JAMMED"
+		},
+		{
+			"skinName": "Nitro",
+			"note": "NOTE_assetsNitro",
+			"noteSplash": ["splash_nitro", 20, 0, 1, 0.6],
+			"ratings_folder": "troubleshootin",
+			"songReq": "GAME-JAMMED"
+		},
+		{
+			"skinName": "DDTO",
+			"note": "NOTE_assets_doki",
+			"ratings_folder": "doki",
+			"noteSplash": ["NOTE_splashes_doki", -10, 0, 1, 1],
+			"songReq": "Imitation Station"
+		},
+		{
+			"skinName": "DDTO (Bad Ending)",
+			"note": "NOTE_assets_be",
+			"ratings_folder": "dokibadending",
+			"noteSplash": ["noteSplashes_be", -10, 0, 1, 1],
+			"songReq": "Imitation Station"
+		},
+		{
+			"skinName": "Infinite",
+			"note": "NOTE_assets_Infinite",
+			"ratings_folder": "infinite",
+			"noteSplash": ["noteSplashes-infinite", 10, 20, 1, 1],
+			"songReq": "Imitation Station"
+		},
+		{
+			"skinName": "Funkin'",
+			"note": "NOTE_assets",
+			"noteSplash": ["noteSplashes", 20, 0, 1, 0.6],
+			"ratings_folder": "",
+			"songReq": ""
+		}
+	]
+}

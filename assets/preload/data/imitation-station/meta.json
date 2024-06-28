@@ -1,0 +1,14 @@
+{
+	"song": {
+		"name": "Imitation Station",
+		"artist": "Noichi",
+		"charter": "Cerbera",
+		"titleCardStep": 64
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "SweetBackBatonIdle"
+		},
+		{
+			"offsets": [
+				-11,
+				28
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "SweetBackBatonLeft"
+		},
+		{
+			"offsets": [
+				0,
+				-16
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "SweetBackBatonDown"
+		},
+		{
+			"offsets": [
+				13,
+				7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "SweetBackBatonUp"
+		},
+		{
+			"offsets": [
+				-10,
+				-4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "SweetBackBatonRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SweetCorianda",
+	"position": [
+		-20,
+		110
+	],
+	"healthicon": "sweet",
+	"flip_x": false,
+	"healthbar_colors": [
+		240,
+		196,
+		189
+	],
+	"camera_position": [
+		-100,
+		100
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sweet",
+	"healthbar_image": "sweet",
+	"musicNoteOffset": [0,-200]
+}

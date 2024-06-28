@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="transitionAnim.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="transition0000" x="1280" y="2160" width="1280" height="720"/>
+	<SubTexture name="transition0001" x="0" y="0" width="1280" height="720"/>
+	<SubTexture name="transition0002" x="1280" y="0" width="1280" height="720"/>
+	<SubTexture name="transition0003" x="2560" y="0" width="1280" height="720"/>
+	<SubTexture name="transition0004" x="0" y="720" width="1280" height="720"/>
+	<SubTexture name="transition0005" x="1280" y="720" width="1280" height="720"/>
+	<SubTexture name="transition0006" x="2560" y="720" width="1280" height="720"/>
+	<SubTexture name="transition0007" x="0" y="1440" width="1280" height="720"/>
+	<SubTexture name="transition0008" x="1280" y="1440" width="1280" height="720"/>
+	<SubTexture name="transition0009" x="2560" y="1440" width="1280" height="720"/>
+	<SubTexture name="transition0010" x="0" y="2160" width="1280" height="720"/>
+	<SubTexture name="Full0000" x="0" y="2160" width="1280" height="720"/>
+	<SubTexture name="empty0000" x="1280" y="2160" width="1280" height="720"/>
+</TextureAtlas>

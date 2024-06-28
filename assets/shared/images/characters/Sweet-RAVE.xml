@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sweet-RAVE.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="NEW RAVE Sweet Down0000" x="8" y="8" width="507" height="634" frameX="-3" frameY="-20" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0001" x="8" y="8" width="507" height="634" frameX="-3" frameY="-20" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0002" x="523" y="8" width="510" height="648" frameX="0" frameY="-5" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0003" x="523" y="8" width="510" height="648" frameX="0" frameY="-5" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0004" x="1041" y="8" width="510" height="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0005" x="1041" y="8" width="510" height="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0006" x="1559" y="8" width="510" height="649" frameX="0" frameY="-1" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0007" x="1559" y="8" width="510" height="649" frameX="0" frameY="-1" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0008" x="2077" y="8" width="510" height="649" frameX="0" frameY="-1" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0009" x="2077" y="8" width="510" height="649" frameX="0" frameY="-1" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0010" x="2595" y="8" width="510" height="649" frameX="0" frameY="-1" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0011" x="2595" y="8" width="510" height="649" frameX="0" frameY="-1" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0012" x="3113" y="8" width="510" height="650" frameX="0" frameY="0" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0013" x="3113" y="8" width="510" height="650" frameX="0" frameY="0" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0014" x="1559" y="8" width="510" height="649" frameX="0" frameY="-1" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Down0015" x="1559" y="8" width="510" height="649" frameX="0" frameY="-1" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Idle0000" x="3631" y="8" width="515" height="590" frameX="-4" frameY="-4" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0001" x="4154" y="8" width="515" height="590" frameX="-4" frameY="-4" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0002" x="4677" y="8" width="518" height="592" frameX="-3" frameY="-3" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0003" x="5203" y="8" width="518" height="592" frameX="-3" frameY="-3" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0004" x="5729" y="8" width="523" height="595" frameX="-1" frameY="-4" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0005" x="6260" y="8" width="523" height="595" frameX="-1" frameY="-4" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0006" x="6791" y="8" width="524" height="593" frameX="0" frameY="-5" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0007" x="7323" y="8" width="524" height="593" frameX="0" frameY="-5" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0008" x="8" y="672" width="518" height="592" frameX="-1" frameY="-4" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0009" x="534" y="672" width="518" height="592" frameX="-1" frameY="-4" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0010" x="1060" y="672" width="518" height="591" frameX="-3" frameY="-1" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0011" x="1586" y="672" width="518" height="591" frameX="-3" frameY="-1" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0012" x="2112" y="672" width="521" height="592" frameX="-3" frameY="0" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0013" x="2641" y="672" width="521" height="592" frameX="-3" frameY="0" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0014" x="3170" y="672" width="521" height="589" frameX="-3" frameY="-3" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Idle0015" x="3699" y="672" width="521" height="589" frameX="-3" frameY="-3" frameWidth="524" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Left0000" x="4228" y="672" width="499" height="570" frameX="0" frameY="0" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0001" x="4735" y="672" width="499" height="570" frameX="0" frameY="0" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0002" x="5242" y="672" width="496" height="589" frameX="-6" frameY="-2" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0003" x="5746" y="672" width="496" height="589" frameX="-6" frameY="-2" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0004" x="6250" y="672" width="497" height="597" frameX="-10" frameY="-3" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0005" x="6755" y="672" width="497" height="597" frameX="-10" frameY="-3" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0006" x="7260" y="672" width="506" height="596" frameX="-10" frameY="-4" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0007" x="8" y="1277" width="506" height="596" frameX="-10" frameY="-4" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0008" x="522" y="1277" width="501" height="598" frameX="-10" frameY="-2" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0009" x="1031" y="1277" width="501" height="598" frameX="-10" frameY="-2" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0010" x="1540" y="1277" width="497" height="599" frameX="-10" frameY="-1" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0011" x="2045" y="1277" width="497" height="599" frameX="-10" frameY="-1" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0012" x="2550" y="1277" width="497" height="597" frameX="-10" frameY="-3" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0013" x="3055" y="1277" width="497" height="597" frameX="-10" frameY="-3" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0014" x="7260" y="672" width="506" height="596" frameX="-10" frameY="-4" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Left0015" x="8" y="1277" width="506" height="596" frameX="-10" frameY="-4" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0000" x="8" y="8" width="507" height="634" frameX="-10" frameY="-20" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0001" x="8" y="8" width="507" height="634" frameX="-10" frameY="-20" frameWidth="510" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0002" x="3560" y="1277" width="524" height="574" frameX="0" frameY="-50" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0003" x="3560" y="1277" width="524" height="574" frameX="0" frameY="-50" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0004" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0005" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0006" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0007" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0008" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0009" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0010" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0011" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0012" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0013" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0014" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Down0015" x="4092" y="1277" width="510" height="650" frameX="-7" frameY="0" frameWidth="524" frameHeight="654"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0000" x="4228" y="672" width="499" height="570" frameX="0" frameY="0" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0001" x="4735" y="672" width="499" height="570" frameX="0" frameY="0" frameWidth="516" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0002" x="4610" y="1277" width="496" height="561" frameX="-4" frameY="-25" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0003" x="4610" y="1277" width="496" height="561" frameX="-4" frameY="-25" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0004" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0005" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0006" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0007" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0008" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0009" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0010" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0011" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0012" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0013" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0014" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Left0015" x="5114" y="1277" width="497" height="596" frameX="-10" frameY="-4" frameWidth="507" frameHeight="600"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0000" x="5619" y="1277" width="592" height="524" frameX="-49" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0001" x="6219" y="1277" width="592" height="524" frameX="-49" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0002" x="6819" y="1277" width="610" height="509" frameX="-50" frameY="-24" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0003" x="6819" y="1277" width="610" height="509" frameX="-50" frameY="-24" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0004" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0005" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0006" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0007" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0008" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0009" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0010" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0011" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0012" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0013" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0014" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Right0015" x="7437" y="1277" width="644" height="521" frameX="0" frameY="0" frameWidth="660" frameHeight="533"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0000" x="3268" y="5119" width="542" height="946" frameX="-32" frameY="0" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0001" x="3268" y="5119" width="542" height="946" frameX="-32" frameY="0" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0002" x="8" y="1935" width="580" height="917" frameX="0" frameY="-55" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0003" x="8" y="1935" width="580" height="917" frameX="0" frameY="-55" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0004" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0005" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0006" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0007" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0008" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0009" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0010" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0011" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0012" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0013" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0014" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Miss Up0015" x="596" y="1935" width="569" height="926" frameX="-6" frameY="-38" frameWidth="580" frameHeight="972"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0000" x="1173" y="1935" width="535" height="634" frameX="0" frameY="-21" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0001" x="1173" y="1935" width="535" height="634" frameX="0" frameY="-21" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0002" x="1716" y="1935" width="537" height="648" frameX="-5" frameY="-5" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0003" x="1716" y="1935" width="537" height="648" frameX="-5" frameY="-5" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0004" x="2261" y="1935" width="539" height="656" frameX="-7" frameY="0" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0005" x="2261" y="1935" width="539" height="656" frameX="-7" frameY="0" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0006" x="2808" y="1935" width="539" height="649" frameX="-7" frameY="-1" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0007" x="2808" y="1935" width="539" height="649" frameX="-7" frameY="-1" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0008" x="3355" y="1935" width="539" height="649" frameX="-7" frameY="-1" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0009" x="3355" y="1935" width="539" height="649" frameX="-7" frameY="-1" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0010" x="3902" y="1935" width="539" height="649" frameX="-7" frameY="-1" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0011" x="3902" y="1935" width="539" height="649" frameX="-7" frameY="-1" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0012" x="4449" y="1935" width="539" height="650" frameX="-7" frameY="0" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0013" x="4449" y="1935" width="539" height="650" frameX="-7" frameY="0" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0014" x="2808" y="1935" width="539" height="649" frameX="-7" frameY="-1" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Down0015" x="2808" y="1935" width="539" height="649" frameX="-7" frameY="-1" frameWidth="546" frameHeight="656"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0000" x="4996" y="1935" width="744" height="567" frameX="0" frameY="-2" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0001" x="5748" y="1935" width="744" height="567" frameX="0" frameY="-2" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0002" x="6500" y="1935" width="725" height="589" frameX="-24" frameY="-1" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0003" x="7233" y="1935" width="725" height="589" frameX="-24" frameY="-1" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0004" x="8" y="2869" width="725" height="597" frameX="-27" frameY="-2" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0005" x="741" y="2869" width="725" height="597" frameX="-27" frameY="-2" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0006" x="1474" y="2869" width="734" height="596" frameX="-27" frameY="-3" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0007" x="2216" y="2869" width="734" height="596" frameX="-27" frameY="-3" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0008" x="2958" y="2869" width="729" height="598" frameX="-27" frameY="-1" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0009" x="3695" y="2869" width="729" height="598" frameX="-27" frameY="-1" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0010" x="4432" y="2869" width="725" height="599" frameX="-27" frameY="0" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0011" x="5165" y="2869" width="725" height="599" frameX="-27" frameY="0" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0012" x="8" y="2869" width="725" height="597" frameX="-27" frameY="-2" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0013" x="741" y="2869" width="725" height="597" frameX="-27" frameY="-2" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0014" x="1474" y="2869" width="734" height="596" frameX="-27" frameY="-3" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Left0015" x="2216" y="2869" width="734" height="596" frameX="-27" frameY="-3" frameWidth="761" frameHeight="599"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0000" x="5898" y="2869" width="727" height="503" frameX="-54" frameY="-3" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0001" x="6633" y="2869" width="727" height="503" frameX="-54" frameY="-3" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0002" x="7368" y="2869" width="729" height="504" frameX="-16" frameY="-1" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0003" x="8" y="3476" width="729" height="504" frameX="-16" frameY="-1" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0004" x="745" y="3476" width="739" height="501" frameX="0" frameY="-3" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0005" x="1492" y="3476" width="739" height="501" frameX="0" frameY="-3" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0006" x="2239" y="3476" width="739" height="504" frameX="0" frameY="0" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0007" x="2986" y="3476" width="739" height="504" frameX="0" frameY="0" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0008" x="3733" y="3476" width="739" height="503" frameX="0" frameY="-1" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0009" x="4480" y="3476" width="739" height="503" frameX="0" frameY="-1" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0010" x="5227" y="3476" width="739" height="503" frameX="0" frameY="-1" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0011" x="5974" y="3476" width="739" height="503" frameX="0" frameY="-1" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0012" x="745" y="3476" width="739" height="501" frameX="0" frameY="-3" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0013" x="1492" y="3476" width="739" height="501" frameX="0" frameY="-3" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0014" x="2239" y="3476" width="739" height="504" frameX="0" frameY="0" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Right0015" x="2986" y="3476" width="739" height="504" frameX="0" frameY="0" frameWidth="781" frameHeight="506"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0000" x="6721" y="3476" width="525" height="848" frameX="0" frameY="0" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0001" x="6721" y="3476" width="525" height="848" frameX="0" frameY="0" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0002" x="7254" y="3476" width="506" height="788" frameX="-23" frameY="-81" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0003" x="7254" y="3476" width="506" height="788" frameX="-23" frameY="-81" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0004" x="8" y="4332" width="494" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0005" x="8" y="4332" width="494" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0006" x="510" y="4332" width="488" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0007" x="510" y="4332" width="488" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0008" x="1006" y="4332" width="491" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0009" x="1006" y="4332" width="491" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0010" x="1505" y="4332" width="494" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0011" x="1505" y="4332" width="494" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0012" x="8" y="4332" width="494" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0013" x="8" y="4332" width="494" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0014" x="510" y="4332" width="488" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Play Up0015" x="510" y="4332" width="488" height="779" frameX="-32" frameY="-94" frameWidth="529" frameHeight="873"/>
+	<SubTexture name="NEW RAVE Sweet Right0000" x="2007" y="4332" width="592" height="524" frameX="-49" frameY="-3" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0001" x="2607" y="4332" width="592" height="524" frameX="-49" frameY="-3" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0002" x="3207" y="4332" width="630" height="523" frameX="-16" frameY="-1" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0003" x="3845" y="4332" width="630" height="523" frameX="-16" frameY="-1" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0004" x="4483" y="4332" width="644" height="521" frameX="0" frameY="-3" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0005" x="5135" y="4332" width="644" height="521" frameX="0" frameY="-3" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0006" x="5787" y="4332" width="643" height="528" frameX="0" frameY="0" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0007" x="6438" y="4332" width="643" height="528" frameX="0" frameY="0" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0008" x="7089" y="4332" width="642" height="529" frameX="0" frameY="-1" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0009" x="8" y="5119" width="642" height="529" frameX="0" frameY="-1" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0010" x="658" y="5119" width="645" height="525" frameX="0" frameY="-1" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0011" x="1311" y="5119" width="645" height="525" frameX="0" frameY="-1" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0012" x="1964" y="5119" width="644" height="521" frameX="0" frameY="-3" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0013" x="2616" y="5119" width="644" height="521" frameX="0" frameY="-3" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0014" x="5787" y="4332" width="643" height="528" frameX="0" frameY="0" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Right0015" x="6438" y="4332" width="643" height="528" frameX="0" frameY="0" frameWidth="646" frameHeight="530"/>
+	<SubTexture name="NEW RAVE Sweet Up0000" x="3268" y="5119" width="542" height="946" frameX="-27" frameY="0" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0001" x="3268" y="5119" width="542" height="946" frameX="-27" frameY="0" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0002" x="3818" y="5119" width="566" height="930" frameX="-7" frameY="-28" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0003" x="3818" y="5119" width="566" height="930" frameX="-7" frameY="-28" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0004" x="4392" y="5119" width="569" height="926" frameX="-1" frameY="-38" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0005" x="4392" y="5119" width="569" height="926" frameX="-1" frameY="-38" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0006" x="4969" y="5119" width="562" height="926" frameX="-2" frameY="-38" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0007" x="4969" y="5119" width="562" height="926" frameX="-2" frameY="-38" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0008" x="5539" y="5119" width="565" height="926" frameX="-2" frameY="-38" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0009" x="5539" y="5119" width="565" height="926" frameX="-2" frameY="-38" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0010" x="6112" y="5119" width="570" height="926" frameX="0" frameY="-38" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0011" x="6112" y="5119" width="570" height="926" frameX="0" frameY="-38" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0012" x="6690" y="5119" width="569" height="926" frameX="-1" frameY="-38" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0013" x="6690" y="5119" width="569" height="926" frameX="-1" frameY="-38" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0014" x="4969" y="5119" width="562" height="926" frameX="-2" frameY="-38" frameWidth="573" frameHeight="964"/>
+	<SubTexture name="NEW RAVE Sweet Up0015" x="4969" y="5119" width="562" height="926" frameX="-2" frameY="-38" frameWidth="573" frameHeight="964"/>
+</TextureAtlas>

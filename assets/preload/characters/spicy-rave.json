@@ -1,0 +1,125 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				110,
+				229
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SpicyRaveIdle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				117,
+				200
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SpicyRaveLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				107,
+				220
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SpicyRaveDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				85,
+				121
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SpicyRaveUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				217
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SpicyRaveRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				116,
+				200
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "SpicyRaveGuitarLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				107,
+				220
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "SpicyRaveGuitarDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				113
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "SpicyRaveGuitarUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				216
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "SpicyRaveGuitarRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Spicy-RAVE",
+	"position": [
+		0,
+		150
+	],
+	"healthicon": "spicy",
+	"flip_x": false,
+	"healthbar_colors": [
+		235,
+		0,
+		15
+	],
+	"camera_position": [
+		-210,
+		-110
+	],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"noteskin": "Spicy",
+	"healthbar_image": "spicy",
+	"musicNoteOffset": [-200,-200]
+}

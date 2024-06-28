@@ -1,0 +1,22 @@
+{
+	"image": "gameover/BfGO",
+	"animation": "BF Dead Loop instance 1",
+	"spriteOffset": [500,400],
+	"flip_x": false,
+	"scale": 1,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "sweet/1",
+			"opponent": ""
+		},
+		{
+			"sound": "sour/1",
+			"opponent": ""
+		},
+		{
+			"sound": "nikku/1",
+			"opponent": ""
+		}
+	]
+}

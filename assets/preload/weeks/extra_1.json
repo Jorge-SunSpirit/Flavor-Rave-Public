@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["MegaHeartz", "rika", [165, 0, 77], ["rika", "flavorrave"], "enz-tv"]
+	],
+
+	"weekCharacters": [
+		"Sour",
+		"Sweet",
+		"Rika",
+		"Empty"
+	],
+	"charaSelect": [
+		"flavorrave",
+		"rika"
+	],
+	"weekBackground": "enz-tv",
+	"weekType": "Extra",
+	"storyName": "Extra Stories",
+	"weekBefore": "dinterlude3",
+	"weekName": "Breaking the News",
+	"location": "EnZ-TV Station",
+	"startUnlocked": false,
+	"isExtra": true,
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

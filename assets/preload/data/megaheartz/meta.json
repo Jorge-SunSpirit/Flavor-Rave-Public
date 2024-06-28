@@ -1,0 +1,14 @@
+{
+	"song": {
+		"name": "MegaHeartz",
+		"artist": "RixFX & Noichi",
+		"charter": "Flootena",
+		"extraCharacter": [true, true]
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"song": {
+		"name": "Rainbow Sorbet",
+		"charter": "Chompo",
+		"artist": "Stardust Tunes"
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	}
+}

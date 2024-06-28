@@ -1,0 +1,28 @@
+{
+	"songs": [
+		["Tres Leches", "savory", [165, 0, 77], ["savory", "sweet"], "corianda"]
+	],
+
+	"weekCharacters": [
+		"Sweet",
+		"Savory",
+		"empty",
+		"empty"
+	],
+	"charaSelect": [
+		"sweet",
+		"savory"
+	],
+	"weekBackground": "corianda",
+	"weekType": "Interlude",
+	"storyName": "Interlude 1",
+	"weekBefore": "achapter2",
+	"weekName": "Lost in Corianda",
+	"location": "Corianda",
+	"startUnlocked": false,
+	"isExtra": false,
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal",
+	"recommended": 2
+}

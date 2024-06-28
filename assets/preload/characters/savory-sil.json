@@ -1,0 +1,92 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SiloSavoryIdle"
+		},
+		{
+			"offsets": [
+				41,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SiloSavoryLeft"
+		},
+		{
+			"offsets": [
+				36,
+				-15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SiloSavoryDown"
+		},
+		{
+			"offsets": [
+				-18,
+				34
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SiloSavoryUp"
+		},
+		{
+			"offsets": [
+				-28,
+				4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SiloSavoryRight"
+		},
+		{
+			"offsets": [
+				63,
+				827
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "jump",
+			"indices": [],
+			"name": "SiloSavoryJump"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SavorySilo",
+	"position": [
+		-75,
+		165
+	],
+	"healthicon": "savory",
+	"flip_x": false,
+	"healthbar_colors": [
+		82,
+		39,
+		74
+	],
+	"camera_position": [
+		-50,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Savory",
+	"healthbar_image": "savory",
+	"musicNoteOffset": [-200,-200]
+}

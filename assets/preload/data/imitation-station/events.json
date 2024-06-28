@@ -1,0 +1,175 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Force BF/DAD on character specific notes",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				12800,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.7"
+					],
+					[
+						"Note Camera Movement",
+						"8",
+						""
+					]
+				]
+			],
+			[
+				38400,
+				[
+					[
+						"Change Camera Zoom",
+						"0.74",
+						"0.7"
+					]
+				]
+			],
+			[
+				64000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.84",
+						"0.7"
+					]
+				]
+			],
+			[
+				89600,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.5"
+					],
+					[
+						"Screen Flash",
+						"0.5",
+						"white"
+					],
+					[
+						"Change Character",
+						"gf",
+						"nikku-imitation-i"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				102100,
+				[
+					[
+						"Change Character",
+						"gf",
+						"nikku-imitation-y"
+					]
+				]
+			],
+			[
+				102400,
+				[
+					[
+						"Change Camera Zoom",
+						"0.6",
+						"3"
+					]
+				]
+			],
+			[
+				115600,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"0.7"
+					],
+					[
+						"Change Character",
+						"dad",
+						"nikku-close"
+					],
+					[
+						"Change Character",
+						"bf",
+						"umami-close"
+					],
+					[
+						"Change Camera Zoom",
+						"0.9"
+					]
+				]
+			],
+			[
+				140800,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"1.05",
+						"1"
+					]
+				]
+			],
+			[
+				141800,
+				[
+					[
+						"Change Note Skin",
+						"dad",
+						"NikkuMimicNOTE_assets"
+					]
+				]
+			],
+			[
+				142800,
+				[
+					[
+						"Change Strum Skin",
+						"dad",
+						"NikkuMimicNOTE_assets"
+					]
+				]
+			],
+			[
+				144000,
+				[
+					[
+						"Spawn Spinning Particles",
+						"enzync/umamiparticle",
+						"800"
+					]
+				]
+			],
+			[
+				167600,
+				[
+					[
+						"Spawn Spinning Particles",
+						"enzync/umamiparticle",
+						"800"
+					]
+				]
+			]
+		]
+	}
+}

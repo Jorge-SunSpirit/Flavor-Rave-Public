@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FlavorHUD.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FRHUD0000" x="10" y="10" width="838" height="84"/>
+	<SubTexture name="FRHUD0001" x="10" y="10" width="838" height="84"/>
+	<SubTexture name="FRHUD0002" x="10" y="104" width="838" height="84"/>
+	<SubTexture name="FRHUD0003" x="10" y="198" width="838" height="84"/>
+	<SubTexture name="FRHUD0004" x="10" y="198" width="838" height="84"/>
+	<SubTexture name="FRHUD0005" x="10" y="104" width="838" height="84"/>
+	<SubTexture name="FRHUD0006" x="10" y="104" width="838" height="84"/>
+	<SubTexture name="FRHUD0007" x="10" y="104" width="838" height="84"/>
+	<SubTexture name="FRHUD0008" x="10" y="104" width="838" height="84"/>
+	<SubTexture name="FRHUD0009" x="10" y="104" width="838" height="84"/>
+	<SubTexture name="FRHUD0010" x="10" y="104" width="838" height="84"/>
+	<SubTexture name="FRHUD0011" x="10" y="104" width="838" height="84"/>
+	<SubTexture name="FRHUD0012" x="10" y="104" width="838" height="84"/>
+	<SubTexture name="FRHUD0013" x="10" y="104" width="838" height="84"/>
+</TextureAtlas>

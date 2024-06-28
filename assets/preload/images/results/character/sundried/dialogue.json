@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Holy crap! Did I really just do that? Like... woah! I didn't know I had it in me!",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Ehehe, maybe you're right, Syn. This was really fun!",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "That was... ok! Well, for someone who hadn't rehearsed beforehand, at least.",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I should've practiced off-stream first... I'm a little embarrassed now.",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Uhmm... I might not archive this stream, if that's ok...",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

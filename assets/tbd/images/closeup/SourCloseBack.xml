@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SourCloseBack.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SourBack0000" x="10" y="10" width="634" height="737"/>
+	<SubTexture name="SourBack0001" x="10" y="10" width="634" height="737"/>
+	<SubTexture name="SourBack0002" x="10" y="10" width="634" height="737"/>
+	<SubTexture name="SourBack0003" x="10" y="10" width="634" height="737"/>
+	<SubTexture name="SourBack0004" x="10" y="10" width="634" height="737"/>
+	<SubTexture name="SourBack0005" x="654" y="10" width="634" height="737"/>
+	<SubTexture name="SourBack0006" x="654" y="10" width="634" height="737"/>
+	<SubTexture name="SourBack0007" x="654" y="10" width="634" height="737"/>
+	<SubTexture name="SourBack0008" x="654" y="10" width="634" height="737"/>
+	<SubTexture name="SourBack0009" x="654" y="10" width="634" height="737"/>
+</TextureAtlas>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SuaveSour.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle instance 10000" x="10" y="10" width="307" height="616" frameX="-202" frameY="-10" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10001" x="10" y="10" width="307" height="616" frameX="-202" frameY="-10" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10002" x="327" y="10" width="300" height="608" frameX="-207" frameY="-18" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10003" x="327" y="10" width="300" height="608" frameX="-207" frameY="-18" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10004" x="637" y="10" width="300" height="606" frameX="-207" frameY="-19" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10005" x="637" y="10" width="300" height="606" frameX="-207" frameY="-19" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10006" x="947" y="10" width="297" height="622" frameX="-210" frameY="-3" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10007" x="947" y="10" width="297" height="622" frameX="-210" frameY="-3" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10008" x="1254" y="10" width="301" height="626" frameX="-206" frameY="0" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10009" x="1254" y="10" width="301" height="626" frameX="-206" frameY="0" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10010" x="1254" y="10" width="301" height="626" frameX="-206" frameY="0" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10011" x="1254" y="10" width="301" height="626" frameX="-206" frameY="0" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10012" x="1254" y="10" width="301" height="626" frameX="-206" frameY="0" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="idle instance 10013" x="1254" y="10" width="301" height="626" frameX="-206" frameY="0" frameWidth="510" frameHeight="626"/>
+	
+	<SubTexture name="dance left instance 10014" x="1565" y="10" width="495" height="606" frameX="-13" frameY="-19" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10015" x="2070" y="10" width="508" height="606" frameX="0" frameY="-19" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10016" x="2588" y="10" width="477" height="609" frameX="-29" frameY="-17" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10017" x="2588" y="10" width="477" height="609" frameX="-29" frameY="-17" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10018" x="3075" y="10" width="470" height="613" frameX="-37" frameY="-13" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10019" x="3075" y="10" width="470" height="613" frameX="-37" frameY="-13" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10020" x="3555" y="10" width="349" height="622" frameX="-157" frameY="-4" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10021" x="3555" y="10" width="349" height="622" frameX="-157" frameY="-4" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10022" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10023" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10024" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10025" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10026" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance left instance 10027" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+	
+	<SubTexture name="dance right instance 10028" x="369" y="646" width="461" height="606" frameX="-49" frameY="-19" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10029" x="840" y="646" width="474" height="606" frameX="-36" frameY="-19" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10030" x="1324" y="646" width="450" height="609" frameX="-58" frameY="-17" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10031" x="1324" y="646" width="450" height="609" frameX="-58" frameY="-17" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10032" x="1784" y="646" width="466" height="613" frameX="-41" frameY="-13" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10033" x="1784" y="646" width="466" height="613" frameX="-41" frameY="-13" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10034" x="3555" y="10" width="349" height="622" frameX="-157" frameY="-4" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10035" x="3555" y="10" width="349" height="622" frameX="-157" frameY="-4" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10036" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10037" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10038" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10039" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10040" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+	<SubTexture name="dance right instance 10041" x="10" y="646" width="349" height="621" frameX="-158" frameY="-5" frameWidth="510" frameHeight="626"/>
+</TextureAtlas>

@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["Ignatius", "spicy", [165, 0, 77], ["spicy", "smoky"], "togarashi"]
+	],
+
+	"weekCharacters": [
+		"Smoky",
+		"Spicy",
+		"empty",
+		"empty"
+	],
+	"charaSelect": [
+		"smoky",
+		"spicy"
+	],
+	"weekBackground": "togarashi",
+	"weekType": "Interlude",
+	"storyName": "Interlude 3",
+	"weekBefore": "cchapter3",
+	"weekName": "Stoke the Inferno",
+	"location": "Togarashi Town",
+	"startUnlocked": false,
+	"isExtra": false,
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

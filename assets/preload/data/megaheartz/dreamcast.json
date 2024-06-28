@@ -1,0 +1,95 @@
+{
+	"dialogue": [
+		{
+			"background": "tv",
+			"border": "enz-tv",
+			"character": "Anchor",
+			"text": "Channel 42... This is Enzync City's very own news network. You're watching EnZ-TV. Today's top story:",
+			"bgmVolume": 0.3,
+			"bgm": "110th-street",
+			"voice": ""
+		},
+		{
+			"background": "tv",
+			"character": "Anchor",
+			"text": "Following recent public backlash, CEO of the GlazeCorp comglomerate, Glaze the 11th, announced today in a public statement that he will be stepping down.",
+			"voice": ""
+		},
+		{
+			"background": "tv",
+			"character": "Anchor",
+			"text": "\"It's become clear that in my age, I've lost sight of what we stand for here at GlazeCorp. Upon reflection, I no longer see myself fit to maintain the good will of our company.\"",
+			"voice": ""
+		},
+		{
+			"background": "tv",
+			"character": "Anchor",
+			"text": "\"I will be stepping down from my position, and in my stead, new younger blood will fill my shoes to lead GlazeCorp into a more acceptable future.\"",
+			"voice": ""
+		},
+		{
+			"background": "tv",
+			"character": "Anchor",
+			"text": "Following this statement came the announcement that the former CEO's son will be filling his role as CEO of GlazeCorp.",
+			"voice": ""
+		},
+		{
+			"background": "69",
+			"character": "Anchor",
+			"text": "We come to you live from outside GlazeCorp's Enzync City offices to speak with the new CEO on what his plans on taking the corperation forward will be.",
+			"voice": ""
+		},
+		{
+			"background": "69",
+			"character": "Anchor",
+			"text": "\"Umm... Well, the thing is-\"",
+			"voice": ""
+		},
+		{
+			"background": "68",
+			"character": "Anchor",
+			"text": "[AGGRESSIVE STATIC]",
+            "bgm": "stop",
+			"voice": ""
+		},
+		{
+			"background": "70",
+			"character": "Rika",
+			"chara": ["rika", 0, true],
+			"sound": ["rika","yoyo"],
+			"text": "Yoyo, we coming in clear?",
+			"voice": ""
+		},
+		{
+			"background": "70",
+			"character": "Rika",
+			"chara": ["rika", 0, true],
+			"text": "What's good, Enzync? It's about time this channel aired something worth watching!",
+			"bgmVolume": 0.3,
+            "bgm": "resume",
+			"voice": ""
+		},
+		{
+			"background": "70",
+			"character": "Rika",
+			"chara": ["rika", 0, true],
+			"text": "I hear this city is supposed to be \"Culture Capital Number 1\", so let's put some merit to that claim!",
+			"voice": ""
+		},
+		{
+			"background": "70",
+			"character": "Rika",
+			"chara": ["rika", 0, true],
+			"text": "And what better than havin' your very own rising stars here to remind you what it's all about?",
+			"voice": ""
+		},
+		{
+			"background": "70",
+			"character": "Rika",
+			"chara": ["rika", 2, true],
+			"sound": ["rika","killer"],
+			"text": "Let's get into rhythm, Enzync!",
+			"voice": ""
+		}
+	]
+}

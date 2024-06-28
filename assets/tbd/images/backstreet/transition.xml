@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="transition.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SmokeTrans0000" x="8" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0001" x="8" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0002" x="1296" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0003" x="1296" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0004" x="2584" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0005" x="2584" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0006" x="3872" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0007" x="3872" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0008" x="5160" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0009" x="5160" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0010" x="6448" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0011" x="6448" y="8" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0012" x="8" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0013" x="8" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0014" x="1296" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0015" x="1296" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0016" x="2584" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0017" x="2584" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0018" x="3872" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0019" x="3872" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0020" x="5160" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0021" x="5160" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0022" x="6448" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0023" x="6448" y="736" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0024" x="8" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0025" x="8" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0026" x="1296" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0027" x="1296" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0028" x="2584" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0029" x="2584" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0030" x="3872" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0031" x="3872" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0032" x="5160" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0033" x="5160" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0034" x="6448" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0035" x="6448" y="1464" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0036" x="8" y="2192" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0037" x="8" y="2192" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0038" x="1296" y="2192" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0039" x="1296" y="2192" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0040" x="2584" y="2192" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0041" x="2584" y="2192" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0042" x="3872" y="2192" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0043" x="3872" y="2192" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0044" x="5160" y="2192" width="1280" height="720"/>
+	<SubTexture name="SmokeTrans0045" x="5160" y="2192" width="1280" height="720"/>
+</TextureAtlas>

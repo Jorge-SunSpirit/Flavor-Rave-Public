@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="savory_clones_FG.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="appear0000" x="10" y="10" width="1631" height="852" frameX="-33" frameY="-14" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0001" x="10" y="10" width="1631" height="852" frameX="-33" frameY="-14" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0002" x="1651" y="10" width="1578" height="797" frameX="-59" frameY="-41" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0003" x="1651" y="10" width="1578" height="797" frameX="-59" frameY="-41" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0004" x="3239" y="10" width="1582" height="779" frameX="-57" frameY="-51" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0005" x="3239" y="10" width="1582" height="779" frameX="-57" frameY="-51" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0006" x="4831" y="10" width="1581" height="753" frameX="-58" frameY="-53" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0007" x="4831" y="10" width="1581" height="753" frameX="-58" frameY="-53" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0008" x="6422" y="10" width="1561" height="706" frameX="-66" frameY="-66" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0009" x="6422" y="10" width="1561" height="706" frameX="-66" frameY="-66" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0010" x="10" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0011" x="10" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0012" x="1573" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="appear0013" x="1573" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+	
+	<SubTexture name="idle0014" x="3136" y="872" width="1494" height="715" frameX="-99" frameY="-81" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0015" x="3136" y="872" width="1494" height="715" frameX="-99" frameY="-81" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0016" x="4640" y="872" width="1493" height="710" frameX="-99" frameY="-82" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0017" x="4640" y="872" width="1493" height="710" frameX="-99" frameY="-82" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0018" x="6143" y="872" width="1513" height="708" frameX="-89" frameY="-84" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0019" x="6143" y="872" width="1513" height="708" frameX="-89" frameY="-84" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0020" x="10" y="1597" width="1532" height="703" frameX="-80" frameY="-76" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0021" x="10" y="1597" width="1532" height="703" frameX="-80" frameY="-76" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0022" x="1552" y="1597" width="1561" height="706" frameX="-66" frameY="-66" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0023" x="1552" y="1597" width="1561" height="706" frameX="-66" frameY="-66" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0024" x="1573" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0025" x="1573" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0026" x="1573" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="idle0027" x="1573" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+
+	<SubTexture name="vanish0028" x="1573" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0029" x="1573" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0030" x="10" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0031" x="10" y="872" width="1553" height="704" frameX="-70" frameY="-70" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0032" x="1651" y="10" width="1578" height="797" frameX="-59" frameY="-41" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0033" x="1651" y="10" width="1578" height="797" frameX="-59" frameY="-41" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0034" x="10" y="10" width="1631" height="852" frameX="-33" frameY="-14" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0035" x="10" y="10" width="1631" height="852" frameX="-33" frameY="-14" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0036" x="3123" y="1597" width="1630" height="849" frameX="-33" frameY="-15" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0037" x="3123" y="1597" width="1630" height="849" frameX="-33" frameY="-15" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0038" x="4763" y="1597" width="1650" height="847" frameX="-23" frameY="-17" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0039" x="4763" y="1597" width="1650" height="847" frameX="-23" frameY="-17" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0040" x="6423" y="1597" width="1669" height="841" frameX="-14" frameY="-9" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0041" x="6423" y="1597" width="1669" height="841" frameX="-14" frameY="-9" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0042" x="10" y="2456" width="1698" height="843" frameX="0" frameY="0" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0043" x="10" y="2456" width="1698" height="843" frameX="0" frameY="0" frameWidth="1698" frameHeight="866"/>
+	<SubTexture name="vanish0044" x="1718" y="2456" width="1650" height="847" frameX="-23" frameY="-17" frameWidth="1698" frameHeight="866"/>
+</TextureAtlas>

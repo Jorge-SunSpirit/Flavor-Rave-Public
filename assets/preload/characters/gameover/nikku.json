@@ -1,0 +1,14 @@
+{
+	"image": "gameover/NikkuGo",
+	"animation": "NikkuGO",
+	"spriteOffset": [520,500],
+	"flip_x": false,
+	"scale": 1.2,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "nikku/1",
+			"opponent": ""
+		}
+	]
+}

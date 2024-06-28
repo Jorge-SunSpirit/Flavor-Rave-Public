@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fogleft.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fogleft0000" x="10" y="10" width="816" height="287"/>
+	<SubTexture name="fogleft0001" x="10" y="10" width="816" height="287"/>
+	<SubTexture name="fogleft0002" x="10" y="10" width="816" height="287"/>
+	<SubTexture name="fogleft0003" x="10" y="307" width="816" height="287"/>
+	<SubTexture name="fogleft0004" x="10" y="307" width="816" height="287"/>
+	<SubTexture name="fogleft0005" x="10" y="307" width="816" height="287"/>
+	<SubTexture name="fogleft0006" x="10" y="604" width="816" height="287"/>
+	<SubTexture name="fogleft0007" x="10" y="604" width="816" height="287"/>
+	<SubTexture name="fogleft0008" x="10" y="604" width="816" height="287"/>
+</TextureAtlas>

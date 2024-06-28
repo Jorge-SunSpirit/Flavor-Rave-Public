@@ -1,0 +1,6 @@
+Spawn Particles
+Doing it a second time will disable it afterwards
+
+Value 1: Sprite
+can have multiple split it if need be. example (sprite1,sprite2)
+Value 2: direction (left, right, up, down)

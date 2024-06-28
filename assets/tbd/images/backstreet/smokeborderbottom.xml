@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="smokeborderbottom.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BorderSmokyBottom instance 10000" x="8" y="8" width="1401" height="304"/>
+	<SubTexture name="BorderSmokyBottom instance 10001" x="8" y="8" width="1401" height="304"/>
+	<SubTexture name="BorderSmokyBottom instance 10002" x="8" y="8" width="1401" height="304"/>
+	<SubTexture name="BorderSmokyBottom instance 10003" x="8" y="8" width="1401" height="304"/>
+	<SubTexture name="BorderSmokyBottom instance 10004" x="8" y="320" width="1398" height="301" frameX="-2" frameY="-3" frameWidth="1401" frameHeight="304"/>
+	<SubTexture name="BorderSmokyBottom instance 10005" x="8" y="320" width="1398" height="301" frameX="-2" frameY="-3" frameWidth="1401" frameHeight="304"/>
+	<SubTexture name="BorderSmokyBottom instance 10006" x="8" y="320" width="1398" height="301" frameX="-2" frameY="-3" frameWidth="1401" frameHeight="304"/>
+	<SubTexture name="BorderSmokyBottom instance 10007" x="8" y="320" width="1398" height="301" frameX="-2" frameY="-3" frameWidth="1401" frameHeight="304"/>
+	<SubTexture name="BorderSmokyBottom instance 10008" x="8" y="629" width="1400" height="302" frameX="-1" frameY="-2" frameWidth="1401" frameHeight="304"/>
+	<SubTexture name="BorderSmokyBottom instance 10009" x="8" y="629" width="1400" height="302" frameX="-1" frameY="-2" frameWidth="1401" frameHeight="304"/>
+	<SubTexture name="BorderSmokyBottom instance 10010" x="8" y="629" width="1400" height="302" frameX="-1" frameY="-2" frameWidth="1401" frameHeight="304"/>
+	<SubTexture name="BorderSmokyBottom instance 10011" x="8" y="629" width="1400" height="302" frameX="-1" frameY="-2" frameWidth="1401" frameHeight="304"/>
+</TextureAtlas>

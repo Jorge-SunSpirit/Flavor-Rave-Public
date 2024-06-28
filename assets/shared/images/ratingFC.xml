@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ratingFC.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FC0000" x="10" y="10" width="1280" height="720"/>
+	<SubTexture name="FC0001" x="1300" y="10" width="1280" height="720"/>
+	<SubTexture name="FC0002" x="2590" y="10" width="1280" height="720"/>
+	<SubTexture name="FC0003" x="3880" y="10" width="1280" height="720"/>
+	<SubTexture name="FC0004" x="5170" y="10" width="1280" height="720"/>
+	<SubTexture name="FC0005" x="6460" y="10" width="1280" height="720"/>
+	<SubTexture name="FC0006" x="10" y="740" width="1280" height="720"/>
+	<SubTexture name="FC0007" x="1300" y="740" width="1280" height="720"/>
+	<SubTexture name="FC0008" x="2590" y="740" width="1280" height="720"/>
+	<SubTexture name="FC0009" x="3880" y="740" width="1280" height="720"/>
+	<SubTexture name="FC0010" x="5170" y="740" width="1280" height="720"/>
+	<SubTexture name="FC0011" x="6460" y="740" width="1280" height="720"/>
+	<SubTexture name="FC0012" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="FC0013" x="1300" y="1470" width="1280" height="720"/>
+	<SubTexture name="FC0014" x="2590" y="1470" width="1280" height="720"/>
+	<SubTexture name="FC0015" x="3880" y="1470" width="1280" height="720"/>
+	<SubTexture name="FC0016" x="5170" y="1470" width="1280" height="720"/>
+	<SubTexture name="FC0017" x="6460" y="1470" width="1280" height="720"/>
+	<SubTexture name="FC0018" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0019" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0020" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0021" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0022" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0023" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0024" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0025" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0026" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0027" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0028" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0029" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0030" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0031" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0032" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0033" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0034" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0035" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0036" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0037" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="FC0038" x="10" y="2200" width="1280" height="720"/>
+</TextureAtlas>

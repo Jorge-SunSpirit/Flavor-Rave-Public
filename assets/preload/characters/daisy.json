@@ -1,0 +1,181 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				91,
+				-30
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "alt left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				-9
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "alt down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				169,
+				40
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "alt up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-63,
+				-8
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "alt right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				81,
+				-31
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "miss left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-52,
+				-18
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "miss down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-39,
+				26
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "miss up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-77,
+				-20
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "miss right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				74,
+				-24
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-45,
+				-1
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-16,
+				27
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-71,
+				-25
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				247,
+				13
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "introanim",
+			"loop": false,
+			"name": "introanim"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Daisy",
+	"position": [
+		0,
+		-80
+	],
+	"healthicon": "daisy",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		195,
+		129
+	],
+	"camera_position": [
+		100,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1.1,
+	"noteskin": "Daisy",
+	"healthbar_image": "daisy",
+	"charaFloat": true,
+	"musicNoteOffset": [-100,-200]
+}

@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "ShowmanIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				90
+			],
+			"anim": "gasp",
+			"fps": 24,
+			"name": "ShowmanMONEY",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "ShowmanHappyIdle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/showman",
+	"position": [
+		0,
+		-76
+	],
+	"healthicon": "showman",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		60,
+		115
+	],
+	"camera_position": [
+		-110,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

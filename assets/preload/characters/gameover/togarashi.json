@@ -1,0 +1,22 @@
+{
+	"image": "gameover/TogarashiGO",
+	"animation": "TogarashiGO",
+	"spriteOffset": [800,450],
+	"flip_x": false,
+	"scale": 1.3,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "smoky/1",
+			"opponent": ""
+		},
+		{
+			"sound": "spicy/1",
+			"opponent": ""
+		},
+		{
+			"sound": "spicy/2",
+			"opponent": ""
+		}
+	]
+}

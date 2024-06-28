@@ -1,0 +1,87 @@
+{
+	"search.exclude": {
+		"export/**/*.hx": true
+	},
+	"[haxe]": {
+		"editor.formatOnPaste": false
+	},
+	"haxe.enableExtendedIndentation": true,
+	"restructuredtext.confPath": "${workspaceFolder}\\docs",
+	"editor.formatOnSave": false,
+	"editor.fontWeight": "normal",
+	"cmake.configureOnOpen": false,
+
+	"lime.projectFile": "Project.xml",
+	"lime.targetConfigurations": [
+		{
+		  "label": "Windows / Debug (Main Menu)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=menu"]
+		},
+		{
+		  "label": "Windows / Debug (Story Menu)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=story"]
+		},
+		{
+		  "label": "Windows / Debug (Freeplay Menu)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=freeplay"]
+		},
+		{
+		  "label": "Windows / Debug (Mods Menu)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=mods"]
+		},
+		{
+		  "label": "Windows / Debug (Credits Menu)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=credits"]
+		},
+		{
+		  "label": "Windows / Debug (Options Menu)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=options"]
+		},
+		{
+		  "label": "Windows / Debug (Debug Menu)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=debug"]
+		},
+		{
+		  "label": "Windows / Debug (Character Editor)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=character"]
+		},
+		{
+		  "label": "Windows / Debug (SynSun)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=sunsynth"]
+		},
+		{
+		  "label": "Windows / Debug (SynSun, First Time)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=sunsynthfirst"]
+		},
+		{
+		  "label": "Windows / Debug (Gallery Menu)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=gallery"]
+		},
+		{
+		  "label": "Windows / Debug (Flavorpedia)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=flavorpedia"]
+		},
+		{
+		  "label": "Windows / Debug (Flavorpedia, Main Cast)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=flavorpediamain"]
+		},
+		{
+		  "label": "Windows / Debug (Flavorpedia, Side Characters)",
+		  "target": "windows",
+		  "args": ["-debug", "-DARG=flavorpediaside"]
+		}
+	]
+}

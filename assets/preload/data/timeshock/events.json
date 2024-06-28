@@ -1,0 +1,776 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Screen Shake",
+						"0.5,0.02",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						"0.01",
+						"0"
+					],
+					[
+						"Note Camera Movement",
+						"7",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.62",
+						"0.01"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1"
+					]
+				]
+			],
+			[
+				93.75,
+				[
+					[
+						"Change Camera Zoom",
+						"0.5",
+						"3"
+					]
+				]
+			],
+			[
+				6000,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						"0"
+					],
+					[
+						"Screen Shake",
+						"0.5,0.02",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.62",
+						"0.01"
+					]
+				]
+			],
+			[
+				6093.75,
+				[
+					[
+						"Change Camera Zoom",
+						"0.5",
+						"3"
+					]
+				]
+			],
+			[
+				11437.5,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"122"
+					]
+				]
+			],
+			[
+				12000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.6",
+						"3"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"128"
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.7",
+						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"256"
+					]
+				]
+			],
+			[
+				36000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.02"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"384"
+					]
+				]
+			],
+			[
+				46500,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"496"
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.5",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.01",
+						"0.02"
+					],
+					[
+						"Stage Lights",
+						"all",
+						""
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"512"
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.62",
+						"0.6"
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.55",
+						""
+					]
+				]
+			],
+			[
+				77906.25,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				78000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.01"
+					]
+				]
+			],
+			[
+				78375,
+				[
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.01"
+					]
+				]
+			],
+			[
+				78750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.01"
+					]
+				]
+			],
+			[
+				79500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.01"
+					]
+				]
+			],
+			[
+				79875,
+				[
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.01"
+					]
+				]
+			],
+			[
+				80250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.01"
+					]
+				]
+			],
+			[
+				81000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.01"
+					]
+				]
+			],
+			[
+				81750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.01"
+					]
+				]
+			],
+			[
+				82500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.01"
+					]
+				]
+			],
+			[
+				83250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.01"
+					]
+				]
+			],
+			[
+				84000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.01",
+						"0.02"
+					],
+					[
+						"Change Camera Zoom",
+						"0.63",
+						""
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.57",
+						""
+					],
+					[
+						"Stage Lights",
+						"sour",
+						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1024"
+					]
+				]
+			],
+			[
+				96750,
+				[
+					[
+						"Stage Lights",
+						"sweet",
+						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1032"
+					]
+				]
+			],
+			[
+				97500,
+				[
+					[
+						"Stage Lights",
+						"sour",
+						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1040"
+					]
+				]
+			],
+			[
+				98250,
+				[
+					[
+						"Stage Lights",
+						"sweet",
+						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1048"
+					]
+				]
+			],
+			[
+				99000,
+				[
+					[
+						"Stage Lights",
+						"sour",
+						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1056"
+					]
+				]
+			],
+			[
+				99750,
+				[
+					[
+						"Stage Lights",
+						"sweet",
+						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1064"
+					]
+				]
+			],
+			[
+				100500,
+				[
+					[
+						"Change Camera Zoom",
+						"0.64",
+						"0.3"
+					],
+					[
+						"Stage Lights",
+						"all",
+						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1072"
+					]
+				]
+			],
+			[
+				102000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.56",
+						"0.3"
+					]
+				]
+			],
+			[
+				105000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.6",
+						"0.3"
+					]
+				]
+			],
+			[
+				107906.25,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.7",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						"0.008",
+						"0.02"
+					],
+					[
+						"Stage Lights",
+						"sour",
+						""
+					]
+				]
+			],
+			[
+				114000,
+				[
+					[
+						"Stage Lights",
+						"sweet",
+						""
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Stage Lights",
+						"all",
+						""
+					]
+				]
+			],
+			[
+				126000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.5",
+						""
+					]
+				]
+			],
+			[
+				131906.25,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				132000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.85",
+						""
+					],
+					[
+						"Stage Lights",
+						"off",
+						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1408"
+					]
+				]
+			],
+			[
+				157500,
+				[
+					[
+						"Spawn Particles",
+						"closeup/RaveParticle",
+						"500"
+					],
+					[
+						"Screen Flash",
+						"0.6",
+						"white"
+					],
+					[
+						"Play SFX",
+						"RaveEngage",
+						"0.6"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1680"
+					]
+				]
+			],
+			[
+				159375,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1700"
+					]
+				]
+			],
+			[
+				168000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				174000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				177000,
+				[
+					[
+						"Play SFX",
+						"RAVEsfx",
+						"0.6"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1888"
+					]
+				]
+			],
+			[
+				179906.25,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					]
+				]
+			],
+			[
+				180000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.4",
+						"0.02"
+					],
+					[
+						"Change Character",
+						"dad",
+						"sour-rave"
+					],
+					[
+						"Change Character",
+						"bf",
+						"sweet-rave"
+					],
+					[
+						"Screen Flash",
+						"0.7",
+						"white"
+					],
+					[
+						"Play SFX",
+						"RAVEFlash",
+						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1920"
+					],
+					[
+						"Set Lane Transparency",
+						"0.5",
+						"0.3"
+					]
+				]
+			],
+			[
+				181500,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				203625,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2172"
+					]
+				]
+			],
+			[
+				204000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.03",
+						"0.03"
+					],
+					[
+						"Stage Lights",
+						"all",
+						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"2176"
+					],
+					[
+						"Set Lane Transparency",
+						"0",
+						"0.3"
+					]
+				]
+			],
+			[
+				204187.5,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2178"
+					]
+				]
+			],
+			[
+				227906.25,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				228000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				229500,
+				[
+					[
+						"Spawn Particles",
+						"closeup/sourparticle,closeup/sweetparticle",
+						"500"
+					]
+				]
+			],
+			[
+				231000,
+				[
+					[
+						"Stage Lights",
+						"off",
+						""
+					],
+					[
+						"Screen Flash",
+						"0.6",
+						"white"
+					],
+					[
+						"Change Character",
+						"bf",
+						"sweet"
+					],
+					[
+						"Change Character",
+						"dad",
+						"sour"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"2464"
+					]
+				]
+			]
+		]
+	}
+}

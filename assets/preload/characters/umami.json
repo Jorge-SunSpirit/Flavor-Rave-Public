@@ -1,0 +1,191 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-127,
+				41
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "UmamiIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-77,
+				41
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "UmamiLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-91,
+				-53
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "UmamiDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				96
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "UmamiUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-129,
+				22
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "UmamiRight",
+			"indices": []
+		},
+		{
+			"offsets": [
+				713,
+				101
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "saxcall",
+			"indices": [],
+			"name": "UmamiSaxCall"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-69,
+				40
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "UmamiSaxIdle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				68,
+				40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "UmamiSaxLeft"
+		},
+		{
+			"offsets": [
+				-128,
+				43
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "UmamiSaxRight"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-79,
+				82
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "UmamiSaxUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-91,
+				-59
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "UmamiSaxDown",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-77,
+				42
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "UmamiMissLeft"
+		},
+		{
+			"offsets": [
+				-13,
+				-57
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "UmamiMissDown"
+		},
+		{
+			"offsets": [
+				-33,
+				96
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "UmamiMissUp"
+		},
+		{
+			"offsets": [
+				-132,
+				42
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "UmamiMissRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Umami",
+	"position": [
+		-10,
+		80
+	],
+	"healthicon": "umami",
+	"flip_x": false,
+	"healthbar_colors": [
+		100,
+		160,
+		80
+	],
+	"camera_position": [
+		0,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 1.1,
+	"noteskin": "Umami",
+	"healthbar_image": "umami",
+	"musicNoteOffset": [-100,-200]
+}

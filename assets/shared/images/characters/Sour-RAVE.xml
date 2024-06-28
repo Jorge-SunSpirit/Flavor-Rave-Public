@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sour-RAVE.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="RAVESOUR Down0000" x="8" y="8" width="522" height="530" frameX="0" frameY="-3" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0001" x="8" y="8" width="522" height="530" frameX="0" frameY="-3" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0002" x="538" y="8" width="487" height="519" frameX="-6" frameY="-15" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0003" x="538" y="8" width="487" height="519" frameX="-6" frameY="-15" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0004" x="1033" y="8" width="480" height="532" frameX="-6" frameY="-2" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0005" x="1033" y="8" width="480" height="532" frameX="-6" frameY="-2" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0006" x="1521" y="8" width="480" height="534" frameX="-5" frameY="0" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0007" x="1521" y="8" width="480" height="534" frameX="-5" frameY="0" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0008" x="2009" y="8" width="480" height="526" frameX="-5" frameY="-8" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0009" x="2009" y="8" width="480" height="526" frameX="-5" frameY="-8" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0010" x="2497" y="8" width="480" height="533" frameX="-5" frameY="-1" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0011" x="2497" y="8" width="480" height="533" frameX="-5" frameY="-1" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0012" x="1521" y="8" width="480" height="534" frameX="-5" frameY="0" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down0013" x="1521" y="8" width="480" height="534" frameX="-5" frameY="0" frameWidth="522" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0000" x="2985" y="8" width="515" height="530" frameX="0" frameY="-3" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0001" x="2985" y="8" width="515" height="530" frameX="0" frameY="-3" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0002" x="3508" y="8" width="488" height="519" frameX="-9" frameY="-15" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0003" x="3508" y="8" width="488" height="519" frameX="-9" frameY="-15" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0004" x="4004" y="8" width="484" height="532" frameX="-10" frameY="-2" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0005" x="4004" y="8" width="484" height="532" frameX="-10" frameY="-2" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0006" x="4496" y="8" width="482" height="534" frameX="-11" frameY="0" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0007" x="4496" y="8" width="482" height="534" frameX="-11" frameY="0" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0008" x="4986" y="8" width="482" height="526" frameX="-11" frameY="-8" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0009" x="4986" y="8" width="482" height="526" frameX="-11" frameY="-8" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0010" x="5476" y="8" width="482" height="533" frameX="-11" frameY="-1" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0011" x="5476" y="8" width="482" height="533" frameX="-11" frameY="-1" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0012" x="4496" y="8" width="482" height="534" frameX="-11" frameY="0" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down keytar0013" x="4496" y="8" width="482" height="534" frameX="-11" frameY="0" frameWidth="515" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0000" x="5966" y="8" width="522" height="530" frameX="-7" frameY="-4" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0001" x="5966" y="8" width="522" height="530" frameX="-7" frameY="-4" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0002" x="6496" y="8" width="531" height="512" frameX="0" frameY="-22" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0003" x="6496" y="8" width="531" height="512" frameX="0" frameY="-22" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0004" x="7035" y="8" width="521" height="534" frameX="-8" frameY="0" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0005" x="7035" y="8" width="521" height="534" frameX="-8" frameY="0" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0006" x="7564" y="8" width="522" height="530" frameX="-7" frameY="-4" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0007" x="7564" y="8" width="522" height="530" frameX="-7" frameY="-4" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0008" x="8" y="550" width="522" height="530" frameX="-7" frameY="-4" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0009" x="8" y="550" width="522" height="530" frameX="-7" frameY="-4" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0010" x="7564" y="8" width="522" height="530" frameX="-7" frameY="-4" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0011" x="7564" y="8" width="522" height="530" frameX="-7" frameY="-4" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0012" x="8" y="550" width="522" height="530" frameX="-7" frameY="-4" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Down miss0013" x="8" y="550" width="522" height="530" frameX="-7" frameY="-4" frameWidth="531" frameHeight="534"/>
+	<SubTexture name="RAVESOUR Left0000" x="538" y="550" width="538" height="615" frameX="0" frameY="0" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0001" x="538" y="550" width="538" height="615" frameX="0" frameY="0" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0002" x="1084" y="550" width="524" height="609" frameX="-16" frameY="-6" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0003" x="1084" y="550" width="524" height="609" frameX="-16" frameY="-6" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0004" x="1616" y="550" width="523" height="610" frameX="-17" frameY="-5" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0005" x="1616" y="550" width="523" height="610" frameX="-17" frameY="-5" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0006" x="2147" y="550" width="523" height="613" frameX="-17" frameY="-2" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0007" x="2147" y="550" width="523" height="613" frameX="-17" frameY="-2" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0008" x="2678" y="550" width="523" height="611" frameX="-17" frameY="-4" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0009" x="2678" y="550" width="523" height="611" frameX="-17" frameY="-4" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0010" x="3209" y="550" width="523" height="610" frameX="-17" frameY="-5" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0011" x="3209" y="550" width="523" height="610" frameX="-17" frameY="-5" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0012" x="2147" y="550" width="523" height="613" frameX="-17" frameY="-2" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left0013" x="2147" y="550" width="523" height="613" frameX="-17" frameY="-2" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0000" x="3740" y="550" width="538" height="615" frameX="0" frameY="0" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0001" x="3740" y="550" width="538" height="615" frameX="0" frameY="0" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0002" x="4286" y="550" width="524" height="609" frameX="-16" frameY="-6" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0003" x="4286" y="550" width="524" height="609" frameX="-16" frameY="-6" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0004" x="4818" y="550" width="523" height="610" frameX="-17" frameY="-5" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0005" x="4818" y="550" width="523" height="610" frameX="-17" frameY="-5" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0006" x="5349" y="550" width="523" height="613" frameX="-17" frameY="-2" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0007" x="5349" y="550" width="523" height="613" frameX="-17" frameY="-2" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0008" x="5880" y="550" width="523" height="611" frameX="-17" frameY="-4" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0009" x="5880" y="550" width="523" height="611" frameX="-17" frameY="-4" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0010" x="6411" y="550" width="523" height="610" frameX="-17" frameY="-5" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0011" x="6411" y="550" width="523" height="610" frameX="-17" frameY="-5" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0012" x="5349" y="550" width="523" height="613" frameX="-17" frameY="-2" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left keytar0013" x="5349" y="550" width="523" height="613" frameX="-17" frameY="-2" frameWidth="540" frameHeight="615"/>
+	<SubTexture name="RAVESOUR Left miss0000" x="6942" y="550" width="538" height="615" frameX="-41" frameY="-2" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0001" x="7488" y="550" width="538" height="615" frameX="-41" frameY="-2" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0002" x="8" y="1173" width="580" height="610" frameX="0" frameY="-7" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0003" x="8" y="1173" width="580" height="610" frameX="0" frameY="-7" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0004" x="596" y="1173" width="552" height="617" frameX="-26" frameY="0" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0005" x="596" y="1173" width="552" height="617" frameX="-26" frameY="0" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0006" x="1156" y="1173" width="549" height="612" frameX="-30" frameY="-5" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0007" x="1156" y="1173" width="549" height="612" frameX="-30" frameY="-5" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0008" x="1713" y="1173" width="549" height="612" frameX="-30" frameY="-5" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0009" x="1713" y="1173" width="549" height="612" frameX="-30" frameY="-5" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0010" x="1156" y="1173" width="549" height="612" frameX="-30" frameY="-5" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0011" x="1156" y="1173" width="549" height="612" frameX="-30" frameY="-5" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0012" x="1713" y="1173" width="549" height="612" frameX="-30" frameY="-5" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Left miss0013" x="1713" y="1173" width="549" height="612" frameX="-30" frameY="-5" frameWidth="580" frameHeight="617"/>
+	<SubTexture name="RAVESOUR Right0000" x="2270" y="1173" width="601" height="598" frameX="-6" frameY="0" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0001" x="2270" y="1173" width="601" height="598" frameX="-6" frameY="0" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0002" x="2879" y="1173" width="590" height="590" frameX="-3" frameY="-8" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0003" x="2879" y="1173" width="590" height="590" frameX="-3" frameY="-8" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0004" x="3477" y="1173" width="567" height="581" frameX="0" frameY="-17" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0005" x="3477" y="1173" width="567" height="581" frameX="0" frameY="-17" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0006" x="4052" y="1173" width="564" height="583" frameX="0" frameY="-15" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0007" x="4052" y="1173" width="564" height="583" frameX="0" frameY="-15" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0008" x="4624" y="1173" width="564" height="583" frameX="0" frameY="-15" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0009" x="4624" y="1173" width="564" height="583" frameX="0" frameY="-15" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0010" x="5196" y="1173" width="564" height="580" frameX="0" frameY="-18" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0011" x="5196" y="1173" width="564" height="580" frameX="0" frameY="-18" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0012" x="4052" y="1173" width="564" height="583" frameX="0" frameY="-15" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right0013" x="4052" y="1173" width="564" height="583" frameX="0" frameY="-15" frameWidth="607" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0000" x="5768" y="1173" width="568" height="598" frameX="-6" frameY="0" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0001" x="5768" y="1173" width="568" height="598" frameX="-6" frameY="0" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0002" x="6344" y="1173" width="559" height="590" frameX="-3" frameY="-8" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0003" x="6344" y="1173" width="559" height="590" frameX="-3" frameY="-8" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0004" x="6911" y="1173" width="553" height="581" frameX="0" frameY="-17" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0005" x="6911" y="1173" width="553" height="581" frameX="0" frameY="-17" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0006" x="7472" y="1173" width="552" height="583" frameX="0" frameY="-15" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0007" x="7472" y="1173" width="552" height="583" frameX="0" frameY="-15" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0008" x="8" y="1798" width="552" height="583" frameX="0" frameY="-15" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0009" x="8" y="1798" width="552" height="583" frameX="0" frameY="-15" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0010" x="568" y="1798" width="552" height="580" frameX="0" frameY="-18" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0011" x="568" y="1798" width="552" height="580" frameX="0" frameY="-18" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0012" x="7472" y="1173" width="552" height="583" frameX="0" frameY="-15" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right keytar0013" x="7472" y="1173" width="552" height="583" frameX="0" frameY="-15" frameWidth="574" frameHeight="598"/>
+	<SubTexture name="RAVESOUR Right miss0000" x="1128" y="1798" width="589" height="598" frameX="0" frameY="-1" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0001" x="1128" y="1798" width="589" height="598" frameX="0" frameY="-1" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0002" x="1725" y="1798" width="616" height="592" frameX="-1" frameY="-7" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0003" x="1725" y="1798" width="616" height="592" frameX="-1" frameY="-7" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0004" x="2349" y="1798" width="589" height="599" frameX="-2" frameY="0" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0005" x="2349" y="1798" width="589" height="599" frameX="-2" frameY="0" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0006" x="2946" y="1798" width="589" height="598" frameX="0" frameY="-1" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0007" x="2946" y="1798" width="589" height="598" frameX="0" frameY="-1" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0008" x="3543" y="1798" width="589" height="598" frameX="0" frameY="-1" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0009" x="3543" y="1798" width="589" height="598" frameX="0" frameY="-1" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0010" x="2946" y="1798" width="589" height="598" frameX="0" frameY="-1" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0011" x="2946" y="1798" width="589" height="598" frameX="0" frameY="-1" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0012" x="3543" y="1798" width="589" height="598" frameX="0" frameY="-1" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Right miss0013" x="3543" y="1798" width="589" height="598" frameX="0" frameY="-1" frameWidth="617" frameHeight="599"/>
+	<SubTexture name="RAVESOUR Up0000" x="4140" y="1798" width="472" height="830" frameX="-9" frameY="0" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0001" x="4140" y="1798" width="472" height="830" frameX="-9" frameY="0" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0002" x="4620" y="1798" width="494" height="812" frameX="-6" frameY="-18" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0003" x="4620" y="1798" width="494" height="812" frameX="-6" frameY="-18" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0004" x="5122" y="1798" width="502" height="804" frameX="-1" frameY="-26" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0005" x="5122" y="1798" width="502" height="804" frameX="-1" frameY="-26" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0006" x="5632" y="1798" width="504" height="800" frameX="0" frameY="-30" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0007" x="5632" y="1798" width="504" height="800" frameX="0" frameY="-30" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0008" x="6144" y="1798" width="504" height="800" frameX="0" frameY="-30" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0009" x="6144" y="1798" width="504" height="800" frameX="0" frameY="-30" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0010" x="6656" y="1798" width="504" height="800" frameX="0" frameY="-30" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0011" x="6656" y="1798" width="504" height="800" frameX="0" frameY="-30" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0012" x="5632" y="1798" width="504" height="800" frameX="0" frameY="-30" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up0013" x="5632" y="1798" width="504" height="800" frameX="0" frameY="-30" frameWidth="504" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up keytar0000" x="7168" y="1798" width="478" height="640" frameX="-9" frameY="-5" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0001" x="7168" y="1798" width="478" height="640" frameX="-9" frameY="-5" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0002" x="7654" y="1798" width="490" height="645" frameX="-6" frameY="0" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0003" x="7654" y="1798" width="490" height="645" frameX="-6" frameY="0" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0004" x="8" y="2636" width="498" height="645" frameX="-1" frameY="0" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0005" x="8" y="2636" width="498" height="645" frameX="-1" frameY="0" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0006" x="514" y="2636" width="500" height="640" frameX="0" frameY="-5" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0007" x="514" y="2636" width="500" height="640" frameX="0" frameY="-5" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0008" x="1022" y="2636" width="500" height="640" frameX="0" frameY="-5" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0009" x="1022" y="2636" width="500" height="640" frameX="0" frameY="-5" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0010" x="1530" y="2636" width="500" height="642" frameX="0" frameY="-3" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0011" x="1530" y="2636" width="500" height="642" frameX="0" frameY="-3" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0012" x="514" y="2636" width="500" height="640" frameX="0" frameY="-5" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up keytar0013" x="514" y="2636" width="500" height="640" frameX="0" frameY="-5" frameWidth="500" frameHeight="645"/>
+	<SubTexture name="RAVESOUR Up miss0000" x="2038" y="2636" width="472" height="830" frameX="0" frameY="0" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0001" x="2038" y="2636" width="472" height="830" frameX="0" frameY="0" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0002" x="2518" y="2636" width="486" height="803" frameX="-1" frameY="-27" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0003" x="2518" y="2636" width="486" height="803" frameX="-1" frameY="-27" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0004" x="3012" y="2636" width="469" height="829" frameX="-4" frameY="-1" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0005" x="3012" y="2636" width="469" height="829" frameX="-4" frameY="-1" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0006" x="3489" y="2636" width="472" height="830" frameX="0" frameY="0" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0007" x="3489" y="2636" width="472" height="830" frameX="0" frameY="0" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0008" x="3969" y="2636" width="472" height="830" frameX="0" frameY="0" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0009" x="3969" y="2636" width="472" height="830" frameX="0" frameY="0" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0010" x="3489" y="2636" width="472" height="830" frameX="0" frameY="0" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0011" x="3489" y="2636" width="472" height="830" frameX="0" frameY="0" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0012" x="3969" y="2636" width="472" height="830" frameX="0" frameY="0" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR Up miss0013" x="3969" y="2636" width="472" height="830" frameX="0" frameY="0" frameWidth="487" frameHeight="830"/>
+	<SubTexture name="RAVESOUR idle0000" x="4449" y="2636" width="606" height="580" frameX="-2" frameY="-15" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0001" x="4449" y="2636" width="606" height="580" frameX="-2" frameY="-15" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0002" x="5063" y="2636" width="616" height="577" frameX="-2" frameY="-18" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0003" x="5063" y="2636" width="616" height="577" frameX="-2" frameY="-18" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0004" x="5687" y="2636" width="606" height="585" frameX="0" frameY="-9" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0005" x="5687" y="2636" width="606" height="585" frameX="0" frameY="-9" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0006" x="6301" y="2636" width="591" height="589" frameX="0" frameY="-5" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0007" x="6301" y="2636" width="591" height="589" frameX="0" frameY="-5" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0008" x="6900" y="2636" width="583" height="594" frameX="0" frameY="-1" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0009" x="6900" y="2636" width="583" height="594" frameX="0" frameY="-1" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0010" x="7491" y="2636" width="583" height="590" frameX="0" frameY="-5" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0011" x="7491" y="2636" width="583" height="590" frameX="0" frameY="-5" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0012" x="8" y="3474" width="583" height="595" frameX="0" frameY="0" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0013" x="8" y="3474" width="583" height="595" frameX="0" frameY="0" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0014" x="6900" y="2636" width="583" height="594" frameX="0" frameY="-1" frameWidth="618" frameHeight="595"/>
+	<SubTexture name="RAVESOUR idle0015" x="6900" y="2636" width="583" height="594" frameX="0" frameY="-1" frameWidth="618" frameHeight="595"/>
+</TextureAtlas>

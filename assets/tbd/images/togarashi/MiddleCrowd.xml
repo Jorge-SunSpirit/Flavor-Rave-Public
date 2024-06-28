@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MiddleCrowd.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MiddleCrowd instance 10000" x="8" y="8" width="325" height="390" frameX="0" frameY="-3" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10001" x="8" y="8" width="325" height="390" frameX="0" frameY="-3" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10002" x="341" y="8" width="321" height="390" frameX="-3" frameY="-3" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10003" x="341" y="8" width="321" height="390" frameX="-3" frameY="-3" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10004" x="670" y="8" width="321" height="392" frameX="-4" frameY="-1" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10005" x="670" y="8" width="321" height="392" frameX="-4" frameY="-1" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10006" x="8" y="408" width="322" height="393" frameX="-3" frameY="0" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10007" x="8" y="408" width="322" height="393" frameX="-3" frameY="0" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10008" x="338" y="408" width="322" height="393" frameX="-3" frameY="0" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10009" x="338" y="408" width="322" height="393" frameX="-3" frameY="0" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10010" x="338" y="408" width="322" height="393" frameX="-3" frameY="0" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10011" x="338" y="408" width="322" height="393" frameX="-3" frameY="0" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10012" x="338" y="408" width="322" height="393" frameX="-3" frameY="0" frameWidth="325" frameHeight="393"/>
+	<SubTexture name="MiddleCrowd instance 10013" x="338" y="408" width="322" height="393" frameX="-3" frameY="0" frameWidth="325" frameHeight="393"/>
+</TextureAtlas>

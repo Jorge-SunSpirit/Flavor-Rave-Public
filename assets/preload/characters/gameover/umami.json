@@ -1,0 +1,14 @@
+{
+	"image": "gameover/umamiGO",
+	"animation": "umamim",
+	"spriteOffset": [600,550],
+	"flip_x": false,
+	"scale": 1.3,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "umami/1",
+			"opponent": ""
+		}
+	]
+}

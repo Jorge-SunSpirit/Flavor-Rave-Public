@@ -1,0 +1,236 @@
+{
+	"song": {
+		"events": [
+			[
+				4173.91304347826,
+				[
+					[
+						"Note Camera Movement",
+						"10",
+						""
+					]
+				]
+			],
+			[
+				4695.65217391304,
+				[
+					[
+						"Play SFX",
+						"buttonpress",
+						"0.8"
+					]
+				]
+			],
+			[
+				5478.26086956522,
+				[
+					[
+						"Play SFX",
+						"neonsignon",
+						"1"
+					]
+				]
+			],
+			[
+				8347.82608695652,
+				[
+					[
+						"Screen Flash",
+						"0.7",
+						"white"
+					],
+					[
+						"Play Animation",
+						"introanim",
+						"bf"
+					],
+					[
+						"Play SFX",
+						"spotlight",
+						"0.6"
+					]
+				]
+			],
+			[
+				8869.5652173913,
+				[
+					[
+						"Play SFX",
+						"ghostwind",
+						"1"
+					]
+				]
+			],
+			[
+				12521.7391304348,
+				[
+					[
+						"Change Camera Zoom",
+						"0.75",
+						"1"
+					]
+				]
+			],
+			[
+				50086.9565217391,
+				[
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.5"
+					]
+				]
+			],
+			[
+				67304.3478260869,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.8"
+					]
+				]
+			],
+			[
+				75391.3043478261,
+				[
+					[
+						"Spawn Spinning Particles",
+						"closeup/DaisyParticle",
+						"650"
+					]
+				]
+			],
+			[
+				83739.1304347826,
+				[
+					[
+						"Change Camera Zoom",
+						"0.96",
+						"0.8"
+					]
+				]
+			],
+			[
+				91826.0869565218,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.8"
+					]
+				]
+			],
+			[
+				99130.4347826087,
+				[
+					[
+						"Spawn Spinning Particles",
+						"closeup/DaisyParticle",
+						"650"
+					]
+				]
+			],
+			[
+				100173.913043478,
+				[
+					[
+						"Change Camera Zoom",
+						"0.72",
+						"0.8"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				131478.260869565,
+				[
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.4"
+					]
+				]
+			],
+			[
+				133565.217391304,
+				[
+					[
+						"Change Camera Zoom",
+						"0.6",
+						"0.5"
+					],
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"0.8"
+					],
+					[
+						"Screen Flash",
+						"0.6",
+						"white"
+					]
+				]
+			],
+			[
+				133826.086956522,
+				[
+					[
+						"Spawn Spinning Particles",
+						"closeup/DaisyParticle",
+						"650"
+					]
+				]
+			],
+			[
+				159130.434782609,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.5"
+					]
+				]
+			],
+			[
+				166043.47826087,
+				[
+					[
+						"Spawn Spinning Particles",
+						"closeup/DaisyParticle",
+						"650"
+					]
+				]
+			],
+			[
+				166956.521739131,
+				[
+					[
+						"Change Camera Zoom",
+						"0.74",
+						"2"
+					],
+					[
+						"Camera Bopping",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				167086.956521739,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			]
+		]
+	}
+}

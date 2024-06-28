@@ -1,0 +1,28 @@
+{
+	"songs": [
+		["Rainbow Sorbet", "soursweethappy", [165, 0, 77], ["sour", "sweet"], "lavender"],
+		["Sugarcoat It", "soursweethappy", [165, 0, 77], ["sour", "sweet"], "showroom"]
+	],
+
+	"weekCharacters": [
+		"Sour",
+		"Sweet",
+		"Empty",
+		"Empty"
+	],
+	"charaSelect": [
+		"sweet",
+		"sour"
+	],
+	"weekBackground": "lavender",
+	"weekType": "Chapter",
+	"storyName": "Chapter 2",
+	"weekBefore": "achapter1",
+	"weekName": "A New Future Blooms",
+	"location": "Lavender Park",
+	"startUnlocked": false,
+	"isExtra": false,
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

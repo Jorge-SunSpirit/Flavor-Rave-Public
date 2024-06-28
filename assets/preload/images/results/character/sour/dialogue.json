@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "BOOM! I just rewrote history with that performance!",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Yeah, yeah! I was feelin' it that time.",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Pretty solid. Next time though, we're going twice as hard!",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I think my keytar needs a recharge...",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I can't be getting rusty already! I'm going back on the grind right now!",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Now THIS computes! We're really due for more live performances now!",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Well whaddya know? My built-in chromatic synthesizer works like a charm!",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "See? Just gotta take those baby steps to break out of your shell, Sunny.",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I thought we did pretty good! Though I did notice a few viewers click off stream...",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "This was just part of Sunny's programming. I shouldn't be TOO good of a singer, y'know?",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

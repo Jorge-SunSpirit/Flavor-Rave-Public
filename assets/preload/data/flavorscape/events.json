@@ -1,0 +1,481 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Note Camera Movement",
+						"8",
+						""
+					]
+				]
+			],
+			[
+				209.302325581395,
+				[
+					[
+						"Play SFX",
+						"thunder",
+						"1"
+					]
+				]
+			],
+			[
+				34604.6511627907,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"0.8"
+					],
+					[
+						"Change Camera Zoom",
+						"0.88",
+						"0.5"
+					]
+				]
+			],
+			[
+				53581.3953488372,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.8"
+					]
+				]
+			],
+			[
+				66976.7441860465,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.8"
+					]
+				]
+			],
+			[
+				66976.7441860465,
+				[
+					[
+						"Play SFX",
+						"RAVEsfx",
+						""
+					],
+					[
+						"Call on Luas",
+						"funnyStep",
+						"962"
+					]
+				]
+			],
+			[
+				71441.8604651163,
+				[
+					[
+						"Screen Flash",
+						"1",
+						"white"
+					],
+					[
+						"Change Character",
+						"bf",
+						"sweet-rave"
+					],
+					[
+						"Change Character",
+						"extra",
+						"sour-rave"
+					],
+					[
+						"Call on Luas",
+						"funnyStep",
+						"1024"
+					],
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					],
+					[
+						"Play SFX",
+						"RAVEFlash",
+						"1"
+					],
+					[
+						"Set Lane Transparency",
+						"0.5",
+						"0.3"
+					]
+				]
+			],
+			[
+				83860.465116279,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"1202"
+					]
+				]
+			],
+			[
+				84558.1395348837,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"1212"
+					]
+				]
+			],
+			[
+				86511.6279069767,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"1240"
+					]
+				]
+			],
+			[
+				87069.7674418604,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"1248"
+					],
+					[
+						"Play SFX",
+						"RaveEngage",
+						"0.8"
+					],
+					[
+						"Set Lane Transparency",
+						"0",
+						"0.3"
+					]
+				]
+			],
+			[
+				87627.9069767441,
+				[
+					[
+						"Play SFX",
+						"TheYell",
+						"1"
+					],
+					[
+						"Screen Shake",
+						"0.5, 0.02",
+						"0.5, 0.005"
+					]
+				]
+			],
+			[
+				88744.1860465115,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"1272"
+					]
+				]
+			],
+			[
+				89302.3255813953,
+				[
+					[
+						"Change Character",
+						"dad",
+						"spicy-rave"
+					],
+					[
+						"Screen Flash",
+						"0.5",
+						"yellow"
+					],
+					[
+						"Call on Luas",
+						"funnyStep",
+						"1280"
+					]
+				]
+			],
+			[
+				92651.1627906976,
+				[
+					[
+						"Change Character",
+						"gf",
+						"smoky-rave"
+					]
+				]
+			],
+			[
+				93767.441860465,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"1344"
+					]
+				]
+			],
+			[
+				107162.790697674,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					]
+				]
+			],
+			[
+				133953.488372093,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				141767.441860465,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				142883.720930232,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"2048"
+					],
+					[
+						"Screen Flash",
+						"0.6",
+						"cyan"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				160744.186046512,
+				[
+					[
+						"Set Lane Transparency",
+						"0.5",
+						"0.3"
+					]
+				]
+			],
+			[
+				165209.302325581,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"2368"
+					]
+				]
+			],
+			[
+				169674.418604651,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"2432"
+					]
+				]
+			],
+			[
+				169674.418604651,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"2432"
+					]
+				]
+			],
+			[
+				174139.534883721,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"2496"
+					]
+				]
+			],
+			[
+				178604.651162791,
+				[
+					[
+						"Note",
+						"it's the libitina song from vs infinite!",
+						""
+					],
+					[
+						"Call on Luas",
+						"funnyStep",
+						"2560"
+					]
+				]
+			],
+			[
+				196465.11627907,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"2816"
+					],
+					[
+						"Screen Flash",
+						"0.8",
+						"white"
+					],
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					],
+					[
+						"Set Lane Transparency",
+						"0",
+						"0.3"
+					]
+				]
+			],
+			[
+				214325.581395349,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					]
+				]
+			],
+			[
+				218790.697674419,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				223674.418604651,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"3206"
+					]
+				]
+			],
+			[
+				225488.372093024,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"3232"
+					]
+				]
+			],
+			[
+				227720.930232559,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					],
+					[
+						"Call on Luas",
+						"funnyStep",
+						"3264"
+					]
+				]
+			],
+			[
+				227860.465116279,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"3266"
+					]
+				]
+			],
+			[
+				228000,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"3268"
+					]
+				]
+			],
+			[
+				228139.534883721,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"3270"
+					]
+				]
+			],
+			[
+				228279.069767442,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"3272"
+					],
+					[
+						"Screen Flash",
+						"0.5",
+						"white"
+					]
+				]
+			],
+			[
+				228837.209302326,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			]
+		]
+	}
+}

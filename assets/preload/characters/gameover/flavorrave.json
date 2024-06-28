@@ -1,0 +1,30 @@
+{
+	"image": "gameover/FlavorRaveGO",
+	"animation": "FlavorRaveGO",
+	"spriteOffset": [700,450],
+	"flip_x": false,
+	"scale": 1.3,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "sour/1",
+			"opponent": ""
+		},
+		{
+			"sound": "sour/2",
+			"opponent": ""
+		},
+		{
+			"sound": "sweet/1",
+			"opponent": ""
+		},
+		{
+			"sound": "flavorrave/1",
+			"opponent": ""
+		},
+		{
+			"sound": "sweet/2",
+			"opponent": ""
+		}
+	]
+}

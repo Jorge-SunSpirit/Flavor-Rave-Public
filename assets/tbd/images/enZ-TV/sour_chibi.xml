@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sour_chibi.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sour dance0000" x="8" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0001" x="8" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0002" x="403" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0003" x="403" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0004" x="403" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0005" x="798" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0006" x="798" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0007" x="1193" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0008" x="1193" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0009" x="1193" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0010" x="1588" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0011" x="1588" y="8" width="387" height="479"/>
+	<SubTexture name="sour dance0012" x="8" y="495" width="387" height="479"/>
+	<SubTexture name="sour dance0013" x="8" y="495" width="387" height="479"/>
+	<SubTexture name="sour dance0014" x="8" y="495" width="387" height="479"/>
+	<SubTexture name="sour dance0015" x="403" y="495" width="387" height="479"/>
+	<SubTexture name="sour dance0016" x="403" y="495" width="387" height="479"/>
+	<SubTexture name="sour dance0017" x="798" y="495" width="387" height="479"/>
+	<SubTexture name="sour dance0018" x="798" y="495" width="387" height="479"/>
+	<SubTexture name="sour dance0019" x="798" y="495" width="387" height="479"/>
+</TextureAtlas>

@@ -1,0 +1,15 @@
+{
+	"song": {
+		"name": "Flavorscape",
+		"artist": "JACKALRUIN & Matt$",
+		"titleCardStep": 4,
+		"charter": "Srife5",
+		"extraCharacter": [true, true]
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	}
+}

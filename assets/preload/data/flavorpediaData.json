@@ -1,0 +1,103 @@
+{
+	"character":
+	[
+		{
+			"chara": "sour",
+			"flavorText": "Sour, the loud, energetic son of one of Enzync City's top charting performers, had a deep love of music instilled in him at a young age, and as he grew up, he wanted nothing more than to follow in his mom's footsteps and become a hit musician. Sour exploded in popularity in Enzync City's underground music scene as a hyped up keytar player and a skilled dancer, gaining him enough of his own funds and clout to land him his first major concert.\n\nSour keeps cool and chill for the most part, but he tends to get into his own head and stress himself out. Music and dance helps him quickly get back in the groove.",
+			"tag": "sour",
+			"bgs": "sour",
+			"voicelines": ["1"]
+		},
+		{
+			"chara": "sweet",
+			"flavorText": "Born and raised in the old-fashioned, mountainous community of the Preheats, Sweet is a beacon of light to music's past, granting a new generation the wonders of classical music. She inherits her father's singing and her mother's skills as a conductor, putting both skills to great use in her performances.\n\nShe spent her whole life in the Preheats, not knowing what the world was like beyond her cozy hometown, so as she got older, she put in the work to travel across the ocean to see new things and spread her talents to new places, showing others the kindness and positivity that her hometown instilled in her.",
+			"tag": "sweet",
+			"bgs": "sweet",
+			"voicelines": ["1"]
+		},
+		{
+			"chara": "savory",
+			"flavorText": "A mysterious man who roams the rooftops of the lively town of Corianda. He looms around, searching for those who have gotten lost in the large town, a common occurrence at night. Spanish is his primary language, but he's picked up on multiple others throughout the years. He possesses a unique RAVE ability allowing him to summon temporary clones of himself that match his current emotional state.\n\nNobody knows who he is beyond the nickname he gives himself, 'The Wayfinder', and by the lonesome strum of his guitar late in the night. Under his shadowy exterior lies a man who had lost everything that had mattered most to him.",
+			"tag": "savory",
+			"bgs": "savory",
+			"voicelines": ["1"],
+			"songCheck": "Tres Leches"
+		},
+		{
+			"chara": "umami",
+			"flavorText": "Sour's older cousin, also born and raised in Enzync City. She grew up in the quieter spots of the city, drifting through life at a slow, laid back pace. A pace too laid back, Umami had begun to realize as she got older, not knowing what she actually wanted to do in life still. She currently attends one of Enzync's universities in hopes to find what her life calling will be.\n\nUmami dabbles in music in between her studies and her job at a popular fast food joint, filling the city air with the melodies of her saxophone. She's usually spotted playing at the brink of dawn with Enzync City's late night street performers, the Night Crew.",
+			"tag": "umami",
+			"bgs": "umami",
+			"voicelines": ["1"],
+			"songCheck": "Applewood"
+		},
+		{
+			"chara": "spicy",
+			"flavorText": "Spicy is the definition of loud, from her eye-catching outfit, her over the top expressions and movements, her blaring electric guitar, and her voice that lacks any filter. Spicy loves attention, making sure every part of her being grabs hold of your eyes and ears and never lets go. Her dream is to grab the world's attention by becoming the cutest rock star on Earth.\n\nShe comes off as overbearing and self-centered, but she values those close to her immensely. She will very quickly become attached to anyone who shows her any ounce of kindness.",
+			"tag": "spicy",
+			"bgs": "spicy",
+			"voicelines": ["1"],
+			"songCheck": "Caramelize"
+		},
+		{
+			"chara": "smoky",
+			"flavorText": "A reserved young man raised in Old Togarashi, following the town's traditions with finesse, though he always felt as if it wasn't the place he truly belonged. He would leave the town and start a life on his own in the big cityscape of New Togarashi, greatly changing up his look and lifestyle.\n\nAs time in this new life passed and moments of strife shook up what he thought would be his fitting place in the world, he wandered Togarashi Town aimlessly again, until an unexpected meeting with an excitable redheaded girl would begin a new path in life for him.",
+			"tag": "smoky",
+			"bgs": "smoky",
+			"voicelines": ["1"],
+			"songCheck": "Wasabi"
+		},
+		{
+			"chara": "synsun",
+			"flavorText": "Sun-Dried is a programming prodigy, whose interest in computer science at a young age lead her to become a very skilled coder. Her love of computers mixes with her love of robotics, and soon that love would bring forth the construction of Synthetic, a refurbished computer with a custom made AI that turns the vintage machine into a friendly companion.\n\nSun-Dried's third biggest passion is music, expressing her love of news in the music industry via her own blog, and now her own livestream hosted by herself and Synthetic. Due to how Synthetic is programmed, he tends to cause a little mischief, choosing to seek out answers that are the most entertaining over ones that are immediately true.",
+			"tag": "synsun",
+			"bgs": "synsun",
+			"voicelines": ["1"]
+		},
+		{
+			"chara": "rika",
+			"flavorText": "In the towering cityscape of Highrise, all music is hoarded by society’s elite. Rebellious youth of all backgrounds step in to disrupt the authority and bring music back to the people. One of these rebels being the reckless skater, Rika, often spotted cruising atop the skyline at breakneck speed, trespassing wherever they please. Music means everything to Rika, and no obstacle is too great to overcome to liberate music and bring back the vibes.\n\nWhile Rika isn’t a musician themselves, a confrontation between a familiar blue-haired boy and his girlfriend sparked Rika’s deep passion for music.",
+			"tag": "rika",
+			"bgs": "rika",
+			"voicelines": ["1"],
+			"songCheck": "MegaHeartz",
+			"link": "https://gamebanana.com/mods/408207"
+		},
+		{
+			"chara": "rhythmrobo",
+			"flavorText": "Tioda comes from a line of New-Gen robots, specially built to very closely resemble humans. New-Gens occupy many jobs in her hometown of RM City, with Tioda spending her time as a disc jockey, hyping up large crowds with her music. Her dream is to rise to the top in the music scene and claim the ultimate title of Rhythm Robo. Her love of music is only matched by her love of fast food, especially burgers, though eating food does not provide her with energy. She just likes the taste.\n\nPyroller assists Tioda as a mentor for her music. He's and older-gen robot who lurks in the alleys, basking the concrete walls in flickering light from his fiery head. He tries to keep Tioda in line, but will often get roped into her antics.",
+			"tag": "rhythmrobo",
+			"bgs": "rhythmrobo",
+			"voicelines": ["1"],
+			"songCheck": "Double-Stacked",
+			"link": "https://gamebanana.com/mods/357868"
+		},
+		{
+			"chara": "nikku",
+			"flavorText": "Years ago, a space ship crashed down onto Earth, and within that ship was a young Nikku, now lost and seeking refuge in the nearby abandoned locales. Life's a struggle for her, though her affinity for music tends to make situations much less stressful.\n\nNikku's species is unique, as it causes her to lack her own unique voice. This is made up for by her ability to communicate with others telepathically, or by perfectly mimicking sounds she hears. Her range of mimicked sounds is vast, ranging from the voices of other people, samples of entire songs, and even the sounds of instruments.",
+			"tag": "nikku",
+			"bgs": "nikku",
+			"voicelines": ["1"],
+			"songCheck": "Imitation Station",
+			"link": "https://gamebanana.com/mods/373298"
+		},
+		{
+			"chara": "daisy",
+			"flavorText": "Daisy was a high-achieving violinist whose life was cut short when she was stricken with an incurable sickness. Her untimely demise would prevent her from further pursuing her career with music, or so she had assumed.\n\nIn her ghostly form, she would strive to continue doing what she loved as she mingled with the rest of the undead, later forming the traveling jazz band, Prime RIBS. She became a literal spirit of jazz, keeping the genre going strong with her group's performances across the world. Spreading her music makes her feel just as alive as she was at the peak of her living career.",
+			"tag": "daisy",
+			"voicelines": ["1"],
+			"bgs": "daisy",
+			"songCheck": "Heartstrings",
+			"link": "https://gamebanana.com/mods/331943"
+		},
+		{
+			"chara": "troubleshootin",
+			"flavorText": "Torrent and Nitro are both computer viruses of currently unknown origins, carrying out deceptive plans for their own personal gains. Torrent lures unsuspecting people in with fake links to free digital instruments, dragging them into the virtual world when clicked on. His victims are met with his snarky, mischievous personality and roped into bouts of song. Despite his initially dubious intentions, a good session of songs might sway Torrent into being your acquaintance.\n\nNitro's goals are more apparent, using fake links spread across a messenger app to steal hundreds of people's data and trap them in the aesthetic neon hues of the Funktrix server, where Nitro has full control over everything.",
+			"tag": "troubleshootin",
+			"bgs": "troubleshootin",
+			"voicelines": ["1"],
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/320006"
+		}
+	]
+}

@@ -1,0 +1,581 @@
+{
+	"song": {
+		"events": [
+			[
+				833.333333333333,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"10"
+					]
+				]
+			],
+			[
+				3000,
+				[
+					[
+						"Play SFX",
+						"TresIntro",
+						"1"
+					]
+				]
+			],
+			[
+				5833.33333333333,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"70"
+					]
+				]
+			],
+			[
+				10666.6666666667,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"128"
+					]
+				]
+			],
+			[
+				18666.6666666667,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"224"
+					]
+				]
+			],
+			[
+				19000,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"228"
+					]
+				]
+			],
+			[
+				19333.3333333333,
+				[
+					[
+						"Play SFX",
+						"woosh",
+						"1"
+					]
+				]
+			],
+			[
+				19666.6666666667,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"236"
+					]
+				]
+			],
+			[
+				19833.3333333333,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"238"
+					]
+				]
+			],
+			[
+				20000,
+				[
+					[
+						"Change Character",
+						"bf",
+						"sweet"
+					],
+					[
+						"Change Character",
+						"dad",
+						"savory"
+					],
+					[
+						"Hide Character",
+						"dad",
+						"1"
+					],
+					[
+						"Alt Idle Animation",
+						"bf",
+						"-sad"
+					]
+				]
+			],
+			[
+				20333.3333333333,
+				[
+					[
+						"Play Animation",
+						"land",
+						"dad"
+					],
+					[
+						"Hide Character",
+						"dad",
+						"0"
+					]
+				]
+			],
+			[
+				20666.6666666667,
+				[
+					[
+						"Play SFX",
+						"floorhit",
+						"1"
+					]
+				]
+			],
+			[
+				21333.3333333333,
+				[
+					[
+						"Note Camera Movement",
+						"15",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.4"
+					]
+				]
+			],
+			[
+				25333.3333333333,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.1"
+					]
+				]
+			],
+			[
+				25666.6666666667,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				26000,
+				[
+					[
+						"Change Camera Zoom",
+						"1.1",
+						"0.1"
+					]
+				]
+			],
+			[
+				26333.3333333333,
+				[
+					[
+						"Change Camera Zoom",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				26666.6666666667,
+				[
+					[
+						"Change Camera Zoom",
+						"0.72",
+						""
+					]
+				]
+			],
+			[
+				30666.6666666667,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.1"
+					]
+				]
+			],
+			[
+				31000,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				31333.3333333333,
+				[
+					[
+						"Change Camera Zoom",
+						"1.1",
+						"0.1"
+					]
+				]
+			],
+			[
+				31666.6666666667,
+				[
+					[
+						"Change Camera Zoom",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				32000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.72",
+						""
+					]
+				]
+			],
+			[
+				42666.6666666667,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				64000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.72",
+						""
+					]
+				]
+			],
+			[
+				74666.6666666667,
+				[
+					[
+						"Change Camera Zoom",
+						"1.1",
+						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"896"
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Note Camera Movement",
+						"0",
+						""
+					],
+					[
+						"Play Animation",
+						"toss",
+						"dad"
+					],
+					[
+						"Change Camera Zoom",
+						"0.95",
+						""
+					]
+				]
+			],
+			[
+				80750,
+				[
+					[
+						"Play SFX",
+						"RaveEngage",
+						"1"
+					]
+				]
+			],
+			[
+				81333.3333333333,
+				[
+					[
+						"Play SFX",
+						"woosh",
+						"1"
+					]
+				]
+			],
+			[
+				82500,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"990"
+					]
+				]
+			],
+			[
+				82666.6666666667,
+				[
+					[
+						"Play Animation",
+						"catch",
+						"dad"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"992"
+					]
+				]
+			],
+			[
+				84000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.64",
+						""
+					],
+					[
+						"Screen Shake",
+						"0.3, 0.01",
+						"0.3, 0.005"
+					],
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1008"
+					]
+				]
+			],
+			[
+				84833.3333333333,
+				[
+					[
+						"Corianda Border",
+						"",
+						""
+					]
+				]
+			],
+			[
+				85333.3333333333,
+				[
+					[
+						"Camera Bopping",
+						"1",
+						"2"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1024"
+					]
+				]
+			],
+			[
+				89333.3333333333,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				89666.6666666666,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				90000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				90333.3333333333,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				90666.6666666666,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				94666.6666666666,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				94999.9999999999,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				95333.3333333333,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				95666.6666666666,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					]
+				]
+			],
+			[
+				95999.9999999999,
+				[
+					[
+						"Change Camera Zoom",
+						"1.1",
+						"0.6"
+					]
+				]
+			],
+			[
+				106166.666666667,
+				[
+					[
+						"Corianda Border",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				106666.666666667,
+				[
+					[
+						"Add Camera Zoom",
+						"0.012",
+						"0.02"
+					],
+					[
+						"Camera Bopping",
+						"0",
+						""
+					],
+					[
+						"Alt Idle Animation",
+						"dad",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.82",
+						"0.5"
+					]
+				]
+			],
+			[
+				117333.333333333,
+				[
+					[
+						"Change Camera Zoom",
+						"0.72",
+						""
+					],
+					[
+						"Screen Flash",
+						"0.5",
+						"white"
+					]
+				]
+			],
+			[
+				117333.333333333,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1408"
+					]
+				]
+			],
+			[
+				118000,
+				[
+					[
+						"Play SFX",
+						"TresIntro",
+						"1"
+					]
+				]
+			]
+		]
+	}
+}

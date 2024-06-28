@@ -1,0 +1,98 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "That's my home city! We know this whole place like the back of our hand.",
+			"chara": "sun"
+		},
+		{
+			"text": "I'd be more than happy to give the rundown of what's up here.",
+			"chara": "sun"
+		},
+		{
+			"text": "Before we do that, just want to clear up a misconception about Enzync.",
+			"sound" : "beepboop",
+			"chara": "syn"
+		},
+		{
+			"text": "So… Enzync is the name of the entire region of this side of the world. Enzync City is just a small piece of the whole of Enzync.",
+			"chara": "syn"
+		},
+		{
+			"text": "I see a lot of people online get things confused and say everything in Enzync is part of Enzync City.",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "Just felt like getting that out of my system. Proceed, Sunny!",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "Firstly, there's Main Street. It's the heart of Enzync City with lots of key locales.",
+			"animation": "happy",
+			"tvArt" : "mainstreet",
+			"chara": "sun"
+		},
+		{
+			"text": "The Ensemble Mall, the Night Crew Street Stage, the EnZ-TV News Station, Uncle Hearty’s, and even our little studio! It's all right here.",
+			"chara": "sun"
+		},
+		{
+			"text": "It's also a nice spot to just chill out and take in the city atmosphere. If you come visit via the Enzync Docks, then Main Street is the first place you'll end up in!",
+			"chara": "sun"
+		},
+		{
+			"text": "There's a few other major spots spread throughout the city, but one of my favorites to walk around in is Lavender Park! It's a slight distance from Main Street, but it's worth it to see all the beautiful lavender plants!",
+			"tvArt" : "lavender",
+			"chara": "sun"
+		},
+		{
+			"text": "Oh, oh! And if you come on a good day, you might even spot some bunnies hopping around!",
+			"sound" : "laugh",
+			"animation": "excited",
+			"chara": "sun"
+		},
+		{
+			"text": "Not too far from the park is one of Enzync's most famous music venues, Showman's Showroom! They've got a ton of shows here every month, and crazy stuff always ends up happening there.",
+			"tvArt" : "showroom",
+			"chara": "syn"
+		},
+		{
+			"text": "You won't believe how many times something went viral during a show at the showroom. The most recent one being the Sweet and Sour Summer Mix, of course.",
+			"chara": "syn"
+		},
+		{
+			"text": "The owner is… interesting, to put it lightly, but I'll refrain from diving into that again.",
+			"sound" : "eugh",
+			"animation": "upset",
+			"chara": "syn"
+		},
+		{
+			"text": "",
+			"animation": "reset",
+			"chara": "synthetic",
+			"command": "autoSkip"
+		},
+		{
+			"text": "These are just a little handful of places we recommend seeing. There's plenty more beyond that!",
+			"tvArt" : "synsun",
+			"animation": "reset",
+			"chara": "sun"
+		},
+		{
+			"text": "There's Malic Beach, one of Enzync City's famous beaches, the Enzync Dock, Enzync Academy, the big GlazeCorp Office Buildings…",
+			"animation": "happy",
+			"chara": "sun"
+		},
+		{
+			"text": "Oh, and I can't forget Togarashi Town! But that's worth it's own discussion.",
+			"chara": "sun"
+		},
+		{
+			"text": "If you love shopping, food, music, and anything entertaining, I can't recommend a visit enough. I'm so lucky to have been raised in this place.",
+			"animation": "determined",
+			"chara": "sun"
+		}
+	]
+}

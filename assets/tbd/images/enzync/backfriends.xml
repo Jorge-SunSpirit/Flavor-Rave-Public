@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="backfriends.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CameoBops0000" x="10" y="10" width="508" height="347"/>
+	<SubTexture name="CameoBops0001" x="10" y="10" width="508" height="347"/>
+	<SubTexture name="CameoBops0002" x="528" y="10" width="507" height="347" frameX="-1" frameY="0" frameWidth="508" frameHeight="347"/>
+	<SubTexture name="CameoBops0003" x="528" y="10" width="507" height="347" frameX="-1" frameY="0" frameWidth="508" frameHeight="347"/>
+	<SubTexture name="CameoBops0004" x="1045" y="10" width="504" height="347" frameX="-4" frameY="0" frameWidth="508" frameHeight="347"/>
+	<SubTexture name="CameoBops0005" x="1045" y="10" width="504" height="347" frameX="-4" frameY="0" frameWidth="508" frameHeight="347"/>
+	<SubTexture name="CameoBops0006" x="10" y="367" width="501" height="347" frameX="-7" frameY="0" frameWidth="508" frameHeight="347"/>
+	<SubTexture name="CameoBops0007" x="10" y="367" width="501" height="347" frameX="-7" frameY="0" frameWidth="508" frameHeight="347"/>
+	<SubTexture name="CameoBops0008" x="10" y="367" width="501" height="347" frameX="-7" frameY="0" frameWidth="508" frameHeight="347"/>
+	<SubTexture name="CameoBops0009" x="10" y="367" width="501" height="347" frameX="-7" frameY="0" frameWidth="508" frameHeight="347"/>
+	<SubTexture name="CameoBops0010" x="10" y="367" width="501" height="347" frameX="-7" frameY="0" frameWidth="508" frameHeight="347"/>
+	<SubTexture name="CameoBops0011" x="10" y="367" width="501" height="347" frameX="-7" frameY="0" frameWidth="508" frameHeight="347"/>
+	<SubTexture name="CameoBops0012" x="10" y="367" width="501" height="347" frameX="-7" frameY="0" frameWidth="508" frameHeight="347"/>
+	<SubTexture name="CameoBops0013" x="10" y="367" width="501" height="347" frameX="-7" frameY="0" frameWidth="508" frameHeight="347"/>
+</TextureAtlas>

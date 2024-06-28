@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I'm not one to brag, but... Daaaamn, I am killing it today!",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "We're keeping the vibes good and groovy today.",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Not too bad. Just haven't hit my stride yet.",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Okay, that wasn't my best. Guess I'm having an off day, huh?",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Work must've taken a toll on me this week. I think I'm due for a 'me' day to get myself back into spirits.",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

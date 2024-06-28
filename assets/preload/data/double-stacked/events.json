@@ -1,0 +1,116 @@
+{
+	"song": {
+		"events": [
+			[
+				7500,
+				[
+					[
+						"Play SFX",
+						"ds-intro",
+						"0.8"
+					]
+				]
+			],
+			[
+				75000,
+				[
+					[
+						"Change Camera Zoom",
+						"1.25",
+						"0.6"
+					]
+				]
+			],
+			[
+				105000,
+				[
+					[
+						"Change Camera Zoom",
+						"1.1",
+						"0.6"
+					],
+					[
+						"Play SFX",
+						"spotlight",
+						"1"
+					],
+					[
+						"Screen Flash",
+						"0.3",
+						"white"
+					],
+					[
+						"Tioda Lights",
+						"true",
+						"4"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"0.7"
+					]
+				]
+			],
+			[
+				135000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					],
+					[
+						"Tioda Lights",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				165000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					],
+					[
+						"Tioda Lights",
+						"true",
+						"8"
+					]
+				]
+			],
+			[
+				195000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					],
+					[
+						"Tioda Lights",
+						"false",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"1.25",
+						"0.6"
+					]
+				]
+			]
+		]
+	}
+}

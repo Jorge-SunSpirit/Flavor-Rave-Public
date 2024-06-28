@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="intropaperburn.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PaperBurn0000" x="10" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0001" x="10" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0002" x="1300" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0003" x="1300" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0004" x="2590" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0005" x="2590" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0006" x="3880" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0007" x="3880" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0008" x="5170" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0009" x="5170" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0010" x="6460" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0011" x="6460" y="10" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0012" x="10" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0013" x="10" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0014" x="1300" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0015" x="1300" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0016" x="2590" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0017" x="2590" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0018" x="3880" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0019" x="3880" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0020" x="5170" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0021" x="5170" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0022" x="6460" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0023" x="6460" y="740" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0024" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0025" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0026" x="1300" y="1470" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0027" x="1300" y="1470" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0028" x="2590" y="1470" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0029" x="2590" y="1470" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0030" x="3880" y="1470" width="1280" height="720"/>
+	<SubTexture name="PaperBurn0031" x="3880" y="1470" width="1280" height="720"/>
+</TextureAtlas>

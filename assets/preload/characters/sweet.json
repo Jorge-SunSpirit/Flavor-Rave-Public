@@ -1,0 +1,202 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				114,
+				-5
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Sweet Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-102,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Sweet Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-75,
+				13
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Sweet Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-103,
+				62
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Sweet Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				116,
+				-4
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Sweet Left MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-82,
+				-21
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Sweet Down MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-71,
+				14
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Sweet Up MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-77,
+				64
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Sweet Right MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				114,
+				-6
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Sweet Left Baton",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-106,
+				-19
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "Sweet Down Baton",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-74,
+				17
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "Sweet Up Baton",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-106,
+				-5
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "Sweet Right Baton",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Sweet Idle0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Sweet Idle Baton0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-sad",
+			"indices": [],
+			"name": "Sweet Idle Sad0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-altsad",
+			"indices": [],
+			"name": "Sweet Idle Baton Sad0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sweet",
+	"position": [
+		0,
+		20
+	],
+	"healthicon": "sweet",
+	"flip_x": true,
+	"healthbar_colors": [
+		240,
+		196,
+		189
+	],
+	"camera_position": [
+		-60,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sweet",
+	"healthbar_image": "sweet",
+	"musicNoteOffset": [-100,-200]
+}

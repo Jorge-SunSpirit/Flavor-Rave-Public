@@ -1,0 +1,148 @@
+{
+	"dialogue": [
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "3 months later... on the other side of the ocean..."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "In a lively town at the foothills of the Preheats..."
+		},
+		{
+			"background": "33",
+			"border": "corianda",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Okay... I think I'm going the right way."
+		},
+		{
+			"background": "33",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Father said to just keep going straight, but the roads here are so winding-!"
+		},
+		{
+			"background": "33",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "Ah-! I forgot to tell Sour I'm on my way! I'll do that right..."
+		},
+		{
+			"background": "34",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "..."
+		},
+		{
+			"background": "34",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"sound": ["sweet","thatsnot"],
+			"text": "How cruel my fate..."
+		},
+		{
+			"background": "35",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "There's... no signs anywhere. And it's too late out to find anyone to ask... I'm... I'm stuck."
+		},
+		{
+			"background": "35",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": " N-no, please! I don't want to miss the boat-! What do I do..?"
+		},
+		{
+			"background": "36",
+			"character": "Savory",
+			"chara": ["savory", 0, true],
+			"sound": ["savory","ahem"],
+			"text": "Un grito de angustia no quedará sin respuesta."
+		},
+		{
+			"background": "36",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","helloshock"],
+			"text": "H-huh?"
+		},
+		{
+			"background": "36",
+			"character": "Savory",
+			"chara": ["savory", 0, true],
+			"text": "Detén tus lagrimas, viajera. Estoy aquí para ayudarte."
+		},
+		{
+			"background": "36",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "..."
+		},
+		{
+			"background": "36",
+			"character": "Savory",
+			"chara": ["savory", 0, true],
+			"bgm": "WalkTheWalk",
+			"bgmVolume": 0.25,
+			"text": "¿Por qué esa mirada?"
+		},
+		{
+			"background": "36",
+			"character": "Savory",
+			"chara": ["savory", 0, true],
+			"sound": ["savory","hmm"],
+			"text": "Ah, ahem... my apologies. It slipped my mind that those who lose their way here don't usually speak our language."
+		},
+		{
+			"background": "36",
+			"character": "Savory",
+			"chara": ["savory", 0, true],
+			"text": "If you are lost, allow me to assist you."
+		},
+		{
+			"background": "36",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "I've never been through here on my own before, and there's no reception, and my partner is waiting for me, and-!"
+		},
+		{
+			"background": "36",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "-ah... I'm just looking for a way to the dock."
+		},
+		{
+			"background": "36",
+			"character": "Savory",
+			"chara": ["savory", 0, true],
+			"sound": ["savory","isee"],
+			"text": "The dock, hmm? I do know a quick route to it off the main path. I can lead you right to it."
+		},
+		{
+			"background": "36",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "T-thank you! You're a lifesaver, mister."
+		},
+		{
+			"background": "36",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Ah, nearly forgot my manners. My name is Sweet."
+		},
+		{
+			"background": "37",
+			"character": "Savory",
+			"chara": ["savory", 0, true],
+			"text": "Sweet... ah, a lovely name."
+		},
+		{
+			"background": "37",
+			"character": "Savory",
+			"chara": ["savory", 0, true],
+			"text": "As for myself, you may call me... The Wayfinder."
+		}
+	]
+}

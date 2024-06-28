@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sweet.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sweet Down0000" x="8" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0001" x="8" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0002" x="492" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0003" x="492" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0004" x="976" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0005" x="976" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0006" x="1460" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0007" x="1460" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0008" x="1460" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0009" x="1460" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0010" x="1460" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0011" x="1460" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0012" x="1460" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down0013" x="1460" y="8" width="476" height="698"/>
+	<SubTexture name="Sweet Down Baton0000" x="1944" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0001" x="1944" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0002" x="2408" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0003" x="2408" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0004" x="2872" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0005" x="2872" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0006" x="3336" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0007" x="3336" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0008" x="3336" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0009" x="3336" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0010" x="3336" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0011" x="3336" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0012" x="3336" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down Baton0013" x="3336" y="8" width="456" height="696"/>
+	<SubTexture name="Sweet Down MISS0000" x="3800" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0001" x="3800" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0002" x="4325" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0003" x="4325" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0004" x="4850" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0005" x="5375" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0006" x="5900" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0007" x="5900" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0008" x="5375" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0009" x="5375" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0010" x="5900" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0011" x="5900" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0012" x="5375" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0013" x="5375" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0014" x="5900" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0015" x="5900" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0016" x="5375" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0017" x="5375" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0018" x="5900" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Down MISS0019" x="5900" y="8" width="517" height="696"/>
+	<SubTexture name="Sweet Idle0000" x="6425" y="8" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0001" x="6425" y="8" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0002" x="6974" y="8" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0003" x="7523" y="8" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0004" x="7523" y="8" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0005" x="8" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0006" x="8" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0007" x="557" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0008" x="557" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0009" x="1106" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0010" x="1106" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0011" x="1106" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0012" x="1106" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0013" x="1106" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle0014" x="1106" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0000" x="1655" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0001" x="1655" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0002" x="2204" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0003" x="2753" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0004" x="2753" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0005" x="3302" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0006" x="3302" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0007" x="3851" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0008" x="3851" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0009" x="4400" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0010" x="4400" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0011" x="4400" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0012" x="4400" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0013" x="4400" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton0014" x="4400" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0000" x="4949" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0001" x="4949" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0002" x="5498" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0003" x="6047" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0004" x="6047" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0005" x="6596" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0006" x="6596" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0007" x="7145" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0008" x="7145" y="734" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0009" x="8" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0010" x="8" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0011" x="8" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0012" x="8" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0013" x="8" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Baton Sad0014" x="8" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0000" x="557" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0001" x="557" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0002" x="1106" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0003" x="1655" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0004" x="1655" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0005" x="2204" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0006" x="2204" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0007" x="2753" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0008" x="2753" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0009" x="3302" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0010" x="3302" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0011" x="3302" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0012" x="3302" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0013" x="3302" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Idle Sad0014" x="3302" y="1460" width="541" height="718"/>
+	<SubTexture name="Sweet Left0000" x="3851" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0001" x="3851" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0002" x="4500" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0003" x="4500" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0004" x="5149" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0005" x="5149" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0006" x="5798" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0007" x="5798" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0008" x="5798" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0009" x="5798" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0010" x="5798" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0011" x="5798" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0012" x="5798" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left0013" x="5798" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0000" x="6447" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0001" x="6447" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0002" x="7096" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0003" x="7096" y="1460" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0004" x="8" y="2186" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0005" x="8" y="2186" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0006" x="657" y="2186" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0007" x="657" y="2186" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0008" x="657" y="2186" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0009" x="657" y="2186" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0010" x="657" y="2186" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0011" x="657" y="2186" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0012" x="657" y="2186" width="641" height="712"/>
+	<SubTexture name="Sweet Left Baton0013" x="657" y="2186" width="641" height="712"/>
+	<SubTexture name="Sweet Left MISS0000" x="1306" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0001" x="1306" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0002" x="1956" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0003" x="1956" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0004" x="2606" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0005" x="3256" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0006" x="3906" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0007" x="3906" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0008" x="3256" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0009" x="3256" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0010" x="3906" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0011" x="3906" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0012" x="3256" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0013" x="3256" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0014" x="3906" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0015" x="3906" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0016" x="3256" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0017" x="3256" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0018" x="3906" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Left MISS0019" x="3906" y="2186" width="642" height="713"/>
+	<SubTexture name="Sweet Right0000" x="4556" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0001" x="4556" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0002" x="5032" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0003" x="5508" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0004" x="5984" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0005" x="5984" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0006" x="6460" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0007" x="6460" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0008" x="6460" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0009" x="6460" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0010" x="6460" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0011" x="6460" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0012" x="6460" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right0013" x="6460" y="2186" width="468" height="779"/>
+	<SubTexture name="Sweet Right Baton0000" x="6936" y="2186" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0001" x="6936" y="2186" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0002" x="7553" y="2186" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0003" x="7553" y="2186" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0004" x="8" y="2973" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0005" x="8" y="2973" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0006" x="625" y="2973" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0007" x="625" y="2973" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0008" x="625" y="2973" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0009" x="625" y="2973" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0010" x="625" y="2973" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0011" x="625" y="2973" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0012" x="625" y="2973" width="609" height="712"/>
+	<SubTexture name="Sweet Right Baton0013" x="625" y="2973" width="609" height="712"/>
+	<SubTexture name="Sweet Right MISS0000" x="1242" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0001" x="1242" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0002" x="1716" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0003" x="1716" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0004" x="2190" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0005" x="2664" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0006" x="3138" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0007" x="3138" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0008" x="2664" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0009" x="2664" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0010" x="3138" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0011" x="3138" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0012" x="2664" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0013" x="2664" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0014" x="3138" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0015" x="3138" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0016" x="2664" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0017" x="2664" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0018" x="3138" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Right MISS0019" x="3138" y="2973" width="466" height="779"/>
+	<SubTexture name="Sweet Up0000" x="3612" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0001" x="3612" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0002" x="4083" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0003" x="4083" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0004" x="4554" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0005" x="4554" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0006" x="5025" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0007" x="5025" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0008" x="5496" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0009" x="5496" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0010" x="5496" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0011" x="5496" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0012" x="5496" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up0013" x="5496" y="2973" width="463" height="731"/>
+	<SubTexture name="Sweet Up Baton0000" x="5967" y="2973" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0001" x="5967" y="2973" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0002" x="6438" y="2973" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0003" x="6438" y="2973" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0004" x="6909" y="2973" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0005" x="6909" y="2973" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0006" x="7380" y="2973" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0007" x="8" y="3760" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0008" x="479" y="3760" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0009" x="479" y="3760" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0010" x="479" y="3760" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0011" x="479" y="3760" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0012" x="479" y="3760" width="463" height="736"/>
+	<SubTexture name="Sweet Up Baton0013" x="479" y="3760" width="463" height="736"/>
+	<SubTexture name="Sweet Up MISS0000" x="950" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0001" x="950" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0002" x="1425" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0003" x="1425" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0004" x="1900" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0005" x="2375" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0006" x="2850" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0007" x="2850" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0008" x="2375" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0009" x="2375" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0010" x="2850" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0011" x="2850" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0012" x="2375" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0013" x="2375" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0014" x="2850" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0015" x="2850" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0016" x="2375" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0017" x="2375" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0018" x="2850" y="3760" width="467" height="730"/>
+	<SubTexture name="Sweet Up MISS0019" x="2850" y="3760" width="467" height="730"/>
+</TextureAtlas>

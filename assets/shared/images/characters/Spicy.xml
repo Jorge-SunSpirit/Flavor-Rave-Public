@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Spicy.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SpicyDown0000" x="8" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0001" x="8" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0002" x="738" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0003" x="738" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0004" x="1468" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0005" x="1468" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0006" x="2198" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0007" x="2928" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0008" x="3658" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0009" x="3658" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0010" x="4388" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0011" x="4388" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0012" x="4388" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyDown0013" x="4388" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0000" x="5118" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0001" x="5118" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0002" x="5848" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0003" x="5848" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0004" x="6578" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0005" x="6578" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0006" x="7308" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0007" x="7308" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0008" x="8" y="638" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0009" x="8" y="638" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0010" x="738" y="638" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0011" x="738" y="638" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0012" x="738" y="638" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarDown0013" x="738" y="638" width="722" height="622"/>
+	<SubTexture name="SpicyGuitarLeft0000" x="1468" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0001" x="1468" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0002" x="2189" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0003" x="2189" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0004" x="2910" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0005" x="2910" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0006" x="3631" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0007" x="3631" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0008" x="4352" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0009" x="4352" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0010" x="5073" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0011" x="5073" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0012" x="5073" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarLeft0013" x="5073" y="638" width="713" height="670"/>
+	<SubTexture name="SpicyGuitarRight0000" x="5794" y="638" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0001" x="5794" y="638" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0002" x="6530" y="638" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0003" x="6530" y="638" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0004" x="7266" y="638" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0005" x="7266" y="638" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0006" x="8" y="1316" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0007" x="8" y="1316" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0008" x="744" y="1316" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0009" x="744" y="1316" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0010" x="1480" y="1316" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0011" x="1480" y="1316" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0012" x="1480" y="1316" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0013" x="1480" y="1316" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarRight0014" x="1480" y="1316" width="728" height="621"/>
+	<SubTexture name="SpicyGuitarUp0000" x="2216" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0001" x="2216" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0002" x="2789" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0003" x="2789" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0004" x="3362" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0005" x="3362" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0006" x="3935" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0007" x="3935" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0008" x="4508" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0009" x="4508" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0010" x="5081" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0011" x="5081" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0012" x="5081" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyGuitarUp0013" x="5081" y="1316" width="565" height="750"/>
+	<SubTexture name="SpicyIdle_2step NEW0000" x="5654" y="1316" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0001" x="6330" y="1316" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0002" x="6330" y="1316" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0003" x="7006" y="1316" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0004" x="7006" y="1316" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0005" x="8" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0006" x="8" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0007" x="684" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0008" x="684" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0009" x="1360" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0010" x="1360" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0011" x="2036" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0012" x="2036" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0013" x="2036" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0014" x="2036" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0015" x="2712" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0016" x="3388" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0017" x="3388" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0018" x="4064" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0019" x="4064" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0020" x="4740" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0021" x="4740" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0022" x="5416" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0023" x="5416" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0024" x="6092" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0025" x="6092" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0026" x="6768" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0027" x="6768" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0028" x="6768" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyIdle_2step NEW0029" x="6768" y="2074" width="668" height="684"/>
+	<SubTexture name="SpicyLeft0000" x="7444" y="2074" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0001" x="7444" y="2074" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0002" x="8" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0003" x="8" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0004" x="731" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0005" x="731" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0006" x="1454" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0007" x="1454" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0008" x="2177" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0009" x="2177" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0010" x="2900" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0011" x="2900" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0012" x="2900" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyLeft0013" x="2900" y="2766" width="715" height="623"/>
+	<SubTexture name="SpicyMissDown0000" x="8" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0001" x="8" y="8" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0002" x="3623" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0003" x="3623" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0004" x="4353" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0005" x="4353" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0006" x="5083" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0007" x="5083" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0008" x="5083" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0009" x="5083" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0010" x="5083" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0011" x="5083" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0012" x="5083" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissDown0013" x="5083" y="2766" width="722" height="622"/>
+	<SubTexture name="SpicyMissLeft0000" x="5813" y="2766" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0001" x="5813" y="2766" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0002" x="6536" y="2766" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0003" x="6536" y="2766" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0004" x="7259" y="2766" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0005" x="7259" y="2766" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0006" x="8" y="3398" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0007" x="8" y="3398" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0008" x="8" y="3398" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0009" x="8" y="3398" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0010" x="8" y="3398" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0011" x="8" y="3398" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0012" x="8" y="3398" width="715" height="624"/>
+	<SubTexture name="SpicyMissLeft0013" x="8" y="3398" width="715" height="624"/>
+	<SubTexture name="SpicyMissRight0000" x="731" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0001" x="731" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0002" x="1445" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0003" x="1445" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0004" x="2159" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0005" x="2159" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0006" x="2873" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0007" x="2873" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0008" x="2873" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0009" x="2873" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0010" x="2873" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0011" x="2873" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0012" x="2873" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0013" x="2873" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissRight0014" x="2873" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyMissUp0000" x="3587" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0001" x="3587" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0002" x="4213" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0003" x="4213" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0004" x="4839" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0005" x="4839" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0006" x="5465" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0007" x="5465" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0008" x="5465" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0009" x="5465" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0010" x="5465" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0011" x="5465" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0012" x="5465" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyMissUp0013" x="5465" y="3398" width="618" height="747"/>
+	<SubTexture name="SpicyPickAppear0000" x="6091" y="3398" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0001" x="6091" y="3398" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0002" x="6860" y="3398" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0003" x="6860" y="3398" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0004" x="8" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0005" x="8" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0006" x="777" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0007" x="777" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0008" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0009" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0010" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0011" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0012" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0013" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0014" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0015" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0016" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0017" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0018" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0019" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0020" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0021" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0022" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0023" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0024" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0025" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0026" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0027" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0028" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0029" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0030" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0031" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0032" x="1546" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0033" x="2315" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0034" x="2315" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0035" x="3084" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0036" x="3084" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0037" x="3853" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0038" x="3853" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0039" x="4622" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0040" x="4622" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0041" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0042" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0043" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0044" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0045" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0046" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0047" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0048" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0049" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0050" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0051" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0052" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0053" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0054" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0055" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0056" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0057" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0058" x="5391" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0059" x="6160" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0060" x="6160" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0061" x="6929" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0062" x="6929" y="4153" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0063" x="8" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0064" x="8" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0065" x="777" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0066" x="777" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0067" x="1546" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0068" x="1546" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0069" x="2315" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0070" x="2315" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0071" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0072" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0073" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0074" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0075" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0076" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0077" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0078" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0079" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0080" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0081" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0082" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0083" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0084" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0085" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyPickAppear0086" x="3084" y="4842" width="761" height="681"/>
+	<SubTexture name="SpicyRight0000" x="731" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyRight0001" x="731" y="3398" width="706" height="621"/>
+	<SubTexture name="SpicyRight0002" x="3853" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0003" x="3853" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0004" x="4567" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0005" x="4567" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0006" x="5281" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0007" x="5281" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0008" x="5995" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0009" x="5995" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0010" x="6709" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0011" x="6709" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0012" x="6709" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0013" x="6709" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyRight0014" x="6709" y="4842" width="706" height="621"/>
+	<SubTexture name="SpicyUp0000" x="7423" y="4842" width="624" height="747"/>
+	<SubTexture name="SpicyUp0001" x="7423" y="4842" width="624" height="747"/>
+	<SubTexture name="SpicyUp0002" x="8" y="5597" width="624" height="747"/>
+	<SubTexture name="SpicyUp0003" x="8" y="5597" width="624" height="747"/>
+	<SubTexture name="SpicyUp0004" x="640" y="5597" width="624" height="747"/>
+	<SubTexture name="SpicyUp0005" x="640" y="5597" width="624" height="747"/>
+	<SubTexture name="SpicyUp0006" x="1272" y="5597" width="624" height="747"/>
+	<SubTexture name="SpicyUp0007" x="1272" y="5597" width="624" height="747"/>
+	<SubTexture name="SpicyUp0008" x="1904" y="5597" width="624" height="747"/>
+	<SubTexture name="SpicyUp0009" x="1904" y="5597" width="624" height="747"/>
+	<SubTexture name="SpicyUp0010" x="2536" y="5597" width="624" height="747"/>
+	<SubTexture name="SpicyUp0011" x="2536" y="5597" width="624" height="747"/>
+	<SubTexture name="SpicyUp0012" x="2536" y="5597" width="624" height="747"/>
+	<SubTexture name="SpicyUp0013" x="2536" y="5597" width="624" height="747"/>
+</TextureAtlas>

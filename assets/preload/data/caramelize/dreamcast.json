@@ -1,0 +1,280 @@
+{
+	"dialogue": [
+		{
+			"background": "43",
+			"border": "enzync",
+			"chara": ["umami", 2, true],
+			"sound": ["umami","yo"],
+			"text": "It’s a pleasure to meet you, Sweet. Hope your boat over here wasn’t too hectic.",
+			"bgmVolume": 0.3,
+			"bgm": "InTheMix"
+		},
+		{
+			"background": "43",
+			"border": "enzync",
+			"chara": ["umami", 2, true],
+			"text": "My lil’ cousin here was worried sick."
+		},
+		{
+			"background": "43",
+			"border": "enzync",
+			"chara": ["sweet", 1, true],
+			"text": "My apologies… I got lost on my way here and my service was out… I didn’t mean to make you worry so much."
+		},
+		{
+			"background": "43",
+			"border": "enzync",
+			"chara": ["sour", 0, true],
+			"text": "Don’t worry about it, Sweet. I’m just glad you’re finally here. You wouldn't believe how much I've been looking forward to this."
+		},
+		{
+			"background": "43",
+			"border": "enzync",
+			"chara": ["umami", 0, true],
+			"text": "Well, I’ll leave you two to your plans. I’ve got some studying to catch up on. Have a lovely one!"
+		},
+		{
+			"background": "43",
+			"border": "enzync",
+			"chara": ["sweet", 2, true],
+			"text": "You too, ma’am. Farewell!"
+		},
+		{
+			"background": "43",
+			"border": "enzync",
+			"chara": ["sour", 0, true],
+			"text": "See you 'round, cousin. And... thanks for getting me out of my head."
+		},
+		{
+			"background": "43",
+			"border": "enzync",
+			"chara": ["umami", 0, true],
+			"sound": ["umami","laugh"],
+			"text": "Don't mention it, hun. I can already tell this girl is something real special. You take good care of her, aight?"
+		},
+		{
+			"background": "43",
+			"border": "enzync",
+			"chara": ["sour", 0, true],
+			"text": "Heh, you know I will."
+		},
+		{
+			"background": "48",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","herewego"],
+			"text": "Well, Sweet, without further ado, I welcome you to the hypest place around."
+		},
+		{
+			"background": "48",
+			"border": "enzync",
+			"chara": ["sour", 2, true],
+			"text": "This is Enzync City! Culture capital number one, and homeland of yours truly."
+		},
+		{
+			"background": "48",
+			"chara": ["sweet", 2, true],
+			"text": "Ah, it's so big and lively! All the buildings here are so much taller than the ones at home.",
+			"voice": ""
+		},
+		{
+			"background": "48",
+			"chara": ["sour", 2, true],
+			"text": "We've only got a week or two to spend together, and there's so much here, so let's get right into it! You feelin' hungry?",
+			"voice": ""
+		},
+		{
+			"background": "48",
+			"chara": ["sweet", 1, true],
+			"text": "Oh dear-! I was so excited, I've completely forgotten to eat all day!",
+			"voice": ""
+		},
+		{
+			"background": "48",
+			"chara": ["sour", 2, true],
+			"text": "Then we're definitely fixing that right now! And I got the perfect place! Ever had ramen loaded with all the toppings and extras you could dream of?",
+			"voice": ""
+		},
+		{
+			"background": "48",
+			"chara": ["sweet", 1, true],
+			"text": "Ramen? I've don't think I've heard of such a food.",
+			"voice": ""
+		},
+		{
+			"background": "48",
+			"chara": ["sour", 0, true],
+			"text": "You forreal? I have a lot of Enzync culture to teach you this week then.",
+			"voice": ""
+		},
+		{
+			"background": "48",
+			"chara": ["sour", 0, true],
+			"text": "Imma introduce you to one of my top 3 favorite restaurants up east in Togarashi Town! Let's go!",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["default", 0, false],
+			"text": "One quick walk to the east later..."
+		},
+		{
+			"background": "49",
+			"border": "togarashi",
+			"chara": ["sour", 2, true],
+			"bgm": "TogarashiCentral",
+			"bgmVolume": 0.3,
+			"text": "Aaaaaaaand here we are.",
+			"voice": ""
+		},
+		{
+			"background": "49",
+			"chara": ["sweet", 2, true],
+			"text": "Oh my gosh! This place is gorgeous! And so serene too.",
+			"voice": ""
+		},
+		{
+			"background": "49",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","laugh"],
+			"text": "Yeah, Togarashi Town's got that nice vibe goin' on. Always calm and chill-",
+			"voice": ""
+		},
+		{
+			"command": "shake"
+		},
+		{
+			"background": "50",
+			"chara": ["spicy", 2, true],
+			"sound": ["spicy","YEAH"],
+			"number": 1,
+			"text": "Hey!!! You and you! Hold the heck up!!!",
+            "bgm": "stop",
+			"voice": ""
+		},
+		{
+			"background": "50",
+			"chara": ["sour", 1, true],
+			"text": "...except today apparently-!",
+			"voice": ""
+		},
+		{
+			"background": "51",
+			"chara": ["spicy", 0, true],
+			"sound": ["spicy","heyyou"],
+			"bgm": "DialItBack",
+			"bgmVolume": 0.22,
+			"text": "I've seen you guys all over the internet! You're those performers that went all rivals-to-lovers in one day! Sweet and Sour!",
+			"voice": ""
+		},
+		{
+			"background": "51",
+			"chara": ["sour", 1, true],
+			"text": "...is that how people describe it?",
+			"voice": ""
+		},
+		{
+			"background": "51",
+			"chara": ["spicy", 0, true],
+			"text": "Heh, sweet and sour are great on their own, but I'm the best of both worlds!",
+			"voice": ""
+		},
+		{
+			"background": "51",
+			"chara": ["spicy", 2, true],
+			"text": "I'm sweet like cinnamon candy and sour like lime on fiesta chicken! It's Spicy, baby!",
+			"voice": ""
+		},
+		{
+			"background": "52",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","helloconcern"],
+			"text": "It's... nice to meet you?",
+			"voice": ""
+		},
+		{
+			"background": "52",
+			"chara": ["spicy", 2, true],
+			"text": "We're not just here for meeting! We're here for competing too!",
+			"voice": ""
+		},
+		{
+			"background": "52",
+			"chara": ["spicy", 2, true],
+			"sound": ["spicy","youreon"],
+			"text": "It's challenge time! No backsies!",
+			"voice": ""
+		},
+		{
+			"background": "52",
+			"chara": ["soursweet", 0, true],
+			"text": "...",
+			"voice": "",
+			"textAlign": "center"
+		},
+		{
+			"background": "52",
+			"chara": ["sour", 1, true],
+			"text": "...what? You lookin' for some kind of face-off or something?",
+			"voice": ""
+		},
+		{
+			"background": "53",
+			"chara": ["spicy", 1, true],
+			"sound": ["spicy","wha"],
+			"text": "Uhh... yeah, duh.",
+			"voice": ""
+		},
+		{
+			"background": "53",
+			"chara": ["sweet", 2, true],
+			"text": "Ah, that would be fun! We'd love to!",
+			"voice": ""
+		},
+		{
+			"background": "53",
+			"chara": ["sour", 1, true],
+			"text": "You sure this is a good time? We're kinda starvin' right now.",
+			"voice": ""
+		},
+		{
+			"background": "53",
+			"chara": ["sweet", 0, true],
+			"text": "Look at her, Sour! She looks like quite the lively performer, doesn't she?",
+			"voice": ""
+		},
+		{
+			"background": "53",
+			"chara": ["sour", 0, true],
+			"text": "Yeah, you'll find a lot of that type all over Enzync. But if you insist... Let's do this, Sweet!",
+			"voice": ""
+		},
+		{
+			"background": "51",
+			"chara": ["spicy", 2, true],
+			"text": "Nuh uh uh! This is a 1V1 only! Two on one ain't fair, Greeny! And I wanna challenge Sweety here first!",
+			"voice": ""
+		},
+		{
+			"background": "51",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","what"],
+			"text": "Forreal? Ugh, aight. Guess I'm waiting then.",
+			"voice": ""
+		},
+		{
+			"background": "51",
+			"chara": ["sour", 0, true],
+			"text": "You got this, Sweet!",
+			"voice": ""
+		},
+		{
+			"background": "51",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","giggle"],
+			"text": "Well, if that’s what you desire, then I'm happy to oblige!",
+			"voice": ""
+		}
+	]
+}

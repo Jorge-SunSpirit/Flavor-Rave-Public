@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fogright.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fogright0000" x="10" y="10" width="701" height="247"/>
+	<SubTexture name="fogright0001" x="10" y="10" width="701" height="247"/>
+	<SubTexture name="fogright0002" x="10" y="10" width="701" height="247"/>
+	<SubTexture name="fogright0003" x="10" y="267" width="701" height="247"/>
+	<SubTexture name="fogright0004" x="10" y="267" width="701" height="247"/>
+	<SubTexture name="fogright0005" x="10" y="267" width="701" height="247"/>
+	<SubTexture name="fogright0006" x="10" y="524" width="701" height="247"/>
+	<SubTexture name="fogright0007" x="10" y="524" width="701" height="247"/>
+	<SubTexture name="fogright0008" x="10" y="524" width="701" height="247"/>
+</TextureAtlas>

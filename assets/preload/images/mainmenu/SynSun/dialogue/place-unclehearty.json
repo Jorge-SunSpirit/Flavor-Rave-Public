@@ -1,0 +1,121 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Oh? The fast food place? I do go there every now and then to grab a quick bite.",
+			"tvArt" : "heartys",
+			"chara": "sun"
+		},
+		{
+			"text": "Not much else to say about it though.",
+			"chara": "sun"
+		},
+		{
+			"text": "...",
+			"chara": "syn"
+		},
+		{
+			"text": "...",
+			"chara": "sun"
+		},
+		{
+			"text": "...",
+			"animation": "hueh",
+			"chara": "syn"
+		},
+		{
+			"text": "Don't look at me like that-",
+			"animation": "nervous",
+			"chara": "sun"
+		},
+		{
+			"text": "C'mon, Sunny. I can't be the one bringing up all the cool things about you. You gotta say it.",
+			"sound" : "cmonsunny",
+			"chara": "syn"
+		},
+		{
+			"text": "We really don't have to-",
+			"sound" : "grumble",
+			"chara": "sun"
+		},
+		{
+			"text": "Viewers, it's time for a SynSun fun fact! To most of you guys, Uncle Hearty is just the name of a restaurant, but not to Sunny!",
+			"animation": "happy",
+			"chara": "syn"
+		},
+		{
+			"text": "And that's because… drumroll please…",
+			"chara": "syn"
+		},
+		{
+			"text": "Sunny's uncle is THE Uncle Hearty himself! How cool is that?",
+			"animation": "alert",
+			"sound" : "yougotit",
+			"chara": "syn"
+		},
+		{
+			"text": "I mean, yeah… he is a really cool uncle. I just don't like feeling like I'm someone important purely out of relation to him, y'know?",
+			"sound" : "wellumm",
+			"chara": "sun"
+		},
+		{
+			"text": "But I can't thank him enough. He is the one who helped build this studio for us.",
+			"animation": "reset",
+			"chara": "sun"
+		},
+		{
+			"text": "He's quite the character. We wanted to just make a small setup in your bedroom for this show initially, then he came in with the whole shebang and made our own little mini studio.",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "Being bombastic and extra is definitely his thing. Anyone who's ever been to Uncle Hearty's can attest to that.",
+			"chara": "sun"
+		},
+		{
+			"text": "Every month he's always landing some crazy deal or sponsorship. That's why the menu items are always over the top.",
+			"animation": "happy",
+			"chara": "sun"
+		},
+		{
+			"text": "It ends up working out so much with how many people on social media talk about it. The place gets crazy attention all the time.",
+			"chara": "sun"
+		},
+		{
+			"text": "Must suck for all those employees having to deal with hundreds of vloggers and social media junkies flooding the place all the time.",
+			"animation": "sad",
+			"chara": "syn"
+		},
+		{
+			"text": "It's definitely a lot, but my uncle understands that. That's why the pay there is crazy good for a fast food place. It evens things out.",
+			"animation": "reset",
+			"chara": "sun"
+		},
+		{
+			"text": "Hey, you think we can ask him to toss up an advertisement for our stream somewhere in the restaurant?",
+			"animation": "reset",
+			"sound" : "heyquiet",
+			"chara": "syn"
+		},
+		{
+			"text": "We don't gotta go that far-",
+			"sound" : "eeh",
+			"animation": "nervous",
+			"chara": "sun"
+		},
+		{
+			"text": "Why not? You think he'll say no?",
+			"chara": "syn"
+		},
+		{
+			"text": "No, it's because he WILL say yes, and it's gonna be really awkward walking into that place and being immediately recognized.",
+			"animation": "embarassed",
+			"chara": "sun"
+		},
+		{
+			"text": "Heh heh, fair enough.",
+			"sound" : "robolaugh",
+			"chara": "syn"
+		}
+	]
+}

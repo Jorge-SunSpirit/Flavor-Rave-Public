@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="umami_bg.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DS_Umami_BackgroundBop0000" x="12" y="12" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0001" x="12" y="12" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0002" x="349" y="12" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0003" x="349" y="12" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0004" x="686" y="12" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0005" x="686" y="12" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0006" x="1023" y="12" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0007" x="1023" y="12" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0008" x="1360" y="12" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0009" x="1360" y="12" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0010" x="1697" y="12" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0011" x="12" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0012" x="349" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0013" x="349" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0014" x="686" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0015" x="686" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0016" x="1023" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0017" x="1023" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0018" x="1360" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0019" x="1360" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0020" x="1697" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0021" x="1697" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0022" x="349" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0023" x="349" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0024" x="349" y="432" width="325" height="408"/>
+	<SubTexture name="DS_Umami_BackgroundBop0025" x="349" y="432" width="325" height="408"/>
+</TextureAtlas>

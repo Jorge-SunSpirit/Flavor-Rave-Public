@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "What a spectacle! I should visit these places more often!",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Encore!",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Was that ok, T-Bone?",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I can't be too hard on myself. It's just a fun open mic.",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Oh, boo... That could've gone better...",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

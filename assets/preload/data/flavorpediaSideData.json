@@ -1,0 +1,520 @@
+{
+	"character":
+	[
+		{
+			"chara": "showman",
+			"name": "Showman",
+			"design": "Flavor Rave Original\nDesigned by Duster",
+			"desc": "An enigmatic entrepreneur who runs and owns Enzync's biggest showroom. His mannerisms and methods of driving sales are questionable.",
+			"place": "Showman's Showroom",
+			"songCheck": "Cranberry Pop"
+		},
+		{
+			"chara": "stan",
+			"name": "Stan",
+			"design": "Flavor Rave Original\nDesigned by Hisa",
+			"desc": "A big fan of Sour who's been to all of his shows. He's not the biggest fan of classical music.",
+			"place": "Showman's Showroom",
+			"songCheck": "Cranberry Pop"
+		},
+		{
+			"chara": "moon",
+			"name": "Moon",
+			"design": "Flavor Rave Original\nDesigned by Hisa",
+			"desc": "One of Sweet's biggest fans, excited to see Sweet's first performance in her hometown.",
+			"place": "Showman's Showroom",
+			"songCheck": "Cranberry Pop"
+		},
+		{
+			"chara": "kyle",
+			"name": "Kool Guy Kyle \n￙",
+			"design": "Flavor Rave Original\nDesigned by Hisa",
+			"desc": "Self-titled 'Coolest Dude Around'. He has the uncanny ability to always appear in places where crazy events are happening.",
+			"place": "Showman's Showroom",
+			"songCheck": "Cranberry Pop"
+		},
+		{
+			"chara": "chompo",
+			"name": "Chompo \n￙",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://twitter.com/chompoWRLD"
+		},
+		{
+			"chara": "davi",
+			"name": "Davi",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://twitter.com/dat_davi"
+		},
+		{
+			"chara": "duster",
+			"name": "Duster",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://twitter.com/SirDusterBuster"
+		},
+		{
+			"chara": "grand",
+			"name": "Grand",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://twitter.com/GrandHammer6"
+		},
+		{
+			"chara": "haruka",
+			"name": "Haruka",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://twitter.com/GGalactigal"
+		},
+		{
+			"chara": "hisa",
+			"name": "Hisa",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://twitter.com/AmaiHisa"
+		},
+		{
+			"chara": "hpk",
+			"name": "HPK",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://twitter.com/HighPoweredArt"
+		},
+		{
+			"chara": "jackie",
+			"name": "Jackie",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://twitter.com/JACKALRUIN"
+		},
+		{
+			"chara": "jorge",
+			"name": "Jorge \n￙",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://twitter.com/Jorge_SunSpirit"
+		},
+		{
+			"chara": "juno",
+			"name": "Juno",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://twitter.com/JunoSongsYT"
+		},
+		{
+			"chara": "leza",
+			"name": "Leza",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://twitter.com/lezanikat"
+		},
+		{
+			"chara": "michael",
+			"name": "M&M",
+			"design": "Team TBD Dev",
+			"desc": "The devs arrived to snag some autographs!",
+			"place": "Showman's Showroom",
+			"songCheck": "Sugarcoat It",
+			"link": "https://linktr.ee/ActualMandM"
+		},
+		{
+			"chara": "connie",
+			"name": "Connie",
+			"design": "Party Week",
+			"desc": "One of the passerbys during Umami and Sour's performance.",
+			"place": "Enzync City Main Street",
+			"songCheck": "Applewood",
+			"link": "https://gamebanana.com/mods/486832"
+		},
+		{
+			"chara": "minami",
+			"name": "Minami",
+			"design": "Mirror Life Crisis",
+			"desc": "One of the passerbys during Umami and Sour's performance.",
+			"place": "Enzync City Main Street",
+			"songCheck": "Applewood",
+			"link": "https://gamebanana.com/mods/459683"
+		},
+		{
+			"chara": "saff",
+			"name": "Saff",
+			"design": "Flavor Rave Original\nOG Design by Starbitz",
+			"desc": "Her name's short for Saffron. A young kid from Sweet's hometown who loves arts n' crafts. She has an unusually strong disdain for Sour.",
+			"place": "Enzync City Main Street",
+			"songCheck": "Applewood",
+			"link": "https://x.com/Starbitz_"
+		},
+		{
+			"chara": "shorty",
+			"name": "Shorty \n￙",
+			"design": "Big Swingin' Sister",
+			"desc": "One of the passerbys during Umami and Sour's performance.",
+			"place": "Enzync City Main Street",
+			"songCheck": "Applewood",
+			"link": "https://gamebanana.com/mods/375219"
+		},
+		{
+			"chara": "furikake",
+			"name": "Furikake",
+			"design": "Flavor Rave Original\nDesigned by Duster",
+			"desc": "A singer from New Togarashi whose become tired of city life. She's taken her girlfriend out on a date to Central Togarashi's Speaker Gate.",
+			"place": "Togarashi Town",
+			"songCheck": "Caramelize"
+		},
+		{
+			"chara": "nori",
+			"name": "Nori",
+			"design": "Flavor Rave Original\nDesigned by Hisa",
+			"desc": "A singer born in Old Togarashi. She felt isolated in her old homelife but found comfort with her partner, Furikake.",
+			"place": "Togarashi Town",
+			"songCheck": "Caramelize"
+		},
+		{
+			"chara": "shuri",
+			"name": "Shuri",
+			"design": "Shinobi Scramble",
+			"desc": "A faraway traveler here to visit Togarashi Town's popular couples spot.",
+			"place": "Togarashi Town",
+			"songCheck": "Caramelize",
+			"link": "https://gamebanana.com/mods/310161"
+		},
+		{
+			"chara": "ken",
+			"name": "Ken",
+			"design": "Shinobi Scramble",
+			"desc": "A faraway traveler here to visit Togarashi Town's popular couples spot.",
+			"place": "Togarashi Town",
+			"songCheck": "Caramelize",
+			"link": "https://gamebanana.com/mods/310161"
+		},
+		{
+			"chara": "bitter",
+			"name": "Bitter",
+			"design": "Flavor Rave Original\nDesigned by Space Dust",
+			"desc": "A mysterious young man who hides his true feelings under his charming exterior.",
+			"place": "Togarashi Town",
+			"songCheck": "Flavorscape",
+			"link": "https://twitter.com/SPACEE_DUST_"
+		},
+		{
+			"chara": "citrus",
+			"name": "Citrus",
+			"design": "Flavor Rave Original\nDesigned by StariiFish",
+			"desc": "A young girl who favors Enzync City's natural locales and brightens your day with her ukelele.",
+			"place": "Togarashi Town",
+			"songCheck": "Flavorscape",
+			"link": "https://x.com/StariiFish"
+		},
+		{
+			"chara": "herbal",
+			"name": "Herbal",
+			"design": "Flavor Rave Original\nDesigned by Lillian",
+			"desc": "The owner of a quaint tea shop in Central Togarashi. Her teas are known across town to soothe the soul.",
+			"place": "Togarashi Town",
+			"songCheck": "Flavorscape",
+			"link": "https://x.com/Lillie_334"
+		},
+		{
+			"chara": "mazapan",
+			"name": "Mazapan\n￙",
+			"design": "Flavor Rave Original\nDesigned by NaNaaaoto",
+			"desc": "A traveling dancer from Corianda who can perform for several hours at a time with no rest. Always carries treats to toss to their viewers.",
+			"place": "Togarashi Town",
+			"songCheck": "Flavorscape",
+			"link": "https://x.com/NaNaaaoto"
+		},
+		{
+			"chara": "ramune",
+			"name": "Ramune",
+			"design": "Flavor Rave Original\n Designed by Mellodi",
+			"desc": "Enzync City's upcoming idol star, lifting other's spirits with her hyper-energetic pop music.",
+			"place": "Togarashi Town",
+			"songCheck": "Flavorscape",
+			"link": "https://x.com/RealMelodyHope"
+		},
+		{
+			"chara": "carrot",
+			"name": "Carrot",
+			"design": "Garden of Beatin'",
+			"desc": "A passerby patron at Uncle Hearty's",
+			"place": "Uncle Hearty's",
+			"songCheck": "Double-Stacked",
+			"link": "https://x.com/MrZonian"
+		},
+		{
+			"chara": "pea",
+			"name": "Pea",
+			"design": "Garden of Beatin'",
+			"desc": "A passerby patron at Uncle Hearty's",
+			"place": "Uncle Hearty's",
+			"songCheck": "Double-Stacked",
+			"link": "https://x.com/MrZonian"
+		},
+		{
+			"chara": "mrthrowdown",
+			"name": "Mr. Throwdown",
+			"design": "\nDeveloper OC",
+			"desc": "A passerby patron at Uncle Hearty's",
+			"place": "Uncle Hearty's",
+			"songCheck": "Double-Stacked",
+			"link": "https://x.com/SirDusterBuster"
+		},
+		{
+			"chara": "richard",
+			"name": "Richard",
+			"design": "Developer OC",
+			"desc": "A passerby patron at Uncle Hearty's",
+			"place": "Uncle Hearty's",
+			"songCheck": "Double-Stacked",
+			"link": "https://x.com/Jorge_SunSpirit"
+		},
+		{
+			"chara": "tbdtan",
+			"name": "TBD-tan",
+			"design": "Team TBD Mascot",
+			"desc": "A passerby patron at Uncle Hearty's",
+			"place": "Uncle Hearty's",
+			"songCheck": "Double-Stacked"
+		},
+		{
+			"chara": "sutazu",
+			"name": "Chef Sutazu",
+			"design": "Developer Mutual OC",
+			"desc": "A passerby patron at Uncle Hearty's",
+			"place": "Uncle Hearty's",
+			"songCheck": "Double-Stacked",
+			"link": "https://x.com/BigFriendHaver"
+		},
+		{
+			"chara": "sven",
+			"name": "Sven",
+			"design": "FNF: Soft",
+			"desc": "A passerby patron at Uncle Hearty's",
+			"place": "Uncle Hearty's",
+			"songCheck": "Double-Stacked",
+			"link": "https://gamebanana.com/mods/523551"
+		},
+		{
+			"chara": "biggs",
+			"name": "Biggs \n￙",
+			"design": "Boo! Don't Get Spooked",
+			"desc": "An undead visitor at the Open Mic.",
+			"place": "Open Mic Night",
+			"songCheck": "Heartstrings",
+			"link": "https://gamebanana.com/mods/331943"
+		},
+		{
+			"chara": "buggs",
+			"name": "Buggs \n￙",
+			"design": "Boo! Don't Get Spooked",
+			"desc": "An undead visitor at the Open Mic.",
+			"place": "Open Mic Night",
+			"songCheck": "Heartstrings",
+			"link": "https://gamebanana.com/mods/331943"
+		},
+		{
+			"chara": "tbone",
+			"name": "T-Bone",
+			"design": "Boo! Don't Get Spooked",
+			"desc": "An undead visitor at the Open Mic.",
+			"place": "Open Mic Night",
+			"songCheck": "Heartstrings",
+			"link": "https://gamebanana.com/mods/331943"
+		},
+		{
+			"chara": "06",
+			"name": "06",
+			"design": "Entity: Origins",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/319127"
+		},
+		{
+			"chara": "bella",
+			"name": "Bella",
+			"design": "Charictaristic Disparity",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/409236"
+		},
+		{
+			"chara": "bex",
+			"name": "Bex",
+			"design": "Charictaristic Disparity",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/409236"
+		},
+		{
+			"chara": "bluster",
+			"name": "Bluster",
+			"design": "Ghouls n' Grooves",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/459770"
+		},
+		{
+			"chara": "boo",
+			"name": "Boo",
+			"design": "Boo! Don't Get Spooked",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/331943"
+		},
+		{
+			"chara": "c",
+			"name": "C",
+			"design": "Printed Pals",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/410651"
+		},
+		{
+			"chara": "clownami",
+			"name": "Clownami",
+			"design": "Mirror Life Crisis",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/459683"
+		},
+		{
+			"chara": "gemmy",
+			"name": "Gemmy \n￙",
+			"design": "Antithesi",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/409847"
+		},
+		{
+			"chara": "h4ck",
+			"name": "H4ck",
+			"design": "Vs. H4ck",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamejolt.com/games/VS-H4CK/650101"
+		},
+		{
+			"chara": "ian",
+			"name": "Ian",
+			"design": "Interview Inc.",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/410639"
+		},
+		{
+			"chara": "jeffery",
+			"name": "Jeffrey \n￙",
+			"design": "Pixel Perfect",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/427667"
+		},
+		{
+			"chara": "jester",
+			"name": "Jester \n￙",
+			"design": "Astral Mirage",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/459892"
+		},
+		{
+			"chara": "kemo",
+			"name": "Kemo",
+			"design": "Vs. Kemo",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamejolt.com/games/vskemo/649670"
+		},
+		{
+			"chara": "newton",
+			"name": "Newton",
+			"design": "Inner Mirror",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/459869"
+		},
+		{
+			"chara": "nyako",
+			"name": "Nyako \n￙",
+			"design": "Neko-No Ni Dansu!!",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/410635"
+		},
+		{
+			"chara": "pip",
+			"name": "Pip \n￙",
+			"design": "Artistic Catastrophe",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/410739"
+		},
+		{
+			"chara": "richard-gj",
+			"name": "Richard",
+			"design": "Crypto Crackdown",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/319122"
+		},
+		{
+			"chara": "shaylin",
+			"name": "Shaylin \n￙",
+			"design": "Crisp n' Colorful",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/464327"
+		},
+		{
+			"chara": "talia",
+			"name": "Talia",
+			"design": "Cyber Sensation",
+			"desc": "A modjam guest during Torrent's Jam Session.",
+			"place": "The Funktrix",
+			"songCheck": "GAME-JAMMED",
+			"link": "https://gamebanana.com/mods/499844"
+		}
+	]
+}

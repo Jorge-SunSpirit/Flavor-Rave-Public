@@ -1,0 +1,125 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				164,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Sweet Left0"
+		},
+		{
+			"offsets": [
+				-102,
+				-19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Sweet Down0"
+		},
+		{
+			"offsets": [
+				-82,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Sweet Up0"
+		},
+		{
+			"offsets": [
+				-94,
+				62
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Sweet Right0"
+		},
+		{
+			"offsets": [
+				167,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Sweet Left MISS"
+		},
+		{
+			"offsets": [
+				-82,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Sweet Down MISS"
+		},
+		{
+			"offsets": [
+				-95,
+				16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Sweet Up MISS"
+		},
+		{
+			"offsets": [
+				-90,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Sweet Right MISS"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Sweet Idle0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SweetFunktrix",
+	"position": [
+		100,
+		20
+	],
+	"healthicon": "sweet",
+	"flip_x": true,
+	"healthbar_colors": [
+		240,
+		196,
+		189
+	],
+	"camera_position": [
+		-60,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sweet",
+	"healthbar_image": "sweet",
+	"musicNoteOffset": [-100,-200]
+}

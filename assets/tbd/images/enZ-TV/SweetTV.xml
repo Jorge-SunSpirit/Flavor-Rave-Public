@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SweetTV.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SweetTV instance 10000" x="8" y="8" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10001" x="8" y="8" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10002" x="624" y="8" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10003" x="624" y="8" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10004" x="624" y="8" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10005" x="1240" y="8" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10006" x="1240" y="8" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10007" x="8" y="595" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10008" x="8" y="595" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10009" x="8" y="595" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10010" x="624" y="595" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10011" x="624" y="595" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10012" x="1240" y="595" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10013" x="1240" y="595" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10014" x="1240" y="595" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10015" x="8" y="1182" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10016" x="8" y="1182" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10017" x="624" y="1182" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10018" x="624" y="1182" width="608" height="579"/>
+	<SubTexture name="SweetTV instance 10019" x="624" y="1182" width="608" height="579"/>
+</TextureAtlas>

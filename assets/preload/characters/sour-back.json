@@ -1,0 +1,125 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-8
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SourBackDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SourBackIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-52,
+				15
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SourBackUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				-6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SourBackLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-44,
+				4
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SourBackRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				58,
+				-6
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "SourBackMissLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				-8
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "SourBackMissDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-48,
+				15
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "SourBackMissUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-34,
+				3
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "SourBackMissRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SourBack",
+	"position": [
+		20,
+		110
+	],
+	"healthicon": "sour",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		235,
+		189
+	],
+	"camera_position": [
+		-100,
+		100
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sour",
+	"healthbar_image": "sour",
+	"musicNoteOffset": [125,-200]
+}

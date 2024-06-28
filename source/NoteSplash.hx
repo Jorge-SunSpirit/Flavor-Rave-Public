@@ -1,0 +1,68 @@
+package;
+
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.graphics.frames.FlxAtlasFrames;
+import shaders.ColorSwap;
+
+class NoteSplash extends FlxSprite
+{
+	public var colorSwap:ColorSwap = null;
+	private var idleAnim:String;
+	private var textureLoaded:String = null;
+
+	public function new(x:Float = 0, y:Float = 0, ?note:Int = 0, ?funnySkin:String = 'noteSplashes') {
+		super(x, y);
+
+		var skin:String = funnySkin;
+		if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) skin = PlayState.SONG.splashSkin;
+
+		loadAnims(skin);
+		
+		colorSwap = new ColorSwap();
+		shader = colorSwap.shader;
+
+		setupNoteSplash(x, y, note);
+		antialiasing = ClientPrefs.globalAntialiasing;
+	}
+
+	public function setupNoteSplash(x:Float, y:Float, note:Int = 0, texture:String = null, scaleSize:Float = 1, opacity:Float = 0.6) {
+		setPosition(x - Note.swagWidth * 0.95, y - Note.swagWidth);
+		alpha = opacity;
+
+		scale.set(scaleSize, scaleSize);
+		updateHitbox();
+
+		if(texture == null) {
+			texture = 'noteSplashes';
+			if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) texture = PlayState.SONG.splashSkin;
+		}
+
+		if(textureLoaded != texture) {
+			loadAnims(texture);
+		}
+		offset.set(10, 10);
+
+		//var animNum:Int = FlxG.random.int(1, 2);
+		var animNum:Int = 1;
+		animation.play('note' + note + '-' + animNum, true);
+		if(animation.curAnim != null)animation.curAnim.frameRate = 24 + FlxG.random.int(-2, 2);
+	}
+
+	function loadAnims(skin:String) {
+		frames = Paths.getSparrowAtlas(skin);
+		var i:Int = 1;
+		//for (i in 1...3) {
+			animation.addByPrefix("note1-" + i, "note splash blue " + i, 24, false);
+			animation.addByPrefix("note2-" + i, "note splash green " + i, 24, false);
+			animation.addByPrefix("note0-" + i, "note splash purple " + i, 24, false);
+			animation.addByPrefix("note3-" + i, "note splash red " + i, 24, false);
+		//}
+	}
+
+	override function update(elapsed:Float) {
+		if(animation.curAnim != null)if(animation.curAnim.finished) kill();
+
+		super.update(elapsed);
+	}
+}

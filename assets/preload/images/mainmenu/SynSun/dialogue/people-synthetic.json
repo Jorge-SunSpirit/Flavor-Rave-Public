@@ -1,0 +1,133 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Seein' something you like? Heh heh.",
+			"chara": "syn"
+		},
+		{
+			"text": "Well, shucks! I'm more than happy to introduce you all to the wide world of what makes me... me!",
+			"animation": "happy",
+			"chara": "syn"
+		},
+		{
+			"text": "Allow me to clear my voice bank before I begin...",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "...",
+			"chara": "syn"
+		},
+		{
+			"text": "AHEM-! Ahem... ahem...",
+			"animation": "alert",
+			"sound" : "clear",
+			"chara": "syn"
+		},
+		{
+			"text": "My name is Synthetic! That was the name assigned to me by my genius inventor here, Sunny!",
+			"animation": "happy",
+			"sound" : "robolaugh",
+			"chara": "syn"
+		},
+		{
+			"text": "I am a complex, highly modern, and deeply intelligent AI system... fit snugly in the shell of an old-school, refurbished home computer.",
+			"chara": "syn"
+		},
+		{
+			"text": "In fact, most of my physical components are pretty outdated. But that's OK with me! Who doesn't love that retro-y, vintage-y feel, right?",
+			"chara": "syn"
+		},
+		{
+			"text": "Plus, you guys already know how terribly expensive those high end graphics cards and fancy monitors are. It don't cost an arm and a leg to make a pinaccle partner like me!",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "I bet Sunny here can fill you in on the finer details of how I came to be. Take it away!",
+			"chara": "syn"
+		},
+		{
+			"text": "Oh! Um, yeah!",
+			"sound" : "ohrealize",
+			"chara": "sun"
+		},
+		{
+			"text": "So... back in high school, I learned a lot about programming, especially when it came to AI technology.",
+			"animation": "happy",
+			"chara": "sun"
+		},
+		{
+			"text": "I thought it was one of the coolest things I've ever seen with just how much potential it has.",
+			"chara": "sun"
+		},
+		{
+			"text": "ESPECIALLY when combined with robotics. I'm a sucker for cute robot companions in movies, and I've always wanted to build a real one with the power of machines and AI.",
+			"chara": "sun"
+		},
+		{
+			"text": "That became a huge obseession of mine, so... I formed a Robotics Club! And as our big project, we worked together to build Synthetic!",
+			"animation": "determined",
+			"sound" : "awesome",
+			"chara": "sun"
+		},
+		{
+			"text": "Like Syn said, modern components are really expensive, so we built Syn out of spare parts we found at garage sales and old storage cleanouts.",
+			"chara": "sun"
+		},
+		{
+			"text": "When I sat down to write Syn's AI, I knew I didn't want him to be some crazy smart supercomputer, so I programmed Synthetic to be more of a friend-",
+			"animation": "reset",
+			"chara": "sun"
+		},
+		{
+			"text": "-and being a friend means you can't always be the smartest thing in the room.",
+			"chara": "sun"
+		},
+		{
+			"text": "Was it difficult to program an AI that can intentionally do things wrong? Yeah...",
+			"chara": "sun"
+		},
+		{
+			"text": "And does Synthetic say some absurd things because of how they're designed? Also yeah... but they're the bestest friend I can ask for.",
+			"chara": "sun"
+		},
+		{
+			"text": "You guys got crazy recognition for building me! I remember all those newscasters and business people lining up to meet you.",
+			"animation": "happy",
+			"chara": "syn"
+		},
+		{
+			"text": "Even the CEO of GlazeCorp was there! He gave you a crazy huge sum to buy me and my tech, plus an internship.",
+			"chara": "syn"
+		},
+		{
+			"text": "I almost fainted when I saw the amount he was offering... but I turned it down.",
+			"animation": "nervous",
+			"sound" : "man",
+			"chara": "sun"
+		},
+		{
+			"text": "I really didn't want to lose you. Once high school was over... the rest of the Robotics Club all left Enzync... and you were the only friend I still had here.",
+			"animation": "sad",
+			"chara": "sun"
+		},
+		{
+			"text": "I know I'm very happy to not be in the hands of some corporate suit guys. I like being right here with you too, Sunny.",
+			"animation": "happy",
+			"chara": "syn"
+		},
+		{
+			"text": "Everyone, let's all give Sunny some love for being the one to create me! I can't stress it enough, an absolute genius in her craft and the bestest of friends, she is!",
+			"sound" : "hahahaha",
+			"chara": "syn"
+		},
+		{
+			"text": "Aww, guys... You're gonna make me all teary.",
+			"animation": "excited",
+			"sound" : "giggle",
+			"chara": "sun"
+		}
+	]
+}

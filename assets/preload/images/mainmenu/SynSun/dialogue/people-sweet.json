@@ -1,0 +1,99 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "That dual concert at the showroom is what first introduced me to Sweet.",
+			"chara": "sundried",
+			"tvArt" : "sweet"
+		},
+		{
+			"text": "I've never listened to much classical before, but Sweet's music takes that orchestral sound and makes it feel so modern and fresh! I can't get enough of it now.",
+			"chara": "sundried"
+		},
+		{
+			"text": "She's honestly my biggest role model right now, too. That radiant vibe she gives off on stage and her sheer kindness in person is just inspiring.",
+			"chara": "sundried"
+		},
+		{
+			"text": "Sweet takes after her parents. Both of them were very influential classical performers in their prime. Every grandparent out there probably has at least one of their records.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Both have been retired for several years already though. They've been living cozy up in the Preheats, based on what I'm reading.",
+			"sound" : "beepboop",
+			"animation": "search",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Ooh, what's living in the Preheats like?",
+			"animation": "excited",
+			"sound" : "ohrealize",
+			"chara": "sundried"
+		},
+		{
+			"text": "Very vintage feel. Lots of old folk go there to settle.",
+			"sound" : "hmm",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Nowhere near as modern as Enzync City. You ain't finding anything like me up there in the Preheats.",
+			"animation": "reset",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Sweet was born and raised there, so that explains her very old fashioned manners.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "It must've been a hassle to try and come all the way down here for her first concert.",
+			"chara": "sundried"
+		},
+		{
+			"text": "Absolutely. Those plane tickets costs are RIDICULOUS!",
+			"animation": "upset",
+			"sound" : "eugh",
+			"chara": "synthetic"
+		},
+		{
+			"text": "I think the boats at the Enzync Dock head over there pretty often. It's gotta be cheaper to take those, at least.",
+			"chara": "sundried"
+		},
+		{
+			"text": "",
+			"animation": "reset",
+			"chara": "synthetic",
+			"command": "autoSkip"
+		},
+		{
+			"text": "It would be awesome to take a visit there one day. Maybe next summer when we're more free.",
+			"sound" : "awesome",
+			"animation": "happy",
+			"chara": "sundried"
+		},
+		{
+			"text": "Y'know... I wish I could be more proper and refined like she is. Everything about her has this gentle, beautiful feel to it that's just... so enviable.",
+			"animation": "think",
+			"chara": "sundried"
+		},
+		{
+			"text": "If you ask me, I think being all prim and proper is overrated. You’re way more fun the way you are, Sunny.",
+			"sound" : "nah",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Aww, Syn… I am flattered, but it would be nice to do some nice proper things here and there.",
+			"animation": "reset",
+			"chara": "sundried"
+		},
+		{
+			"text": "I'd love to own a pretty white dress like Sweet's. I don't really wear dresses ever, but it be a nice change of pace from my usual clothes at least.",
+			"animation": "excited",
+			"chara": "sundried"
+		},
+		{
+			"text": "I'm hoping to just know more about Sweet in general. She's only recently started to become more prevalent online, so let's see some more from our lovely lady of the orchestra!",
+			"animation": "happy",
+			"chara": "synthetic"
+		},
+	]
+}

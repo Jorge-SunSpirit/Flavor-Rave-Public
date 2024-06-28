@@ -1,0 +1,6 @@
+Stage Lights
+Controls the stage lights in that stage
+(i forgor what its called)
+
+Value 1: Light Types
+(Valid: "sour", "sweet", "all", "off"

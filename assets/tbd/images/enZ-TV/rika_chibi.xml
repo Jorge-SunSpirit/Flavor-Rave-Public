@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rika_chibi.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="rika dance0000" x="8" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0001" x="8" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0002" x="415" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0003" x="415" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0004" x="415" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0005" x="822" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0006" x="822" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0007" x="1229" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0008" x="1229" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0009" x="1229" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0010" x="1636" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0011" x="1636" y="8" width="399" height="508"/>
+	<SubTexture name="rika dance0012" x="8" y="524" width="399" height="508"/>
+	<SubTexture name="rika dance0013" x="8" y="524" width="399" height="508"/>
+	<SubTexture name="rika dance0014" x="8" y="524" width="399" height="508"/>
+	<SubTexture name="rika dance0015" x="415" y="524" width="399" height="508"/>
+	<SubTexture name="rika dance0016" x="415" y="524" width="399" height="508"/>
+	<SubTexture name="rika dance0017" x="822" y="524" width="399" height="508"/>
+	<SubTexture name="rika dance0018" x="822" y="524" width="399" height="508"/>
+	<SubTexture name="rika dance0019" x="822" y="524" width="399" height="508"/>
+</TextureAtlas>

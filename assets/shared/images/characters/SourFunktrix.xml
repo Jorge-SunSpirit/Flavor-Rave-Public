@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SourFunktrix.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sour Down0000" x="8" y="8" width="578" height="560" frameX="0" frameY="-33" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0001" x="8" y="8" width="578" height="560" frameX="0" frameY="-33" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0002" x="594" y="8" width="571" height="587" frameX="-9" frameY="-6" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0003" x="594" y="8" width="571" height="587" frameX="-9" frameY="-6" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0004" x="1173" y="8" width="570" height="593" frameX="-10" frameY="0" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0005" x="1173" y="8" width="570" height="593" frameX="-10" frameY="0" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0006" x="1751" y="8" width="570" height="593" frameX="-10" frameY="0" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0007" x="1751" y="8" width="570" height="593" frameX="-10" frameY="0" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0008" x="1751" y="8" width="570" height="593" frameX="-10" frameY="0" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0009" x="1751" y="8" width="570" height="593" frameX="-10" frameY="0" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0010" x="1751" y="8" width="570" height="593" frameX="-10" frameY="0" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0011" x="1751" y="8" width="570" height="593" frameX="-10" frameY="0" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0012" x="1751" y="8" width="570" height="593" frameX="-10" frameY="0" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down0013" x="1751" y="8" width="570" height="593" frameX="-10" frameY="0" frameWidth="580" frameHeight="593"/>
+	<SubTexture name="Sour Down Miss0000" x="2329" y="8" width="555" height="570" frameX="-5" frameY="-35" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0001" x="2329" y="8" width="555" height="570" frameX="-5" frameY="-35" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0002" x="2892" y="8" width="579" height="555" frameX="0" frameY="-50" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0003" x="2892" y="8" width="579" height="555" frameX="0" frameY="-50" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0004" x="3479" y="8" width="549" height="602" frameX="-13" frameY="-3" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0005" x="3479" y="8" width="549" height="602" frameX="-13" frameY="-3" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0006" x="4036" y="8" width="544" height="604" frameX="-15" frameY="0" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0007" x="4036" y="8" width="544" height="604" frameX="-15" frameY="0" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0008" x="4588" y="8" width="544" height="604" frameX="-15" frameY="0" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0009" x="4588" y="8" width="544" height="604" frameX="-15" frameY="0" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0010" x="4036" y="8" width="544" height="604" frameX="-15" frameY="0" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0011" x="4036" y="8" width="544" height="604" frameX="-15" frameY="0" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0012" x="4588" y="8" width="544" height="604" frameX="-15" frameY="0" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Down Miss0013" x="4588" y="8" width="544" height="604" frameX="-15" frameY="0" frameWidth="579" frameHeight="605"/>
+	<SubTexture name="Sour Idle0000" x="5140" y="8" width="699" height="629" frameX="0" frameY="-17" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0001" x="5140" y="8" width="699" height="629" frameX="0" frameY="-17" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0002" x="5847" y="8" width="704" height="625" frameX="0" frameY="-21" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0003" x="5847" y="8" width="704" height="625" frameX="0" frameY="-21" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0004" x="6559" y="8" width="702" height="634" frameX="-3" frameY="-12" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0005" x="6559" y="8" width="702" height="634" frameX="-3" frameY="-12" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0006" x="7269" y="8" width="699" height="641" frameX="-6" frameY="-5" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0007" x="7269" y="8" width="699" height="641" frameX="-6" frameY="-5" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0008" x="8" y="657" width="707" height="645" frameX="-3" frameY="-1" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0009" x="723" y="657" width="707" height="645" frameX="-3" frameY="-1" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0010" x="1438" y="657" width="707" height="646" frameX="-3" frameY="0" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0011" x="1438" y="657" width="707" height="646" frameX="-3" frameY="0" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0012" x="1438" y="657" width="707" height="646" frameX="-3" frameY="0" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Idle0013" x="1438" y="657" width="707" height="646" frameX="-3" frameY="0" frameWidth="710" frameHeight="646"/>
+	<SubTexture name="Sour Left0000" x="2153" y="657" width="503" height="704" frameX="0" frameY="0" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0001" x="2153" y="657" width="503" height="704" frameX="0" frameY="0" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0002" x="2664" y="657" width="531" height="676" frameX="-2" frameY="-28" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0003" x="2664" y="657" width="531" height="676" frameX="-2" frameY="-28" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0004" x="3203" y="657" width="552" height="667" frameX="-3" frameY="-37" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0005" x="3203" y="657" width="552" height="667" frameX="-3" frameY="-37" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0006" x="3763" y="657" width="552" height="667" frameX="-3" frameY="-37" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0007" x="3763" y="657" width="552" height="667" frameX="-3" frameY="-37" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0008" x="3763" y="657" width="552" height="667" frameX="-3" frameY="-37" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0009" x="3763" y="657" width="552" height="667" frameX="-3" frameY="-37" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0010" x="3763" y="657" width="552" height="667" frameX="-3" frameY="-37" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0011" x="3763" y="657" width="552" height="667" frameX="-3" frameY="-37" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0012" x="3763" y="657" width="552" height="667" frameX="-3" frameY="-37" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left0013" x="3763" y="657" width="552" height="667" frameX="-3" frameY="-37" frameWidth="555" frameHeight="704"/>
+	<SubTexture name="Sour Left Miss0000" x="4323" y="657" width="503" height="704" frameX="-51" frameY="-6" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0001" x="4323" y="657" width="503" height="704" frameX="-51" frameY="-6" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0002" x="4834" y="657" width="552" height="701" frameX="0" frameY="-9" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0003" x="4834" y="657" width="552" height="701" frameX="0" frameY="-9" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0004" x="5394" y="657" width="517" height="707" frameX="-37" frameY="-3" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0005" x="5394" y="657" width="517" height="707" frameX="-37" frameY="-3" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0006" x="5919" y="657" width="516" height="710" frameX="-38" frameY="0" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0007" x="5919" y="657" width="516" height="710" frameX="-38" frameY="0" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0008" x="6443" y="657" width="516" height="710" frameX="-38" frameY="0" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0009" x="6443" y="657" width="516" height="710" frameX="-38" frameY="0" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0010" x="5919" y="657" width="516" height="710" frameX="-38" frameY="0" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0011" x="5919" y="657" width="516" height="710" frameX="-38" frameY="0" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0012" x="6443" y="657" width="516" height="710" frameX="-38" frameY="0" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Left Miss0013" x="6443" y="657" width="516" height="710" frameX="-38" frameY="0" frameWidth="554" frameHeight="710"/>
+	<SubTexture name="Sour Right0000" x="6967" y="657" width="716" height="626" frameX="-2" frameY="0" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0001" x="6967" y="657" width="716" height="626" frameX="-2" frameY="0" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0002" x="8" y="1375" width="711" height="613" frameX="-1" frameY="-13" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0003" x="727" y="1375" width="711" height="613" frameX="-1" frameY="-13" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0004" x="1446" y="1375" width="718" height="603" frameX="0" frameY="-23" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0005" x="1446" y="1375" width="718" height="603" frameX="0" frameY="-23" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0006" x="2172" y="1375" width="719" height="597" frameX="0" frameY="-29" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0007" x="2172" y="1375" width="719" height="597" frameX="0" frameY="-29" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0008" x="2172" y="1375" width="719" height="597" frameX="0" frameY="-29" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0009" x="2172" y="1375" width="719" height="597" frameX="0" frameY="-29" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0010" x="2172" y="1375" width="719" height="597" frameX="0" frameY="-29" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0011" x="2172" y="1375" width="719" height="597" frameX="0" frameY="-29" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0012" x="2172" y="1375" width="719" height="597" frameX="0" frameY="-29" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right0013" x="2172" y="1375" width="719" height="597" frameX="0" frameY="-29" frameWidth="719" frameHeight="626"/>
+	<SubTexture name="Sour Right Miss0000" x="2899" y="1375" width="716" height="646" frameX="-2" frameY="0" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0001" x="2899" y="1375" width="716" height="646" frameX="-2" frameY="0" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0002" x="3623" y="1375" width="744" height="611" frameX="0" frameY="-35" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0003" x="3623" y="1375" width="744" height="611" frameX="0" frameY="-35" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0004" x="4375" y="1375" width="722" height="617" frameX="0" frameY="-29" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0005" x="5105" y="1375" width="719" height="620" frameX="0" frameY="-26" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0006" x="5832" y="1375" width="719" height="620" frameX="0" frameY="-26" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0007" x="5832" y="1375" width="719" height="620" frameX="0" frameY="-26" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0008" x="5105" y="1375" width="719" height="620" frameX="0" frameY="-26" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0009" x="5105" y="1375" width="719" height="620" frameX="0" frameY="-26" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0010" x="5832" y="1375" width="719" height="620" frameX="0" frameY="-26" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0011" x="5832" y="1375" width="719" height="620" frameX="0" frameY="-26" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0012" x="5105" y="1375" width="719" height="620" frameX="0" frameY="-26" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Right Miss0013" x="5105" y="1375" width="719" height="620" frameX="0" frameY="-26" frameWidth="744" frameHeight="646"/>
+	<SubTexture name="Sour Up0000" x="6559" y="1375" width="603" height="846" frameX="-3" frameY="0" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0001" x="6559" y="1375" width="603" height="846" frameX="-3" frameY="0" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0002" x="7170" y="1375" width="610" height="814" frameX="-1" frameY="-33" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0003" x="8" y="2229" width="610" height="814" frameX="-1" frameY="-33" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0004" x="626" y="2229" width="609" height="812" frameX="0" frameY="-35" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0005" x="1243" y="2229" width="609" height="812" frameX="0" frameY="-35" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0006" x="1860" y="2229" width="609" height="812" frameX="0" frameY="-35" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0007" x="1860" y="2229" width="609" height="812" frameX="0" frameY="-35" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0008" x="1860" y="2229" width="609" height="812" frameX="0" frameY="-35" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0009" x="1860" y="2229" width="609" height="812" frameX="0" frameY="-35" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0010" x="1860" y="2229" width="609" height="812" frameX="0" frameY="-35" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0011" x="1860" y="2229" width="609" height="812" frameX="0" frameY="-35" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0012" x="1860" y="2229" width="609" height="812" frameX="0" frameY="-35" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up0013" x="1860" y="2229" width="609" height="812" frameX="0" frameY="-35" frameWidth="611" frameHeight="847"/>
+	<SubTexture name="Sour Up Miss0000" x="2477" y="2229" width="574" height="849" frameX="-4" frameY="0" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0001" x="2477" y="2229" width="574" height="849" frameX="-4" frameY="0" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0002" x="3059" y="2229" width="572" height="766" frameX="-3" frameY="-85" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0003" x="3059" y="2229" width="572" height="766" frameX="-3" frameY="-85" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0004" x="3639" y="2229" width="573" height="802" frameX="0" frameY="-48" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0005" x="3639" y="2229" width="573" height="802" frameX="0" frameY="-48" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0006" x="4220" y="2229" width="571" height="805" frameX="0" frameY="-45" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0007" x="4220" y="2229" width="571" height="805" frameX="0" frameY="-45" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0008" x="4220" y="2229" width="571" height="805" frameX="0" frameY="-45" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0009" x="4220" y="2229" width="571" height="805" frameX="0" frameY="-45" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0010" x="4220" y="2229" width="571" height="805" frameX="0" frameY="-45" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0011" x="4220" y="2229" width="571" height="805" frameX="0" frameY="-45" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0012" x="4220" y="2229" width="571" height="805" frameX="0" frameY="-45" frameWidth="578" frameHeight="851"/>
+	<SubTexture name="Sour Up Miss0013" x="4220" y="2229" width="571" height="805" frameX="0" frameY="-45" frameWidth="578" frameHeight="851"/>
+</TextureAtlas>

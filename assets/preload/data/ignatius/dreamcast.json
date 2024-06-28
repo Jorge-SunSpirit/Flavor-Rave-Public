@@ -1,0 +1,136 @@
+{
+	"dialogue": [
+		{
+			"background": "66",
+			"border": "togarashi",
+			"chara": ["default", 2, false],
+			"text": "[LOUD CROWD CHEERING]",
+			"bgmVolume": 0.20,
+			"bgm": "ReKindled"
+		},
+		{
+			"background": "64",
+			"chara": ["sweet", 2, true],
+			"sound": ["sweet","encore"],
+			"text": "Thank you, everyone! Thank you!",
+			"voice": ""
+		},
+		{
+			"background": "64",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","laugh"],
+			"text": "Man, it felt good to do that again. I haven't gone all RAVE like that since we met!",
+			"voice": ""
+		},
+		{
+			"background": "64",
+			"chara": ["sour", 2, true],
+			"text": "Oh, Sweet! I gotta tell you about what Smoky told me! He knows that these crazy transformation powers are all about!",
+			"voice": ""
+		},
+		{
+			"background": "64",
+			"chara": ["sweet", 2, true],
+			"sound": ["sweet","wonderful"],
+			"text": "Oh, that's wonderful! Do tell me all about it while we eat.",
+			"voice": ""
+		},
+		{
+			"background": "64",
+			"chara": ["sour", 0, true],
+			"text": "Right, right, we gotta head out quick!",
+			"voice": ""
+		},
+		{
+			"background": "64",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","yeah"],
+			"text": "Thank you, Togarashi Town! And thanks for the good vibes, you two.",
+			"voice": ""
+		},
+		{
+			"background": "64",
+			"chara": ["smoky", 0, true],
+			"text": "Farewell. Perhaps we'll run into each other again in the future.",
+			"voice": ""
+		},
+		{
+			"background": "64",
+			"chara": ["sour", 0, true],
+			"text": "Here, just take my number, dude. Just drop a text my way if ya wanna meet up again.",
+			"voice": ""
+		},
+		{
+			"background": "64",
+			"chara": ["smoky", 2, true],
+			"sound": ["smoky","chuckle"],
+			"text": "Heh... much appreciated.",
+			"voice": ""
+		},
+		{
+			"background": "64",
+			"chara": ["smoky", 0, true],
+			"text": "I take it that you enjoyed yourself too, Spicy?",
+			"voice": ""
+		},
+		{
+			"background": "65",
+			"chara": ["spicy", 2, true],
+			"sound": ["spicy","YEAH"],
+			"text": "AAHAHHAWAHAHAWAHAAAAAAAAAAAA!!! I FREAKIN' DID IT! YOU SAW THAT, RIGHT? RIGHT?",
+			"voice": ""
+		},
+		{
+			"background": "65",
+			"chara": ["smoky", 2, true],
+			"sound": ["smoky","isee"],
+			"text": "All that practice is starting to shine through. I'm proud of you, Spicy.",
+			"voice": ""
+		},
+		{
+			"background": "65",
+			"chara": ["spicy", 2, true],
+			"text": "I BET I LOOKED SO COOL! I KNOW I LOOKED SO COOL! PLEASE TELL ME SOMEONE RECORDED THAT!",
+			"voice": ""
+		},
+		{
+			"background": "66",
+			"chara": ["smoky", 0, true],
+			"text": "That's a likely possibility. Looks like we've garnered an audience.",
+			"voice": ""
+		},
+		{
+			"background": "66",
+			"chara": ["spicy", 2, true],
+			"sound": ["spicy","heyhey"],
+			"text": "Hey hey, everyone!!! Did you all like that? Wasn't I the coolest?",
+			"voice": ""
+		},
+		{
+			"background": "66",
+			"chara": ["default", 2, false],
+			"text": "[AUDIENCE CHEER]",
+			"voice": ""
+		},
+		{
+			"background": "67",
+			"chara": ["spicy", 2, true],
+			"sound": ["spicy","laugh"],
+			"text": "I know you guys are dying for more! C'mon, Smoki-doki! Let's make this crowd bask in the the warmth of the Flame of Togarashi Town!",
+			"voice": ""
+		},
+		{
+			"background": "67",
+			"chara": ["smoky", 2, true],
+			"sound": ["smoky","itstime"],
+			"text": "Your spirit truly never yields. Let's give this all we got, Spicy.",
+			"voice": ""
+		},
+		{
+			"background": "67",
+			"chara": ["spicy", 2, true],
+			"text": "Feast your eyes on this!",
+			"voice": ""
+		}
+	]
+}

@@ -1,0 +1,150 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "That guy is so silly! I always see him walking down the sidewalk with a goofy pep in his step.",
+			"chara": "sundried",
+			"animation": "excited",
+			"sound" : "laugh",
+			"tvArt" : "showman"
+		},
+		{
+			"text": "I can't even believe that guy is a real human being. Everything about him is so... weird... and uncanny.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "What makes matters worse is that I can't find jack squat about him online!",
+			"animation": "confused",
+			"sound" : "eugh",
+			"chara": "synthetic"
+		},
+		{
+			"text": "There's no way a guy that wealthy has no skeletons in his closet, but where the heck are they?",
+			"chara": "synthetic"
+		},
+		{
+			"text": "I never really thought that deeply about him. He doesn't give off a malicious vibe, if you ask me. He just loves music and smiles.",
+			"chara": "sundried"
+		},
+		{
+			"text": "Maybe it's not that deep? I'd like to believe at least one rich guy out there isn't all shady and gross.",
+			"animation": "think",
+			"chara": "sundried"
+		},
+		{
+			"text": "Nope. I don't believe that for a second. Showman is definitely hiding something.",
+			"sound" : "doesnotcompute",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Showman... Y'know, it just dawned on me... That's not even a real name! That's just a title!",
+			"animation": "upset",
+			"chara": "synthetic"
+		},
+		{
+			"text": "I mean... it could be his real name. I've heard weirder names than that.",
+			"animation": "reset",
+			"chara": "sundried"
+		},
+		{
+			"text": "Plus, didn't we see that study recently that said names starting with 'S' are extremely common? Heh, the two of us fit the bill on that.",
+			"animation": "laugh",
+			"chara": "sundried"
+		},
+		{
+			"text": "Don't you think it's missing that distinct... 'flavor' that most names have? It's all not adding up to me.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "We're gonna dig deep, viewers. I swear I'll find something on him if I just keep searching...",
+			"animation": "reset",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Syn... let's maybe NOT do this while we're live-",
+			"animation": "nervous",
+			"chara": "sundried"
+		},
+		{
+			"text": "Ooh, it's been a while since I've searched through data this heavily protected.",
+			"sound" : "beepboop",
+			"animation": "quiet",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Syn, please-",
+			"chara": "sundried"
+		},
+		{
+			"text": "WAIT, I THINK I GOT IT!",
+			"animation": "alert",
+			"sound" : "whatLOUD",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Had to search some SUPER classified city archives for this, but look! A record of his old Enzync City ID!",
+			"chara": "synthetic"
+		},
+		{
+			"text": "It's pretty crusty, but it's gotta have his real name on it! I'm fixing this up right now!",
+			"chara": "synthetic"
+		},
+		{
+			"text": "SYN, STOP-!",
+			"chara": "sundried"
+		},
+		{
+			"text": "ENHANCING... ENHANCING... AND THERE IT IS!",
+			"sound" : "whaddyaknow",
+			"chara": "synthetic"
+		},
+		{
+			"text": "SHOWMAN'S REAL NAME IS R-",
+			"chara": "synthetic",
+            "bgm": "stop",
+			"command": "autoSkip"
+		},
+		{
+			"text": "",
+			"command": "brb"
+		},
+		{
+			"text": "",
+			"animation": "sad",
+			"chara": "synthetic",
+			"command": "autoSkip"
+		},
+		{
+			"text": "S-sorry about all that, viewers... ",
+			"animation": "sad",
+			"chara": "sundried",
+            "bgm": "resume"
+		},
+		{
+			"text": "Syn, you can't leak info like that! That'll put us in serious trouble!",
+			"chara": "sundried"
+		},
+		{
+			"text": "Sorry... I got real carried away there.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Please don't do that again! Ok, Syn?",
+			"chara": "sundried"
+		},
+		{
+			"text": "Yeah... my bad... Sorry, Sunny.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "I got my question answered at least. Though somehow the answer feels just too ironic to be satisfying...",
+			"animation": "upset",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Let's just drop it and move onto another topic.",
+			"animation": "reset",
+			"chara": "sundried"
+		}
+	]
+}

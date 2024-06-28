@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["Imitation Station", "nikku", [165, 0, 77], ["nikku", "umami"], "enzync-night"]
+	],
+
+	"weekCharacters": [
+		"Umami",
+		"Nikku",
+		"Empty",
+		"Empty"
+	],
+	"charaSelect": [
+		"umami",
+		"nikku"
+	],
+	"weekBackground": "enzync-night",
+	"weekType": "Extra",
+	"storyName": "Extra Stories",
+	"weekBefore": "extra_2",
+	"weekName": "Mimic Maestro",
+	"location": "Enzync City Main Street",
+	"startUnlocked": false,
+	"isExtra": true,
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

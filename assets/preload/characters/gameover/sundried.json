@@ -1,0 +1,18 @@
+{
+	"image": "gameover/SunGO",
+	"animation": "SunGameOver",
+	"spriteOffset": [500,538],
+	"flip_x": false,
+	"scale": 1.2,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "sundried/1",
+			"opponent": ""
+		},
+		{
+			"sound": "sundried/2",
+			"opponent": ""
+		}
+	]
+}

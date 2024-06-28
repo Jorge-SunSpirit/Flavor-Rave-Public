@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rift.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Rift0000" x="6" y="6" width="1280" height="720"/>
+	<SubTexture name="Rift0001" x="1292" y="6" width="1280" height="720"/>
+	<SubTexture name="Rift0002" x="2578" y="6" width="1280" height="720"/>
+	<SubTexture name="Rift0003" x="6" y="732" width="1280" height="720"/>
+	<SubTexture name="Rift0004" x="1292" y="732" width="1280" height="720"/>
+	<SubTexture name="Rift0005" x="2578" y="732" width="1280" height="720"/>
+	<SubTexture name="Rift0006" x="6" y="1458" width="1280" height="720"/>
+	<SubTexture name="Rift0007" x="1292" y="1458" width="1280" height="720"/>
+	<SubTexture name="Rift0008" x="2578" y="1458" width="1280" height="720"/>
+	<SubTexture name="Rift0009" x="6" y="2184" width="1280" height="720"/>
+	<SubTexture name="Rift0010" x="1292" y="2184" width="1280" height="720"/>
+	<SubTexture name="Rift0011" x="2578" y="2184" width="1280" height="720"/>
+</TextureAtlas>

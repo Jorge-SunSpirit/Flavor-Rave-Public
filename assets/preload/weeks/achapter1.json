@@ -1,0 +1,29 @@
+{
+	"songs": [
+		["Cranberry Pop", "soursweetsad", [165, 0, 77], ["sour", "sweet"], "showroom"],
+		["Rockcandy", "soursweet", [165, 0, 77], ["sour", "sweet"], "stage"],
+		["TIMESHOCK!", "soursweet", [165, 0, 77], ["sour", "sweet"], "stage"]
+	],
+
+	"weekCharacters": [
+		"Sour",
+		"Sweet",
+		"Empty",
+		"Empty"
+	],
+	"charaSelect": [
+		"sweet",
+		"sour"
+	],
+	"weekBefore": "",
+	"weekType": "Chapter",
+	"weekBackground": "showroom",
+	"storyName": "Chapter 1",
+	"weekName": "A Showstopping Start",
+	"location": "Showman's Showroom",
+	"startUnlocked": true,
+	"isExtra": false,
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

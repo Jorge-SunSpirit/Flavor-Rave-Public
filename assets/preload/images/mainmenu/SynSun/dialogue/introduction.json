@@ -1,0 +1,97 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Are we all good to go?",
+			"chara": "synb",
+			"sound" : "hmm"
+		},
+		{
+			"text": "Yep! Internet’s stable, our mics are all hooked up, and the camera’s all ready.",
+			"chara": "sunb",
+			"sound" : "yeahyeah"
+		},
+		{
+			"text": "Then let’s make this a great first stream!",
+			"chara": "synb",
+			"sound" : "live"
+		},
+		{
+			"text": "",
+			"command": "transition"
+		},
+		{
+			"text": "H-hello, everyone! Oh, wow... There are a lot more people tuning in than I expected-",
+			"sound" : "hi",
+			"animation": "greeting",
+			"bgm": "solr_powr",
+			"chara": "sundried"
+		},
+		{
+			"text": "See? You were totally right when you said people would tune in for this. Look at that chat already going crazy!",
+			"animation": "happy",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Oh geez... I... Uhhh...",
+			"animation": "sad",
+			"chara": "sundried"
+		},
+		{
+			"text": "Take a quick breather, Sunny. I know you got this.",
+			"animation": "reset",
+			"chara": "synthetic"
+		},
+		{
+			"text": "...phew.",
+			"animation": "exhale",
+			"chara": "sundried"
+		},
+		{
+			"text": "Thank you for tuning in! I know this format is a lot different from my blog, but I’ve been meaning to try something a bit more personal lately, so here we are!",
+			"sound" : "tuningin",
+			"animation": "reset",
+			"chara": "sundried"
+		},
+		{
+			"text": "Welcome to SynSun! Our new website and live show for all things going on in the music industry.",
+			"chara": "sundried"
+		},
+		{
+			"text": "Consider this place a one stop shop for everything you need to get up to date and in the groove!",
+			"animation": "search",
+			"chara": "synthetic"
+		},
+		{
+			"text": "",
+			"command": "menuoption"
+		},
+		{
+			"text": "On the left here, we set up some links that’ll take you to key resources.",
+			"sound" : "lookiehere",
+			"animation": "happy",
+			"chara": "sundried"
+		},
+		{
+			"text": "All the while, we’ll be hosting our live show over here on the right! Come swing by and ask us questions about your favorite musicians and songs!",
+			"sound" : "laugh",
+			"animation": "reset",
+			"chara": "sundried"
+		},
+		{
+			"text": "Check back with us often! New things are happening all the time, and we'll be the first to discuss it all!",
+			"animation": "reset",
+			"chara": "sundried"
+		},
+		{
+			"text": "(Was that good for a first intro? Did I do ok, Syn?)",
+			"chara": "sundried"
+		},
+		{
+			"text": "(You hit it out of the park, Sunny.)",
+			"animation": "happy",
+			"sound" : "yougotit",
+			"chara": "syn"
+		}
+	]
+}

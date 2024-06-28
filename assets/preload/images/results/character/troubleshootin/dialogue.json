@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "boxT"
+		},
+		{
+			"name": "So many new faces trapped in MY Funktrix server.\nHah, not bad, Torrent.",
+			"rank": "S",
+			"boxSprite": "boxN"
+		},
+		{
+			"name": "This place needed more REAL music.",
+			"rank": "A",
+			"boxSprite": "boxT"
+		},
+		{
+			"name": "Once more! I'm THIS close to taking their account info.",
+			"rank": "B",
+			"boxSprite": "boxN"
+		},
+		{
+			"name": "Is my music boring you??? Stop making a fool out of me.",
+			"rank": "C",
+			"boxSprite": "boxN"
+		},
+		{
+			"name": "Skill issue!",
+			"rank": "D",
+			"boxSprite": "boxT"
+		}
+	]
+}

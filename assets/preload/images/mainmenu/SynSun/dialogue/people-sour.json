@@ -1,0 +1,89 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "If you're into the underground music scene here in Enzync City, then Sour needs no introduction.",
+			"chara": "sundried",
+			"sound" : "lookiehere",
+			"animation": "happy",
+			"tvArt" : "sour"
+		},
+		{
+			"text": "He's one of my absolute favorite EDM musicians! I've got all his albums saved on my phone!",
+			"chara": "sundried"
+		},
+		{
+			"text": "Y'know, I've been thinking... It feels wrong that people still call him the 'Underground' EDM Star.",
+			"sound" : "hmm",
+			"animation": "quiet",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Sour's reaching mainstream success now. If these records I'm finding are accurate, he's got thousands of listeners all around the world, and even more so after his team up with Sweet.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "That doesn't feel so underground to me; he's basically a celebrity!",
+			"sound" : "nah",
+			"animation": "confused",
+			"chara": "synthetic"
+		},
+		{
+			"text": "That's true, though he hasn't left his underground roots behind. He doesn't want the fame to take him away from what built him up in the first place.",
+			"animation": "reset",
+			"sound" : "iguessso",
+			"chara": "sundried"
+		},
+		{
+			"text": "That's what I find most admirable about him. He never leaves anyone behind, and wants everyone to just have a good time.",
+			"animation": "excited",
+			"chara": "sundried"
+		},
+		{
+			"text": "His mother was a megastar, too. That absolutely set him up to be this successful right from the get-go. Makes me question this whole underground thing even more.",
+			"animation": "idle",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Hey, what gives, Syn? Do you have something against Sour?",
+			"animation": "nervous",
+			"sound" : "hey",
+			"chara": "sundried"
+		},
+		{
+			"text": "Nah, I'm just a stickler for semantics.",
+			"sound" : "nah",
+			"chara": "synthetic"
+		},
+		{
+			"text": "I could loop his tracks all day. As an electronic myself, I deeply appreciate the Electronic Dance genre.",
+			"animation": "happy",
+			"chara": "synthetic"
+		},
+		{
+			"text": "Even if... y'know... I can't actually dance. Though I'm content on enjoying it vicariously through watching Sunny dance to it in her room.",
+			"chara": "synthetic"
+		},
+		{
+			"text": "...Let's keep this about Sour, ahaha-",
+			"chara": "sundried"
+		},
+		{
+			"text": "I've covered Sour extensively in my blog, though is there anything else fun you can find about him?",
+			"animation": "reset",
+			"chara": "sundried"
+		},
+		{
+			"text": "Well... did you know that he's been wearing a hat this whole time, and that his hair isn't actually green?",
+			"sound" : "whatLOUD",
+			"animation": "confused",
+			"chara": "synthetic"
+		},
+		{
+			"text": "THAT'S NOT HIS HAIR???",
+			"animation": "nervous",
+			"sound" : "woah",
+			"chara": "sundried"
+		}
+	]
+}

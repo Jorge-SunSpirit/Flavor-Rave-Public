@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "DS_Sweet_IdleDance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				47,
+				27
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "DS_Sweet_SingLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DS_Sweet_SingDOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				26
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "DS_Sweet_SingUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				47
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "DS_Sweet_SingRIGHT",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sweet_ds",
+	"position": [
+		20,
+		0
+	],
+	"healthicon": "sweet",
+	"flip_x": true,
+	"healthbar_colors": [
+		240,
+		196,
+		189
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sweet",
+	"healthbar_image": "sweet"
+}

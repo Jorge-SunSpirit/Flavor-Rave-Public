@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Moon.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="NormalMoon0000" x="8" y="8" width="377" height="358" frameX="0" frameY="-2" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="NormalMoon0001" x="8" y="8" width="377" height="358" frameX="0" frameY="-2" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="NormalMoon0002" x="8" y="8" width="377" height="358" frameX="0" frameY="-2" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="NormalMoon0003" x="8" y="8" width="377" height="358" frameX="0" frameY="-2" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="NormalMoon0004" x="393" y="8" width="366" height="353" frameX="-2" frameY="0" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="NormalMoon0005" x="393" y="8" width="366" height="353" frameX="-2" frameY="0" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="NormalMoon0006" x="393" y="8" width="366" height="353" frameX="-2" frameY="0" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="NormalMoon0007" x="393" y="8" width="366" height="353" frameX="-2" frameY="0" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="NormalMoon0008" x="767" y="8" width="373" height="361" frameX="-6" frameY="-2" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="NormalMoon0009" x="767" y="8" width="373" height="361" frameX="-6" frameY="-2" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="NormalMoon0010" x="767" y="8" width="373" height="361" frameX="-6" frameY="-2" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="NormalMoon0011" x="767" y="8" width="373" height="361" frameX="-6" frameY="-2" frameWidth="379" frameHeight="363"/>
+	<SubTexture name="SmokyMoon0000" x="1148" y="8" width="432" height="406"/>
+	<SubTexture name="SmokyMoon0001" x="1148" y="8" width="432" height="406"/>
+	<SubTexture name="SmokyMoon0002" x="1588" y="8" width="377" height="358" frameX="-19" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0003" x="1588" y="8" width="377" height="358" frameX="-19" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0004" x="8" y="422" width="404" height="381" frameX="-15" frameY="-13" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0005" x="8" y="422" width="404" height="381" frameX="-15" frameY="-13" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0006" x="420" y="422" width="397" height="374" frameX="-18" frameY="-17" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0007" x="420" y="422" width="397" height="374" frameX="-18" frameY="-17" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0008" x="825" y="422" width="373" height="361" frameX="-25" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0009" x="825" y="422" width="373" height="361" frameX="-25" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0010" x="825" y="422" width="373" height="361" frameX="-25" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0011" x="825" y="422" width="373" height="361" frameX="-25" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0012" x="1206" y="422" width="377" height="358" frameX="-19" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0013" x="1206" y="422" width="377" height="358" frameX="-19" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0014" x="1206" y="422" width="377" height="358" frameX="-19" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0015" x="1206" y="422" width="377" height="358" frameX="-19" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0016" x="1591" y="422" width="366" height="353" frameX="-21" frameY="-27" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0017" x="1591" y="422" width="366" height="353" frameX="-21" frameY="-27" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0018" x="1591" y="422" width="366" height="353" frameX="-21" frameY="-27" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0019" x="1591" y="422" width="366" height="353" frameX="-21" frameY="-27" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0020" x="825" y="422" width="373" height="361" frameX="-25" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0021" x="825" y="422" width="373" height="361" frameX="-25" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0022" x="825" y="422" width="373" height="361" frameX="-25" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SmokyMoon0023" x="825" y="422" width="373" height="361" frameX="-25" frameY="-29" frameWidth="432" frameHeight="406"/>
+	<SubTexture name="SourMoon0000" x="8" y="811" width="433" height="415"/>
+	<SubTexture name="SourMoon0001" x="8" y="811" width="433" height="415"/>
+	<SubTexture name="SourMoon0002" x="449" y="811" width="378" height="358" frameX="-10" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0003" x="449" y="811" width="378" height="358" frameX="-10" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0004" x="835" y="811" width="406" height="389" frameX="-12" frameY="-13" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0005" x="835" y="811" width="406" height="389" frameX="-12" frameY="-13" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0006" x="1249" y="811" width="403" height="381" frameX="-12" frameY="-17" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0007" x="1249" y="811" width="403" height="381" frameX="-12" frameY="-17" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0008" x="1660" y="811" width="373" height="361" frameX="-16" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0009" x="1660" y="811" width="373" height="361" frameX="-16" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0010" x="1660" y="811" width="373" height="361" frameX="-16" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0011" x="1660" y="811" width="373" height="361" frameX="-16" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0012" x="8" y="1234" width="377" height="358" frameX="-10" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0013" x="8" y="1234" width="377" height="358" frameX="-10" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0014" x="8" y="1234" width="377" height="358" frameX="-10" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0015" x="8" y="1234" width="377" height="358" frameX="-10" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0016" x="393" y="1234" width="366" height="353" frameX="-12" frameY="-27" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0017" x="393" y="1234" width="366" height="353" frameX="-12" frameY="-27" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0018" x="393" y="1234" width="366" height="353" frameX="-12" frameY="-27" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0019" x="393" y="1234" width="366" height="353" frameX="-12" frameY="-27" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0020" x="1660" y="811" width="373" height="361" frameX="-16" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0021" x="1660" y="811" width="373" height="361" frameX="-16" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0022" x="1660" y="811" width="373" height="361" frameX="-16" frameY="-29" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="SourMoon0023" x="1660" y="811" width="373" height="361" frameX="-16" frameY="-29" frameWidth="433" frameHeight="415"/>
+</TextureAtlas>

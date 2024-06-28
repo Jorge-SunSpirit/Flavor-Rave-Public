@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GetWarped.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CoolLaser instance 10000" x="8" y="8" width="1361" height="587" frameX="0" frameY="-227" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10001" x="1377" y="8" width="1355" height="587" frameX="0" frameY="-227" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10002" x="8" y="603" width="1349" height="702" frameX="-6" frameY="-85" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10003" x="1365" y="603" width="1333" height="702" frameX="-6" frameY="-85" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10004" x="2706" y="603" width="1317" height="684" frameX="-22" frameY="-76" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10005" x="8" y="1313" width="1257" height="721" frameX="-22" frameY="-76" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10006" x="1273" y="1313" width="1198" height="800" frameX="-81" frameY="0" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10007" x="2479" y="1313" width="1146" height="800" frameX="-81" frameY="0" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10008" x="8" y="2121" width="1094" height="447" frameX="-133" frameY="-353" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10009" x="1110" y="2121" width="1021" height="447" frameX="-133" frameY="-353" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10010" x="2139" y="2121" width="947" height="351" frameX="-207" frameY="-362" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10011" x="2139" y="2121" width="947" height="351" frameX="-207" frameY="-362" frameWidth="1361" frameHeight="814"/>
+	<SubTexture name="CoolLaser instance 10012" x="2139" y="2121" width="947" height="351" frameX="-207" frameY="-362" frameWidth="1361" frameHeight="814"/>
+</TextureAtlas>

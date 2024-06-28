@@ -1,0 +1,103 @@
+{
+	"dialogue": [
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "The sounds of voices and instruments filled Enzync City's streets under the nighttime glow."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "The sound catches the attention of a young woman, who was on her way home from a long late shift, and hoped to indulge in the late night rhythms."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "Though to her surprise, the music had faded as soon as it had had arrived."
+		},
+		{
+			"background": "77",
+			"border": "enzync-night",
+			"character": "Umami",
+			"chara": ["umami", 0, true],
+			"bgmVolume": 0.3,
+			"bgm": "110th-street",
+			"text": "Huh? Where did everyone go? I could've sworn I heard the Night Crew just playing."
+		},
+		{
+			"background": "77",
+			"character": "Umami",
+			"chara": ["umami", 1, true],
+			"text": "Phooey. Maybe I missed them... but how did they leave so fast?"
+		},
+		{
+			"background": "77",
+			"character": "Umami",
+			"chara": ["umami", 1, true],
+			"text": "Luck really hasn't been on my side this month."
+		},
+		{
+			"background": "77",
+			"character": "Umami",
+			"chara": ["umami", 0, true],
+			"text": "Well… I’m already here. Gotta make the most of the remaining nightfall."
+		},
+		{
+			"background": "78",
+			"character": "Umami",
+			"chara": ["umami", 0, true],
+			"text": "[*SOLO SAXAPHONE PLAYING*]"
+		},
+		{
+			"background": "78",
+			"border": "enzync-night",
+			"character": "Nikku",
+			"chara": ["nikku", 0, true],
+			"text": "..?"
+		},
+		{
+			"background": "79",
+			"character": "Nikku",
+			"chara": ["nikku", 2, true],
+			"text": "[*MIMICKED SAXAPHONE PLAYING*]"
+		},
+		{
+			"background": "79",
+			"character": "Umami",
+			"chara": ["umami", 0, true],
+			"sound": ["umami","heynow"],
+			"text": "Woah, hey! You making that sound? Don't know how you're doing it, but you've got my groove spot on!"
+		},
+		{
+			"background": "79",
+			"character": "Nikku",
+			"chara": ["nikku", 0, true],
+			"text": "..."
+		},
+		{
+			"background": "79",
+			"character": "Umami",
+			"chara": ["umami", 0, true],
+			"text": "Not much of a talker? That's all cool."
+		},
+		{
+			"background": "79",
+			"character": "Umami",
+			"chara": ["umami", 2, true],
+			"text": "Let's just keep this groove up, then! Follow my lead, kay?"
+		},
+		{
+			"background": "79",
+			"character": "Nikku",
+			"chara": ["nikku", 2, true],
+			"text": "*nods*"
+		},
+		{
+			"background": "79",
+			"character": "Umami",
+			"chara": ["umami", 2, true],
+			"sound": ["umami","laughbig"],
+			"text": "Looks like I've got a little bit o' luck after all!"
+		}
+	]
+}

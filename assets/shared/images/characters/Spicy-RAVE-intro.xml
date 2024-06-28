@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Spicy-RAVE-intro.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SpicyRaveIntro0000" x="10" y="10" width="690" height="660" frameX="-213" frameY="-92" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0001" x="10" y="10" width="690" height="660" frameX="-213" frameY="-92" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0002" x="710" y="10" width="667" height="704" frameX="-222" frameY="-48" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0003" x="710" y="10" width="667" height="704" frameX="-222" frameY="-48" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0004" x="1387" y="10" width="649" height="750" frameX="-237" frameY="-2" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0005" x="1387" y="10" width="649" height="750" frameX="-237" frameY="-2" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0006" x="2046" y="10" width="658" height="752" frameX="-231" frameY="0" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0007" x="2046" y="10" width="658" height="752" frameX="-231" frameY="0" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0008" x="2046" y="10" width="658" height="752" frameX="-231" frameY="0" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0009" x="2046" y="10" width="658" height="752" frameX="-231" frameY="0" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0010" x="2046" y="10" width="658" height="752" frameX="-231" frameY="0" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0011" x="2046" y="10" width="658" height="752" frameX="-231" frameY="0" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0012" x="2714" y="10" width="1071" height="567" frameX="-16" frameY="-188" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0013" x="3795" y="10" width="1071" height="567" frameX="-16" frameY="-188" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0014" x="4876" y="10" width="959" height="600" frameX="-71" frameY="-152" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0015" x="5845" y="10" width="959" height="647" frameX="-71" frameY="-105" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0016" x="6814" y="10" width="982" height="683" frameX="-60" frameY="-69" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0017" x="10" y="772" width="982" height="687" frameX="-60" frameY="-65" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0018" x="1002" y="772" width="1046" height="604" frameX="-28" frameY="-148" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0019" x="2058" y="772" width="1046" height="727" frameX="-28" frameY="-25" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0020" x="3114" y="772" width="959" height="604" frameX="-71" frameY="-148" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0021" x="4083" y="772" width="959" height="652" frameX="-71" frameY="-148" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0022" x="5052" y="772" width="982" height="687" frameX="-60" frameY="-65" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0023" x="6044" y="772" width="982" height="664" frameX="-60" frameY="-148" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0024" x="7036" y="772" width="1057" height="616" frameX="-24" frameY="-144" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0025" x="10" y="1509" width="1057" height="616" frameX="-24" frameY="-144" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0026" x="1077" y="1509" width="989" height="636" frameX="-58" frameY="-134" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0027" x="2076" y="1509" width="989" height="636" frameX="-58" frameY="-134" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0028" x="3075" y="1509" width="1025" height="648" frameX="-40" frameY="-128" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0029" x="4110" y="1509" width="1025" height="648" frameX="-40" frameY="-128" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0030" x="5145" y="1509" width="1104" height="675" frameX="0" frameY="-105" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0031" x="6259" y="1509" width="1104" height="711" frameX="0" frameY="-69" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0032" x="10" y="2230" width="994" height="717" frameX="-55" frameY="-65" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0033" x="1014" y="2230" width="994" height="712" frameX="-55" frameY="-70" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0034" x="2018" y="2230" width="1014" height="721" frameX="-45" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0035" x="2018" y="2230" width="1014" height="721" frameX="-45" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0036" x="3042" y="2230" width="1076" height="721" frameX="-14" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0037" x="3042" y="2230" width="1076" height="721" frameX="-14" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0038" x="4128" y="2230" width="991" height="721" frameX="-57" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0039" x="4128" y="2230" width="991" height="721" frameX="-57" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0040" x="2018" y="2230" width="1014" height="721" frameX="-45" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0041" x="2018" y="2230" width="1014" height="721" frameX="-45" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0042" x="3042" y="2230" width="1076" height="721" frameX="-14" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0043" x="3042" y="2230" width="1076" height="721" frameX="-14" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0044" x="4128" y="2230" width="991" height="721" frameX="-57" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0045" x="4128" y="2230" width="991" height="721" frameX="-57" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0046" x="2018" y="2230" width="1014" height="721" frameX="-45" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0047" x="2018" y="2230" width="1014" height="721" frameX="-45" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0048" x="3042" y="2230" width="1076" height="721" frameX="-14" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0049" x="3042" y="2230" width="1076" height="721" frameX="-14" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0050" x="4128" y="2230" width="991" height="721" frameX="-57" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0051" x="4128" y="2230" width="991" height="721" frameX="-57" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0052" x="2018" y="2230" width="1014" height="721" frameX="-45" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0053" x="2018" y="2230" width="1014" height="721" frameX="-45" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0054" x="3042" y="2230" width="1076" height="721" frameX="-14" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0055" x="3042" y="2230" width="1076" height="721" frameX="-14" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0056" x="4128" y="2230" width="991" height="721" frameX="-57" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0057" x="4128" y="2230" width="991" height="721" frameX="-57" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0058" x="2018" y="2230" width="1014" height="721" frameX="-45" frameY="-61" frameWidth="1104" frameHeight="812"/>
+	<SubTexture name="SpicyRaveIntro0059" x="2018" y="2230" width="1014" height="721" frameX="-45" frameY="-61" frameWidth="1104" frameHeight="812"/>
+</TextureAtlas>

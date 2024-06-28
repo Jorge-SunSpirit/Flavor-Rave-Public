@@ -1,0 +1,463 @@
+{
+	"artwork":
+	[
+		{
+			"image": "thebeginning",
+			"caption": "MODJAM - The sketch that started it all!",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat"
+		},
+		{
+			"image": "cranberry",
+			"caption": "MODJAM - Perspective Concept",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat"
+		},
+		{
+			"image": "ogtitle",
+			"caption": "MODJAM - Original Title Screen Art",
+			"artist": "Hisa & SirDusterBuster",
+			"url": "https://x.com/AmaiHisa"
+		},
+		{
+			"image": "doodle_4",
+			"caption": "MODJAM - A Spectacular Victory",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat"
+		},
+		{
+			"image": "funkkast",
+			"caption": "PROMO - FunkKast/Album Art",
+			"artist": "LV",
+			"url": "https://x.com/LVArts_"
+		},
+		{
+			"image": "title",
+			"caption": "IN-GAME - Title Screen",
+			"artist": "Juno Songs",
+			"url": "https://twitter.com/JunoSongsYT",
+			"songCheck": "Flavorscape"
+		},
+		{
+			"image": "synsunbrb",
+			"caption": "IN-GAME - SynSun Stream Art",
+			"artist": "JChearts",
+			"url": "https://twitter.com/lezanikat"
+		},
+		{
+			"image": "flavorscape",
+			"caption": "IN-GAME - Flavorscape Ending",
+			"artist": "Juno Songs",
+			"url": "https://twitter.com/JunoSongsYT",
+			"songCheck": "Flavorscape"
+		},
+		{
+			"image": "gjart",
+			"caption": "IN-GAME - GAME-JAMMED Outfit Swap",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat",
+			"songCheck": "GAME-JAMMED"
+		},
+		{
+			"image": "savoryumami",
+			"caption": "CHARACTER CONCEPTS - Savory & Umami Initial Concept",
+			"artist": "Lezanikat & SirDusterBuster",
+			"url": "https://twitter.com/lezanikat",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "savoryclone",
+			"caption": "CHARACTER CONCEPTS - Savory RAVE Clone Style Concepts",
+			"artist": "LV",
+			"url": "https://x.com/LVArts_",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "spicyold",
+			"caption": "CHARACTER CONCEPTS - Spicy Initial Concept",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "spicyref",
+			"caption": "CHARACTER CONCEPTS - Spicy Final Ref",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "smokyold",
+			"caption": "CHARACTER CONCEPTS - Smoky Initial Concept",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "togainst",
+			"caption": "CHARACTER CONCEPTS - Spicy / Smoky Instrument Refs",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "synsun",
+			"caption": "CHARACTER CONCEPTS - Sun-Dried & Synthetic Initial Concept",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster"
+		},
+		{
+			"image": "raveform",
+			"caption": "CHARACTER CONCEPTS - Sour & Sweet RAVE Form Concepts",
+			"artist": "LV",
+			"url": "https://x.com/LVArts_"
+		},
+		{
+			"image": "spicyrave",
+			"caption": "CHARACTER CONCEPTS - Spicy RAVE Form Concept",
+			"artist": "LV",
+			"url": "https://x.com/LVArts_",
+			"songCheck": "Flavorscape"
+		},
+		{
+			"image": "ravesmoky",
+			"caption": "CHARACTER CONCEPTS - Smoky RAVE Form Concept",
+			"artist": "Nayyco",
+			"url": "https://x.com/nayyco",
+			"songCheck": "Flavorscape"
+		},
+		{
+			"image": "lavendersketch",
+			"caption": "BG CONCEPTS - Lavender Park Initial Sketch",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat"
+		},
+		{
+			"image": "enzyncsketch",
+			"caption": "BG CONCEPTS - Enzync City Initial Sketch",
+			"artist": "LV",
+			"url": "https://x.com/LVArts_",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "togasketch",
+			"caption": "BG CONCEPTS - Togarashi Town Initial Sketch",
+			"artist": "Juno Songs",
+			"url": "https://twitter.com/JunoSongsYT",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "backstreetssketch",
+			"caption": "BG CONCEPTS - Togarashi Backstreets Initial Sketch",
+			"artist": "LV",
+			"url": "https://x.com/LVArts_",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "wasabiperp",
+			"caption": "SONG CONCEPTS - Wasabi Perspective Section",
+			"artist": "LV",
+			"url": "https://x.com/LVArts_",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "gamejammed",
+			"caption": "SONG CONCEPTS - GAME-JAMMED Idea Pitch",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "GAME-JAMMED"
+		},
+		{
+			"image": "doublestack",
+			"caption": "SONG CONCEPTS - Double-Stacked Idea Pitch",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "Double-Stacked"
+		},
+		{
+			"image": "chibi",
+			"caption": "EXTRAS - Tiny Rave!",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat"
+		},
+		{
+			"image": "gallerysour",
+			"caption": "EXTRAS - Underground EDM Star!",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat"
+		},
+		{
+			"image": "gallerysweet",
+			"caption": "EXTRAS - Lady of the Orchestra!",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat"
+		},
+		{
+			"image": "galleryumami",
+			"caption": "EXTRAS - Kindred Spirit of Swing!",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "gallerysmoky",
+			"caption": "EXTRAS - Stifled Strings of Smoke!",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "stylesour",
+			"caption": "EXTRAS - Stylin' Sour!",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat"
+		},
+		{
+			"image": "sd",
+			"caption": "EXTRAS - Sun-Dried Loses her Glasses",
+			"artist": "JChearts",
+			"url": "https://x.com/jc_hearts"
+		},
+		{
+			"image": "devdoodle",
+			"caption": "EXTRAS - Daily Director Doodlin'",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster"
+		},
+		{
+			"image": "sweeteye2",
+			"caption": "EXTRAS - Sweet's Other Eye",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa"
+		},
+		{
+			"image": "stoicsmoky",
+			"caption": "EXTRAS - Smoky Render",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "andismonk",
+			"caption": "EXTRAS - Rekindled Past",
+			"artist": "Faceless",
+			"url": "https://x.com/ThenameFaceless",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "believeit",
+			"caption": "EXTRAS - Smoky can't beat the Sasuke allegations",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "SaffLemon",
+			"caption": "EXTRAS - Saff is really capturing his visage",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "X_D",
+			"caption": "EXTRAS - Only a spoonful",
+			"artist": "Lezanikat",
+			"url": "https://twitter.com/lezanikat"
+		},
+		{
+			"image": "hisacasual",
+			"caption": "EXTRAS - Chill n' Casual",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa"
+		},
+		{
+			"image": "hisalavender",
+			"caption": "EXTRAS - Lovely and Lavender",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa"
+		},
+		{
+			"image": "hisashow",
+			"caption": "EXTRAS - The Greatest, Showman",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa"
+		},
+		{
+			"image": "hisamidnight",
+			"caption": "EXTRAS - Man of the Shadows",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "hisaglow",
+			"caption": "EXTRAS - Contrast",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "hisahair",
+			"caption": "EXTRAS - Hair Stylin'",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "hisacousins",
+			"caption": "EXTRAS - Cool Cousins",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "hisaumami",
+			"caption": "EXTRAS - Afternoon Vibe",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "hisaselfie",
+			"caption": "EXTRAS - Picture Perfect",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "hisafans",
+			"caption": "EXTRAS - Passionate Fans",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "hisawasabi",
+			"caption": "EXTRAS - Shadow Manifest",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "hisaflavor",
+			"caption": "EXTRAS - Fast Friends",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Flavorscape"
+		},
+		{
+			"image": "hisahangout",
+			"caption": "EXTRAS - Girls' Hangout",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Flavorscape"
+		},
+		{
+			"image": "hisasoda",
+			"caption": "EXTRAS - Post-Shift Soda",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Double-Stacked"
+		},
+		{
+			"image": "hisaheartstrings",
+			"caption": "EXTRAS - Sunset Dance",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Heartstrings"
+		},
+		{
+			"image": "hisasynsun",
+			"caption": "EXTRAS - Stream Team",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "n0.pressur3.temp"
+		},
+		{
+			"image": "jcsweet",
+			"caption": "FANART - Resting on Clouds",
+			"artist": "JChearts",
+			"url": "https://x.com/jc_hearts"
+		},
+		{
+			"image": "sweethand",
+			"caption": "FANART - Take my Hand!",
+			"artist": "Space Dust",
+			"url": "https://x.com/SPACEE_DUST_"
+		},
+		{
+			"image": "beachrave",
+			"caption": "FANART - Beach Date",
+			"artist": "emeruga",
+			"url": "https://x.com/emeruga"
+		},
+		{
+			"image": "showmoney",
+			"caption": "FANART - Here comes the Money!",
+			"artist": "STS-Puelle",
+			"url": "https://x.com/STS_PiaEsaya"
+		},
+		{
+			"image": "rooftop",
+			"caption": "FANART - Solemn Strumming",
+			"artist": "Gumi Yumi",
+			"url": "https://twitter.com/Yumi61937282",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "savorydoll",
+			"caption": "FANART - Savory, but REAL",
+			"artist": "Gumi Yumi",
+			"url": "https://twitter.com/Yumi61937282",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "taconight",
+			"caption": "FANART - A Lively Night in Corianda",
+			"artist": "Spyrodile",
+			"url": "https://x.com/Spyrodile",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "spicysweet",
+			"caption": "FANART - Spicy Sweet Combination!",
+			"artist": "emeruga",
+			"url": "https://x.com/emeruga",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "rockrabbit",
+			"caption": "FANART - Rockin' Rabbit",
+			"artist": "emeruga",
+			"url": "https://x.com/emeruga",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "jcspicy",
+			"caption": "FANART - Red Head, Metal Head",
+			"artist": "JChearts",
+			"url": "https://x.com/jc_hearts",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "smokyportrait",
+			"caption": "FANART - Stoic Smoky",
+			"artist": "Space Dust",
+			"url": "https://twitter.com/SPACEE_DUST_",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "gaysushi",
+			"caption": "FANART - Togarashi Lovebirds",
+			"artist": "emeruga",
+			"url": "https://x.com/emeruga",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "cocosun",
+			"caption": "EXTRAS - Silly Streamer",
+			"artist": "Cocopuffs",
+			"url": "https://x.com/file_corruption"
+		}
+	]
+}

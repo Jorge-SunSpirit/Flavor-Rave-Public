@@ -1,0 +1,64 @@
+{
+	"dialogue": [
+		{
+			"background": "7",
+			"border": "stage",
+			"character": "Showman",
+			"chara": ["showman", 0, true],
+			"text": "It's almost showtime! Have you two agreed on who will be performing tonight?",
+			"voice": "",
+			"bgm": "MixUp"
+		},
+		{
+			"background": "7",
+			"character": "Sour & Sweet",
+			"chara": ["soursweet", 0, false],
+			"text": "Me!!!",
+			"voice": "",
+			"textAlign": "center"
+		},
+		{
+			"background": "7",
+			"character": "Showman",
+			"chara": ["showman", 0, true],
+			"text": "Ah, Sweet & Sour Summer Mix it is, then! It's 20 minutes till showtime, so let's hop to it.",
+			"voice": ""
+		},
+		{
+			"background": "8",
+			"character": "Sour",
+			"chara": ["sour", 1, true],
+			"text": "You gotta be kidding... There is no way we're gonna make this work at all.",
+			"voice": ""
+		},
+		{
+			"background": "8",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "I-I'm just going to play what I had set already. I... don't know what you do, but... my shows are classical.",
+			"voice": ""
+		},
+		{
+			"background": "9",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "I play EDM beats that make people get up and dance. Mama just used classical to put me to sleep when I was younger.",
+			"voice": ""
+		},
+		{
+			"background": "9",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "Hrrrmph...- I've never even heard of 'Eee Dee Emm' before.",
+			"voice": ""
+		},
+		{
+			"background": "9",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "That's a damn shame. You and your fans are boutta be enlightened once I start.",
+			"sound": ["sour","scoff"],
+			"voice": ""
+		}
+	]
+}

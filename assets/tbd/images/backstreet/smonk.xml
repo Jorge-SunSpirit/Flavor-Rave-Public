@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="smonk.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SmokySmokeBG0000" x="10" y="10" width="78" height="74"/>
+	<SubTexture name="SmokySmokeBG0001" x="10" y="10" width="78" height="74"/>
+	<SubTexture name="SmokySmokeBG0002" x="10" y="10" width="78" height="74"/>
+	<SubTexture name="SmokySmokeBG0003" x="98" y="10" width="78" height="74"/>
+	<SubTexture name="SmokySmokeBG0004" x="98" y="10" width="78" height="74"/>
+	<SubTexture name="SmokySmokeBG0005" x="98" y="10" width="78" height="74"/>
+	<SubTexture name="SmokySmokeBG0006" x="10" y="94" width="78" height="74"/>
+	<SubTexture name="SmokySmokeBG0007" x="10" y="94" width="78" height="74"/>
+	<SubTexture name="SmokySmokeBG0008" x="10" y="94" width="78" height="74"/>
+</TextureAtlas>

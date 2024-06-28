@@ -1,0 +1,18 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "That's my stream theme! I composed it myself, eheh. It's still work in progress, but I'm sure with a few more days of work-",
+			"chara": "sun",
+			"bgm": "solr_powr"
+		},
+		{
+			"text": "The song sounds great already! The only thing you need is a proper name.",
+			"chara": "syn"
+		},
+		{
+			"text": "Look, I'm REALLY bad with names.",
+			"chara": "sun"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="RikaTV.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="RikaTV instance 10000" x="8" y="8" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10001" x="8" y="8" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10002" x="618" y="8" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10003" x="618" y="8" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10004" x="618" y="8" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10005" x="1228" y="8" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10006" x="1228" y="8" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10007" x="8" y="609" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10008" x="8" y="609" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10009" x="8" y="609" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10010" x="618" y="609" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10011" x="618" y="609" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10012" x="1228" y="609" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10013" x="1228" y="609" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10014" x="1228" y="609" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10015" x="8" y="1210" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10016" x="8" y="1210" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10017" x="618" y="1210" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10018" x="618" y="1210" width="602" height="593"/>
+	<SubTexture name="RikaTV instance 10019" x="618" y="1210" width="602" height="593"/>
+</TextureAtlas>

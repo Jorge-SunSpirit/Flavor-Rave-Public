@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="borderburn.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BorderBurn0000" x="10" y="10" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0001" x="1417" y="10" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0002" x="2824" y="10" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0003" x="4231" y="10" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0004" x="5638" y="10" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0005" x="10" y="806" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0006" x="1417" y="806" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0007" x="2824" y="806" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0008" x="4231" y="806" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0009" x="5638" y="806" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0010" x="10" y="1602" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0011" x="1417" y="1602" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0012" x="2824" y="1602" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0013" x="4231" y="1602" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0014" x="5638" y="1602" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0015" x="10" y="2398" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0016" x="1417" y="2398" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0017" x="2824" y="2398" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0018" x="4231" y="2398" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0019" x="5638" y="2398" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0020" x="10" y="3194" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0021" x="1417" y="3194" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0022" x="2824" y="3194" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0023" x="4231" y="3194" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0024" x="5638" y="3194" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0025" x="10" y="3990" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0026" x="1417" y="3990" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0027" x="2824" y="3990" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0028" x="4231" y="3990" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0029" x="5638" y="3990" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0030" x="10" y="4786" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0031" x="1417" y="4786" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0032" x="2824" y="4786" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0033" x="4231" y="4786" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0034" x="5638" y="4786" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0035" x="10" y="5582" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0036" x="1417" y="5582" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0037" x="2824" y="5582" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0038" x="4231" y="5582" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0039" x="5638" y="5582" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0040" x="10" y="6378" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0041" x="1417" y="6378" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0042" x="2824" y="6378" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0043" x="4231" y="6378" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0044" x="5638" y="6378" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0045" x="10" y="7174" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0046" x="1417" y="7174" width="1397" height="786"/>
+	<SubTexture name="BorderBurn0047" x="2824" y="7174" width="1397" height="786"/>
+</TextureAtlas>

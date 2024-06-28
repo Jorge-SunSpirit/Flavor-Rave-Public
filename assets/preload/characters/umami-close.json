@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-36
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "UmamiIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				111,
+				-59
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "UmamiLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				-84
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "UmamiDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				12
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "UmamiUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				-35
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "UmamiRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/UmamiCloseUp",
+	"position": [
+		-340,
+		-80
+	],
+	"healthicon": "umami",
+	"flip_x": true,
+	"healthbar_colors": [
+		100,
+		160,
+		80
+	],
+	"camera_position": [
+		130,
+		70
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Umami",
+	"healthbar_image": "umami",
+	"musicNoteOffset": [-100,-100]
+}

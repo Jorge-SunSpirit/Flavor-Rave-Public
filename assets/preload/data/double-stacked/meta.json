@@ -1,0 +1,15 @@
+{
+	"song": {
+		"name": "Double-Stacked",
+		"artist": "HighPoweredKeyz & DatDavi",
+		"charter": "Flootena",
+		"extraCharacter": [true, true],
+		"titleCardStep": 64
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	}
+}

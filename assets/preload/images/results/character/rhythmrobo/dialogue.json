@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "boxT"
+		},
+		{
+			"name": "Hmph... maybe you are improving. Understand how painful it is for me to admit that over singing about burgers.",
+			"rank": "S",
+			"boxSprite": "boxP"
+		},
+		{
+			"name": "Good vibes and good eats! This trip was so worth it!",
+			"rank": "A",
+			"boxSprite": "boxT"
+		},
+		{
+			"name": "It's not just about the food, gramps, it's about the atmosphere! Any place is a good place for music!",
+			"rank": "B",
+			"boxSprite": "boxT"
+		},
+		{
+			"name": "Not bad... but I think Allegro Burgers tastes just a bit better.",
+			"rank": "C",
+			"boxSprite": "boxT"
+		},
+		{
+			"name": "Robots eating food is just a goddamn waste. Let the humans consume this greasy slop.",
+			"rank": "D",
+			"boxSprite": "boxP"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Now THAT'S a vibe! You got what I'm looking for, Enzync City!",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I better see you two keeping the beat alive around here, aight?",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I'm thinkin' I should grab some food while I'm here for a quick recharge.",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "That was cool and all, but something's missing...",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Well, that's embarassing. I'll try again in a different city.",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

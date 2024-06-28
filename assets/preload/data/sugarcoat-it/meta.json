@@ -1,0 +1,14 @@
+{
+	"song": {
+		"name": "Sugarcoat It",
+		"charter": "Chompo",
+		"artist": "DatDavi",
+		"titleCardStep": 14
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	}
+}

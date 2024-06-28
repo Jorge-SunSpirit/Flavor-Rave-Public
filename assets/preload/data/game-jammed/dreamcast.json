@@ -1,0 +1,171 @@
+{
+	"dialogue": [
+		{
+			"background": "80",
+			"border": "sweetroom",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "So, I can use this software to simulate a whole orchestra?",
+			"bgmVolume": 0.15,
+			"bgm": "110th-street"
+		},
+		{
+			"background": "80",
+			"chara": ["sour", 2, true],
+			"text": "Yep! I've been using DAWs like this for years to make my tracks. I just gotta get you some instruments.",
+			"voice": ""
+		},
+		{
+			"background": "81",
+			"chara": ["sweet", 1, true],
+			"sound": ["sweet","thatsnot"],
+			"text": "O-oh my gosh..! These are so expensive!",
+			"voice": ""
+		},
+		{
+			"background": "81",
+			"chara": ["sweet", 1, true],
+			"text": "It costs less to hire a real orchestra...",
+			"voice": ""
+		},
+		{
+			"background": "81",
+			"chara": ["sour", 0, true],
+			"text": "True, but you can't cram a whole orchestra in your room, yeah?",
+			"voice": ""
+		},
+		{
+			"background": "81",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","igotthis"],
+			"text": "And don't worry about the price. I'll get you those instruments. I know a site that snags 'em all and posts them for free.",
+			"voice": ""
+		},
+		{
+			"background": "81",
+			"chara": ["sweet", 1, true],
+			"text": "Father always told me to avoid sites like that. Isn't that illegal..?",
+			"voice": ""
+		},
+		{
+			"background": "81",
+			"chara": ["sour", 0, true],
+			"text": "The prices these companies charge is what should be illegal. We'll be all good, Sweet, don't worry about it.",
+			"voice": ""
+		},
+		{
+			"background": "81",
+			"chara": ["sweet", 1, true],
+			"text": "There must be some sort of alternative...",
+			"voice": ""
+		},
+		{
+			"background": "82",
+			"chara": ["sweet", 2, true],
+			"text": "Oh! Look! There's a box for free instruments right here!",
+			"voice": ""
+		},
+		{
+			"background": "82",
+			"chara": ["sour", 1, true],
+			"text": "DO NOT-!",
+			"voice": ""
+		},
+		{
+			"background": "83",
+			"chara": ["sweet", 1, true],
+			"text": "-ah!",
+            "bgm": "stop",
+			"voice": ""
+		},
+		{
+			"background": "83",
+			"chara": ["sour", 1, true],
+			"text": "...press that.",
+			"voice": ""
+		},
+		{
+			"background": "83",
+			"chara": ["sweet", 1, true],
+			"text": "I-I'm so sorry-! I didn't realize-",
+			"voice": ""
+		},
+		{
+			"background": "83",
+			"chara": ["sour", 0, true],
+			"text": "...it's fine. I can probably recover this. Let me just-",
+			"voice": ""
+		},
+		{
+			"background": "84",
+			"chara": ["sour", 0, true],
+			"text": "...wait, what the-",
+			"voice": ""
+		},
+		{
+			"background": "85",
+			"chara": ["torrent", 2, true],
+			"sound": ["troubleshootin","T-ThatEasy"],
+			"text": "See, what I tell you? It IS just that easy.",
+			"voice": ""
+		},
+		{
+			"background": "85",
+			"chara": ["soursweet", 1, true],
+			"text": "..?!",
+			"voice": "",
+			"textAlign": "center"
+		},
+		{
+			"background": "85",
+			"chara": ["nitro", 1, true],
+			"text": "...you can't be serious. People still fall for those old fashioned tricks?",
+			"voice": ""
+		},
+		{
+			"background": "85",
+			"chara": ["torrent", 0, true],
+			"text": "If it works, it works! Plus, we'll only snag other fellow musicians this way, not just your usual run-of-the-mill server stragglers.",
+			"voice": ""
+		},
+		{
+			"background": "85",
+			"chara": ["torrent", 2, true],
+			"text": "Makes my job MUCH more exciting!",
+			"voice": ""
+		},
+		{
+			"background": "85",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","what"],
+			"text": "...what the hell is going on?",
+			"voice": ""
+		},
+		{
+			"background": "85",
+			"chara": ["nitro", 0, true],
+			"sound": ["troubleshootin","N-Oh"],
+			"text": "Well... they seem less meddlesome than that stupid kid you assisted a while ago.",
+			"voice": ""
+		},
+		{
+			"background": "85",
+			"chara": ["nitro", 2, true],
+			"text": "Maybe these are the kind of guests my Funktrix server needs.",
+			"voice": ""
+		},
+		{
+			"background": "85",
+			"chara": ["sweet", 1, true],
+			"text": "...huh?",
+			"voice": ""
+		},
+		{
+			"background": "85",
+			"chara": ["torrent", 2, true],
+			"sound": ["troubleshootin","T-Jam"],
+			"text": "Okay, folks. Let's jam!",
+			"voice": ""
+		}
+	]
+}

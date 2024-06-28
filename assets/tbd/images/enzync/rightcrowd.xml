@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rightcrowd.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="RightCrowd0000" x="10" y="10" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0001" x="10" y="10" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0002" x="1325" y="10" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0003" x="1325" y="10" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0004" x="2640" y="10" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0005" x="2640" y="10" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0006" x="10" y="911" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0007" x="10" y="911" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0008" x="1325" y="911" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0009" x="1325" y="911" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0010" x="1325" y="911" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0011" x="1325" y="911" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0012" x="1325" y="911" width="1305" height="891"/>
+	<SubTexture name="RightCrowd0013" x="1325" y="911" width="1305" height="891"/>
+</TextureAtlas>

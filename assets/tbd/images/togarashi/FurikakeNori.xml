@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FurikakeNori.png">
+	<!-- Created with Adobe Animate version 21.0.12.42687 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FuriNori0000" x="50" y="50" width="691" height="810" pivotX="-57.05" pivotY="-245.8" frameX="0" frameY="-9" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0001" x="50" y="50" width="691" height="810" frameX="0" frameY="-9" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0002" x="791" y="50" width="680" height="809" frameX="-11" frameY="-10" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0003" x="791" y="50" width="680" height="809" frameX="-11" frameY="-10" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0004" x="1521" y="50" width="674" height="815" frameX="-15" frameY="-4" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0005" x="1521" y="50" width="674" height="815" frameX="-15" frameY="-4" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0006" x="2245" y="50" width="680" height="819" frameX="-11" frameY="0" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0007" x="2245" y="50" width="680" height="819" frameX="-11" frameY="0" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0008" x="2975" y="50" width="680" height="819" frameX="-11" frameY="0" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0009" x="2975" y="50" width="680" height="819" frameX="-11" frameY="0" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0010" x="2975" y="50" width="680" height="819" frameX="-11" frameY="0" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0011" x="2975" y="50" width="680" height="819" frameX="-11" frameY="0" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0012" x="2975" y="50" width="680" height="819" frameX="-11" frameY="0" frameWidth="691" frameHeight="819"/>
+	<SubTexture name="FuriNori0013" x="2975" y="50" width="680" height="819" frameX="-11" frameY="0" frameWidth="691" frameHeight="819"/>
+</TextureAtlas>

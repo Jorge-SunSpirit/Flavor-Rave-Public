@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dance_syn.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="synAnim0000" x="0" y="0" width="720" height="720"/>
+	<SubTexture name="synAnim0001" x="720" y="0" width="720" height="720"/>
+	<SubTexture name="synAnim0002" x="1440" y="0" width="720" height="720"/>
+	<SubTexture name="synAnim0003" x="2160" y="0" width="720" height="720"/>
+	<SubTexture name="synAnim0004" x="2880" y="0" width="720" height="720"/>
+	<SubTexture name="synAnim0005" x="0" y="720" width="720" height="720"/>
+	<SubTexture name="synAnim0006" x="720" y="720" width="720" height="720"/>
+	<SubTexture name="synAnim0007" x="1440" y="720" width="720" height="720"/>
+	<SubTexture name="synAnim0008" x="0" y="0" width="720" height="720"/>
+	<SubTexture name="synAnim0009" x="2160" y="720" width="720" height="720"/>
+	<SubTexture name="synAnim0010" x="2880" y="720" width="720" height="720"/>
+	<SubTexture name="synAnim0011" x="0" y="1440" width="720" height="720"/>
+	<SubTexture name="synAnim0012" x="720" y="1440" width="720" height="720"/>
+	<SubTexture name="synAnim0013" x="1440" y="1440" width="720" height="720"/>
+	<SubTexture name="synAnim0014" x="2160" y="1440" width="720" height="720"/>
+	<SubTexture name="synAnim0015" x="2880" y="1440" width="720" height="720"/>
+</TextureAtlas>

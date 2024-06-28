@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "boxSmoky"
+		},
+		{
+			"name": "Wow! I was all like 'FWOOOOOSHHHH'! And you were all like 'KSHHOOOOOM'!",
+			"rank": "S",
+			"boxSprite": "boxSpicy"
+		},
+		{
+			"name": "Hmm... I forgot how nice it felt to perform in a group.",
+			"rank": "A",
+			"boxSprite": "boxSmoky"
+		},
+		{
+			"name": "Let's keep this up, Spicy.",
+			"rank": "B",
+			"boxSprite": "boxSmoky"
+		},
+		{
+			"name": "Can we get a do-over, Smoky? I think my guitar string broke.",
+			"rank": "C",
+			"boxSprite": "boxSpicy"
+		},
+		{
+			"name": "No! This can't be what our big debut sounds like! Can we try again? Please please please?!",
+			"rank": "D",
+			"boxSprite": "boxSpicy"
+		}
+	]
+}

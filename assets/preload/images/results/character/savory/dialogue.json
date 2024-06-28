@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Such a spectacle I've displayed! Perhaps my mind has finally cleared. Perhaps... I am ready.",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I've still got it, even this far past my prime. ¡Glorioso!",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Bien... ¿Pero es lo suficientemente bueno…?",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "The yearning in my heart continues to falter my performance... ",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "...simplemente una sombra de lo que fui.",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

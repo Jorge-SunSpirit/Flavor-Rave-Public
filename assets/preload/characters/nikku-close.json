@@ -1,0 +1,125 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-36
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "NikkuIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				172,
+				-64
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "NikkuLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				-72
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "NikkuDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				27,
+				-11
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "NikkuUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				118,
+				-66
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "NikkuRight",
+			"indices": []
+		},
+		{
+			"offsets": [
+				170,
+				-67
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "NikkuMimicLeft"
+		},
+		{
+			"offsets": [
+				11,
+				-70
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "NikkuMimicDown"
+		},
+		{
+			"offsets": [
+				24,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "NikkuMimicUp"
+		},
+		{
+			"offsets": [
+				124,
+				-60
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "NikkuMimicRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/NikkuCloseUp",
+	"position": [
+		260,
+		-80
+	],
+	"healthicon": "nikku",
+	"flip_x": false,
+	"healthbar_colors": [
+		240,
+		196,
+		189
+	],
+	"camera_position": [
+		40,
+		100
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Nikku",
+	"healthbar_image": "nikku",
+	"musicNoteOffset": [-100,-100]
+}

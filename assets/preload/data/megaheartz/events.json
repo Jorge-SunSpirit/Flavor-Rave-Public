@@ -1,0 +1,426 @@
+{
+	"song": {
+		"events": [
+			[
+				106.382978723404,
+				[
+					[
+						"Screen Flash",
+						"0.5",
+						"white"
+					],
+					[
+						"Call on Luas",
+						"eventStep",
+						"1"
+					]
+				]
+			],
+			[
+				1276.59574468085,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"12"
+					]
+				]
+			],
+			[
+				7021.27659574468,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"66"
+					]
+				]
+			],
+			[
+				13829.7872340426,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"130"
+					]
+				]
+			],
+			[
+				20425.5319148936,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.018",
+						"0.03"
+					],
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.8"
+					],
+					[
+						"Call on Luas",
+						"eventStep",
+						"192"
+					]
+				]
+			],
+			[
+				23829.7872340425,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"224"
+					]
+				]
+			],
+			[
+				34042.5531914894,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"320"
+					]
+				]
+			],
+			[
+				40851.0638297872,
+				[
+					[
+						"Change Strum Skin",
+						"bf",
+						"note_sweet"
+					]
+				]
+			],
+			[
+				40851.0638297872,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"384"
+					]
+				]
+			],
+			[
+				49574.4680851064,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"466"
+					]
+				]
+			],
+			[
+				54255.3191489362,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"510"
+					]
+				]
+			],
+			[
+				54468.085106383,
+				[
+					[
+						"Change Strum Skin",
+						"bf",
+						"note_sour"
+					],
+					[
+						"Call on Luas",
+						"eventStep",
+						"512"
+					]
+				]
+			],
+			[
+				61276.5957446809,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"576"
+					]
+				]
+			],
+			[
+				64680.8510638298,
+				[
+					[
+						"Change Strum Skin",
+						"bf",
+						"note_sweet"
+					]
+				]
+			],
+			[
+				64680.8510638298,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"608"
+					]
+				]
+			],
+			[
+				68297.8723404256,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"642"
+					]
+				]
+			],
+			[
+				70000.0000000001,
+				[
+					[
+						"Change Strum Skin",
+						"bf",
+						"note_sour"
+					],
+					[
+						"Call on Luas",
+						"eventStep",
+						"658"
+					]
+				]
+			],
+			[
+				71489.3617021277,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"672"
+					]
+				]
+			],
+			[
+				73191.4893617022,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"688"
+					]
+				]
+			],
+			[
+				74468.085106383,
+				[
+					[
+						"Change Character",
+						"dad",
+						"rika-day"
+					]
+				]
+			],
+			[
+				74787.2340425532,
+				[
+					[
+						"Change Character",
+						"extra",
+						"sweet-mh"
+					],
+					[
+						"Change Character",
+						"bf",
+						"sour-mh"
+					]
+				]
+			],
+			[
+				74893.6170212767,
+				[
+					[
+						"Note Camera Movement",
+						"10",
+						""
+					],
+					[
+						"Call on Luas",
+						"eventStep",
+						"704"
+					]
+				]
+			],
+			[
+				75106.3829787235,
+				[
+					[
+						"Change Strum Skin",
+						"bf",
+						"note_sweet"
+					]
+				]
+			],
+			[
+				88404.255319149,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.4"
+					]
+				]
+			],
+			[
+				88936.170212766,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.4"
+					]
+				]
+			],
+			[
+				102127.659574468,
+				[
+					[
+						"Change Camera Zoom",
+						"1.2",
+						"0.8"
+					]
+				]
+			],
+			[
+				108936.170212766,
+				[
+					[
+						"Change Strum Skin",
+						"bf",
+						"note_sour"
+					],
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.8"
+					]
+				]
+			],
+			[
+				110212.765957447,
+				[
+					[
+						"Change Camera Zoom",
+						"1.2",
+						"0.8"
+					]
+				]
+			],
+			[
+				122765.957446809,
+				[
+					[
+						"Change Strum Skin",
+						"bf",
+						"note_sweet"
+					]
+				]
+			],
+			[
+				129361.70212766,
+				[
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.8"
+					]
+				]
+			],
+			[
+				136170.212765958,
+				[
+					[
+						"Change Strum Skin",
+						"bf",
+						"note_sour"
+					]
+				]
+			],
+			[
+				142978.723404255,
+				[
+					[
+						"Change Camera Zoom",
+						"1.1",
+						"0.8"
+					]
+				]
+			],
+			[
+				149787.234042553,
+				[
+					[
+						"Change Camera Zoom",
+						"1.2",
+						"0.6"
+					]
+				]
+			],
+			[
+				153191.489361702,
+				[
+					[
+						"Change Strum Skin",
+						"bf",
+						"note_sweet"
+					]
+				]
+			],
+			[
+				156595.744680851,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.8"
+					]
+				]
+			],
+			[
+				160638.297872341,
+				[
+					[
+						"Call on Luas",
+						"eventStep",
+						"1510"
+					]
+				]
+			],
+			[
+				163510.638297873,
+				[
+					[
+						"Screen Flash",
+						"0.5",
+						"white"
+					],
+					[
+						"Call on Luas",
+						"eventStep",
+						"1537"
+					]
+				]
+			]
+		]
+	}
+}

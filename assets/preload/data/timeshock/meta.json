@@ -1,0 +1,14 @@
+{
+	"song": {
+		"name": "TIMESHOCK!",
+		"artist": "JACKALRUIN",
+		"charter": "Chompo",
+		"titleCardStep": 64
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	}
+}

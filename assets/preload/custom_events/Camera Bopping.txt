@@ -1,0 +1,5 @@
+Camera Bopping
+Controls Camera doing that silly left right thing
+
+Value 1: 0/1 OFF / ON
+Value 2: Camera Bops every Xth Beat

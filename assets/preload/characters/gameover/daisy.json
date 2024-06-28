@@ -1,0 +1,18 @@
+{
+	"image": "gameover/DaisyGO",
+	"animation": "DaisyGameOver",
+	"spriteOffset": [500,530],
+	"flip_x": false,
+	"scale": 1.2,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "daisy/1",
+			"opponent": ""
+		},
+		{
+			"sound": "daisy/2",
+			"opponent": ""
+		}
+	]
+}

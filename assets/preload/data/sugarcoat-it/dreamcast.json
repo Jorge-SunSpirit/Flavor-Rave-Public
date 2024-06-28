@@ -1,0 +1,291 @@
+{
+	"dialogue": [
+		{
+			"background": "31",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"border": "lavender",
+			"bgm": "LavenderPark",
+			"bgmVolume": 0.3,
+			"text": "Woah... you saw what just happened too, right?",
+			"voice": ""
+		},
+		{
+			"background": "31",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"text": "Indeed! That feeling... it was just like the one I felt on stage!",
+			"voice": ""
+		},
+		{
+			"background": "31",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Yeah! I knew somethin' felt different during our finale, but... damn. This goes way crazier than I thought.",
+			"voice": ""
+		},
+		{
+			"background": "31",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"text": "Yo, Sweet, we gotta jam out some more! We NEED to see what those crazy outfits are all about!",
+			"voice": ""
+		},
+		{
+			"background": "31",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"text": "Ahaha, this is exciting! Yes, let's go for another bout!",
+			"voice": ""
+		},
+		{
+			"background": "31",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"sound": ["sweet","onthree"],
+			"text": "On three! One... two..",
+			"voice": ""
+		},
+		{
+			"background": "31",
+			"character": "PHONE",
+			"chara": ["default", 0, false],
+			"text": "BZZT.",
+			"bgm": "stop",
+			"voice": ""
+		},
+		{
+			"background": "31",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Ah-! One moment, please.",
+			"voice": ""
+		},
+		{
+			"background": "31",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "31",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"sound": ["sweet","upsetgrunt"],
+			"text": "...mmmhnn.",
+			"voice": ""
+		},
+		{
+			"background": "31",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "What's up, Sweet?",
+			"voice": ""
+		},
+		{
+			"background": "29",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "I... I have to start heading home now. My tour bus is already packed and ready to depart.",
+			"voice": ""
+		},
+		{
+			"background": "29",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "...shoot. No time for more music, huh?",
+			"voice": ""
+		},
+		{
+			"background": "29",
+			"character": "Sour",
+			"chara": ["sour", 1, true],
+			"text": "Damn, why's time always gotta go by so fast when good things are goin' on?",
+			"voice": ""
+		},
+		{
+			"background": "29",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Well... even if our time was short, it's been the most unforgettable experience I've had in my life.",
+			"voice": ""
+		},
+		{
+			"background": "32",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","thankyou"],
+			"text": "Thank you for being part of it, Sour.",
+			"voice": ""
+		},
+		{
+			"background": "32",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","sweetlove"],
+			"text": "Ah, well... likewise, Sweet.",
+			"voice": ""
+		},
+		{
+			"background": "32",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "It was nice getting to know you while it lasted. You take care, aight? I don't wanna hold you up any further.",
+			"voice": ""
+		},
+		{
+			"background": "32",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","farewell"],
+			"text": "Farewell, Sour.",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"character": "Sweet",
+			"border": "black",
+			"chara": ["sweet", 0, true],
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Today was... extraordinary.",
+			"voice": ""
+		},
+		{
+			"background": "14",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "And Sour... he was right. That music made me want to just... let loose and feel free.",
+			"voice": ""
+		},
+		{
+			"background": "15",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "But there won't be any more of that for a long time... It'll take years before I can afford to do something like this again.",
+			"voice": ""
+		},
+		{
+			"background": "15",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "And... I'll never get to meet someone like him again.",
+			"voice": ""
+		},
+		{
+			"background": "15",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "16",
+			"character": "PHONE",
+			"chara": ["default", 0, false],
+			"text": "BZZT.",
+			"voice": ""
+		},
+		{
+			"background": "16",
+			"character": "PHONE",
+			"chara": ["default", 0, false],
+			"text": "*PHONE CALL FROM - UNKNOWN CALLER*",
+			"voice": ""
+		},
+		{
+			"background": "16",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Huh-?",
+			"voice": ""
+		},
+		{
+			"background": "17",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"bgm": "MixUp",
+			"bgmVolume": 0.5,
+			"text": "Yoyo, Sweet! I'm happy Showman had your number on hand. Real dumb of me to not ask for yours before you left, heh.",
+			"voice": ""
+		},
+		{
+			"background": "16",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","sourhappy"],
+			"text": "S-Sour!",
+			"voice": ""
+		},
+		{
+			"background": "17",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"text": "I know you're on a real tight schedule, but I've got a huge crowd of our fans lined up outside the showroom, and they're all asking about you.",
+			"voice": ""
+		},
+		{
+			"background": "17",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"text": "I'd feel real guilty taking all this attention for myself when it was our show, so if there's any chance you can squeeze in just a little more time...",
+			"voice": ""
+		},
+		{
+			"background": "18",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "...we could enjoy the applause together one more time.",
+			"voice": ""
+		},
+		{
+			"background": "18",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "If it's too much of a hassle, it's all good. At least we can keep in touch now.",
+			"voice": ""
+		},
+		{
+			"background": "18",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "18",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "...you still there, Sweet?",
+			"voice": ""
+		},
+		{
+			"background": "18",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "19",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "*deep exhale*",
+			"voice": ""
+		},
+		{
+			"background": "20",
+			"character": "Sweet",
+			"border": "default",
+			"chara": ["sweet", 0, true],
+			"text": "Driver! Turn this bus around!",
+			"voice": ""
+		}
+	]
+}

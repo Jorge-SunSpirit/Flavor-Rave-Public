@@ -1,0 +1,215 @@
+{
+	"dialogue": [
+		{
+			"background": "59",
+			"border": "togarashi",
+			"character": "Spicy",
+			"sound": ["spicy","heywhat"],
+			"bgm": "TogarashiCentral",
+			"bgmVolume": 0.20,
+			"chara": ["spicy", 1, true],
+			"text": "Hey, what gives?! Why didn't you turn into your cool cloudy form?"
+		},
+		{
+			"background": "59",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","isee"],
+			"text": "Was I supposed to? Ahaha, I'm still not sure how to do that consistently.",
+			"voice": ""
+		},
+		{
+			"background": "59",
+			"border": "togarashi",
+			"chara": ["spicy", 1, true],
+			"text": "Aww, what? There's gotta be something you know about it! C'mon, please tell me! Please please please?"
+		},
+		{
+			"background": "59",
+			"chara": ["sweet", 0, true],
+			"text": "Well... it usually manifests when I feel as if I'm one with my music.",
+			"voice": ""
+		},
+		{
+			"background": "59",
+			"chara": ["sweet", 0, true],
+			"text": "It's not a conscious feeling, mind you, so maybe all it takes is to just... let yourself free? Sorry if that's not the best explaination.",
+			"voice": ""
+		},
+		{
+			"background": "59",
+			"border": "togarashi",
+			"chara": ["spicy", 0, true],
+			"text": "Let myself free..?"
+		},
+		{
+			"background": "59",
+			"border": "togarashi",
+			"sound": ["spicy","grumble"],
+			"chara": ["spicy", 1, true],
+			"text": "...rghh, I don't get it. Let's just keep playing! I'll keep going until I finally figure out your secret!"
+		},
+		{
+			"background": "59",
+			"border": "togarashi",
+			"chara": ["smoky", 0, true],
+			"text": "Easy now, Spicy. She's got her own plans to attend to."
+		},
+		{
+			"background": "60",
+			"border": "togarashi",
+			"sound": ["spicy","smokidoki"],
+			"chara": ["spicy", 2, true],
+			"text": "Smoki-doki! I haven't seen you all week! Where have you been, you dork?"
+		},
+		{
+			"background": "60",
+			"border": "togarashi",
+			"chara": ["smoky", 0, true],
+			"text": "I had some personal business to take care of. It's good to see you, Spicy."
+		},
+		{
+			"background": "60",
+			"border": "togarashi",
+			"chara": ["spicy", 2, true],
+			"text": "Look, look! I finally found them! Sweety and Greeny!"
+		},
+		{
+			"background": "60",
+			"border": "togarashi",
+			"chara": ["sour", 1, true],
+			"text": "...why am I Greeny, exactly?"
+		},
+		{
+			"background": "60",
+			"border": "togarashi",
+			"sound": ["spicy","dork"],
+			"chara": ["spicy", 2, true],
+			"text": "Cause you got green hair, duh!"
+		},
+		{
+			"background": "61",
+			"border": "togarashi",
+			"chara": ["sour", 1, true],
+			"text": "It's a hat."
+		},
+		{
+			"background": "61",
+			"border": "togarashi",
+			"chara": ["sour", 1, true],
+			"text": "(Geez, why does everyone think that this is my hair?)"
+		},
+		{
+			"background": "62",
+			"border": "togarashi",
+			"chara": ["smoky", 0, true],
+			"text": "I hope Spicy hasn't given you too much trouble, Sweet. She's just been eager to meet you."
+		},
+		{
+			"background": "62",
+			"chara": ["sweet", 2, true],
+			"text": "Oh, it's been no trouble at all! It's been a pleasure ever since I've got here. I'm happy to have met even more new faces.",
+			"voice": ""
+		},
+		{
+			"background": "62",
+			"border": "togarashi",
+			"chara": ["sour", 0, true],
+			"text": "Hey, Sweet, we should probably get going now. I don't know how much longer the ramen shop'll be open."
+		},
+		{
+			"background": "62",
+			"border": "togarashi",
+			"chara": ["smoky", 0, true],
+			"text": "Well, have a good one, you two. We'll be on our way as well."
+		},
+		{
+			"background": "62",
+			"border": "togarashi",
+			"chara": ["spicy", 0, true],
+			"text": "Hey, wait! We can't leave now! Now that Smoki-doki's here, this is the perfect opportunity for a 2V2!"
+		},
+		{
+			"background": "62",
+			"border": "togarashi",
+			"chara": ["sour", 0, true],
+			"text": "What? Another bout? How much energy do you got, girl?"
+		},
+		{
+			"background": "62",
+			"border": "togarashi",
+			"sound": ["spicy","laugh"],
+			"chara": ["spicy", 2, true],
+			"text": "More than enough! I'm not letting this opportunity go to waste!"
+		},
+		{
+			"background": "62",
+			"border": "togarashi",
+			"chara": ["smoky", 0, true],
+			"text": "It's a tempting offer, but I wouldn't want to keep them too much longer."
+		},
+		{
+			"background": "62",
+			"chara": ["sweet", 0, true],
+			"text": "I wouldn't mind! Well... only if you're ok with it too, Sour.",
+			"voice": ""
+		},
+		{
+			"background": "62",
+			"border": "togarashi",
+			"chara": ["sour", 0, true],
+			"text": "..."
+		},
+		{
+			"background": "62",
+			"border": "togarashi",
+			"chara": ["sour", 0, true],
+			"text": "...eh, y'know what? I've been playing all day already; Might as well keep the music train rolling."
+		},
+		{
+			"background": "63",
+			"border": "togarashi",
+			"bgm": "DialItBack",
+			"bgmVolume": 0.2,
+			"chara": ["sour", 2, true],
+			"text": "Sucks that it's gotta happen on an empty stomach, but I still got enough energy to go full crazy!"
+		},
+		{
+			"background": "63",
+			"border": "togarashi",
+			"chara": ["smoky", 2, true],
+			"text": "Let's waste no time and begin."
+		},
+		{
+			"background": "63",
+			"chara": ["sweet", 2, true],
+			"text": "I'm ready when you are!",
+			"voice": ""
+		},
+		{
+			"background": "63",
+			"border": "togarashi",
+			"sound": ["spicy","YEAH"],
+			"chara": ["spicy", 2, true],
+			"text": "Yeah! That's what I'm talking about! Hit it!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["spicy", 0, true],
+            "bgm": "stop",
+			"text": "..."
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["spicy", 0, true],
+			"text": "*deep breath*"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["spicy", 0, true],
+			"text": "Let myself free... is that really it?"
+		}
+	]
+}

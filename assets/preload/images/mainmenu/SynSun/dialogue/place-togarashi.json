@@ -1,0 +1,95 @@
+{
+   "dialogue":
+   [
+      {
+         "text":"Oh, I can gush about Togarashi Town all day! It's been one of my go-to spots to spend my off days in for the past few years.",
+ 			"animation": "excited",
+			"chara":"sun"
+      },
+      {
+         "text":"That place is even bigger than Enzync City! Funny that the 'town' is bigger than the city.",
+			"animation": "alert",
+			"sound" : "whaddyaknow",
+			"chara":"syn"
+      },
+      {
+         "text":"The title isn't a semantics issue this time. Togarashi Town used to just be a large town to the north of Enzync City a long time ago.",
+         "chara":"sun"
+      },
+      {
+         "text":"That was until this huge city expansion first planned for Enzync City got moved closer to Togarashi Town instead, thus it became part of the town.",
+			"sound" : "woah",
+			"animation": "happy",
+         "chara":"sun"
+      },
+      {
+         "text":"Togarashi Town is split up into 3 main parts because of this.",
+         "chara":"sun"
+      },
+      {
+         "text":"On the Eastern side is Old Togarashi, where the original Togarashi Town still remains untouched. Stepping in there is like walking into a living time capsule.",
+			"tvArt" : "oldtoga",
+         "chara":"sun"
+      },
+      {
+         "text":"They've kept up their traditions for so many years there. It's absolutely gorgeous to walk around in, though it's not a great place for tourists with most of it being residential.",
+ 			"animation": "reset",
+			"chara":"sun"
+      },
+      {
+         "text":"Then if you head furthest up North, you'll be in New Togarashi. It's a modern marvel of a city, with skyscrapers, stores, sights, you name it!",
+			"tvArt" : "newtoga",
+			"animation": "idle",
+         "chara":"syn"
+      },
+      {
+         "text":"I swear, you'll never get bored when you're there! There's always a bustling arcade or a trending hotspot glowing in your face to keep yourself occupied. The contrast between the two sections is honestly extreme.",
+			"animation": "happy",
+			"sound" : "hahahaha",
+         "chara":"syn"
+      },
+      {
+         "text":"That's where the third section comes in. Right in the entrance to Togarashi Town is Togarashi Central!",
+			"tvArt" : "centraltoga",
+         "chara":"sun"
+      },
+      {
+         "text":"It's the converging point between Old and New Togarashi, so it's got a little bit of modern and a little bit of traditional mixed into one.",
+         "chara":"sun"
+      },
+      {
+         "text":"The huge speaker gate at the entrance was built to represent that fusion of styles.",
+			"animation": "determined",
+         "chara":"sun"
+      },
+      {
+         "text":"The speaker gate is also a popular meetup spot for couples. You'll always find lovebirds of all ages flocked together around it.",
+         "chara":"syn"
+      },
+      {
+         "text":"It's such a nice spot to pass by.",
+         "chara":"sun"
+      },
+      {
+         "text":"I always wondered... if I stood by it long enough, maybe I'd find my own true love.",
+         "chara":"sun"
+      },
+      {
+         "text":"I'd really hate to burst your bubble on that, but it's only existing couples that meet up around it usually.",
+			"animation": "sad",
+			"sound" : "well",
+         "chara":"syn"
+      },
+      {
+         "text":"I know... I just hope that it could be me holding hands with someone there one day...",
+			"animation": "blush",
+			"sound" : "eeh",
+         "chara":"sun"
+      },
+      {
+         "text":"Keep your chin up, Sunny. It'll be your time one day.",
+			"animation": "idle",
+         "chara":"syn"
+      }
+   ]
+}

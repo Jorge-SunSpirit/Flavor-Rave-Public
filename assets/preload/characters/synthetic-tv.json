@@ -1,0 +1,231 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				145,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "intro",
+			"indices": [],
+			"name": "SynIntro"
+		},
+		{
+			"offsets": [
+				156,
+				82
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "powerdown",
+			"indices": [],
+			"name": "SynPowerDown"
+		},
+		{
+			"offsets": [
+				-45,
+				88
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "count1",
+			"indices": [],
+			"name": "SynCD1"
+		},
+		{
+			"offsets": [
+				49,
+				102
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "count2",
+			"indices": [],
+			"name": "SynCD2"
+		},
+		{
+			"offsets": [
+				57,
+				96
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "count3",
+			"indices": [],
+			"name": "SynCD3"
+		},
+		{
+			"offsets": [
+				172,
+				132
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "jam",
+			"indices": [],
+			"name": "SynCDJam"
+		},
+		{
+			"offsets": [
+				96,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SynLeft"
+		},
+		{
+			"offsets": [
+				173,
+				132
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SynDown"
+		},
+		{
+			"offsets": [
+				55,
+				104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SynUp"
+		},
+		{
+			"offsets": [
+				-29,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SynRight"
+		},
+		{
+			"offsets": [
+				126,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "SynMissLeft"
+		},
+		{
+			"offsets": [
+				126,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "SynMissDown"
+		},
+		{
+			"offsets": [
+				126,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "SynMissUp"
+		},
+		{
+			"offsets": [
+				116,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "SynMissRight"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-36
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "SynIdle",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-36
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "SynIdle",
+			"indices": [
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SyntheticTV",
+	"position": [
+		-16,
+		120
+	],
+	"healthicon": "synthetic",
+	"flip_x": false,
+	"healthbar_colors": [
+		120,
+		255,
+		255
+	],
+	"camera_position": [
+		-110,
+		50
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Synthetic",
+	"healthbar_image": "synthetic"
+}

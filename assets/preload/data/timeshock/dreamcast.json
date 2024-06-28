@@ -1,0 +1,118 @@
+{
+	"dialogue": [
+		{
+			"background": "10",
+			"character": "Sour",
+			"border": "stage",
+			"chara": ["sour", 1, true],
+			"text": "Ah, geez-! That must've sounded like a mess.",
+			"voice": "",
+			"bgm": "MixUp"
+		},
+		{
+			"background": "10",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "Ahh... My fans... The audience... they all must be so disappointed-",
+			"voice": ""
+		},
+		{
+			"background": "11",
+			"character": "Crowd",
+			"chara": ["default", 0, false],
+			"text": "*OVERWHELMINGLY POSITIVE CHEERING*",
+			"voice": ""
+		},
+		{
+			"background": "12",
+			"character": "Sour & Sweet",
+			"chara": ["soursweet", 0, false],
+			"text": "wh-",
+			"voice": "",
+			"textAlign": "center"
+		},
+		{
+			"background": "12",
+			"character": "Sour",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","what"],
+			"text": "They liked that? It felt like we were just fighting each other the whole time-!",
+			"voice": ""
+		},
+		{
+			"background": "12",
+			"character": "Sour",
+			"chara": ["sour", 1, true],
+			"text": "Nahhh, there's no way, how the fu-",
+			"voice": ""
+		},
+		{
+			"background": "12andahalf",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"sound": ["sour","please"],
+			"text": "Sour, listen to me.",
+			"voice": ""
+		},
+		{
+			"background": "12andahalf",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "-whuh?",
+			"voice": ""
+		},
+		{
+			"background": "12andahalf",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Whatever we just did, let's do it again, with twice the bravado!",
+			"voice": ""
+		},
+		{
+			"background": "12andahalf",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "No time to dwell on why it worked. Let's just make this a great night.",
+			"voice": ""
+		},
+		{
+			"background": "12andahalf",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","please"],
+			"text": "Please, can you do that for me?",
+			"voice": ""
+		},
+		{
+			"background": "12andahalf",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "(W-woah, so determined-)",
+			"voice": ""
+		},
+		{
+			"background": "13",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","bringit"],
+			"text": "You right, you right! I've never seen an audience go this crazy before. Let's sweep them all off their feet!",
+			"voice": ""
+		},
+		{
+			"background": "13",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"sound": ["sweet","onthree"],
+			"text": "Y-yeah, that's it! Let's really put on a show now!",
+			"voice": ""
+		},
+		{
+			"background": "13",
+			"character": "Sour & Sweet",
+			"chara": ["soursweet", 0, false],
+			"text": "ARE YOU READY?",
+			"voice": "",
+			"textAlign": "center"
+		}
+	]
+}

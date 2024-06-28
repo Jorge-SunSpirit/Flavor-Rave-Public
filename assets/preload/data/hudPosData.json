@@ -1,0 +1,32 @@
+{
+	"time":
+	{
+		"position": [126, 13]
+	},
+	"health":
+	{
+		"position": [166, 46]
+	},
+	"metadata":
+	{
+		"position": [130, 12],
+		"scale": 16
+	},
+	"score":
+	{
+		"position": [442, 12],
+		"scale": 16
+	},
+	"p1":
+	{
+		"position": [680, -40],
+		"scale": 0.7,
+		"scaleMax": 0.9
+	},
+	"p2":
+	{
+		"position": [10, -40],
+		"scale": 0.7,
+		"scaleMax": 0.9
+	}
+}

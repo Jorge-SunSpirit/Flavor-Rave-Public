@@ -1,0 +1,22 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Who should we discuss?",
+			"chara": "sundried",
+			"allowExit": true,
+			"choices":
+			[
+				{"text": "Sour", "jsonreDirect": "people-sour"},
+				{"text": "Sweet", "jsonreDirect": "people-sweet"},
+				{"text": "Showman", "jsonreDirect": "people-showman"},
+				{"text": "Savory", "jsonreDirect": "people-savory", "songCheck": "Tres Leches"},
+				{"text": "Umami", "jsonreDirect": "people-umami", "songCheck": "Applewood"},
+				{"text": "Spicy", "jsonreDirect": "people-spicy", "songCheck": "Flavorscape"},
+				{"text": "Smoky", "jsonreDirect": "people-smoky", "songCheck": "Flavorscape"},
+				{"text": "Sun-Dried", "jsonreDirect": "people-sundried"},
+				{"text": "Synthetic", "jsonreDirect": "people-synthetic"}
+			]
+		}
+	]
+}

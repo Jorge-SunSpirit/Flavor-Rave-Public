@@ -1,0 +1,172 @@
+{
+	"dialogue": [
+		{
+			"background": "blackhueh",
+			"character": "Savory",
+			"chara": ["savory", 0, true],
+			"text": "The dock is right ahead. Your boat will be leaving very soon, so I advise you hurry."
+		},
+		{
+			"background": "blackhueh",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "I can't thank you enough, Mr. Wayfinder, sir."
+		},
+		{
+			"background": "blackhueh",
+			"character": "Savory",
+			"chara": ["savory", 2, true],
+			"text": "It is my pleasure. Farewell, Sweet. Your partner awaits you at the end of your voyage."
+		},
+		{
+			"background": "blackhueh",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"text": "Farewell!"
+		},
+		{
+			"background": "blackhueh",
+			"character": "Savory",
+			"chara": ["savory", 0, true],
+			"text": "..."
+		},
+		{
+			"background": "blackhueh",
+			"character": "Savory",
+			"chara": ["savory", 0, true],
+			"text": "Savor your moments together. I know too well what it’s like to have something loved lost so quickly."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "A few hours later... on the streets of Enzync City..."
+		},
+		{
+			"background": "38",
+			"border": "enzync",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","man"],
+			"text": "Today's the day... Man, I never get this nervous for dates.",
+			"bgmVolume": 0.25,
+			"bgm": "110th-street"
+		},
+		{
+			"background": "39",
+			"chara": ["sour", 0, true],
+			"text": "Though her not responding to my texts ain't helping-!",
+			"voice": ""
+		},
+		{
+			"background": "39",
+			"chara": ["sour", 0, true],
+			"text": "She always responds quickly... I'm hoping she's OK…",
+			"voice": ""
+		},
+		{
+			"background": "39",
+			"chara": ["sour", 0, true],
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "40",
+			"chara": ["sour", 1, true],
+			"text": "I should've just bought her a plane ticket instead... I freakin' hate boats.",
+			"voice": ""
+		},
+		{
+			"background": "40",
+			"chara": ["sour", 1, true],
+			"text": "What if she missed her boat? Then it'll take her a whole 'nother day to get here...",
+			"voice": ""
+		},
+		{
+			"command": "shake"
+		},
+		{
+			"background": "40",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","ughlikethefnfsong"],
+			"text": "Ugh, this sucks! Why didn't I-",
+			"voice": ""
+		},
+		{
+			"background": "41",
+			"chara": ["umami", 1, true],
+			"sound": ["umami","heynow"],
+			"text": "Woah, reign it in there, cousin. You're thinking out loud. Emphasis on 'loud'.",
+			"voice": ""
+		},
+		{
+			"background": "42",
+			"chara": ["sour", 0, true],
+			"bgm": "InTheMix",
+			"text": "Wh- Umami? Wasn't expecting to see you today. I thought you worked all weekdays.",
+			"voice": ""
+		},
+		{
+			"background": "42",
+			"chara": ["umami", 0, true],
+			"text": "It's a Saturday, hun. You must've been real focused on meeting up with this new girl to forget that.",
+			"voice": ""
+		},
+		{
+			"background": "42",
+			"chara": ["sour", 1, true],
+			"text": "Yeah... it's just been a while since I've been with someone, and she's a very special person, and-",
+			"voice": ""
+		},
+		{
+			"background": "42",
+			"chara": ["umami", 0, true],
+			"text": "Say less, cousin. I know you're worried, but she's a grown woman. Things will be a-ok.",
+			"voice": ""
+		},
+		{
+			"background": "42",
+			"chara": ["umami", 0, true],
+			"text": "The air's real thin when your head’s high in the clouds, y'know?",
+			"voice": ""
+		},
+		{
+			"background": "42",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","what"],
+			"text": "...what's that supposed to mean?",
+			"voice": ""
+		},
+		{
+			"background": "42",
+			"chara": ["umami", 1, true],
+			"text": "You can't act right if you've got too much on your mind. So let's get your head back on the ground.",
+			"voice": ""
+		},
+		{
+			"background": "43",
+			"chara": ["umami", 2, true],
+			"sound": ["umami","upandatem"],
+			"text": "Music always helps us focus, so how's a quick jam sound?",
+			"voice": ""
+		},
+		{
+			"background": "43",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","alright"],
+			"text": "Forreal? Hmm… Yeah, sure. Anything to take my mind off worrying.",
+			"voice": ""
+		},
+		{
+			"background": "43",
+			"chara": ["umami", 0, true],
+			"text": "'Yeah, sure'? C'mon now, that's not how our family starts a performance. Show me the spirit your mama taught ya!",
+			"voice": ""
+		},
+		{
+			"background": "43",
+			"chara": ["sour", 2, true],
+			"text": "Alright, alright. Let's do this!",
+			"voice": ""
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Ooh, I'm game for a Grab Bag chat today!",
+			"chara": "sundried",
+			"allowExit": true,
+			"choices":
+			[
+				{"text": "What is RAVE?", "jsonreDirect": "things-rave"},
+				{"text": "The Future", "jsonreDirect": "things-future"},
+				{"text": "Do you make music?", "jsonreDirect": "things-singing"}
+			]
+		}
+	]
+}

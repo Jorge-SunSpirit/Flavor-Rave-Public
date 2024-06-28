@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sour.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sour Down0000" x="8" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0001" x="8" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0002" x="594" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0003" x="594" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0004" x="1180" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0005" x="1180" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0006" x="1766" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0007" x="1766" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0008" x="1766" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0009" x="1766" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0010" x="1766" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0011" x="1766" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0012" x="1766" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down0013" x="1766" y="8" width="578" height="573"/>
+	<SubTexture name="Sour Down Keytar0000" x="2352" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0001" x="2352" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0002" x="2905" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0003" x="2905" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0004" x="3458" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0005" x="3458" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0006" x="4011" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0007" x="4011" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0008" x="4564" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0009" x="4564" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0010" x="4564" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0011" x="4564" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0012" x="4564" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Keytar0013" x="4564" y="8" width="545" height="573"/>
+	<SubTexture name="Sour Down Miss0000" x="5117" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0001" x="5117" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0002" x="5702" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0003" x="5702" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0004" x="6287" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0005" x="6287" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0006" x="6872" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0007" x="6872" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0008" x="7457" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0009" x="7457" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0010" x="6872" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0011" x="6872" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0012" x="7457" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Down Miss0013" x="7457" y="8" width="577" height="578"/>
+	<SubTexture name="Sour Idle0000" x="8" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0001" x="8" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0002" x="726" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0003" x="726" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0004" x="1444" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0005" x="1444" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0006" x="2162" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0007" x="2162" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0008" x="2880" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0009" x="3598" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0010" x="4316" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0011" x="4316" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0012" x="4316" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle0013" x="4316" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0000" x="5034" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0001" x="5034" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0002" x="5752" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0003" x="5752" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0004" x="6470" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0005" x="6470" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0006" x="7188" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0007" x="7188" y="594" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0008" x="8" y="1240" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0009" x="726" y="1240" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0010" x="1444" y="1240" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0011" x="1444" y="1240" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0012" x="1444" y="1240" width="710" height="638"/>
+	<SubTexture name="Sour Idle Sad0013" x="1444" y="1240" width="710" height="638"/>
+	<SubTexture name="Sour Left0000" x="2162" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0001" x="2162" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0002" x="2725" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0003" x="2725" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0004" x="3288" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0005" x="3288" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0006" x="3851" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0007" x="3851" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0008" x="3851" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0009" x="3851" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0010" x="3851" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0011" x="3851" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0012" x="3851" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left0013" x="3851" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0000" x="4414" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0001" x="4414" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0002" x="4977" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0003" x="4977" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0004" x="5540" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0005" x="5540" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0006" x="6103" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0007" x="6103" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0008" x="6103" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0009" x="6103" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0010" x="6103" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0011" x="6103" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0012" x="6103" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Keytar0013" x="6103" y="1240" width="555" height="703"/>
+	<SubTexture name="Sour Left Miss0000" x="6666" y="1240" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0001" x="6666" y="1240" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0002" x="7210" y="1240" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0003" x="7210" y="1240" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0004" x="8" y="1957" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0005" x="8" y="1957" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0006" x="552" y="1957" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0007" x="552" y="1957" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0008" x="1096" y="1957" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0009" x="1096" y="1957" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0010" x="552" y="1957" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0011" x="552" y="1957" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0012" x="1096" y="1957" width="536" height="709"/>
+	<SubTexture name="Sour Left Miss0013" x="1096" y="1957" width="536" height="709"/>
+	<SubTexture name="Sour Right0000" x="1640" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0001" x="1640" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0002" x="2365" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0003" x="2365" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0004" x="3090" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0005" x="3090" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0006" x="3815" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0007" x="3815" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0008" x="3815" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0009" x="3815" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0010" x="3815" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0011" x="3815" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0012" x="3815" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right0013" x="3815" y="1957" width="717" height="635"/>
+	<SubTexture name="Sour Right Keytar0000" x="4540" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0001" x="4540" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0002" x="5215" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0003" x="5215" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0004" x="5890" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0005" x="5890" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0006" x="6565" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0007" x="6565" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0008" x="7240" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0009" x="7240" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0010" x="7240" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0011" x="7240" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0012" x="7240" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Keytar0013" x="7240" y="1957" width="667" height="635"/>
+	<SubTexture name="Sour Right Miss0000" x="8" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0001" x="8" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0002" x="733" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0003" x="733" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0004" x="1458" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0005" x="2183" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0006" x="2908" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0007" x="2908" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0008" x="2183" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0009" x="2183" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0010" x="2908" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0011" x="2908" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0012" x="2183" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Right Miss0013" x="2183" y="2674" width="717" height="635"/>
+	<SubTexture name="Sour Up0000" x="3633" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0001" x="3633" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0002" x="4236" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0003" x="4839" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0004" x="5442" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0005" x="6045" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0006" x="6648" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0007" x="6648" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0008" x="6648" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0009" x="6648" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0010" x="6648" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0011" x="6648" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0012" x="6648" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up0013" x="6648" y="2674" width="595" height="846"/>
+	<SubTexture name="Sour Up Keytar0000" x="7251" y="2674" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0001" x="7251" y="2674" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0002" x="8" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0003" x="8" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0004" x="642" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0005" x="642" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0006" x="1276" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0007" x="1276" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0008" x="1276" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0009" x="1276" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0010" x="1276" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0011" x="1276" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0012" x="1276" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Keytar0013" x="1276" y="3528" width="626" height="691"/>
+	<SubTexture name="Sour Up Miss0000" x="1910" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0001" x="1910" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0002" x="2441" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0003" x="2441" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0004" x="2972" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0005" x="2972" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0006" x="3503" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0007" x="3503" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0008" x="3503" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0009" x="3503" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0010" x="3503" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0011" x="3503" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0012" x="3503" y="3528" width="523" height="850"/>
+	<SubTexture name="Sour Up Miss0013" x="3503" y="3528" width="523" height="850"/>
+</TextureAtlas>

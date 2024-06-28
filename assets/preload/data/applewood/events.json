@@ -1,0 +1,271 @@
+{
+	"song": {
+		"events": [
+			[
+				15000,
+				[
+					[
+						"Note Camera Movement",
+						"12",
+						""
+					]
+				]
+			],
+			[
+				30000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.86",
+						""
+					]
+				]
+			],
+			[
+				45000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.82",
+						""
+					]
+				]
+			],
+			[
+				52500,
+				[
+					[
+						"Change Camera Zoom",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				57890.625,
+				[
+					[
+						"Play Animation",
+						"saxcall",
+						"dad"
+					]
+				]
+			],
+			[
+				58359.375,
+				[
+					[
+						"Play SFX",
+						"CallWhistle",
+						"1.5"
+					]
+				]
+			],
+			[
+				59765.625,
+				[
+					[
+						"Spawn Spinning Particles",
+						"enzync/umamiparticle",
+						"500"
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.77",
+						""
+					],
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1.2"
+					]
+				]
+			],
+			[
+				67500,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				73125,
+				[
+					[
+						"Spawn Spinning Particles",
+						"enzync/umamiparticle",
+						"500"
+					]
+				]
+			],
+			[
+				75000,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						""
+					],
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				75117.1875,
+				[
+					[
+						"Change Camera Zoom",
+						"0.78",
+						""
+					]
+				]
+			],
+			[
+				90000,
+				[
+					[
+						"Change Camera Zoom",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				101250,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				103125,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1.2"
+					]
+				]
+			],
+			[
+				105000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				105117.1875,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				106875,
+				[
+					[
+						"Screen Flash",
+						"0.4",
+						"white"
+					],
+					[
+						"Change Character",
+						"gf",
+						"sweet-bg"
+					],
+					[
+						"Change Camera Zoom",
+						"0.9",
+						""
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				106992.1875,
+				[
+					[
+						"Spawn Spinning Particles",
+						"enzync/umamiparticle",
+						"800"
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Note Camera Movement",
+						"0",
+						""
+					],
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					]
+				]
+			],
+			[
+				120117.1875,
+				[
+					[
+						"Change Camera Zoom",
+						"0.58",
+						""
+					]
+				]
+			],
+			[
+				134062.5,
+				[
+					[
+						"Spawn Spinning Particles",
+						"enzync/umamiparticle",
+						"800"
+					]
+				]
+			],
+			[
+				135000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			]
+		]
+	}
+}

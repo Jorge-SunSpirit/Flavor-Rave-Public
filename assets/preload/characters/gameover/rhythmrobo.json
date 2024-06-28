@@ -1,0 +1,18 @@
+{
+	"image": "gameover/RR_GO",
+	"animation": "RhythmRoboGO",
+	"spriteOffset": [620,660],
+	"flip_x": false,
+	"scale": 0.9,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "rhythmrobo/1",
+			"opponent": ""
+		},
+		{
+			"sound": "rhythmrobo/2",
+			"opponent": ""
+		}
+	]
+}

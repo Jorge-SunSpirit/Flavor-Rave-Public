@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sweetborder.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SweetBorder0000" x="8" y="8" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0001" x="8" y="8" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0002" x="1296" y="8" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0003" x="1296" y="8" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0004" x="2584" y="8" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0005" x="2584" y="8" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0006" x="8" y="736" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0007" x="8" y="736" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0008" x="1296" y="736" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0009" x="1296" y="736" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0010" x="2584" y="736" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0011" x="2584" y="736" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0012" x="8" y="1464" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0013" x="8" y="1464" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0014" x="1296" y="1464" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0015" x="1296" y="1464" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0016" x="2584" y="1464" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0017" x="2584" y="1464" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0018" x="8" y="2192" width="1280" height="720"/>
+	<SubTexture name="SweetBorder0019" x="8" y="2192" width="1280" height="720"/>
+</TextureAtlas>

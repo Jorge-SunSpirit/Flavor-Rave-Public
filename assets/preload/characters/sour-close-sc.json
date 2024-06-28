@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SourCloseUpIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				34,
+				-5
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SourCloseUpLeft0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				-46
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SourCloseUpDown0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				11
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SourCloseUpUp0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-21,
+				4
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SourCloseUpRight0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				1
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "SourCloseUpLeftMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				-50
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "SourCloseUpDownMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				8
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "SourCloseUpUpMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				7
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "SourCloseUpRightMiss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SourCloseUpSugarcoat",
+	"position": [
+		0,
+		90
+	],
+	"healthicon": "sour",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		235,
+		169
+	],
+	"camera_position": [
+		-100,
+		100
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sour",
+	"healthbar_image": "sour"
+}

@@ -1,0 +1,195 @@
+{
+	"dialogue": [
+		{
+			"background": "54",
+			"border": "togarashi",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","man"],
+			"text": "Damn, that chick is crazy. She's got good sound though, I'll give her that.",
+			"voice": ""
+		},
+		{
+			"background": "55",
+			"character": "Smoky",
+			"sound": ["smoky","ahem"],
+			"text": "Heh... I can always tell when she's up to one of her schemes.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "55",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Huh-? You know her?",
+			"voice": ""
+		},
+		{
+			"background": "55",
+			"character": "Smoky",
+			"text": "I've known her for almost a year now. We happen to be a duo group ourselves. 'The Flame of Togarashi Town' is what the locals have called us.",
+			"bgm": "StifledStrings",
+			"bgmVolume": 0.3,
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "55",
+			"character": "Smoky",
+			"text": "She's the roaring fire, and I'm the accenting ashen cloud right behind it.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "56",
+			"character": "Smoky",
+			"border": "black",
+			"text": "Smoky... is my name.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "56",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Dang, I don't think I heard of y'all before, and I've been coming to this place every week at least once my whole life.",
+			"voice": ""
+		},
+		{
+			"background": "56",
+			"character": "Smoky",
+			"sound": ["smoky","isee"],
+			"text": "We haven't put ourselves out there yet. Spicy definitely knows you two though.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "56",
+			"character": "Smoky",
+			"text": "She's been obsessed after she saw what you guys did at the end of your show together. Not every musician is capable of awakening their inner RAVE like that.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "56",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "...inner RAVE?",
+			"voice": ""
+		},
+		{
+			"background": "56",
+			"character": "Smoky",
+			"text": "Hmm? You sound confused. Has nobody informed you on the RAVE that you and Sweet had awakened all those months ago?",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "56",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Yeah. sorry dude. I'm real lost.",
+			"voice": ""
+		},
+		{
+			"background": "56",
+			"character": "Smoky",
+			"text": "Then... allow me to explain.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "57",
+			"character": "Smoky",
+			"text": "RAVE, from what we understand so far, is... a physical manifestation of passion. Every living thing with a creative conscience has a bit of RAVE inside it.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "57",
+			"character": "Smoky",
+			"text": "If you're passionate enough about something in the moment, that passion can be tapped into and manifest into special powers and abilities unique to the individual.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "57",
+			"character": "Smoky",
+			"text": "That's the simplest way I can explain it. What you and Sweet did at your show together; That power you awakened... That was the power of RAVE.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "57",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "RAVE, huh?",
+			"voice": ""
+		},
+		{
+			"background": "57",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "...honestly, I'd be freaking out a LOT more over having some crazy anime transformation power if I still wasn't so confused.",
+			"voice": ""
+		},
+		{
+			"background": "57",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "So this has just been a thing people can do this whole time? Why aren't people going all super-mode left and right, then? Specially since it seems pretty easy to do.",
+			"voice": ""
+		},
+		{
+			"background": "57",
+			"character": "Smoky",
+			"text": "What you two did goes beyond what most can do with RAVE. It's very rare, but certain people can take their inner RAVE and manifest it into a whole new physical form.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "57",
+			"character": "Smoky",
+			"text": "Even less is known about that special type of RAVE power, but it's always a spectacle when it occurs.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "57",
+			"character": "Smoky",
+			"text": "Spicy desperately wants to awaken a form like that, but she's been very unsuccessful so far.",
+			"chara": ["smoky", 0, true],
+			"voice": ""
+		},
+		{
+			"background": "57",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Heh, guess she's hoping some of our power will rub off on her by challenging us. I can't lie, I'm feelin' real special after learning about all this RAVE stuff.",
+			"voice": ""
+		},
+		{
+			"background": "57",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Though what about you? You got your own crazy RAVE power or something?",
+			"voice": ""
+		},
+		{
+			"background": "58",
+			"character": "Smoky",
+			"sound": ["smoky","braceyourself"],
+			"chara": ["smoky", 2, true],
+			"text": "Care to find out while they continue their bout?",
+			"voice": ""
+		},
+		{
+			"background": "58",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","bringit"],
+			"text": "Hell yeah, I'm down. Whatcha got, Smoky?",
+			"voice": ""
+		}
+	]
+}

@@ -1,0 +1,5 @@
+Tioda Lights
+Spawns Tioda lights
+
+Value 1: true/false (Self explanatory)
+Value 2: how often it flashes colors (between 1-16)

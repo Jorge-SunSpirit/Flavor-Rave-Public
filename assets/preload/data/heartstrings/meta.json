@@ -1,0 +1,14 @@
+{
+    "song": {
+        "name": "Heartstrings",
+        "artist": "Kreagato & HighPoweredKeyz ft. SaltedSporks",
+		"charter": "Cerbera",
+		"titleCardStep": 64
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	}
+}

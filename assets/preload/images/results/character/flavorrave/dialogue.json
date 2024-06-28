@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "boxSweet"
+		},
+		{
+			"name": "You already know we're rockin' the house when we're together. Let me hear it, y'all!",
+			"rank": "S",
+			"boxSprite": "boxSour"
+		},
+		{
+			"name": "Ah, I never grow tired of this.~",
+			"rank": "A",
+			"boxSprite": "boxSweet"
+		},
+		{
+			"name": "With you, Sour, it's always a pleasure to do this.",
+			"rank": "B",
+			"boxSprite": "boxSweet"
+		},
+		{
+			"name": "Did I sound off? I hope I wasn't bringing our performance down...",
+			"rank": "C",
+			"boxSprite": "boxSweet"
+		},
+		{
+			"name": "I'll take the blame on this one. I'm just feelin' off my groove today.",
+			"rank": "D",
+			"boxSprite": "boxSour"
+		}
+	]
+}

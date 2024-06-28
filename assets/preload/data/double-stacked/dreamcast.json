@@ -1,0 +1,184 @@
+{
+	"dialogue": [
+		{
+			"background": "71",
+			"border": "enzync",
+			"character": "Tioda",
+			"chara": ["tioda", 0, true],
+			"text": "Well, whaddya know, gramps? We finally made it to that city I was telling you about!",
+			"bgmVolume": 0.2,
+			"bgm": "InTheMix"
+		},
+		{
+			"character": "Pyroller",
+			"chara": ["pyroller", 0, true],
+			"sound": ["pyroller","whatever"],
+			"text": "…looks like every other damn city on the planet. It ain’t special."
+		},
+		{
+			"character": "Tioda",
+			"chara": ["tioda", 0, true],
+			"sound": ["tioda","gramps"],
+			"text": "That’s because you haven’t seen this city’s crown jewel!"
+		},
+		{
+			"character": "Tioda",
+			"chara": ["tioda", 2, true],
+			"text": "Within this city is one of the most important establishments in all recorded history."
+		},
+		{
+			"background": "72",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"text": "That ramen shop may be in my top 3 favorite restaurants, but this place we’re going to now… top spot, no competition!"
+		},
+		{
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"text": "And I’m absolutely dying for one of their specialties right now."
+		},
+		{
+			"background": "73",
+			"character": "Tioda",
+			"chara": ["tioda", 2, true],
+			"text": "There it is! Uncle Hearty’s! Just up ahead!"
+		},
+		{
+			"background": "73",
+			"character": "Tioda",
+			"chara": ["tioda", 2, true],
+			"text": "Home of the best burger special you could ever dream of-"
+		},
+		{
+			"background": "74",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","burger"],
+			"text": "Uncle Hearty's Hunger-Quenchin' Mouth Waterin' Super Stacked Combo Buffalo Supreme Cheeseburger!"
+		},
+		{
+			"character": "Tioda",
+			"chara": ["tioda", 2, true],
+			"sound": ["tioda","yeah"],
+			"text": "Yeah! What he said!"
+		},
+		{
+			"character": "Pyroller",
+			"chara": ["pyroller", 0, true],
+			"text": "You dragged me all the way to another city… who knows how far from home..."
+		},
+		{
+			"character": "Pyroller",
+			"chara": ["pyroller", 2, true],
+			"text": "...for a goddamn fast food burger."
+		},
+		{
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","hey"],
+			"text": "Hey, dude, once you try it, you’ll see why the voyage is worth it."
+		},
+		{
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "S-sir! Your head is on fire!"
+		},
+		{
+			"character": "Pyroller",
+			"chara": ["pyroller", 0, true],
+			"sound": ["pyroller","hmph"],
+			"text": "I’m well aware. I’m just built like that."
+		},
+		{
+			"character": "Tioda",
+			"chara": ["tioda", 0, true],
+			"text": "Don’t mind gramps here. He’s a hothead, both figuratively AND literally."
+		},
+		{
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Ah, my apologies, gramps."
+		},
+		{
+			"character": "Pyroller",
+			"chara": ["pyroller", 2, true],
+			"text": "Do NOT call me that."
+		},
+		{
+			"background": "75",
+			"character": "Umami",
+			"border": "uncleheartys",
+			"chara": ["umami", 2, true],
+			"sound": ["umami","heynow"],
+			"text": "Well, I was wondering when I’d see you two stop by. You lot feelin’ hungry?"
+		},
+		{
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "You already know, cousin. We’ll take two orders of the Uncle Hearty’s special!"
+		},
+		{
+			"character": "Tioda",
+			"chara": ["tioda", 2, true],
+			"sound": ["tioda","burgs"],
+			"text": "Make that four! This girl’s in dire need of burgs!"
+		},
+		{
+			"character": "Pyroller",
+			"chara": ["pyroller", 0, true],
+			"text": "…make that three. I don’t eat."
+		},
+		{
+			"character": "Pyroller",
+			"chara": ["pyroller", 0, true],
+			"text": "...and she can't even afford more than one."
+		},
+		{
+			"character": "Umami",
+			"chara": ["umami", 0, true],
+			"sound": ["umami","comingrightup"],
+			"text": "Three Uncle Hearty's specials, coming right up! But first..."
+		},
+		{
+			"character": "Umami",
+			"chara": ["umami", 0, true],
+			"text": "Sour already knows the rules, but for the newcomers here, we got a little rule here in Uncle Hearty's."
+		},
+		{
+			"character": "Umami",
+			"chara": ["umami", 2, true],
+			"text": "If ya wanna order the Uncle Hearty’s special, you gotta sing the Uncle Hearty’s special jingle."
+		},
+		{
+			"background": "76",
+			"character": "Tioda",
+			"chara": ["tioda", 2, true],
+			"sound": ["tioda","hehe"],
+			"text": "I’m way ahead of you, lady! I’ve been rehearsing that jingle for months!"
+		},
+		{
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","laugh"],
+			"text": "Just follow my lead, Sweet! I’m a pro at this."
+		},
+		{
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"sound": ["sweet","giggle"],
+			"text": "Aha, I’ll do my best."
+		},
+		{
+			"character": "Pyroller",
+			"chara": ["pyroller", 1, true],
+			"sound": ["pyroller","screw"],
+			"text": "Singing a whole damn jingle just to order this slop?! You’re screwing with me, right?"
+		},
+		{
+			"character": "Pyroller",
+			"chara": ["pyroller", 2, true],
+			"sound": ["pyroller","tut"],
+			"text": "Tch… humans."
+		}
+	]
+}

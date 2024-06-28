@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lantern.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Lantern instance 10000" x="10" y="10" width="1144" height="146" frameX="-7" frameY="-2" frameWidth="1151" frameHeight="151"/>
+	<SubTexture name="Lantern instance 10001" x="10" y="10" width="1144" height="146" frameX="-7" frameY="-2" frameWidth="1151" frameHeight="151"/>
+	<SubTexture name="Lantern instance 10002" x="10" y="166" width="1148" height="148" frameX="-3" frameY="-1" frameWidth="1151" frameHeight="151"/>
+	<SubTexture name="Lantern instance 10003" x="10" y="166" width="1148" height="148" frameX="-3" frameY="-1" frameWidth="1151" frameHeight="151"/>
+	<SubTexture name="Lantern instance 10004" x="10" y="324" width="1151" height="151"/>
+	<SubTexture name="Lantern instance 10005" x="10" y="324" width="1151" height="151"/>
+	<SubTexture name="Lantern instance 10006" x="10" y="485" width="1150" height="150" frameX="-1" frameY="0" frameWidth="1151" frameHeight="151"/>
+	<SubTexture name="Lantern instance 10007" x="10" y="485" width="1150" height="150" frameX="-1" frameY="0" frameWidth="1151" frameHeight="151"/>
+	<SubTexture name="Lantern instance 10008" x="10" y="645" width="1149" height="149" frameX="-2" frameY="-1" frameWidth="1151" frameHeight="151"/>
+	<SubTexture name="Lantern instance 10009" x="10" y="645" width="1149" height="149" frameX="-2" frameY="-1" frameWidth="1151" frameHeight="151"/>
+	<SubTexture name="Lantern instance 10010" x="10" y="804" width="1147" height="148" frameX="-4" frameY="-1" frameWidth="1151" frameHeight="151"/>
+	<SubTexture name="Lantern instance 10011" x="10" y="804" width="1147" height="148" frameX="-4" frameY="-1" frameWidth="1151" frameHeight="151"/>
+	<SubTexture name="Lantern instance 10012" x="10" y="962" width="1145" height="146" frameX="-6" frameY="-2" frameWidth="1151" frameHeight="151"/>
+	<SubTexture name="Lantern instance 10013" x="10" y="962" width="1145" height="146" frameX="-6" frameY="-2" frameWidth="1151" frameHeight="151"/>
+</TextureAtlas>

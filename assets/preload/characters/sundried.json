@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				127,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SDHappyLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				-14
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SDHappyDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SDHappyIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				16
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SDHappyUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				48,
+				-2
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SDHappyRight",
+			"indices": []
+		},
+		{
+			"offsets": [
+				131,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "SDMissLeft"
+		},
+		{
+			"offsets": [
+				12,
+				-22
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "SDMissDown"
+		},
+		{
+			"offsets": [
+				6,
+				13
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "SDMissUp"
+		},
+		{
+			"offsets": [
+				50,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "SDMissRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SunDriedHappy",
+	"position": [
+		10,
+		0
+	],
+	"healthicon": "sundried",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		196,
+		109
+	],
+	"camera_position": [
+		-10,
+		70
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sun-Dried",
+	"healthbar_image": "sundried"
+}

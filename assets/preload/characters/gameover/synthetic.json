@@ -1,0 +1,18 @@
+{
+	"image": "gameover/SynGO",
+	"animation": "SynGameOver",
+	"spriteOffset": [550,450],
+	"flip_x": false,
+	"scale": 1.2,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "synthetic/1",
+			"opponent": ""
+		},
+		{
+			"sound": "synthetic/2",
+			"opponent": ""
+		}
+	]
+}

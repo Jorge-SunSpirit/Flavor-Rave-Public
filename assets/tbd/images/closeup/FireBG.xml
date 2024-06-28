@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FireBG.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FireBG0000" x="8" y="8" width="1305" height="734"/>
+	<SubTexture name="FireBG0001" x="1321" y="8" width="1305" height="734"/>
+	<SubTexture name="FireBG0002" x="2634" y="8" width="1305" height="734"/>
+	<SubTexture name="FireBG0003" x="8" y="750" width="1305" height="734"/>
+	<SubTexture name="FireBG0004" x="1321" y="750" width="1305" height="734"/>
+	<SubTexture name="FireBG0005" x="2634" y="750" width="1305" height="734"/>
+	<SubTexture name="FireBG0006" x="8" y="1492" width="1305" height="734"/>
+	<SubTexture name="FireBG0007" x="1321" y="1492" width="1305" height="734"/>
+</TextureAtlas>

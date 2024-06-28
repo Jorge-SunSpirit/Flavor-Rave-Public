@@ -1,0 +1,186 @@
+{
+	"dialogue": [
+		{
+			"background": "",
+			"border": "black",
+			"chara": ["sour", 0, false],
+			"text": "Well, here we are. Took a while, but it's finally MY time on the big stage."
+		},
+		{
+			"background": "",
+			"chara": ["sweet", 0, false],
+			"text": "Okay, Sweet... Today is your day. Make it count as much as you can.",
+			"voice": ""
+		},
+		{
+			"background": "1",
+			"chara": ["sour", 1, true],
+			"text": "Naw, what am I being nervous for? My fans ain't ready for what I got ready for 'em. It'll be hype.",
+			"sound": ["sour","scoff"],
+			"bgm": "MixUp"
+		},
+		{
+			"background": "1",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","oh"],
+			"text": "Happy thoughts, Sweet. We can't let our emotions ruin the night for us.",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["soursweet", 0, false],
+			"text": "*deep breath*",
+            "bgm": "stop",
+			"voice": "",
+			"textAlign": "center"
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["soursweet", 0, false],
+			"text": "It's now or never.",
+			"voice": "",
+			"textAlign": "center"
+		},
+		{
+			"background": "2",
+			"border": "parkinglot",
+			"chara": ["soursweet", 2, false],
+			"text": "Let's put on a show!",
+			"voice": "",
+			"textAlign": "center"
+		},
+		{
+			"background": "3",
+			"chara": ["soursweet", 0, false],
+			"text": "...",
+			"voice": "",
+			"textAlign": "center"
+		},
+		{
+			"background": "3",
+			"chara": ["sweet", 0, true],
+			"text": "Uhmmm... can I help you, sir?",
+			"sound": ["sweet","howdoyoudo"],
+			"voice": ""
+		},
+		{
+			"background": "3",
+			"chara": ["sour", 0, true],
+			"text": "Uhh... yeah. You're parking in my spot.",
+			"voice": ""
+		},
+		{
+			"background": "3",
+			"chara": ["sweet", 0, true],
+			"text": "M-my apologies. We were informed to park right here. Is there another spot for performers to park?",
+			"voice": ""
+		},
+		{
+			"background": "3",
+			"chara": ["sour", 0, true],
+			"text": "...no? You sure you ain't at the wrong venue, ma'am?",
+			"voice": ""
+		},
+		{
+			"background": "4",
+			"character": "Showman",
+			"chara": ["showman", 0, true],
+			"text": "Aha! Underground EDM Star, Sour! And the lovely Lady of the Orchestra as well, Sweet!",
+			"voice": "",
+			"sound": ["showman","aha"],
+            "bgm": "resume"
+		},
+		{
+			"background": "4",
+			"character": "Showman",
+			"chara": ["showman", 0, true],
+			"text": "I hope your bus rides brought you here nice and smoothly! I cannot express how honored I am to have you both perform at my very own stage today.",
+			"voice": ""
+		},
+		{
+			"background": "4",
+			"chara": ["sour", 1, true],
+			"text": "Huh? Hold up, dude. What do you mean 'both perform?'",
+			"voice": ""
+		},
+		{
+			"background": "5",
+			"character": "Showman",
+			"chara": ["showman", 1, true],
+			"text": "Ah, well... There was a bit of a... management mishap.",
+			"sound": ["showman","wellyousee"],
+			"voice": ""
+		},
+		{
+			"background": "5",
+			"character": "Showman",
+			"chara": ["showman", 1, true],
+			"text": "We accidentally scheduled you two to perform at the exact same time! With how quickly both shows sold out, it made it nigh impossible to try to reschedule, sooooooo-",
+			"voice": ""
+		},
+		{
+			"background": "4",
+			"character": "Showman",
+			"chara": ["showman", 0, true],
+			"text": "As the owner of this showroom, I've decided that we're rolling with it! Live at Showman's Showroom, its the Sweet & Sour Summer Mix! That's what our PR Team has decided to call this exciting musical blend.",
+			"voice": ""
+		},
+		{
+			"background": "4",
+			"character": "Showman",
+			"chara": ["showman", 0, true],
+			"text": "It'll be a lovely surpise to all who purchased tickets to either of your shows. I'm sure the audience will LOVE two shows for the price of one.",
+			"voice": ""
+		},
+		{
+			"background": "4",
+			"character": "Showman",
+			"chara": ["showman", 2, true],
+			"text": "And if they don't, well... I know I love our 'No Refunds' policy!",
+			"sound": ["showman","norefunds"],
+			"voice": ""
+		},
+		{
+			"background": "4",
+			"chara": ["sweet", 1, true],
+			"text": "Wh-whaaa? That's not what I spent my venue money for!",
+			"voice": ""
+		},
+		{
+			"background": "4",
+			"chara": ["sour", 1, true],
+			"text": "Yeah, what gives?! I don't know this chick! The hell are we supposed to perform?",
+			"sound": ["sour","what"],
+			"voice": ""
+		},
+		{
+			"background": "5",
+			"character": "Showman",
+			"chara": ["showman", 1, true],
+			"text": "Well, ehehehe- I'll let you two figure out that matter of business. One of you COULD agree to just not perform today, but I'm afraid a reschedule will not be possible. We're quite booked here, ahaha.",
+			"sound": ["showman","hmph"],
+			"voice": ""
+		},
+		{
+			"background": "5",
+			"character": "Showman",
+			"chara": ["showman", 2, true],
+			"text": "And personally, I'm quite partial to my proposed plan. So, how about it?",
+			"voice": ""
+		},
+		{
+			"background": "6",
+			"chara": ["sour", 1, true],
+			"text": "Hell nah, dude. The stage is mine tonight. I've had it booked for almost 2 years now!",
+			"sound": ["sour","ughlikethefnfsong"],
+			"voice": ""
+		},
+		{
+			"background": "6",
+			"chara": ["sweet", 1, true],
+			"text": "I put in so much time and work to make enough to get here. I... I need to perform tonight!",
+			"voice": ""
+		}
+
+	]
+}

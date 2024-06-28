@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stans.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Fans0000" x="10" y="10" width="721" height="507" frameX="-5" frameY="-6" frameWidth="726" frameHeight="513"/>
+	<SubTexture name="Fans0001" x="10" y="10" width="721" height="507" frameX="-5" frameY="-6" frameWidth="726" frameHeight="513"/>
+	<SubTexture name="Fans0002" x="741" y="10" width="719" height="507" frameX="-6" frameY="-6" frameWidth="726" frameHeight="513"/>
+	<SubTexture name="Fans0003" x="741" y="10" width="719" height="507" frameX="-6" frameY="-6" frameWidth="726" frameHeight="513"/>
+	<SubTexture name="Fans0004" x="10" y="527" width="723" height="509" frameX="-2" frameY="-4" frameWidth="726" frameHeight="513"/>
+	<SubTexture name="Fans0005" x="10" y="527" width="723" height="509" frameX="-2" frameY="-4" frameWidth="726" frameHeight="513"/>
+	<SubTexture name="Fans0006" x="743" y="527" width="726" height="513"/>
+	<SubTexture name="Fans0007" x="743" y="527" width="726" height="513"/>
+	<SubTexture name="Fans0008" x="10" y="1050" width="726" height="513"/>
+	<SubTexture name="Fans0009" x="10" y="1050" width="726" height="513"/>
+	<SubTexture name="Fans0010" x="10" y="1050" width="726" height="513"/>
+	<SubTexture name="Fans0011" x="10" y="1050" width="726" height="513"/>
+	<SubTexture name="Fans0012" x="10" y="1050" width="726" height="513"/>
+	<SubTexture name="Fans0013" x="10" y="1050" width="726" height="513"/>
+	<SubTexture name="Fans0014" x="10" y="1050" width="726" height="513"/>
+</TextureAtlas>

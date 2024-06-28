@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SourTV.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SourTV instance 10000" x="8" y="8" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10001" x="8" y="8" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10002" x="620" y="8" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10003" x="620" y="8" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10004" x="620" y="8" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10005" x="1232" y="8" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10006" x="1232" y="8" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10007" x="8" y="607" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10008" x="8" y="607" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10009" x="8" y="607" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10010" x="620" y="607" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10011" x="620" y="607" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10012" x="1232" y="607" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10013" x="1232" y="607" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10014" x="1232" y="607" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10015" x="8" y="1206" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10016" x="8" y="1206" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10017" x="620" y="1206" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10018" x="620" y="1206" width="604" height="591"/>
+	<SubTexture name="SourTV instance 10019" x="620" y="1206" width="604" height="591"/>
+</TextureAtlas>

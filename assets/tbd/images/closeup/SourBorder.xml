@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SourBorder.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SourBorder0000" x="8" y="8" width="1320" height="724"/>
+	<SubTexture name="SourBorder0001" x="8" y="8" width="1320" height="724"/>
+	<SubTexture name="SourBorder0002" x="1336" y="8" width="1320" height="724"/>
+	<SubTexture name="SourBorder0003" x="1336" y="8" width="1320" height="724"/>
+	<SubTexture name="SourBorder0004" x="2664" y="8" width="1320" height="724"/>
+	<SubTexture name="SourBorder0005" x="2664" y="8" width="1320" height="724"/>
+	<SubTexture name="SourBorder0006" x="8" y="740" width="1320" height="724"/>
+	<SubTexture name="SourBorder0007" x="8" y="740" width="1320" height="724"/>
+	<SubTexture name="SourBorder0008" x="1336" y="740" width="1320" height="724"/>
+	<SubTexture name="SourBorder0009" x="1336" y="740" width="1320" height="724"/>
+	<SubTexture name="SourBorder0010" x="2664" y="740" width="1320" height="724"/>
+	<SubTexture name="SourBorder0011" x="2664" y="740" width="1320" height="724"/>
+	<SubTexture name="SourBorder0012" x="8" y="1472" width="1320" height="724"/>
+	<SubTexture name="SourBorder0013" x="8" y="1472" width="1320" height="724"/>
+</TextureAtlas>

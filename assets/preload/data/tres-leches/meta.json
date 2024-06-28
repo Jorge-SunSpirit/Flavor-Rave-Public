@@ -1,0 +1,14 @@
+{
+	"song": {
+		"name": "Tres Leches",
+		"artist": "Stardust Tunes",
+		"charter": "Chompo",
+		"titleCardStep": 32
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Got travel plans? We'll spot you info on some must see places!",
+			"chara": "synthetic",
+			"allowExit": true,
+			"choices":
+			[
+				{"text": "Enzync City", "jsonreDirect": "place-enzync", "songCheck": "Applewood"},
+				{"text": "Togarashi Town", "jsonreDirect": "place-togarashi", "songCheck": "Flavorscape"},
+				{"text": "Uncle Hearty's", "jsonreDirect": "place-unclehearty", "songCheck": "Double-Stacked"}
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"song": {
+		"name": "Applewood",
+		"artist": "Stardust Tunes",
+		"charter": "Flootena",
+		"titleCardStep": 10
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	}
+}

@@ -1,0 +1,496 @@
+{
+	"artwork":
+	[
+		{
+			"image": "1",
+			"caption": "CGs - Cranberry Pop",
+			"artist": "Hisa"
+		},
+		{
+			"image": "2",
+			"caption": "CGs - Cranberry Pop",
+			"artist": "Hisa"
+		},
+		{
+			"image": "3",
+			"caption": "CGs - Cranberry Pop",
+			"artist": "Hisa"
+		},
+		{
+			"image": "4",
+			"caption": "CGs - Cranberry Pop",
+			"artist": "Hisa"
+		},
+		{
+			"image": "5",
+			"caption": "CGs - Cranberry Pop",
+			"artist": "Hisa"
+		},
+		{
+			"image": "6",
+			"caption": "CGs - Cranberry Pop",
+			"artist": "Hisa"
+		},
+		{
+			"image": "8",
+			"caption": "CGs - Rockcandy",
+			"artist": "Hisa"
+		},
+		{
+			"image": "9",
+			"caption": "CGs - Rockcandy",
+			"artist": "Hisa"
+		},
+		{
+			"image": "10",
+			"caption": "CGs - TIMESHOCK!",
+			"artist": "Hisa"
+		},
+		{
+			"image": "11",
+			"caption": "CGs - TIMESHOCK!",
+			"artist": "Hisa"
+		},
+		{
+			"image": "12",
+			"caption": "CGs - TIMESHOCK!",
+			"artist": "Hisa"
+		},
+		{
+			"image": "12andahalf",
+			"caption": "CGs - TIMESHOCK!",
+			"artist": "Hisa"
+		},
+		{
+			"image": "13",
+			"caption": "CGs - TIMESHOCK!",
+			"artist": "Hisa"
+		},
+		{
+			"image": "24",
+			"caption": "CGs - Rainbow Sorbet",
+			"artist": "Hisa",
+			"songCheck": "Rainbow Sorbet"
+		},
+		{
+			"image": "25",
+			"caption": "CGs - Rainbow Sorbet",
+			"artist": "Hisa",
+			"songCheck": "Rainbow Sorbet"
+		},
+		{
+			"image": "26",
+			"caption": "CGs - Rainbow Sorbet",
+			"artist": "Hisa",
+			"songCheck": "Rainbow Sorbet"
+		},
+		{
+			"image": "27",
+			"caption": "CGs - Rainbow Sorbet",
+			"artist": "Hisa",
+			"songCheck": "Rainbow Sorbet"
+		},
+		{
+			"image": "28",
+			"caption": "CGs - Rainbow Sorbet",
+			"artist": "Hisa",
+			"songCheck": "Rainbow Sorbet"
+		},
+		{
+			"image": "29",
+			"caption": "CGs - Rainbow Sorbet",
+			"artist": "Hisa",
+			"songCheck": "Rainbow Sorbet"
+		},
+		{
+			"image": "30",
+			"caption": "CGs - Rainbow Sorbet",
+			"artist": "Hisa",
+			"songCheck": "Rainbow Sorbet"
+		},
+		{
+			"image": "31",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "32",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "14",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "15",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "16",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "17",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "18",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "19",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "20",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "21",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "22",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "23",
+			"caption": "CGs - Sugarcoat It",
+			"artist": "Hisa",
+			"songCheck": "Sugarcoat It"
+		},
+		{
+			"image": "33",
+			"caption": "CGs - Tres Leches",
+			"artist": "Hisa",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "34",
+			"caption": "CGs - Tres Leches",
+			"artist": "Hisa",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "35",
+			"caption": "CGs - Tres Leches",
+			"artist": "Hisa",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "36",
+			"caption": "CGs - Tres Leches",
+			"artist": "Hisa",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "37",
+			"caption": "CGs - Tres Leches",
+			"artist": "Hisa",
+			"songCheck": "Tres Leches"
+		},
+		{
+			"image": "38",
+			"caption": "CGs - Applewood",
+			"artist": "Hisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "39",
+			"caption": "CGs - Applewood",
+			"artist": "Hisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "40",
+			"caption": "CGs - Applewood",
+			"artist": "Hisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "41",
+			"caption": "CGs - Applewood",
+			"artist": "Hisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "42",
+			"caption": "CGs - Applewood",
+			"artist": "Hisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "43",
+			"caption": "CGs - Applewood",
+			"artist": "Hisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "44",
+			"caption": "CGs - Applewood",
+			"artist": "Hisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "45",
+			"caption": "CGs - Applewood",
+			"artist": "Hisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "46",
+			"caption": "CGs - Applewood",
+			"artist": "Hisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "47",
+			"caption": "CGs - Applewood",
+			"artist": "Hisa",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "48",
+			"caption": "CGs - Caramelize",
+			"artist": "Hisa",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "49",
+			"caption": "CGs - Caramelize",
+			"artist": "Hisa",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "50",
+			"caption": "CGs - Caramelize",
+			"artist": "Hisa",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "51",
+			"caption": "CGs - Caramelize",
+			"artist": "Hisa",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "52",
+			"caption": "CGs - Caramelize",
+			"artist": "Hisa",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "53",
+			"caption": "CGs - Caramelize",
+			"artist": "Hisa",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "54",
+			"caption": "CGs - Wasabi",
+			"artist": "Hisa",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "55",
+			"caption": "CGs - Wasabi",
+			"artist": "Hisa",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "56",
+			"caption": "CGs - Wasabi",
+			"artist": "Hisa",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "57",
+			"caption": "CGs - Wasabi",
+			"artist": "Hisa",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "58",
+			"caption": "CGs - Wasabi",
+			"artist": "Hisa",
+			"songCheck": "Wasabi"
+		},
+		{
+			"image": "59",
+			"caption": "CGs - Flavorscape",
+			"artist": "Hisa",
+			"songCheck": "Flavorscape"
+		},
+		{
+			"image": "60",
+			"caption": "CGs - Flavorscape",
+			"artist": "Hisa",
+			"songCheck": "Flavorscape"
+		},
+		{
+			"image": "61",
+			"caption": "CGs - Flavorscape",
+			"artist": "Hisa",
+			"songCheck": "Flavorscape"
+		},
+		{
+			"image": "62",
+			"caption": "CGs - Flavorscape",
+			"artist": "Hisa",
+			"songCheck": "Flavorscape"
+		},
+		{
+			"image": "63",
+			"caption": "CGs - Flavorscape",
+			"artist": "Hisa",
+			"songCheck": "Flavorscape"
+		},
+		{
+			"image": "64",
+			"caption": "CGs - Ignatius",
+			"artist": "Hisa",
+			"songCheck": "Ignatius"
+		},
+		{
+			"image": "65",
+			"caption": "CGs - Ignatius",
+			"artist": "Hisa",
+			"songCheck": "Ignatius"
+		},
+		{
+			"image": "66",
+			"caption": "CGs - Ignatius",
+			"artist": "Hisa",
+			"songCheck": "Ignatius"
+		},
+		{
+			"image": "67",
+			"caption": "CGs - Ignatius",
+			"artist": "Hisa",
+			"songCheck": "Ignatius"
+		},
+		{
+			"image": "69",
+			"caption": "CGs - MegaHeartz",
+			"artist": "Hisa",
+			"songCheck": "MegaHeartz"
+		},
+		{
+			"image": "70",
+			"caption": "CGs - MegaHeartz",
+			"artist": "Hisa",
+			"songCheck": "MegaHeartz"
+		},
+		{
+			"image": "73",
+			"caption": "CGs - Double-Stacked",
+			"artist": "Hisa",
+			"songCheck": "Double-Stacked"
+		},
+		{
+			"image": "74",
+			"caption": "CGs - Double-Stacked",
+			"artist": "Hisa",
+			"songCheck": "Double-Stacked"
+		},
+		{
+			"image": "75",
+			"caption": "CGs - Double-Stacked",
+			"artist": "Hisa",
+			"songCheck": "Double-Stacked"
+		},
+		{
+			"image": "76",
+			"caption": "CGs - Double-Stacked",
+			"artist": "Hisa",
+			"songCheck": "Double-Stacked"
+		},
+		{
+			"image": "77",
+			"caption": "CGs - Imitation Station",
+			"artist": "Hisa",
+			"songCheck": "Imitation Station"
+		},
+		{
+			"image": "78",
+			"caption": "CGs - Imitation Station",
+			"artist": "Hisa",
+			"songCheck": "Imitation Station"
+		},
+		{
+			"image": "79",
+			"caption": "CGs - Imitation Station",
+			"artist": "Hisa",
+			"songCheck": "Imitation Station"
+		},
+		{
+			"image": "86",
+			"caption": "CGs - Heartstrings",
+			"artist": "Hisa",
+			"songCheck": "Heartstrings"
+		},
+		{
+			"image": "87",
+			"caption": "CGs - Heartstrings",
+			"artist": "Hisa",
+			"songCheck": "Heartstrings"
+		},
+		{
+			"image": "88",
+			"caption": "CGs - Heartstrings",
+			"artist": "Hisa",
+			"songCheck": "Heartstrings"
+		},
+		{
+			"image": "80",
+			"caption": "CGs - GAME-JAMMED",
+			"artist": "Hisa",
+			"songCheck": "GAME-JAMMED"
+		},
+		{
+			"image": "81",
+			"caption": "CGs - GAME-JAMMED",
+			"artist": "Hisa",
+			"songCheck": "GAME-JAMMED"
+		},
+		{
+			"image": "82",
+			"caption": "CGs - GAME-JAMMED",
+			"artist": "Hisa",
+			"songCheck": "GAME-JAMMED"
+		},
+		{
+			"image": "83",
+			"caption": "CGs - GAME-JAMMED",
+			"artist": "Hisa",
+			"songCheck": "GAME-JAMMED"
+		},
+		{
+			"image": "85",
+			"caption": "CGs - GAME-JAMMED",
+			"artist": "Hisa",
+			"songCheck": "GAME-JAMMED"
+		}
+	]
+}

@@ -1,0 +1,109 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Ohmigosh, I can't get enough of Spicy! She's just so cute!",
+			"animation": "excited",
+			"sound" : "laugh",
+			"chara": "sun",
+			"tvArt" : "spicy"
+		},
+		{
+			"text": "I love her outfit and hair! And the way she talks and moves around is adorable too.",
+			"chara": "sun"
+		},
+		{
+			"text": "…pfft.",
+			"chara": "syn"
+		},
+		{
+			"text": "I wish we were in Togarashi Town when she performed with Sweet and Sour so I could see her do her thing in person. Her guitar skills just NEED to be witnessed.",
+			"chara": "sun"
+		},
+		{
+			"text": "…heh heh heh.",
+			"animation": "hueh",
+			"sound" : "robolaugh",
+			"chara": "syn"
+		},
+		{
+			"text": "Is something funny, Syn?",
+			"animation": "think",
+			"chara": "sun"
+		},
+		{
+			"text": "Ahaha, don't mind me. I just came to a crazy realization.",
+			"chara": "syn"
+		},
+		{
+			"text": "Oh? Do tell.",
+			"chara": "sun"
+		},
+		{
+			"text": " So… I was wondering why Spicy looked so familiar. I could've sworn I saw her face several times around a year ago. And then it hit me!",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "Look! There she is on “STREET MUSICIAN FAILS! ENZYNC CITY CRINGE COMPILATION” Episode 35!",
+			"chara": "syn"
+		},
+		{
+			"text": "…and episode 38… and episode 46… and episodes 51 through 57.",
+			"sound" : "lol",
+			"animation": "p03",
+			"chara": "syn"
+		},
+		{
+			"text": "W-what? That sounds awful!",
+			"sound" : "what",
+			"animation": "sad",
+			"chara": "sun"
+		},
+		{
+			"text": "I know! She DID sound awful! I didn't know a guitar could sound THAT off key.",
+			"animation": "alert",
+			"sound" : "thatswhatimsayin",
+			"chara": "syn"
+		},
+		{
+			"text": "No, not that! Having people publicizing your worst moments like that is just awful!",
+			"sound" : "oof",
+			"chara": "sun"
+		},
+		{
+			"text": "She could've just been practicing. Good musicians aren't just born amazing at what they do.",
+			"chara": "sun"
+		},
+		{
+			"text": "Well… yeah… though why would you practice out in the streets like that? You're basically asking for attention, especially if metal is the genre you're looking to pursue.",
+			"animation": "sad",
+			"sound" : "well",
+			"chara": "syn"
+		},
+		{
+			"text": "Though it's been over a year since she last appeared in one of those videos. Something had to have happened between then and now that made her go from that to her crazy skills now.",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "Maybe that new guy she performs with has something to do with it…",
+			"animation": "think",
+			"chara": "sun"
+		},
+		{
+			"text": "Crazy what getting a boyfriend will do for your motivation.",
+			"chara": "syn"
+		},
+		{
+			"text": "Boyfriend? She's just gone on record to say they're not dating. They're just a rockin' duo.",
+			"animation": "laugh",
+			"chara": "sun"
+		},
+		{
+			"text": "I'm hoping nothing but the best for her, and that people look at where she started as a sign of how far she's come, and not as a way to put her down.",
+			"animation": "reset",
+			"chara": "sun"
+		}
+	]
+}

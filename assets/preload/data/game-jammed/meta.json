@@ -1,0 +1,12 @@
+{
+	"song": {
+		"name": "GAME-JAMMED",
+		"artist": "DatDavi, Genechip, & Zeroh",
+		"titleCardStep": 65,
+		"charter": "Srife5",
+		"extraCharacter": [true, true]
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	}
+}

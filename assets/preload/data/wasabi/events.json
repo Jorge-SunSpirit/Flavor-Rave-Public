@@ -1,0 +1,351 @@
+{
+	"song": {
+		"events": [
+			[
+				1714.28571428571,
+				[
+					[
+						"Screen Flash",
+						"0.7",
+						"white"
+					],
+					[
+						"Note Camera Movement",
+						"6",
+						""
+					],
+					[
+						"Play SFX",
+						"smokepuff",
+						"1"
+					]
+				]
+			],
+			[
+				8571.42857142857,
+				[
+					[
+						"Change Camera Zoom",
+						"0.74",
+						"0.5"
+					]
+				]
+			],
+			[
+				22285.7142857143,
+				[
+					[
+						"Change Camera Zoom",
+						"0.78",
+						"0.5"
+					]
+				]
+			],
+			[
+				25714.2857142857,
+				[
+					[
+						"Change Camera Zoom",
+						"0.7",
+						"0.4"
+					]
+				]
+			],
+			[
+				29142.8571428571,
+				[
+					[
+						"Spawn Smoky Particles",
+						"backstreet/smonk",
+						"up"
+					],
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.5"
+					]
+				]
+			],
+			[
+				39000,
+				[
+					[
+						"Change Camera Zoom",
+						"1.2",
+						"1"
+					]
+				]
+			],
+			[
+				39428.5714285714,
+				[
+					[
+						"Play Animation",
+						"raveintro",
+						"dad"
+					]
+				]
+			],
+			[
+				39857.1428571429,
+				[
+					[
+						"Play SFX",
+						"RaveEngage",
+						""
+					]
+				]
+			],
+			[
+				41357.1428571429,
+				[
+					[
+						"Change Character",
+						"bf",
+						"sour-perspective"
+					],
+					[
+						"Change Character",
+						"dad",
+						"smoky-perspective"
+					],
+					[
+						"Change Camera Zoom",
+						"0.7",
+						"0.1"
+					]
+				]
+			],
+			[
+				42857.1428571429,
+				[
+					[
+						"Play Animation",
+						"appear",
+						"dad"
+					]
+				]
+			],
+			[
+				44571.4285714286,
+				[
+					[
+						"Change Camera Zoom",
+						"0.65",
+						""
+					],
+					[
+						"Spawn Smoky Particles",
+						"backstreet/smonk",
+						"up"
+					]
+				]
+			],
+			[
+				50142.8571428572,
+				[
+					[
+						"Change Camera Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				51428.5714285715,
+				[
+					[
+						"Change Camera Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				57000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				57535.7142857143,
+				[
+					[
+						"Play Animation",
+						"shamisen",
+						"dad"
+					]
+				]
+			],
+			[
+				58285.7142857143,
+				[
+					[
+						"Change Camera Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				70285.7142857143,
+				[
+					[
+						"Change Camera Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				84642.8571428572,
+				[
+					[
+						"Change Character",
+						"dad",
+						"smoky"
+					],
+					[
+						"Change Character",
+						"bf",
+						"sour"
+					],
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.1"
+					]
+				]
+			],
+			[
+				89142.8571428571,
+				[
+					[
+						"Change Camera Zoom",
+						"0.6",
+						"0.5"
+					]
+				]
+			],
+			[
+				92571.4285714286,
+				[
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.5"
+					]
+				]
+			],
+			[
+				106285.714285714,
+				[
+					[
+						"Change Camera Zoom",
+						"0.55",
+						"2"
+					]
+				]
+			],
+			[
+				118285.714285714,
+				[
+					[
+						"Change Camera Zoom",
+						"0.5",
+						"0.8"
+					]
+				]
+			],
+			[
+				121607.142857143,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				121714.285714286,
+				[
+					[
+						"Screen Flash",
+						"0.3",
+						"white"
+					]
+				]
+			],
+			[
+				135321.428571428,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					]
+				]
+			],
+			[
+				149142.857142857,
+				[
+					[
+						"Screen Flash",
+						"0.5",
+						"white"
+					],
+					[
+						"Change Camera Zoom",
+						"0.7",
+						"0.1"
+					]
+				]
+			],
+			[
+				149250,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				152571.428571428,
+				[
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.5"
+					]
+				]
+			],
+			[
+				156000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.7",
+						"3"
+					]
+				]
+			]
+		]
+	}
+}

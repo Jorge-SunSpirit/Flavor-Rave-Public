@@ -1,0 +1,14 @@
+{
+	"image": "gameover/smokyGO",
+	"animation": "smokey",
+	"spriteOffset": [450,450],
+	"flip_x": false,
+	"scale": 1.3,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "smoky/1",
+			"opponent": ""
+		}
+	]
+}

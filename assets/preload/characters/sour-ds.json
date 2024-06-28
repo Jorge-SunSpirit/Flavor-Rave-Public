@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "DS_Sour_IdleDance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				192,
+				-16
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "DS_Sour_SingLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				213,
+				-43
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DS_Sour_SingDOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				122,
+				59
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "DS_Sour_SingUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				110,
+				26
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "DS_Sour_SingRIGHT",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sour_ds",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "sour",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		235,
+		169
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sour",
+	"healthbar_image": "sour",
+	"musicNoteOffset": [45,-200]
+}

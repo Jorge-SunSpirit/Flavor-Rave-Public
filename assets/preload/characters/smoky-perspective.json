@@ -1,0 +1,147 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SmokyIdle"
+		},
+		{
+			"offsets": [
+				0,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SmokyRight"
+		},
+		{
+			"offsets": [
+				0,
+				36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SmokyUp"
+		},
+		{
+			"offsets": [
+				0,
+				-62
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SmokyDown"
+		},
+		{
+			"offsets": [
+				0,
+				90
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SmokyLeft"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "appear",
+			"fps": 24,
+			"name": "SmokyAppear",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				212
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "shamisen",
+			"loop": false,
+			"name": "SmokyShamSummon"
+		},
+		{
+			"offsets": [
+				1,
+				59
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "SmokyShamRight"
+		},
+		{
+			"offsets": [
+				0,
+				130
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "SmokyShamUp"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "SmokyShamDown"
+		},
+		{
+			"offsets": [
+				0,
+				152
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "SmokyShamLeft"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SmokyWasabi",
+	"position": [
+		0,
+		110
+	],
+	"healthicon": "smoky",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		40,
+		20
+	],
+	"camera_position": [
+		350,
+		-260
+	],
+	"sing_duration": 6,
+	"scale": 1.5,
+	"noteskin": "Smoky",
+	"healthbar_image": "smoky",
+	"musicNoteOffset": [-100,-400]
+}

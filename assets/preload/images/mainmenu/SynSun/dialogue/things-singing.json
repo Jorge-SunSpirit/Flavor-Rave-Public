@@ -1,0 +1,98 @@
+{
+	"allowEscape": false,
+	"dialogue":
+	[
+		{
+			"text": "M-me? I’m not much of a musician myself-",
+			"animation": "nervous",
+			"chara": "sundried"
+		},
+		{
+			"text": "Sunny. I’m gonna stop you right there. You can NOT be discrediting yourself like that.",
+			"animation": "upset",
+			"sound" : "heyLOUD",
+			"chara": "syn"
+		},
+		{
+			"text": "I see you on your music program every other night for hours!",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "And I will admit, I do sneak a listen or two to your music files every now and then. Everything you’ve been making sounds awesome!",
+			"chara": "syn"
+		},
+		{
+			"text": "Syn- hey! That’s just… for fun, y’know? I'm not a professional.",
+			"animation": "sad",
+			"sound" : "eeh",
+			"chara": "sundried"
+		},
+		{
+			"text": "Sunny, you don't gotta be a pro to make some bangin' tunes!",
+			"sound" : "cmonsunny",
+			"chara": "syn"
+		},
+		{
+			"text": "I mean, yeah... but-",
+			"chara": "sundried"
+		},
+		{
+			"text": "Oh! There's also your singing too! You've been practicing that a lot as well. You really gotta show the audience the combination of your talents.",
+			"animation": "alert",
+			"chara": "syn"
+		},
+		{
+			"text": "The audience-?! Syn, I don't think I'm ready for that.",
+			"animation": "nervous",
+			"chara": "sundried"
+		},
+		{
+			"text": "I wouldn't be pushing this so hard if I didn't think you would do great, Sunny. Please trust me on this.",
+			"animation": "reset",
+			"sound" : "heyquiet",
+			"chara": "syn"
+		},
+		{
+			"text": "...ah-",
+			"animation": "sad",
+			"sound" : "grumble",
+			"chara": "sundried"
+		},
+		{
+			"text": "I won't force you into this if you really don't want to... but I do mean it. I know you're going to do great.",
+			"chara": "syn"
+		},
+		{
+			"text": "...",
+			"chara": "sundried"
+		},
+		{
+			"text": "...",
+			"animation": "exhale",
+			"chara": "sundried"
+		},
+		{
+			"text": "...okay. I trust you, Syn. I'll need your help, though.",
+			"animation": "reset",
+			"chara": "sundried"
+		},
+		{
+			"text": "You don't gotta ask me twice! I'm right with you!",
+			"animation": "happy",
+			"chara": "syn"
+		},
+		{
+			"text": "Strap in, folks! We've got a special performance today, from the two of us here at SynSun!",
+			"sound" : "strapin",
+			"chara": "syn"
+		},
+		{
+			"text": "This song doesn't quite have a proper name yet, but it's a Sunny original! Get ready for this!",
+			"chara": "syn"
+		},
+		{
+			"command": "songStart"
+		}
+	]
+}

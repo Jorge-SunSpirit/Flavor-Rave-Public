@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Tioda IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				142,
+				41
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Tioda LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				27,
+				-22
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Tioda DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				121,
+				87
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Tioda UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				67,
+				6
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Tioda RIGHT",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/tioda_ds",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "tioda",
+	"flip_x": false,
+	"healthbar_colors": [
+		38,
+		218,
+		114
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Rhythm Robo",
+	"healthbar_image": "tioda"
+}

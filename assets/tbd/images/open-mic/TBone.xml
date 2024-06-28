@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TBone.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle instance 10000" x="8" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10001" x="8" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10002" x="296" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10003" x="296" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10004" x="584" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10005" x="584" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10006" x="872" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10007" x="872" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10008" x="1160" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10009" x="1160" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10010" x="1160" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10011" x="1160" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10012" x="1160" y="8" width="280" height="605"/>
+	<SubTexture name="idle instance 10013" x="1160" y="8" width="280" height="605"/>
+	<SubTexture name="play left instance 10000" x="1448" y="8" width="297" height="589"/>
+	<SubTexture name="play left instance 10001" x="1448" y="8" width="297" height="589"/>
+	<SubTexture name="play left instance 10002" x="8" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10003" x="8" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10004" x="313" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10005" x="313" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10006" x="618" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10007" x="618" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10008" x="923" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10009" x="923" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10010" x="923" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10011" x="923" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10012" x="923" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10013" x="923" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10014" x="923" y="621" width="297" height="589"/>
+	<SubTexture name="play left instance 10015" x="923" y="621" width="297" height="589"/>
+	<SubTexture name="play right instance 10000" x="1228" y="621" width="324" height="591"/>
+	<SubTexture name="play right instance 10001" x="1228" y="621" width="324" height="591"/>
+	<SubTexture name="play right instance 10002" x="1560" y="621" width="324" height="591"/>
+	<SubTexture name="play right instance 10003" x="1560" y="621" width="324" height="591"/>
+	<SubTexture name="play right instance 10004" x="8" y="1220" width="324" height="591"/>
+	<SubTexture name="play right instance 10005" x="8" y="1220" width="324" height="591"/>
+	<SubTexture name="play right instance 10006" x="340" y="1220" width="324" height="591"/>
+	<SubTexture name="play right instance 10007" x="340" y="1220" width="324" height="591"/>
+	<SubTexture name="play right instance 10008" x="672" y="1220" width="324" height="591"/>
+	<SubTexture name="play right instance 10009" x="672" y="1220" width="324" height="591"/>
+	<SubTexture name="play right instance 10010" x="672" y="1220" width="324" height="591"/>
+	<SubTexture name="play right instance 10011" x="672" y="1220" width="324" height="591"/>
+	<SubTexture name="play right instance 10012" x="672" y="1220" width="324" height="591"/>
+	<SubTexture name="play right instance 10013" x="672" y="1220" width="324" height="591"/>
+	<SubTexture name="play right instance 10014" x="672" y="1220" width="324" height="591"/>
+	<SubTexture name="play right instance 10015" x="672" y="1220" width="324" height="591"/>
+</TextureAtlas>

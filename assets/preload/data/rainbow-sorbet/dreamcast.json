@@ -1,0 +1,272 @@
+{
+	"dialogue": [
+		{
+			"background": "24",
+			"border": "stage",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","laugh"],
+			"text": "Sheesh! That crowd went ballistic! I've never felt that kind of energy at a show before.",
+			"voice": ""
+		},
+		{
+			"background": "24",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"sound": ["sweet","encore"],
+			"text": "I... I can't even describe how amazing it was! I felt like I was floating on air!",
+			"voice": ""
+		},
+		{
+			"background": "24",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"text": "I could've sworn you were! Something about that finale felt... I don't even know, man! It felt awesome!",
+			"voice": ""
+		},
+		{
+			"background": "25",
+			"character": "Showman",
+			"chara": ["showman", 2, true],
+			"sound": ["showman","myword"],
+			"text": "And what a finale that was! Reviews are already pooling in, and they're through the roof!",
+			"voice": ""
+		},
+		{
+			"background": "25",
+			"character": "Showman",
+			"chara": ["showman", 0, true],
+			"text": "The Sweet and Sour Summer Mix may darn well be the most successful show ever presented here at my showroom!",
+			"voice": ""
+		},
+		{
+			"background": "25",
+			"character": "Showman",
+			"chara": ["showman", 2, true],
+			"sound": ["showman","laugh"],
+			"text": "This little mixup worked out spectacularly in the end, hmm? Ahaha!",
+			"voice": ""
+		},
+		{
+			"background": "26",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Ah, I think I'm a little lightheaded from all the excitement. Is there somewhere nearby where I may decompress?",
+			"voice": ""
+		},
+		{
+			"background": "26",
+			"character": "Showman",
+			"chara": ["showman", 0, true],
+			"text": "You can try Lavender Park! It's just a quick jaunt up north from the showroom.",
+			"voice": ""
+		},
+		{
+			"background": "26",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","hey"],
+			"text": "Hey, umm... you got room for one more? I could use the fresh air too.",
+			"voice": ""
+		},
+		{
+			"background": "26",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","giggle"],
+			"text": "I'd love for you to join me, Sour!",
+			"voice": ""
+		},
+		{
+			"background": "26",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","letsgo"],
+			"text": "Hell yeah, let's roll.",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["default", 0, false],
+			"text": "A quick jaunt later..."
+		},
+		{
+			"background": "27",
+			"character": "Sweet",
+			"border": "lavender",
+			"chara": ["sweet", 0, true],
+			"text": "This must be the place. My mind already feels so much clearer over here.",
+			"bgm": "LavenderPark",
+			"bgmVolume": 0.3,
+			"voice": ""
+		},
+		{
+			"background": "27",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Same here, and now that my head is clear, damn... I feel real bad about snapping at you earlier. I'm sorry, Sweet.",
+			"voice": ""
+		},
+		{
+			"background": "27",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","oh"],
+			"text": "Oh, don't worry yourself. I think we got off on the wrong foot when we first met. The stress of the mixup was getting to us on our big day.",
+			"voice": ""
+		},
+		{
+			"background": "27",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Now is the perfect time to remedy things and properly introduce ourselves.",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","yeah"],
+			"text": "Yeah, I'm so down for that. I can already tell you're feeling a lot more comfortable now. You're speaking so... pristine and proper.",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","giggle"],
+			"text": "Do I really? Ahaha, as soon as I got here, I was told that I sounded 'old-fashioned.'",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "You and the others here definitely speak differently than how everyone does back in the Preheats.",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"text": "Well, except Showman. He'd fit right in back home, aha!",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Wait, the Preheats? Like... that place up in the mountains where a bunch of famous classical musicians live? The one across the whole damn ocean? THAT Preheats?",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"text": "Mmhmm!",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sour",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","man"],
+			"text": "I should've guessed. Mama talks about that place a lot. Must've costed a fortune to get here.",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "It was very... VERY expensive.",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "I... I spent several paychecks worth of money on travel alone. Taking my father's tour bus across the ocean by boat was no easy feat... but I wanted to do this so badly.",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Nah, I getcha. I would've done the same thing myself in your shoes. I'm glad this place is local for me, though. I live down in Enzync City, just a few miles thatta way.",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sweet",
+			"chara": ["sweet", 2, true],
+			"text": "I saw the city on my boat ride over! It looks absolutely gorgeous!",
+			"voice": ""
+		},
+		{
+			"background": "28",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"text": "You gotta come swing by! I can show you all the best spots! Like the burger joint my cousin works at! Or that killer ramen shop down in Togarashi Town- oh! And maybe we could-",
+			"voice": ""
+		},
+		{
+			"background": "29",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "Ah, all of that sounds so lovely, but... I don't think I'll have the time.",
+			"voice": ""
+		},
+		{
+			"background": "29",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Huh? Why not?",
+			"voice": ""
+		},
+		{
+			"background": "29",
+			"character": "Sweet",
+			"chara": ["sweet", 1, true],
+			"text": "I could only afford to be here for so long. I need to catch my boat home tonight... and the chance of me affording another performance here is unlikely...",
+			"voice": ""
+		},
+		{
+			"background": "29",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Damn... your time's that strict, huh?",
+			"voice": ""
+		},
+		{
+			"background": "29",
+			"character": "Sour",
+			"chara": ["sour", 0, true],
+			"text": "Well, hey. Let's make the most of your remaining time here, ok?",
+			"voice": ""
+		},
+		{
+			"background": "29",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"text": "Hmm?",
+			"voice": ""
+		},
+		{
+			"background": "30",
+			"character": "Sour",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","bringit"],
+			"text": "Let's play another song together! Just us this time, no audience needed.",
+			"voice": ""
+		},
+		{
+			"background": "30",
+			"character": "Sweet",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","oh"],
+			"text": "(Oh my, he's so determined-!)",
+			"voice": ""
+		}
+	]
+}

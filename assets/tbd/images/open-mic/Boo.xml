@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Boo.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Boo_Idle10000" x="8" y="8" width="482" height="496" frameX="-3" frameY="-2" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10001" x="8" y="8" width="482" height="496" frameX="-3" frameY="-2" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10002" x="498" y="8" width="469" height="485" frameX="-12" frameY="-22" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10003" x="498" y="8" width="469" height="485" frameX="-12" frameY="-22" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10004" x="975" y="8" width="476" height="489" frameX="-7" frameY="-23" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10005" x="975" y="8" width="476" height="489" frameX="-7" frameY="-23" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10006" x="1459" y="8" width="487" height="496" frameX="0" frameY="-13" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10007" x="1459" y="8" width="487" height="496" frameX="0" frameY="-13" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10008" x="8" y="512" width="479" height="494" frameX="-5" frameY="-5" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10009" x="8" y="512" width="479" height="494" frameX="-5" frameY="-5" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10010" x="495" y="512" width="481" height="497" frameX="-4" frameY="0" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10011" x="495" y="512" width="481" height="497" frameX="-4" frameY="0" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10012" x="495" y="512" width="481" height="497" frameX="-4" frameY="0" frameWidth="487" frameHeight="512"/>
+	<SubTexture name="Boo_Idle10013" x="495" y="512" width="481" height="497" frameX="-4" frameY="0" frameWidth="487" frameHeight="512"/>
+</TextureAtlas>

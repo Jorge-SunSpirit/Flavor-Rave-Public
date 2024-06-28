@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Caramelize.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="card0021" x="10" y="10" width="1280" height="720"/>
+	<SubTexture name="card0022" x="1300" y="10" width="1280" height="720"/>
+	<SubTexture name="card0023" x="2590" y="10" width="1280" height="720"/>
+	<SubTexture name="card0024" x="3880" y="10" width="1280" height="720"/>
+	<SubTexture name="card0025" x="5170" y="10" width="1280" height="720"/>
+	<SubTexture name="card0026" x="6460" y="10" width="1280" height="720"/>
+	<SubTexture name="card0027" x="10" y="740" width="1280" height="720"/>
+	<SubTexture name="card0028" x="1300" y="740" width="1280" height="720"/>
+	<SubTexture name="card0029" x="2590" y="740" width="1280" height="720"/>
+	<SubTexture name="card0030" x="3880" y="740" width="1280" height="720"/>
+	<SubTexture name="card0031" x="5170" y="740" width="1280" height="720"/>
+	<SubTexture name="card0032" x="6460" y="740" width="1280" height="720"/>
+	<SubTexture name="card0033" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="card0034" x="1300" y="1470" width="1280" height="720"/>
+	<SubTexture name="card0035" x="2590" y="1470" width="1280" height="720"/>
+	<SubTexture name="card0036" x="3880" y="1470" width="1280" height="720"/>
+	<SubTexture name="card0037" x="5170" y="1470" width="1280" height="720"/>
+	<SubTexture name="card0038" x="6460" y="1470" width="1280" height="720"/>
+	<SubTexture name="card0039" x="10" y="2200" width="1280" height="720"/>
+	<SubTexture name="card0040" x="1300" y="2200" width="1280" height="720"/>
+	<SubTexture name="card0041" x="2590" y="2200" width="1280" height="720"/>
+	<SubTexture name="card0042" x="3880" y="2200" width="1280" height="720"/>
+	<SubTexture name="card0043" x="5170" y="2200" width="1280" height="720"/>
+	<SubTexture name="card0044" x="6460" y="2200" width="1280" height="720"/>
+	<SubTexture name="card0045" x="10" y="2930" width="1280" height="720"/>
+	<SubTexture name="card0046" x="1300" y="2930" width="1280" height="720"/>
+	<SubTexture name="card0047" x="2590" y="2930" width="1280" height="720"/>
+	<SubTexture name="card0048" x="3880" y="2930" width="1280" height="720"/>
+	<SubTexture name="card0049" x="5170" y="2930" width="1280" height="720"/>
+	<SubTexture name="card0050" x="6460" y="2930" width="1280" height="720"/>
+</TextureAtlas>

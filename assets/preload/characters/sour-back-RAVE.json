@@ -1,0 +1,169 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-14
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SourBackDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SourBackIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-62,
+				16
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SourBackUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				-8
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SourBackLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-55,
+				5
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SourBackRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				350,
+				10
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "SourBackGuitarDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				266,
+				22
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "SourBackGuitarUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				435,
+				-5
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "SourBackGuitarLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				181,
+				4
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "SourBackGuitarRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				72,
+				-6
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "SourBackMissLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				-11
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "SourBackMissDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-56,
+				17
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "SourBackMissUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-43,
+				3
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "SourBackMissRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sour-RAVE-close",
+	"position": [
+		20,
+		110
+	],
+	"healthicon": "sour",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		235,
+		189
+	],
+	"camera_position": [
+		270,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1.4,
+	"noteskin": "Sour",
+	"healthbar_image": "sour",
+	"musicNoteOffset": [-500,-100]
+}
