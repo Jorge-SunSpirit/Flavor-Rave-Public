@@ -143,10 +143,17 @@ function eventStep(step)
 				noteTweenX('dad6', 2, defaultOpponentStrumX2 + 75, 1, "quadOut")
 				noteTweenX('dad7', 3, defaultOpponentStrumX3 + 75, 1, "quadOut")
 			else
-				noteTweenX('dad4', 0, defaultOpponentStrumX0 + 75, 1, "quadOut")
-				noteTweenX('dad5', 1, defaultOpponentStrumX1 + 75, 1, "quadOut")
-				noteTweenX('dad6', 2, defaultOpponentStrumX2 - 75, 1, "quadOut")
-				noteTweenX('dad7', 3, defaultOpponentStrumX3 - 75, 1, "quadOut")
+				if opponentPlay then
+					noteTweenX('dad4', 0, defaultPlayerStrumX0 + 75, 1, linear);
+					noteTweenX('dad5', 1, defaultPlayerStrumX1 + 75, 1, linear);
+					noteTweenX('dad6', 2, defaultPlayerStrumX2 - 75, 1, linear);
+					noteTweenX('dad7', 3, defaultPlayerStrumX3 - 75, 1, linear);
+				else
+					noteTweenX('dad4', 0, defaultOpponentStrumX0 + 75, 1, linear);
+					noteTweenX('dad5', 1, defaultOpponentStrumX1 + 75, 1, linear);
+					noteTweenX('dad6', 2, defaultOpponentStrumX2 - 75, 1, linear);
+					noteTweenX('dad7', 3, defaultOpponentStrumX3 - 75, 1, linear);
+				end
 			end
 		end
 		if step == '704' then

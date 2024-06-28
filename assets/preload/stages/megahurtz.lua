@@ -198,14 +198,36 @@ function swapBG(which)
 		setProperty('dadGroup.x', getProperty('DAD_X') - 150)
 		setProperty('dadGroup.y', getProperty('DAD_Y') - 200)
 		
-		noteTweenX('bf', 4, defaultPlayerStrumX0, 0.01, linear)
-		noteTweenX('bf1', 5, defaultPlayerStrumX1, 0.01, linear)
-		noteTweenX('bf2', 6, defaultPlayerStrumX2, 0.01, linear)
-		noteTweenX('bf3', 7, defaultPlayerStrumX3, 0.01, linear)
-		noteTweenX('dad4', 0, defaultOpponentStrumX0, 0.01, linear)
-		noteTweenX('dad5', 1, defaultOpponentStrumX1, 0.01, linear)
-		noteTweenX('dad6', 2, defaultOpponentStrumX2, 0.01, linear)
-		noteTweenX('dad7', 3, defaultOpponentStrumX3, 0.01, linear)
+		if not middlescroll then
+			noteTweenX('bf', 4, defaultPlayerStrumX0, 0.01, linear)
+			noteTweenX('bf1', 5, defaultPlayerStrumX1, 0.01, linear)
+			noteTweenX('bf2', 6, defaultPlayerStrumX2, 0.01, linear)
+			noteTweenX('bf3', 7, defaultPlayerStrumX3, 0.01, linear)
+			noteTweenX('dad4', 0, defaultOpponentStrumX0, 0.01, linear)
+			noteTweenX('dad5', 1, defaultOpponentStrumX1, 0.01, linear)
+			noteTweenX('dad6', 2, defaultOpponentStrumX2, 0.01, linear)
+			noteTweenX('dad7', 3, defaultOpponentStrumX3, 0.01, linear)
+		else
+			if opponentPlay then
+				noteTweenX('bf', 0, defaultPlayerStrumX0, 0.01, linear)
+				noteTweenX('bf1', 1, defaultPlayerStrumX1, 0.01, linear)
+				noteTweenX('bf2', 2, defaultPlayerStrumX2, 0.01, linear)
+				noteTweenX('bf3', 3, defaultPlayerStrumX3, 0.01, linear)
+				noteTweenX('dad4', 4, defaultOpponentStrumX0, 0.01, linear)
+				noteTweenX('dad5', 5, defaultOpponentStrumX1, 0.01, linear)
+				noteTweenX('dad6', 6, defaultOpponentStrumX2, 0.01, linear)
+				noteTweenX('dad7', 7, defaultOpponentStrumX3, 0.01, linear)
+			else
+				noteTweenX('bf', 4, defaultPlayerStrumX0, 0.01, linear)
+				noteTweenX('bf1', 5, defaultPlayerStrumX1, 0.01, linear)
+				noteTweenX('bf2', 6, defaultPlayerStrumX2, 0.01, linear)
+				noteTweenX('bf3', 7, defaultPlayerStrumX3, 0.01, linear)
+				noteTweenX('dad4', 0, defaultOpponentStrumX0, 0.01, linear)
+				noteTweenX('dad5', 1, defaultOpponentStrumX1, 0.01, linear)
+				noteTweenX('dad6', 2, defaultOpponentStrumX2, 0.01, linear)
+				noteTweenX('dad7', 3, defaultOpponentStrumX3, 0.01, linear)
+			end
+		end
 	end
 	if which == '2' then
 		partOne = false;
@@ -243,10 +265,17 @@ function swapBG(which)
 			noteTweenX('dad6', 2, defaultOpponentStrumX2 + 75, 0.01, linear);
 			noteTweenX('dad7', 3, defaultOpponentStrumX3 + 75, 0.01, linear);
 		else
-			noteTweenX('dad4', 0, defaultOpponentStrumX0 + 75, 0.01, linear);
-			noteTweenX('dad5', 1, defaultOpponentStrumX1 + 75, 0.01, linear);
-			noteTweenX('dad6', 2, defaultOpponentStrumX2 - 75, 0.01, linear);
-			noteTweenX('dad7', 3, defaultOpponentStrumX3 - 75, 0.01, linear);
+			if opponentPlay then
+				noteTweenX('dad4', 0, defaultPlayerStrumX0 + 75, 0.01, linear);
+				noteTweenX('dad5', 1, defaultPlayerStrumX1 + 75, 0.01, linear);
+				noteTweenX('dad6', 2, defaultPlayerStrumX2 - 75, 0.01, linear);
+				noteTweenX('dad7', 3, defaultPlayerStrumX3 - 75, 0.01, linear);
+			else
+				noteTweenX('dad4', 0, defaultOpponentStrumX0 + 75, 0.01, linear);
+				noteTweenX('dad5', 1, defaultOpponentStrumX1 + 75, 0.01, linear);
+				noteTweenX('dad6', 2, defaultOpponentStrumX2 - 75, 0.01, linear);
+				noteTweenX('dad7', 3, defaultOpponentStrumX3 - 75, 0.01, linear);
+			end
 		end
 	end
 end
