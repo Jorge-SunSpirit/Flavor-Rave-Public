@@ -137,10 +137,12 @@ function onStepHit()
 		setProperty('camFollow.x', 360);
 	end
 	if curStep == 368 then
-		noteTweenAlpha('dad4', 0, 0, 1, "circout")
-		noteTweenAlpha('dad5', 1, 0, 1, "circout")
-		noteTweenAlpha('dad6', 2, 0, 1, "circout")
-		noteTweenAlpha('dad7', 3, 0, 1, "circout")
+		if not middlescroll then
+			noteTweenAlpha('dad4', 0, 0, 1, "circout")
+			noteTweenAlpha('dad5', 1, 0, 1, "circout")
+			noteTweenAlpha('dad6', 2, 0, 1, "circout")
+			noteTweenAlpha('dad7', 3, 0, 1, "circout")
+		end
 	end
 	if curStep == 382 then
 		doTweenAlpha('dad', 'dad', 0.00001, 0.2);
@@ -171,10 +173,12 @@ function onStepHit()
 		end
 	end
 	if curStep == 410 then
-		noteTweenAlpha('dad4', 0, defaultOpponentAlpha0, 0.2, "circout")
-		noteTweenAlpha('dad5', 1, defaultOpponentAlpha1, 0.2, "circout")
-		noteTweenAlpha('dad6', 2, defaultOpponentAlpha2, 0.2, "circout")
-		noteTweenAlpha('dad7', 3, defaultOpponentAlpha3, 0.2, "circout")
+		if not middlescroll then
+			noteTweenAlpha('dad4', 0, defaultOpponentAlpha0, 0.2, "circout")
+			noteTweenAlpha('dad5', 1, defaultOpponentAlpha1, 0.2, "circout")
+			noteTweenAlpha('dad6', 2, defaultOpponentAlpha2, 0.2, "circout")
+			noteTweenAlpha('dad7', 3, defaultOpponentAlpha3, 0.2, "circout")
+		end
 	end
 	if curStep == 416 then
 		doTweenAlpha('black', 'black', 0, 1);
