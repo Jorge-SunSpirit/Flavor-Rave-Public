@@ -22,15 +22,12 @@ class VideoHandler extends FlxVideo
 	override public function load(location:String, ?options:Array<String>):Bool
 	{
 		FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
-		FlxG.mouse.visible = false;
-
 		return super.load(location, options);
 	}
 
 	override public function dispose():Void
 	{
 		FlxG.stage.removeEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
-		FlxG.mouse.visible = true;
 		super.dispose();
 	}
 

@@ -3957,6 +3957,10 @@ class PlayState extends MusicBeatState
 	{
 		var finishCallback:Void->Void = endSong; //In case you want to change it in a specific song.
 
+		#if SONG_ROLLBACK
+		if(ClientPrefs.songRollback) FlxG.maxElapsed = 0.1;
+		#end
+
 		updateTime = false;
 		FlxG.sound.music.volume = 0;
 		for (vocal in vocalTracks)

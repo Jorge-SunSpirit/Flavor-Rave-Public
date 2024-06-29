@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="FNF: Flavor Rave" file="FlavorRave" package="com.teamtbd.flavorrave" main="Main" version="2.0.0" company="TeamTBD" />
+	<app title="FNF: Flavor Rave" file="FlavorRave" package="com.teamtbd.flavorrave" main="Main" version="2.0.2" company="TeamTBD" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -49,7 +49,7 @@
 	<define name="FORCE_DEBUG_VERSION" if="debug" />
 
 	<!-- Rollback song if game stalls for over half a second -->
-	<define name="SONG_ROLLBACK" />
+	<!-- <define name="SONG_ROLLBACK" /> -->
 
 	<!-- PSYCH ENGINE CUSTOMIZATION -->
 	<define name="MODS_ALLOWED" if="desktop" />

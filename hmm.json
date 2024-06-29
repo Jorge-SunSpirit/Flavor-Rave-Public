@@ -51,7 +51,8 @@
 		},
 		{
 			"name": "hxcpp-debug-server",
-			"type": "haxelib"
+			"type": "haxelib",
+			"version": "1.2.4"
 		},
 		{
 			"name": "discord_rpc",
