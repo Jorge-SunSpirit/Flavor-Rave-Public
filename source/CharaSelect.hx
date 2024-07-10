@@ -137,7 +137,7 @@ class CharaSelect extends MusicBeatSubstate
 		diffCalcText.setFormat(Paths.font("Krungthep.ttf"), 23, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		diffCalcText.antialiasing = ClientPrefs.globalAntialiasing;
 		diffCalcText.alpha = 0.001;
-		if (whichState == 'freeplay') add(diffCalcText);
+		add(diffCalcText);
 
 		selectGrp.add(sour);
 		selectGrp.add(sweet);
@@ -360,7 +360,6 @@ class CharaSelect extends MusicBeatSubstate
 
 		var type:String = chara == 1 ? "" : "-opponent";
 
-
 		intendedScore = whichState == 'freeplay' ? Highscore.getScore(curSong + type, difficulty) : Highscore.getWeekScore(curSong + type, difficulty);
 		
 		if (whichState == 'freeplay')
@@ -379,8 +378,37 @@ class CharaSelect extends MusicBeatSubstate
 			}
 			catch (e)
 			{
-				FlxG.log.warn('${curSong}: Song doesn\'t exist!');
-	
+				FlxG.log.warn('$curSong: Song doesn\'t exist!');
+				diffCalcText.text = 'RATING: N/A';
+			}
+		}
+		else
+		{
+			try
+			{
+				var minRating:Float = Math.POSITIVE_INFINITY;
+				var maxRating:Float = Math.NEGATIVE_INFINITY;
+				
+				PlayState.storyDifficulty = difficulty;
+				for (song in WeekData.weeksLoaded.get(curSong).songs)
+				{
+					var weekSong:String = song[0];
+					var poop:String = Highscore.formatSong(weekSong.toLowerCase(), difficulty);
+					PlayState.SONG = Song.loadFromJson(poop, weekSong.toLowerCase());
+
+					var diff:Float = DiffCalc.CalculateDiff(PlayState.SONG, .93, chara == 1);
+					minRating = Math.min(minRating, diff);
+					maxRating = Math.max(maxRating, diff);
+				}
+
+				if (minRating != maxRating)
+					diffCalcText.text = 'RATING: $minRating-$maxRating';
+				else
+					diffCalcText.text = 'RATING: $maxRating';
+			}
+			catch (e)
+			{
+				FlxG.log.warn('$curSong: A song doesn\'t exist!');
 				diffCalcText.text = 'RATING: N/A';
 			}
 		}

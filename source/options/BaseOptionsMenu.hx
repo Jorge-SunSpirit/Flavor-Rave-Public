@@ -1,6 +1,6 @@
 package options;
 
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import Controls;
@@ -53,7 +53,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		if(title == null) title = 'Options';
 		if(rpcTitle == null) rpcTitle = 'Options Menu';
 		
-		#if desktop
+		#if discord_rpc
 		DiscordClient.changePresence(rpcTitle, null);
 		#end
 
@@ -159,8 +159,8 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		}
 		
 		if (controls.BACK) {
-			close();
 			FlxG.sound.play(Paths.sound('cancelMenu'));
+			close();
 		}
 
 		if(nextAccept <= 0)

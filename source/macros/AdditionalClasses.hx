@@ -9,7 +9,7 @@ import haxe.macro.Compiler;
 class AdditionalClasses {
 	public static function add() {
 		var includePackages:Array<String> = [
-			#if desktop "discord_rpc", #end
+			#if discord_rpc "discord_rpc", #end
 			"flixel",
 			"hscript",
 			#if VIDEOS_ALLOWED "hxvlc", #end

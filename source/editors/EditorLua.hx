@@ -28,7 +28,7 @@ using StringTools;
 import sys.FileSystem;
 import sys.io.File;
 #end
-#if desktop
+#if discord_rpc
 import Discord;
 #end
 
@@ -180,7 +180,9 @@ class EditorLua {
 			}
 		});
 
+		#if discord_rpc
 		Discord.DiscordClient.addLuaCallbacks(lua);
+		#end
 
 		call('onCreate', []);
 		#end

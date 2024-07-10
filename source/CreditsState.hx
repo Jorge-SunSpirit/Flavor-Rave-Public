@@ -24,12 +24,12 @@ import lime.utils.Assets;
 import haxe.Json;
 import shaders.TwoToneMask;
 
-#if FEATURE_FILESYSTEM
-import Sys;
+#if MODS_ALLOWED
 import sys.FileSystem;
+import sys.io.File;
 #end
 
-#if FEATURE_DISCORD
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 
@@ -81,7 +81,7 @@ class CreditsState extends MusicBeatState
 		persistentUpdate = persistentDraw = true;
 		FlxG.mouse.visible = ClientPrefs.menuMouse;
 
-		#if FEATURE_DISCORD
+		#if discord_rpc
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Credits", null);
 		#end
@@ -331,7 +331,7 @@ class CreditsState extends MusicBeatState
 
 	function loadAssets()
 	{
-		var path:String = Paths.json('creditsData');
+		var path:String = Paths.getPreloadPath('data/creditsData.json');
 		var rawJson = Assets.getText(path);
 		var json:CreditsFile = cast Json.parse(rawJson);
 
@@ -341,10 +341,30 @@ class CreditsState extends MusicBeatState
 		for (peep in bufferArray)
 		{
 			if (peep.whichrole == curPage)
-			{
 				creditsStuff.push([peep.realName, peep.iconName, peep.description, peep.twitter, peep.color, peep.whichrole]);
+		}
+
+		#if MODS_ALLOWED
+		var modsDirectories:Array<String> = Paths.getModDirectories();
+		for (folder in modsDirectories)
+		{
+			//This idea works and it's almost great. BUT 
+			var modPath:String = Paths.modFolders('data/creditsData.json', folder);
+			trace(FileSystem.exists(modPath));
+			if (FileSystem.exists(modPath))
+			{
+				json = cast Json.parse(File.getContent(modPath));
+				bufferArray = json.peeps;
+
+				for (peep in bufferArray)
+				{
+					if (peep.whichrole == curPage)
+						creditsStuff.push([peep.realName, peep.iconName, peep.description, peep.twitter, peep.color, peep.whichrole]);
+				}
+
 			}
 		}
+		#end
 	
 		for (i in 0...creditsStuff.length)
 		{

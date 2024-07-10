@@ -1,7 +1,7 @@
 package;
 
 import cpp.Int16;
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import editors.MasterEditorMenu;
@@ -101,7 +101,7 @@ class SunSynthState extends MusicBeatState
 		Paths.currentModDirectory = "";
 		instance = this;
 
-		#if desktop
+		#if discord_rpc
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("Watching the SynSun Stream", null);
 		#end

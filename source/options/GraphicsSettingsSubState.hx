@@ -1,6 +1,6 @@
 package options;
 
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import Controls;
@@ -77,8 +77,8 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		addOption(option);
 
 		final refreshRate:Int = FlxG.stage.application.window.displayMode.refreshRate;
-		option.minValue = 60;
-		option.maxValue = 240;
+		option.minValue = Main.MIN_FRAMERATE;
+		option.maxValue = Main.MAX_FRAMERATE;
 		option.defaultValue = Std.int(FlxMath.bound(refreshRate, option.minValue, option.maxValue));
 		option.displayFormat = '%v FPS';
 		option.onChange = onChangeFramerate;

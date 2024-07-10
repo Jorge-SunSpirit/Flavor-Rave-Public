@@ -1,7 +1,7 @@
 package;
 
 import cpp.Int16;
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import editors.MasterEditorMenu;
@@ -45,7 +45,7 @@ class FlavorpediaSelectorState extends MusicBeatState
 		FlxG.mouse.visible = ClientPrefs.menuMouse;
 		CoolUtil.difficulties = ["Normal"];
 
-		#if desktop
+		#if discord_rpc
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("Viewing the Flavorpedia", null);
 		#end

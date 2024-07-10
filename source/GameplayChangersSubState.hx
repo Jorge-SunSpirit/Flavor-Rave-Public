@@ -19,7 +19,6 @@ class GameplayChangersSubState extends MusicBeatSubstate
 		['scrolltype', "Scroll Type", true, 'scrolltype', 'string', 'multiplicative', ["multiplicative", "constant"]],
 		['scrollspeed', "Scroll Speed", true, 'scrollspeed', 'float', 1],
 		['songspeed', "Playback Rate", true, 'songspeed', 'float', 1],
-		['dynamicLaneOpacity', "Dynamic Lane Transparency", true, 'dynamicLaneOpacity', 'bool', false],
 		['healthgain', "Health Gain", true, 'healthgain', 'float', 1],
 		['healthloss', "Health Loss", true, 'healthloss', 'float', 1],
 		['instakill', "Instakill on Miss", true, 'instakill', 'bool', false],

@@ -1,7 +1,7 @@
 package;
 
 import cpp.Int16;
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import editors.MasterEditorMenu;
@@ -71,7 +71,7 @@ class SunSynthFirstState extends MusicBeatState
 
 	override function create()
 	{
-		#if desktop
+		#if discord_rpc
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
 		#end

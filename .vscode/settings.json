@@ -82,6 +82,76 @@
 		  "label": "Windows / Debug (Flavorpedia, Side Characters)",
 		  "target": "windows",
 		  "args": ["-debug", "-DARG=flavorpediaside"]
+		},
+		{
+		  "label": "Linux / Debug (Main Menu)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=menu"]
+		},
+		{
+		  "label": "Linux / Debug (Story Menu)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=story"]
+		},
+		{
+		  "label": "Linux / Debug (Freeplay Menu)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=freeplay"]
+		},
+		{
+		  "label": "Linux / Debug (Mods Menu)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=mods"]
+		},
+		{
+		  "label": "Linux / Debug (Credits Menu)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=credits"]
+		},
+		{
+		  "label": "Linux / Debug (Options Menu)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=options"]
+		},
+		{
+		  "label": "Linux / Debug (Debug Menu)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=debug"]
+		},
+		{
+		  "label": "Linux / Debug (Character Editor)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=character"]
+		},
+		{
+		  "label": "Linux / Debug (SynSun)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=sunsynth"]
+		},
+		{
+		  "label": "Linux / Debug (SynSun, First Time)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=sunsynthfirst"]
+		},
+		{
+		  "label": "Linux / Debug (Gallery Menu)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=gallery"]
+		},
+		{
+		  "label": "Linux / Debug (Flavorpedia)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=flavorpedia"]
+		},
+		{
+		  "label": "Linux / Debug (Flavorpedia, Main Cast)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=flavorpediamain"]
+		},
+		{
+		  "label": "Linux / Debug (Flavorpedia, Side Characters)",
+		  "target": "linux",
+		  "args": ["-debug", "-DARG=flavorpediaside"]
 		}
 	]
 }

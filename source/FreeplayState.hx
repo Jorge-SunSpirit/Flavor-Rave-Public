@@ -1,7 +1,7 @@
 package;
 
 import options.OptionsState;
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import WeekData;
@@ -61,7 +61,7 @@ class FreeplayState extends MusicBeatState
 		PlayState.isStoryMode = false;
 		WeekData.reloadWeekFiles(false);
 
-		#if desktop
+		#if discord_rpc
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
 		#end

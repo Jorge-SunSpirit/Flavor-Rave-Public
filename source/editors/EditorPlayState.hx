@@ -36,7 +36,11 @@ class EditorPlayState extends MusicBeatState
 	public var unspawnNotes:Array<Note> = [];
 
 	var generatedMusic:Bool = false;
-	var vocals:FlxSound;
+
+	// Ability to have separate vocals
+	public var vocalTracks:Map<String, FlxSound> = new Map<String, FlxSound>();
+	public var vocals(get, never):FlxSound;
+	public var separateVocals(get, never):Bool;
 
 	var startOffset:Float = 0;
 	var startPos:Float = 0;
@@ -62,6 +66,23 @@ class EditorPlayState extends MusicBeatState
 	private var keysArray:Array<Dynamic>;
 
 	public static var instance:EditorPlayState;
+
+	// Check if vocalTracks is longer than 1
+	function get_separateVocals():Bool
+	{
+		var count:Int = 0;
+
+		for (key in vocalTracks.keys())
+			count++;
+
+		return count > 1;
+	}
+
+	// Either give player track or "" track
+	function get_vocals():FlxSound
+	{
+		return vocalTracks.get(separateVocals ? PlayState.SONG.player1 : "");
+	}
 
 	override function create()
 	{
@@ -107,9 +128,28 @@ class EditorPlayState extends MusicBeatState
 		splash.alpha = 0.0;
 		
 		if (PlayState.SONG.needsVoices)
-			vocals = new FlxSound().loadEmbedded(Paths.voices(PlayState.SONG.song));
+		{
+			try
+			{
+				vocalTracks.set(PlayState.SONG.player1, new FlxSound().loadEmbedded(Paths.voices(PlayState.SONG.song, PlayState.SONG.player1.split('-')[0])));
+				vocalTracks.set(PlayState.SONG.player2, new FlxSound().loadEmbedded(Paths.voices(PlayState.SONG.song, PlayState.SONG.player2.split('-')[0])));
+			}
+			catch (e)
+			{
+				trace(e + ", resorting to Voices.ogg");
+				vocalTracks.clear();
+				vocalTracks.set("", new FlxSound().loadEmbedded(Paths.voices(PlayState.SONG.song)));
+			}
+		}
 		else
-			vocals = new FlxSound();
+		{
+			vocalTracks.set("", new FlxSound());
+		}
+
+		for (vocal in vocalTracks)
+		{
+			FlxG.sound.list.add(vocal);
+		}
 
 		generateSong(PlayState.SONG.song);
 		#if (LUA_ALLOWED && MODS_ALLOWED)
@@ -196,8 +236,14 @@ class EditorPlayState extends MusicBeatState
 		FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 0, false);
 		FlxG.sound.music.pause();
 		FlxG.sound.music.onComplete = endSong;
-		vocals.pause();
-		vocals.volume = 0;
+		for (vocal in vocalTracks)
+		{
+			if (vocal != null)
+			{
+				vocal.pause();
+				vocal.volume = 0;
+			}
+		}
 
 		var songData = PlayState.SONG;
 		Conductor.bpm = songData.bpm;
@@ -307,9 +353,15 @@ class EditorPlayState extends MusicBeatState
 		FlxG.sound.music.time = startPos;
 		FlxG.sound.music.play();
 		FlxG.sound.music.volume = 1;
-		vocals.volume = 1;
-		vocals.time = startPos;
-		vocals.play();
+		for (vocal in vocalTracks)
+		{
+			if (vocal != null)
+			{
+				vocal.volume = 1;
+				vocal.time = startPos;
+				vocal.play();
+			}
+		}
 	}
 
 	function sortByShit(Obj1:Note, Obj2:Note):Int
@@ -327,7 +379,13 @@ class EditorPlayState extends MusicBeatState
 		if (FlxG.keys.justPressed.ESCAPE)
 		{
 			FlxG.sound.music.pause();
-			vocals.pause();
+			for (vocal in vocalTracks)
+			{
+				if (vocal != null)
+				{
+					vocal.pause();
+				}
+			}
 			LoadingState.loadAndSwitchState(new editors.ChartingState());
 		}
 
@@ -449,7 +507,7 @@ class EditorPlayState extends MusicBeatState
 
 				if (!daNote.mustPress && daNote.wasGoodHit && !daNote.hitByOpponent && !daNote.ignoreNote)
 				{
-					if (PlayState.SONG.needsVoices)
+					if (!separateVocals && PlayState.SONG.needsVoices)
 						vocals.volume = 1;
 
 					var time:Float = 0.15;
@@ -528,12 +586,25 @@ class EditorPlayState extends MusicBeatState
 
 	function resyncVocals():Void
 	{
-		vocals.pause();
+		for (vocal in vocalTracks)
+		{
+			if (vocal != null)
+			{
+				vocal.time = startPos;
+				vocal.pause();
+			}
+		}
 
 		FlxG.sound.music.play();
 		Conductor.songPosition = FlxG.sound.music.time;
-		vocals.time = Conductor.songPosition;
-		vocals.play();
+		for (vocal in vocalTracks)
+		{
+			if (vocal != null)
+			{
+				vocal.time = Conductor.songPosition;
+				vocal.play();
+			}
+		}
 	}
 	private function onKeyPress(event:KeyboardEvent):Void
 	{
@@ -1013,8 +1084,14 @@ class EditorPlayState extends MusicBeatState
 	
 	override function destroy() {
 		FlxG.sound.music.stop();
-		vocals.stop();
-		vocals.destroy();
+		for (vocal in vocalTracks)
+		{
+			if (vocal != null)
+			{
+				vocal.stop();
+				vocal.destroy();
+			}
+		}
 
 		if(!ClientPrefs.controllerMode)
 		{

@@ -1,7 +1,9 @@
 package;
 
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
+#end
+#if desktop
 import sys.thread.Thread;
 #end
 import flixel.FlxG;
@@ -124,7 +126,7 @@ class TitleState extends MusicBeatState
 			WeekData.weekCompleted = FlxG.save.data.weekCompleted;
 			
 
-		#if desktop
+		#if discord_rpc
 		if (!DiscordClient.isInitialized)
 		{
 			DiscordClient.initialize();
@@ -364,9 +366,10 @@ class TitleState extends MusicBeatState
 						MusicBeatState.switchState(new StoryMenuState());
 					}
 
-					if (ClientPrefs.mainmenuMusic != 'freakyMenu') //Fun fact, it'll never not be synsun transition with the music change
+					if (firstStart && ClientPrefs.mainmenuMusic != 'freakyMenu') //Fun fact, it'll never not be synsun transition with the music change
 					{
 						FlxG.sound.music.fadeOut(1.8, 0, function(twn:FlxTween){FlxG.sound.music.stop();});
+						firstStart = false;
 					}
 				});
 			}
@@ -424,7 +427,6 @@ class TitleState extends MusicBeatState
 
 		if (fancy)
 		{
-			firstStart = false;
 			city.y = 720;
 			savory.y = 720;
 			smoky.y = 720;

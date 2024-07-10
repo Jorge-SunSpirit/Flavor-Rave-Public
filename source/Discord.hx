@@ -1,5 +1,6 @@
 package;
 
+#if discord_rpc
 import Sys.sleep;
 import discord_rpc.DiscordRpc;
 
@@ -100,3 +101,4 @@ class DiscordClient
 	}
 	#end
 }
+#end

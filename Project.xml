@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="FNF: Flavor Rave" file="FlavorRave" package="com.teamtbd.flavorrave" main="Main" version="2.0.2" company="TeamTBD" />
+	<app title="FNF: Flavor Rave" file="FlavorRave" package="com.teamtbd.flavorrave" main="Main" version="2.0.3" company="TeamTBD" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -84,17 +84,6 @@
 	<assets path="assets/songs"         library="songs"                            />
 	<assets path="assets/shared"        library="shared"                           />
 	<assets path="assets/tbd"           library="tbd"                              />
-	
-	<!--
-	<section if="MODS_ALLOWED">
-		<assets path='example_mods' rename='mods' embed='false'/>
-	</section>
-	-->
-
-	<!-- <assets path='art/readme.txt' rename='do NOT readme.txt' /> -->
-	<!-- <template path='mods' /> -->
-	
-	<!-- assets path="CHANGELOG.md" rename='changelog.txt' -->
 
 	<!-- NOTE FOR FUTURE SELF SINCE FONTS ARE ALWAYS FUCKY 
 		TO FIX ONE OF THEM, I CONVERTED IT TO OTF. DUNNO IF YOU NEED TO
@@ -116,8 +105,6 @@
 	<haxelib name="flixel-ui" />
 	<haxelib name="linc_luajit" if="LUA_ALLOWED"/>
 	<haxelib name="hxvlc" if="VIDEOS_ALLOWED"/>
-	<haxelib name="faxe" if='switch'/>
-	<!--<haxelib name="polymod"/> -->
 	<haxelib name="discord_rpc" if="desktop"/>
 	<haxelib name="hxcpp-debug-server" if="debug"/>
 	<!-- <haxelib name="flxanimate"/> -->

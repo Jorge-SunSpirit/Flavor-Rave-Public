@@ -44,8 +44,11 @@ class CoriandaBorder extends FlxSpriteGroup
 		}
 	}
 
-	public function tween(duration:Float = 1):Void
+	public function tween(duration:Null<Float> = 1):Void
 	{
+		if (duration == null || Math.isNaN(duration))
+			duration = 1;
+
 		var delay:Float = 1 / duration;
 		var viewFlip:Int = flip * (inView ? -1 : 1);
 		

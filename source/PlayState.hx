@@ -63,7 +63,7 @@ import openfl.utils.Assets as OpenFlAssets;
 import window.windowMod.FlxWindowModifier;
 
 using StringTools;
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 
@@ -334,7 +334,7 @@ class PlayState extends MusicBeatState
 	public var centerCameraOffset:Array<Float> = null;
 	public var cameraBoundaries:Array<Float> = null;
 
-	#if desktop
+	#if discord_rpc
 	// Discord RPC variables
 	var storyDifficultyText:String = "";
 	var detailsText:String = "";
@@ -530,7 +530,7 @@ class PlayState extends MusicBeatState
 		curSong = hasMetadata ? metadata.song.name : SONG.song;
 		titleCardStep = (hasMetadata && metadata.song.titleCardStep != null ? metadata.song.titleCardStep : 1);
 
-		#if desktop
+		#if discord_rpc
 		storyDifficultyText = CoolUtil.difficulties[storyDifficulty];
 
 		// String that contains the mode defined here so it isn't necessary to call changePresence for each mode
@@ -877,12 +877,17 @@ class PlayState extends MusicBeatState
 		judgementCounter.visible = (!ClientPrefs.hideHud && ClientPrefs.judgementCounter);
 		add(judgementCounter);
 
-		botplayTxt = new FlxText(400, strumLine.y + 38, FlxG.width - 800,
+		botplayTxt = new FlxText(0, strumLine.y + 32, FlxG.width - 800,
 			"BOTPLAY").setFormat(Paths.font("Krungthep.ttf"), 32, FlxColor.WHITE,
 				CENTER).setBorderStyle(OUTLINE, FlxColor.BLACK, 2, 2);
+		if(!cpuControlled && practiceMode)
+		{
+			botplayTxt.text = "PRACTICE\nMODE";
+			botplayTxt.y -= 16;
+		}
 		botplayTxt.screenCenter(X);
 		botplayTxt.antialiasing = ClientPrefs.globalAntialiasing;
-		botplayTxt.visible = cpuControlled;
+		botplayTxt.visible = cpuControlled || practiceMode;
 		add(botplayTxt);
 
 		grpNoteLanes.cameras = [camHUD];
@@ -894,12 +899,6 @@ class PlayState extends MusicBeatState
 		botplayTxt.cameras = [camHUD];
 		doof.cameras = [camHUD];
 
-		// if (SONG.song == 'South')
-		// FlxG.camera.alpha = 0.7;
-		// UI_camera.zoom = 1;
-
-		// cameras = [FlxG.cameras.list[1]];
-		
 		#if LUA_ALLOWED
 		for (notetype in noteTypeMap.keys())
 		{
@@ -1031,9 +1030,8 @@ class PlayState extends MusicBeatState
 		if (PauseSubState.songName != null) Paths.music(PauseSubState.songName);
 		else Paths.music('110th-street');
 
-		#if desktop
-		// Updating Discord Rich Presence.
-		DiscordClient.changePresence(detailsText, curSong + (CoolUtil.difficulties.length > 1 ? " (" + storyDifficultyText + ")" : ""), flavorHUD.iconP2.getCharacter());
+		#if discord_rpc
+		updateRichPresence(false);
 		#end
 
 		if (!loadRep) {
@@ -1068,9 +1066,6 @@ class PlayState extends MusicBeatState
 		Conductor.safeZoneOffset = (ClientPrefs.safeFrames / 60) * 1000;
 		callOnLuas('onCreatePost', []);
 
-		#if SONG_ROLLBACK
-		if(ClientPrefs.songRollback) FlxG.maxElapsed = 0.1;
-		#end
 		super.create();
 
 		cacheCountdown();
@@ -1514,20 +1509,45 @@ class PlayState extends MusicBeatState
 	public var playerIndicator:FlxText;
 	public var chara1:String = 'sweet';
 	public var chara2:String = 'sour';
+	public var countdownSuffix:String = '';
 	public static var startOnTime:Float = 0;
 
 	function cacheCountdown()
 	{
+		/* Image */
 		var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
-		introAssets.set('default', ['countdown/leftbox', 'countdown/leftbox-mask', 'countdown/rightbox','countdown/rightbox-mask','countdown/loaded','countdown/locked','countdown/and','countdown/rave','countdown/portraits/$chara1','countdown/portraits/$chara2']);
-		var introAlts:Array<String> = introAssets.get('default');		
-		for (asset in introAlts)
+		introAssets.set('default',
+		[
+			'countdown/leftbox',
+			'countdown/leftbox-mask',
+			'countdown/rightbox',
+			'countdown/rightbox-mask',
+			'countdown/portraits/$chara1',
+			'countdown/portraits/$chara2',
+
+			'countdown/locked',
+			'countdown/and',
+			'countdown/loaded',
+			'countdown/rave',
+
+			'countdown/locked' + countdownSuffix,
+			'countdown/and' + countdownSuffix,
+			'countdown/loaded' + countdownSuffix,
+			'countdown/rave' + countdownSuffix
+		]);
+
+		for (asset in introAssets.get('default'))
 			Paths.image(asset);
-		
-		Paths.sound('newintroLNL');
-		Paths.sound('newgo');
+
+
+		/* Sound */
 		Paths.sound('TONALFX_LNL');
+		try {Paths.sound('newintroLNL' + countdownSuffix);}
+		catch(e) {Paths.sound('newintroLNL');}
+
 		Paths.sound('TONALFX_go');
+		try {Paths.sound('newgo' + countdownSuffix);}
+		catch(e) {Paths.sound('newgo');}
 	}
 
 	private var countdownTime:Float = 0.667;
@@ -1544,8 +1564,6 @@ class PlayState extends MusicBeatState
 		var ret:Dynamic = callOnLuas('onStartCountdown', [], false);
 
 		if(ret != FunkinLua.Function_Stop) {
-
-			//trace(curSong);
 			hasTitleCard = Paths.fileExists('images/titlecard/${curSong}.png', IMAGE);
 
 			if (skipCountdown || hasTitleCard || startOnTime > 0) skipArrowStartTween = true;
@@ -1657,16 +1675,10 @@ class PlayState extends MusicBeatState
 						extraChar.dance();
 					}
 
-					var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
-
-					var introAlts:Array<String> = introAssets.get('default');
-					var antialias:Bool = ClientPrefs.globalAntialiasing;
-	
 					switch (swagCounter)
 					{
 						case 0:
-							// TODO: replace with HPK's sprites once they're ready
-							if (!ClientPrefs.middleScroll) {
+							if (!cpuControlled && !ClientPrefs.middleScroll) {
 								playerIndicator = new FlxText(playerStrums.members[0].x, playerStrums.members[0].y + (ClientPrefs.downScroll ? -150 : 150), 450,
 								"YOU").setFormat(Paths.font("Krungthep.ttf"), 42, FlxColor.WHITE, CENTER).setBorderStyle(FlxTextBorderStyle.OUTLINE, FlxColor.BLACK, 3, 2);
 								playerIndicator.cameras = [camHUD];
@@ -1686,17 +1698,26 @@ class PlayState extends MusicBeatState
 							player2Box.cameras = [camHUD];
 							add(player2Box);
 
-							locked = new FlxSprite(-623, 187).loadGraphic(Paths.image('countdown/locked'));
+							var img = Paths.image('countdown/locked' + countdownSuffix);
+							if (img == null) img = Paths.image('countdown/locked');
+
+							locked = new FlxSprite(-623, 187).loadGraphic(img);
 							locked.antialiasing = ClientPrefs.globalAntialiasing;
 							locked.cameras = [camHUD];
 							add(locked);
 
-							loaded = new FlxSprite(1903, 352).loadGraphic(Paths.image('countdown/loaded'));
+							img = Paths.image('countdown/loaded' + countdownSuffix);
+							if (img == null) img = Paths.image('countdown/loaded');
+
+							loaded = new FlxSprite(1903, 352).loadGraphic(img);
 							loaded.antialiasing = ClientPrefs.globalAntialiasing;
 							loaded.cameras = [camHUD];
 							add(loaded);
 
-							andsprite = new FlxSprite(584, 298).loadGraphic(Paths.image('countdown/and'));
+							img = Paths.image('countdown/and' + countdownSuffix);
+							if (img == null) img = Paths.image('countdown/and');
+
+							andsprite = new FlxSprite(584, 298).loadGraphic(img);
 							andsprite.antialiasing = ClientPrefs.globalAntialiasing;
 							andsprite.cameras = [camHUD];
 							andsprite.screenCenter();
@@ -1710,7 +1731,13 @@ class PlayState extends MusicBeatState
 							FlxTween.tween(andsprite, {alpha: 1}, Conductor.crochet / 1000, {ease: FlxEase.cubeInOut, startDelay: 0.28});
 							FlxTween.tween(loaded, {x: 622}, Conductor.crochet / 1000, {ease: FlxEase.cubeInOut, startDelay: 0.4});
 
-							FlxG.sound.play(Paths.sound('newintroLNL'), 0.6).pitch = playbackRate;
+							var snd;
+							{
+								try {snd = Paths.sound('newintroLNL' + countdownSuffix);}
+								catch(e) {snd = Paths.sound('newintroLNL');}
+							}
+
+							FlxG.sound.play(snd, 0.6).pitch = playbackRate;
 						case 1:
 						case 2:
 							new FlxTimer().start(countdownTime - 0.1, function(tmr:FlxTimer)
@@ -1744,8 +1771,11 @@ class PlayState extends MusicBeatState
 								andsprite.destroy();
 							}});
 
+							var atlas = Paths.getSparrowAtlas('countdown/rave' + countdownSuffix);
+							if (atlas == null) atlas = Paths.getSparrowAtlas('countdown/rave');
+
 							rave = new FlxSprite();
-							rave.frames = Paths.getSparrowAtlas('countdown/rave');
+							rave.frames = atlas;
 							rave.animation.addByPrefix('idle', 'RaveText', 24, false);
 							rave.animation.play('idle');
 							rave.setGraphicSize(Std.int(rave.width * 0.9));
@@ -1759,7 +1789,14 @@ class PlayState extends MusicBeatState
 								remove(rave);
 								rave.destroy();
 							}});
-							FlxG.sound.play(Paths.sound('newgo'), 0.6).pitch = playbackRate;
+
+							var snd;
+							{
+								try {snd = Paths.sound('newgo' + countdownSuffix);}
+								catch(e) {snd = Paths.sound('newgo');}
+							}
+
+							FlxG.sound.play(snd, 0.6).pitch = playbackRate;
 						case 4:
 					}
 	
@@ -1832,13 +1869,29 @@ class PlayState extends MusicBeatState
 	public function updateScore(miss:Bool = false)
 	{
 		accuracy = CoolUtil.floorDecimal(ratingPercent * 100, 2);
-		flavorHUD.score.text = 'Score: $songScore | Misses: $songMisses';
+		flavorHUD.score.text = 'Score: $songScore';
+		if(!instakillOnMiss || practiceMode) flavorHUD.score.text += ' | Misses: $songMisses';
 		if(!cpuControlled && accuracy > 0) flavorHUD.score.text += ' | $accuracy% ($ratingLetter)';
 
 		judgementCounter.text = 'Marvelous: $marvelous\nSicks: $sicks\nGoods: $goods\nBads: $bads\nShits: $shits\nMisses: $songMisses';
 
 		callOnLuas('onUpdateScore', [miss]);
 	}
+
+	#if discord_rpc
+	public function updateRichPresence(showTime:Bool = true, details:String = null)
+	{
+		if(details == null) details = detailsText;
+
+		DiscordClient.changePresence(
+			details,
+			curSong + (CoolUtil.difficulties.length > 1 ? " (" + storyDifficultyText + ")" : ""),
+			flavorHUD.iconP2.getCharacter(),
+			showTime,
+			showTime ? ((songLength - Conductor.songPosition) / playbackRate) - ClientPrefs.noteOffset : null
+		);
+	}
+	#end
 
 	public function setSongTime(time:Float)
 	{
@@ -1883,10 +1936,6 @@ class PlayState extends MusicBeatState
 
 	function startSong():Void
 	{
-		#if SONG_ROLLBACK
-		if(ClientPrefs.songRollback) FlxG.maxElapsed = Math.POSITIVE_INFINITY;
-		#end
-
 		startingSong = false;
 
 		previousFrameTime = FlxG.game.ticks;
@@ -1919,9 +1968,8 @@ class PlayState extends MusicBeatState
 		// Song duration in a float, useful for the time left feature
 		songLength = FlxG.sound.music.length;
 
-		#if desktop
-		// Updating Discord Rich Presence (with Time Left)
-		DiscordClient.changePresence(detailsText, curSong + " (" + storyDifficultyText + ")", flavorHUD.iconP2.getCharacter(), true, songLength / playbackRate);
+		#if discord_rpc
+		updateRichPresence();
 		#end
 		setOnLuas('songLength', songLength);
 		callOnLuas('onSongStart', []);
@@ -2510,15 +2558,8 @@ class PlayState extends MusicBeatState
 			paused = false;
 			callOnLuas('onResume', []);
 
-			#if desktop
-			if (startTimer != null && startTimer.finished)
-			{
-				DiscordClient.changePresence(detailsText, curSong + " (" + storyDifficultyText + ")", flavorHUD.iconP2.getCharacter(), true, ((songLength - Conductor.songPosition) / playbackRate) - ClientPrefs.noteOffset);
-			}
-			else
-			{
-				DiscordClient.changePresence(detailsText, curSong + " (" + storyDifficultyText + ")", flavorHUD.iconP2.getCharacter());
-			}
+			#if discord_rpc
+			updateRichPresence(startTimer != null && startTimer.finished);
 			#end
 
 			FlxG.timeScale = playbackRate;
@@ -2529,18 +2570,9 @@ class PlayState extends MusicBeatState
 
 	override public function onFocus():Void
 	{
-		#if desktop
+		#if discord_rpc
 		if (health > 0 && !paused)
-		{
-			if (Conductor.songPosition > 0.0)
-			{
-				DiscordClient.changePresence(detailsText, curSong + " (" + storyDifficultyText + ")", flavorHUD.iconP2.getCharacter(), true, ((songLength - Conductor.songPosition) / playbackRate) - ClientPrefs.noteOffset);
-			}
-			else
-			{
-				DiscordClient.changePresence(detailsText, curSong + " (" + storyDifficultyText + ")", flavorHUD.iconP2.getCharacter());
-			}
-		}
+			updateRichPresence(Conductor.songPosition > 0.0);
 		#end
 
 		super.onFocus();
@@ -2553,11 +2585,9 @@ class PlayState extends MusicBeatState
 			openPauseMenu();
 		}
 
-		#if desktop
+		#if discord_rpc
 		if (health > 0 && !paused && ClientPrefs.autoPause)
-		{
-			DiscordClient.changePresence(detailsPausedText, curSong + " (" + storyDifficultyText + ")", flavorHUD.iconP2.getCharacter());
-		}
+			updateRichPresence(false, detailsPausedText);
 		#end
 
 		super.onFocusLost();
@@ -2589,11 +2619,10 @@ class PlayState extends MusicBeatState
 	override public function update(elapsed:Float)
 	{
 		#if SONG_ROLLBACK
-		if (ClientPrefs.songRollback && FlxG.sound.music.playing && elapsed > 0.5)
+		if (ClientPrefs.songRollback && FlxG.sound.music.playing && elapsed >= FlxG.maxElapsed)
 		{
-			FlxG.log.add('Game stalled for ${Math.floor(elapsed / (1 / FlxG.updateFramerate))} frames, rolling back');
-			FlxG.sound.music.time -= elapsed * 1000;
-			Conductor.songPosition = FlxG.sound.music.time;
+			FlxG.log.add('Game stalled for 1/10 of a second or more, rolling back');
+			FlxG.sound.music.time = Conductor.songPosition;
 			resyncVocals();
 			elapsed = 0;
 			return;
@@ -2987,8 +3016,8 @@ class PlayState extends MusicBeatState
 			inResults = true;
 		});
 
-		#if desktop
-		DiscordClient.changePresence(detailsResultsText, curSong + " (" + storyDifficultyText + ")", flavorHUD.iconP2.getCharacter());
+		#if discord_rpc
+		updateRichPresence(false, detailsResultsText);
 		#end
 	}
 
@@ -3017,8 +3046,8 @@ class PlayState extends MusicBeatState
 		openSubState(new PauseSubState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
 		//}
 
-		#if desktop
-		DiscordClient.changePresence(detailsPausedText, curSong + " (" + storyDifficultyText + ")", flavorHUD.iconP2.getCharacter());
+		#if discord_rpc
+		updateRichPresence(false, detailsPausedText);
 		#end
 	}
 
@@ -3031,7 +3060,7 @@ class PlayState extends MusicBeatState
 		MusicBeatState.switchState(new ChartingState());
 		chartingMode = true;
 
-		#if desktop
+		#if discord_rpc
 		DiscordClient.changePresence("Chart Editor", null, null, true);
 		#end
 	}
@@ -3063,8 +3092,8 @@ class PlayState extends MusicBeatState
 
 				openSubState(new GameOverSubState(opponentPlay ? chara2 : chara1));
 
-				#if desktop
-				DiscordClient.changePresence("Game Over - " + detailsText, curSong + " (" + storyDifficultyText + ")", flavorHUD.iconP2.getCharacter());
+				#if discord_rpc
+				updateRichPresence(false, "Outshined - " + detailsText);
 				#end
 				isDead = true;
 				return true;
@@ -3783,13 +3812,13 @@ class PlayState extends MusicBeatState
 			case 'Corianda Border':
 				if (coriBorder != null)
 				{
-					var duration:Float = Std.parseFloat(value1);
+					var duration:Null<Float> = Std.parseFloat(value1);
 
-					if (Math.isNaN(duration))
+					if (duration == null || Math.isNaN(duration))
 						duration = 1;
 
-					for (i in 0...2)
-						coriBorder.members[i].tween(duration);
+					for (border in coriBorder.members)
+						border.tween(duration);
 				}
 
 			case 'Screen Flash':
@@ -3957,9 +3986,15 @@ class PlayState extends MusicBeatState
 	{
 		var finishCallback:Void->Void = endSong; //In case you want to change it in a specific song.
 
-		#if SONG_ROLLBACK
-		if(ClientPrefs.songRollback) FlxG.maxElapsed = 0.1;
-		#end
+		if (dreamcastEnd != null)
+		{
+			finishCallback = function()
+			{
+				canPause = false;
+				endingSong = true;
+				startDreamcastDialogue(dreamcastEnd);
+			};
+		}
 
 		updateTime = false;
 		FlxG.sound.music.volume = 0;
@@ -3978,16 +4013,6 @@ class PlayState extends MusicBeatState
 	}
 
 	public var playedFC = false;
-
-	function preEndSong():Void
-	{
-		// TODO: Fix ending dialogue being completely broken
-		if (dreamcastEnd != null)
-			startDreamcastDialogue(dreamcastEnd);
-		else
-			endSong();
-	}
-
 	public var transitioning = false;
 	public function endSong():Void
 	{
@@ -5399,9 +5424,6 @@ class PlayState extends MusicBeatState
 		}
 		FlxG.timeScale = 1;
 		if (FlxG.sound.music != null) FlxG.sound.music.pitch = 1;
-		#if SONG_ROLLBACK
-		if(ClientPrefs.songRollback) FlxG.maxElapsed = 0.1;
-		#end
 		super.destroy();
 	}
 
@@ -5704,7 +5726,7 @@ class PlayState extends MusicBeatState
 			}
 			if (accuracy == 0 && !practiceMode) ratingLetter = "D";
 			else if (cpuControlled) ratingLetter = "BOTPLAY";
-			else if (practiceMode) ratingLetter = "PRACTICE";			
+			// else if (practiceMode) ratingLetter = "PRACTICE";
 		}
 		updateScore(badHit); // score will only update after rating is calculated, if it's a badHit, it shouldn't bounce -Ghost
 		setOnLuas('rating', ratingPercent);

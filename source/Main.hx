@@ -47,6 +47,9 @@ class Main extends Sprite
 	public static final GIT_HASH:String = funkin.util.macro.GitCommit.getGitCommitHash();
 	public static final GIT_HAS_LOCAL_CHANGES:Bool = funkin.util.macro.GitCommit.getGitHasLocalChanges();
 
+	public static final MIN_FRAMERATE:Int = 60;
+	public static final MAX_FRAMERATE:Int = 360;
+
 	var gameWidth:Int = 1280; // Width of the game in pixels (might be less / more in actual pixels depending on your zoom).
 	var gameHeight:Int = 720; // Height of the game in pixels (might be less / more in actual pixels depending on your zoom).
 	var initialState:Class<FlxState> = TitleState; // The FlxState the game starts with.
@@ -169,7 +172,11 @@ class Main extends Sprite
 			}
 		}
 
-		errMsg += "\nUncaught Error: " + e.error + "\nPlease report this error to the GitHub page: https://github.com/Jorge-SunSpirit/Flavor-Rave-Public\n\n> Crash Handler written by: sqirra-rng";
+		errMsg += "\nUncaught Error: " + e.error;
+		#if windows
+		errMsg += "\nPlease report this error to the GitHub page: https://github.com/Jorge-SunSpirit/Flavor-Rave-Public";
+		#end
+		errMsg += "\n\n> Crash Handler written by: sqirra-rng";
 
 		if (!FileSystem.exists("./crash/"))
 			FileSystem.createDirectory("./crash/");

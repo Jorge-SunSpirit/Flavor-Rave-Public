@@ -12,7 +12,7 @@ import flixel.util.FlxTimer;
 import haxe.Json;
 import lime.utils.Assets;
 
-#if FEATURE_DISCORD
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 
@@ -53,7 +53,7 @@ class GalleryState extends MusicBeatState
 	{
 		persistentUpdate = persistentDraw = true;
 
-		#if FEATURE_DISCORD
+		#if discord_rpc
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("Viewing the Gallery", null);
 		#end

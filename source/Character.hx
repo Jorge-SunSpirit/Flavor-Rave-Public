@@ -241,14 +241,20 @@ class Character extends FlxSprite
 						ratings_folder = skin.ratings_folder;
 					}
 				}
-				
+				else if (json.noteskin != null)
+				{
+					var isDefault:Bool = ClientPrefs.noteSkin == 'Default';
+					var skin:NoteArray = NoteSkin.noteSkins.get((!isDefault && isPlayer) ? ClientPrefs.noteSkin : json.noteskin);
+					note = skin.note;
+					noteSplash = skin.noteSplash;
+					ratings_folder = skin.ratings_folder;
+				}
+
 				if(json.healthbar_colors != null && json.healthbar_colors.length > 2)
 					healthColorArray = json.healthbar_colors;
 
 				if(json.healthbar_image != null && json.healthbar_image.length > 2)
 					healthImage = Paths.image('health/' + json.healthbar_image);
-
-				
 
 				antialiasing = !noAntialiasing;
 				if(!ClientPrefs.globalAntialiasing) antialiasing = false;

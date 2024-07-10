@@ -1,7 +1,7 @@
 package;
 
 import cpp.Int16;
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import editors.MasterEditorMenu;
@@ -71,7 +71,7 @@ class FlavorpediaState extends MusicBeatState
 	{
 		FlxG.mouse.visible = ClientPrefs.menuMouse;
 
-		#if desktop
+		#if discord_rpc
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("Viewing the Flavorpedia", null);
 		#end
@@ -354,9 +354,25 @@ class FlavorpediaState extends MusicBeatState
 			var dialogueArray:Array<String> = charaStuff[curSelected][4];
 			var dialogue:String = dialogueArray[FlxG.random.int(0, dialogueArray.length - 1)];
 			charaVoice = new FlxSound().loadEmbedded(Paths.sound('flavorpedia/${charaStuff[curSelected][0]}/${dialogue}'));
-			charaVoice.onComplete = function() {FlxG.sound.music.fadeIn(4, 0.12, 0.8);}
+			charaVoice.onComplete = function() {
+				FlxG.sound.music.fadeIn(4, 0.12, 0.8); 
+				for (vocal in FreeplayState.vocalTracks)
+				{
+					if (vocal != null)
+					{
+						vocal.fadeIn(4, 0.12, 0.8); 
+					}
+				}
+			}
 			charaVoice.play();
 			FlxG.sound.music.fadeOut(0.2, 0.12);
+			for (vocal in FreeplayState.vocalTracks)
+			{
+				if (vocal != null)
+				{
+					vocal.fadeOut(0.2, 0.12);
+				}
+			}
 		}
 		catch (e)
 		{

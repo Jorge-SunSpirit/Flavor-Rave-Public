@@ -1,5 +1,7 @@
 # Friday Night Funkin' - Flavor Rave
 
+![Flavor Rave logo](./assets/preload/images/title/logo.png)
+
 ## Installation:
 You must have [the most up-to-date version of Haxe](https://haxe.org/download/).
 

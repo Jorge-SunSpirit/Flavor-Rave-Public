@@ -1,7 +1,7 @@
 package;
 
 import cpp.Int16;
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import editors.MasterEditorMenu;
@@ -76,7 +76,7 @@ class FlavorpediaSideState extends MusicBeatState
 	{
 		FlxG.mouse.visible = ClientPrefs.menuMouse;
 
-		#if desktop
+		#if discord_rpc
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("Viewing the Flavorpedia", null);
 		#end

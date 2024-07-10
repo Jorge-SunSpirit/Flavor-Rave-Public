@@ -50,7 +50,7 @@ class ClientPrefs {
 	public static var checkForUpdates:Bool = true;
 	public static var watermarks:Bool = false;
 	#if SONG_ROLLBACK
-	public static var songRollback:Bool = true;
+	public static var songRollback:Bool = false;
 	#end
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
@@ -227,7 +227,7 @@ class ClientPrefs {
 		else
 		{
 			final refreshRate:Int = FlxG.stage.application.window.displayMode.refreshRate;
-			framerate = Std.int(FlxMath.bound(refreshRate, 60, 240));
+			framerate = Std.int(FlxMath.bound(refreshRate, Main.MIN_FRAMERATE, Main.MAX_FRAMERATE));
 		}
 		#end
 		if(framerate > FlxG.drawFramerate) {

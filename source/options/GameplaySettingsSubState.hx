@@ -1,6 +1,6 @@
 package options;
 
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import Controls;
@@ -44,10 +44,10 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 
 		#if SONG_ROLLBACK
 		var option:Option = new Option('Song Rollback',
-			'Rolls back time if the game stalls for over half a second.\nFixes events breaking if you resize/move the window.\n\nDisable if you have major performance issues invoking this.',
+			'Rolls back time if the game stalls for over 1/10 of a second.\nFixes events breaking if you resize/move the window.\n\nDisable if you have major performance issues invoking this.',
 			'songRollback',
 			'bool',
-			true);
+			false);
 		addOption(option);
 		#end
 

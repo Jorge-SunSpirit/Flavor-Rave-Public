@@ -1,6 +1,6 @@
 package;
 
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import WeekData;
@@ -102,7 +102,7 @@ class StoryMenuState extends MusicBeatState
 
 		grpWeekCharacters = new FlxTypedGroup<FlxSprite>();
 
-		#if desktop
+		#if discord_rpc
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
 		#end
@@ -147,12 +147,14 @@ class StoryMenuState extends MusicBeatState
 		add(grpWeekCharacters);
 		
 		txtTracklist = new FlxText(671, 540, 570, "", 30);
+		txtTracklist.antialiasing = ClientPrefs.globalAntialiasing;
 		txtTracklist.alignment = LEFT;
 		txtTracklist.font = Paths.font("Krungthep.ttf");
 		txtTracklist.color = FlxColor.WHITE;
 		add(txtTracklist);
 
 		theLocation = new FlxText(650, 215, 630, "", 35);
+		theLocation.antialiasing = ClientPrefs.globalAntialiasing;
 		theLocation.alignment = LEFT;
 		theLocation.font = Paths.font("Krungthep.ttf");
 		theLocation.color = FlxColor.WHITE;

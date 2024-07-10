@@ -40,7 +40,7 @@ class FlavorHUD extends FlxSpriteGroup
 
 	public var timeBar:FlxBar;
 	public var healthBar:FlxBar;
-	private var bg:FlxSprite;
+	public var bg:FlxSprite;
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
 	public var metadata:FlxText;
@@ -112,14 +112,22 @@ class FlavorHUD extends FlxSpriteGroup
 		// PlayState sync
 		{
 			songPercent = playState.songPercent;
-			healthPercent = playState.health;
+			healthPercent = FlxMath.lerp(healthPercent, playState.health, 0.15);
 		}
 
-		//pointer pos
-		if (!playState.opponentPlay)
-			pointer.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) + (150 * pointer.scale.x - 150) / 2 - 15;
-		else
-			pointer.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 100, 0, 100, 0) * 0.01)) + (150 * pointer.scale.x - 150) / 2 - 15;	
+		// Pointer position
+		{
+			var pointerRange:Float = FlxMath.remapToRange(
+				(healthPercent / 2) * 100,
+				playState.opponentPlay ? 100 : 0,
+				playState.opponentPlay ? 0 : 100,
+				100, 0
+			);
+
+			pointer.x = healthBar.x + (healthBar.width * (pointerRange * 0.01)) + (150 * pointer.scale.x - 150) / 2 - 15;
+			pointer.x = FlxMath.bound(pointer.x, healthBar.x - (pointer.width / 3), (healthBar.x + healthBar.width) - (pointer.width / 2) - 2) - 2;
+		}
+
 		// Metadata scroll
 		if (allowScroll)
 		{

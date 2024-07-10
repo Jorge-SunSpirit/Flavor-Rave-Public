@@ -1,6 +1,6 @@
 package editors;
 
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import Character;
@@ -1078,7 +1078,7 @@ class CharacterEditorState extends MusicBeatState
 	}
 
 	function updatePresence() {
-		#if desktop
+		#if discord_rpc
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("Character Editor", "Character: " + daAnim, leHealthIcon.getCharacter());
 		#end

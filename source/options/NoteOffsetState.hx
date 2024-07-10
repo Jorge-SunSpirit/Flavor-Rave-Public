@@ -32,6 +32,9 @@ class NoteOffsetState extends MusicBeatState
 	var comboNums:FlxSpriteGroup;
 	var dumbTexts:FlxTypedGroup<FlxText>;
 
+	public var grpNoteLanes:FlxTypedGroup<FlxSprite>;
+	public var strumLineNotes:FlxTypedGroup<StrumNote>;
+
 	var barPercent:Float = 0;
 	var delayMin:Int = -1000;
 	var delayMax:Int = 1000;
@@ -217,6 +220,9 @@ class NoteOffsetState extends MusicBeatState
 		add(dad);
 
 		// Combo stuff
+		grpNoteLanes = new FlxTypedGroup<FlxSprite>();
+		grpNoteLanes.cameras = [camHUD];
+		add(grpNoteLanes);
 
 		coolText = new FlxText(0, 0, 0, '', 32);
 		coolText.screenCenter();
@@ -265,6 +271,42 @@ class NoteOffsetState extends MusicBeatState
 			numScore.antialiasing = ClientPrefs.globalAntialiasing;
 			comboNums.add(numScore);
 			daLoop++;
+		}
+
+		strumLineNotes = new FlxTypedGroup<StrumNote>();
+		strumLineNotes.cameras = [camHUD];
+		add(strumLineNotes);
+
+		// generateStaticArrows()
+		for (i in 0...2)
+		{
+			for (j in 0...4)
+			{
+				var targetAlpha:Float = 1;
+	
+				if (i == 0 && ClientPrefs.middleScroll)
+					targetAlpha = ClientPrefs.opponentStrums ? 0.35 : 0;
+	
+				var x:Float = ClientPrefs.middleScroll ? PlayState.STRUM_X_MIDDLESCROLL : PlayState.STRUM_X;
+				var y:Float = ClientPrefs.downScroll ? FlxG.height - 150 : 50;
+				var char:Character = i == 0 ? dad : boyfriend;
+
+				var babyArrow:StrumNote = new StrumNote(x, y, j, i, char.note);
+				babyArrow.downScroll = ClientPrefs.downScroll;
+				babyArrow.alpha = targetAlpha;
+	
+				if (i == 0 && ClientPrefs.middleScroll)
+				{
+					babyArrow.x += 310;
+	
+					if (j > 1)
+						babyArrow.x += FlxG.width / 2 + 25;
+				}
+	
+				grpNoteLanes.add(babyArrow.bgLane);
+				strumLineNotes.add(babyArrow);
+				babyArrow.postAddedToGroup();
+			}
 		}
 
 		dumbTexts = new FlxTypedGroup<FlxText>();
@@ -621,6 +663,8 @@ class NoteOffsetState extends MusicBeatState
 
 	function updateMode()
 	{
+		grpNoteLanes.visible = onComboMenu;
+		strumLineNotes.visible = onComboMenu;
 		rating.visible = onComboMenu;
 		comboNums.visible = onComboMenu;
 		dumbTexts.visible = onComboMenu;

@@ -1,6 +1,6 @@
 package options;
 
-#if desktop
+#if discord_rpc
 import Discord.DiscordClient;
 #end
 import Controls;
@@ -35,6 +35,7 @@ class OptionsState extends MusicBeatState
 	private static var curSelected:Int = 0;
 	public static var menuBG:FlxSprite;
 	public static var whichState:String = "default";
+	var allowInput = true;
 	var backdrop:FlxBackdrop;
 	var bgthingie:FlxSprite;
 
@@ -47,6 +48,8 @@ class OptionsState extends MusicBeatState
 			FlxTween.cancelTweensOf(item);
 			FlxTween.tween(item, {x: -623}, 0.2, {ease: FlxEase.sineOut, startDelay: 0.05 + (item.ID * 0.01)});
 		}
+
+		allowInput = false;
 
 		switch(label) {
 			case 'Controls':
@@ -65,9 +68,10 @@ class OptionsState extends MusicBeatState
 	}
 
 	override function create() {
+		persistentUpdate = persistentDraw = true;
 		FlxG.mouse.visible = ClientPrefs.menuMouse;
 
-		#if desktop
+		#if discord_rpc
 		DiscordClient.changePresence("Options Menu", null);
 		#end
 
@@ -119,36 +123,40 @@ class OptionsState extends MusicBeatState
 		changeSelection();
 		FlxTween.cancelTweensOf(bgthingie);
 		FlxTween.tween(bgthingie, {x: 0}, 0.2, {ease: FlxEase.sineOut});
+		allowInput = true;
 	}
 	
 	override function update(elapsed:Float) {
 		super.update(elapsed);
 
-		if (controls.UI_UP_P) {
-			changeSelection(-1);
-		}
-		if (controls.UI_DOWN_P) {
-			changeSelection(1);
-		}
-
-		if (controls.BACK) {
-			FlxG.sound.play(Paths.sound('cancelMenu'));
-			switch(whichState)
-			{
-				default:
-					MusicBeatState.switchState(new MainMenuState());
-				case 'playstate':
-					MusicBeatState.switchState(new PlayState());
-					FlxG.sound.music.volume = 0;
-				case 'freeplay':
-					MusicBeatState.switchState(new FreeplayState());
-				case 'storymenu':
-					MusicBeatState.switchState(new StoryMenuState());
+		if (allowInput)
+		{
+			if (controls.UI_UP_P) {
+				changeSelection(-1);
 			}
-		}
-
-		if (controls.ACCEPT) {
-			openSelectedSubstate(options[curSelected]);
+			if (controls.UI_DOWN_P) {
+				changeSelection(1);
+			}
+	
+			if (controls.BACK) {
+				FlxG.sound.play(Paths.sound('cancelMenu'));
+				switch(whichState)
+				{
+					default:
+						MusicBeatState.switchState(new MainMenuState());
+					case 'playstate':
+						MusicBeatState.switchState(new PlayState());
+						FlxG.sound.music.volume = 0;
+					case 'freeplay':
+						MusicBeatState.switchState(new FreeplayState());
+					case 'storymenu':
+						MusicBeatState.switchState(new StoryMenuState());
+				}
+			}
+	
+			if (controls.ACCEPT) {
+				openSelectedSubstate(options[curSelected]);
+			}
 		}
 
 		grpOptions.forEach(function(spr:OptionsItem) 

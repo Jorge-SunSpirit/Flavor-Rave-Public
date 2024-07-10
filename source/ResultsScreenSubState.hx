@@ -308,7 +308,7 @@ class ResultsScreenSubState extends MusicBeatSubstate
 	{
 		// keybinds
 
-		if (canpressbuttons && PlayerSettings.player1.controls.ACCEPT || FlxG.mouse.justPressed && ClientPrefs.menuMouse)
+		if (canpressbuttons && (PlayerSettings.player1.controls.ACCEPT || FlxG.mouse.justPressed && ClientPrefs.menuMouse))
 		{
 			
 			if (PlayState.isStoryMode) {
