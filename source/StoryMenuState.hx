@@ -114,8 +114,10 @@ class StoryMenuState extends MusicBeatState
 			WeekData.setDirectoryFromWeek(weekFile);
 			var weekNumber:Int = i;
 			var isLocked:Bool = WeekData.weekIsLocked(WeekData.weeksList[i]);
-			if (Paths.currentModDirectory != '')
+
+			if (Paths.currentModDirectory != '' && weekFile.isExtra == null)
 				weekFile.isExtra = true;
+
 			if((!isLocked || !weekFile.hiddenUntilUnlocked) && (weekFile.isExtra && extraMenu || !weekFile.isExtra && !extraMenu))
 			{
 				if (weekFile.fileName != 'extra_0')
