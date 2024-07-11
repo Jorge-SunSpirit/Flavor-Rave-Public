@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="FNF: Flavor Rave" file="FlavorRave" package="com.teamtbd.flavorrave" main="Main" version="2.0.3" company="TeamTBD" />
+	<app title="FNF: Flavor Rave" file="FlavorRave" package="com.teamtbd.flavorrave" main="Main" version="2.0.4" company="TeamTBD" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />

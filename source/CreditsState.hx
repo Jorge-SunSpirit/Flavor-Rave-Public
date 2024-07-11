@@ -350,7 +350,7 @@ class CreditsState extends MusicBeatState
 		{
 			//This idea works and it's almost great. BUT 
 			var modPath:String = Paths.modFolders('data/creditsData.json', folder);
-			trace(FileSystem.exists(modPath));
+
 			if (FileSystem.exists(modPath))
 			{
 				json = cast Json.parse(File.getContent(modPath));

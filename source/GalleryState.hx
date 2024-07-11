@@ -12,6 +12,11 @@ import flixel.util.FlxTimer;
 import haxe.Json;
 import lime.utils.Assets;
 
+#if MODS_ALLOWED
+import sys.FileSystem;
+import sys.io.File;
+#end
+
 #if discord_rpc
 import Discord.DiscordClient;
 #end
@@ -253,7 +258,7 @@ class GalleryState extends MusicBeatState
 		if (curGallSelected < 0)
 			curGallSelected = galleryData.length - 1;
 
-		artwork.loadGraphic(Paths.image(isMain ? 'gallery/images/${galleryData[curGallSelected].image}' : 'dreamcast/art_BG/${galleryData[curGallSelected].image}', isMain ? 'preload' : 'tbd'));
+		artwork.loadGraphic(Paths.image(isMain ? 'gallery/images/${galleryData[curGallSelected].image}' : 'dreamcast/art_BG/${galleryData[curGallSelected].image}', isMain ? null : 'tbd'));
 		artwork.setGraphicSize(0, Std.int(FlxG.height * 0.7));
 		artwork.updateHitbox();
 
@@ -293,8 +298,10 @@ class GalleryState extends MusicBeatState
 		inGallery = true;
 		galleryData = [];
 		curGallSelected = 0;
-		var path:String = Paths.json(isMain ? 'galleryData' : 'galleryCGData');
 
+		var fileName:String = isMain ? 'galleryData' : 'galleryCGData';
+
+		var path:String = Paths.getPreloadPath('data/$fileName.json');
 		var rawJson = Assets.getText(path);
 		var json:GalleryFile = cast Json.parse(rawJson);
 		var preGall:Array<Artwork> = [];
@@ -306,6 +313,27 @@ class GalleryState extends MusicBeatState
 			if (peep.songCheck == null || peep.songCheck != null && Highscore.checkBeaten(peep.songCheck, 0))
 				galleryData.push(peep);
 		}
+
+		#if MODS_ALLOWED
+		var modsDirectories:Array<String> = Paths.getModDirectories();
+		for (folder in modsDirectories)
+		{
+			//This idea works and it's almost great. BUT 
+			var modPath:String = Paths.modFolders('data/$fileName.json', folder);
+
+			if (FileSystem.exists(modPath))
+			{
+				json = cast Json.parse(File.getContent(modPath));
+				preGall = json.artwork;
+
+				for (peep in preGall)
+				{
+					if (peep.songCheck == null || peep.songCheck != null && Highscore.checkBeaten(peep.songCheck, 0))
+						galleryData.push(peep);
+				}
+			}
+		}
+		#end
 
 		FlxTween.cancelTweensOf(gallerymain.x);
 		FlxTween.cancelTweensOf(gallerycg.x);

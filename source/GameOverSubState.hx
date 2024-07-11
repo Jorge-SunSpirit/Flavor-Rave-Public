@@ -111,6 +111,9 @@ class GameOverSubState extends MusicBeatSubstate
 
 		camFollow = new FlxPoint(0, 0);
 		Conductor.bpm = 100.0;
+
+		FlxTween.cancelTweensOf(FlxG.camera);
+		FlxG.camera.angle = 0;
 		FlxG.camera.scroll.set();
 		FlxG.camera.target = null;
 		FlxG.camera.zoom = 1;
