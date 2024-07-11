@@ -23,7 +23,7 @@ import Discord.DiscordClient;
 
 using StringTools;
 
-typedef GalleryFile ={
+typedef GalleryFile = {
 	var artwork:Array<Artwork>;
 }
 
@@ -33,6 +33,7 @@ typedef Artwork = {
 	var artist:String;
 	var url:String;
 	var songCheck:String;
+	var isModded:Bool;
 }
 
 class GalleryState extends MusicBeatState
@@ -258,7 +259,10 @@ class GalleryState extends MusicBeatState
 		if (curGallSelected < 0)
 			curGallSelected = galleryData.length - 1;
 
-		artwork.loadGraphic(Paths.image(isMain ? 'gallery/images/${galleryData[curGallSelected].image}' : 'dreamcast/art_BG/${galleryData[curGallSelected].image}', isMain ? null : 'tbd'));
+		var curArtwork:Artwork = galleryData[curGallSelected];
+
+		var library:Null<String> = curArtwork.isModded ? null : (isMain ? null : 'tbd');
+		artwork.loadGraphic(Paths.image(isMain ? 'gallery/images/${curArtwork.image}' : 'dreamcast/art_BG/${curArtwork.image}', library));
 		artwork.setGraphicSize(0, Std.int(FlxG.height * 0.7));
 		artwork.updateHitbox();
 
@@ -269,7 +273,7 @@ class GalleryState extends MusicBeatState
 		artwork.screenCenter();
 		artwork.y -= 30;
 
-		authorText.text = galleryData[curGallSelected].caption + '\nArtist: ' + galleryData[curGallSelected].artist;
+		authorText.text = curArtwork.caption + '\nArtist: ' + curArtwork.artist;
 		authorText.y = artwork.y + artwork.height + 25;
 
 		arrows.forEach(function(spr:FlxSprite)
@@ -310,6 +314,8 @@ class GalleryState extends MusicBeatState
 
 		for (peep in preGall)
 		{
+			peep.isModded = false;
+
 			if (peep.songCheck == null || peep.songCheck != null && Highscore.checkBeaten(peep.songCheck, 0))
 				galleryData.push(peep);
 		}
@@ -328,6 +334,8 @@ class GalleryState extends MusicBeatState
 
 				for (peep in preGall)
 				{
+					peep.isModded = true;
+
 					if (peep.songCheck == null || peep.songCheck != null && Highscore.checkBeaten(peep.songCheck, 0))
 						galleryData.push(peep);
 				}
