@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tman.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TManIdle10000" x="8" y="8" width="219" height="473" frameX="0" frameY="-11" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10001" x="8" y="8" width="219" height="473" frameX="0" frameY="-11" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10002" x="235" y="8" width="216" height="477" frameX="-3" frameY="-7" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10003" x="235" y="8" width="216" height="477" frameX="-3" frameY="-7" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10004" x="459" y="8" width="210" height="481" frameX="-5" frameY="-3" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10005" x="459" y="8" width="210" height="481" frameX="-5" frameY="-3" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10006" x="677" y="8" width="205" height="484" frameX="-7" frameY="0" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10007" x="677" y="8" width="205" height="484" frameX="-7" frameY="0" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10008" x="677" y="8" width="205" height="484" frameX="-7" frameY="0" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10009" x="677" y="8" width="205" height="484" frameX="-7" frameY="0" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10010" x="677" y="8" width="205" height="484" frameX="-7" frameY="0" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10011" x="677" y="8" width="205" height="484" frameX="-7" frameY="0" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10012" x="677" y="8" width="205" height="484" frameX="-7" frameY="0" frameWidth="219" frameHeight="484"/>
+	<SubTexture name="TManIdle10013" x="677" y="8" width="205" height="484" frameX="-7" frameY="0" frameWidth="219" frameHeight="484"/>
+</TextureAtlas>

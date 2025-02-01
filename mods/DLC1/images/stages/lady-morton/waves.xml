@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="waves.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Waves0000" x="8" y="8" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0001" x="8" y="8" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0002" x="2273" y="8" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0003" x="2273" y="8" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0004" x="4538" y="8" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0005" x="4538" y="8" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0006" x="8" y="854" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0007" x="8" y="854" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0008" x="2273" y="854" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0009" x="2273" y="854" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0010" x="4538" y="854" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0011" x="4538" y="854" width="2257" height="838" frameX="0" frameY="0" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0012" x="8" y="1700" width="1425" height="23" frameX="-416" frameY="-985" frameWidth="2257" frameHeight="1008"/>
+	<SubTexture name="Waves0013" x="8" y="1700" width="1425" height="23" frameX="-416" frameY="-985" frameWidth="2257" frameHeight="1008"/>
+</TextureAtlas>

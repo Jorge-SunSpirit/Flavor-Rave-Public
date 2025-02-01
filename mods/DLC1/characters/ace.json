@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				1,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Ace Left Note"
+		},
+		{
+			"offsets": [
+				-130,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Ace Down Note"
+		},
+		{
+			"offsets": [
+				-36,
+				94
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Ace Up Note"
+		},
+		{
+			"offsets": [
+				-90,
+				70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Ace Idle"
+		},
+		{
+			"offsets": [
+				-50,
+				75
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "Ace Intro"
+		},
+		{
+			"offsets": [
+				-170,
+				77
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Ace Right Note"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ace",
+	"position": [
+		-180,
+		20
+	],
+	"healthicon": "ace",
+	"flip_x": false,
+	"healthbar_colors": [
+		186,
+		226,
+		255
+	],
+	"camera_position": [
+		130,
+		-45
+	],
+	"sing_duration": 6.1,
+	"scale": 0.93,
+	"healthbar_image": "ace",
+	"noteskin": "Ace"
+}

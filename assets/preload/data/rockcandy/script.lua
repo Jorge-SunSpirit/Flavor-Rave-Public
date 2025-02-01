@@ -29,7 +29,7 @@ function onCreate()
 	setScrollFactor('bordersour', 0, 0);
     screenCenter('bordersour');
 	addLuaSprite('bordersour', false);
-	setObjectCamera('bordersour', 'hud');
+	setObjectCamera('bordersour', 'effect');
 	setProperty('bordersour.alpha', 0.0001);
 	
 	makeAnimatedLuaSprite('bordersweet', 'closeup/sweetborder', 0, 0);
@@ -38,7 +38,7 @@ function onCreate()
 	setScrollFactor('bordersweet', 0, 0);
     screenCenter('bordersweet');
 	addLuaSprite('bordersweet', false);
-	setObjectCamera('bordersweet', 'hud');
+	setObjectCamera('bordersweet', 'effect');
 	setProperty('bordersweet.alpha', 0.0001);
 end
 

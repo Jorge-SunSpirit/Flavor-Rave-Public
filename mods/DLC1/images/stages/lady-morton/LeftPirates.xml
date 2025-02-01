@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="LeftPirates.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Appear0000" x="8" y="8" width="681" height="455" frameX="-86" frameY="-234" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="Appear0001" x="697" y="8" width="765" height="540" frameX="-48" frameY="-137" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="Appear0002" x="1470" y="8" width="810" height="578" frameX="-27" frameY="-92" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="Appear0003" x="2288" y="8" width="838" height="602" frameX="-16" frameY="-66" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="Appear0004" x="3134" y="8" width="859" height="650" frameX="-7" frameY="-17" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="Appear0005" x="8" y="666" width="864" height="650" frameX="-5" frameY="-17" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="Appear0006" x="880" y="666" width="872" height="648" frameX="0" frameY="-19" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="Appear0007" x="1760" y="666" width="872" height="646" frameX="0" frameY="-21" frameWidth="872" frameHeight="689"/>
+
+	<SubTexture name="LeftPirate0000" x="1760" y="666" width="872" height="646" frameX="0" frameY="-21" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0001" x="1760" y="666" width="872" height="646" frameX="0" frameY="-21" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0002" x="2640" y="666" width="867" height="648" frameX="-4" frameY="-19" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0003" x="2640" y="666" width="867" height="648" frameX="-4" frameY="-19" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0004" x="8" y="1324" width="860" height="664" frameX="-8" frameY="-2" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0005" x="8" y="1324" width="860" height="664" frameX="-8" frameY="-2" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0006" x="876" y="1324" width="856" height="666" frameX="-10" frameY="0" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0007" x="876" y="1324" width="856" height="666" frameX="-10" frameY="0" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0008" x="1740" y="1324" width="856" height="666" frameX="-10" frameY="0" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0009" x="1740" y="1324" width="856" height="666" frameX="-10" frameY="0" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0010" x="1740" y="1324" width="856" height="666" frameX="-10" frameY="0" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0011" x="1740" y="1324" width="856" height="666" frameX="-10" frameY="0" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0012" x="1740" y="1324" width="856" height="666" frameX="-10" frameY="0" frameWidth="872" frameHeight="689"/>
+	<SubTexture name="LeftPirate0013" x="1740" y="1324" width="856" height="666" frameX="-10" frameY="0" frameWidth="872" frameHeight="689"/>
+</TextureAtlas>

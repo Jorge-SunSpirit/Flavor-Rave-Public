@@ -1,33 +1,34 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Tres Leches.png">
-	<!-- Created with Adobe Animate version 21.0.6.41649 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="card0000" x="10" y="10" width="1280" height="720"/>
-	<SubTexture name="card0001" x="1300" y="10" width="1280" height="720"/>
-	<SubTexture name="card0002" x="2590" y="10" width="1280" height="720"/>
-	<SubTexture name="card0003" x="3880" y="10" width="1280" height="720"/>
-	<SubTexture name="card0004" x="5170" y="10" width="1280" height="720"/>
-	<SubTexture name="card0005" x="6460" y="10" width="1280" height="720"/>
-	<SubTexture name="card0006" x="10" y="740" width="1280" height="720"/>
-	<SubTexture name="card0007" x="1300" y="740" width="1280" height="720"/>
-	<SubTexture name="card0008" x="2590" y="740" width="1280" height="720"/>
-	<SubTexture name="card0009" x="3880" y="740" width="1280" height="720"/>
-	<SubTexture name="card0010" x="5170" y="740" width="1280" height="720"/>
-	<SubTexture name="card0011" x="6460" y="740" width="1280" height="720"/>
-	<SubTexture name="card0012" x="10" y="1470" width="1280" height="720"/>
-	<SubTexture name="card0013" x="1300" y="1470" width="1280" height="720"/>
-	<SubTexture name="card0014" x="2590" y="1470" width="1280" height="720"/>
-	<SubTexture name="card0015" x="3880" y="1470" width="1280" height="720"/>
-	<SubTexture name="card0016" x="5170" y="1470" width="1280" height="720"/>
-	<SubTexture name="card0017" x="6460" y="1470" width="1280" height="720"/>
-	<SubTexture name="card0018" x="10" y="2200" width="1280" height="720"/>
-	<SubTexture name="card0019" x="1300" y="2200" width="1280" height="720"/>
-	<SubTexture name="card0020" x="2590" y="2200" width="1280" height="720"/>
-	<SubTexture name="card0021" x="3880" y="2200" width="1280" height="720"/>
-	<SubTexture name="card0022" x="5170" y="2200" width="1280" height="720"/>
-	<SubTexture name="card0023" x="6460" y="2200" width="1280" height="720"/>
-	<SubTexture name="card0024" x="10" y="2930" width="1280" height="720"/>
-	<SubTexture name="card0025" x="1300" y="2930" width="1280" height="720"/>
-	<SubTexture name="card0026" x="2590" y="2930" width="1280" height="720"/>
-	<SubTexture name="card0027" x="3880" y="2930" width="1280" height="720"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Tres Leches.png" width="4138" height="4113">
+	<SubTexture name="card0000" x="974" y="4104" width="1" height="1" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0001" x="974" y="4108" width="1" height="1" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0002" x="974" y="4108" width="1" height="1" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0003" x="974" y="4108" width="1" height="1" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0004" x="974" y="4108" width="1" height="1" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0005" x="3885" y="2134" width="227" height="221" frameX="-529" frameY="-254" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0006" x="2497" y="2425" width="508" height="331" rotated="true" frameX="-487" frameY="-212" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0007" x="2820" y="3497" width="524" height="589" rotated="true" frameX="-474" frameY="-196" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0008" x="1919" y="3534" width="898" height="531" frameX="-183" frameY="-189" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0009" x="974" y="3557" width="942" height="544" frameX="-141" frameY="-176" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0010" x="1" y="3557" width="970" height="555" frameX="-136" frameY="-165" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0011" x="3417" y="1139" width="574" height="992" rotated="true" frameX="-124" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0012" x="3288" y="2425" width="594" height="1019" rotated="true" frameX="-105" frameY="-126" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0013" x="2233" y="2875" width="1052" height="619" frameX="-85" frameY="-101" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0014" x="1141" y="2888" width="1089" height="643" frameX="-67" frameY="-77" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0015" x="1" y="2888" width="1137" height="666" frameX="-39" frameY="-54" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0016" x="2730" y="1" width="684" height="1195" rotated="true" frameX="-9" frameY="-36" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0017" x="1264" y="2169" width="1230" height="703" frameX="-0" frameY="-17" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0018" x="1" y="2169" width="1260" height="716" frameX="-0" frameY="-4" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0019" x="1" y="1" width="1280" height="719" frameX="-0" frameY="-1" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0020" x="1" y="723" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0021" x="1284" y="1" width="720" height="1280" rotated="true" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0022" x="1" y="1446" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0023" x="2007" y="1" width="720" height="1280" rotated="true" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0024" x="1284" y="1284" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0025" x="3417" y="1" width="720" height="1135" rotated="true" frameX="-145" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0026" x="2567" y="1284" width="720" height="1138" rotated="true" frameX="-142" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0027" x="1284" y="2007" width="988" height="147" frameX="-142" frameY="-273" frameWidth="1280" frameHeight="720"/>
 </TextureAtlas>

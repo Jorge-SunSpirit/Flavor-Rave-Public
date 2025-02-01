@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SourCutin.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SourCutin10000" x="14" y="14" width="662" height="218"/>
+	<SubTexture name="SourCutin10001" x="14" y="14" width="662" height="218"/>
+	<SubTexture name="SourCutin10002" x="14" y="14" width="662" height="218"/>
+	<SubTexture name="SourCutin10003" x="14" y="14" width="662" height="218"/>
+	<SubTexture name="SourCutin10004" x="14" y="246" width="662" height="218"/>
+	<SubTexture name="SourCutin10005" x="14" y="246" width="662" height="218"/>
+	<SubTexture name="SourCutin10006" x="14" y="246" width="662" height="218"/>
+	<SubTexture name="SourCutin10007" x="14" y="246" width="662" height="218"/>
+	<SubTexture name="SourCutin10008" x="14" y="478" width="662" height="218"/>
+	<SubTexture name="SourCutin10009" x="14" y="478" width="662" height="218"/>
+	<SubTexture name="SourCutin10010" x="14" y="478" width="662" height="218"/>
+	<SubTexture name="SourCutin10011" x="14" y="478" width="662" height="218"/>
+</TextureAtlas>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="SourIntro.png" width="3039" height="3095">
+	<SubTexture name="SourIntro0000" x="886" y="1997" width="879" height="1079" rotated="true" frameX="-8" frameY="-16" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0001" x="886" y="1997" width="879" height="1079" rotated="true" frameX="-8" frameY="-16" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0002" x="1773" y="2095" width="1051" height="999" frameX="-66" frameY="-1" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0003" x="1773" y="2095" width="1051" height="999" frameX="-66" frameY="-1" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0004" x="2002" y="1007" width="996" height="1080" rotated="true" frameX="-55" frameY="-18" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0005" x="2002" y="1007" width="996" height="1080" rotated="true" frameX="-55" frameY="-18" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0006" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0007" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0008" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0009" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0010" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0011" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0012" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0013" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0014" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0015" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0016" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0017" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0018" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0019" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0020" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0021" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0022" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0023" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0024" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0025" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0026" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0027" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0028" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0029" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0030" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0031" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0032" x="1957" y="1" width="1081" height="998" frameX="-55" frameY="-15" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0033" x="1" y="1" width="1080" height="1011" frameX="-60" frameY="-12" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0034" x="1" y="1" width="1080" height="1011" frameX="-60" frameY="-12" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0035" x="1089" y="1" width="860" height="1109" rotated="true" frameX="-3" frameY="-48" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0036" x="1089" y="1" width="860" height="1109" rotated="true" frameX="-3" frameY="-48" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0037" x="886" y="1118" width="1108" height="871" frameX="-2" frameY="-39" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0038" x="886" y="1118" width="1108" height="871" frameX="-2" frameY="-39" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0039" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0040" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0041" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0042" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0043" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0044" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0045" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0046" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0047" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0048" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0049" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0050" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0051" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0052" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0053" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0054" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0055" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0056" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0057" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0058" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0059" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0060" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0061" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0062" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0063" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0064" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0065" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0066" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0067" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0068" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0069" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0070" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0071" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0072" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0073" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0074" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0075" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0076" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0077" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0078" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0079" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0080" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0081" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0082" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0083" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0084" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0085" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0086" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+	<SubTexture name="SourIntro0087" x="1" y="1020" width="877" height="1108" rotated="true" frameX="-0" frameY="-36" frameWidth="1140" frameHeight="1023"/>
+</TextureAtlas>

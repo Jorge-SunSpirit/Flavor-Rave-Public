@@ -1,0 +1,434 @@
+{
+	"dialogue": [
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "[Saturday]"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sweet", 2, true],
+			"text": "The day has just begun, and it’s already been wonderful!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","laugh"],
+			"text": "Heh, true that, but things are gonna get so much better now."
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 2, true],
+			"text": "It’s ramen time, baby! After a performance like that, I think imma need seconds! Nah, imma need thirds!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sweet", 2, true],
+			"text": "Just one portion is ok for me, eheheh~"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "The shop is right around the corner here! Honestly, the hidden away places like this always serve the best... huh-?"
+		},
+		{
+			"background": "a1",
+			"border": "default",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","what"],
+			"text": "Wait... has this place been closed all day? They’ve never been closed on Saturdays before. This is, like, their busiest day of the week!"
+		},
+		{
+			"background": "a1",
+			"border": "default",
+			"chara": ["sweet", 1, true],
+			"sound": ["sweet","hmmquestion"],
+			"text": "Ah... what a shame... Perhaps the owner is away for the weekend?"
+		},
+		{
+			"background": "a1",
+			"border": "default",
+			"chara": ["sour", 0, true],
+			"text": "I mean, maybe... but wouldn’t they put up a notice in advance for something like that?"
+		},
+		{
+			"background": "a1",
+			"border": "default",
+			"chara": ["sweet", 1, true],
+			"text": "Oh dear, I think EVERY shop on this street is closed right now."
+		},
+		{
+			"background": "a1",
+			"border": "default",
+			"chara": ["sour", 1, true],
+			"text": "All of them??? Damn, it's never been this dead here before."
+		},
+		{
+			"background": "a1",
+			"border": "default",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","man"],
+			"text": "Guess it didn’t really matter how much time we were using up earlier... I’m sorry, Sweet..."
+		},
+		{
+			"background": "a1",
+			"border": "default",
+			"chara": ["sweet", 1, true],
+			"text": "No need to apologize, Sour. I’m sure there’s plenty of nice places to eat here in the city."
+		},
+		{
+			"background": "a1",
+			"border": "default",
+			"chara": ["sour", 0, true],
+			"text": "That was the nicest place I could think of that doesn’t cost an arm and a leg. I’d take you to that burger joint I love, but I prefer going on days that Umami’s working there."
+		},
+		{
+			"background": "a1",
+			"border": "default",
+			"chara": ["sour", 0, true],
+			"text": "Tch, well... There's a decent vendor on Main Street. I just wish our first food date coulda been somewhere nice."
+		},
+		{
+			"background": "a1",
+			"border": "default",
+			"chara": ["sweet", 1, true],
+			"text": "I’m sure it’ll be just as lovely. Shall we go?"
+		},
+		{
+			"background": "a1",
+			"border": "default",
+			"chara": ["sour", 1, true],
+			"text": "Yeah... let's roll."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "[Sunday]"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sweet", 2, true],
+			"sound": ["sweet","giggle"],
+			"text": "I’ve heard the beaches here in Enzync are lovely!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "I’m not much of a beach guy, but if you’d like to check one out, I can bring you down to Malic Beach."
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "It’s right around here, actually! Just pass a few buildings and... -HUH?!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","oh"],
+			"text": "Is something wrong?"
+		},
+		{
+			"background": "a2",
+			"border": "default",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","areyoukidding"],
+			"text": "Yeah, something’s wrong here... what do you mean the beach is ‘Under Reconstruction’? How do you reconstruct a damn beach?!"
+		},
+		{
+			"background": "a2",
+			"border": "default",
+			"chara": ["sweet", 1, true],
+			"sound": ["sweet","well"],
+			"text": "The beach looks quite messy right now. Maybe something happened recently that caused all this debris?"
+		},
+		{
+			"background": "a2",
+			"border": "default",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","man"],
+			"text": "I don’t know. Geez, feels like everything’s been out of order this week all of a sudden."
+		},
+		{
+			"background": "a2",
+			"border": "default",
+			"chara": ["sour", 0, true],
+			"text": "I don’t really know any other good beaches, so... maybe we could head down to Lavender Park instead? We didn’t get to take it all in last time we were there together."
+		},
+		{
+			"background": "a2",
+			"border": "default",
+			"chara": ["sweet", 2, true],
+			"text": "I’d love that! That place has such a special spot in my memory."
+		},
+		{
+			"background": "a2",
+			"border": "default",
+			"chara": ["sour", 0, true],
+			"text": "I promise we’ll actually get to do one of the dope ideas I had planned this week soon."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "[Monday]"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 1, true],
+			"text": "Sold out?! This place has never ONCE sold out in all years I’ve been here!"
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "[Tuesday]"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 1, true],
+			"text": "Delayed ‘till next week? You serious right now?"
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "[Day... after day... after day.]"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 1, true],
+			"text": "ARE YOU FORREAL?!"
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "[The Next Satuday...]"
+		},
+		{
+			"background": "a3",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"text": "WHAT THE HELL IS GOIN’ ON HERE?! WHY IS EVERYTHING OUT OF WHACK IN THIS CITY?!"
+		},
+		{
+			"background": "a3",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","ughlikethefnfsong"],
+			"text": "I just want to do ONE cool thing with my girlfriend this week! Just one!"
+		},
+		{
+			"background": "a4",
+			"border": "enzync-night",
+			"chara": ["sweet", 1, true],
+			"text": "Sour, please..."
+		},
+		{
+			"background": "a4",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"text": "Rgh... I’m sorry, Sweet. This reunion was supposed to be special, then life just felt like spiting us at every corner! It’s ain’t fair!"
+		},
+		{
+			"background": "a4",
+			"border": "enzync-night",
+			"chara": ["sweet", 1, true],
+			"sound": ["sweet","sourlove"],
+			"text": "I know, I know... I just... It hurts seeing you like this."
+		},
+		{
+			"background": "a6",
+			"border": "enzync-night",
+			"chara": ["sweet", 1, true],
+			"text": "...especially since you wanted to do all these things for me. But... Sour. Please listen to me."
+		},
+		{
+			"background": "a6",
+			"border": "enzync-night",
+			"chara": ["sweet", 0, true],
+			"text": "..?"
+		},
+		{
+			"background": "a6",
+			"border": "enzync-night",
+			"chara": ["sour", 0, true],
+			"text": "...Sweet? "
+		},
+		{
+			"background": "a7",
+			"border": "enzync-night",
+			"chara": ["sweet", 1, true],
+			"text": "Sour... do you know that person?"
+		},
+		{
+			"background": "a7",
+			"border": "enzync-night",
+			"chara": ["sour", 0, true],
+			"text": "Huh? Do I..."
+		},
+		{
+			"background": "blackhueh",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"text": "..."
+		},
+		{
+			"background": "blackhueh",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","whatdoyouwant"],
+			"text": "Great, just great. Of course you of all people just HAVE to show up. The hell do you want?"
+		},
+		{
+			"background": "a8",
+			"border": "enzync-night",
+			"chara": ["tangy", 0, true],
+			"text": "..."
+		},
+		{
+			"background": "a8",
+			"border": "enzync-night",
+			"chara": ["tangy", 0, true],
+			"sound": ["tangy","you"],
+			"text": "...oh, I’m sorry. Am I getting in the way of your street tantrum?"
+		},
+		{
+			"background": "a8",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"text": "-street tantrum?! What, am I forbidden from being pissed off?"
+		},
+		{
+			"background": "a8",
+			"border": "enzync-night",
+			"chara": ["tangy", 0, true],
+			"text": "Mister 'I’ve had it easy all my life' finally experiences his first life problem, and now he’s gotta make it everyone else’s issue too, huh?"
+		},
+		{
+			"background": "a8",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"text": "Rgh-! Why are you here, Tangy?!"
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["tangy", 0, true],
+			"bgm": "AcidRain",
+			"bgmVolume": 0.2,
+			"text": "I’m walking home, Sour. Trying to mind my own business... going down the main road..."
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["tangy", 1, true],
+			"sound": ["tangy","tch"],
+			"text": "In the city we both live in, you idiot! Tch... I can’t even walk down the street without dealing with you."
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","what"],
+			"text": "Dealing with me-?"
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["tangy", 0, true],
+			"text": "You’re unavoidable. No matter what I do or where I go, you follow me around like a goddamn curse on my life."
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"text": "The hell are you on about?! We avoided each other for years... and now you’re acting like I’ve given you trouble this whole time?"
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"sound": ["tangy","shutup"],
+			"chara": ["tangy", 1, true],
+			"text": "You have."
+		},
+		{
+			"background": "a8",
+			"border": "enzync-night",
+			"chara": ["tangy", 1, true],
+			"text": "Everywhere I look... I see your face plastered over everything... with that stupid condescending look you always have."
+		},
+		{
+			"background": "a8",
+			"border": "enzync-night",
+			"chara": ["tangy", 1, true],
+			"text": "I want to just ignore you. I wish you would go away forever... but you’re everywhere, and every glimpse of you is just a reminder that only the lucky succeed. You don’t know how goddamn lucky you are..."
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"text": "Ghh-! ...look. I’m sorry, aight? It’s not like I control things like that. That’s just how social media and marketing is. It’s like you said... What do you expect when we live in the same damn city?"
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["tangy", 1, true],
+			"sound": ["tangy","pissoff"],
+			"text": "And yet despite all the constant attention you get, you STILL get away with how STUPID you act."
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["sweet", 1, true],
+			"text": "Sour, maybe we should-"
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["tangy", 1, true],
+			"text": "...and all in front of your new fling too. Making this poor girl have to endure your bullshit... I hate you so much."
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"text": "Oh naw, you’ve crossed the line, Tangy. You take that back and leave her out of this!"
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["sweet", 1, true],
+			"sound": ["sweet","thatsnot"],
+			"text": "Sour... I..."
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","dammit"],
+			"text": "Sweet... Rgh-! Just... walk home and leave us alone already, Tangy!"
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["tangy", 0, true],
+			"text": "...no. In fact, now that you’ve gotten the whole street’s attention, I’ll show you what I’ve been up to all this time since we last talked."
+		},
+		{
+			"background": "a9",
+			"border": "enzync-night",
+			"chara": ["tangy", 2, true],
+			"sound": ["tangy","tryme"],
+			"text": "What made you big and famous at the Showroom was all flash. You don’t know how to really make a scene."
+		}
+	]
+}

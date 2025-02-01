@@ -2,6 +2,10 @@
 	"dependencies":
 	[
 		{
+			"name": "hmm",
+			"type": "haxelib"
+		},
+		{
 			"name": "lime",
 			"type": "haxelib",
 			"version": "8.1.1"
@@ -55,16 +59,15 @@
 			"version": "1.2.4"
 		},
 		{
+			"name": "formatter",
+			"type": "haxelib",
+			"version": "1.16.0"
+		},
+		{
 			"name": "discord_rpc",
 			"type": "git",
 			"ref": "2d83fa863ef0c1eace5f1cf67c3ac315d1a3a8a5",
 			"url": "https://github.com/Aidan63/linc_discord-rpc.git"
-		},
-		{
-			"name": "flxanimate",
-			"type": "git",
-			"ref": "8f379662568135d979f5afc60e38510fb521063a",
-			"url": "https://github.com/Dot-Stuff/flxanimate.git"
 		},
 		{
 			"name": "hscript-ex",

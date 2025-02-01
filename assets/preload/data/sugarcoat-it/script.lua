@@ -61,14 +61,14 @@ function onCreate()
 	playAnim('SourCutinSC', 'idle');
 	setScrollFactor('SourCutinSC', 0, 0);
 	addLuaSprite('SourCutinSC', false);
-	setObjectCamera('SourCutinSC', 'hud');
+	setObjectCamera('SourCutinSC', 'effect');
 
 	makeAnimatedLuaSprite('SweetCutInSC', 'closeup/SweetCutInsSugarcoat', 1280, 359);
 	addAnimationByPrefix('SweetCutInSC', 'idle', 'SugarCutinSugarcoat', 24, false);
 	playAnim('SweetCutInSC', 'idle');
 	setScrollFactor('SweetCutInSC', 0, 0);
 	addLuaSprite('SweetCutInSC', false);
-	setObjectCamera('SweetCutInSC', 'hud');
+	setObjectCamera('SweetCutInSC', 'effect');
 end
 
 function onCreatePost()
@@ -82,26 +82,26 @@ function onCreatePost()
 	makeLuaSprite('whitehueh', 'dreamcast/art_BG/whitehueh', 0, 0);
 	setScrollFactor('whitehueh', 0, 0);
 	addLuaSprite('whitehueh', true);
-	setObjectCamera('whitehueh', 'hud');
+	setObjectCamera('whitehueh', 'effect');
 	setProperty('whitehueh.alpha', 0.0001);
 
 
 	makeLuaSprite('21', 'dreamcast/art_BG/21', 0, 0);
 	setScrollFactor('21', 0, 0);
 	addLuaSprite('21', true);
-	setObjectCamera('21', 'hud');
+	setObjectCamera('21', 'effect');
 	setProperty('21.alpha', 0.0001);
 	
 	makeLuaSprite('22', 'dreamcast/art_BG/22', 0, 0);
 	setScrollFactor('22', 0, 0);
 	addLuaSprite('22', true);
-	setObjectCamera('22', 'hud');
+	setObjectCamera('22', 'effect');
 	setProperty('22.alpha', 0.0001);
 	
 	makeLuaSprite('23', 'dreamcast/art_BG/23', 0, 0);
 	setScrollFactor('23', 0, 0);
 	addLuaSprite('23', true);
-	setObjectCamera('23', 'hud');
+	setObjectCamera('23', 'effect');
 	setProperty('23.alpha', 0.0001);
 	
 	setProperty('equipment.alpha', 0.0001);
@@ -137,6 +137,7 @@ function thingie(num)
 	end 
 	
 	if num == 1670 then -- fade to white
+		doTweenAlpha('camHUD', 'camHUD', 0, 2.5);
 		doTweenAlpha('whitehueh', 'whitehueh', 1, 2.5);
 	end 
 	

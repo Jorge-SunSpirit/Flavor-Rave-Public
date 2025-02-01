@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bitter Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				53,
+				-9
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bitter Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				45,
+				-1
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bitter Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				-78
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bitter Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				55,
+				62
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bitter Up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bitter",
+	"position": [
+		0,
+		-80
+	],
+	"healthicon": "bitter",
+	"flip_x": false,
+	"healthbar_colors": [
+		137,
+		178,
+		134
+	],
+	"camera_position": [
+		0,
+		20
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Bitter",
+	"healthbar_image": "Bitter",
+	"musicNoteOffset": [-100,-400]
+}

@@ -30,7 +30,7 @@ using StringTools;
 
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = ['Controls', 'Adjust Delay and Combo', 'Graphics', 'Visuals and UI', 'Gameplay', 'Mods'];
+	var options:Array<String> = ['Controls', 'Adjust Delay and Combo', 'Graphics', 'Visuals and UI', 'Gameplay', 'Mods and DLC'];
 	private var grpOptions:FlxTypedGroup<OptionsItem>;
 	private static var curSelected:Int = 0;
 	public static var menuBG:FlxSprite;
@@ -62,7 +62,7 @@ class OptionsState extends MusicBeatState
 				openSubState(new GameplaySettingsSubState());
 			case 'Adjust Delay and Combo':
 				MusicBeatState.switchState(new NoteOffsetState());
-			case 'Mods':
+			case 'Mods and DLC':
 				MusicBeatState.switchState(new ModsMenuState());
 		}
 	}
@@ -91,7 +91,7 @@ class OptionsState extends MusicBeatState
 		bgthingie.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bgthingie);
 
-		if (whichState == 'playstate') options.remove('Mods');
+		if (whichState == 'playstate') options.remove('Mods and DLC');
 
 		grpOptions = new FlxTypedGroup<OptionsItem>();
 		add(grpOptions);

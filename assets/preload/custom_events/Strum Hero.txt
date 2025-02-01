@@ -1,0 +1,5 @@
+Strum Hero
+Centers the strumbar and tweens in the underlay
+
+Value 1: true/false (Determines if it's tweened in or out)
+Value 2: How fast the tween is

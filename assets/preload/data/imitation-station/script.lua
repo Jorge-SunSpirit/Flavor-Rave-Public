@@ -2,7 +2,8 @@ function onCreate()
 	addHaxeLibrary('FlxBackdrop', 'flixel.addons.display');
 
 	setProperty('gf.alpha', 0.0001);
-
+	setProperty('backbops.color', 0x00000000);
+	setProperty('backbops2.color', 0x00000000);
 	setProperty('isCameraOnForcedPos', true);
 	setProperty('camFollow.y', 350);
 	setProperty('camFollow.x', 710);
@@ -12,7 +13,14 @@ function onCreate()
 	scaleObject('leftlight', 1.1, 1.1);
 	addLuaSprite('leftlight', false);
 	setProperty('leftlight.alpha', 0.0001);
-	
+
+	makeAnimatedLuaSprite('rude1', 'enzync-night/rude', 1580, 505);
+	addAnimationByPrefix('rude1', 'idle', 'Rude1Idle', 24, false);
+	scaleObject('rude1', 0.8, 0.8);
+	playAnim('rude1', 'idle');
+	finishAnim('rude1');
+	addLuaSprite('rude1', false);
+
 	makeLuaSprite('rightlight', 'enzync-night/rightlights', -900, -500);
 	setScrollFactor('rightlight', 1, 1);
 	scaleObject('rightlight', 1.1, 1.1);
@@ -89,26 +97,26 @@ function onCreate()
 	scaleObject('morning', 1.1, 1.1);
 	screenCenter('morning');
 	addLuaSprite('morning', false);
-	setObjectCamera('morning', 'hud');
+	setObjectCamera('morning', 'effect');
 	setProperty('morning.alpha', 0.0001);
 
 	makeLuaSprite('barTop', 'closeup/TightBars', 0, -102);
 	setScrollFactor('barTop', 0, 0);
 	scaleObject('barTop', 1.1, 1);
 	addLuaSprite('barTop', false);
-	setObjectCamera('barTop', 'hud');
+	setObjectCamera('barTop', 'effect');
 
 	makeLuaSprite('barBottom', 'closeup/TightBars', 0, 822);
 	setScrollFactor('barBottom', 0, 0);
 	scaleObject('barBottom', 1.1, 1);
 	addLuaSprite('barBottom', false);
-	setObjectCamera('barBottom', 'hud');
+	setObjectCamera('barBottom', 'effect');
 
 	makeLuaSprite('fade', 'enzync-night/bgfade', 0, 1060);
 	setScrollFactor('fade', 0, 0);
 	scaleObject('fade', 1, 1);
 	addLuaSprite('fade', false);
-	setObjectCamera('fade', 'hud')
+	setObjectCamera('fade', 'effect')
 
 	makeLuaSprite('black', '', -100, -100);
     makeGraphic('black', 1280*2, 720*2, '000000');
@@ -123,46 +131,64 @@ function onStepHit()
 	if curStep == 1 then
 		doTweenAlpha('black', 'black', 0.9);
 		setProperty('dad.color', 0x00000000);
-		setProperty('boyfriend.hasMissAnimations', true);
-		setProperty('dad.hasMissAnimations', true);
+		setProperty('dad.missRecolor', false);
 		setProperty('boyfriend.color', 0x00000000);
+		setProperty('rude1.color', 0x00000000);
 	end
 	if curStep == 16 then
 		doTweenAlpha('black', 'black', 0.8, 0.15);
 		setProperty('leftlight.alpha', 1);
+		setProperty('backbops.color', 0xFFFFFF);
+		setProperty('backbops2.color', 0xFFFFFF);
 	end
 	if curStep == 22 then
 		doTweenAlpha('black', 'black', 0.7, 0.15);
+		setProperty('rude1.color', 0xFFFFFF);
 		setProperty('rightlight.alpha', 1);
 	end
 	if curStep == 32 then
 		doTweenAlpha('black', 'black', 0.6, 0.15);
+		setProperty('backbops.color', 0x00000000);
+		setProperty('backbops2.color', 0x00000000);
+		setProperty('rude1.color', 0x00000000);
 		setProperty('leftlight.alpha', 0);
 		setProperty('rightlight.alpha', 0);
 	end
 	if curStep == 48 then
 		doTweenAlpha('black', 'black', 0.5, 0.15);
 		setProperty('leftlight.alpha', 1);
+		setProperty('backbops.color', 0xFFFFFF);
+		setProperty('backbops2.color', 0xFFFFFF);
 	end
 	if curStep == 54 then
 		doTweenAlpha('black', 'black', 0.4, 0.15);
+		setProperty('rude1.color', 0xFFFFFF);
 		setProperty('rightlight.alpha', 1);
 	end
 	if curStep == 64 then
 		doTweenAlpha('black', 'black', 0.3, 0.15);
+		setProperty('backbops.color', 0x00000000);
+		setProperty('backbops2.color', 0x00000000);
+		setProperty('rude1.color', 0x00000000);
 		setProperty('leftlight.alpha', 0);
 		setProperty('rightlight.alpha', 0);
 	end
 	if curStep == 80 then
 		doTweenAlpha('black', 'black', 0.2, 0.15);
 		setProperty('leftlight.alpha', 1);
+		setProperty('backbops.color', 0xFFFFFF);
+		setProperty('backbops2.color', 0xFFFFFF);
 	end
 	if curStep == 88 then
 		doTweenAlpha('black', 'black', 0.1, 0.15);
+		setProperty('rude1.color', 0xFFFFFF);
 		setProperty('rightlight.alpha', 1);
 	end
 	if curStep == 96 then
 		doTweenAlpha('black', 'black', 0, 0.15);
+		setProperty('backbops.color', 0x00000000);
+		setProperty('backbops2.color', 0x00000000);
+		setProperty('rude1.color', 0x00000000);
 		setProperty('leftlight.alpha', 0);
 		setProperty('rightlight.alpha', 0);
 	end
@@ -170,10 +196,12 @@ function onStepHit()
 		setProperty('leftlight.alpha', 1);
 		setProperty('rightlight.alpha', 1);
 		setProperty('spotlight.alpha', 1);
+		setProperty('backbops.color', 0xFFFFFF);
+		setProperty('backbops2.color', 0xFFFFFF);
+		setProperty('rude1.color', 0xFFFFFF);
 		setProperty('dad.color', 0xFFFFFF);
 		setProperty('boyfriend.color', 0xFFFFFF);
-		setProperty('boyfriend.hasMissAnimations', false);
-		setProperty('dad.hasMissAnimations', false);
+		setProperty('dad.missRecolor', true);
 	end
 	if curStep == 128 then
 	setProperty('isCameraOnForcedPos', false);

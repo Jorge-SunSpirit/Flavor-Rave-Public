@@ -1,0 +1,21 @@
+{
+	"song": {
+		"name": "Lodestar Shanty",
+		"artist": "JACKALRUIN & Juno Songs",
+		"charter": "Cerbera",
+		"titleCardStep": 96,
+		"pauseartist": "Juno Songs",
+		"pauseArt": "salty"
+	},
+	"control": {
+		"hasLyrics": true,
+		"noteChangesStrum": true,
+		"noteChangesRating": true,
+		"disableHealth": false
+	},
+	"freeplay": {
+		"characters": ["sour", "salty"],
+		"stage": "lady-morton",
+		"isOnePlayer": true
+	}
+}

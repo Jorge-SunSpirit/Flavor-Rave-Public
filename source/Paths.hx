@@ -120,7 +120,6 @@ class Paths
 
 	static public var currentModDirectory:String = '';
 	static public var currentLevel:String;
-	static public var allowModLoading:Bool = false;
 	static public function setCurrentLevel(name:String)
 	{
 		currentLevel = name.toLowerCase();
@@ -515,27 +514,15 @@ class Paths
 			}
 		}
 
-		//If it cannot find it, let us check every existing mod folder if forceWhichFolder is null
-		if (allowModLoading && (forceWhichFolder == null || forceWhichFolder.length < 0))
-		{
-			var modsDirectories:Array<String> = Paths.getModDirectories();
-			for (folder in modsDirectories)
-			{
-				if(folder != null && folder.length > 0) {
-					var fileToCheck:String = mods(folder + '/' + key);
-					if(FileSystem.exists(fileToCheck)) {
-						return fileToCheck;
-					}
-				}
-			}
-		}
+		if (modDirString == forceWhichFolder)
+			return null;
 
-		//then obligitory globalmodcheck
 		for(mod in getGlobalMods()){
 			var fileToCheck:String = mods(mod + '/' + key);
 			if(FileSystem.exists(fileToCheck))
 				return fileToCheck;
 		}
+		
 		return 'mods/' + key;
 	}
 
@@ -547,29 +534,21 @@ class Paths
 	static public function pushGlobalMods() // prob a better way to do this but idc
 	{
 		globalMods = [];
-		var path:String = 'modsList.txt';
-		if(FileSystem.exists(path))
+		var modsDirectories:Array<String> = Paths.getModDirectories();
+		for (folder in modsDirectories)
 		{
-			var list:Array<String> = CoolUtil.coolTextFile(path);
-			for (i in list)
-			{
-				var dat = i.split("|");
-				if (dat[1] == "1")
-				{
-					var folder = dat[0];
-					var path = Paths.mods(folder + '/pack.json');
-					if(FileSystem.exists(path)) {
-						try{
-							var rawJson:String = File.getContent(path);
-							if(rawJson != null && rawJson.length > 0) {
-								var stuff:Dynamic = Json.parse(rawJson);
-								var global:Bool = Reflect.getProperty(stuff, "runsGlobally");
-								if(global)globalMods.push(dat[0]);
-							}
-						} catch(e:Dynamic){
-							trace(e);
-						}
+			var path = Paths.mods(folder + '/pack.json');
+			if(FileSystem.exists(path)) {
+				try{
+					var rawJson:String = File.getContent(path);
+					if(rawJson != null && rawJson.length > 0) {
+						var stuff:Dynamic = Json.parse(rawJson);
+						var global:Bool = Reflect.getProperty(stuff, "runsGlobally");
+						if(global)globalMods.push(folder);
 					}
+				} catch(e:Dynamic){
+					trace(e);
+					globalMods.push(folder);
 				}
 			}
 		}

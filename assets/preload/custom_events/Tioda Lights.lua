@@ -4,7 +4,7 @@ local frequency = 2;
 function onCreatePost()
 	makeLuaSprite('tiodalights', 'uncle-hearty/ENCOREBORDER', 0, 0);
 	setScrollFactor('tiodalights', 0, 0);
-	setObjectCamera('tiodalights', 'hud');
+	setObjectCamera('tiodalights', 'effect');
 	setProperty("tiodalights.alpha", 0.00001);
 	addLuaSprite('tiodalights', false);
 end

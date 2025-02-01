@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="CoolStrum.png" width="3877" height="3817">
+	<SubTexture name="CoolStrum0000" x="3862" y="656" width="10" height="228" rotated="true" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0001" x="3862" y="656" width="10" height="228" rotated="true" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0002" x="3862" y="1" width="10" height="653" rotated="true" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0003" x="3862" y="1" width="10" height="653" rotated="true" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0004" x="3850" y="1" width="10" height="884" rotated="true" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0005" x="3850" y="1" width="10" height="884" rotated="true" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0006" x="2539" y="3761" width="1030" height="55" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0007" x="2539" y="3761" width="1030" height="55" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0008" x="3821" y="1283" width="55" height="1130" rotated="true" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0009" x="3821" y="1283" width="55" height="1130" rotated="true" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0010" x="1" y="3605" width="1202" height="143" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0011" x="1" y="3605" width="1202" height="143" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0012" x="1283" y="3598" width="1254" height="187" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0013" x="1283" y="3598" width="1254" height="187" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0014" x="2565" y="2825" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0015" x="2565" y="2825" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0016" x="2565" y="3059" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0017" x="2565" y="3059" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0018" x="2565" y="3293" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0019" x="2565" y="3293" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0020" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0021" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0022" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0023" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0024" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0025" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0026" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0027" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0028" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0029" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0030" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0031" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0032" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0033" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0034" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0035" x="2565" y="3527" width="1280" height="232" frameX="-0" frameY="-462" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0036" x="2565" y="2565" width="1280" height="258" frameX="-0" frameY="-479" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0037" x="2565" y="2565" width="1280" height="258" frameX="-0" frameY="-479" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0038" x="3577" y="1" width="271" height="1280" rotated="true" frameX="-0" frameY="-490" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0039" x="3577" y="1" width="271" height="1280" rotated="true" frameX="-0" frameY="-490" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0040" x="3263" y="1283" width="278" height="1280" rotated="true" frameX="-0" frameY="-496" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0041" x="3263" y="1283" width="278" height="1280" rotated="true" frameX="-0" frameY="-496" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0042" x="1283" y="3316" width="1280" height="280" frameX="-0" frameY="-499" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0043" x="1283" y="3316" width="1280" height="280" frameX="-0" frameY="-499" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0044" x="1283" y="3316" width="1280" height="280" frameX="-0" frameY="-499" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0045" x="1" y="1" width="1280" height="456" frameX="-0" frameY="-368" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0046" x="1" y="1" width="1280" height="456" frameX="-0" frameY="-368" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0047" x="1" y="3246" width="1280" height="357" frameX="-0" frameY="-408" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0048" x="1" y="3246" width="1280" height="357" frameX="-0" frameY="-408" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0049" x="3543" y="1283" width="276" height="1280" rotated="true" frameX="-0" frameY="-435" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0050" x="3543" y="1283" width="276" height="1280" rotated="true" frameX="-0" frameY="-435" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0051" x="3244" y="1" width="331" height="1280" rotated="true" frameX="-0" frameY="-409" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0052" x="3244" y="1" width="331" height="1280" rotated="true" frameX="-0" frameY="-409" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0053" x="1283" y="2960" width="1280" height="354" frameX="-0" frameY="-401" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0054" x="1283" y="2960" width="1280" height="354" frameX="-0" frameY="-401" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0055" x="2872" y="1" width="370" height="1280" rotated="true" frameX="-0" frameY="-395" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0056" x="2872" y="1" width="370" height="1280" rotated="true" frameX="-0" frameY="-395" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0057" x="2080" y="1" width="395" height="1280" rotated="true" frameX="-0" frameY="-379" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0058" x="2080" y="1" width="395" height="1280" rotated="true" frameX="-0" frameY="-379" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0059" x="1" y="1658" width="1280" height="396" frameX="-0" frameY="-378" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0060" x="1" y="1658" width="1280" height="396" frameX="-0" frameY="-378" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0061" x="1" y="459" width="1280" height="399" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0062" x="1" y="459" width="1280" height="399" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0063" x="1" y="860" width="1280" height="397" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0064" x="1" y="860" width="1280" height="397" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0065" x="1" y="2454" width="1280" height="395" frameX="-0" frameY="-382" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0066" x="1" y="2454" width="1280" height="395" frameX="-0" frameY="-382" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0067" x="2477" y="1" width="393" height="1280" rotated="true" frameX="-0" frameY="-383" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0068" x="2477" y="1" width="393" height="1280" rotated="true" frameX="-0" frameY="-383" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0069" x="2077" y="1283" width="394" height="1280" rotated="true" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0070" x="2077" y="1283" width="394" height="1280" rotated="true" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0071" x="1283" y="1283" width="395" height="1280" rotated="true" frameX="-0" frameY="-380" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0072" x="1283" y="1283" width="395" height="1280" rotated="true" frameX="-0" frameY="-380" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0073" x="1283" y="2565" width="1280" height="393" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0074" x="1283" y="2565" width="1280" height="393" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0075" x="1682" y="1" width="396" height="1280" rotated="true" frameX="-0" frameY="-382" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0076" x="1682" y="1" width="396" height="1280" rotated="true" frameX="-0" frameY="-382" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0077" x="1680" y="1283" width="395" height="1280" rotated="true" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0078" x="1680" y="1283" width="395" height="1280" rotated="true" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0079" x="2869" y="1283" width="392" height="1280" rotated="true" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0080" x="2869" y="1283" width="392" height="1280" rotated="true" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0081" x="1" y="2851" width="1280" height="393" frameX="-0" frameY="-382" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0082" x="1" y="2851" width="1280" height="393" frameX="-0" frameY="-382" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0083" x="1" y="1259" width="1280" height="397" frameX="-0" frameY="-380" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0084" x="1" y="1259" width="1280" height="397" frameX="-0" frameY="-380" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0085" x="1" y="2056" width="1280" height="396" frameX="-0" frameY="-379" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0086" x="1" y="2056" width="1280" height="396" frameX="-0" frameY="-379" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0087" x="2473" y="1283" width="394" height="1280" rotated="true" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0088" x="2473" y="1283" width="394" height="1280" rotated="true" frameX="-0" frameY="-381" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0089" x="1283" y="1" width="397" height="1280" rotated="true" frameX="-0" frameY="-379" frameWidth="1280" frameHeight="1156"/>
+	<SubTexture name="CoolStrum0090" x="1283" y="1" width="397" height="1280" rotated="true" frameX="-0" frameY="-379" frameWidth="1280" frameHeight="1156"/>
+</TextureAtlas>

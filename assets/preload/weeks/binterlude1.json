@@ -1,6 +1,6 @@
 {
 	"songs": [
-		["Tres Leches", "savory", [165, 0, 77], ["savory", "sweet"], "corianda"]
+		["Tres Leches"]
 	],
 
 	"weekCharacters": [
@@ -20,7 +20,7 @@
 	"weekName": "Lost in Corianda",
 	"location": "Corianda",
 	"startUnlocked": false,
-	"isExtra": false,
+	"categoryType": "story",
 	"hideStoryMode": false,
 	"hideFreeplay": false,
 	"difficulties": "Normal",

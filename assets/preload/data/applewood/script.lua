@@ -41,7 +41,7 @@ function onCreate()
 	setScrollFactor('cutbg', 0, 0);
 	scaleObject('cutbg', scale, scale);
 	addLuaSprite('cutbg', false);
-	setObjectCamera('cutbg', 'hud')
+	setObjectCamera('cutbg', 'effect')
 	setProperty('cutbg.alpha', 0.0001);
 
 	makeAnimatedLuaSprite('cutscenecool', 'enzync/cutscene', posX, posY);
@@ -49,14 +49,14 @@ function onCreate()
 	setScrollFactor('cutscenecool', 0, 0);
 	addLuaSprite('cutscenecool', false);
     screenCenter('cutscenecool');
-	setObjectCamera('cutscenecool', 'hud')
+	setObjectCamera('cutscenecool', 'effect')
 	setProperty('cutscenecool.alpha', 0.0001);
 
 	makeLuaSprite('fade', 'enzync/bgfade', 0, 1060);
 	setScrollFactor('fade', 0, 0);
 	scaleObject('fade', scale, scale);
 	addLuaSprite('fade', false);
-	setObjectCamera('fade', 'hud')
+	setObjectCamera('fade', 'effect')
 
 end
 
@@ -64,19 +64,19 @@ function onCreatePost()
 	makeLuaSprite('whitehueh', 'dreamcast/art_BG/whitehueh', 0, 0);
 	setScrollFactor('whitehueh', 0, 0);
 	addLuaSprite('whitehueh', true);
-	setObjectCamera('whitehueh', 'hud');
+	setObjectCamera('whitehueh', 'effect');
 	setProperty('whitehueh.alpha', 0.0001);
 
 	makeLuaSprite('46', 'dreamcast/art_BG/46', 0, 0);
 	setScrollFactor('46', 0, 0);
 	addLuaSprite('46', true);
-	setObjectCamera('46', 'hud');
+	setObjectCamera('46', 'effect');
 	setProperty('46.alpha', 0.0001);
 	
 	makeLuaSprite('47', 'dreamcast/art_BG/47', 0, 0);
 	setScrollFactor('47', 0, 0);
 	addLuaSprite('47', true);
-	setObjectCamera('47', 'hud');
+	setObjectCamera('47', 'effect');
 	setProperty('47.alpha', 0.0001);
 	
 
@@ -124,6 +124,7 @@ function onStepHit()
 	end
 	if curStep == 1155 then -- fade to white
 		setProperty('isCameraOnForcedPos', false);
+		doTweenAlpha('camHUD', 'camHUD', 0, 1);
 		doTweenAlpha('whitehueh', 'whitehueh', 1, 1);
 	end 
 	if curStep == 1165 then -- fade to colored image

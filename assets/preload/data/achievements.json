@@ -1,0 +1,132 @@
+{
+	"achievements": [
+		{
+			"name": "Cranberry Pop-FC",
+			"fancyName": "Pop 'til You Drop",
+			"unlockCondition": "Achieve a Full Combo on Cranberry Pop",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Rockcandy-FC",
+			"fancyName": "Genre-Colliding Beats",
+			"unlockCondition": "Achieve a Full Combo on Rockcandy",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "TIMESHOCK!-FC",
+			"fancyName": "Ready to RAVE?",
+			"unlockCondition": "Achieve a Full Combo on TIMESHOCK!",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Rainbow Sorbet-FC",
+			"fancyName": "Lovely Lavender",
+			"unlockCondition": "Achieve a Full Combo on Rainbow Sorbet",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Sugarcoat It-FC",
+			"fancyName": "I'm not gonna...",
+			"unlockCondition": "Achieve a Full Combo on Sugarcoat It",
+			"showmanDialogue": "",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Tres Leches-FC",
+			"fancyName": "Flavor Fiesta",
+			"unlockCondition": "Achieve a Full Combo on Tres Leches",
+			"showmanDialogue": "Corianda's home to some of the best musicians I've invited to my Showroom! I will say, that man's voice feels so familiar... like a voice I haven't heard in maybe... 20 years?",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Applewood-FC",
+			"fancyName": "Get Your Groove On",
+			"unlockCondition": "Achieve a Full Combo on Applewood",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Caramelize-FC",
+			"fancyName": "Creme Brulee",
+			"unlockCondition": "Achieve a Full Combo on Caramelize",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Wasabi-FC",
+			"fancyName": "Shadowbringer",
+			"unlockCondition": "Achieve a Full Combo on Wasabi",
+			"showmanDialogue": "The folks of Old Togarashi are lovely people, both the young and the old! I quite envy their quiet, disciplined lifestyles within the bustling cityscape.",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Flavorscape-FC",
+			"fancyName": "Full Flavor",
+			"unlockCondition": "Achieve a Full Combo on Flavorscape",
+			"showmanDialogue": "Ahaha, I had quite the musical talent of my own back then. A real touch of gold, they’d say! And with the power of RAVE, who would’ve thought that such a compliment would become literal?",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Ignatius-FC",
+			"fancyName": "Eternal Flame, Baby!",
+			"unlockCondition": "Achieve a Full Combo on Ignatius",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "MegaHeartz-FC",
+			"fancyName": "Don't Touch that Dial!",
+			"unlockCondition": "Achieve a Full Combo on MegaHeartz",
+			"showmanDialogue": "EnZ-TV must've took cuts in the security department once GlazeCorp pulled funding. An important city resource shouldn’t be breached so easily by a couple of rowdy youth!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Imitation Station-FC",
+			"fancyName": "Potions n' Saxes",
+			"unlockCondition": "Achieve a Full Combo on Imitation Station",
+			"showmanDialogue": "Vocal mimicry… I recall a colleague of mine being very invested in the concept. It’s not my cup of tea, personally, and others clearly felt the same. Nearly put himself outta business with that fixation!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Heartstrings-FC",
+			"fancyName": "After-Life of the Party",
+			"unlockCondition": "Achieve a Full Combo on Heartstrings",
+			"showmanDialogue": "Rumors say that spirits run amok all over the world. If any ghost has an unspent family fortune they’d like to use on a post-mortem performance, my Showroom will gladly be open to any symphonic specters!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "GAME-JAMMED-FC",
+			"fancyName": "Anti-Virus is Not Enough",
+			"unlockCondition": "Achieve a Full Combo on GAME-JAMMED",
+			"showmanDialogue": "I only use as much technology as is absolutely necessary. I don’t trust how easy it is for those new-fangled computers to get hijacked, and with how tech continues to advance, things will just continue to get out of hand!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "n0.pressur3.temp-FC",
+			"fancyName": "Streamer Overload",
+			"unlockCondition": "Achieve a Full Combo on n0.pressur3.temp",
+			"showmanDialogue": "I issued quite a lengthy letter to the owners of that livestream. I would’ve taken harsher action, but I learned that my colleague’s daughter is the one behind the site. I trust him to teach her not to allow such breaches of privacy.",
+			"hidden": false,
+			"icon": "default"
+		}
+	]
+}

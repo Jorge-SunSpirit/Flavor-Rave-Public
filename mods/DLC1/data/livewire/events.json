@@ -1,0 +1,236 @@
+{
+	"song": {
+		"events": [
+			[
+				7200,
+				[
+					[
+						"Play SFX",
+						"lwintro",
+						"1"
+					]
+				]
+			],
+			[
+				51200,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				62400,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1.1"
+					]
+				]
+			],
+			[
+				64000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					],
+					[
+						"Screen Flash",
+						"0.3",
+						"yellow"
+					]
+				]
+			],
+			[
+				86400,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				88000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					]
+				]
+			],
+			[
+				89600,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				91200,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				115200,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					]
+				]
+			],
+			[
+				116800,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					],
+					[
+						"Play SFX",
+						"tangyrave",
+						"1"
+					]
+				]
+			],
+			[
+				128900,
+				[
+					[
+						"Play SFX",
+						"RaveEngage",
+						"0.9"
+					],
+					[
+						"Screen Flash",
+						"0.7",
+						"green"
+					]
+				]
+			],
+			[
+				129600,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1.2"
+					],
+					[
+						"Screen Flash",
+						"0.3",
+						"green"
+					],
+					[
+						"Play SFX",
+						"RaveNegative",
+						"1"
+					]
+				]
+			],
+			[
+				155200,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1.4"
+					]
+				]
+			],
+			[
+				168000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1.6"
+					]
+				]
+			],
+			[
+				179200,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.4"
+					]
+				]
+			],
+			[
+				179300,
+				[
+					[
+						"Play Animation",
+						"grab",
+						"dad"
+					]
+				]
+			],
+			[
+				179400,
+				[
+					[
+						"Play SFX",
+						"RaveEngage",
+						"0.9"
+					]
+				]
+			],
+			[
+				180800,
+				[
+					[
+						"Screen Flash",
+						"0.5",
+						"orange"
+					]
+				]
+			],
+			[
+				192800,
+				[
+					[
+						"Change Camera Zoom",
+						"1.5",
+						"0.5"
+					]
+				]
+			],
+			[
+				193600,
+				[
+					[
+						"Screen Flash",
+						"0.5",
+						"green"
+					]
+				]
+			]
+		]
+	}
+}

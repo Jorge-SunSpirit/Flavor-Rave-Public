@@ -53,27 +53,27 @@ function onCreate()
 	setScrollFactor('barTop', 0, 0);
 	scaleObject('barTop', 1.1, 1);
 	addLuaSprite('barTop', false);
-	setObjectCamera('barTop', 'hud');
+	setObjectCamera('barTop', 'effect');
 
 	makeLuaSprite('barBottom', 'closeup/TightBars', 0, 822);
 	setScrollFactor('barBottom', 0, 0);
 	scaleObject('barBottom', 1.1, 1);
 	addLuaSprite('barBottom', false);
-	setObjectCamera('barBottom', 'hud');
+	setObjectCamera('barBottom', 'effect');
 
 	makeAnimatedLuaSprite('smokeTop', 'backstreet/smokebordertop', -75, -302);
 	addAnimationByPrefix('smokeTop', 'idle', 'BorderSmokyBottom', 24, true);
 	setScrollFactor('smokeTop', 0, 0);
 	scaleObject('smokeTop', 1, 1);
 	addLuaSprite('smokeTop', false);
-	setObjectCamera('smokeTop', 'hud');
+	setObjectCamera('smokeTop', 'effect');
 
 	makeAnimatedLuaSprite('smokeBottom', 'backstreet/smokeborderbottom', -75, 722);
 	addAnimationByPrefix('smokeBottom', 'idle', 'BorderSmokyBottom', 24, true);
 	setScrollFactor('smokeBottom', 0, 0);
 	scaleObject('smokeBottom', 1, 1);
 	addLuaSprite('smokeBottom', false);
-	setObjectCamera('smokeBottom', 'hud');
+	setObjectCamera('smokeBottom', 'effect');
 
 	makeLuaSprite('dramablack', '', -100, -100);
     makeGraphic('dramablack', 1280*2, 720*2, '000000');
@@ -90,7 +90,7 @@ function onCreate()
 	scaleObject('trans', 1.2, 1.2);
 	addLuaSprite('trans', false);
     screenCenter('trans');
-	setObjectCamera('trans', 'hud');
+	setObjectCamera('trans', 'effect');
 	setProperty('trans.alpha', 0.0001);
 end
 
@@ -155,7 +155,12 @@ function onStepHit()
 		setProperty('smokeTop.alpha', 0.0001);
 		setProperty('smokeBottom.alpha', 0.0001);
 		setProperty('isCameraOnForcedPos', false);
-		setProperty('floorPurse.alpha', 1);	
+		setProperty('floorPurse.alpha', 1);
+		setProperty('isCameraOnForcedPos', true);
+		setProperty('camFollow.x', 1415);
+		setProperty('camFollow.y', 213);
+		setProperty('camera.target.x', 1415)
+		setProperty('camera.target.y', 213)
 		setProperty('dad.x', getProperty('boyfriend.x') + 240);
 		setProperty('dad.y', getProperty('boyfriend.y') - 220);
 	end
@@ -200,6 +205,7 @@ function onStepHit()
 		doTweenY('barTop', 'barTop', -102, 0.25, "circinout");
 		doTweenY('barBottom', 'barBottom', 822, 0.25, "circinout");
 		setProperty('floorPurse.alpha', 0.0001);
+		setProperty('isCameraOnForcedPos', false);
 	end
 	if curStep >= 832 and curStep <= 864 then
 		setProperty('isCameraOnForcedPos', true);

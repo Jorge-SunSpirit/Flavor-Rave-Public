@@ -3,12 +3,22 @@
 		"name": "MegaHeartz",
 		"artist": "RixFX & Noichi",
 		"charter": "Flootena",
+		"pauseartist": "Kixel & emeruga",
+		"pauseArt": "rika",
 		"extraCharacter": [true, true]
 	},
 	"dialogue": {
 		"introDialogue": "dreamcast"
 	},
 	"control": {
-		"happyEnding": true
+		"happyEnding": true,
+		"noteChangesHealth": true,
+		"noteChangesStrum": true,
+		"noteChangesRating": true
+	},
+	"freeplay": {
+		"characters": ["rika", "flavorrave"],
+		"stage": "enz-tv",
+		"isOnePlayer": false
 	}
 }

@@ -44,25 +44,25 @@ function onCreate()
 	setScrollFactor('barTop', 0, 0);
 	scaleObject('barTop', 1.1, 1);
 	addLuaSprite('barTop', false);
-	setObjectCamera('barTop', 'hud');
+	setObjectCamera('barTop', 'effect');
 
 	makeLuaSprite('barBottom', 'closeup/TightBars', 0, 628);
 	setScrollFactor('barBottom', 0, 0);
 	scaleObject('barBottom', 1.1, 1);
 	addLuaSprite('barBottom', false);
-	setObjectCamera('barBottom', 'hud');
+	setObjectCamera('barBottom', 'effect');
 	
 	makeLuaSprite('fade', 'corianda/introfade', 0, -1300);
 	setScrollFactor('fade', 0, 0);
 	scaleObject('fade', scale, scale);
 	addLuaSprite('fade', false);
-	setObjectCamera('fade', 'hud')
+	setObjectCamera('fade', 'effect')
 	
 	makeLuaSprite('transition', 'corianda/hattransition', 1280, 0);
 	setScrollFactor('transition', 0, 0);
 	scaleObject('transition', scale, scale);
 	addLuaSprite('transition', false);
-	setObjectCamera('transition', 'hud');
+	setObjectCamera('transition', 'effect');
 end
 
 function thingie(num)

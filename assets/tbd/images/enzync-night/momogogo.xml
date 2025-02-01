@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="momogogo.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MomoGogo10000" x="8" y="8" width="289" height="367" frameX="-3" frameY="-10" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10001" x="8" y="8" width="289" height="367" frameX="-3" frameY="-10" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10002" x="305" y="8" width="294" height="369" frameX="0" frameY="-8" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10003" x="305" y="8" width="294" height="369" frameX="0" frameY="-8" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10004" x="607" y="8" width="293" height="373" frameX="-2" frameY="-4" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10005" x="607" y="8" width="293" height="373" frameX="-2" frameY="-4" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10006" x="8" y="389" width="292" height="377" frameX="-3" frameY="0" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10007" x="8" y="389" width="292" height="377" frameX="-3" frameY="0" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10008" x="8" y="389" width="292" height="377" frameX="-3" frameY="0" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10009" x="8" y="389" width="292" height="377" frameX="-3" frameY="0" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10010" x="8" y="389" width="292" height="377" frameX="-3" frameY="0" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10011" x="8" y="389" width="292" height="377" frameX="-3" frameY="0" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10012" x="8" y="389" width="292" height="377" frameX="-3" frameY="0" frameWidth="295" frameHeight="377"/>
+	<SubTexture name="MomoGogo10013" x="8" y="389" width="292" height="377" frameX="-3" frameY="0" frameWidth="295" frameHeight="377"/>
+</TextureAtlas>

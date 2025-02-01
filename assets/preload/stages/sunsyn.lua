@@ -26,7 +26,7 @@ function onCreate()
 	
 	makeLuaSprite('liveIcon', 'mainmenu/SynSun/live', 10, 10);
 	setScrollFactor('liveIcon', 1, 1);
-	setObjectCamera('liveIcon', 'hud');
+	setObjectCamera('liveIcon', 'effect');
 	addLuaSprite('liveIcon', true);
 end
 

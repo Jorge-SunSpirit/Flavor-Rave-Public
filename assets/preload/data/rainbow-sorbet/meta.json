@@ -2,6 +2,8 @@
 	"song": {
 		"name": "Rainbow Sorbet",
 		"charter": "Chompo",
+		"pauseArt": "flavorrave",
+		"pauseartist": "Cruise Elroy",
 		"artist": "Stardust Tunes"
 	},
 	"dialogue": {
@@ -9,5 +11,10 @@
 	},
 	"control": {
 		"happyEnding": true
+	},
+	"freeplay": {
+		"characters": ["sour", "sweet"],
+		"stage": "lavender",
+		"isOnePlayer": false
 	}
 }

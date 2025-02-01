@@ -1,0 +1,33 @@
+{
+	"noteSkins":
+	[
+		{
+			"skinName": "Tangy",
+			"note": "ratings/tangy/TANGYNOTE_assets",
+			"noteSplash": ["ratings/tangy/NOTE_splashes", -85, -85, 0.4, 1],
+			"ratings_folder": "tangy",
+			"songReq": "Livewire"
+		},
+		{
+			"skinName": "Salty",
+			"note": "ratings/salty/SaltyNOTE_assets",
+			"noteSplash": ["ratings/salty/NOTE_splashes", -80, -70, 0.6, 0.8],
+			"ratings_folder": "salty",
+			"songReq": "Lodestar Shanty"
+		},
+		{
+			"skinName": "Ace",
+			"note": "ratings/ace/AceNOTE_assets",
+			"noteSplash": ["noteSplashes", 20, 0, 1, 0.6],
+			"ratings_folder": "ace",
+			"songReq": "Fubuki"
+		},
+		{
+			"skinName": "Bitter",
+			"note": "ratings/bitter/bitterNOTE_assets",
+			"noteSplash": ["noteSplashes", 20, 0, 1, 0.6],
+			"ratings_folder": "",
+			"songReq": "Stirring"
+		}
+	]
+}

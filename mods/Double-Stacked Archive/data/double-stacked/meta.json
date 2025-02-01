@@ -1,0 +1,22 @@
+{
+	"song": {
+		"name": "Double-Stacked",
+		"artist": "HighPoweredKeyz & DatDavi",
+		"charter": "Flootena",
+		"extraCharacter": [true, true],
+		"pauseArt": "rhythmrobo",
+		"pauseartist": "emeruga",
+		"titleCardStep": 64
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	},
+	"freeplay": {
+		"characters": ["rhythmrobo", "flavorrave"],
+		"stage": "burger",
+		"isOnePlayer": false
+	}
+}

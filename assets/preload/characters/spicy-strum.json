@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				14,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SpicyLeft"
+		},
+		{
+			"offsets": [
+				21,
+				-55
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SpicyDown"
+		},
+		{
+			"offsets": [
+				-4,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SpicyUp"
+		},
+		{
+			"offsets": [
+				5,
+				21
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SpicyRight"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SpicyIdle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Spicy-SH",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "spicy",
+	"flip_x": false,
+	"healthbar_colors": [
+		235,
+		0,
+		15
+	],
+	"camera_position": [
+		80,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"noteskin": "Spicy",
+	"healthbar_image": "spicy",
+	"musicNoteOffset": [-200,-200]
+}

@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "All that fame and attention wasted on someone like you... you ain't shit.",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Tch... You're nothing special. Just another talentless fraud... and I'll prove that as many times as I need to.",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Tch... whatever.",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I'd be caught dead if I performed like that back home...",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Damn it, damn it! Ghh-! What the hell was that?!",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

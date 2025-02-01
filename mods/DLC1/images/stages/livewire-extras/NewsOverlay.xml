@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NewsOverlay.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="OverlayA0000" x="6" y="6" width="1281" height="721"/>
+	<SubTexture name="OverlayB0000" x="6" y="733" width="1281" height="721"/>
+</TextureAtlas>

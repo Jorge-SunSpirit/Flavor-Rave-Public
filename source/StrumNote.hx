@@ -153,8 +153,8 @@ class StrumNote extends FlxSprite
 
 		bgLane.x = x;
 		bgLane.visible = visible;
-		if (ClientPrefs.laneAlpha != 0 || !ClientPrefs.dynamicLaneOpacity)
-			bgLane.alpha = ClientPrefs.laneAlpha * alpha;
+		if (ClientPrefs.laneAlpha != 0)
+			bgLane.alpha = PlayState.strumlaneAlpha * alpha;
 		
 		if(holding && animation.curAnim != null) { // Pause on first frame when holding
 			animation.curAnim.curFrame = 0;

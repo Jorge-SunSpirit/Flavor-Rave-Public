@@ -15,7 +15,7 @@ function onCreate()
 	setProperty('dramablack.alpha', 0.0001);
 	
 	makeAnimatedLuaSprite('Rave', 'closeup/RAVE-BG', -0, -60);
-	addAnimationByPrefix('Rave', 'idle', 'RaveBG', 24, true);
+	addAnimationByPrefix('Rave', 'idle', 'RaveBG', 42, true);
 	setScrollFactor('Rave', 0, 0);
 	addLuaSprite('Rave', false);
 	scaleObject('Rave', 1.5, 1.5);
@@ -69,7 +69,7 @@ function onCreate()
 	makeLuaSprite('ravevin', 'closeup/raveglow', 0, 0);
 	setScrollFactor('ravevin', 0, 0);
 	addLuaSprite('ravevin', false);
-	setObjectCamera('ravevin', 'hud');
+	setObjectCamera('ravevin', 'effect');
 	setProperty('ravevin.alpha', 0.0001);
 
     makeLuaSprite('white', '', -100, -100);
@@ -87,40 +87,40 @@ function onCreate()
 	scaleObject('trans', 1.2, 1.2);
 	addLuaSprite('trans', false);
     screenCenter('trans');
-	setObjectCamera('trans', 'hud');
+	setObjectCamera('trans', 'effect');
 	setProperty('trans.alpha', 0.0001);
 	
 	makeLuaSprite('allBG', 'closeup/AllBG', 0, 0);
 	setScrollFactor('allBG', 0, 0);
-	--setObjectCamera('allBG', 'hud');
+	--setObjectCamera('allBG', 'effect');
 	addLuaSprite('allBG', true);
 	screenCenter('allBG');
 	setProperty('allBG.alpha', 0.0001);
 	
 	makeLuaSprite('spicy', 'closeup/finale/spicy', 152, 1280);
 	setScrollFactor('spicy', 0, 0);
-	--setObjectCamera('spicy', 'hud');
+	--setObjectCamera('spicy', 'effect');
 	addLuaSprite('spicy', true);
 	setProperty('spicy.alpha', 0.0001);
 	setProperty('spicy.color', 0x00000000);
 	
 	makeLuaSprite('smoky', 'closeup/finale/smoky', 92, 1280);
 	setScrollFactor('smoky', 0, 0);
-	--setObjectCamera('smoky', 'hud');
+	--setObjectCamera('smoky', 'effect');
 	addLuaSprite('smoky', true);
 	setProperty('smoky.alpha', 0.0001);
 	setProperty('smoky.color', 0x00000000);
 	
 	makeLuaSprite('sweet', 'closeup/finale/sweet', 240, 1280);
 	setScrollFactor('sweet', 0, 0);
-	--setObjectCamera('sweet', 'hud');
+	--setObjectCamera('sweet', 'effect');
 	addLuaSprite('sweet', true);
 	setProperty('sweet.alpha', 0.0001);
 	setProperty('sweet.color', 0x00000000);
 	
 	makeLuaSprite('sour', 'closeup/finale/sour', -20, 1280);
 	setScrollFactor('sour', 0, 0);
-	--setObjectCamera('sour', 'hud');
+	-- setObjectCamera('sour', 'effect');
 	addLuaSprite('sour', true);
 	setProperty('sour.alpha', 0.0001);
 	setProperty('sour.color', 0x00000000);

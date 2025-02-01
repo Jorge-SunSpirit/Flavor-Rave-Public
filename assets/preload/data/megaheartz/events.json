@@ -95,16 +95,6 @@
 				40851.0638297872,
 				[
 					[
-						"Change Strum Skin",
-						"bf",
-						"note_sweet"
-					]
-				]
-			],
-			[
-				40851.0638297872,
-				[
-					[
 						"Call on Luas",
 						"eventStep",
 						"384"
@@ -135,11 +125,6 @@
 				54468.085106383,
 				[
 					[
-						"Change Strum Skin",
-						"bf",
-						"note_sour"
-					],
-					[
 						"Call on Luas",
 						"eventStep",
 						"512"
@@ -153,16 +138,6 @@
 						"Call on Luas",
 						"eventStep",
 						"576"
-					]
-				]
-			],
-			[
-				64680.8510638298,
-				[
-					[
-						"Change Strum Skin",
-						"bf",
-						"note_sweet"
 					]
 				]
 			],
@@ -189,11 +164,6 @@
 			[
 				70000.0000000001,
 				[
-					[
-						"Change Strum Skin",
-						"bf",
-						"note_sour"
-					],
 					[
 						"Call on Luas",
 						"eventStep",
@@ -262,16 +232,6 @@
 				]
 			],
 			[
-				75106.3829787235,
-				[
-					[
-						"Change Strum Skin",
-						"bf",
-						"note_sweet"
-					]
-				]
-			],
-			[
 				88404.255319149,
 				[
 					[
@@ -305,11 +265,6 @@
 				108936.170212766,
 				[
 					[
-						"Change Strum Skin",
-						"bf",
-						"note_sour"
-					],
-					[
 						"Change Camera Zoom",
 						"1",
 						"0.8"
@@ -327,32 +282,12 @@
 				]
 			],
 			[
-				122765.957446809,
-				[
-					[
-						"Change Strum Skin",
-						"bf",
-						"note_sweet"
-					]
-				]
-			],
-			[
 				129361.70212766,
 				[
 					[
 						"Change Camera Zoom",
 						"0.85",
 						"0.8"
-					]
-				]
-			],
-			[
-				136170.212765958,
-				[
-					[
-						"Change Strum Skin",
-						"bf",
-						"note_sour"
 					]
 				]
 			],
@@ -373,16 +308,6 @@
 						"Change Camera Zoom",
 						"1.2",
 						"0.6"
-					]
-				]
-			],
-			[
-				153191.489361702,
-				[
-					[
-						"Change Strum Skin",
-						"bf",
-						"note_sweet"
 					]
 				]
 			],

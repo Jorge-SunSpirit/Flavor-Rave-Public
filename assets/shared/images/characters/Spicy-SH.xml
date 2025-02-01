@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Spicy-SH.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SpicyDown0000" x="8" y="8" width="997" height="924" frameX="0" frameY="-25" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0001" x="8" y="8" width="997" height="924" frameX="0" frameY="-25" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0002" x="1013" y="8" width="983" height="930" frameX="-11" frameY="-12" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0003" x="1013" y="8" width="983" height="930" frameX="-11" frameY="-12" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0004" x="2004" y="8" width="975" height="948" frameX="-19" frameY="0" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0005" x="2004" y="8" width="975" height="948" frameX="-19" frameY="0" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0006" x="2987" y="8" width="974" height="949" frameX="-20" frameY="-2" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0007" x="2987" y="8" width="974" height="949" frameX="-20" frameY="-2" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0008" x="2987" y="8" width="974" height="949" frameX="-20" frameY="-2" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0009" x="2987" y="8" width="974" height="949" frameX="-20" frameY="-2" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0010" x="2987" y="8" width="974" height="949" frameX="-20" frameY="-2" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0011" x="2987" y="8" width="974" height="949" frameX="-20" frameY="-2" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0012" x="2987" y="8" width="974" height="949" frameX="-20" frameY="-2" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0013" x="2987" y="8" width="974" height="949" frameX="-20" frameY="-2" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0014" x="2987" y="8" width="974" height="949" frameX="-20" frameY="-2" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyDown0015" x="2987" y="8" width="974" height="949" frameX="-20" frameY="-2" frameWidth="997" frameHeight="951"/>
+	<SubTexture name="SpicyIdle0000" x="3969" y="8" width="834" height="1057" frameX="-11" frameY="-18" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0001" x="3969" y="8" width="834" height="1057" frameX="-11" frameY="-18" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0002" x="4811" y="8" width="834" height="1064" frameX="-11" frameY="-14" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0003" x="4811" y="8" width="834" height="1064" frameX="-11" frameY="-14" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0004" x="5653" y="8" width="833" height="1060" frameX="-6" frameY="-8" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0005" x="5653" y="8" width="833" height="1060" frameX="-6" frameY="-8" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0006" x="6494" y="8" width="833" height="1056" frameX="-1" frameY="-4" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0007" x="6494" y="8" width="833" height="1056" frameX="-1" frameY="-4" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0008" x="7335" y="8" width="833" height="1059" frameX="0" frameY="0" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0009" x="7335" y="8" width="833" height="1059" frameX="0" frameY="0" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0010" x="7335" y="8" width="833" height="1059" frameX="0" frameY="0" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0011" x="7335" y="8" width="833" height="1059" frameX="0" frameY="0" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0012" x="7335" y="8" width="833" height="1059" frameX="0" frameY="0" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0013" x="7335" y="8" width="833" height="1059" frameX="0" frameY="0" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0014" x="7335" y="8" width="833" height="1059" frameX="0" frameY="0" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyIdle0015" x="7335" y="8" width="833" height="1059" frameX="0" frameY="0" frameWidth="845" frameHeight="1078"/>
+	<SubTexture name="SpicyLeft0000" x="8" y="1080" width="942" height="1027"/>
+	<SubTexture name="SpicyLeft0001" x="8" y="1080" width="942" height="1027"/>
+	<SubTexture name="SpicyLeft0002" x="958" y="1080" width="897" height="1018" frameX="-17" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0003" x="958" y="1080" width="897" height="1018" frameX="-17" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0004" x="1863" y="1080" width="844" height="1016" frameX="-10" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0005" x="1863" y="1080" width="844" height="1016" frameX="-10" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0006" x="2715" y="1080" width="846" height="1014" frameX="-14" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0007" x="2715" y="1080" width="846" height="1014" frameX="-14" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0008" x="2715" y="1080" width="846" height="1014" frameX="-14" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0009" x="2715" y="1080" width="846" height="1014" frameX="-14" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0010" x="2715" y="1080" width="846" height="1014" frameX="-14" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0011" x="2715" y="1080" width="846" height="1014" frameX="-14" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0012" x="2715" y="1080" width="846" height="1014" frameX="-14" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0013" x="2715" y="1080" width="846" height="1014" frameX="-14" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0014" x="2715" y="1080" width="846" height="1014" frameX="-14" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyLeft0015" x="2715" y="1080" width="846" height="1014" frameX="-14" frameY="0" frameWidth="942" frameHeight="1027"/>
+	<SubTexture name="SpicyRight0000" x="3569" y="1080" width="929" height="1038" frameX="-20" frameY="0" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0001" x="3569" y="1080" width="929" height="1038" frameX="-20" frameY="0" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0002" x="4506" y="1080" width="882" height="1030" frameX="-28" frameY="-1" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0003" x="4506" y="1080" width="882" height="1030" frameX="-28" frameY="-1" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0004" x="5396" y="1080" width="893" height="1021" frameX="-6" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0005" x="5396" y="1080" width="893" height="1021" frameX="-6" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0006" x="6297" y="1080" width="896" height="1021" frameX="0" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0007" x="6297" y="1080" width="896" height="1021" frameX="0" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0008" x="6297" y="1080" width="896" height="1021" frameX="0" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0009" x="6297" y="1080" width="896" height="1021" frameX="0" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0010" x="6297" y="1080" width="896" height="1021" frameX="0" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0011" x="6297" y="1080" width="896" height="1021" frameX="0" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0012" x="6297" y="1080" width="896" height="1021" frameX="0" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0013" x="6297" y="1080" width="896" height="1021" frameX="0" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0014" x="6297" y="1080" width="896" height="1021" frameX="0" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyRight0015" x="6297" y="1080" width="896" height="1021" frameX="0" frameY="-2" frameWidth="949" frameHeight="1038"/>
+	<SubTexture name="SpicyUp0000" x="7201" y="1080" width="818" height="1091" frameX="-9" frameY="0" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0001" x="7201" y="1080" width="818" height="1091" frameX="-9" frameY="0" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0002" x="8" y="2179" width="835" height="1067" frameX="0" frameY="-19" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0003" x="8" y="2179" width="835" height="1067" frameX="0" frameY="-19" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0004" x="851" y="2179" width="835" height="1041" frameX="0" frameY="-37" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0005" x="851" y="2179" width="835" height="1041" frameX="0" frameY="-37" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0006" x="1694" y="2179" width="835" height="1038" frameX="0" frameY="-39" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0007" x="1694" y="2179" width="835" height="1038" frameX="0" frameY="-39" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0008" x="1694" y="2179" width="835" height="1038" frameX="0" frameY="-39" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0009" x="1694" y="2179" width="835" height="1038" frameX="0" frameY="-39" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0010" x="1694" y="2179" width="835" height="1038" frameX="0" frameY="-39" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0011" x="1694" y="2179" width="835" height="1038" frameX="0" frameY="-39" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0012" x="1694" y="2179" width="835" height="1038" frameX="0" frameY="-39" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0013" x="1694" y="2179" width="835" height="1038" frameX="0" frameY="-39" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0014" x="1694" y="2179" width="835" height="1038" frameX="0" frameY="-39" frameWidth="835" frameHeight="1091"/>
+	<SubTexture name="SpicyUp0015" x="1694" y="2179" width="835" height="1038" frameX="0" frameY="-39" frameWidth="835" frameHeight="1091"/>
+</TextureAtlas>

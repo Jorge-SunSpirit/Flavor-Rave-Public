@@ -9,6 +9,7 @@ import openfl.utils.Assets as OpenFlAssets;
 import haxe.Json;
 import haxe.format.JsonParser;
 import flixel.FlxG;
+import achievements.Achievements;
 
 using StringTools;
 
@@ -28,10 +29,11 @@ typedef WeekFile =
 	var startUnlocked:Bool;
 	var hiddenUntilUnlocked:Bool;
 	var hideStoryMode:Bool;
-	var isExtra:Null<Bool>;
+	var categoryType:Null<String>;
 	var hideFreeplay:Bool;
 	var difficulties:String;
 	var recommended:Int;
+	var force1P:Bool;
 }
 
 class WeekData
@@ -55,11 +57,11 @@ class WeekData
 	public var startUnlocked:Bool;
 	public var hiddenUntilUnlocked:Bool;
 	public var hideStoryMode:Bool;
-	public var isExtra:Null<Bool>;
+	public var categoryType:Null<String>;
 	public var hideFreeplay:Bool;
 	public var difficulties:String;
 	public var recommended:Int;
-
+	public var force1P:Bool = false;
 	public var fileName:String;
 
 	public static function createWeekFile():WeekFile {
@@ -77,10 +79,11 @@ class WeekData
 			startUnlocked: true,
 			hiddenUntilUnlocked: false,
 			hideStoryMode: false,
-			isExtra: false,
+			categoryType: 'extra',
 			hideFreeplay: false,
 			difficulties: '',
 			recommended: 0,
+			force1P: false
 		};
 		return weekFile;
 	}
@@ -92,6 +95,7 @@ class WeekData
 		weekBackground = weekFile.weekBackground;
 		if (weekFile.charaSelect != null)
 			charaSelect = weekFile.charaSelect;
+		force1P = weekFile.force1P;
 		weekBefore = weekFile.weekBefore;
 		storyName = weekFile.storyName;
 		weekName = weekFile.weekName;
@@ -101,7 +105,7 @@ class WeekData
 		startUnlocked = weekFile.startUnlocked;
 		hiddenUntilUnlocked = weekFile.hiddenUntilUnlocked;
 		hideStoryMode = weekFile.hideStoryMode;
-		isExtra = weekFile.isExtra;
+		categoryType = weekFile.categoryType;
 		hideFreeplay = weekFile.hideFreeplay;
 		difficulties = weekFile.difficulties;
 		recommended = weekFile.recommended;
@@ -207,6 +211,7 @@ class WeekData
 		#end
 
 		NoteSkin.init();
+		Achievements.init();
 	}
 
 	private static function addWeek(weekToCheck:String, path:String, directory:String, i:Int, originalLength:Int)

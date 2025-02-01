@@ -25,8 +25,9 @@ class CharaSelect extends MusicBeatSubstate
 	var vinyl:FlxSprite;
 	var player:FlxSprite;
 	var select:FlxSprite;
-	var p1thingie:String;
-	var p2thingie:String;
+	var p1thingie:String = 'sweet';
+	var p2thingie:String = 'sour';
+	var playersthingie:Array<String > = ['sweet', 'sour'];
 	var selectSound:FlxSound;
 
 	var scoreBox:FlxSprite;
@@ -41,23 +42,50 @@ class CharaSelect extends MusicBeatSubstate
 	var letter:String = '';
 	var combo:String = '';
 	var prevMusic:Float = 0;
+	var is1Player:Bool = false;
 
 	var curSelected:Int = 1;
 	var selectGrp:FlxTypedGroup<FlxSprite> = new FlxTypedGroup<FlxSprite>();
 
-	public function new(state:String = 'story', player1:String = 'sweet', player2:String = 'sour', songorweekName:String, recommended:Int = 0)
+	public function new(state:String = 'story', players:Array<String>, songorweekName:String, recommended:Int = 0, oneplayer:Bool = false)
 	{
+		//Honestly making a 1p version of this is janky and I'm currently not in the best of moods. Will prob rewrite later
 		super();
-		p1thingie = player1;
-		p2thingie = player2;
+
+		if (players != null)
+		{
+			// Do not ask me why this is reversed specifically in freeplay
+			if (state == "freeplay") players.reverse();
+
+			playersthingie = players;
+		}
+
 		curSong = songorweekName;
 		whichState = state;
+		is1Player = oneplayer;
 
-		leftside = new FlxSprite(-1280, 0).loadGraphic(Paths.image('charaselect/chara_bg/$player2'));
+		switch (playersthingie.length)
+		{
+			default:
+				p1thingie = players[0];
+				p2thingie = players[1];
+
+				if (oneplayer)
+				{
+					p2thingie = p1thingie;
+					is1Player = true;
+				}
+			case 1:
+				is1Player = true;
+				p1thingie = players[0];
+				p2thingie = players[0];
+		}
+
+		leftside = new FlxSprite(-1280, 0).loadGraphic(Paths.image('charaselect/chara_bg/$p2thingie'));
 		leftside.antialiasing = ClientPrefs.globalAntialiasing;
 		add(leftside);
 
-		rightside = new FlxSprite(2560, 0).loadGraphic(Paths.image('charaselect/chara_bg/$player1'));
+		rightside = new FlxSprite(2560, 0).loadGraphic(Paths.image('charaselect/chara_bg/$p1thingie'));
 		rightside.antialiasing = ClientPrefs.globalAntialiasing;
 		rightside.angle = 180;
 		add(rightside);
@@ -91,12 +119,12 @@ class CharaSelect extends MusicBeatSubstate
 		vinyl.angularVelocity = -25;
 		add(vinyl);
 
-		var sour:FlxSprite = new FlxSprite(-452, 21).loadGraphic(Paths.image('charaselect/portrait/$player2'));
+		var sour:FlxSprite = new FlxSprite(-452, 21).loadGraphic(Paths.image('charaselect/portrait/$p2thingie'));
 		sour.antialiasing = ClientPrefs.globalAntialiasing;
 		sour.ID = 0;
 		add(sour);
 
-		var sweet:FlxSprite = new FlxSprite(1342, 21).loadGraphic(Paths.image('charaselect/portrait/$player1'));
+		var sweet:FlxSprite = new FlxSprite(1342, 21).loadGraphic(Paths.image('charaselect/portrait/$p1thingie'));
 		sweet.antialiasing = ClientPrefs.globalAntialiasing;
 		sweet.ID = 1;
 		add(sweet);
@@ -142,16 +170,33 @@ class CharaSelect extends MusicBeatSubstate
 		selectGrp.add(sour);
 		selectGrp.add(sweet);
 
-		FlxTween.tween(sour, {x: 88}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.2});
-		FlxTween.tween(sweet, {x: 782}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.2});
+		if (is1Player)
+		{
+			sour.visible = false;
+			ort.x = 183;
+			scoreBox.x = 717;
+			scoreText.x = 717;
+			comboText.x = 717;
+			diffCalcText.x = 717;
+			sweet.y = -1280;
+			sweet.x = 184;
+			FlxTween.tween(sweet, {y: 0}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.2});
+			select.x = player.x;
+			FlxTween.tween(select, {x: 748}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.1});
+			FlxTween.tween(player, {x: 742}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.12});
+		}
+		else
+		{
+			FlxTween.tween(sour, {x: 88}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.2});
+			FlxTween.tween(sweet, {x: 782}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.2});
+			FlxTween.tween(select, {x: 500}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.1});
+			FlxTween.tween(player, {x: 493}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.1});
+		}
 
 		FlxTween.tween(leftside, {x: 0}, 0.5, {ease: FlxEase.quadInOut});
 		FlxTween.tween(rightside, {x: 0}, 0.5, {ease: FlxEase.quadInOut});
 
 		FlxTween.tween(vinyl, {y: 70, angle: vinyl.angle - 1000}, 1.2, {ease: FlxEase.quadOut});
-
-		FlxTween.tween(select, {x: 500}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.1});
-		FlxTween.tween(player, {x: 493}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.1});
 
 		FlxTween.tween(ort, {y: 16}, 0.5, {ease: FlxEase.quadOut, startDelay: 0.6});
 
@@ -218,8 +263,11 @@ class CharaSelect extends MusicBeatSubstate
 				hideItems();
 			}
 	
-			if (controls.UI_LEFT_P) changeItem(-1);
-			if (controls.UI_RIGHT_P) changeItem(1);
+			if (!is1Player)
+			{
+				if (controls.UI_LEFT_P) changeItem(-1);
+				if (controls.UI_RIGHT_P) changeItem(1);
+			}
 			if (controls.ACCEPT) totheSong();
 
 			if(ClientPrefs.menuMouse)
@@ -421,9 +469,18 @@ class CharaSelect extends MusicBeatSubstate
 		FlxTween.tween(vinyl, {y: 1280, angle: vinyl.angle + 450}, 0.6, {ease: FlxEase.quadInOut});
 		for (sel in selectGrp.members)
 		{
-			FlxTween.cancelTweensOf(sel);
-			FlxTween.tween(sel, {alpha: 0}, 0.5, {ease: FlxEase.quadInOut});
-			FlxTween.tween(sel, {x: (sel.ID == 0) ? -452 : 1342}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.1});
+			if (is1Player)
+			{
+				FlxTween.cancelTweensOf(sel);
+				FlxTween.tween(sel, {alpha: 0}, 0.5, {ease: FlxEase.quadInOut});
+				FlxTween.tween(sel, {x: 1280}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.1});
+			}
+			else
+			{
+				FlxTween.cancelTweensOf(sel);
+				FlxTween.tween(sel, {alpha: 0}, 0.5, {ease: FlxEase.quadInOut});
+				FlxTween.tween(sel, {x: (sel.ID == 0) ? -452 : 1342}, 0.5, {ease: FlxEase.quadInOut, startDelay: 0.1});
+			}
 		}
 		FlxTween.tween(player, {alpha: 0}, 0.5, {ease: FlxEase.quadInOut});
 		FlxTween.tween(select, {alpha: 0}, 0.5, {ease: FlxEase.quadInOut});

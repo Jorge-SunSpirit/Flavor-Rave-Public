@@ -1,0 +1,19 @@
+{
+	"song": {
+		"name": "Livewire",
+		"artist": "nasadotexe & DPZ",
+		"charter": "Flootena",
+		"titleCardStep": 64,
+		"pauseartist": "Amai Hisa",
+		"extraCharacter": [true, true],
+		"pauseArt": "tangy"
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"freeplay": {
+		"characters": ["tangy", "sour"],
+		"stage": "enzync-night",
+		"isOnePlayer": false
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"song": {
+		"name": "¡Carrera Loca!",
+		"artist": "Noichi",
+		"charter": "Cerbera",
+		"pauseartist": "Millxr",
+		"pauseArt": "sour"
+	},
+	"freeplay": {
+		"characters": ["sour", "savory"],
+		"stage": "corianda",
+		"isOnePlayer": false
+	}
+}

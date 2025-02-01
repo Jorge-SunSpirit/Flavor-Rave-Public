@@ -142,14 +142,14 @@ function onCreatePost()
 	scaleObject('vcr', 1, 1);
 	addLuaSprite('vcr', false);
 	setProperty('vcr.alpha', 0.001);
-	setObjectCamera('vcr', 'hud');
+	setObjectCamera('vcr', 'effect');
 	
 	makeLuaSprite('border', 'enZ-TV/tvborder', 0, 0);
 	setScrollFactor('border', 0, 0);
 	scaleObject('border', 1, 1);
 	addLuaSprite('border', true);
 	setProperty('border.alpha', 0.001);
-	setObjectCamera('border', 'hud');
+	setObjectCamera('border', 'effect');
 	addCharacterToList('sour-mh', 'bf');
 	addCharacterToList('rika-day', 'dad');
 	addCharacterToList('sweet-mh', 'extra');

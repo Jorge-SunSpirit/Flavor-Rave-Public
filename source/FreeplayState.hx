@@ -21,9 +21,13 @@ import flixel.tweens.FlxEase;
 import flixel.util.FlxColor;
 import lime.utils.Assets;
 import openfl.utils.Assets as OpenFlAssets;
+import haxe.Json;
+import achievements.Achievements;
+
+#if MODS_ALLOWED
 import sys.FileSystem;
-import sys.FileSystem;
-import sys.FileSystem;
+import sys.io.File;
+#end
 
 using StringTools;
 
@@ -93,17 +97,69 @@ class FreeplayState extends MusicBeatState
 			WeekData.setDirectoryFromWeek(leWeek);
 			for (song in leWeek.songs)
 			{
-				var colors:Array<Int> = song[2];
-				if(colors == null || colors.length < 3)
+				var cSelect:Array<String> = ['sour', 'sweet'];
+				var theStage:String = 'emptystage';
+				var isOneP:Bool = false;
+				var visualname:String = '';
+
+				// read the metadata
+				var metadata:Metadata = null;
+				var hasmeta:Bool = false;
+
+				try
 				{
-					colors = [146, 113, 253];
+					var rawJson = null;
+					#if MODS_ALLOWED
+					var moddyFile:String = Paths.modsJson(Paths.formatToSongPath(song[0]) + '/meta');
+					if (FileSystem.exists(moddyFile))
+						rawJson = File.getContent(moddyFile).trim();
+					#end
+					if (rawJson == null)
+					{
+						#if sys
+						rawJson = File.getContent(Paths.json(Paths.formatToSongPath(song[0]) + '/meta')).trim();
+						#else
+						rawJson = Assets.getText(Paths.json(Paths.formatToSongPath(song[0]) + '/meta')).trim();
+						#end
+					}
+		
+					while (!rawJson.endsWith("}"))
+						rawJson = rawJson.substr(0, rawJson.length - 1);
+		
+					hasmeta = true;
+					metadata = cast Json.parse(rawJson);
+					trace('[${song[0]}] Metadata Found!!!');
 				}
-				var cSelect:Array<String> = (song[3] != null ? song[3] : ['sour', 'sweet']);
-				var theStage:String = (song[4] != null ? song[4] : 'emptystage');
-				//trace(cSelect);
+				catch (e)
+				{
+					hasmeta = false;
+					trace('[${song[0]}] Metadata either doesn\'t exist or contains an error!');
+				}
+
+				//It crashes workaround will def work!!!
+				
+				if (hasmeta && metadata.freeplay != null)
+				{
+					if (metadata.freeplay.characters != null)
+						cSelect = metadata.freeplay.characters;
+					if (metadata.freeplay.stage != null)
+						theStage = metadata.freeplay.stage;
+					if (metadata.freeplay.isOnePlayer != null)
+						isOneP = metadata.freeplay.isOnePlayer;
+					if (metadata.song.name != null)
+						visualname = metadata.song.name;
+				}
+
 				var p1:String = cSelect[0];
 				var p2:String = cSelect[1];
-				addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]), [p1, p2], theStage);
+				addSong(song[0], i, [p1, p2], theStage, isOneP, visualname);
+
+				if (Highscore.checkBeaten(song[0], 0) && Highscore.checkSongFC(song[0], 0))
+					Achievements.unlockAchievement(song[0] + '-FC');
+				if (Highscore.checkBeaten(song[0], 0, 'left') && Highscore.checkSongSideFC(song[0] + '-opponent', 0))
+					Achievements.unlockAchievement(song[0] + '-LEFTFC');
+				if (Highscore.checkBeaten(song[0], 0, 'right') && Highscore.checkSongSideFC(song[0], 0))
+					Achievements.unlockAchievement(song[0] + '-RIGHTFC');
 			}
 		}
 
@@ -143,8 +199,9 @@ class FreeplayState extends MusicBeatState
 
 		for (i in 0...songs.length)
 		{
+			var namer:String = (songs[i].visualName != '' ? songs[i].visualName : songs[i].songName);
 			Paths.currentModDirectory = songs[i].folder;
-			var songObject:FMenuItem = new FMenuItem(582 - (i * 40), 450, songs[i].songName);
+			var songObject:FMenuItem = new FMenuItem(582 - (i * 40), 450, namer);
 			songObject.ID = i;
 			grpSongs.add(songObject);
 		}
@@ -187,9 +244,9 @@ class FreeplayState extends MusicBeatState
 	}
 
 	//Redundant and might be worth removing but keeping just incase
-	public function addSong(songName:String, weekNum:Int, songCharacter:String, color:Int, charaSelect:Array<String>, stage:String)
+	public function addSong(songName:String, weekNum:Int, charaSelect:Array<String>, stage:String, isOnePW:Bool = false, visuName:String = '')
 	{
-		songs.push(new SongMetadata(songName, weekNum, songCharacter, color, charaSelect, stage));
+		songs.push(new SongMetadata(songName, weekNum, charaSelect, stage, isOnePW, visuName));
 	}
 
 	var instPlaying:Int = -1;
@@ -262,7 +319,7 @@ class FreeplayState extends MusicBeatState
 								else
 								{
 									FlxG.sound.play(Paths.sound('confirmMenu'));
-									openSubState(new CharaSelect('freeplay', songs[curSelected].charaSelect[1], songs[curSelected].charaSelect[0], songs[curSelected].songName));
+									openSubState(new CharaSelect('freeplay', songs[curSelected].charaSelect.copy(), songs[curSelected].songName, 0, songs[curSelected].force1P));
 								}
 							}
 						}
@@ -340,13 +397,13 @@ class FreeplayState extends MusicBeatState
 			else if (accepted && allowSelect)
 			{
 				FlxG.sound.play(Paths.sound('confirmMenu'));
-				openSubState(new CharaSelect('freeplay', songs[curSelected].charaSelect[1], songs[curSelected].charaSelect[0], songs[curSelected].songName));
+				openSubState(new CharaSelect('freeplay', songs[curSelected].charaSelect.copy(), songs[curSelected].songName, 0, songs[curSelected].force1P));
 			}
 			else if(controls.RESET)
 			{
 				persistentUpdate = false;
 				var type:String = "";
-				openSubState(new ResetScoreSubState(songs[curSelected].songName + type, curDifficulty, songs[curSelected].songCharacter));
+				openSubState(new ResetScoreSubState(songs[curSelected].songName + type, curDifficulty));
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 			}
 		}
@@ -521,22 +578,22 @@ class FreeplayState extends MusicBeatState
 class SongMetadata
 {
 	public var songName:String = "";
+	public var visualName:String = "";
 	public var week:Int = 0;
-	public var songCharacter:String = "";
-	public var color:Int = -7179779;
 	public var folder:String = "";
 	public var charaSelect:Array<String> = ['sour', 'sweet'];
 	public var theStage:String = "";
+	public var force1P:Bool = false;
 
-	public function new(song:String, week:Int, songCharacter:String, color:Int, charaSelect:Array<String>, theStage:String)
+	public function new(song:String, week:Int, charaSelect:Array<String>, theStage:String, force1P:Bool = false, vName:String = '')
 	{
 		this.songName = song;
+		this.visualName = vName;
 		this.week = week;
-		this.songCharacter = songCharacter;
-		this.color = color;
 		this.folder = Paths.currentModDirectory;
 		this.charaSelect = charaSelect;
 		this.theStage = theStage;
+		this.force1P = force1P;
 		if(this.folder == null) this.folder = '';
 	}
 }

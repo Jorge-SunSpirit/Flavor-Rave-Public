@@ -1,6 +1,8 @@
 package funkin.util.macro;
 
-#if !display
+// Disabled rn due to it causing huge unstaged changes making the game not compile
+// #if !display
+#if false
 class GitCommit
 {
   /**

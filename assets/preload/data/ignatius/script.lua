@@ -40,14 +40,14 @@ function onCreate()
 	setScrollFactor('smokeTop', 0, 0);
 	scaleObject('smokeTop', 1, 1);
 	addLuaSprite('smokeTop', false);
-	setObjectCamera('smokeTop', 'hud');
+	setObjectCamera('smokeTop', 'effect');
 
 	makeAnimatedLuaSprite('smokeBottom', 'backstreet/smokeborderbottom', -75, 722);
 	addAnimationByPrefix('smokeBottom', 'idle', 'BorderSmokyBottom', 24, true);
 	setScrollFactor('smokeBottom', 0, 0);
 	scaleObject('smokeBottom', 1, 1);
 	addLuaSprite('smokeBottom', false);
-	setObjectCamera('smokeBottom', 'hud');
+	setObjectCamera('smokeBottom', 'effect');
 	
 	makeLuaSprite('text1', 'togarashi/introtext3', 195, 300);
 	setScrollFactor('text1', 0, 0);

@@ -1,0 +1,103 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				0
+			],
+			"anim": "idle",
+			"fps": 22,
+			"name": "TangyIdle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-71,
+				-35
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "TangyDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				40
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "TangyLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				10
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "TangyRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				70
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "TangyUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				348,
+				103
+			],
+			"anim": "grab",
+			"fps": 24,
+			"name": "TangyGrab",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-7,
+				3
+			],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "TangyIdle_loop0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Tangy_RAVE",
+	"position": [
+		-250,
+		-50
+	],
+	"healthicon": "tangy",
+	"flip_x": false,
+	"healthbar_colors": [
+		200,
+		255,
+		20
+	],
+	"camera_position": [
+		180,
+		35
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Tangy",
+	"healthbar_image": "tangy",
+	"musicNoteOffset": [0,0]
+}

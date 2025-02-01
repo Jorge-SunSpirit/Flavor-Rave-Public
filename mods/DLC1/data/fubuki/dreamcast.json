@@ -1,0 +1,203 @@
+{
+	"dialogue": [
+		{
+			"background": "c1",
+			"chara": ["spicy", 1, true],
+			"border": "togarashi-winter",
+			"bgm": "TogarashiCentral",
+			"bgmVolume": 0.1,
+			"text": "A-aaachoo!!!",
+			"voice": ""
+		},
+		{
+			"background": "c1",
+			"chara": ["smoky", 0, true],
+			"text": "You hanging in there, Spicy?",
+			"voice": ""
+		},
+		{
+			"background": "c1",
+			"chara": ["spicy", 1, true],
+			"sound": ["spicy","ugh"],
+			"text": "*sniffle sniffle* Blehhh… S-so cold…",
+			"voice": ""
+		},
+		{
+			"background": "c1",
+			"chara": ["smoky", 0, true],
+			"text": "We'll be back at my place soon enough. I'll have specialty tea brewing as soon as we're back. Should warm you right up.",
+			"voice": ""
+		},
+		{
+			"background": "c1",
+			"chara": ["spicy", 1, true],
+			"text": "Man... Togarashi Town is always so nice and warm during every other season… so why does it get so darn cold in the winter? I don't get it…",
+			"voice": ""
+		},
+		{
+			"background": "c1",
+			"chara": ["smoky", 0, true],
+			"text": "I'm no expert on weather, but… when I was younger, I used to wonder the same thing.",
+			"voice": ""
+		},
+		{
+			"background": "c2",
+			"chara": ["smoky", 0, true],
+			"sound": ["smoky","ahem"],
+			"text": "My mother had a story she'd tell me about this place. Ever since the town was built, it was watched over by two ancient beasts...",
+			"voice": ""
+		},
+		{
+			"background": "c2",
+			"chara": ["smoky", 0, true],
+			"text": "A fox of smoldering fire who controlled the heat... and a dragon of ice who ruled the cold.",
+			"voice": ""
+		},
+		{
+			"background": "c2",
+			"chara": ["smoky", 0, true],
+			"text": "The Weather Beasts, as they were called, were fiercely competitive, always trying to prove who's domain was the strongest, a constant push and pull aided by the changing of seasons.",
+			"voice": ""
+		},
+		{
+			"background": "c2",
+			"chara": ["spicy", 1, true],
+			"text": "Can those Weather Beasts take their competition somewhere else? Better yet, I want a word with this Ice Dragon! I need them to chill the heck out with all the snow and shivers!",
+			"voice": ""
+		},
+		{
+			"background": "c2",
+			"chara": ["smoky", 0, true],
+			"text": "As nice as warmer weather would be, creatures of legend like that don't make their presence known to humans.",
+			"voice": ""
+		},
+		{
+			"background": "c2",
+			"chara": ["spicy", 0, true],
+			"text": "…are you sure about that?",
+			"voice": ""
+		},
+		{
+			"background": "c2",
+			"chara": ["smoky", 0, true],
+			"sound": ["smoky","what"],
+			"text": "…yes? ",
+			"voice": ""
+		},
+		{
+			"background": "c3",
+			"chara": ["spicy", 0, true],
+			"text": "Smoki-doki! Look! Right by the gate!",
+			"voice": ""
+		},
+		{
+			"background": "c3",
+			"chara": ["spicy", 0, true],
+			"text": "That tail… those horns… that shade of blue! It's gotta be!",
+			"voice": ""
+		},
+		{
+			"background": "c3",
+			"chara": ["spicy", 2, true],
+			"sound": ["spicy","heyyou"],
+			"text": "Hey, you! Hold the heck up!",
+			"voice": ""
+		},
+		{
+			"background": "c4",
+			"chara": ["ace", 1, true],
+			"sound": ["ace","whatsup"],
+			"text": "…are you talking to me?",
+			"voice": ""
+		},
+		{
+			"background": "c4",
+			"chara": ["spicy", 2, true],
+			"text": "Yeah, you! The mythical Ice Dragon of legend, live in person! It's challenge time! No backsies!",
+			"voice": ""
+		},
+		{
+			"background": "c4",
+			"chara": ["spicy", 2, true],
+			"text": "If I win, you have to back down and let it be sunny all year!",
+			"voice": ""
+		},
+		{
+			"background": "c4",
+			"chara": ["ace", 1, true],
+			"text": "Oh? Well… I wouldn't exactly call myself 'mythical' or 'a legend'.",
+			"voice": ""
+		},
+		{
+			"background": "c4",
+			"chara": ["ace", 0, true],
+			"text": "I'm also not from here. I've just been taking a little vacation from my home city, is all. I think you got the wrong guy, eheh-",
+			"voice": ""
+		},
+		{
+			"background": "c4",
+			"chara": ["ace", 1, true],
+			"text": "Though, what's this about a challenge? Are you trying to, like, fight me or something?",
+			"voice": ""
+		},
+		{
+			"background": "c4",
+			"chara": ["spicy", 2, true],
+			"text": "Not that kind of fighting! A music fight! ",
+			"voice": ""
+		},
+		{
+			"background": "c5",
+			"chara": ["ace", 2, true],
+			"text": "Oh! I guess sudden music battles are common here, too.",
+			"voice": ""
+		},
+		{
+			"background": "c5",
+			"chara": ["ace", 2, true],
+			"sound": ["ace","perfect"],
+			"text": "Y'know, I could go for some singing right about now, even if I can't help with your weather problem.",
+			"voice": ""
+		},
+		{
+			"background": "c5",
+			"chara": ["smoky", 0, true],
+			"sound": ["smoky","hmm"],
+			"text": "Hmm… I wouldn't mind joining for a quick bout. You think you'll be ok in the cold for a little longer, Spicy?",
+			"voice": ""
+		},
+		{
+			"background": "c5",
+			"chara": ["spicy", 2, true],
+			"sound": ["spicy","youreon"],
+			"text": "I'm all fired up now! No snow is gonna stop me from making this happen!",
+			"voice": ""
+		},
+		{
+			"background": "c5",
+			"chara": ["spicy", 2, true],
+			"text": "I bet if that Weather Beast saw us win against another dragon, they'll get all scared and go runnin' away!",
+			"voice": ""
+		},
+		{
+			"background": "c5",
+			"chara": ["spicy", 2, true],
+			"text": "Let's do this, Ice Dragon of… where are you from?",
+			"voice": ""
+		},
+		{
+			"background": "c5",
+			"chara": ["ace", 1, true],
+			"sound": ["ace","chuckle"],
+			"text": "Brooklyn.",
+			"voice": ""
+		},
+		{
+			"background": "c5",
+			"chara": ["spicy", 0, true],
+			"sound": ["spicy","YEAH"],
+			"text": "…of Brooklyn! Huh, never heard of a place like that.",
+			"voice": ""
+		}
+	]
+}

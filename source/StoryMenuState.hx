@@ -45,7 +45,8 @@ class StoryMenuState extends MusicBeatState
 	var sprDifficulty:FlxSprite;
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
-	public static var extraMenu:Bool = false;
+	var storyMenuCat:Array<String> = ['story', 'collab', 'extra'];
+	public static var curPage:Int = 0;
 
 	var loadedWeeks:Array<WeekData> = [];
 
@@ -92,9 +93,16 @@ class StoryMenuState extends MusicBeatState
 		add(rightArrow);
 
 		var headerSprite:String = 'story_menuy/StoryMenuHeader';
-
-		if (extraMenu)
-			headerSprite = 'story_menuy/StoryMenuHeaderBonus';
+		
+		switch (storyMenuCat[curPage])
+		{
+			case 'extra':
+				headerSprite = 'story_menuy/StoryMenuHeaderBonus';
+			case 'collab':
+				headerSprite = 'story_menuy/StoryMenuHeaderCollab';
+			default:
+				headerSprite = 'story_menuy/StoryMenuHeader';
+		}
 
 		var bgHeader:FlxSprite = new FlxSprite().loadGraphic(Paths.image(headerSprite));
 		bgHeader.antialiasing = ClientPrefs.globalAntialiasing;
@@ -115,12 +123,22 @@ class StoryMenuState extends MusicBeatState
 			var weekNumber:Int = i;
 			var isLocked:Bool = WeekData.weekIsLocked(WeekData.weeksList[i]);
 
-			if (Paths.currentModDirectory != '' && weekFile.isExtra == null)
-				weekFile.isExtra = true;
-
-			if((!isLocked || !weekFile.hiddenUntilUnlocked) && (weekFile.isExtra && extraMenu || !weekFile.isExtra && !extraMenu))
+			switch (weekFile.categoryType)
 			{
-				if (weekFile.fileName != 'extra_0')
+				case 'story' | 'collab':
+					//trace('This is so we dont accidentally overright it hueh');
+				case null:
+					weekFile.categoryType = 'extra';
+				default:
+					weekFile.categoryType = 'extra';
+			}
+
+			if (weekFile.categoryType != storyMenuCat[curPage])
+				continue;
+
+			if((!isLocked || !weekFile.hiddenUntilUnlocked))
+			{
+				if (weekFile.fileName != 'xextra_0')
 				{
 					loadedWeeks.push(weekFile);
 					var menuItem:StoryItem;
@@ -136,9 +154,14 @@ class StoryMenuState extends MusicBeatState
 			}
 		}
 
+		if (loadedWeeks.length < 1)
+		{
+			selectedWeek = true;
+			return; //This looks ugly but will never see it in game as long as DLC is installed
+		}
+
 		WeekData.setDirectoryFromWeek(loadedWeeks[0]);
 		var charArray:Array<String> = loadedWeeks[0].weekCharacters;
-
 
 		for (char in 0...4)
 		{	
@@ -181,15 +204,14 @@ class StoryMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-
-		if (!movedBack && !selectedWeek)
+		var upP = controls.UI_UP_P;
+		var downP = controls.UI_DOWN_P;
+		var leftP = controls.UI_LEFT_P;
+		var rightP = controls.UI_RIGHT_P;
+		var ctrl = FlxG.keys.justPressed.CONTROL;
+		var mbutt = FlxG.keys.justPressed.M;
+		if (!selectedWeek)
 		{
-			var upP = controls.UI_UP_P;
-			var downP = controls.UI_DOWN_P;
-			var leftP = controls.UI_LEFT_P;
-			var rightP = controls.UI_RIGHT_P;
-			var ctrl = FlxG.keys.justPressed.CONTROL;
-			var mbutt = FlxG.keys.justPressed.M;
 			if (upP)
 			{
 				changeWeek(-1);
@@ -202,13 +224,10 @@ class StoryMenuState extends MusicBeatState
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 			}
 
-			if (rightP || leftP)
-			{
-				persistentUpdate = false;
-				extraMenu = !extraMenu;
-				FlxG.sound.play(Paths.sound('scrollMenu'));
-				MusicBeatState.switchState(new StoryMenuState());
-			}
+			if (rightP)
+				changeStoryCat(1);
+			else if (leftP)
+				changeStoryCat(-1);
 
 			if(mbutt)
 			{
@@ -228,7 +247,7 @@ class StoryMenuState extends MusicBeatState
 					rec = 0;
 
 				FlxG.sound.play(Paths.sound('confirmMenu'));
-				openSubState(new CharaSelect('story', loadedWeeks[curWeek].charaSelect[0], loadedWeeks[curWeek].charaSelect[1], loadedWeeks[curWeek].fileName, rec));
+				openSubState(new CharaSelect('story', loadedWeeks[curWeek].charaSelect, loadedWeeks[curWeek].fileName, rec, loadedWeeks[curWeek].force1P));
 			}
 
 			if(ClientPrefs.menuMouse)
@@ -242,15 +261,12 @@ class StoryMenuState extends MusicBeatState
 						changeWeek(-1);	
 				}
 
-				if(FlxG.mouse.overlaps(rightArrow) || FlxG.mouse.overlaps(leftArrow))
+				if(FlxG.mouse.justPressed)
 				{
-					if(FlxG.mouse.justPressed)
-					{
-						persistentUpdate = false;
-						extraMenu = !extraMenu;
-						FlxG.sound.play(Paths.sound('scrollMenu'));
-						MusicBeatState.switchState(new StoryMenuState());
-					}
+					if (FlxG.mouse.overlaps(rightArrow) && ClientPrefs.pastOGWeek)
+						changeStoryCat(1);
+					if (FlxG.mouse.overlaps(leftArrow) && ClientPrefs.pastOGWeek)
+						changeStoryCat(-1);
 				}
 
 				grpWeekText.forEach(function(spr:StoryItem)
@@ -271,7 +287,7 @@ class StoryMenuState extends MusicBeatState
 									rec = 0;
 
 								FlxG.sound.play(Paths.sound('confirmMenu'));
-								openSubState(new CharaSelect('story', loadedWeeks[curWeek].charaSelect[0], loadedWeeks[curWeek].charaSelect[1], loadedWeeks[curWeek].fileName, rec));
+								openSubState(new CharaSelect('story', loadedWeeks[curWeek].charaSelect, loadedWeeks[curWeek].fileName, rec, loadedWeeks[curWeek].force1P));
 							}
 						}
 					}
@@ -279,17 +295,31 @@ class StoryMenuState extends MusicBeatState
 			}
 		}
 
-		if (controls.BACK && !movedBack && !selectedWeek #if !FORCE_DEBUG_VERSION && ClientPrefs.pastOGWeek #end)
+		if (controls.BACK && !selectedWeek #if !FORCE_DEBUG_VERSION && ClientPrefs.pastOGWeek #end)
 		{
 			FlxG.sound.play(Paths.sound('cancelMenu'));
-			movedBack = true;
 			MusicBeatState.switchState(new MainMenuState());
+		}
+
+		if (loadedWeeks.length < 1 && selectedWeek)
+		{
+			if(FlxG.mouse.justPressed && ClientPrefs.menuMouse)
+			{
+				if (FlxG.mouse.overlaps(rightArrow))
+					changeStoryCat(1);
+				if (FlxG.mouse.overlaps(leftArrow))
+					changeStoryCat(-1);
+			}
+
+			if (rightP)
+				changeStoryCat(1);
+			else if (leftP)
+				changeStoryCat(-1);
 		}
 
 		super.update(elapsed);
 	}
 
-	var movedBack:Bool = false;
 	public var selectedWeek:Bool = false;
 	var stopspamming:Bool = false;
 
@@ -321,13 +351,25 @@ class StoryMenuState extends MusicBeatState
 
 			PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + diffic, PlayState.storyPlaylist[0].toLowerCase());
 			PlayState.campaignScore = 0;
+			PlayState.campaignHits = 0;
+			PlayState.campaignMisses = 0;
+			PlayState.campaignAccuracy = 0.00;
+			PlayState.campaignTotalPlayed = 0;
+			PlayState.campaignTotalNotesHit = 0.0;
+
+			PlayState.campaignMarvelous = 0;
 			PlayState.campaignSicks = 0;
 			PlayState.campaignGoods = 0;
+			PlayState.campaignBads = 0;
 			PlayState.campaignShits = 0;
-			PlayState.campaignMisses = 0;
-
 			PlayState.campaignEarlys = 0;
 			PlayState.campaignLates = 0;
+
+			PlayState.restartScore = 0;
+			PlayState.restartHits = 0;
+			PlayState.restartMisses = 0;
+			PlayState.restartAccuracy = 0.00;
+
 			new FlxTimer().start(1, function(tmr:FlxTimer)
 			{
 				LoadingState.loadAndSwitchState(new PlayState(), true);
@@ -336,6 +378,19 @@ class StoryMenuState extends MusicBeatState
 		} else {
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 		}
+	}
+
+	function changeStoryCat(change:Int = 0)
+	{
+		curPage += change;
+		if (curPage >= storyMenuCat.length)
+			curPage = 0;
+		if (curPage < 0)
+			curPage = storyMenuCat.length - 1;
+
+		persistentUpdate = false;
+		FlxG.sound.play(Paths.sound('scrollMenu'));
+		MusicBeatState.switchState(new StoryMenuState());
 	}
 
 	function changeWeek(change:Int = 0):Void

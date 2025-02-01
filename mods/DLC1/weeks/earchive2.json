@@ -1,0 +1,28 @@
+{
+	"songs": [
+		["Sinverguenza"]
+	],
+
+	"weekCharacters": [
+		"Savory",
+		"empty",
+		"empty",
+		"empty"
+	],
+	"charaSelect": [
+		"savory",
+		"synthetic"
+	],
+	"force1P": true,
+	"weekBackground": "chiltepin",
+	"weekType": "Interlude",
+	"storyName": "Unfinished Songs",
+	"weekBefore": "dinterlude5",
+	"weekName": "Archive 2",
+	"location": "La Casa Chiltepin",
+	"startUnlocked": false,
+	"categoryType": "bonus",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

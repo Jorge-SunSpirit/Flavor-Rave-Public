@@ -1,0 +1,32 @@
+{
+	"character":
+	[
+		{
+			"chara": "tangy",
+			"flavorText": "Enzync City isn't all glitz and glamour for everyone who lives there. The less wealthy residents live in the southernmost part of the city, given the unflattering nickname of 'The Leftovers'. Tangy had grown up in the Leftovers, living through a plethora of rough conditions that shaped her to be tough and standoffish.\n\nHer encounters with those from the well-off areas of Enzync City filled her with a deep sense of spite and anger. She resents people who have everything in life handed to them, and no person to her represents that sense of undeserved luck in life more than Sour, whom Tangy has made her eternal rival. With Sour's popularity became too big to ignore, Tangy wants nothing more than to tear him down.",
+			"tag": "tangy",
+			"bgs": "tangy",
+			"voicelines": ["1"]
+			
+		},
+		{
+			"chara": "salty",
+			"flavorText": "A man born in the Preheats who quickly found more joy out at sea than anywhere on land. Salty started as just a humble sailor before slowly adopting the full classic pirate motif and ideals, traveling the world in search of new lands and hidden treasures.\n\nSalty is one of the last true pirates in the entire world, though on his voyages, he's adopted many willing patrons into his crew, which he treats like family. Salty's bombastic personality and big heart makes him well appreciated by those who know him, though he's earned the heavy disdain of Enzync's Coast Guard, who hope to turn the man in for his unlawful treading of the Enzync shores.",
+			"tag": "salty",
+			"bgs": "salty",
+			"songCheck": "Lodestar Shanty",
+			"voicelines": ["1"]
+			
+		},
+		{
+			"chara": "ace",
+			"flavorText": "Good friends, good vibes, and good music is what this guy is all about. Ace, an anthropomorphic dragon, revels in the atmosphere of big cities, finding the vibes of Enzync City very similar to that of his home in Brooklyn, New York. He's very attuned to the cold, usually making his appearances during the winter, and bringing swaths of fine, crystalline snow wherever he moves.\n\nMusic means a lot to Ace, He'll always appreciate a good bout of song with fellow city dwellers, and when he's feeling overwhelmed, the relaxing melodies of music can help set his mind straight again.",
+			"tag": "ace",
+			"bgs": "ace",
+			"voicelines": ["1"],
+			"songCheck": "Fubuki",
+			"link": "https://gamebanana.com/mods/311759"
+			
+		}
+	]
+}

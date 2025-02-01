@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["Heartstrings"]
+	],
+
+	"weekCharacters": [
+		"Sweet",
+		"Daisy",
+		"Empty",
+		"Empty"
+	],
+	"charaSelect": [
+		"daisy",
+		"sweet"
+	],
+	"weekBackground": "openmic",
+	"weekType": "Collab",
+	"storyName": "Collab Stories",
+	"weekBefore": "xcollab_3",
+	"weekName": "Undead: Live!",
+	"location": "Open Mic Night",
+	"startUnlocked": false,
+	"categoryType": "collab",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

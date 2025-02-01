@@ -1,0 +1,1181 @@
+{
+	"song": {
+		"events": [
+			[
+				5064.93506493506,
+				[
+					[
+						"Play SFX",
+						"jump",
+						"1"
+					]
+				]
+			],
+			[
+				12337.6623376623,
+				[
+					[
+						"Note Camera Movement",
+						"8",
+						""
+					],
+					[
+						"Change Camera Bump frequency",
+						"12",
+						"1"
+					]
+				]
+			],
+			[
+				24545.4545454545,
+				[
+					[
+						"Lyric Display",
+						"Oh!",
+						""
+					]
+				]
+			],
+			[
+				24870.1298701299,
+				[
+					[
+						"Change Camera Bump frequency",
+						"24",
+						"1"
+					]
+				]
+			],
+			[
+				24935.0649350649,
+				[
+					[
+						"Lyric Display",
+						"Come, me hearties, sing along! Lift up ye spirits high!",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.86",
+						"0.7"
+					]
+				]
+			],
+			[
+				28051.948051948,
+				[
+					[
+						"Lyric Display",
+						"Hoist the mizzen, anchors weigh, let the Jolly Roger fly!",
+						""
+					]
+				]
+			],
+			[
+				31168.8311688312,
+				[
+					[
+						"Lyric Display",
+						"Spread right out the treasure map! Wake up and smell the ale!",
+						""
+					]
+				]
+			],
+			[
+				34285.7142857143,
+				[
+					[
+						"Lyric Display",
+						"Throw ye worries in the brig, this pirate’s settin’ sail!",
+						""
+					]
+				]
+			],
+			[
+				37402.5974025974,
+				[
+					[
+						"Lyric Display",
+						"When the storms befuddle you, pick up an oar and row!",
+						""
+					]
+				]
+			],
+			[
+				40519.4805194805,
+				[
+					[
+						"Lyric Display",
+						"Scuttle all yer troubles, lose ye woes in the undertow!",
+						""
+					]
+				]
+			],
+			[
+				43636.3636363636,
+				[
+					[
+						"Lyric Display",
+						"Scurvy or the Navy, we can blow ‘em all away.",
+						""
+					]
+				]
+			],
+			[
+				46753.2467532467,
+				[
+					[
+						"Lyric Display",
+						"Free to lose yerself at sea: The Pirate’s way! Oh!",
+						""
+					]
+				]
+			],
+			[
+				49870.1298701299,
+				[
+					[
+						"Lyric Display",
+						"Yo-ho! Yo-ho! Across the ocean waves!",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.7"
+					]
+				]
+			],
+			[
+				52857.1428571429,
+				[
+					[
+						"Lyric Display",
+						"The seven seas spur ever on a soul that spills of RAVE!",
+						""
+					]
+				]
+			],
+			[
+				56103.8961038961,
+				[
+					[
+						"Lyric Display",
+						"Yo-ho! Yo-ho! We sail the salty straits!",
+						""
+					]
+				]
+			],
+			[
+				59220.7792207792,
+				[
+					[
+						"Lyric Display",
+						"Wind be at our backs, me boy! Adventure sure awaits!",
+						""
+					]
+				]
+			],
+			[
+				62337.6623376623,
+				[
+					[
+						"Lyric Display",
+						"",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.94",
+						"0.7"
+					]
+				]
+			],
+			[
+				74805.1948051949,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.5"
+					]
+				]
+			],
+			[
+				79415.5844155845,
+				[
+					[
+						"Change Camera Zoom",
+						"0.95",
+						"0.5"
+					]
+				]
+			],
+			[
+				82077.9220779222,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.5"
+					]
+				]
+			],
+			[
+				86493.5064935066,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.5"
+					]
+				]
+			],
+			[
+				99740.25974026,
+				[
+					[
+						"Screen Shake",
+						"0.2, 0.02",
+						"0.2, 0.02"
+					]
+				]
+			],
+			[
+				105974.025974026,
+				[
+					[
+						"Lyric Display",
+						"Come, me boy, and join me crew to lift yer spirits high!",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.7"
+					]
+				]
+			],
+			[
+				108961.038961039,
+				[
+					[
+						"Lyric Display",
+						"The sea shall wash away your doubt as the Jolly Roger flies!",
+						""
+					]
+				]
+			],
+			[
+				112207.792207793,
+				[
+					[
+						"Lyric Display",
+						"Tides that roar and skies of pitch would bend a lubber’s heart.",
+						""
+					]
+				]
+			],
+			[
+				115194.805194806,
+				[
+					[
+						"Lyric Display",
+						"But those who brave the roughest waves shall ne’r be kept apart!",
+						""
+					]
+				]
+			],
+			[
+				118441.558441559,
+				[
+					[
+						"Lyric Display",
+						"You, me boy, know what ye want. To what lengths would ye go?",
+						""
+					]
+				]
+			],
+			[
+				121558.441558442,
+				[
+					[
+						"Lyric Display",
+						"Flush with vim and vigor, you're her young and feisty beau!",
+						""
+					]
+				]
+			],
+			[
+				124675.324675325,
+				[
+					[
+						"Lyric Display",
+						"You would see yer sweetie-pie, it matters not how far.",
+						""
+					]
+				]
+			],
+			[
+				127792.207792208,
+				[
+					[
+						"Lyric Display",
+						"Trust me crew, and we will get you to yer lodestar!",
+						""
+					]
+				]
+			],
+			[
+				130909.090909091,
+				[
+					[
+						"Lyric Display",
+						"Yo-ho! Yo-ho! Across the ocean waves!",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.7"
+					]
+				]
+			],
+			[
+				133896.103896104,
+				[
+					[
+						"Lyric Display",
+						"The seven seas spur ever on a soul that spills of RAVE!",
+						""
+					]
+				]
+			],
+			[
+				137142.857142858,
+				[
+					[
+						"Lyric Display",
+						"Yo-ho! Yo-ho! We sail the salty straits!",
+						""
+					]
+				]
+			],
+			[
+				140259.740259741,
+				[
+					[
+						"Lyric Display",
+						"Wind be at our backs, me boy! Yer treasured love awaits!",
+						""
+					]
+				]
+			],
+			[
+				143376.623376624,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.7"
+					]
+				]
+			],
+			[
+				143636.363636364,
+				[
+					[
+						"Lyric Display",
+						"There ain’t a wave a pirate’s soul can’t tame.",
+						""
+					]
+				]
+			],
+			[
+				146712.662337663,
+				[
+					[
+						"Lyric Display",
+						"To fan yer spark into a flame!",
+						""
+					]
+				]
+			],
+			[
+				149805.194805195,
+				[
+					[
+						"Lyric Display",
+						"Just take a step away from what’s to blame.",
+						""
+					]
+				]
+			],
+			[
+				152500.000000001,
+				[
+					[
+						"Lyric Display",
+						"That means the railing, boy! C’mere!",
+						""
+					]
+				]
+			],
+			[
+				154090.90909091,
+				[
+					[
+						"Lyric Display",
+						"This song will wash away yer fear! ",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"1.1",
+						"0.6"
+					]
+				]
+			],
+			[
+				155844.155844156,
+				[
+					[
+						"Lyric Display",
+						"",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.95",
+						"0.6"
+					]
+				]
+			],
+			[
+				168311.688311689,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.52"
+					]
+				]
+			],
+			[
+				168701.298701299,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				169480.51948052,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				170259.740259741,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				171038.961038962,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				171818.181818183,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				172597.402597403,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				173376.623376624,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				174155.844155845,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				174935.064935066,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				175714.285714286,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				176493.506493507,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				177272.727272728,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				178051.948051949,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				178701.298701299,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				179480.51948052,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				180259.740259741,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				181558.441558442,
+				[
+					[
+						"Change Camera Zoom",
+						"1.1",
+						"0.4"
+					]
+				]
+			],
+			[
+				182310.064935066,
+				[
+					[
+						"Lyric Display",
+						"Way ho! (Way ho!)",
+						""
+					]
+				]
+			],
+			[
+				182337.662337663,
+				[
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.7"
+					]
+				]
+			],
+			[
+				182987.012987014,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				184610.38961039,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				186168.831168832,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				186785.714285715,
+				[
+					[
+						"Lyric Display",
+						"Yo ho ho!",
+						""
+					]
+				]
+			],
+			[
+				188540.584415585,
+				[
+					[
+						"Lyric Display",
+						"Way ho! (Way ho!)",
+						""
+					]
+				]
+			],
+			[
+				189285.714285715,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				190779.220779222,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				192402.597402598,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				193019.480519481,
+				[
+					[
+						"Lyric Display",
+						"Ahoy, me hearties! Bring ‘er home!",
+						""
+					]
+				]
+			],
+			[
+				194805.194805196,
+				[
+					[
+						"Lyric Display",
+						"Yo-ho! Yo-ho! Across the ocean waves!",
+						""
+					],
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				195000.000000001,
+				[
+					[
+						"Play Animation",
+						"what",
+						"gf"
+					],
+					[
+						"Alt Idle Animation",
+						"gf",
+						"shock"
+					]
+				]
+			],
+			[
+				195584.415584416,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				196753.246753248,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				197467.532467533,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				197758.116883118,
+				[
+					[
+						"Lyric Display",
+						"The seven seas spur ever on a soul that spills of RAVE!",
+						""
+					]
+				]
+			],
+			[
+				198311.688311689,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				199090.90909091,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				199870.129870131,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				200649.350649352,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				201038.961038962,
+				[
+					[
+						"Lyric Display",
+						"Yo-ho! Yo-ho! We sail the salty straits!",
+						""
+					],
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				201818.181818183,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				202987.012987014,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				203766.233766235,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				204155.844155845,
+				[
+					[
+						"Lyric Display",
+						"Wind be at our backs, me boy! Yer treasured love awaits!",
+						""
+					]
+				]
+			],
+			[
+				204545.454545455,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				205324.675324676,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				206103.896103897,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				206818.181818183,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				207272.727272728,
+				[
+					[
+						"Lyric Display",
+						"Yo-ho! Yo-ho! Across the ocean waves!",
+						""
+					],
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					],
+					[
+						"Screen Flash",
+						"0.3",
+						"orange"
+					],
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				208051.948051949,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				209220.77922078,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				209935.064935066,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				210227.272727274,
+				[
+					[
+						"Lyric Display",
+						"The seven seas spur ever on a soul that spills of RAVE!",
+						""
+					]
+				]
+			],
+			[
+				210779.220779222,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				211558.441558443,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				212337.662337663,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				213051.948051949,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				213506.493506495,
+				[
+					[
+						"Lyric Display",
+						"Yo-ho! Yo-ho! We sail the salty straits!",
+						""
+					],
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				214285.714285715,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"2"
+					]
+				]
+			],
+			[
+				215454.545454546,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				216168.831168832,
+				[
+					[
+						"Call on Luas",
+						"chants",
+						"1"
+					]
+				]
+			],
+			[
+				216623.376623378,
+				[
+					[
+						"Lyric Display",
+						"Wind be at our backs, me boy-",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.6"
+					]
+				]
+			],
+			[
+				218051.948051949,
+				[
+					[
+						"Lyric Display",
+						"-c'mon now, Sour! Don't be coy!",
+						""
+					]
+				]
+			],
+			[
+				219740.259740261,
+				[
+					[
+						"Lyric Display",
+						"Wind be at our backs, me boy! Yer treasured love awaits!!!",
+						""
+					]
+				]
+			],
+			[
+				222857.142857144,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.6"
+					]
+				]
+			],
+			[
+				225909.090909092,
+				[
+					[
+						"Change Camera Zoom",
+						"0.95",
+						"0.8"
+					]
+				]
+			],
+			[
+				225974.025974027,
+				[
+					[
+						"Lyric Display",
+						"Yah har har har har har har!",
+						""
+					],
+					[
+						"Play Animation",
+						"laugh",
+						"bf"
+					]
+				]
+			],
+			[
+				228571.42857143,
+				[
+					[
+						"Lyric Display",
+						"",
+						""
+					]
+				]
+			]
+		]
+	}
+}

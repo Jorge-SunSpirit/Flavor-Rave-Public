@@ -1,0 +1,18 @@
+{
+	"image": "gameover/SaltyGO",
+	"animation": "SaltyGO",
+	"spriteOffset": [660,670],
+	"flip_x": false,
+	"scale": 1,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "salty/1",
+			"opponent": ""
+		},
+		{
+			"sound": "salty/2",
+			"opponent": ""
+		}
+	]
+}

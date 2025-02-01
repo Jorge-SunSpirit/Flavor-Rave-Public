@@ -1,0 +1,201 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-72,
+				299
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Salty Idle"
+		},
+		{
+			"offsets": [
+				-72,
+				299
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "Salty Idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				86,
+				233
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Salty Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				116,
+				192
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Salty Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				84,
+				409
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Salty Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				52,
+				327
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Salty Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				246,
+				246
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Salty Acc Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				147,
+				218
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "Salty Acc Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				72,
+				322
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "Salty Acc Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-197,
+				291
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "Salty Acc Right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				40,
+				359
+			],
+			"anim": "laugh",
+			"fps": 24,
+			"name": "Salty Laugh",
+			"indices": []
+		},
+		{
+			"offsets": [
+				97,
+				234
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "SaltyMissLeft"
+		},
+		{
+			"offsets": [
+				150,
+				181
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "SaltyMissDown"
+		},
+		{
+			"offsets": [
+				105,
+				408
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "SaltyMissUp"
+		},
+		{
+			"offsets": [
+				62,
+				328
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "SaltyMissRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/salty",
+	"position": [
+		280,
+		115
+	],
+	"healthicon": "salty",
+	"flip_x": true,
+	"healthbar_colors": [
+		135,
+		60,
+		15
+	],
+	"camera_position": [
+		-20,
+		-210
+	],
+	"sing_duration": 8,
+	"scale": 0.9,
+	"healthbar_image": "salty",
+	"noteskin": "Salty",
+	"scale": 0.9,
+	"musicNoteOffset": [-190,-500]
+}

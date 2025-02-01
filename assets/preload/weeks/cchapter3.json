@@ -1,8 +1,8 @@
 {
 	"songs": [
-		["Caramelize", "spicy", [165, 0, 77], ["spicy", "sweet"], "togarashi"],
-		["Wasabi", "smoky", [165, 0, 77], ["smoky", "sour"], "backstreets"],
-		["Flavorscape", "togarashi", [165, 0, 77], ["togarashi", "flavorrave"], "togarashi"]
+		["Caramelize"],
+		["Wasabi"],
+		["Flavorscape"]
 	],
 
 	"weekCharacters": [
@@ -22,7 +22,7 @@
 	"weekName": "Rave Awakened!",
 	"location": "Togarashi Town",
 	"startUnlocked": false,
-	"isExtra": false,
+	"categoryType": "story",
 	"hideStoryMode": false,
 	"hideFreeplay": false,
 	"difficulties": "Normal",

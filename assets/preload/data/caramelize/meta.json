@@ -3,9 +3,17 @@
 		"name": "Caramelize",
 		"artist": "JACKALRUIN & HighPoweredKeyz",
 		"charter": "Chompo",
-		"titleCardStep": 134
+		"titleCardStep": 134,
+		"pauseartist": "PK",
+		"pauseArt": "spicy",
+		"extraCharacter": [true, true]
 	},
 	"dialogue": {
 		"introDialogue": "dreamcast"
+	},
+	"freeplay": {
+		"characters": ["spicy", "sweet"],
+		"stage": "togarashi",
+		"isOnePlayer": false
 	}
 }

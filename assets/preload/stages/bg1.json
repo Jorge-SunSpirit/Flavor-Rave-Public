@@ -13,5 +13,5 @@
 	"camera_girlfriend": [0, 0],
 	"camera_center": [1070, 460],
 	"camera_speed": 1,
-	"camera_boundaries": [0, -2000, 2000, 700]
+	"camera_boundaries": [-358, -3142, 2352, 890]
 }

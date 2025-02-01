@@ -1,6 +1,6 @@
 function onCreate()
 	makeAnimatedLuaSprite('Rave', 'closeup/RAVE-BG', -0, -60);
-	addAnimationByPrefix('Rave', 'idle', 'RaveBG', 24, true);
+	addAnimationByPrefix('Rave', 'idle', 'RaveBG', 42, true);
 	setScrollFactor('Rave', 0, 0);
 	addLuaSprite('Rave', false);
 	scaleObject('Rave', 1.5, 1.5);
@@ -10,7 +10,7 @@ function onCreate()
 	makeLuaSprite('vin', 'closeup/raveglow', 0, 0);
 	setScrollFactor('vin', 0, 0);
 	addLuaSprite('vin', false);
-	setObjectCamera('vin', 'hud');
+	setObjectCamera('vin', 'effect');
 	setProperty('vin.alpha', 0.0001);
 
 	makeLuaSprite('white', '', -100, -100);

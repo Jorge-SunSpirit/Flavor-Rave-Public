@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="torii_winter.png">
+<SubTexture name="torii_winter idle0000" x="0" y="913" width="1740" height="909" frameX="-439" frameY="-85" frameWidth="2600" frameHeight="1080" />
+<SubTexture name="torii_winter idle0001" x="0" y="0" width="1738" height="913" frameX="-440" frameY="-83" frameWidth="2600" frameHeight="1080" />
+<SubTexture name="torii_winter idle0002" x="1738" y="0" width="1738" height="912" frameX="-440" frameY="-83" frameWidth="2600" frameHeight="1080" />
+<SubTexture name="torii_winter idle0003" x="1738" y="1822" width="1738" height="907" frameX="-440" frameY="-87" frameWidth="2600" frameHeight="1080" />
+<SubTexture name="torii_winter idle0004" x="0" y="1822" width="1738" height="908" frameX="-440" frameY="-86" frameWidth="2600" frameHeight="1080" />
+</TextureAtlas>

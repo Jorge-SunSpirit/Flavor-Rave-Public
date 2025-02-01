@@ -22,6 +22,8 @@ class GameplayChangersSubState extends MusicBeatSubstate
 		['healthgain', "Health Gain", true, 'healthgain', 'float', 1],
 		['healthloss', "Health Loss", true, 'healthloss', 'float', 1],
 		['instakill', "Instakill on Miss", true, 'instakill', 'bool', false],
+		['random', "Randomized Notes", true, 'random', 'bool', false],
+		['mirror', "Mirrored Notes", true, 'mirror', 'bool', false],
 		['practice', "Practice Mode", true, 'practice', 'bool', false],
 		['botplay', "Botplay", true, 'botplay', 'bool', false]
 	];

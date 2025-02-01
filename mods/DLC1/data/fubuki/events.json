@@ -1,0 +1,356 @@
+{
+	"song": {
+		"events": [
+			[
+				9767.44186046511,
+				[
+					[
+						"Note Camera Movement",
+						"8",
+						""
+					]
+				]
+			],
+			[
+				12558.1395348837,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"1"
+					]
+				]
+			],
+			[
+				23720.9302325581,
+				[
+					[
+						"Change Camera Zoom",
+						"0.64",
+						"1"
+					]
+				]
+			],
+			[
+				34883.7209302326,
+				[
+					[
+						"Change Camera Zoom",
+						"0.73",
+						"1"
+					]
+				]
+			],
+			[
+				43255.8139534884,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"2"
+					]
+				]
+			],
+			[
+				47441.8604651163,
+				[
+					[
+						"Screen Flash",
+						"0.5",
+						"white"
+					],
+					[
+						"Change Camera Zoom",
+						"0.72",
+						"0.6"
+					]
+				]
+			],
+			[
+				69767.4418604652,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.6"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				80930.2325581395,
+				[
+					[
+						"Change Camera Zoom",
+						"0.96",
+						"0.8"
+					]
+				]
+			],
+			[
+				92093.0232558139,
+				[
+					[
+						"Change Camera Zoom",
+						"0.4",
+						"true"
+					],
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"0.7"
+					],
+					[
+						"Screen Flash",
+						"0.3",
+						"white"
+					]
+				]
+			],
+			[
+				94883.7209302325,
+				[
+					[
+						"Play SFX",
+						"icedragon",
+						"1"
+					]
+				]
+			],
+			[
+				114418.604651163,
+				[
+					[
+						"Change Camera Zoom",
+						"0.72",
+						"true"
+					],
+					[
+						"Screen Flash",
+						"0.4",
+						"white"
+					],
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				118604.651162791,
+				[
+					[
+						"Spawn Particles",
+						"closeup/SpicyParticle",
+						"650"
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"0.8"
+					],
+					[
+						"Change Camera Zoom",
+						"0.74",
+						"0.1"
+					]
+				]
+			],
+			[
+				120348.837209302,
+				[
+					[
+						"Change Camera Zoom",
+						"0.76",
+						"0.1"
+					]
+				]
+			],
+			[
+				120697.674418605,
+				[
+					[
+						"Change Camera Zoom",
+						"0.78",
+						"0.1"
+					]
+				]
+			],
+			[
+				121046.511627907,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.1"
+					]
+				]
+			],
+			[
+				121395.348837209,
+				[
+					[
+						"Change Camera Zoom",
+						"0.82",
+						"0.1"
+					]
+				]
+			],
+			[
+				121744.186046512,
+				[
+					[
+						"Change Camera Zoom",
+						"0.84",
+						"0.1"
+					]
+				]
+			],
+			[
+				122093.023255814,
+				[
+					[
+						"Change Camera Zoom",
+						"0.86",
+						"0.1"
+					]
+				]
+			],
+			[
+				122441.860465116,
+				[
+					[
+						"Change Camera Zoom",
+						"0.88",
+						"0.1"
+					]
+				]
+			],
+			[
+				122790.697674418,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"0.8"
+					]
+				]
+			],
+			[
+				125581.395348837,
+				[
+					[
+						"Change Camera Zoom",
+						"0.4",
+						"true"
+					],
+					[
+						"Screen Flash",
+						"0.4",
+						"orange"
+					],
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"0.7"
+					]
+				]
+			],
+			[
+				128372.093023256,
+				[
+					[
+						"Play SFX",
+						"firefox",
+						"1"
+					]
+				]
+			],
+			[
+				146511.627906977,
+				[
+					[
+						"Spawn Particles",
+						"closeup/SpicyParticle",
+						"650"
+					]
+				]
+			],
+			[
+				147906.976744186,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"0.72",
+						"true"
+					],
+					[
+						"Screen Flash",
+						"0.5",
+						"white"
+					]
+				]
+			],
+			[
+				170232.558139535,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"0.45",
+						"true"
+					]
+				]
+			],
+			[
+				192558.139534884,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				192558.139534884,
+				[
+					[
+						"Change Camera Zoom",
+						"0.73",
+						"1"
+					]
+				]
+			],
+			[
+				216279.069767442,
+				[
+					[
+						"Change Camera Zoom",
+						"0.82",
+						"1"
+					]
+				]
+			]
+		]
+	}
+}

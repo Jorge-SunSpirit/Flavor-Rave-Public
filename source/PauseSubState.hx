@@ -16,6 +16,7 @@ import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxStringUtil;
 import flixel.util.FlxTimer;
+import flixel.math.FlxMath;
 import options.OptionsState;
 
 class PauseSubState extends MusicBeatSubstate
@@ -31,13 +32,15 @@ class PauseSubState extends MusicBeatSubstate
 	var practiceText:FlxText;
 	var skipTimeText:FlxText;
 	var skipTimeTracker:Alphabet;
+	var pauseArt:FlxSprite;
+	
 	var curTime:Float = Math.max(0, Conductor.songPosition);
 	var canpressbuttons:Bool = false;
 	//var botplayText:FlxText;
 
 	public static var songName:String = '';
 
-	public function new(x:Float, y:Float)
+	public function new(x:Float, y:Float, ?forcePause:String)
 	{
 		super();
 
@@ -50,12 +53,18 @@ class PauseSubState extends MusicBeatSubstate
 			var num:Int = 0;
 			if(!PlayState.instance.startingSong)
 			{
-				num = 1;
+				num = 2;
 				menuItemsOG.insert(3, 'Skip Time');
+				menuItemsOG.insert(4, 'Playback Rate');
 			}
 			menuItemsOG.insert(3 + num, 'End Song');
 			menuItemsOG.insert(4 + num, 'Toggle Practice Mode');
 			menuItemsOG.insert(5 + num, 'Toggle Botplay');
+		}
+		else if(PlayState.instance.practiceMode && !PlayState.instance.startingSong)
+		{
+			menuItemsOG.insert(2, 'Skip Time');
+			menuItemsOG.insert(3, 'Playback Rate');
 		}
 		menuItems = menuItemsOG;
 
@@ -79,6 +88,14 @@ class PauseSubState extends MusicBeatSubstate
 		bg.scrollFactor.set();
 		add(bg);
 
+		var pauseImg:String = (PlayState.hasMetadata && PlayState.metadata.song.pauseArt != null) ? PlayState.metadata.song.pauseArt : "fumo";
+		if (forcePause != null && forcePause != '')
+			pauseImg = forcePause;
+		
+		pauseArt = new FlxSprite(FlxG.width, 0).loadGraphic(Paths.image('pause/art/$pauseImg'));
+		pauseArt.antialiasing = ClientPrefs.globalAntialiasing;
+		add(pauseArt);
+
 		var bgthingie:FlxSprite = new FlxSprite(1280).loadGraphic(Paths.image('pause/bg'));
 		bgthingie.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bgthingie);
@@ -95,20 +112,28 @@ class PauseSubState extends MusicBeatSubstate
 		levelInfo.updateHitbox();
 		add(levelInfo);
 
-		var levelDifficulty:FlxText = new FlxText(20, 15 + 32, 0, (PlayState.hasMetadata ? PlayState.metadata.song.artist + " :Composer" : CoolUtil.difficultyString()), 32);
+		var levelDifficulty:FlxText = new FlxText(20, 15 + 36, 0, (PlayState.hasMetadata ? PlayState.metadata.song.artist + " : Composer" : CoolUtil.difficultyString()), 32);
 		levelDifficulty.antialiasing = ClientPrefs.globalAntialiasing;
-		levelDifficulty.setFormat(Paths.font('Krungthep.ttf'), 25);
+		levelDifficulty.setFormat(Paths.font('Krungthep.ttf'), 20);
 		levelDifficulty.setBorderStyle(OUTLINE, 0xFF220B2B, 2, 1);
 		levelDifficulty.updateHitbox();
 		add(levelDifficulty);
 
-		var blueballedTxt:FlxText = new FlxText(20, 15 + 57, 0, (PlayState.hasMetadata && PlayState.metadata.song.charter != null ? PlayState.metadata.song.charter : "N/A") + " :Charter", 32);
+		var blueballedTxt:FlxText = new FlxText(20, 15 + 56, 0, (PlayState.hasMetadata && PlayState.metadata.song.charter != null ? PlayState.metadata.song.charter : "N/A") + " : Charter", 32);
 		blueballedTxt.antialiasing = ClientPrefs.globalAntialiasing;
-		blueballedTxt.setFormat(Paths.font('Krungthep.ttf'), 25);
+		blueballedTxt.setFormat(Paths.font('Krungthep.ttf'), 20);
 		blueballedTxt.setBorderStyle(OUTLINE, 0xFF220B2B, 2, 1);
 		blueballedTxt.updateHitbox();
 		if (PlayState.hasMetadata && PlayState.metadata.song.charter != null)
 			add(blueballedTxt);
+
+		var pauseartTxt:FlxText = new FlxText(20, 15 + 76, 0, (PlayState.hasMetadata && PlayState.metadata.song.pauseartist != null ? PlayState.metadata.song.pauseartist : "N/A") + " : Pause Art", 32);
+		pauseartTxt.antialiasing = ClientPrefs.globalAntialiasing;
+		pauseartTxt.setFormat(Paths.font('Krungthep.ttf'), 20);
+		pauseartTxt.setBorderStyle(OUTLINE, 0xFF220B2B, 2, 1);
+		pauseartTxt.updateHitbox();
+		if (PlayState.hasMetadata && PlayState.metadata.song.pauseartist != null)
+			add(pauseartTxt);
 
 		practiceText = new FlxText(20, 15 + 101, 0, "PRACTICE MODE", 32);
 		practiceText.antialiasing = ClientPrefs.globalAntialiasing;
@@ -124,6 +149,11 @@ class PauseSubState extends MusicBeatSubstate
 
 		regenMenu();
 
+		FlxTween.tween(pauseArt, {x: FlxG.width - pauseArt.width}, 1.2, {
+			ease: FlxEase.quartInOut,
+			startDelay: 0.2
+		});
+
 		var topBoarder:FlxSprite = new FlxSprite(0,-75).loadGraphic(Paths.image('pause/top_boarder'));
 		topBoarder.antialiasing = ClientPrefs.globalAntialiasing;
 		add(topBoarder);
@@ -136,6 +166,7 @@ class PauseSubState extends MusicBeatSubstate
 		paused.antialiasing = ClientPrefs.globalAntialiasing;
 		add(paused);
 
+		pauseartTxt.alpha = 0;
 		blueballedTxt.alpha = 0;
 		levelDifficulty.alpha = 0;
 		levelInfo.alpha = 0;
@@ -143,11 +174,13 @@ class PauseSubState extends MusicBeatSubstate
 		levelInfo.x = FlxG.width - (levelInfo.width + 20);
 		levelDifficulty.x = FlxG.width - (levelDifficulty.width + 20);
 		blueballedTxt.x = FlxG.width - (blueballedTxt.width + 20);
+		pauseartTxt.x = FlxG.width - (pauseartTxt.width + 20);
 
 		FlxTween.tween(bg, {alpha: 0.6}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(levelInfo, {alpha: 1, y: 20}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});
 		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.5});
 		FlxTween.tween(blueballedTxt, {alpha: 1, y: blueballedTxt.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.7});
+		FlxTween.tween(pauseartTxt, {alpha: 1, y: pauseartTxt.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.9});
 
 		FlxTween.tween(bgthingie, {y: 0, x: 0}, 0.5, {ease: FlxEase.quartOut, startDelay: 0});
 		FlxTween.tween(disk, {x: FlxG.width - disk.width - 10}, 0.5, {ease: FlxEase.quartOut, startDelay: 0});
@@ -161,6 +194,29 @@ class PauseSubState extends MusicBeatSubstate
 		{
 			canpressbuttons = true;
 		});
+
+		if (!ClientPrefs.lowQuality)
+		{
+			//gotta hide the normally invisible stuff
+			//have to add an extra for substate because sega hates me
+			var hideborderthignieawmdsa1 = new FlxSprite(-640, -180).makeGraphic(640, 1440, FlxColor.BLACK);
+			hideborderthignieawmdsa1.scrollFactor.set();
+			hideborderthignieawmdsa1.antialiasing = false;
+			insert(999996, hideborderthignieawmdsa1);
+			var hideborderthignieawmdsa2 = new FlxSprite(1280, -180).makeGraphic(640, 1440, FlxColor.BLACK);
+			hideborderthignieawmdsa2.scrollFactor.set();
+			hideborderthignieawmdsa2.antialiasing = false;
+			insert(999997, hideborderthignieawmdsa2);
+
+			var hideborderthignieawmdsa3 = new FlxSprite(-640, -360).makeGraphic(2560, 360, FlxColor.BLACK);
+			hideborderthignieawmdsa3.scrollFactor.set();
+			hideborderthignieawmdsa3.antialiasing = false;
+			insert(999998, hideborderthignieawmdsa3);
+			var hideborderthignieawmdsa = new FlxSprite(-640, 720).makeGraphic(2560, 360, FlxColor.BLACK);
+			hideborderthignieawmdsa.scrollFactor.set();
+			hideborderthignieawmdsa.antialiasing = false;
+			insert(999999, hideborderthignieawmdsa);
+		}
 	}
 
 	var holdTime:Float = 0;
@@ -237,8 +293,30 @@ class PauseSubState extends MusicBeatSubstate
 
 					for (item in grpMenuShit.members)
 					{
-						if (item.hasSkipTime)
+						if (item.hasSkipTime == 1)
 							item.updateSkipTimeText(curTime);
+					}
+				}
+			case 'Playback Rate':
+				if (controls.UI_LEFT_P && canpressbuttons)
+				{
+					FlxG.sound.play(Paths.sound('scrollMenu'));
+					PlayState.practiceRate -= 0.05;
+				}
+				if (controls.UI_RIGHT_P && canpressbuttons)
+				{
+					FlxG.sound.play(Paths.sound('scrollMenu'));
+					PlayState.practiceRate += 0.05;
+				}
+
+				if((controls.UI_LEFT || controls.UI_RIGHT) && canpressbuttons)
+				{
+					PlayState.practiceRate = FlxMath.bound(PlayState.practiceRate, 0.5, 3.0);
+
+					for (item in grpMenuShit.members)
+					{
+						if (item.hasSkipTime == 2)
+							item.updatePlaybackRateText();
 					}
 				}
 		}
@@ -272,7 +350,9 @@ class PauseSubState extends MusicBeatSubstate
 
 		switch (daSelected)
 		{
-			case "Resume":
+			default:
+				trace('$daSelected leads nowhere!');
+			case "Resume" | 'Playback Rate':
 				close();
 			case 'Change Difficulty':
 				menuItems = difficultyChoices;
@@ -337,6 +417,7 @@ class PauseSubState extends MusicBeatSubstate
 				FlxG.sound.playMusic(Paths.music(ClientPrefs.mainmenuMusic));
 				PlayState.changedDifficulty = false;
 				PlayState.chartingMode = false;
+				PlayState.practiceRate = 1;
 		}
 	}
 
@@ -360,6 +441,11 @@ class PauseSubState extends MusicBeatSubstate
 	override function destroy()
 	{
 		pauseMusic.destroy();
+
+		if (PlayState.instance.practiceMode && PlayState.practiceRate != PlayState.instance.playbackRate)
+		{
+			PlayState.instance.playbackRate = PlayState.practiceRate;
+		}
 
 		super.destroy();
 	}
@@ -416,7 +502,6 @@ class PauseSubState extends MusicBeatSubstate
 }
 
 
-
 class PMenuItem extends FlxSpriteGroup
 {
 	var song:String;
@@ -425,14 +510,14 @@ class PMenuItem extends FlxSpriteGroup
 	var tinybg:FlxSprite;
 	var text:FlxText;
 	var skipTimeText:FlxText;
-	public var hasSkipTime:Bool = false;
+	public var hasSkipTime:Int = 0;
 	var curTime:Float = Math.max(0, Conductor.songPosition);
 
 	public function new(x:Float = 0, y:Float = 0, item:String)
 	{
 		super(x, y);
 
-		if (item == 'Skip Time')
+		if (item == 'Skip Time' || item == 'Playback Rate')
 		{
 			tinybg = new FlxSprite(290,14);
 			tinybg.frames = Paths.getSparrowAtlas('pause/buttons');
@@ -448,8 +533,9 @@ class PMenuItem extends FlxSpriteGroup
 			skipTimeText.antialiasing = ClientPrefs.globalAntialiasing;
 			skipTimeText.borderSize = 2;
 			add(skipTimeText);
-			updateSkipTimeText(curTime);
-			hasSkipTime = true;
+			if (item == 'Skip Time') updateSkipTimeText(curTime);
+			else updatePlaybackRateText();
+			hasSkipTime = item == 'Skip Time' ? 1 : 2;
 
 			skipTimeText.visible = false;
 			tinybg.visible = false;
@@ -492,7 +578,7 @@ class PMenuItem extends FlxSpriteGroup
 			bg.animation.play('idle');
 		}
 
-		if (hasSkipTime)
+		if (hasSkipTime > 0)
 		{
 			skipTimeText.visible = bool;
 			tinybg.visible = bool;
@@ -501,6 +587,11 @@ class PMenuItem extends FlxSpriteGroup
 	
 	public function updateSkipTimeText(curTimie:Float = 0)
 	{
-		skipTimeText.text = FlxStringUtil.formatTime(Math.max(0, Math.floor(curTimie / PlayState.instance.playbackRate / 1000)), false) + ' / ' + FlxStringUtil.formatTime(Math.max(0, Math.floor(FlxG.sound.music.length / PlayState.instance.playbackRate / 1000)), false);
+		skipTimeText.text = FlxStringUtil.formatTime(Math.max(0, Math.floor(curTimie / 1000)), false) + ' / ' + FlxStringUtil.formatTime(Math.max(0, Math.floor(FlxG.sound.music.length / 1000)), false);
+	}
+
+	public function updatePlaybackRateText()
+	{
+		skipTimeText.text = '${PlayState.practiceRate}x';
 	}
 }

@@ -75,6 +75,7 @@ class Character extends FlxSprite
 	public var danceIdle:Bool = false; //Character use "danceLeft" and "danceRight" instead of "idle"
 	public var skipDance:Bool = false;
 	public var startedDeath:Bool = false;
+	public var missRecolor:Bool = true;
 
 	public var allowTrail:Bool = false; //Needed to do some stuff
 
@@ -488,7 +489,7 @@ class Character extends FlxSprite
 	public function playAnim(AnimName:String, Force:Bool = false, Reversed:Bool = false, Frame:Int = 0):Void
 	{
 		specialAnim = false;
-		if (!hasMissAnimations)	color = 0xFFFFFF;
+		if (!hasMissAnimations && missRecolor)	color = 0xFFFFFF;
 		
 		if (AnimName.endsWith('alt') && animation.getByName(AnimName) == null)
 			AnimName = AnimName.split('-')[0];
@@ -496,7 +497,7 @@ class Character extends FlxSprite
 		if (!hasMissAnimations && AnimName.endsWith('miss') && animation.getByName(AnimName) == null)
 		{
 			AnimName = AnimName.split('miss')[0];
-			color = 0x8282FF;
+			if (missRecolor) color = 0x8282FF;
 		}
 
 		animation.play(AnimName, Force, Reversed, Frame);

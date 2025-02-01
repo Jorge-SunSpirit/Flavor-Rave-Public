@@ -459,10 +459,10 @@ class SunSynthState extends MusicBeatState
 					for (i in 0...WeekData.weeksList.length)
 					{
 						var weekFile:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[i]);
-						if (weekFile.fileName == 'extra_0')
+						if (weekFile.fileName == 'xextra_0')
 							PlayState.storyWeek = i;
 					}
-					openSubState(new CharaSelect('sunsyn', 'sundried', 'synthetic', "extra_0"));
+					openSubState(new CharaSelect('sunsyn', ['sundried', 'synthetic'], "xextra_0"));
 				}
 				case 'brb':
 				{
@@ -493,6 +493,10 @@ class SunSynthState extends MusicBeatState
 		PlayState.campaignMisses = 0;
 		PlayState.campaignEarlys = 0;
 		PlayState.campaignLates = 0;
+		PlayState.restartScore = 0;
+		PlayState.restartHits = 0;
+		PlayState.restartMisses = 0;
+		PlayState.restartAccuracy = 0.00;
 		FreeplayState.destroyFreeplayVocals();
 		FlxTransitionableState.skipNextTransIn = true;
 		FlxTransitionableState.skipNextTransOut = true;
@@ -617,7 +621,7 @@ class SunSynthState extends MusicBeatState
 			if (currentJson == 'peoplebase')
 				curMJase = 'peoplemodded';
 
-			var modsDirectories:Array<String> = Paths.getModDirectories();
+			var modsDirectories:Array<String> = Paths.getGlobalMods();
 			for (folder in modsDirectories)
 			{
 				//This idea works and it's almost great. BUT 

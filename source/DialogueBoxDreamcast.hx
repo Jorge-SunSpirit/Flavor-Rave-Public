@@ -11,6 +11,10 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import haxe.Json;
 import openfl.utils.Assets;
+#if MODS_ALLOWED
+import sys.io.File;
+import sys.FileSystem;
+#end
 
 using StringTools;
 
@@ -159,7 +163,11 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 
 	public static function parseDialogue(path:String):DreamcastDialogueFile
 	{
+		#if MODS_ALLOWED
+		return cast Json.parse(File.getContent(path));
+		#else
 		return cast Json.parse(Assets.getText(path));
+		#end
 	}
 
 	var dialogueEnded:Bool = false;

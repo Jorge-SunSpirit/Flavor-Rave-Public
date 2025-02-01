@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Adobo_BG.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Adobo_LeftBop0000" x="6" y="6" width="788" height="1215" frameX="-210" frameY="-300" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0001" x="6" y="6" width="788" height="1215" frameX="-210" frameY="-300" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0002" x="800" y="6" width="788" height="1214" frameX="-205" frameY="-301" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0003" x="800" y="6" width="788" height="1214" frameX="-205" frameY="-301" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0004" x="1594" y="6" width="773" height="1223" frameX="-226" frameY="-300" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0005" x="1594" y="6" width="773" height="1223" frameX="-226" frameY="-300" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0006" x="2373" y="6" width="738" height="1238" frameX="-244" frameY="-294" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0007" x="2373" y="6" width="738" height="1238" frameX="-244" frameY="-294" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0008" x="3117" y="6" width="699" height="1237" frameX="-275" frameY="-301" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0009" x="3117" y="6" width="699" height="1237" frameX="-275" frameY="-301" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0010" x="3822" y="6" width="698" height="1243" frameX="-276" frameY="-295" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0011" x="3822" y="6" width="698" height="1243" frameX="-276" frameY="-295" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0012" x="3822" y="6" width="698" height="1243" frameX="-276" frameY="-295" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_LeftBop0013" x="3822" y="6" width="698" height="1243" frameX="-276" frameY="-295" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0014" x="4526" y="6" width="757" height="1274" frameX="-292" frameY="-259" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0015" x="4526" y="6" width="757" height="1274" frameX="-292" frameY="-259" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0016" x="5289" y="6" width="755" height="1275" frameX="-289" frameY="-257" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0017" x="5289" y="6" width="755" height="1275" frameX="-289" frameY="-257" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0018" x="6050" y="6" width="739" height="1271" frameX="-280" frameY="-264" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0019" x="6050" y="6" width="739" height="1271" frameX="-280" frameY="-264" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0020" x="6795" y="6" width="713" height="1258" frameX="-273" frameY="-275" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0021" x="6795" y="6" width="713" height="1258" frameX="-273" frameY="-275" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0022" x="6" y="1287" width="694" height="1241" frameX="-280" frameY="-297" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0023" x="6" y="1287" width="694" height="1241" frameX="-280" frameY="-297" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0024" x="706" y="1287" width="698" height="1243" frameX="-276" frameY="-295" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0025" x="706" y="1287" width="698" height="1243" frameX="-276" frameY="-295" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0026" x="706" y="1287" width="698" height="1243" frameX="-276" frameY="-295" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_RightBop0027" x="706" y="1287" width="698" height="1243" frameX="-276" frameY="-295" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0028" x="1410" y="1287" width="923" height="1384" frameX="0" frameY="-129" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0029" x="1410" y="1287" width="923" height="1384" frameX="0" frameY="-129" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0030" x="2339" y="1287" width="916" height="1363" frameX="-26" frameY="-161" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0031" x="2339" y="1287" width="916" height="1363" frameX="-26" frameY="-161" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0032" x="3261" y="1287" width="871" height="1219" frameX="-83" frameY="-315" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0033" x="3261" y="1287" width="871" height="1219" frameX="-83" frameY="-315" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0034" x="4138" y="1287" width="859" height="1211" frameX="-100" frameY="-323" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0035" x="4138" y="1287" width="859" height="1211" frameX="-100" frameY="-323" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0036" x="5003" y="1287" width="859" height="1211" frameX="-100" frameY="-323" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0037" x="5003" y="1287" width="859" height="1211" frameX="-100" frameY="-323" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0038" x="5003" y="1287" width="859" height="1211" frameX="-100" frameY="-323" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0039" x="5003" y="1287" width="859" height="1211" frameX="-100" frameY="-323" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0040" x="5003" y="1287" width="859" height="1211" frameX="-100" frameY="-323" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0041" x="5003" y="1287" width="859" height="1211" frameX="-100" frameY="-323" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0042" x="5003" y="1287" width="859" height="1211" frameX="-100" frameY="-323" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_Hey0043" x="5003" y="1287" width="859" height="1211" frameX="-100" frameY="-323" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0044" x="5868" y="1287" width="929" height="1504" frameX="-222" frameY="0" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0045" x="5868" y="1287" width="929" height="1504" frameX="-222" frameY="0" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0046" x="6803" y="1287" width="959" height="1468" frameX="-206" frameY="-39" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0047" x="6803" y="1287" width="959" height="1468" frameX="-206" frameY="-39" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0048" x="6" y="2797" width="991" height="1375" frameX="-163" frameY="-137" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0049" x="6" y="2797" width="991" height="1375" frameX="-163" frameY="-137" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0050" x="1003" y="2797" width="1000" height="1349" frameX="-153" frameY="-163" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0051" x="1003" y="2797" width="1000" height="1349" frameX="-153" frameY="-163" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0052" x="2009" y="2797" width="1030" height="1408" frameX="-63" frameY="-96" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0053" x="2009" y="2797" width="1030" height="1408" frameX="-63" frameY="-96" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0054" x="3045" y="2797" width="1037" height="1377" frameX="-78" frameY="-130" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0055" x="3045" y="2797" width="1037" height="1377" frameX="-78" frameY="-130" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0056" x="4088" y="2797" width="1024" height="1280" frameX="-76" frameY="-232" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0057" x="4088" y="2797" width="1024" height="1280" frameX="-76" frameY="-232" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0058" x="5118" y="2797" width="1025" height="1271" frameX="-71" frameY="-241" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0059" x="5118" y="2797" width="1025" height="1271" frameX="-71" frameY="-241" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0060" x="6149" y="2797" width="1023" height="1271" frameX="-71" frameY="-241" frameWidth="1165" frameHeight="1538"/>
+	<SubTexture name="Adobo_WayHo0061" x="6149" y="2797" width="1023" height="1271" frameX="-71" frameY="-241" frameWidth="1165" frameHeight="1538"/>
+</TextureAtlas>

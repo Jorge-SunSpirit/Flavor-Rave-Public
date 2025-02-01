@@ -144,20 +144,6 @@ class VisualsUISubState extends BaseOptionsMenu
 		option.decimals = 1;
 		addOption(option);
 
-		var option:Option = new Option('Dynamic Lane Transparency',
-			"If checked, song events can control lane opacity for songs\nOnly works if Lane Transparency is set to 0.",
-			'dynamicLaneOpacity',
-			'bool',
-			false);
-		addOption(option);
-
-		var option:Option = new Option('Combo Stacking',
-			"If unchecked, Ratings and Combo won't stack, saving on System Memory and making them easier to read.",
-			'comboStacking',
-			'bool',
-			true);
-		addOption(option);
-
 		var option:Option = new Option('Timing Indicator:',
 			"Shows the timing of the note that was hit.\nSimple: Displays either EARLY or LATE if not Marvelous\nPrecise: Displays note hit timing in milliseconds",
 			'timingIndicator',

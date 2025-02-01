@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BackCityLights.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="LivewireLights0000" x="8" y="8" width="905" height="868"/>
+	<SubTexture name="LivewireLights0001" x="8" y="8" width="905" height="868"/>
+	<SubTexture name="LivewireLights0002" x="921" y="8" width="905" height="861" frameX="0" frameY="-7" frameWidth="905" frameHeight="868"/>
+	<SubTexture name="LivewireLights0003" x="921" y="8" width="905" height="861" frameX="0" frameY="-7" frameWidth="905" frameHeight="868"/>
+	<SubTexture name="LivewireLights0004" x="8" y="884" width="905" height="772" frameX="0" frameY="-96" frameWidth="905" frameHeight="868"/>
+	<SubTexture name="LivewireLights0005" x="8" y="884" width="905" height="772" frameX="0" frameY="-96" frameWidth="905" frameHeight="868"/>
+	<SubTexture name="LivewireLights0006" x="921" y="884" width="905" height="539" frameX="0" frameY="-329" frameWidth="905" frameHeight="868"/>
+	<SubTexture name="LivewireLights0007" x="921" y="884" width="905" height="539" frameX="0" frameY="-329" frameWidth="905" frameHeight="868"/>
+	<SubTexture name="LivewireLights0008" x="8" y="1664" width="905" height="183" frameX="0" frameY="-685" frameWidth="905" frameHeight="868"/>
+	<SubTexture name="LivewireLights0009" x="8" y="1664" width="905" height="183" frameX="0" frameY="-685" frameWidth="905" frameHeight="868"/>
+	<SubTexture name="LivewireLights0010" x="921" y="1664" width="905" height="46" frameX="0" frameY="-822" frameWidth="905" frameHeight="868"/>
+	<SubTexture name="LivewireLights0011" x="921" y="1664" width="905" height="46" frameX="0" frameY="-822" frameWidth="905" frameHeight="868"/>
+	<SubTexture name="LivewireLights0012" x="921" y="1664" width="905" height="46" frameX="0" frameY="-822" frameWidth="905" frameHeight="868"/>
+	<SubTexture name="LivewireLights0013" x="921" y="1664" width="905" height="46" frameX="0" frameY="-822" frameWidth="905" frameHeight="868"/>
+</TextureAtlas>

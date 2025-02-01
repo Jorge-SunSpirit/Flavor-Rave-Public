@@ -1,0 +1,18 @@
+{
+	"image": "gameover/AceGO",
+	"animation": "AceGO",
+	"spriteOffset": [600,560],
+	"flip_x": false,
+	"scale": 1.1,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "ace/1",
+			"opponent": ""
+		},
+		{
+			"sound": "ace/2",
+			"opponent": ""
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"noteSkins":
+	[
+		{
+			"skinName": "Rhythm Robo",
+			"note": "ratings/rhythmrobo/RRNOTE_assets",
+			"noteSplash": ["ratings/rhythmrobo/splash_RR", -70, -70, 0.6, 1],
+			"ratings_folder": "rhythmrobo",
+			"songReq": "Double-Stacked"
+		}
+	]
+}

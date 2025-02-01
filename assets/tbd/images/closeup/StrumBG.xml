@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="StrumBG.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FireBG0000" x="8" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0001" x="8" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0002" x="1296" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0003" x="1296" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0004" x="2584" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0005" x="2584" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0006" x="3872" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0007" x="3872" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0008" x="5160" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0009" x="5160" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0010" x="6448" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0011" x="6448" y="8" width="1280" height="720"/>
+	<SubTexture name="FireBG0012" x="8" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0013" x="8" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0014" x="1296" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0015" x="1296" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0016" x="2584" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0017" x="2584" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0018" x="3872" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0019" x="3872" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0020" x="5160" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0021" x="5160" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0022" x="6448" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0023" x="6448" y="736" width="1280" height="720"/>
+	<SubTexture name="FireBG0024" x="8" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0025" x="8" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0026" x="1296" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0027" x="1296" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0028" x="2584" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0029" x="2584" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0030" x="3872" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0031" x="3872" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0032" x="5160" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0033" x="5160" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0034" x="6448" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0035" x="6448" y="1464" width="1280" height="720"/>
+	<SubTexture name="FireBG0036" x="8" y="2192" width="1280" height="720"/>
+	<SubTexture name="FireBG0037" x="8" y="2192" width="1280" height="720"/>
+	<SubTexture name="FireBG0038" x="1296" y="2192" width="1280" height="720"/>
+	<SubTexture name="FireBG0039" x="1296" y="2192" width="1280" height="720"/>
+	<SubTexture name="FireBG0040" x="2584" y="2192" width="1280" height="720"/>
+	<SubTexture name="FireBG0041" x="2584" y="2192" width="1280" height="720"/>
+	<SubTexture name="FireBG0042" x="3872" y="2192" width="1280" height="720"/>
+	<SubTexture name="FireBG0043" x="3872" y="2192" width="1280" height="720"/>
+	<SubTexture name="FireBG0044" x="5160" y="2192" width="1280" height="720"/>
+	<SubTexture name="FireBG0045" x="5160" y="2192" width="1280" height="720"/>
+	<SubTexture name="FireBG0046" x="6448" y="2192" width="1280" height="720"/>
+	<SubTexture name="FireBG0047" x="6448" y="2192" width="1280" height="720"/>
+</TextureAtlas>

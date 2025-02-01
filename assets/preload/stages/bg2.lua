@@ -60,33 +60,33 @@ function onCreate()
 	makeLuaSprite('transition', 'closeup/TransitionOut', -2600, 0);
 	setScrollFactor('transition', 0, 0);
 	addLuaSprite('transition', false);
-	setObjectCamera('transition', 'hud');
+	setObjectCamera('transition', 'effect');
 	
 	makeLuaSprite('barTop', 'closeup/TightBars', 0, -102);
 	setScrollFactor('barTop', 0, 0);
 	scaleObject('barTop', 1.1, 1);
 	addLuaSprite('barTop', true);
-	setObjectCamera('barTop', 'hud');
+	setObjectCamera('barTop', 'effect');
 	
 	makeLuaSprite('barBottom', 'closeup/TightBars', 0, 822);
 	setScrollFactor('barBottom', 0, 0);
 	scaleObject('barBottom', 1.1, 1);
 	addLuaSprite('barBottom', true);
-	setObjectCamera('barBottom', 'hud');
+	setObjectCamera('barBottom', 'effect');
 	
 	makeAnimatedLuaSprite('SourCutin', 'closeup/SourCutin', -1280, 91);
 	addAnimationByPrefix('SourCutin', 'idle', 'SourCutin', 24, true);
 	playAnim('SourCutin', 'idle');
 	setScrollFactor('SourCutin', 0, 0);
 	addLuaSprite('SourCutin', true);
-	setObjectCamera('SourCutin', 'hud');
+	setObjectCamera('SourCutin', 'effect');
 	
 	makeAnimatedLuaSprite('SweetCutIn', 'closeup/SweetCutIns', 1280, 359);
 	addAnimationByPrefix('SweetCutIn', 'idle', 'SugarCutin', 24, true);
 	playAnim('SweetCutIn', 'idle');
 	setScrollFactor('SweetCutIn', 0, 0);
 	addLuaSprite('SweetCutIn', true);
-	setObjectCamera('SweetCutIn', 'hud');
+	setObjectCamera('SweetCutIn', 'effect');
 	
 	toggleLights(3);
 

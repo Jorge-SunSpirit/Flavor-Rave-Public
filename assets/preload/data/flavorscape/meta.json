@@ -3,7 +3,9 @@
 		"name": "Flavorscape",
 		"artist": "JACKALRUIN & Matt$",
 		"titleCardStep": 4,
+		"pauseArt": "togarashi",
 		"charter": "Srife5",
+		"pauseartist": "Phillia Esaya",
 		"extraCharacter": [true, true]
 	},
 	"dialogue": {
@@ -11,5 +13,10 @@
 	},
 	"control": {
 		"happyEnding": true
+	},
+	"freeplay": {
+		"characters": ["togarashi", "flavorrave"],
+		"stage": "togarashi",
+		"isOnePlayer": false
 	}
 }

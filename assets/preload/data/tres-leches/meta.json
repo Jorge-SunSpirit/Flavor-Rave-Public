@@ -3,6 +3,8 @@
 		"name": "Tres Leches",
 		"artist": "Stardust Tunes",
 		"charter": "Chompo",
+		"pauseArt": "savory",
+		"pauseartist": "Mattoon",
 		"titleCardStep": 32
 	},
 	"dialogue": {
@@ -10,5 +12,10 @@
 	},
 	"control": {
 		"happyEnding": true
+	},
+	"freeplay": {
+		"characters": ["savory", "sweet"],
+		"stage": "corianda",
+		"isOnePlayer": false
 	}
 }

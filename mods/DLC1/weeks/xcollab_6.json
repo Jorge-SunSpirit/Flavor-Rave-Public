@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["Fubuki"]
+	],
+
+	"weekCharacters": [
+		"Spicy",
+		"Smoky",
+		"Ace",
+		"empty"
+	],
+	"charaSelect": [
+		"togarashi",
+		"ace"
+	],
+	"weekBackground": "togarashi-winter",
+	"weekType": "Collab",
+	"storyName": "Collab Stories",
+	"weekBefore": "xcollab_5",
+	"weekName": "Weather Beasts",
+	"location": "Togarashi Town",
+	"startUnlocked": false,
+	"categoryType": "collab",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

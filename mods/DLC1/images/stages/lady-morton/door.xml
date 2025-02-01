@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="door.png">
+<SubTexture name="open0000" x="0" y="0" width="281" height="816" frameX="-1647" frameY="-3802" frameWidth="3840" frameHeight="4800" />
+<SubTexture name="open0001" x="1160" y="0" width="506" height="634" frameX="-1207" frameY="-3924" frameWidth="3840" frameHeight="4800" />
+<SubTexture name="open0002" x="642" y="0" width="518" height="644" frameX="-1194" frameY="-3912" frameWidth="3840" frameHeight="4800" />
+<SubTexture name="door door0004" x="0" y="816" width="481" height="616" frameX="-1669" frameY="-3953" frameWidth="3840" frameHeight="4800" />
+</TextureAtlas>

@@ -93,22 +93,21 @@ function onCreate()
 	setScrollFactor('barTop', 0, 0);
 	scaleObject('barTop', 1.1, 1);
 	addLuaSprite('barTop', false);
-	setObjectCamera('barTop', 'hud');
+	setObjectCamera('barTop', 'effect');
 
 	makeLuaSprite('barBottom', 'closeup/TightBars', 0, 822);
 	setScrollFactor('barBottom', 0, 0);
 	scaleObject('barBottom', 1.1, 1);
 	addLuaSprite('barBottom', false);
-	setObjectCamera('barBottom', 'hud');
+	setObjectCamera('barBottom', 'effect');
 
-	makeAnimatedLuaSprite('borderfire', 'togarashi/borderburn', posX, posY);
-	addAnimationByPrefix('borderfire', 'idle', 'BorderBurn', 30, true);
-	playAnim('borderfire', 'idle');
-	setScrollFactor('borderfire', 0, 0);
-    screenCenter('borderfire');
-	addLuaSprite('borderfire', false);
-	setObjectCamera('borderfire', 'hud');
-	setProperty('borderfire.alpha', 0.0001);
+	makeAnimatedLuaSprite('fireback', 'closeup/StrumBG', posX, posY);
+	addAnimationByPrefix('fireback', 'idle', 'FireBG', 30, true);
+	playAnim('fireback', 'idle');
+	setScrollFactor('fireback', 0, 0);
+    screenCenter('fireback');
+	addLuaSprite('fireback', false);
+	setProperty('fireback.alpha', 0.0001);
 
 end
 

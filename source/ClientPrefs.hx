@@ -14,7 +14,6 @@ class ClientPrefs {
 	public static var showMemory:Bool = false;
 	public static var showPeak:Bool = false;
 	public static var fpsBorder:Bool = false;
-	public static var sortNotesByOrder:Bool = false;
 	public static var flashing:Bool = true;
 	public static var globalAntialiasing:Bool = true;
 	public static var noteSkin:String = 'Default';
@@ -30,13 +29,11 @@ class ClientPrefs {
 	public static var ghostTapping:Bool = true;
 	public static var timeBarType:String = 'Combined';
 	public static var scoreZoom:Bool = true;
-	public static var comboStacking = false;
 	public static var judgementCounter:Bool = false;
 	public static var scoreScreen:Bool = true;
 	public static var noReset:Bool = false;
 	public static var healthBarAlpha:Float = 1;
 	public static var laneAlpha:Float = 0;
-	public static var dynamicLaneOpacity:Bool = false;
 	public static var displayNPS:Bool = true;
 	public static var displayRating:Bool = true;
 	public static var showRating:Bool = true;
@@ -68,10 +65,13 @@ class ClientPrefs {
 		'healthgain' => 1.0,
 		'healthloss' => 1.0,
 		'instakill' => false,
+		'random' => false,
 		'practice' => false,
 		'botplay' => false,
 		'opponentplay' => false
 	];
+
+	public static var achievementMap:Map<String, Dynamic> = new Map<String, Dynamic>();
 
 	public static var comboOffset:Array<Int> = [0, 0, 0, 0];
 	public static var ratingOffset:Float = 0;
@@ -141,7 +141,6 @@ class ClientPrefs {
 		FlxG.save.data.ghostTapping = ghostTapping;
 		FlxG.save.data.timeBarType = timeBarType;
 		FlxG.save.data.scoreZoom = scoreZoom;
-		FlxG.save.data.comboStacking = comboStacking;
 		FlxG.save.data.judgementCounter = judgementCounter;
 		FlxG.save.data.scoreScreen = scoreScreen;
 		FlxG.save.data.displayNPS = displayNPS;
@@ -151,9 +150,8 @@ class ClientPrefs {
 		FlxG.save.data.noReset = noReset;
 		FlxG.save.data.healthBarAlpha = healthBarAlpha;
 		FlxG.save.data.laneAlpha = laneAlpha;
-		FlxG.save.data.dynamicLaneOpacity = dynamicLaneOpacity;
 		FlxG.save.data.comboOffset = comboOffset;
-
+		FlxG.save.data.achievementMap = achievementMap;
 		FlxG.save.data.ratingOffset = ratingOffset;
 		FlxG.save.data.marvelousWindow = marvelousWindow;
 		FlxG.save.data.sickWindow = sickWindow;
@@ -246,6 +244,9 @@ class ClientPrefs {
 		if(FlxG.save.data.violence != null) {
 			violence = FlxG.save.data.violence;
 		}*/
+		if(FlxG.save.data.achievementMap != null) {
+			achievementMap = FlxG.save.data.achievementMap;
+		}
 		if(FlxG.save.data.hideHud != null) {
 			hideHud = FlxG.save.data.hideHud;
 		}
@@ -260,10 +261,7 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.scoreZoom != null) {
 			scoreZoom = FlxG.save.data.scoreZoom;
-		}
-		if(FlxG.save.data.comboStacking != null) {
-			comboStacking = FlxG.save.data.comboStacking;
-		}		
+		}	
 		if(FlxG.save.data.judgementCounter != null) {
 			judgementCounter = FlxG.save.data.judgementCounter;
 		}		
@@ -279,9 +277,6 @@ class ClientPrefs {
 		if(FlxG.save.data.laneAlpha != null) {
 			laneAlpha = FlxG.save.data.laneAlpha;
 		}	
-		if(FlxG.save.data.dynamicLaneOpacity != null) {
-			dynamicLaneOpacity = FlxG.save.data.dynamicLaneOpacity;
-		}		
 		if(FlxG.save.data.displayNPS != null) {
 			displayNPS = FlxG.save.data.displayNPS;
 		}

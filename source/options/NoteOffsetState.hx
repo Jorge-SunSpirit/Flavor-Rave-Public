@@ -255,22 +255,21 @@ class NoteOffsetState extends MusicBeatState
 		comboNums.cameras = [camHUD];
 		add(comboNums);
 
-		var seperatedScore:Array<Int> = [];
+		var seperatedScore:Array<String> = [];
 		for (i in 0...3)
 		{
-			seperatedScore.push(FlxG.random.int(0, 9));
+			seperatedScore.push("" + FlxG.random.int(0, 9));
 		}
-
-		var daLoop:Int = 0;
-		for (i in seperatedScore)
+		
+		for (i in 0...seperatedScore.length)
 		{
-			var numScore:FlxSprite = new FlxSprite(43 * daLoop).loadGraphic(Paths.image(ratingFolder + 'num' + i));
+			var numScore:FlxSprite = new FlxSprite().loadGraphic(Paths.image(ratingFolder + 'num' + i));
 			numScore.cameras = [camHUD];
 			numScore.setGraphicSize(Std.int(numScore.width * 0.5));
 			numScore.updateHitbox();
+			numScore.x = (numScore.x - ((numScore.width * 0.5) * seperatedScore.length)) + (numScore.width * i);
 			numScore.antialiasing = ClientPrefs.globalAntialiasing;
 			comboNums.add(numScore);
-			daLoop++;
 		}
 
 		strumLineNotes = new FlxTypedGroup<StrumNote>();
@@ -618,7 +617,7 @@ class NoteOffsetState extends MusicBeatState
 		rating.y -= 60 + ClientPrefs.comboOffset[1];
 
 		comboNums.screenCenter();
-		comboNums.x = coolText.x - 90 + ClientPrefs.comboOffset[2];
+		comboNums.x = coolText.x + ClientPrefs.comboOffset[2];
 		comboNums.y += 80 - ClientPrefs.comboOffset[3];
 		reloadTexts();
 	}

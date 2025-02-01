@@ -1,0 +1,14 @@
+{
+	"song": {
+		"name": "Sinvergüenza",
+		"artist": "Stardust Tunes",
+		"charter": "Cerbera",
+		"pauseartist": "Mattoon",
+		"pauseArt": "savory"
+	},
+	"freeplay": {
+		"characters": ["hidden", "savory"],
+		"stage": "chiltepin",
+		"isOnePlayer": true
+	}
+}

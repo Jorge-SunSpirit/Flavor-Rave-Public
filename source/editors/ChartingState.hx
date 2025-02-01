@@ -158,8 +158,12 @@ class ChartingState extends MusicBeatState
 			'Self explanitory.\nValue 1: Speed of camera. Leave blank for song default'
 		],
 		[
-			'Set Lane Transparency',
-			'Self explanitory.\nValue 1: alpha specific. Leave blank for 0 :D\nValue 2: Speed of transition.'
+			'Lyric Display',
+			'Self explanitory.\nValue 1: Lyric text.'
+		],
+		[
+			'Change Pause Art',
+			'Self explanitory.\nValue 1: Sprite name.\nLocated in pause/art/'
 		]
 	];
 

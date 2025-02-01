@@ -1,0 +1,28 @@
+{
+	"songs": [
+		["Lodestar Shanty"]
+	],
+
+	"weekCharacters": [
+		"Salty",
+		"Sour",
+		"empty",
+		"empty"
+	],
+	"charaSelect": [
+		"salty",
+		"sour"
+	],
+	"force1P": true,
+	"weekBackground": "lady-morton",
+	"weekType": "Interlude",
+	"storyName": "Interlude 5",
+	"weekBefore": "dinterlude4",
+	"weekName": "Way of the Pirate",
+	"location": "The Lady Morton",
+	"startUnlocked": false,
+	"categoryType": "story",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

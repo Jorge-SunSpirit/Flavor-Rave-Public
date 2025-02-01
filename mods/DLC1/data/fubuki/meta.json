@@ -1,0 +1,24 @@
+{
+	"song": {
+		"name": "Fubuki",
+		"artist": "JACKALRUIN & Kamex",
+		"charter": "Flootena",
+		"titleCardStep": 80,
+		"pauseartist": "nayyco",
+		"pauseArt": "ace",
+		"extraCharacter": [true, true]
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"freeplay": {
+		"characters": ["ace", "togarashi"],
+		"stage": "togarashi-winter",
+		"isOnePlayer": false
+	},
+	"control": {
+		"noteChangesHealth": true,
+		"noteChangesStrum": true,
+		"noteChangesRating": true
+	}
+}

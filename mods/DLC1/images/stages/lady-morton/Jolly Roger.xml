@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Jolly Roger.png">
+<SubTexture name="Jolly Roger idle0000" x="742" y="1101" width="775" height="528" frameX="-124" frameY="-246" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="Jolly Roger idle0001" x="0" y="560" width="770" height="541" frameX="-122" frameY="-237" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="Jolly Roger idle0002" x="1495" y="0" width="753" height="541" frameX="-129" frameY="-238" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="Jolly Roger idle0003" x="741" y="0" width="754" height="559" frameX="-127" frameY="-216" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="Jolly Roger idle0004" x="0" y="1101" width="742" height="534" frameX="-127" frameY="-244" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="Jolly Roger idle0005" x="0" y="1635" width="754" height="514" frameX="-125" frameY="-262" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="Jolly Roger idle0006" x="1495" y="541" width="736" height="536" frameX="-126" frameY="-238" frameWidth="1080" frameHeight="1080" />
+<SubTexture name="Jolly Roger idle0007" x="0" y="0" width="741" height="560" frameX="-122" frameY="-211" frameWidth="1080" frameHeight="1080" />
+</TextureAtlas>

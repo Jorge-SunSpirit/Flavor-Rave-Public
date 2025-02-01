@@ -1,0 +1,161 @@
+{
+	"song": {
+		"events": [
+			[
+				9375,
+				[
+					[
+						"Note Camera Movement",
+						"9",
+						""
+					]
+				]
+			],
+			[
+				10875,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.7"
+					]
+				]
+			],
+			[
+				31500,
+				[
+					[
+						"Change Camera Zoom",
+						"1.2",
+						"0.7"
+					]
+				]
+			],
+			[
+				42000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"1"
+					]
+				]
+			],
+			[
+				52500,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				97500,
+				[
+					[
+						"Screen Flash",
+						"0.5",
+						"white"
+					]
+				]
+			],
+			[
+				115500,
+				[
+					[
+						"Change Camera Zoom",
+						"1.2",
+						"0.7"
+					]
+				]
+			],
+			[
+				129000,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"1"
+					]
+				]
+			],
+			[
+				133500,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.5"
+					]
+				]
+			],
+			[
+				148500,
+				[
+					[
+						"Change Camera Zoom",
+						"1.25",
+						"0.5"
+					]
+				]
+			],
+			[
+				161625,
+				[
+					[
+						"Change Camera Zoom",
+						"0.75",
+						"0.7"
+					]
+				]
+			],
+			[
+				163500,
+				[
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.7"
+					]
+				]
+			],
+			[
+				174000,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.7"
+					]
+				]
+			],
+			[
+				184500,
+				[
+					[
+						"Change Camera Zoom",
+						"0.75",
+						"2"
+					]
+				]
+			],
+			[
+				187500,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"1"
+					],
+					[
+						"Change Character",
+						"dad",
+						"sour"
+					]
+				]
+			]
+		]
+	}
+}

@@ -45,7 +45,8 @@ class ResultsScreenSubState extends MusicBeatSubstate
 	public static var fullCombo:Bool = false;
 	var canpressbuttons:Bool = false;
 	var fcSongSprite:BGSprite;
-	public static var chara:String = 'sour';
+	public static var chara1:String = 'sour';
+	public static var chara2:String = 'sour';
 	public var background:FlxSprite;
 	public var stroke:FlxSprite;
 	public var strokefinal:FlxSprite;
@@ -62,10 +63,12 @@ class ResultsScreenSubState extends MusicBeatSubstate
 	public var pauseMusic:FlxSound;
 
 	var rankingLetter:String;
+	public static var resultType:String = 'default';
 
 	override function create()
 	{
 		var delayTimer:Float = fullCombo ? 3.5 : 0.1;
+		var thingie:String = resultType == 'fakeout' ? chara2 : chara1;
 		if (fullCombo)
 		{
 			fcSongSprite = new BGSprite('ratingFC', 0, 0, 0, 0, ['FC']);
@@ -89,7 +92,7 @@ class ResultsScreenSubState extends MusicBeatSubstate
 		background.alpha = 0.0001;
 		add(background);
 
-		strokefinal = new FlxSprite().loadGraphic(Paths.image('results/character/${chara}/static_stroke'));
+		strokefinal = new FlxSprite().loadGraphic(Paths.image('results/character/${thingie}/static_stroke'));
 		strokefinal.antialiasing = ClientPrefs.globalAntialiasing;
 		strokefinal.alpha = 0.001;
 		add(strokefinal);
@@ -115,13 +118,19 @@ class ResultsScreenSubState extends MusicBeatSubstate
 		}
 
 		pauseMusic = new FlxSound();
-		if (rankingLetter == 'S')
-			pauseMusic.loadEmbedded(Paths.music('results_jingle_s'), false, true);
-		else
-			pauseMusic.loadEmbedded(Paths.music('results_jingle'), false, true);
+		switch (resultType)
+		{
+			case 'fakeout':
+				pauseMusic.loadEmbedded(Paths.music('results_jingle_fakeout'), false, true);
+			default:
+				if (rankingLetter == 'S')
+					pauseMusic.loadEmbedded(Paths.music('results_jingle_s'), false, true);
+				else
+					pauseMusic.loadEmbedded(Paths.music('results_jingle'), false, true);
+		}
 		FlxG.sound.list.add(pauseMusic);
-
-		var characterPath:String = 'images/results/character/${chara}/dialogue.json';
+ 
+		var characterPath:String = 'images/results/character/${thingie}/dialogue.json';
 		var path:String = '';
 		#if MODS_ALLOWED
 			path = Paths.modFolders(characterPath);
@@ -154,14 +163,20 @@ class ResultsScreenSubState extends MusicBeatSubstate
 			theArrayofAllTime.push(dioArray[0]);
 		}
 
-		charaSprite = new FlxSprite(FlxG.width, -34).loadGraphic(Paths.image('results/character/${chara}/render'));
+		charaSprite = new FlxSprite(FlxG.width, -34).loadGraphic(Paths.image('results/character/${chara1}/render'));
 		charaSprite.antialiasing = ClientPrefs.globalAntialiasing;
 		charaSprite.scale.set(1.5, 1.5);
 		charaSprite.updateHitbox();
 		add(charaSprite);
 
+		var charaSprite2:FlxSprite = new FlxSprite(FlxG.width, -34).loadGraphic(Paths.image('results/character/${chara2}/render'));
+		charaSprite2.antialiasing = ClientPrefs.globalAntialiasing;
+		charaSprite2.scale.set(1.5, 1.5);
+		charaSprite2.updateHitbox();
+		add(charaSprite2);
+
 		var rand:Int = FlxG.random.int(0, theArrayofAllTime.length - 1);
-		dialoguebox = new FlxSprite(0, 456).loadGraphic(Paths.image('results/character/${chara}/${theArrayofAllTime[rand].boxSprite}'));
+		dialoguebox = new FlxSprite(0, 456).loadGraphic(Paths.image('results/character/${thingie}/${theArrayofAllTime[rand].boxSprite}'));
 		dialoguebox.antialiasing = ClientPrefs.globalAntialiasing;
 		dialoguebox.alpha = 0.001;
 		add(dialoguebox);
@@ -203,6 +218,14 @@ class ResultsScreenSubState extends MusicBeatSubstate
 		rank.scale.set(0.001,0.001);
 		add(rank);
 
+		var homestatic:FlxSprite = new FlxSprite();
+		homestatic.frames = Paths.getSparrowAtlas('sweetroom/static', 'tbd');
+		homestatic.animation.addByPrefix('idle', 'static', 24, true);
+		homestatic.antialiasing = ClientPrefs.globalAntialiasing;
+		homestatic.animation.play('idle');
+		homestatic.alpha = 0.001;
+		add(homestatic);
+
 		//Prob can get rid of this code but idk yet
 		var mean:Float = 0;
 
@@ -214,87 +237,147 @@ class ResultsScreenSubState extends MusicBeatSubstate
 			isLeaderboardCompatible = "Accepted";
 		}
 
-		if (rankingLetter == 'S')
+		switch(resultType)
 		{
-			new FlxTimer().start(delayTimer, function(tmr:FlxTimer)
-			{
-				pauseMusic.play(true);
-				FlxTween.tween(background, {alpha: 0.5}, 0.2);
-				FlxTween.tween(finalresult, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 1});
-				stroke.animation.play('idle');
-				stroke.alpha = 1;
-				FlxTween.tween(charaSprite, {x: -58}, 0.5, {ease: FlxEase.expoOut, startDelay: 0.397});
-				
-				new FlxTimer().start(0.775, function(tmr:FlxTimer) {
-					FlxTween.color(stroke, 0.1, stroke.color, 0xFFFFFFFF, { onComplete: function(twn:FlxTween)
-						{
-							FlxTween.tween(stroke, {alpha: 0}, 0.2, {ease: FlxEase.expoOut, startDelay: 0.1});
-							strokefinal.alpha = 1;
-						}
-					});
-				});
-				FlxTween.tween(dialoguebox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 1.5, onComplete: function(twn:FlxTween)
-				{
-					dialogueText.alpha = 1;
-					dialogueText.start(0.04, true);
-				}});
-				FlxTween.tween(resultbox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2.5});
-				FlxTween.tween(comboText, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 3});
-				
-				new FlxTimer().start(6.48, function(tmr:FlxTimer) {
-					FlxTween.tween(rank, {"scale.x": 1.2, "scale.y": 1.2}, 0.1, {ease: FlxEase.cubeIn, onComplete: function(twn:FlxTween)
+			case 'fakeout':
+				new FlxTimer().start(delayTimer, function(tmr:FlxTimer)
 					{
-						FlxTween.tween(rank, {"scale.x": 1, "scale.y": 1}, 0.3, {ease: FlxEase.bounceOut});
-	
-						new FlxTimer().start(1, function(tmr:FlxTimer) {
-							if(Paths.fileExists('sounds/ratings/${rankingLetter}.ogg', SOUND))
-								FlxG.sound.play(Paths.sound('ratings/${rankingLetter}'), 1);
-						});
-						canpressbuttons = true;
-					}});	
-				});
-			});
-		}
-		else
-		{
-			new FlxTimer().start(delayTimer, function(tmr:FlxTimer)
-			{
-				pauseMusic.play(true);
-				FlxTween.tween(background, {alpha: 0.5}, 0.5);
-				FlxTween.tween(finalresult, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 1});
-				stroke.animation.play('idle');
-				stroke.alpha = 1;
-				FlxTween.tween(charaSprite, {x: -58}, 0.7, {ease: FlxEase.expoOut, startDelay: 0.5});
-				
-				new FlxTimer().start(1, function(tmr:FlxTimer) {
-					FlxTween.color(stroke, 0.3, stroke.color, 0xFFFFFFFF, { onComplete: function(twn:FlxTween)
-						{
-							FlxTween.tween(stroke, {alpha: 0}, 0.5, {ease: FlxEase.expoOut, startDelay: 0.2});
+						pauseMusic.play(true);
+						FlxTween.tween(background, {alpha: 0.5}, 0.5);
+						FlxTween.tween(finalresult, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 1});
+						stroke.animation.play('idle');
+						stroke.alpha = 1;
+						FlxTween.tween(charaSprite, {x: -58}, 0.7, {ease: FlxEase.expoOut, startDelay: 0.5});
+						
+						FlxTween.color(stroke, 0.3, stroke.color, 0xFFFFFFFF, {startDelay: 1, onComplete: function(twn:FlxTween){}});
+
+						new FlxTimer().start(1.5, function(tmr:FlxTimer) { //Potentially add a glitch effect
+							FlxTween.tween(homestatic, {alpha: 0.5}, 0.2, {ease: FlxEase.expoOut});
+							FlxTween.tween(homestatic, {alpha: 0}, 1, {ease: FlxEase.expoOut, startDelay: 0.828});
+
 							strokefinal.alpha = 1;
-						}
-					});
-				});
-				FlxTween.tween(dialoguebox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2, onComplete: function(twn:FlxTween)
-				{
-					dialogueText.alpha = 1;
-					dialogueText.start(0.04, true);
-				}});
-				FlxTween.tween(resultbox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2});
-				FlxTween.tween(comboText, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2.5});
-				
-				new FlxTimer().start(4.8, function(tmr:FlxTimer) {
-					FlxTween.tween(rank, {"scale.x": 1.2, "scale.y": 1.2}, 0.1, {ease: FlxEase.cubeIn, onComplete: function(twn:FlxTween)
-					{
-						FlxTween.tween(rank, {"scale.x": 1, "scale.y": 1}, 0.3, {ease: FlxEase.bounceOut});
-	
-						new FlxTimer().start(1, function(tmr:FlxTimer) {
-							if(Paths.fileExists('sounds/ratings/${rankingLetter}.ogg', SOUND))
-								FlxG.sound.play(Paths.sound('ratings/${rankingLetter}'), 1);
+							FlxTween.tween(charaSprite, {x: -1280, angle: 15}, 0.5, {ease: FlxEase.expoInOut});
+							FlxTween.tween(charaSprite2, {x: -58}, 0.3, {ease: FlxEase.expoInOut, startDelay: 0.2});
+
+							FlxTween.tween(stroke, {alpha: 0}, 0.5, {ease: FlxEase.expoOut, startDelay: 0.7});
 						});
-					}});	
-					canpressbuttons = true;
-				});
-			});
+
+						FlxTween.tween(dialoguebox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2.75, onComplete: function(twn:FlxTween)
+						{
+							theArrayofAllTime = [];
+							for (dialogue in dioArray) 
+							{
+								if (dialogue.rank == 'A')
+									theArrayofAllTime.push(dialogue);
+							}
+					
+							if (theArrayofAllTime[0] == null)
+							{
+								theArrayofAllTime.push(dioArray[0]);
+							}
+
+							dialogueText.resetText(theArrayofAllTime[rand].name);
+							dialogueText.alpha = 1;
+							dialogueText.start(0.04, true);
+						}});
+						FlxTween.tween(resultbox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 3});
+						FlxTween.tween(comboText, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 3.5});
+						
+						new FlxTimer().start(4.8, function(tmr:FlxTimer) {
+							FlxTween.tween(rank, {"scale.x": 1.2, "scale.y": 1.2}, 0.1, {ease: FlxEase.cubeIn, onComplete: function(twn:FlxTween)
+							{
+								FlxTween.tween(rank, {"scale.x": 1, "scale.y": 1}, 0.3, {ease: FlxEase.bounceOut});
+			
+								new FlxTimer().start(1, function(tmr:FlxTimer) {
+								FlxG.sound.play(Paths.sound('ratings/Fakeout'), 1);
+								});
+							}});	
+							canpressbuttons = true;
+						});
+					});
+			default:
+				if (rankingLetter == 'S')
+					{
+						new FlxTimer().start(delayTimer, function(tmr:FlxTimer)
+						{
+							pauseMusic.play(true);
+							FlxTween.tween(background, {alpha: 0.5}, 0.2);
+							FlxTween.tween(finalresult, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 1});
+							stroke.animation.play('idle');
+							stroke.alpha = 1;
+							FlxTween.tween(charaSprite, {x: -58}, 0.5, {ease: FlxEase.expoOut, startDelay: 0.397});
+							
+							new FlxTimer().start(0.775, function(tmr:FlxTimer) {
+								FlxTween.color(stroke, 0.1, stroke.color, 0xFFFFFFFF, { onComplete: function(twn:FlxTween)
+									{
+										FlxTween.tween(stroke, {alpha: 0}, 0.2, {ease: FlxEase.expoOut, startDelay: 0.1});
+										strokefinal.alpha = 1;
+									}
+								});
+							});
+							FlxTween.tween(dialoguebox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 1.5, onComplete: function(twn:FlxTween)
+							{
+								dialogueText.alpha = 1;
+								dialogueText.start(0.04, true);
+							}});
+							FlxTween.tween(resultbox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2.5});
+							FlxTween.tween(comboText, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 3});
+							
+							new FlxTimer().start(6.48, function(tmr:FlxTimer) {
+								FlxTween.tween(rank, {"scale.x": 1.2, "scale.y": 1.2}, 0.1, {ease: FlxEase.cubeIn, onComplete: function(twn:FlxTween)
+								{
+									FlxTween.tween(rank, {"scale.x": 1, "scale.y": 1}, 0.3, {ease: FlxEase.bounceOut});
+				
+									new FlxTimer().start(1, function(tmr:FlxTimer) {
+										if(Paths.fileExists('sounds/ratings/${rankingLetter}.ogg', SOUND))
+											FlxG.sound.play(Paths.sound('ratings/${rankingLetter}'), 1);
+									});
+									canpressbuttons = true;
+								}});	
+							});
+						});
+					}
+					else
+					{
+						new FlxTimer().start(delayTimer, function(tmr:FlxTimer)
+						{
+							pauseMusic.play(true);
+							FlxTween.tween(background, {alpha: 0.5}, 0.5);
+							FlxTween.tween(finalresult, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 1});
+							stroke.animation.play('idle');
+							stroke.alpha = 1;
+							FlxTween.tween(charaSprite, {x: -58}, 0.7, {ease: FlxEase.expoOut, startDelay: 0.5});
+							
+							new FlxTimer().start(1, function(tmr:FlxTimer) {
+								FlxTween.color(stroke, 0.3, stroke.color, 0xFFFFFFFF, { onComplete: function(twn:FlxTween)
+									{
+										FlxTween.tween(stroke, {alpha: 0}, 0.5, {ease: FlxEase.expoOut, startDelay: 0.2});
+										strokefinal.alpha = 1;
+									}
+								});
+							});
+							FlxTween.tween(dialoguebox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2, onComplete: function(twn:FlxTween)
+							{
+								dialogueText.alpha = 1;
+								dialogueText.start(0.04, true);
+							}});
+							FlxTween.tween(resultbox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2});
+							FlxTween.tween(comboText, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2.5});
+							
+							new FlxTimer().start(4.8, function(tmr:FlxTimer) {
+								FlxTween.tween(rank, {"scale.x": 1.2, "scale.y": 1.2}, 0.1, {ease: FlxEase.cubeIn, onComplete: function(twn:FlxTween)
+								{
+									FlxTween.tween(rank, {"scale.x": 1, "scale.y": 1}, 0.3, {ease: FlxEase.bounceOut});
+				
+									new FlxTimer().start(1, function(tmr:FlxTimer) {
+										if(Paths.fileExists('sounds/ratings/${rankingLetter}.ogg', SOUND))
+											FlxG.sound.play(Paths.sound('ratings/${rankingLetter}'), 1);
+									});
+								}});	
+								canpressbuttons = true;
+							});
+						});
+					}
 		}
 		
 		cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
@@ -319,7 +402,7 @@ class ResultsScreenSubState extends MusicBeatSubstate
 			}
 		}
 
-		if (canpressbuttons && FlxG.keys.justPressed.F1 && !PlayState.loadRep)
+		if (canpressbuttons && !PlayState.isStoryMode && FlxG.keys.justPressed.F1 && !PlayState.loadRep)
 		{
 			PlayState.isStoryMode = false;
 			PlayState.storyDifficulty = PlayState.storyDifficulty;

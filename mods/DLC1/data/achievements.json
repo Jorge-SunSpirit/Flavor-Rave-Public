@@ -1,0 +1,44 @@
+{
+	"achievements": [
+		{
+			"name": "Livewire-FC",
+			"fancyName": "Punk Tactics",
+			"unlockCondition": "Achieve a Full Combo on Livewire",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Lodestar Shanty-FC",
+			"fancyName": "Pirate Dreams Never End",
+			"unlockCondition": "Achieve a Full Combo on Lodestar Shanty",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "¡Carrera Loca!-FC",
+			"fancyName": "Amor Relámpago",
+			"unlockCondition": "Achieve a Full Combo on ¡Carrera Loca!",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Stirring-FC",
+			"fancyName": "Shaken and Stirred",
+			"unlockCondition": "Achieve a Full Combo on Stirring",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		},
+		{
+			"name": "Fubuki-FC",
+			"fancyName": "Beast Blessings",
+			"unlockCondition": "Achieve a Full Combo on Fubuki",
+			"showmanDialogue": "This is a placeholder!",
+			"hidden": false,
+			"icon": "default"
+		}
+	]
+}

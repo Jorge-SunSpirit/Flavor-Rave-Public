@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BuildingLights.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="LWLights20000" x="8" y="8" width="1724" height="699"/>
+	<SubTexture name="LWLights20001" x="8" y="8" width="1724" height="699"/>
+	<SubTexture name="LWLights20002" x="1740" y="8" width="1724" height="699"/>
+	<SubTexture name="LWLights20003" x="1740" y="8" width="1724" height="699"/>
+	<SubTexture name="LWLights20004" x="8" y="715" width="1724" height="634" frameX="0" frameY="-65" frameWidth="1724" frameHeight="699"/>
+	<SubTexture name="LWLights20005" x="8" y="715" width="1724" height="634" frameX="0" frameY="-65" frameWidth="1724" frameHeight="699"/>
+	<SubTexture name="LWLights20006" x="1740" y="715" width="1724" height="481" frameX="0" frameY="-218" frameWidth="1724" frameHeight="699"/>
+	<SubTexture name="LWLights20007" x="1740" y="715" width="1724" height="481" frameX="0" frameY="-218" frameWidth="1724" frameHeight="699"/>
+	<SubTexture name="LWLights20008" x="8" y="1357" width="1724" height="273" frameX="0" frameY="-426" frameWidth="1724" frameHeight="699"/>
+	<SubTexture name="LWLights20009" x="8" y="1357" width="1724" height="273" frameX="0" frameY="-426" frameWidth="1724" frameHeight="699"/>
+	<SubTexture name="LWLights20010" x="1740" y="1357" width="221" height="25" frameX="-1503" frameY="-674" frameWidth="1724" frameHeight="699"/>
+	<SubTexture name="LWLights20011" x="1740" y="1357" width="221" height="25" frameX="-1503" frameY="-674" frameWidth="1724" frameHeight="699"/>
+	<SubTexture name="LWLights20012" x="1969" y="1357" width="221" height="2" frameX="-1503" frameY="-697" frameWidth="1724" frameHeight="699"/>
+	<SubTexture name="LWLights20013" x="1969" y="1357" width="221" height="2" frameX="-1503" frameY="-697" frameWidth="1724" frameHeight="699"/>
+</TextureAtlas>

@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SweetIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				114,
+				-15
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SweetLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				-30
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SweetDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				21
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SweetUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				47,
+				-18
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SweetRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sweet-SH",
+	"position": [
+		0,
+		-30
+	],
+	"healthicon": "sweet",
+	"flip_x": true,
+	"healthbar_colors": [
+		240,
+		196,
+		189
+	],
+	"camera_position": [
+		140,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sweet",
+	"healthbar_image": "sweet",
+	"musicNoteOffset": [-100,-200]
+}

@@ -3,6 +3,8 @@
 		"name": "Applewood",
 		"artist": "Stardust Tunes",
 		"charter": "Flootena",
+		"pauseArt": "umami",
+		"pauseartist": "JohnnyAnimates",
 		"titleCardStep": 10
 	},
 	"dialogue": {
@@ -10,5 +12,10 @@
 	},
 	"control": {
 		"happyEnding": true
+	},
+	"freeplay": {
+		"characters": ["umami", "sour"],
+		"stage": "enzync",
+		"isOnePlayer": false
 	}
 }

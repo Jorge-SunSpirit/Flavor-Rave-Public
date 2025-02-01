@@ -1,6 +1,3 @@
-function onCreatePost()
-end
-
 function onCreate()
 	posX = -135;
 	posY = -100;
@@ -38,10 +35,6 @@ end
 function eventStep(step)
 		if step == '1' then
 			setProperty('introstatic.alpha', 1);
-			-- makes ratings change per character
-			setProperty('ratingCharNote', true);
-			setProperty('healthCharNote', true);
-			setProperty('noteSkinCharNote', true);
 		end
 		if step == '12' then
 			doTweenY('moveCam', 'camFollow', 268, 4);

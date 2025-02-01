@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sharp_BG.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sharp_Idle0000" x="15" y="15" width="869" height="1059" frameX="-3" frameY="-509" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0001" x="15" y="15" width="869" height="1059" frameX="-3" frameY="-509" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0002" x="892" y="15" width="869" height="1069" frameX="-3" frameY="-499" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0003" x="892" y="15" width="869" height="1069" frameX="-3" frameY="-499" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0004" x="1769" y="15" width="869" height="1070" frameX="-3" frameY="-499" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0005" x="1769" y="15" width="869" height="1070" frameX="-3" frameY="-499" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0006" x="2646" y="15" width="869" height="1071" frameX="-3" frameY="-498" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0007" x="2646" y="15" width="869" height="1071" frameX="-3" frameY="-498" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0008" x="3523" y="15" width="869" height="1069" frameX="-3" frameY="-500" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0009" x="3523" y="15" width="869" height="1069" frameX="-3" frameY="-500" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0010" x="3523" y="15" width="869" height="1069" frameX="-3" frameY="-500" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0011" x="3523" y="15" width="869" height="1069" frameX="-3" frameY="-500" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0012" x="3523" y="15" width="869" height="1069" frameX="-3" frameY="-500" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Idle0013" x="3523" y="15" width="869" height="1069" frameX="-3" frameY="-500" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0014" x="4400" y="15" width="870" height="1582" frameX="-2" frameY="0" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0015" x="4400" y="15" width="870" height="1582" frameX="-2" frameY="0" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0016" x="5278" y="15" width="869" height="1565" frameX="-3" frameY="-16" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0017" x="5278" y="15" width="869" height="1565" frameX="-3" frameY="-16" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0018" x="6155" y="15" width="869" height="1504" frameX="-3" frameY="-72" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0019" x="6155" y="15" width="869" height="1504" frameX="-3" frameY="-72" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0020" x="7032" y="15" width="869" height="1499" frameX="-3" frameY="-76" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0021" x="7032" y="15" width="869" height="1499" frameX="-3" frameY="-76" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0022" x="7032" y="15" width="869" height="1499" frameX="-3" frameY="-76" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0023" x="7032" y="15" width="869" height="1499" frameX="-3" frameY="-76" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0024" x="7032" y="15" width="869" height="1499" frameX="-3" frameY="-76" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0025" x="7032" y="15" width="869" height="1499" frameX="-3" frameY="-76" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_Hey0026" x="7032" y="15" width="869" height="1499" frameX="-3" frameY="-76" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0027" x="15" y="1605" width="978" height="1447" frameX="0" frameY="-127" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0028" x="15" y="1605" width="978" height="1447" frameX="0" frameY="-127" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0029" x="1001" y="1605" width="975" height="1442" frameX="0" frameY="-132" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0030" x="1001" y="1605" width="975" height="1442" frameX="0" frameY="-132" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0031" x="1984" y="1605" width="1040" height="1461" frameX="-3" frameY="-114" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0032" x="1984" y="1605" width="1040" height="1461" frameX="-3" frameY="-114" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0033" x="3032" y="1605" width="1056" height="1459" frameX="-3" frameY="-116" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0034" x="3032" y="1605" width="1056" height="1459" frameX="-3" frameY="-116" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0035" x="4096" y="1605" width="978" height="1447" frameX="0" frameY="-127" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0036" x="4096" y="1605" width="978" height="1447" frameX="0" frameY="-127" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0037" x="5082" y="1605" width="975" height="1442" frameX="0" frameY="-132" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0038" x="5082" y="1605" width="975" height="1442" frameX="0" frameY="-132" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0039" x="6065" y="1605" width="1040" height="1461" frameX="-3" frameY="-114" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0040" x="6065" y="1605" width="1040" height="1461" frameX="-3" frameY="-114" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0041" x="7113" y="1605" width="1056" height="1459" frameX="-3" frameY="-116" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0042" x="7113" y="1605" width="1056" height="1459" frameX="-3" frameY="-116" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0043" x="7113" y="1605" width="1056" height="1459" frameX="-3" frameY="-116" frameWidth="1059" frameHeight="1582"/>
+	<SubTexture name="Sharp_WayHo0044" x="7113" y="1605" width="1056" height="1459" frameX="-3" frameY="-116" frameWidth="1059" frameHeight="1582"/>
+</TextureAtlas>

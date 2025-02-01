@@ -89,7 +89,7 @@ class SunSynthFirstState extends MusicBeatState
 		add(backdrop);
 		colorTween1.color = MainMenuState.initChecker[2];
 		colorTween2.color = MainMenuState.initChecker[3];
-		MainMenuState.fromFirstState = true;
+		MainMenuState.fromSpecificState = 1;
 
 		menuArt = new FlxSprite(375,-56).loadGraphic(Paths.image('mainmenu/SynSun/tv/synsun'));
 		menuArt.antialiasing = ClientPrefs.globalAntialiasing;

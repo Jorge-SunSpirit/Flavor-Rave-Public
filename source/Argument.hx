@@ -33,7 +33,7 @@ Usage:
   ${exeName} chart "Song Name" ["Mod Folder"] [-d=<val> | --diff=<val>]
   ${exeName} debug ["Mod Folder"]
   ${exeName} character <char> ["Mod Folder"]
-  ${exeName} (sunsynth | sunsynthfirst | gallery | flavorpedia | flavorpediamain | flavorpediaside)
+  ${exeName} (sunsynth | sunsynthfirst | gallery | flavorpedia | flavorpediamain | flavorpediaside | stagepreview)
   ${exeName} -h | --help
 
 Options:
@@ -154,6 +154,11 @@ Options:
 			case 'flavorpediaside':
 			{
 				LoadingState.loadAndSwitchState(new FlavorpediaSideState());
+			}
+
+			case 'stagepreview':
+			{
+				LoadingState.loadAndSwitchState(new StagePreviewState());
 			}
 		}
 

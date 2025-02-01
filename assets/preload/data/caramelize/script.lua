@@ -1,3 +1,5 @@
+local cameraType = 0;
+
 function onCreate()
 	posX = -0;
 	posY = -0;
@@ -52,6 +54,21 @@ function onCreate()
 	setScrollFactor('text2', 0, 0);
 	addLuaSprite('text2', false);
 	setProperty('text2.alpha', 0.0001);
+
+	makeAnimatedLuaSprite('strum', 'closeup/CoolStrum', posX, posY);
+	addAnimationByPrefix('strum', 'idle', 'CoolStrum', 30, false);
+	setScrollFactor('strum', 0, 0);
+    screenCenter('strum');
+	addLuaSprite('strum', false);
+	setObjectCamera('strum', 'effect');
+	setProperty('strum.alpha', 0.0001);
+	
+	makeLuaSprite('dramawhite', '', -100, -100);
+    makeGraphic('dramawhite', 1280*2, 720*2, 'FFFFFF');
+    setScrollFactor('dramawhite', 0, 0);
+    screenCenter('dramawhite');
+	setProperty('dramawhite.alpha', 0.0001);
+    addLuaSprite('dramawhite', true);
 	
 	makeLuaSprite('vin', 'togarashi/burnvin', posX, posY);
 	setScrollFactor('vin', 0, 0);
@@ -67,73 +84,110 @@ function onCreate()
 	doTweenY('moveCam', 'camFollow', -1110, 0.1);
 end
 
-function onStepHit()
+function onCreatePost()
+	setObjectCamera('extraGroup', 'effect');
+	setObjectCamera('gfGroup', 'effect');
+	setProperty('gfGroup.x', -1000)
+	setProperty('gfGroup.y', 0)
+	setProperty('extraGroup.x', 1280)
+	setProperty('extraGroup.y', 0)
+	setProperty('gf.missRecolor', false)
+	setProperty('extraChar.missRecolor', false)
+	setScrollFactor('extraGroup', 0, 0);
+	setObjectOrder('extraGroup', getObjectOrder('strum')+1);
+	setScrollFactor('gfGroup', 0, 0);
+	setObjectOrder('gfGroup', getObjectOrder('strum')+1);
+	
+	setObjectCamera('fireback', 'effect');
 
-	if curStep == 10 then
+end
+
+function thingie(num)
+	num = tonumber(num)
+	if num == 10 then
 		doTweenAlpha('dramablack', 'dramablack', 0, 3);
 	end
-	if curStep == 35 then
+	if num == 35 then
 		doTweenAlpha('text1', 'text1', 1, 2);
 	end
-	if curStep == 60 then
+	if num == 60 then
 		runTimer('inkstart', 0.2);
 	end
-	if curStep == 64 then
+	if num == 64 then
 		doTweenY('barTop', 'barTop', -102, 2, "circinout");
 		doTweenY('barBottom', 'barBottom', 822, 2, "circinout");
 		doTweenAlpha('ink', 'ink', 1, 0.3);
 	end
-	if curStep == 94 then
+	if num == 94 then
 		doTweenAlpha('text2', 'text2', 1, 2);
 	end
-	if curStep == 124 then
+	if num == 124 then
 		runTimer('papergone', 0.2);
 	end
-	if curStep == 131 then
+	if num == 131 then
 		doTweenAlpha('paper', 'paper', 0, 0.2);
 		doTweenAlpha('ink', 'ink', 0, 0.2);
 		doTweenAlpha('text1', 'text1', 0, 0.5);
 		doTweenAlpha('text2', 'text2', 0, 0.5);
 	end
-	if curStep == 145 then
+	if num == 145 then
 		removeLuaSprite('text1');
 		doTweenAlpha('paperburn', 'paperburn', 0, 0.4);
 	end
-	if curStep == 180 then
+	if num == 180 then
 		doTweenY('moveCam', 'camFollow', 350, 5);
 	end
-	if curStep == 255 then
+	if num == 255 then
 		setProperty('isCameraOnForcedPos', false);
 	end
-	if curStep == 800 then
+	if num == 800 then
+		doTweenAlpha('dramashadow', 'dramashadow', 0.7, 3);
 		doTweenY('barTop', 'barTop', 0, 0.5, "circinout");
 		doTweenY('barBottom', 'barBottom', 628, 0.5, "circinout");
 	end
-	if curStep == 1056 then
-		setProperty('borderfire.alpha', 1);
+	if num == 1018 then
+		runTimer('strumstart', 0.2);
+	end
+	if num == 1024 then
+		doTweenAlpha('strum', 'strum', 1, 0.2, "circinout");
+	end
+	if num == 1050 then
+		doTweenAlpha('dramawhite', 'dramawhite', 1, 0.25);
+	end
+	if num == 1056 then
+		cameraType = 1
+		setProperty('dramawhite.alpha', 0.0001);
+		setProperty('strum.alpha', 0.0001);
+		setProperty('fireback.alpha', 1);
 		setProperty('vin.alpha', 1);
 		doTweenY('barTop', 'barTop', -102, 0.25, "circinout");
 		doTweenY('barBottom', 'barBottom', 822, 0.25, "circinout");
 	end
-	if curStep == 1568 then
-		doTweenAlpha('dramablack', 'dramablack', 1, 2);
-		doTweenAlpha('borderfire', 'borderfire', 0, 2);
+	if num == 1568 then
+		cameraType = 3
+		setProperty('dramablack.alpha', 1);
+		doTweenAlpha('fireback', 'fireback', 0.00001, 2);
 		doTweenAlpha('vin', 'vin', 0, 1.5);
 	end
-	if curStep == 1619 then
+	if num == 1619 then
 		setProperty('dramashadow.alpha', 1);
 		doTweenAlpha('dramablack', 'dramablack', 0, 1);
 	end
-	if curStep == 1823 then
+	if num == 1823 then
 		doTweenAlpha('vin', 'vin', 0.3, 3);
 	end
-	if curStep == 2080 then
-		setProperty('borderfire.alpha', 1);
+	if num == 2080 then
+		cameraType = 1
+		setProperty('fireback.alpha', 1);
 		setProperty('vin.alpha', 1);
 		setProperty('dramashadow.alpha', 0);
 	end
-	if curStep == 2592 then
-		doTweenAlpha('borderfire', 'borderfire', 0, 3);
+	if num == 2528 then
+		cameraType = 2
+	end
+	if num == 2592 then
+		cameraType = 3
+		doTweenAlpha('fireback', 'fireback', 0, 2);
 		doTweenAlpha('vin', 'vin', 0, 2);
 	end
 end
@@ -144,5 +198,58 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	end
 	if tag == 'inkstart' then
 		playAnim('ink', 'idle');
+	end
+	if tag == 'strumstart' then
+		playAnim('strum', 'idle');
+	end
+end
+
+local charFocus = -1
+
+function onMoveCamera(focus)
+	if cameraType == 1 then
+		if focus == 'extra' or focus == 'boyfriend' then
+			if charFocus ~= 1 then
+				charFocus = 1
+				doTweenColor('gfC', 'gf', '808080', 0.5, 'quadout');
+				doTweenX('gfX', 'gfGroup', -325, 0.5, 'quadout');
+				doTweenY('gfY', 'gfGroup', 20, 0.5, 'quadout');
+				doTweenColor('extraC', 'extraChar', 'ffffff', 0.5, 'quadout');
+				doTweenX('extraX', 'extraGroup', 750, 0.5, 'quadout');
+				doTweenY('extraY', 'extraGroup', 0, 0.5, 'quadout');
+			end
+		elseif focus == 'gf' or focus == 'dad' then
+			if charFocus ~= 0 then
+				charFocus = 0
+				doTweenColor('gfC', 'gf', 'ffffff', 0.5, 'quadout');
+				doTweenX('gfX', 'gfGroup', -275, 0.5, 'quadout');
+				doTweenY('gfY', 'gfGroup', 0, 0.5, 'quadout');
+				doTweenColor('extraC', 'extraChar', '808080', 0.5, 'quadout');
+				doTweenX('extraX', 'extraGroup', 800, 0.5, 'quadout');
+				doTweenY('extraY', 'extraGroup', 20, 0.5, 'quadout');
+			end
+		end
+	end
+	if cameraType == 2 then --Them together
+		if charFocus ~= 2 then
+			charFocus = 2
+			doTweenColor('gfC', 'gf', 'ffffff', 0.5, 'quadout');
+			doTweenX('gfX', 'gfGroup', -275, 0.5, 'quadout');
+			doTweenY('gfY', 'gfGroup', 0, 0.5, 'quadout');
+			doTweenColor('extraC', 'extraChar', 'ffffff', 0.5, 'quadout');
+			doTweenX('extraX', 'extraGroup', 750, 0.5, 'quadout');
+			doTweenY('extraY', 'extraGroup', 0, 0.5, 'quadout');
+		end
+	end
+	if cameraType == 3 then --This is just hiding them just incase
+		if charFocus ~= 3 then
+			charFocus = 3
+			doTweenColor('gfC', 'gf', 'ffffff', 0.5, 'quadout');
+			doTweenX('gfX', 'gfGroup', -1000, 0.5, 'quadout');
+			doTweenY('gfY', 'gfGroup', 0, 0.5, 'quadout');
+			doTweenColor('extraC', 'extraChar', 'ffffff', 0.5, 'quadout');
+			doTweenX('extraX', 'extraGroup', 1380, 0.5, 'quadout');
+			doTweenY('extraY', 'extraGroup', 0, 0.5, 'quadout');
+		end
 	end
 end

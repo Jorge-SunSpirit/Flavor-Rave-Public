@@ -152,7 +152,7 @@ class FlavorpediaSideState extends MusicBeatState
 		}
 
 		#if MODS_ALLOWED
-		var modsDirectories:Array<String> = Paths.getModDirectories();
+		var modsDirectories:Array<String> = Paths.getGlobalMods();
 		for (folder in modsDirectories)
 		{
 			//This idea works and it's almost great. BUT 

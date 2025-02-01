@@ -97,15 +97,6 @@
 			"link": "https://twitter.com/HighPoweredArt"
 		},
 		{
-			"chara": "jackie",
-			"name": "Jackie",
-			"design": "Team TBD Dev",
-			"desc": "The devs arrived to snag some autographs!",
-			"place": "Showman's Showroom",
-			"songCheck": "Sugarcoat It",
-			"link": "https://twitter.com/JACKALRUIN"
-		},
-		{
 			"chara": "jorge",
 			"name": "Jorge \n￙",
 			"design": "Team TBD Dev",
@@ -130,7 +121,7 @@
 			"desc": "The devs arrived to snag some autographs!",
 			"place": "Showman's Showroom",
 			"songCheck": "Sugarcoat It",
-			"link": "https://twitter.com/lezanikat"
+			"link": "https://bsky.app/profile/rizaconfetti.bsky.social"
 		},
 		{
 			"chara": "michael",
@@ -257,66 +248,40 @@
 			"link": "https://x.com/RealMelodyHope"
 		},
 		{
-			"chara": "carrot",
-			"name": "Carrot",
-			"design": "Garden of Beatin'",
-			"desc": "A passerby patron at Uncle Hearty's",
-			"place": "Uncle Hearty's",
-			"songCheck": "Double-Stacked",
-			"link": "https://x.com/MrZonian"
+			"chara": "momo",
+			"name": "Momo",
+			"design": "Hotline 024",
+			"desc": "A nighttime wanderer in Enzync City.",
+			"place": "Enzync City Main Street (Night)",
+			"songCheck": "Imitation Station",
+			"link": "https://gamebanana.com/mods/373298"
 		},
 		{
-			"chara": "pea",
-			"name": "Pea",
-			"design": "Garden of Beatin'",
-			"desc": "A passerby patron at Uncle Hearty's",
-			"place": "Uncle Hearty's",
-			"songCheck": "Double-Stacked",
-			"link": "https://x.com/MrZonian"
+			"chara": "gogo",
+			"name": "Gogo \n￙",
+			"design": "Hotline 024",
+			"desc": "A nighttime wanderer in Enzync City.",
+			"place": "Enzync City Main Street (Night)",
+			"songCheck": "Imitation Station",
+			"link": "https://gamebanana.com/mods/373298"
 		},
 		{
-			"chara": "mrthrowdown",
-			"name": "Mr. Throwdown",
-			"design": "\nDeveloper OC",
-			"desc": "A passerby patron at Uncle Hearty's",
-			"place": "Uncle Hearty's",
-			"songCheck": "Double-Stacked",
-			"link": "https://x.com/SirDusterBuster"
+			"chara": "prime",
+			"name": "PRIME",
+			"design": "Party Week",
+			"desc": "A nighttime wanderer in Enzync City.",
+			"place": "Enzync City Main Street (Night)",
+			"songCheck": "Imitation Station",
+			"link": "https://gamebanana.com/mods/486832"
 		},
 		{
-			"chara": "richard",
-			"name": "Richard",
-			"design": "Developer OC",
-			"desc": "A passerby patron at Uncle Hearty's",
-			"place": "Uncle Hearty's",
-			"songCheck": "Double-Stacked",
-			"link": "https://x.com/Jorge_SunSpirit"
-		},
-		{
-			"chara": "tbdtan",
-			"name": "TBD-tan",
-			"design": "Team TBD Mascot",
-			"desc": "A passerby patron at Uncle Hearty's",
-			"place": "Uncle Hearty's",
-			"songCheck": "Double-Stacked"
-		},
-		{
-			"chara": "sutazu",
-			"name": "Chef Sutazu",
-			"design": "Developer Mutual OC",
-			"desc": "A passerby patron at Uncle Hearty's",
-			"place": "Uncle Hearty's",
-			"songCheck": "Double-Stacked",
-			"link": "https://x.com/BigFriendHaver"
-		},
-		{
-			"chara": "sven",
-			"name": "Sven",
-			"design": "FNF: Soft",
-			"desc": "A passerby patron at Uncle Hearty's",
-			"place": "Uncle Hearty's",
-			"songCheck": "Double-Stacked",
-			"link": "https://gamebanana.com/mods/523551"
+			"chara": "rude",
+			"name": "Rude #1",
+			"design": "Hotline 024",
+			"desc": "A nighttime wanderer in Enzync City.",
+			"place": "Enzync City Main Street (Night)",
+			"songCheck": "Imitation Station",
+			"link": "https://gamebanana.com/mods/373298"
 		},
 		{
 			"chara": "biggs",

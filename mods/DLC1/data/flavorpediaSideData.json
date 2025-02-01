@@ -1,0 +1,152 @@
+{
+	"character":
+	[
+		{
+			"chara": "adobo",
+			"name": "Adobo",
+			"design": "Flavor Rave Original\nDesigned by Juno",
+			"desc": "The Lady Morton's first mate. She has an unwavering love of the pirate lifestyle with all it's adventures, shanties, and especially the alcohol.",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty"
+		},
+		{
+			"chara": "sharp",
+			"name": "Sharp \n￙",
+			"design": "Flavor Rave Original\nDesigned by Leza",
+			"desc": "The Lady Morton's cooper. He's very nonchalant about being a pirate, only taking real joy out of treating the whole ship as his personal drum set.",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty"
+		},
+		{
+			"chara": "buster",
+			"name": "Buster",
+			"design": "Team TBD Dev OC",
+			"desc": "The mod devs hide among the pirate crew!",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty",
+			"link": "https://x.com/SirDusterBuster"
+		},
+		{
+			"chara": "coco",
+			"name": "Coco",
+			"design": "Team TBD Dev",
+			"desc": "The mod devs hide among the pirate crew!",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty",
+			"link": "https://x.com/cocopuffswow"
+		},
+		{
+			"chara": "coni",
+			"name": "Coni",
+			"design": "Flavor Rave Original\nDesigned by Space Dust",
+			"desc": "A chipper pirate lass who's heart is set on all that is shiny and valuable out in the seven seas. She acts very clingy and cutesy to people she likes.",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty"
+		},
+		{
+			"chara": "faceless",
+			"name": "Faceless",
+			"design": "Team TBD Dev",
+			"desc": "The mod devs hide among the pirate crew!",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty",
+			"link": "https://x.com/ThenameFaceless"
+		},
+		{
+			"chara": "ito",
+			"name": "Ito",
+			"design": "Team TBD Dev",
+			"desc": "The mod devs hide among the pirate crew!",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty",
+			"link": "https://x.com/ItoSaihara_"
+		},
+		{
+			"chara": "johnny",
+			"name": "Johnny \n￙",
+			"design": "Team TBD Dev",
+			"desc": "The mod devs hide among the pirate crew!",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty",
+			"link": "https://bsky.app/profile/johnnyanimates.bsky.social"
+		},
+		{
+			"chara": "marisa",
+			"name": "Marisa",
+			"design": "Team TBD Dev",
+			"desc": "The mod devs hide among the pirate crew!",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty",
+			"link": "https://bsky.app/profile/itisiweeg.bsky.social"
+		},
+		{
+			"chara": "miller",
+			"name": "Miller",
+			"design": "Team TBD Dev",
+			"desc": "The mod devs hide among the pirate crew!",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty",
+			"link": "https://linktr.ee/Mill3r_the0ne"
+		},
+		{
+			"chara": "semperit",
+			"name": "Semperit \n￙",
+			"design": "Flavor Rave Original\nDesigned by emeruga",
+			"desc": "A suave prince sent by his family to join Salty's crew and protect his homeland from oceanic threats.",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty"
+		},
+		{
+			"chara": "skeleton",
+			"name": "The Skeleton",
+			"design": "The Skeleton",
+			"desc": "The Skeleton",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty",
+			"link": "https://www.youtube.com/watch?v=P3ynj6w2tII"
+		},
+		{
+			"chara": "pia",
+			"name": "Pia Crab",
+			"design": "Team TBD Dev",
+			"desc": "The mod devs hide among the pirate crew!",
+			"place": "The Lady Morton",
+			"songCheck": "Lodestar Shanty",
+			"link": "https://bsky.app/profile/sts-puelle.bsky.social"
+		},
+		{
+			"chara": "frosty",
+			"name": "Frosty \n￙",
+			"design": "Flavor Rave Original\nDesigned by Grand",
+			"desc": "A seasoned mountain climber who takes his work very seriously. His stern nature causes people to view him as a jerk.",
+			"place": "Togarashi Town (Winter)",
+			"songCheck": "Fubuki"
+		},
+		{
+			"chara": "glaze",
+			"name": "Glaze",
+			"design": "Flavor Rave Original\nDesigned by Duster",
+			"desc": "The twelfth son in the Glaze family, nicknamed 'Glaze the Dozenth'. To his dismay, he's become the new CEO of the GlazeCorp Conglomerate.",
+			"place": "Togarashi Town (Winter)",
+			"songCheck": "Fubuki"
+		},
+		{
+			"chara": "retro",
+			"name": "Retro",
+			"design": "Vs. Retrospecter",
+			"desc": "A Togarashi Town visitor during the frigid winter.",
+			"place": "Togarashi Town (Winter)",
+			"songCheck": "Fubuki",
+			"link": "https://gamebanana.com/mods/317366"
+		},
+		{
+			"chara": "tman",
+			"name": "Trouble Man",
+			"design": "Phantom Ploy",
+			"desc": "A Togarashi Town visitor during the frigid winter.",
+			"place": "Togarashi Town (Winter)",
+			"songCheck": "Fubuki",
+			"link": "https://x.com/_shinseinaken_"
+		}
+	]
+}

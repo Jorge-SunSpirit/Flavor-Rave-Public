@@ -104,31 +104,31 @@ function onCreate()
 	makeLuaSprite('cutinBG', 'funktrix/CutinBG', 1280, 0);
 	setScrollFactor('cutinBG', 0, 0);
 	addLuaSprite('cutinBG', false);
-	setObjectCamera('cutinBG', 'hud');
+	setObjectCamera('cutinBG', 'effect');
 	setProperty('cutinBG.alpha', 0.0001);
 	
 	makeLuaSprite('cutinBG2', 'funktrix/CutinBG', 0, -1280);
 	setScrollFactor('cutinBG2', 0, 0);
 	addLuaSprite('cutinBG2', false);
-	setObjectCamera('cutinBG2', 'hud');
+	setObjectCamera('cutinBG2', 'effect');
 	setProperty('cutinBG2.alpha', 0.0001);
 	
 	makeLuaSprite('cutinskyBG', 'funktrix/CutinBGSKY', 0, -1280);
 	setScrollFactor('cutinskyBG', 0, 0);
 	addLuaSprite('cutinskyBG', false);
-	setObjectCamera('cutinskyBG', 'hud');
+	setObjectCamera('cutinskyBG', 'effect');
 	setProperty('cutinskyBG.alpha', 0.0001);
 	
 	makeLuaSprite('sourDork', 'funktrix/Gamejamed_sour', 148, 689);
 	setScrollFactor('sourDork', 0, 0);
 	addLuaSprite('sourDork', false);
-	setObjectCamera('sourDork', 'hud');
+	setObjectCamera('sourDork', 'effect');
 	setProperty('sourDork.alpha', 0.0001);
 	
 	makeLuaSprite('sweetDork', 'funktrix/Gamejamed_sweet', 646, 608);
 	setScrollFactor('sweetDork', 0, 0);
 	addLuaSprite('sweetDork', false);
-	setObjectCamera('sweetDork', 'hud');
+	setObjectCamera('sweetDork', 'effect');
 	setProperty('sweetDork.alpha', 0.0001);
 	
 	makeAnimatedLuaSprite('torrentCutIn', 'funktrix/GJCutin', 0, 720);
@@ -136,7 +136,7 @@ function onCreate()
 	playAnim('torrentCutIn', 'idle');
 	finishAnim('torrentCutIn', 'idle');
 	addLuaSprite('torrentCutIn', false);
-	setObjectCamera('torrentCutIn', 'hud');
+	setObjectCamera('torrentCutIn', 'effect');
 	setProperty('torrentCutIn.alpha', 0.0001);
 	
 	makeLuaSprite('black', '', -100, -100);
@@ -151,7 +151,7 @@ function onCreate()
 	makeGraphic('white', 1280*2, 720*2, 'FFFFFF');
 	setScrollFactor('white', 0, 0);
 	screenCenter('white');
-	setObjectCamera('white', 'hud');
+	setObjectCamera('white', 'effect');
 	setProperty('white.alpha', 0.001);
 	addLuaSprite('white', true);
 	

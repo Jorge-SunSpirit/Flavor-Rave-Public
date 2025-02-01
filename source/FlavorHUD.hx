@@ -16,6 +16,7 @@ import lime.utils.Assets;
 
 typedef HUDData =
 {
+	var lyric:PosData;
 	var time:PosData;
 	var metadata:PosData;
 	var health:PosData;
@@ -27,6 +28,7 @@ typedef HUDData =
 typedef PosData =
 {
 	var position:Array<Float>;
+	var positionDown:Array<Float>; // Downscroll (if needed)
 	var scale:Null<Float>;
 	var scaleMax:Null<Float>;
 }
@@ -37,19 +39,22 @@ class FlavorHUD extends FlxSpriteGroup
 	private var playState:PlayState = PlayState.instance;
 	private var healthPercent:Float = 1;
 	private var songPercent:Float = 0;
+	private var useLyrics:Bool = false;
 
+	public var lyricBar:FlxSprite;
 	public var timeBar:FlxBar;
 	public var healthBar:FlxBar;
 	public var bg:FlxSprite;
+	public var pointer:FlxSprite;
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
 	public var metadata:FlxText;
 	public var score:FlxText;
-	public var pointer:FlxSprite;
+	public var lyrics:FlxText;
 
 	public var allowScroll:Bool = true;
 
-	public function new(p1:Character, p2:Character, songMeta:MetadataSong):Void
+	public function new(p1:Character, p2:Character, songMeta:Metadata):Void
 	{
 		super();
 		hudData = cast Json.parse(Assets.getText(Paths.json('hudPosData')));
@@ -57,7 +62,15 @@ class FlavorHUD extends FlxSpriteGroup
 		timeBar = new FlxBar(hudData.time.position[0] - 2, hudData.time.position[1] - 2, LEFT_TO_RIGHT, 263 + 4, 22 + 4, this, 'songPercent', 0, 1);
 		timeBar.numDivisions = Std.int(timeBar.width);
 
-		var songName:String = songMeta != null ? '${songMeta.name} - ${songMeta.artist}' : PlayState.SONG.song;
+		var songData:MetadataSong = null;
+
+		if (songMeta != null)
+		{
+			useLyrics = songMeta.control != null && songMeta.control.hasLyrics;
+			songData = songMeta.song != null ? songMeta.song : null;
+		}
+
+		var songName:String = songData != null ? '${songData.name} - ${songData.artist}' : PlayState.SONG.song;
 		metadata = new FlxText(hudData.metadata.position[0], hudData.metadata.position[1], 0, songName);
 		metadata.setFormat(Paths.font("Krungthep.ttf"), Std.int(hudData.metadata.scale), FlxColor.WHITE, LEFT);
 		metadata.setBorderStyle(OUTLINE, FlxColor.BLACK, 1.5, 1.5);
@@ -71,6 +84,10 @@ class FlavorHUD extends FlxSpriteGroup
 		healthBar.numDivisions = Std.int(healthBar.width);
 		reloadHealth(p1, p2);
 
+		lyricBar = new FlxSprite(hudData.lyric.position[0], hudData.lyric.position[1]).loadGraphic(Paths.image('FlavorHUDLyricBar'));
+		lyricBar.antialiasing = ClientPrefs.globalAntialiasing;
+		lyricBar.visible = useLyrics;
+
 		bg = new FlxSprite();
 		bg.frames = Paths.getSparrowAtlas('FlavorHUD');
 		bg.animation.addByPrefix('bump', 'FRHUD', 24, false);
@@ -78,6 +95,19 @@ class FlavorHUD extends FlxSpriteGroup
 
 		pointer = new FlxSprite(385, 67).loadGraphic(Paths.image('healthpointer'));
 		pointer.antialiasing = ClientPrefs.globalAntialiasing;
+
+		lyrics = new FlxText(lyricBar.x + 20, lyricBar.y + 8, 663, "");
+		lyrics.setFormat(Paths.font("Krungthep.ttf"), Std.int(hudData.lyric.scale), FlxColor.WHITE, CENTER);
+		lyrics.setBorderStyle(OUTLINE, FlxColor.BLACK, 1.5, 1.5);
+		lyrics.antialiasing = ClientPrefs.globalAntialiasing;
+		lyrics.visible = useLyrics;
+
+		if (ClientPrefs.downScroll)
+		{
+			lyricBar.flipY = true;
+			lyricBar.setPosition(hudData.lyric.positionDown[0], hudData.lyric.positionDown[1]);
+			lyrics.setPosition(lyricBar.x + 20, lyricBar.y + 16);
+		}
 
 		score = new FlxText(hudData.score.position[0], hudData.score.position[1], 0, "");
 		score.setFormat(Paths.font("Krungthep.ttf"), Std.int(hudData.score.scale), FlxColor.WHITE, LEFT);
@@ -96,9 +126,12 @@ class FlavorHUD extends FlxSpriteGroup
 		add(timeBar);
 		add(metadata);
 		add(healthBar);
+		add(lyricBar);
 		add(bg);
+		if (!playState.disableHealth) add(pointer);
+		
+		add(lyrics);
 		add(score);
-		add(pointer);
 		add(iconP1);
 		add(iconP2);
 	}
@@ -162,14 +195,18 @@ class FlavorHUD extends FlxSpriteGroup
 
 			var iconP1Check:HealthIcon = (playState.opponentPlay ? iconP2 : iconP1);
 			var iconP2Check:HealthIcon = (playState.opponentPlay ? iconP1 : iconP2);
-			if (healthBar.percent < 20)
+			var songAcc:Float = (!PlayState.isStoryMode ? playState.accuracy : PlayState.campaignAccuracy);
+			var totplayed:Int = (PlayState.isStoryMode ? PlayState.campaignTotalPlayed : playState.totalPlayed);
+
+
+			if (!playState.disableHealth && healthBar.percent < 20 || playState.disableHealth && totplayed > 0 && songAcc < 65)
 			{
 				if (iconP2Check.winningIndex != -1)
 					iconP2Check.animation.curAnim.curFrame = (!playState.happyEnding ? iconP2Check.winningIndex : iconP2Check.losingIndex);
 				if (iconP1Check.losingIndex != -1)
 					iconP1Check.animation.curAnim.curFrame = iconP1Check.losingIndex;
 			}
-			else if (healthBar.percent > 80)
+			else if (!playState.disableHealth && healthBar.percent > 80 || playState.disableHealth && totplayed > 0 && songAcc > 90)
 			{
 				if (iconP1Check.winningIndex != -1)
 					iconP1Check.animation.curAnim.curFrame = iconP1Check.winningIndex;
@@ -184,14 +221,19 @@ class FlavorHUD extends FlxSpriteGroup
 		}
 	}
 
-	public function beatHit():Void
-	{
-		bg.animation.play('bump', true);
+	public var beatFrequency:Int = 4;
 
-		iconP1.scale.set(hudData.p1.scaleMax, hudData.p1.scaleMax);
-		iconP2.scale.set(hudData.p2.scaleMax, hudData.p2.scaleMax);
-		iconP1.updateHitbox();
-		iconP2.updateHitbox();
+	public function stepHit(step:Int):Void
+	{
+		if (step % beatFrequency == 0)
+		{
+			bg.animation.play('bump', true);
+	
+			iconP1.scale.set(hudData.p1.scaleMax, hudData.p1.scaleMax);
+			iconP2.scale.set(hudData.p2.scaleMax, hudData.p2.scaleMax);
+			iconP1.updateHitbox();
+			iconP2.updateHitbox();
+		}
 	}
 
 	private function resetMetadata(fadeIn:Bool = true):Void

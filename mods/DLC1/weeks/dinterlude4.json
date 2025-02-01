@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["Livewire"]
+	],
+
+	"weekCharacters": [
+		"Sour",
+		"Tangy",
+		"empty",
+		"empty"
+	],
+	"charaSelect": [
+		"sour",
+		"tangy"
+	],
+	"weekBackground": "enzync-night",
+	"weekType": "Interlude",
+	"storyName": "Interlude 4",
+	"weekBefore": "dinterlude3",
+	"weekName": "Toxic Tribulation",
+	"location": "Enzync City Main Street",
+	"startUnlocked": false,
+	"categoryType": "story",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

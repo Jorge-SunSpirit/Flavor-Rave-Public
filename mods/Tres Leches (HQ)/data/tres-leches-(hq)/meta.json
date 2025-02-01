@@ -1,0 +1,18 @@
+{
+	"song": {
+		"name": "Tres Leches (HQ)",
+		"artist": "Stardust Tunes",
+		"charter": "Flootena",
+		"pauseartist": "Mattoon",
+		"pauseArt": "savory",
+		"titleCardStep": 32
+	},
+	"control": {
+		"happyEnding": true
+	},
+	"freeplay": {
+		"characters": ["savory", "sweet"],
+		"stage": "corianda",
+		"isOnePlayer": false
+	}
+}

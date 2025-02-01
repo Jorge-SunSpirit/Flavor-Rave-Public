@@ -1,0 +1,211 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				130,
+				20
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SpicyLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				93,
+				28
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SpicyDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				162
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SpicyUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				15
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SpicyRight",
+			"indices": []
+		},
+		{
+			"offsets": [
+				40,
+				80
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "SpicyIdle_2step NEW"
+		},
+		{
+			"offsets": [
+				39,
+				80
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			],
+			"name": "SpicyIdle_2step NEW"
+		},
+		{
+			"offsets": [
+				160,
+				78
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "SpicyGuitarLeft"
+		},
+		{
+			"offsets": [
+				82,
+				26
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "SpicyGuitarDown"
+		},
+		{
+			"offsets": [
+				0,
+				164
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "SpicyGuitarUp"
+		},
+		{
+			"offsets": [
+				37,
+				16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "SpicyGuitarRight"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				129,
+				24
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "SpicyMissLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				91,
+				26
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "SpicyMissDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-14,
+				160
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "SpicyMissUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				15
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "SpicyMissRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SpicyWinter",
+	"position": [
+		0,
+		120
+	],
+	"healthicon": "spicy",
+	"flip_x": false,
+	"healthbar_colors": [
+		235,
+		0,
+		15
+	],
+	"camera_position": [
+		-200,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"noteskin": "Spicy",
+	"healthbar_image": "spicy",
+	"musicNoteOffset": [-200,-200]
+}

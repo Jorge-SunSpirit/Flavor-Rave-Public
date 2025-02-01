@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["MegaHeartz"]
+	],
+
+	"weekCharacters": [
+		"Sour",
+		"Sweet",
+		"Rika",
+		"Empty"
+	],
+	"charaSelect": [
+		"flavorrave",
+		"rika"
+	],
+	"weekBackground": "enz-tv",
+	"weekType": "Collab",
+	"storyName": "Collab Stories",
+	"weekBefore": "dinterlude3",
+	"weekName": "Breaking the News",
+	"location": "EnZ-TV Station",
+	"startUnlocked": false,
+	"categoryType": "collab",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

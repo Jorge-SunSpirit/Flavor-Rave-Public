@@ -1,0 +1,14 @@
+{
+	"song": {
+		"name": "Stirring",
+		"artist": "Cocopuffs & HighPoweredKeyz",
+		"charter": "Flootena",
+		"pauseartist": "cocopuffs",
+		"pauseArt": "sweet"
+	},
+	"freeplay": {
+		"characters": ["bitter", "sweet"],
+		"stage": "chiltepin",
+		"isOnePlayer": false
+	}
+}

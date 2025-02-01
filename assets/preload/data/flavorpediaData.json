@@ -64,15 +64,6 @@
 			"link": "https://gamebanana.com/mods/408207"
 		},
 		{
-			"chara": "rhythmrobo",
-			"flavorText": "Tioda comes from a line of New-Gen robots, specially built to very closely resemble humans. New-Gens occupy many jobs in her hometown of RM City, with Tioda spending her time as a disc jockey, hyping up large crowds with her music. Her dream is to rise to the top in the music scene and claim the ultimate title of Rhythm Robo. Her love of music is only matched by her love of fast food, especially burgers, though eating food does not provide her with energy. She just likes the taste.\n\nPyroller assists Tioda as a mentor for her music. He's an older-gen robot who lurks in the alleys, basking the concrete walls in flickering light from his fiery head. He tries to keep Tioda in line, but will often get roped into her antics.",
-			"tag": "rhythmrobo",
-			"bgs": "rhythmrobo",
-			"voicelines": ["1"],
-			"songCheck": "Double-Stacked",
-			"link": "https://gamebanana.com/mods/357868"
-		},
-		{
 			"chara": "nikku",
 			"flavorText": "Years ago, a space ship crashed down onto Earth, and within that ship was a young Nikku, now lost and seeking refuge in the nearby abandoned locales. Life's a struggle for her, though her affinity for music tends to make situations much less stressful.\n\nNikku's species is unique, as it causes her to lack her own unique voice. This is made up for by her ability to communicate with others telepathically, or by perfectly mimicking sounds she hears. Her range of mimicked sounds is vast, ranging from the voices of other people, samples of entire songs, and even the sounds of instruments.",
 			"tag": "nikku",

@@ -3,12 +3,19 @@
 		"name": "Ignatius",
 		"charter": "Cerbera",
 		"artist": "DrazicallyDTM & HighPoweredKeyz",
-		"titleCardStep": 80
+		"titleCardStep": 80,
+		"pauseartist": "Phillia Esaya",
+		"pauseArt": "togarashi"
 	},
 	"control": {
 		"happyEnding": true
 	},
 	"dialogue": {
 		"introDialogue": "dreamcast"
+	},
+	"freeplay": {
+		"characters": ["spicy", "smoky"],
+		"stage": "togarashi",
+		"isOnePlayer": false
 	}
 }

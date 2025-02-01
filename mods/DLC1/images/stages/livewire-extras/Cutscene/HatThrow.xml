@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="HatThrow.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="HatThrow0000" x="8" y="8" width="731" height="761" frameX="-48" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0001" x="8" y="8" width="731" height="761" frameX="-48" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0002" x="747" y="8" width="722" height="761" frameX="-56" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0003" x="747" y="8" width="722" height="761" frameX="-56" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0004" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0005" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0006" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0007" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0008" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0009" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0010" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0011" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0012" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0013" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0014" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0015" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0016" x="1477" y="8" width="721" height="761" frameX="-58" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0017" x="2206" y="8" width="721" height="761" frameX="-53" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0018" x="2206" y="8" width="721" height="761" frameX="-53" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0019" x="2935" y="8" width="705" height="761" frameX="-57" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0020" x="2935" y="8" width="705" height="761" frameX="-57" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0021" x="8" y="777" width="708" height="761" frameX="-57" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0022" x="8" y="777" width="708" height="761" frameX="-57" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0023" x="724" y="777" width="711" height="761" frameX="-66" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0024" x="724" y="777" width="711" height="761" frameX="-66" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0025" x="1443" y="777" width="728" height="741" frameX="-58" frameY="-20" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0026" x="1443" y="777" width="728" height="741" frameX="-58" frameY="-20" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0027" x="2179" y="777" width="731" height="655" frameX="-68" frameY="-106" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0028" x="2179" y="777" width="731" height="655" frameX="-68" frameY="-106" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0029" x="2918" y="777" width="437" height="674" frameX="0" frameY="-87" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0030" x="2918" y="777" width="437" height="674" frameX="0" frameY="-87" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0031" x="3363" y="777" width="485" height="469" frameX="-20" frameY="-133" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0032" x="3363" y="777" width="485" height="469" frameX="-20" frameY="-133" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0033" x="8" y="1546" width="433" height="453" frameX="-139" frameY="-25" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0034" x="8" y="1546" width="433" height="453" frameX="-139" frameY="-25" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0035" x="449" y="1546" width="445" height="437" frameX="-163" frameY="-13" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0036" x="449" y="1546" width="445" height="437" frameX="-163" frameY="-13" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0037" x="902" y="1546" width="478" height="440" frameX="-152" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0038" x="902" y="1546" width="478" height="440" frameX="-152" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0039" x="1388" y="1546" width="446" height="415" frameX="-199" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0040" x="1388" y="1546" width="446" height="415" frameX="-199" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0041" x="1842" y="1546" width="437" height="424" frameX="-218" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0042" x="1842" y="1546" width="437" height="424" frameX="-218" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0043" x="2287" y="1546" width="429" height="433" frameX="-228" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0044" x="2287" y="1546" width="429" height="433" frameX="-228" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0045" x="2724" y="1546" width="425" height="437" frameX="-234" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0046" x="2724" y="1546" width="425" height="437" frameX="-234" frameY="0" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0047" x="2724" y="1546" width="425" height="437" frameX="107374605" frameY="107374748" frameWidth="799" frameHeight="761"/>
+	<SubTexture name="HatThrow0048" x="2724" y="1546" width="425" height="437" frameX="107374605" frameY="107374748" frameWidth="799" frameHeight="761"/>
+</TextureAtlas>

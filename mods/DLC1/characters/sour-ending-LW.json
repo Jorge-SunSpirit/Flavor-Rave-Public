@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				-21
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SourDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SourIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				28
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SourUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				27,
+				29
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SourLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				15
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SourRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sourLWEND",
+	"position": [
+		166,
+		-240
+	],
+	"healthicon": "sour",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		235,
+		189
+	],
+	"camera_position": [
+		90,
+		110
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sour",
+	"healthbar_image": "sour",
+	"musicNoteOffset": [45,-200]
+}

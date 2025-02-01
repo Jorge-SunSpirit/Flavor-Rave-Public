@@ -1,0 +1,18 @@
+{
+	"image": "gameover/TangyGO",
+	"animation": "TangyGO",
+	"spriteOffset": [450,450],
+	"flip_x": false,
+	"scale": 1.5,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "tangy/1",
+			"opponent": ""
+		},
+		{
+			"sound": "tangy/2",
+			"opponent": ""
+		}
+	]
+}

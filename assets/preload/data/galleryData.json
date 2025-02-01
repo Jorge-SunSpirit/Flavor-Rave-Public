@@ -32,6 +32,12 @@
 			"url": "https://x.com/LVArts_"
 		},
 		{
+			"image": "makeship",
+			"caption": "PROMO - Makeship Sweet Plush Art",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa"
+		},
+		{
 			"image": "title",
 			"caption": "IN-GAME - Title Screen",
 			"artist": "Juno Songs",
@@ -168,13 +174,6 @@
 			"songCheck": "GAME-JAMMED"
 		},
 		{
-			"image": "doublestack",
-			"caption": "SONG CONCEPTS - Double-Stacked Idea Pitch",
-			"artist": "SirDusterBuster",
-			"url": "https://twitter.com/sirdusterbuster",
-			"songCheck": "Double-Stacked"
-		},
-		{
 			"image": "chibi",
 			"caption": "EXTRAS - Tiny Rave!",
 			"artist": "Lezanikat",
@@ -223,6 +222,46 @@
 			"caption": "EXTRAS - Daily Director Doodlin'",
 			"artist": "SirDusterBuster",
 			"url": "https://twitter.com/sirdusterbuster"
+		},
+		{
+			"image": "SpicyRockin",
+			"caption": "EXTRAS - Rockin' Spicy",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "SpicyHair",
+			"caption": "EXTRAS - How Spicy's Hair Works",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "UmamiGM",
+			"caption": "EXTRAS - Peace and Love",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "Applewood"
+		},
+		{
+			"image": "FNFSours",
+			"caption": "EXTRAS - Sour and Sour",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster"
+		},
+		{
+			"image": "FlavorGear",
+			"caption": "EXTRAS - Flavor Rave Strive",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster"
+		},
+		{
+			"image": "FlavorGear2",
+			"caption": "EXTRAS - Flavor Rave Strive 2",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "Wasabi"
 		},
 		{
 			"image": "sweeteye2",
@@ -388,14 +427,21 @@
 		{
 			"image": "beachrave",
 			"caption": "FANART - Beach Date",
-			"artist": "emeruga",
-			"url": "https://x.com/emeruga"
+			"artist": "Emeruga",
+			"url": "https://x.com/Emeruga"
 		},
 		{
 			"image": "showmoney",
 			"caption": "FANART - Here comes the Money!",
 			"artist": "STS-Puelle",
 			"url": "https://x.com/STS_PiaEsaya"
+		},
+		{
+			"image": "PKFR",
+			"caption": "EXTRAS - The Noodle-Haired Noodle Queen",
+			"artist": "PK",
+			"url": "https://x.com/vivalapk",
+			"songCheck": "Caramelize"
 		},
 		{
 			"image": "rooftop",
@@ -421,15 +467,22 @@
 		{
 			"image": "spicysweet",
 			"caption": "FANART - Spicy Sweet Combination!",
-			"artist": "emeruga",
-			"url": "https://x.com/emeruga",
+			"artist": "Emeruga",
+			"url": "https://x.com/Emeruga",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "shorthair",
+			"caption": "FANART - Cutting it Short",
+			"artist": "Emeruga",
+			"url": "https://x.com/Emeruga",
 			"songCheck": "Caramelize"
 		},
 		{
 			"image": "rockrabbit",
 			"caption": "FANART - Rockin' Rabbit",
-			"artist": "emeruga",
-			"url": "https://x.com/emeruga",
+			"artist": "Emeruga",
+			"url": "https://x.com/Emeruga",
 			"songCheck": "Caramelize"
 		},
 		{
@@ -440,6 +493,13 @@
 			"songCheck": "Caramelize"
 		},
 		{
+			"image": "rottengirl",
+			"caption": "FANART - Rotten Spicy!",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "Caramelize"
+		},
+		{
 			"image": "smokyportrait",
 			"caption": "FANART - Stoic Smoky",
 			"artist": "Space Dust",
@@ -447,17 +507,62 @@
 			"songCheck": "Wasabi"
 		},
 		{
+			"image": "flameoftoga",
+			"caption": "FANART - The Flame of Togarashi Town!",
+			"artist": "Emeruga",
+			"url": "https://x.com/Emeruga",
+			"songCheck": "Flavorscape"
+		},
+		{
 			"image": "gaysushi",
 			"caption": "FANART - Togarashi Lovebirds",
-			"artist": "emeruga",
-			"url": "https://x.com/emeruga",
+			"artist": "Emeruga",
+			"url": "https://x.com/Emeruga",
+			"songCheck": "Caramelize"
+		},
+		{
+			"image": "togadate",
+			"caption": "FANART - Late Night Dates",
+			"artist": "Emeruga",
+			"url": "https://x.com/Emeruga",
 			"songCheck": "Caramelize"
 		},
 		{
 			"image": "cocosun",
-			"caption": "EXTRAS - Silly Streamer",
+			"caption": "FANART - Silly Streamer",
 			"artist": "Cocopuffs",
-			"url": "https://x.com/file_corruption"
+			"url": "https://x.com/cocopuffswow"
+		},
+		{
+			"image": "flavorrain",
+			"caption": "FANART - Flavor Rain",
+			"artist": "Zankow",
+			"url": "https://x.com/zankow139_2"
+		},
+		{
+			"image": "summermix",
+			"caption": "FANART - Summer Mix!",
+			"artist": "davemyster05",
+			"url": "https://x.com/davemyster05"
+		},
+		{
+			"image": "silver",
+			"caption": "FANART - We're in this together!",
+			"artist": "SilverSnowyFox",
+			"url": "https://x.com/SilverSnowyFox"
+		},
+		{
+			"image": "cloudnine",
+			"caption": "FANART - Cloud Nine",
+			"artist": "alexxcsy",
+			"url": "https://x.com/alexxcsy_"
+		},
+		{
+			"image": "altfashion",
+			"caption": "FANART - Alternative Fashion",
+			"artist": "Marzipan",
+			"url": "https://x.com/Marzipan_4",
+			"songCheck": "Wasabi"
 		}
 	]
 }

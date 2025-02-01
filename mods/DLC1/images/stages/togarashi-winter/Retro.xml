@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Retro.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="RetroIdle10000" x="8" y="8" width="324" height="518" frameX="-6" frameY="-11" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10001" x="8" y="8" width="324" height="518" frameX="-6" frameY="-11" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10002" x="340" y="8" width="327" height="519" frameX="0" frameY="-10" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10003" x="340" y="8" width="327" height="519" frameX="0" frameY="-10" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10004" x="675" y="8" width="325" height="524" frameX="-1" frameY="-5" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10005" x="675" y="8" width="325" height="524" frameX="-1" frameY="-5" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10006" x="1008" y="8" width="323" height="530" frameX="-1" frameY="0" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10007" x="1008" y="8" width="323" height="530" frameX="-1" frameY="0" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10008" x="1339" y="8" width="322" height="530" frameX="-2" frameY="0" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10009" x="1339" y="8" width="322" height="530" frameX="-2" frameY="0" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10010" x="1339" y="8" width="322" height="530" frameX="-2" frameY="0" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10011" x="1339" y="8" width="322" height="530" frameX="-2" frameY="0" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10012" x="1339" y="8" width="322" height="530" frameX="-2" frameY="0" frameWidth="330" frameHeight="530"/>
+	<SubTexture name="RetroIdle10013" x="1339" y="8" width="322" height="530" frameX="-2" frameY="0" frameWidth="330" frameHeight="530"/>
+</TextureAtlas>

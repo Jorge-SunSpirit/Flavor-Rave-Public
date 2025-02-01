@@ -3,12 +3,19 @@
 		"name": "Imitation Station",
 		"artist": "Noichi",
 		"charter": "Cerbera",
-		"titleCardStep": 64
+		"titleCardStep": 64,
+		"pauseartist": "STS-Puelle",
+		"pauseArt": "nikku"
 	},
 	"dialogue": {
 		"introDialogue": "dreamcast"
 	},
 	"control": {
 		"happyEnding": true
+	},
+	"freeplay": {
+		"characters": ["nikku", "umami"],
+		"stage": "enzync-night",
+		"isOnePlayer": false
 	}
 }

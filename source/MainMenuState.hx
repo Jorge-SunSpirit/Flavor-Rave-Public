@@ -21,9 +21,9 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
-// import flxanimate.FlxAnimate;
 import options.OptionsState;
 import shaders.TwoToneMask;
+import achievements.Achievements;
 
 using StringTools;
 
@@ -45,7 +45,8 @@ class MainMenuState extends MusicBeatState
 	var backdrop:FlxBackdrop;
 	var liveIcon:FlxSprite;
 	var synsunIcon:FlxSprite;
-	var synsunBool:Bool = false;
+	var lilIconInt:Int = 0;
+	var achievementIcon:FlxSprite;
 	var synthRand:Bool = false;
 	var glowwowo:FlxSprite;
 	//Stealing this from DDTO
@@ -53,7 +54,7 @@ class MainMenuState extends MusicBeatState
 	var colorTween2:FlxSprite = new FlxSprite(-9000, -9000).makeGraphic(1, 1, 0xFF1B7AB1);
 	var colorShader:TwoToneMask = new TwoToneMask(0xFF1ABBD4, 0xFF1B7AB1);
 	var glowTimer:FlxTimer;
-	public static var fromFirstState:Bool = false;
+	public static var fromSpecificState:Int = 0;
 
 	var optionShit:Array<Array<Dynamic>> = [
 		['story',0xFF3CFDFD, 0xFFFFFF77],
@@ -166,15 +167,20 @@ class MainMenuState extends MusicBeatState
 		add(liveIcon);
 		laziestTweenLoop(true);
 
-		sidebar = new FlxSprite(-774).loadGraphic(Paths.image('mainmenu/sidebar'));
-		sidebar.antialiasing = ClientPrefs.globalAntialiasing;
-		add(sidebar);
-		FlxTween.tween(sidebar, {x: 0}, fromFirstState ? 0.001 : 0.5, {ease: FlxEase.sineOut});
-
-		synsunIcon = new FlxSprite(1280, 550).loadGraphic(Paths.image('mainmenu/synsunbutton'));
+		synsunIcon = new FlxSprite(1066, 720).loadGraphic(Paths.image('mainmenu/synsunbutton'));
 		synsunIcon.antialiasing = ClientPrefs.globalAntialiasing;
 		add(synsunIcon);
-		FlxTween.tween(synsunIcon, {x: 1037}, 0.5, {ease: FlxEase.sineOut});
+		FlxTween.tween(synsunIcon, {y: 574}, 0.5, {ease: FlxEase.sineOut});
+
+		achievementIcon = new FlxSprite(884, 720).loadGraphic(Paths.image('mainmenu/achbutton'));
+		achievementIcon.antialiasing = ClientPrefs.globalAntialiasing;
+		add(achievementIcon);
+		FlxTween.tween(achievementIcon, {y: 574}, 0.5, {ease: FlxEase.sineOut});
+
+		sidebar = new FlxSprite(fromSpecificState == 2 ? -369 : -2018).loadGraphic(Paths.image('mainmenu/sidebar_full'));
+		sidebar.antialiasing = ClientPrefs.globalAntialiasing;
+		add(sidebar);
+		FlxTween.tween(sidebar, {x: -1649}, fromSpecificState == 1 ? 0.001 : 0.5, {ease: FlxEase.sineOut});
 
 		if (firstStart)
 		{
@@ -202,14 +208,14 @@ class MainMenuState extends MusicBeatState
 		
 		for (i in 0...optionShit.length)
 		{
-			var menuObject:MMenuItem = new MMenuItem(fromFirstState ? -10 : -452, 12 + (i * 115), optionShit[i][0]);
+			var menuObject:MMenuItem = new MMenuItem(fromSpecificState == 1 ? -10 : -452, 12 + (i * 115), optionShit[i][0]);
 			menuObject.ID = i;
 			menuItems.add(menuObject);
-			if (!fromFirstState)
+			if (fromSpecificState != 1)
 				FlxTween.tween(menuObject, {x: -10}, (0.5), {ease: FlxEase.sineOut, startDelay: (0.1 + (0.1 * i))});
 		}
 
-		fromFirstState = false;
+		fromSpecificState = 0;
 
 		new FlxTimer().start(1.1, function(tmr:FlxTimer)
 		{
@@ -218,13 +224,6 @@ class MainMenuState extends MusicBeatState
 			changeItem();
 			synthLoop();
 		});
-
-		#if !PUBLIC_BUILD
-		var versionShit:FlxText = new FlxText(0, FlxG.height - 24, FlxG.width - 2, Main.VERSION, 12);
-		versionShit.antialiasing = ClientPrefs.globalAntialiasing;
-		versionShit.setFormat(Paths.font("Krungthep.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		add(versionShit);
-		#end
 
 		super.create();
 	}
@@ -259,6 +258,9 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.UI_RIGHT_P)
 				totheSunSynthState();
+
+			if (controls.UI_LEFT_P)
+				totheAchievementState();
 
 			if (controls.BACK)
 			{
@@ -296,13 +298,33 @@ class MainMenuState extends MusicBeatState
 					}
 				});
 
-				if (FlxG.mouse.overlaps(synsunIcon) && !synsunBool)
-					highlightSynSun(true);
-				else if (!FlxG.mouse.overlaps(synsunIcon) && synsunBool)
-					highlightSynSun(false);
+				if (FlxG.mouse.overlaps(synsunIcon) && lilIconInt != 1)
+				{
+					highlightSprite(achievementIcon, 0);
+					highlightSprite(synsunIcon, 1);
+				}
+				else if (!FlxG.mouse.overlaps(synsunIcon) && lilIconInt == 1)
+				{
+					highlightSprite(achievementIcon, 0);
+					highlightSprite(synsunIcon, 0);
+				}
 
-				if (FlxG.mouse.overlaps(synsunIcon) && FlxG.mouse.justPressed && synsunBool)
+				if (FlxG.mouse.overlaps(achievementIcon) && lilIconInt != 2)
+				{
+					highlightSprite(synsunIcon, 0);
+					highlightSprite(achievementIcon, 2);
+				}
+				else if (!FlxG.mouse.overlaps(achievementIcon) && lilIconInt == 2)
+				{
+					highlightSprite(synsunIcon, 0);
+					highlightSprite(achievementIcon, 0);
+				}
+
+				if (FlxG.mouse.overlaps(synsunIcon) && FlxG.mouse.justPressed && lilIconInt == 1)
 					totheSunSynthState();
+
+				if (FlxG.mouse.overlaps(achievementIcon) && FlxG.mouse.justPressed && lilIconInt == 2)
+					totheAchievementState();
 			}
 		}
 
@@ -369,9 +391,11 @@ class MainMenuState extends MusicBeatState
 		SunSynthState.initPortrait = optionShit[curSelected][0];
 		FlxTransitionableState.skipNextTransIn = true;
 		FlxTransitionableState.skipNextTransOut = true;
-		FlxTween.tween(sidebar, {x: -774}, 0.3, {ease: FlxEase.sineOut});
+		FlxTween.tween(sidebar, {x: -2018}, 0.3, {ease: FlxEase.sineOut});
 		FlxTween.cancelTweensOf(synsunIcon);
 		FlxTween.tween(synsunIcon, {x: 1380}, 0.3, {ease: FlxEase.sineOut});
+		FlxTween.cancelTweensOf(achievementIcon);
+		FlxTween.tween(achievementIcon, {y: 720}, 0.3, {ease: FlxEase.sineOut});
 		FlxTween.cancelTweensOf(glowwowo);
 		FlxTween.tween(glowwowo, {alpha: 0.001, "scale.y": 0.001}, 0.1, {ease: FlxEase.sineOut});
 		menuItems.forEach(function(obj:MMenuItem)
@@ -388,12 +412,39 @@ class MainMenuState extends MusicBeatState
 		});
 	}
 
-	function highlightSynSun(bool:Bool)
+	function totheAchievementState()
 	{
-		synsunBool = bool;
-		var scale:Float = bool ? 1.2 : 1;
+		selectedSomethin = true;
+		SunSynthState.initPortrait = optionShit[curSelected][0];
+		FlxTransitionableState.skipNextTransIn = true;
+		FlxTransitionableState.skipNextTransOut = true;
+		FlxTween.tween(sidebar, {x: -369}, 0.5, {ease: FlxEase.sineIn});
 		FlxTween.cancelTweensOf(synsunIcon);
-		FlxTween.tween(synsunIcon, {"scale.x": scale, "scale.y": scale}, 0.1, {ease: FlxEase.sineOut});
+		FlxTween.tween(synsunIcon, {y: 720}, 0.3, {ease: FlxEase.sineOut});
+		FlxTween.cancelTweensOf(achievementIcon);
+		FlxTween.tween(achievementIcon, {x: 0}, 0.3, {ease: FlxEase.sineOut});
+		FlxTween.cancelTweensOf(glowwowo);
+		FlxTween.tween(glowwowo, {alpha: 0.001, "scale.y": 0.001}, 0.1, {ease: FlxEase.sineOut});
+		menuItems.forEach(function(obj:MMenuItem)
+		{
+			FlxTween.cancelTweensOf(obj);
+			FlxTween.tween(obj, {x: -452}, 0.2, {ease: FlxEase.sineOut, startDelay: 0 + (0.05 * obj.ID)});
+
+		});
+		
+		new FlxTimer().start(0.5, function(tmr:FlxTimer)
+		{
+			initChecker = [backdrop.x, backdrop.y, colorTween1.color, colorTween2.color, liveIcon.alpha];
+			MusicBeatState.switchState(new AchievementsState());
+		});
+	}
+
+	function highlightSprite(sprite:FlxSprite, int:Int)
+	{
+		lilIconInt = int;
+		var scale:Float = int != 0 ? 1.2 : 1;
+		FlxTween.cancelTweensOf(sprite);
+		FlxTween.tween(sprite, {"scale.x": scale, "scale.y": scale}, 0.1, {ease: FlxEase.sineOut});
 	}
 
 	function changeItem(huh:Int = 0)

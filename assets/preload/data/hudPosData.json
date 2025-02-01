@@ -1,4 +1,10 @@
 {
+	"lyric":
+	{
+		"position": [67, -33],
+		"positionDown": [67, 71],
+		"scale": 16
+	},
 	"time":
 	{
 		"position": [126, 13]

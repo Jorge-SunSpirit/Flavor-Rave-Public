@@ -239,6 +239,31 @@ class Highscore
 		return songCombo.get(daSong);
 	}
 
+	public static function checkSongFC(song:String, diff:Int):Bool
+	{
+		var daRank:String = getCombo(song, diff);
+		var daMirrorRank:String = getCombo(song + '-opponent', diff);
+		var hasFCd:Bool = false;
+
+		//Used to be a for i .. 0 thingie but it did not work :(
+		if (!hasFCd && (daRank == 'FC' || daRank == 'GFC' || daRank == 'SFC' || daRank == 'MFC'))
+			hasFCd = true;
+
+		if (!hasFCd && (daMirrorRank == 'FC' || daMirrorRank == 'GFC' || daMirrorRank == 'SFC' || daMirrorRank == 'MFC'))
+			hasFCd = true;
+		return hasFCd;
+	}
+
+	public static function checkSongSideFC(song:String, diff:Int):Bool
+	{
+		var daRank:String = getCombo(song, diff);
+		
+		if (daRank == 'FC' || daRank == 'GFC' || daRank == 'SFC' || daRank == 'MFC')
+			return true;
+	
+		return false;
+	}
+
 	public static function getAccuracy(song:String, diff:Int):Float
 	{
 		var daSong:String = formatSong(song, diff);
@@ -257,9 +282,18 @@ class Highscore
 		return weekScores.get(daWeek);
 	}
 
-	inline public static function checkBeaten(song:String, diff:Int):Bool
+	inline public static function checkBeaten(song:String, diff:Int, ?forceSide:String = ''):Bool
 	{
-		var isBeaten:Bool = getScore(song, diff) > 0 || getScore(song + '-opponent', diff) > 0;
+		var isBeaten:Bool = false;
+		switch (forceSide.toLowerCase())
+		{
+			case 'left':
+				isBeaten = getScore(song + '-opponent', diff) > 0;
+			case 'right':
+				isBeaten = getScore(song, diff) > 0;
+			default: //Just incase
+				isBeaten = getScore(song, diff) > 0 || getScore(song + '-opponent', diff) > 0;
+		}
 
 		// Automatically unlock if in debug mode.
 		#if FORCE_DEBUG_VERSION

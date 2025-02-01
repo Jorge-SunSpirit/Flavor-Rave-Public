@@ -49,13 +49,13 @@ function onCreate()
 	setScrollFactor('barTop', 0, 0);
 	scaleObject('barTop', 1.1, 1);
 	addLuaSprite('barTop', false);
-	setObjectCamera('barTop', 'hud');
+	setObjectCamera('barTop', 'effect');
 
 	makeLuaSprite('barBottom', 'closeup/TightBars', 0, 822);
 	setScrollFactor('barBottom', 0, 0);
 	scaleObject('barBottom', 1.1, 1);
 	addLuaSprite('barBottom', false);
-	setObjectCamera('barBottom', 'hud');
+	setObjectCamera('barBottom', 'effect');
 
 end
 

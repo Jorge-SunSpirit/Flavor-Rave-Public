@@ -3,6 +3,8 @@
 		"name": "TIMESHOCK!",
 		"artist": "JACKALRUIN",
 		"charter": "Chompo",
+		"pauseArt": "flavorrave",
+		"pauseartist": "Cruise Elroy",
 		"titleCardStep": 64
 	},
 	"dialogue": {
@@ -10,5 +12,10 @@
 	},
 	"control": {
 		"happyEnding": true
+	},
+	"freeplay": {
+		"characters": ["sour", "sweet"],
+		"stage": "stage",
+		"isOnePlayer": false
 	}
 }

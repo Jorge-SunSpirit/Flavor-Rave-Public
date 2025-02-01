@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Heh, maybe I am a little legendary after all.",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I'm feeling like I'm right at home now!",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Heh heh, not too shabby.",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I'm feeling a little off my game, but this was still fun!",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Maybe I'll save the singing for when I'm back home...",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

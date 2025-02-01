@@ -3,7 +3,7 @@
 		"sectionLengths": [],
 		"player1": "sweet",
 		"events": [],
-		"gfVersion": "hidden",
+		"gfVersion": "spicy-strum",
 		"player2": "spicy",
 		"notes": [
 			{
@@ -2098,13 +2098,13 @@
 						79997.3076923077,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Character Sing Alt"
 					],
 					[
 						80035.7692307692,
 						2,
 						1115.38461538461,
-						"Alt Animation"
+						"Duo Character Sing Alt"
 					],
 					[
 						80151.1538461538,
@@ -2148,7 +2148,8 @@
 					[
 						81228.0769230769,
 						0,
-						538.461538461546
+						538.461538461546,
+						"Duo Character Sing Alt"
 					],
 					[
 						81228.0769230769,
@@ -2167,32 +2168,38 @@
 					[
 						81843.4615384615,
 						1,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						82151.1538461538,
 						3,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						82458.8461538462,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						82535.7692307692,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						82612.6923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						82689.6153846154,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2207,67 +2214,80 @@
 					[
 						82766.5384615385,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						82843.4615384615,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						82920.3846153846,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						82997.3076923077,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						83074.2307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						83151.1538461538,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						83228.0769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						83305,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						83381.9230769231,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						83458.8461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						83535.7692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						83612.6923076923,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						83689.6153846154,
 						3,
-						384.615384615376
+						384.615384615376,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2282,32 +2302,38 @@
 					[
 						84151.1538461538,
 						0,
-						538.461538461546
+						538.461538461546,
+						"Duo Character Sing Alt"
 					],
 					[
 						84766.5384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						84920.3846153846,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						84997.3076923077,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						85074.2307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						85151.1538461538,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2322,62 +2348,74 @@
 					[
 						85228.0769230769,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						85305,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						85381.9230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						85458.8461538462,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						85535.7692307692,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						85689.6153846154,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						85843.4615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						85997.3076923077,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						86151.1538461538,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						86228.0769230769,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						86305,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						86381.9230769231,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2392,82 +2430,98 @@
 					[
 						86458.8461538462,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						86535.7692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						86612.6923076923,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						86689.6153846154,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						86766.5384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						86843.4615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						86920.3846153846,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						86997.3076923077,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87074.2307692308,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87151.1538461538,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87228.0769230769,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87381.9230769231,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87458.8461538462,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87535.7692307692,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87612.6923076923,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2482,72 +2536,86 @@
 					[
 						87689.6153846154,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87766.5384615385,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87843.4615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87920.3846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						87997.3076923077,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						88074.2307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						88151.1538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						88228.0769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						88305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						88381.9230769231,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						88458.8461538462,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						88535.7692307692,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						88612.6923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						88766.5384615385,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2562,47 +2630,56 @@
 					[
 						88920.3846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						89074.2307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						89228.0769230769,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						89381.9230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						89535.7692307692,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						89689.6153846154,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						89843.4615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						89920.3846153846,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						89997.3076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2617,47 +2694,56 @@
 					[
 						90151.1538461538,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						90305,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						90458.8461538462,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						90612.6923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						90766.5384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						90920.3846153846,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						91074.2307692308,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						91074.2307692308,
 						5,
-						384.61538461539
+						384.61538461539,
+						"Duo Character Sing Alt"
 					],
 					[
 						91228.0769230769,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2672,22 +2758,26 @@
 					[
 						91381.9230769231,
 						4,
-						1230.76923076923
+						1230.76923076923,
+						"Duo Character Sing Alt"
 					],
 					[
 						91535.7692307692,
 						0,
-						384.615384615376
+						384.615384615376,
+						"Duo Character Sing Alt"
 					],
 					[
 						91997.3076923077,
 						3,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						92305,
 						0,
-						384.61538461539
+						384.61538461539,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2702,22 +2792,26 @@
 					[
 						92766.5384615385,
 						2,
-						384.615384615376
+						384.615384615376,
+						"Duo Character Sing Alt"
 					],
 					[
 						93228.0769230769,
 						3,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						93535.7692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						93689.6153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2732,37 +2826,44 @@
 					[
 						93843.4615384615,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						93997.3076923077,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						94151.1538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						94305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						94458.8461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						94612.6923076923,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						94766.5384615385,
 						2,
-						384.615384615376
+						384.615384615376,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2777,22 +2878,26 @@
 					[
 						95228.0769230769,
 						3,
-						384.61538461539
+						384.61538461539,
+						"Duo Character Sing Alt"
 					],
 					[
 						95689.6153846154,
 						0,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						95997.3076923077,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						96151.1538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2807,57 +2912,68 @@
 					[
 						96305,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						96458.8461538462,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						96612.6923076923,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						96689.6153846154,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						96766.5384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						96843.4615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						96920.3846153846,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						97074.2307692308,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						97228.0769230769,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						97305,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						97381.9230769231,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2872,42 +2988,50 @@
 					[
 						97535.7692307692,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						97612.6923076923,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						97689.6153846154,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						97843.4615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						97997.3076923077,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						98151.1538461538,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						98305,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						98458.8461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2922,42 +3046,50 @@
 					[
 						98766.5384615385,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						99074.2307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						99228.0769230769,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						99381.9230769231,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						99535.7692307692,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						99612.6923076923,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						99689.6153846154,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						99843.4615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -2972,27 +3104,32 @@
 					[
 						99997.3076923077,
 						1,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						100305,
 						0,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						100612.692307692,
 						3,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						100920.384615385,
 						7,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						100920.384615385,
 						1,
-						615.384615384624
+						615.384615384624,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3007,17 +3144,20 @@
 					[
 						101228.076923077,
 						3,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						101535.769230769,
 						3,
-						538.461538461532
+						538.461538461532,
+						"Duo Character Sing Alt"
 					],
 					[
 						102151.153846154,
 						0,
-						384.61538461539
+						384.61538461539,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3032,42 +3172,50 @@
 					[
 						102612.692307692,
 						0,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						102920.384615385,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						102997.307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						103074.230769231,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						103151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						103228.076923077,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						103305,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						103381.923076923,
 						2,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3082,47 +3230,56 @@
 					[
 						103689.615384615,
 						1,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						103997.307692308,
 						1,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						104305,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						104381.923076923,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						104458.846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						104535.769230769,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						104612.692307692,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						104766.538461538,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						104843.461538462,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3137,57 +3294,68 @@
 					[
 						104920.384615385,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						105074.230769231,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						105228.076923077,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						105381.923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						105535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						105612.692307692,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						105689.615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						105843.461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						105920.384615385,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						105997.307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106074.230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3202,82 +3370,98 @@
 					[
 						106151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106228.076923077,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106305,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106381.923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106458.846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106535.769230769,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106612.692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106689.615384615,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106766.538461538,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106843.461538462,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106920.384615385,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						106997.307692308,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107074.230769231,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107228.076923077,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107305,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3292,82 +3476,98 @@
 					[
 						107381.923076923,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107458.846153846,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107612.692307692,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107689.615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107766.538461538,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107843.461538462,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107920.384615385,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						107997.307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108074.230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108228.076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108381.923076923,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108458.846153846,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3382,67 +3582,80 @@
 					[
 						108612.692307692,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108689.615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108766.538461538,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108843.461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108920.384615385,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						108997.307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						109074.230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						109151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						109228.076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						109305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						109381.923076923,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						109458.846153846,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						109535.769230769,
 						2,
-						1153.84615384616
+						1153.84615384616,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3457,17 +3670,20 @@
 					[
 						110766.538461538,
 						1,
-						1538.46153846153
+						1538.46153846153,
+						"Duo Character Sing Alt"
 					],
 					[
 						110766.538461538,
 						6,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						110920.384615385,
 						7,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3482,42 +3698,50 @@
 					[
 						111074.230769231,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						111228.076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						111381.923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						111535.769230769,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						111689.615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						111843.461538462,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						111997.307692308,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						112151.153846154,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3532,52 +3756,62 @@
 					[
 						112305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						112458.846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						112612.692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						112766.538461538,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						112920.384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						112997.307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						113074.230769231,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						113151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						113228.076923077,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						113458.846153846,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3592,47 +3826,56 @@
 					[
 						113689.615384615,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						113843.461538462,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						113997.307692308,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						114151.153846154,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						114305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						114458.846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						114535.769230769,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						114612.692307692,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						114689.615384615,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3645,69 +3888,82 @@
 			{
 				"sectionNotes": [
 					[
-						114766.538461538,
-						1,
-						0
-					],
-					[
 						114843.461538462,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						114920.384615385,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						114997.307692308,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						115074.230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						115151.153846154,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						115228.076923077,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						115305,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						115381.923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						115458.846153846,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						115535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						115612.692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						115689.615384615,
 						2,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
+					],
+					[
+						114769.230769231,
+						1,
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3722,27 +3978,32 @@
 					[
 						115997.307692308,
 						3,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						116305,
 						0,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						116612.692307692,
 						3,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						116920.384615385,
 						1,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						117074.230769231,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3757,47 +4018,56 @@
 					[
 						117228.076923077,
 						2,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						117381.923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						117535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						117612.692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						117689.615384615,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						117766.538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						117843.461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						117997.307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						118151.153846154,
 						2,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3812,22 +4082,26 @@
 					[
 						118458.846153846,
 						3,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						118766.538461538,
 						2,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						119074.230769231,
 						0,
-						230.769230769234
+						230.769230769234,
+						"Duo Character Sing Alt"
 					],
 					[
 						119381.923076923,
 						1,
-						538.461538461532
+						538.461538461532,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -3842,12 +4116,14 @@
 					[
 						119997.307692308,
 						3,
-						538.461538461546
+						538.461538461546,
+						"Duo Character Sing Alt"
 					],
 					[
 						120612.692307692,
 						0,
-						1230.76923076922
+						1230.76923076922,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -4901,7 +5177,7 @@
 						158920.384615385,
 						7,
 						1000,
-						"Alt Animation"
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -4921,7 +5197,7 @@
 						159997.307692308,
 						5,
 						0,
-						"Alt Animation"
+						"Duo Character Sing Alt"
 					],
 					[
 						159997.307692308,
@@ -4932,7 +5208,7 @@
 						160151.153846154,
 						6,
 						0,
-						"Alt Animation"
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -4944,60 +5220,64 @@
 			{
 				"sectionNotes": [
 					[
-						160305,
-						3,
-						0,
-						"Alt Animation"
-					],
-					[
-						160458.846153846,
-						3,
-						0,
-						"Alt Animation"
-					],
-					[
-						160612.692307692,
-						1,
-						0,
-						"Alt Animation"
-					],
-					[
-						160766.538461538,
-						2,
-						0,
-						"Alt Animation"
-					],
-					[
-						160920.384615385,
-						3,
-						0,
-						"Alt Animation"
-					],
-					[
-						161074.230769231,
-						3,
-						0,
-						"Alt Animation"
-					],
-					[
 						161228.076923077,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						161305,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						161381.923076923,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						161458.846153846,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
+					],
+					[
+						160307.692307692,
+						3,
+						0,
+						"Duo Character Sing Alt"
+					],
+					[
+						160461.538461538,
+						3,
+						0,
+						"Duo Character Sing Alt"
+					],
+					[
+						160615.384615385,
+						1,
+						0,
+						"Duo Character Sing Alt"
+					],
+					[
+						160769.230769231,
+						2,
+						0,
+						"Duo Character Sing Alt"
+					],
+					[
+						160923.076923077,
+						3,
+						0,
+						"Duo Character Sing Alt"
+					],
+					[
+						161076.923076923,
+						3,
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5012,52 +5292,62 @@
 					[
 						161535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						161612.692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						161689.615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						161766.538461538,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						161843.461538462,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						161997.307692308,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						162151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						162305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						162458.846153846,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						162612.692307692,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5072,52 +5362,62 @@
 					[
 						162766.538461538,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						162920.384615385,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						163074.230769231,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						163228.076923077,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						163381.923076923,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						163535.769230769,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						163689.615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						163766.538461538,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						163843.461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						163920.384615385,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5132,52 +5432,62 @@
 					[
 						163997.307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						164074.230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						164151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						164228.076923077,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						164305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						164458.846153846,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						164612.692307692,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						164766.538461538,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						164920.384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						165074.230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5192,52 +5502,62 @@
 					[
 						165228.076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						165381.923076923,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						165535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						165689.615384615,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						165843.461538462,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						165997.307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						166151.153846154,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						166228.076923077,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						166305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						166381.923076923,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5252,52 +5572,62 @@
 					[
 						166458.846153846,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						166535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						166612.692307692,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						166689.615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						166766.538461538,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						166920.384615385,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						167074.230769231,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						167228.076923077,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						167381.923076923,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						167535.769230769,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5312,52 +5642,62 @@
 					[
 						167689.615384615,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						167843.461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						167997.307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						168151.153846154,
 						0,
-						0
-					],
-					[
-						168305,
-						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						168458.846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						168612.692307692,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						168689.615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						168766.538461538,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						168843.461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
+					],
+					[
+						168307.692307692,
+						1,
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5372,52 +5712,62 @@
 					[
 						168920.384615385,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						168997.307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						169074.230769231,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						169151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						169228.076923077,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						169381.923076923,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						169535.769230769,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						169689.615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						169843.461538462,
 						6,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						169997.307692308,
 						4,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5432,42 +5782,50 @@
 					[
 						170151.153846154,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						170305,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						170458.846153846,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						170612.692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						170766.538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						170920.384615385,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						171074.230769231,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						171228.076923077,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5482,42 +5840,50 @@
 					[
 						171381.923076923,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						171535.769230769,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						171689.615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						171843.461538462,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						171997.307692308,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						172151.153846154,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						172305,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						172458.846153846,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5532,42 +5898,50 @@
 					[
 						172612.692307692,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						172766.538461538,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						172920.384615385,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						173074.230769231,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						173228.076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						173381.923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						173535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						173689.615384615,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5582,42 +5956,50 @@
 					[
 						173843.461538462,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						173997.307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						174151.153846154,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						174305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						174458.846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						174612.692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						174766.538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						174920.384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5632,42 +6014,50 @@
 					[
 						175074.230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						175228.076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						175381.923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						175535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						175689.615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						175843.461538462,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						175997.307692308,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						176151.153846154,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5682,42 +6072,50 @@
 					[
 						176305,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						176458.846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						176612.692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						176766.538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						176920.384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						177074.230769231,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						177228.076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						177381.923076923,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5732,42 +6130,50 @@
 					[
 						177535.769230769,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						177689.615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						177843.461538462,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						177997.307692308,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						178151.153846154,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						178305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						178458.846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						178612.692307692,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5782,37 +6188,44 @@
 					[
 						178766.538461538,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						178920.384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						179074.230769231,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						179228.076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						179381.923076923,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						179535.769230769,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						179689.615384615,
 						5,
-						1153.84615384616
+						1153.84615384616,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5827,7 +6240,8 @@
 					[
 						180920.384615385,
 						2,
-						538.461538461532
+						538.461538461532,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5842,22 +6256,26 @@
 					[
 						181535.769230769,
 						3,
-						230.769230769249
+						230.769230769249,
+						"Duo Character Sing Alt"
 					],
 					[
 						181843.461538462,
 						2,
-						230.769230769249
+						230.769230769249,
+						"Duo Character Sing Alt"
 					],
 					[
 						182151.153846154,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						182305,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5872,57 +6290,68 @@
 					[
 						182458.846153846,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						182535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						182612.692307692,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						182689.615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						182766.538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						182920.384615385,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						183074.230769231,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						183228.076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						183381.923076923,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						183458.846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						183535.769230769,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5937,52 +6366,62 @@
 					[
 						183689.615384615,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						183766.538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						183843.461538462,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						183997.307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						184151.153846154,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						184305,
 						1,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						184612.692307692,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						184689.615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						184766.538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						184843.461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -5997,82 +6436,98 @@
 					[
 						184920.384615385,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						184997.307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185074.230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185228.076923077,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185381.923076923,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185458.846153846,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185535.769230769,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185612.692307692,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185689.615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185766.538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185843.461538462,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185920.384615385,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						185997.307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186074.230769231,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -6087,82 +6542,98 @@
 					[
 						186151.153846154,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186228.076923077,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186381.923076923,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186458.846153846,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186535.769230769,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186612.692307692,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186689.615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186766.538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186843.461538462,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186920.384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						186997.307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187074.230769231,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187151.153846154,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187228.076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187305,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -6177,82 +6648,98 @@
 					[
 						187381.923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187458.846153846,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187535.769230769,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187612.692307692,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187689.615384615,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187766.538461538,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187843.461538462,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187920.384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						187997.307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188074.230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188151.153846154,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188228.076923077,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188305,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188381.923076923,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188458.846153846,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188535.769230769,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -6267,67 +6754,80 @@
 					[
 						188612.692307692,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188689.615384615,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188766.538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188843.461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188920.384615385,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						188997.307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						189074.230769231,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						189151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						189228.076923077,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						189305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						189381.923076923,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						189458.846153846,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						189535.769230769,
 						2,
-						538.461538461561
+						538.461538461561,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -6342,22 +6842,26 @@
 					[
 						190151.153846154,
 						3,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						190458.846153846,
 						2,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						190766.538461538,
 						1,
-						1153.84615384616
+						1153.84615384616,
+						"Duo Character Sing Alt"
 					],
 					[
 						190766.538461538,
 						4,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -6372,27 +6876,32 @@
 					[
 						191074.230769231,
 						3,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						191381.923076923,
 						1,
-						230.769230769249
+						230.769230769249,
+						"Duo Character Sing Alt"
 					],
 					[
 						191689.615384615,
 						2,
-						230.769230769249
+						230.769230769249,
+						"Duo Character Sing Alt"
 					],
 					[
 						191997.307692308,
 						4,
-						538.461538461532
+						538.461538461532,
+						"Duo Character Sing Alt"
 					],
 					[
 						191997.307692308,
 						3,
-						230.769230769249
+						230.769230769249,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -6407,22 +6916,26 @@
 					[
 						192612.692307692,
 						3,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						192920.384615385,
 						2,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						193228.076923077,
 						3,
-						538.461538461532
+						538.461538461532,
+						"Duo Character Sing Alt"
 					],
 					[
 						193228.076923077,
 						6,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -6437,42 +6950,50 @@
 					[
 						193535.769230769,
 						0,
-						230.769230769249
+						230.769230769249,
+						"Duo Character Sing Alt"
 					],
 					[
 						193843.461538462,
 						4,
-						538.461538461532
+						538.461538461532,
+						"Duo Character Sing Alt"
 					],
 					[
 						193843.461538462,
 						1,
-						230.769230769249
+						230.769230769249,
+						"Duo Character Sing Alt"
 					],
 					[
 						194151.153846154,
 						0,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						194458.846153846,
 						5,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						194458.846153846,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						194612.692307692,
 						7,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						194612.692307692,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -6487,92 +7008,110 @@
 					[
 						194766.538461538,
 						5,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						194766.538461538,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						194920.384615385,
 						4,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						194920.384615385,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195074.230769231,
 						6,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195074.230769231,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195228.076923077,
 						4,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195228.076923077,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195381.923076923,
 						6,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195381.923076923,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195535.769230769,
 						7,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195535.769230769,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195612.692307692,
 						5,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195612.692307692,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195689.615384615,
 						4,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195689.615384615,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195843.461538462,
 						6,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195843.461538462,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -6587,97 +7126,116 @@
 					[
 						195997.307692308,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						195997.307692308,
 						5,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196151.153846154,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196151.153846154,
 						4,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196305,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196305,
 						6,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196458.846153846,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196458.846153846,
 						5,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196612.692307692,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196612.692307692,
 						6,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196766.538461538,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196766.538461538,
 						7,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196843.461538462,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196843.461538462,
 						4,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196920.384615385,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						196920.384615385,
 						5,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						196997.307692308,
 						2,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						197074.230769231,
 						1,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						197151.153846154,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -6692,72 +7250,86 @@
 					[
 						197228.076923077,
 						4,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						197228.076923077,
 						3,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						197305,
 						5,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						197381.923076923,
 						6,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						197458.846153846,
 						4,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						197535.769230769,
 						6,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						197535.769230769,
 						0,
-						230.769230769249
+						230.769230769249,
+						"Duo Character Sing Alt"
 					],
 					[
 						197689.615384615,
 						7,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						197843.461538462,
 						4,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						197843.461538462,
 						3,
-						230.769230769249
+						230.769230769249,
+						"Duo Character Sing Alt"
 					],
 					[
 						197997.307692308,
 						7,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						198151.153846154,
 						5,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						198151.153846154,
 						1,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						198305,
 						4,
-						0
+						0,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -6772,37 +7344,44 @@
 					[
 						198458.846153846,
 						3,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						198458.846153846,
 						4,
-						230.76923076922
+						230.76923076922,
+						"Duo Character Sing Alt"
 					],
 					[
 						198612.692307692,
 						0,
-						0
+						0,
+						"Duo Character Sing Alt"
 					],
 					[
 						198766.538461538,
 						2,
-						538.461538461532
+						538.461538461532,
+						"Duo Character Sing Alt"
 					],
 					[
 						198766.538461538,
 						7,
-						538.461538461532
+						538.461538461532,
+						"Duo Character Sing Alt"
 					],
 					[
 						199381.923076923,
 						3,
-						1230.76923076925
+						1230.76923076925,
+						"Duo Character Sing Alt"
 					],
 					[
 						199381.923076923,
 						6,
-						1230.76923076925
+						1230.76923076925,
+						"Duo Character Sing Alt"
 					]
 				],
 				"typeOfSection": 0,
@@ -7019,6 +7598,76 @@
 				"altAnim": false,
 				"mustHitSection": true,
 				"changeBPM": false,
+				"bpm": 195
+			},
+			{
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"gfSection": false,
+				"altAnim": false,
+				"bpm": 195,
+				"extraCharSection": false,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"extraCharSection": false,
+				"bpm": 195
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"extraCharSection": false,
+				"bpm": 195
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"extraCharSection": false,
+				"bpm": 195
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"extraCharSection": false,
+				"bpm": 195
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"extraCharSection": false,
+				"bpm": 195
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"extraCharSection": false,
 				"bpm": 195
 			},
 			{
@@ -7033,6 +7682,7 @@
 			}
 		],
 		"player3": null,
+		"player4": "sweet-strum",
 		"id": "caramelize",
 		"song": "Caramelize",
 		"stage": "togarashi",

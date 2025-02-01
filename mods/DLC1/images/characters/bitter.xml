@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bitter.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bitter Down0000" x="10" y="10" width="350" height="677" frameX="0" frameY="-17" frameWidth="350" frameHeight="694"/>
+	<SubTexture name="Bitter Down0001" x="10" y="10" width="350" height="677" frameX="0" frameY="-17" frameWidth="350" frameHeight="694"/>
+	<SubTexture name="Bitter Down0002" x="370" y="10" width="339" height="686" frameX="-3" frameY="-8" frameWidth="350" frameHeight="694"/>
+	<SubTexture name="Bitter Down0003" x="370" y="10" width="339" height="686" frameX="-3" frameY="-8" frameWidth="350" frameHeight="694"/>
+	<SubTexture name="Bitter Down0004" x="719" y="10" width="338" height="690" frameX="-3" frameY="-4" frameWidth="350" frameHeight="694"/>
+	<SubTexture name="Bitter Down0005" x="719" y="10" width="338" height="690" frameX="-3" frameY="-4" frameWidth="350" frameHeight="694"/>
+	<SubTexture name="Bitter Down0006" x="1067" y="10" width="339" height="694" frameX="-1" frameY="0" frameWidth="350" frameHeight="694"/>
+	<SubTexture name="Bitter Down0007" x="1067" y="10" width="339" height="694" frameX="-1" frameY="0" frameWidth="350" frameHeight="694"/>
+	<SubTexture name="Bitter Idle0000" x="1416" y="10" width="284" height="767" frameX="0" frameY="0" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0001" x="1416" y="10" width="284" height="767" frameX="0" frameY="0" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0002" x="1710" y="10" width="294" height="754" frameX="-2" frameY="-14" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0003" x="1710" y="10" width="294" height="754" frameX="-2" frameY="-14" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0004" x="2014" y="10" width="295" height="752" frameX="-7" frameY="-17" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0005" x="2014" y="10" width="295" height="752" frameX="-7" frameY="-17" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0006" x="2319" y="10" width="284" height="760" frameX="-9" frameY="-8" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0007" x="2319" y="10" width="284" height="760" frameX="-9" frameY="-8" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0008" x="2613" y="10" width="280" height="766" frameX="-6" frameY="-2" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0009" x="2613" y="10" width="280" height="766" frameX="-6" frameY="-2" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0010" x="2903" y="10" width="282" height="767" frameX="-2" frameY="0" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0011" x="2903" y="10" width="282" height="767" frameX="-2" frameY="0" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0012" x="1416" y="10" width="284" height="767" frameX="0" frameY="0" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0013" x="1416" y="10" width="284" height="767" frameX="0" frameY="0" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0014" x="1416" y="10" width="284" height="767" frameX="0" frameY="0" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Idle0015" x="1416" y="10" width="284" height="767" frameX="0" frameY="0" frameWidth="302" frameHeight="769"/>
+	<SubTexture name="Bitter Left0000" x="3195" y="10" width="384" height="750" frameX="-4" frameY="-5" frameWidth="390" frameHeight="755"/>
+	<SubTexture name="Bitter Left0001" x="3195" y="10" width="384" height="750" frameX="-4" frameY="-5" frameWidth="390" frameHeight="755"/>
+	<SubTexture name="Bitter Left0002" x="3589" y="10" width="390" height="751" frameX="0" frameY="-4" frameWidth="390" frameHeight="755"/>
+	<SubTexture name="Bitter Left0003" x="3589" y="10" width="390" height="751" frameX="0" frameY="-4" frameWidth="390" frameHeight="755"/>
+	<SubTexture name="Bitter Left0004" x="10" y="787" width="368" height="754" frameX="-19" frameY="-1" frameWidth="390" frameHeight="755"/>
+	<SubTexture name="Bitter Left0005" x="10" y="787" width="368" height="754" frameX="-19" frameY="-1" frameWidth="390" frameHeight="755"/>
+	<SubTexture name="Bitter Left0006" x="388" y="787" width="363" height="755" frameX="-24" frameY="0" frameWidth="390" frameHeight="755"/>
+	<SubTexture name="Bitter Left0007" x="388" y="787" width="363" height="755" frameX="-24" frameY="0" frameWidth="390" frameHeight="755"/>
+	<SubTexture name="Bitter Right0000" x="761" y="787" width="384" height="769" frameX="-15" frameY="0" frameWidth="399" frameHeight="770"/>
+	<SubTexture name="Bitter Right0001" x="761" y="787" width="384" height="769" frameX="-15" frameY="0" frameWidth="399" frameHeight="770"/>
+	<SubTexture name="Bitter Right0002" x="1155" y="787" width="378" height="765" frameX="-7" frameY="-4" frameWidth="399" frameHeight="770"/>
+	<SubTexture name="Bitter Right0003" x="1155" y="787" width="378" height="765" frameX="-7" frameY="-4" frameWidth="399" frameHeight="770"/>
+	<SubTexture name="Bitter Right0004" x="1543" y="787" width="376" height="769" frameX="-1" frameY="-1" frameWidth="399" frameHeight="770"/>
+	<SubTexture name="Bitter Right0005" x="1543" y="787" width="376" height="769" frameX="-1" frameY="-1" frameWidth="399" frameHeight="770"/>
+	<SubTexture name="Bitter Right0006" x="1929" y="787" width="373" height="770" frameX="0" frameY="0" frameWidth="399" frameHeight="770"/>
+	<SubTexture name="Bitter Right0007" x="1929" y="787" width="373" height="770" frameX="0" frameY="0" frameWidth="399" frameHeight="770"/>
+	<SubTexture name="Bitter Up0000" x="2312" y="787" width="407" height="830" frameX="-4" frameY="0" frameWidth="424" frameHeight="830"/>
+	<SubTexture name="Bitter Up0001" x="2312" y="787" width="407" height="830" frameX="-4" frameY="0" frameWidth="424" frameHeight="830"/>
+	<SubTexture name="Bitter Up0002" x="2729" y="787" width="416" height="816" frameX="0" frameY="-14" frameWidth="424" frameHeight="830"/>
+	<SubTexture name="Bitter Up0003" x="2729" y="787" width="416" height="816" frameX="0" frameY="-14" frameWidth="424" frameHeight="830"/>
+	<SubTexture name="Bitter Up0004" x="3155" y="787" width="415" height="809" frameX="-8" frameY="-21" frameWidth="424" frameHeight="830"/>
+	<SubTexture name="Bitter Up0005" x="3155" y="787" width="415" height="809" frameX="-8" frameY="-21" frameWidth="424" frameHeight="830"/>
+	<SubTexture name="Bitter Up0006" x="3580" y="787" width="413" height="806" frameX="-11" frameY="-24" frameWidth="424" frameHeight="830"/>
+	<SubTexture name="Bitter Up0007" x="3580" y="787" width="413" height="806" frameX="-11" frameY="-24" frameWidth="424" frameHeight="830"/>
+</TextureAtlas>

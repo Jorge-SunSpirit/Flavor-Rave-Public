@@ -74,7 +74,7 @@ function onCreate()
 	finishAnim('SourCutin');
 	setScrollFactor('SourCutin', 0, 0);
 	addLuaSprite('SourCutin', false);
-	setObjectCamera('SourCutin', 'hud');
+	setObjectCamera('SourCutin', 'effect');
 
 	makeAnimatedLuaSprite('SweetCutIn', 'closeup/SweetCutIns', 1280, 359);
 	addAnimationByPrefix('SweetCutIn', 'idle', 'SugarCutin', 24, false);
@@ -82,7 +82,7 @@ function onCreate()
 	finishAnim('SweetCutIn');
 	setScrollFactor('SweetCutIn', 0, 0);
 	addLuaSprite('SweetCutIn', false);
-	setObjectCamera('SweetCutIn', 'hud');
+	setObjectCamera('SweetCutIn', 'effect');
 
 	triggerEvent('Alt Idle Animation', 'Dad', '-sad');
 	triggerEvent('Alt Idle Animation', 'BF', '-sad');

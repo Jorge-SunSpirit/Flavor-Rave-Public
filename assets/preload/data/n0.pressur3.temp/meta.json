@@ -1,10 +1,17 @@
 {
     "song": {
         "name": "n0.pressur3.temp",
-        "artist": "Noichi, JACKALRUIN, & HighPoweredKeyz",
-		"charter": "Flootena"
+        "artist": "Noichi, & HighPoweredKeyz",
+		"charter": "Flootena",
+		"pauseartist": "JC_Hearts",
+		"pauseArt": "synsun"
     },
 	"control": {
 		"happyEnding": true
+	},
+	"freeplay": {
+		"characters": ["synthetic", "sundried"],
+		"stage": "synsun",
+		"isOnePlayer": false
 	}
 }

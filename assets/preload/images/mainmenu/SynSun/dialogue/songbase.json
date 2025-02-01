@@ -16,7 +16,10 @@
 				{"text": "Togarashi Central", "jsonreDirect": "song-togarashicentral", "songCheck": "Flavorscape"},
 				{"text": "Dial it Back!", "jsonreDirect": "song-dialitback", "songCheck": "Flavorscape"},
 				{"text": "Stifled Strings", "jsonreDirect": "song-stifledstrings", "songCheck": "Flavorscape"},
-				{"text": "ReKindled", "jsonreDirect": "song-rekindled", "songCheck": "Ignatius"}
+				{"text": "ReKindled", "jsonreDirect": "song-rekindled", "songCheck": "Ignatius"},
+				{"text": "Acid Rain", "jsonreDirect": "song-acidrain", "songCheck": "Livewire"},
+				{"text": "Such Sweet Sorrow", "jsonreDirect": "song-sweetsorrow", "songCheck": "Lodestar Shanty"},
+				{"text": "Salty Seas", "jsonreDirect": "song-salty", "songCheck": "Lodestar Shanty"}
 
 			]
 		}

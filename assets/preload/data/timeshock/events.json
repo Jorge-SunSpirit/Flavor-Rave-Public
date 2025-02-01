@@ -648,11 +648,6 @@
 						"Call on Luas",
 						"thingie",
 						"1920"
-					],
-					[
-						"Set Lane Transparency",
-						"0.5",
-						"0.3"
 					]
 				]
 			],
@@ -693,11 +688,6 @@
 						"Call on Luas",
 						"thingie",
 						"2176"
-					],
-					[
-						"Set Lane Transparency",
-						"0",
-						"0.3"
 					]
 				]
 			],

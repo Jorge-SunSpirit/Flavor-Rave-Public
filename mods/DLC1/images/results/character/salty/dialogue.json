@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Piracy IS a party! Yahaharrr!!!",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Yo ho ho! That be a proper shanty, me hearties!",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "A fine bout o' song for a day's voyage.",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Bah, surely I can belt a better shanty than that. One more time, mateys!",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I need to rest me vocal chords. All that singin' makin' me throat rougher than stormy sea waves!",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

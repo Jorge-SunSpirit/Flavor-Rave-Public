@@ -53,7 +53,7 @@ function onCreate()
 	setScrollFactor('bordersweet', 0, 0);
     screenCenter('bordersweet');
 	addLuaSprite('bordersweet', false);
-	setObjectCamera('bordersweet', 'hud');
+	setObjectCamera('bordersweet', 'effect');
 	setProperty('bordersweet.alpha', 0.0001);
 
 	setProperty('isCameraOnForcedPos', true);

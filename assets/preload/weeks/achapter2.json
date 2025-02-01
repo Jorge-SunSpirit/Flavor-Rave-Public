@@ -1,7 +1,7 @@
 {
 	"songs": [
-		["Rainbow Sorbet", "soursweethappy", [165, 0, 77], ["sour", "sweet"], "lavender"],
-		["Sugarcoat It", "soursweethappy", [165, 0, 77], ["sour", "sweet"], "showroom"]
+		["Rainbow Sorbet"],
+		["Sugarcoat It"]
 	],
 
 	"weekCharacters": [
@@ -21,7 +21,7 @@
 	"weekName": "A New Future Blooms",
 	"location": "Lavender Park",
 	"startUnlocked": false,
-	"isExtra": false,
+	"categoryType": "story",
 	"hideStoryMode": false,
 	"hideFreeplay": false,
 	"difficulties": "Normal"

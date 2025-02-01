@@ -35,6 +35,7 @@ import openfl.display.Bitmap;
 import openfl.display.BitmapData;
 import options.GraphicsSettingsSubState;
 import shaders.ColorSwap;
+import achievements.Achievements;
 
 using StringTools;
 #if MODS_ALLOWED
@@ -106,6 +107,7 @@ class TitleState extends MusicBeatState
 
 		ClientPrefs.loadPrefs();
 		NoteSkin.init();
+		Achievements.init();
 
 		FlxG.autoPause = ClientPrefs.autoPause;
 		FlxG.mouse.visible = ClientPrefs.menuMouse;
@@ -159,7 +161,6 @@ class TitleState extends MusicBeatState
 	function startIntro()
 	{
 		Paths.currentModDirectory = "";
-		Paths.allowModLoading = true; //Sounds stupid but this actually lets the video game launch
 		CoolUtil.difficulties = ["Normal"];
 		Conductor.bpm = 128.0;
 		persistentUpdate = true;
@@ -242,6 +243,13 @@ class TitleState extends MusicBeatState
 		titleText.alpha = 0.001;
 		titleText.screenCenter(X);
 		add(titleText);
+
+		#if !PUBLIC_BUILD
+		var versionShit:FlxText = new FlxText(0, FlxG.height - 24, FlxG.width - 2, Main.VERSION, 12);
+		versionShit.antialiasing = ClientPrefs.globalAntialiasing;
+		versionShit.setFormat(Paths.font("Krungthep.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(versionShit);
+		#end
 
 		blackScreen = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		add(blackScreen);

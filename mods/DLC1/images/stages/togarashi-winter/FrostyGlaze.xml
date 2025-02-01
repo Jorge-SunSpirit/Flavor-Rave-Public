@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FrostyGlaze.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FrostedGlaze10000" x="8" y="8" width="517" height="465" frameX="-1" frameY="-12" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10001" x="533" y="8" width="518" height="465" frameX="0" frameY="-12" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10002" x="1059" y="8" width="515" height="468" frameX="-1" frameY="-10" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10003" x="8" y="484" width="516" height="468" frameX="0" frameY="-10" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10004" x="532" y="484" width="514" height="474" frameX="-1" frameY="-4" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10005" x="1054" y="484" width="515" height="474" frameX="0" frameY="-4" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10006" x="8" y="966" width="513" height="478" frameX="-1" frameY="0" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10007" x="529" y="966" width="514" height="478" frameX="0" frameY="0" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10008" x="8" y="966" width="513" height="478" frameX="-1" frameY="0" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10009" x="529" y="966" width="514" height="478" frameX="0" frameY="0" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10010" x="8" y="966" width="513" height="478" frameX="-1" frameY="0" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10011" x="529" y="966" width="514" height="478" frameX="0" frameY="0" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10012" x="8" y="966" width="513" height="478" frameX="-1" frameY="0" frameWidth="518" frameHeight="478"/>
+	<SubTexture name="FrostedGlaze10013" x="529" y="966" width="514" height="478" frameX="0" frameY="0" frameWidth="518" frameHeight="478"/>
+</TextureAtlas>

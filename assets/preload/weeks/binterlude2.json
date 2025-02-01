@@ -20,7 +20,7 @@
 	"weekName": "Kindred Guidance",
 	"location": "Enzync City Main Street",
 	"startUnlocked": false,
-	"isExtra": false,
+	"categoryType": "story",
 	"hideStoryMode": false,
 	"hideFreeplay": false,
 	"difficulties": "Normal",

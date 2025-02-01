@@ -1,6 +1,6 @@
 {
 	"songs": [
-		["Ignatius", "spicy", [165, 0, 77], ["spicy", "smoky"], "togarashi"]
+		["Ignatius"]
 	],
 
 	"weekCharacters": [
@@ -20,7 +20,7 @@
 	"weekName": "Stoke the Inferno",
 	"location": "Togarashi Town",
 	"startUnlocked": false,
-	"isExtra": false,
+	"categoryType": "story",
 	"hideStoryMode": false,
 	"hideFreeplay": false,
 	"difficulties": "Normal"

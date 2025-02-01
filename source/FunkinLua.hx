@@ -10,7 +10,6 @@ import flixel.FlxCamera;
 import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
-import flixel.FlxSprite;
 import flixel.addons.effects.FlxTrail;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.group.FlxGroup.FlxTypedGroup;
@@ -30,6 +29,7 @@ import openfl.display.BitmapData;
 import openfl.display.BlendMode;
 import openfl.filters.BitmapFilter;
 import openfl.utils.Assets;
+import achievements.Achievements;
 
 using StringTools;
 #if LUA_ALLOWED
@@ -173,6 +173,8 @@ class FunkinLua {
 		set('healthGainMult', PlayState.instance.healthGain);
 		set('healthLossMult', PlayState.instance.healthLoss);
 		set('instakillOnMiss', PlayState.instance.instakillOnMiss);
+		set('randomizedNotes', PlayState.instance.randomizedNotes);
+		set('mirroredNotes', PlayState.instance.mirroredNotes);
 		set('botPlay', PlayState.instance.cpuControlled);
 		set('practice', PlayState.instance.practiceMode);
 		set('opponentPlay', PlayState.instance.opponentPlay);
@@ -1409,6 +1411,9 @@ class FunkinLua {
 		});
 		Lua_helper.add_callback(lua, "getHealth", function() {
 			return PlayState.instance.health;
+		});
+		Lua_helper.add_callback(lua, "giveAchievement", function(value:String, forcePop:Bool = false) {
+			Achievements.unlockAchievement(value, forcePop);
 		});
 
 		Lua_helper.add_callback(lua, "getColorFromHex", function(color:String) {
@@ -3180,6 +3185,7 @@ class FunkinLua {
 	function cameraFromString(cam:String):FlxCamera {
 		switch(cam.toLowerCase()) {
 			case 'camhud' | 'hud': return PlayState.instance.camHUD;
+			case 'cameffect' | 'effect': return PlayState.instance.camEffect;
 			case 'camother' | 'other': return PlayState.instance.camOther;
 		}
 		return PlayState.instance.camGame;

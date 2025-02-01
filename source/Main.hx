@@ -43,9 +43,11 @@ class Main extends Sprite
 	// These are taken from Funkin' 0.3.2
 	public static var VERSION(get, never):String;
 	public static final VERSION_SUFFIX:String = #if !PUBLIC_BUILD ' DEV' #else '' #end;
+	/*
 	public static final GIT_BRANCH:String = funkin.util.macro.GitCommit.getGitBranch();
 	public static final GIT_HASH:String = funkin.util.macro.GitCommit.getGitCommitHash();
 	public static final GIT_HAS_LOCAL_CHANGES:Bool = funkin.util.macro.GitCommit.getGitHasLocalChanges();
+	*/
 
 	public static final MIN_FRAMERATE:Int = 60;
 	public static final MAX_FRAMERATE:Int = 360;
@@ -61,17 +63,19 @@ class Main extends Sprite
 
 	public static var instance:Main;
 
+	/*
 	#if !PUBLIC_BUILD
 	static function get_VERSION():String
 	{
 	  return 'v${FlxG.stage.application.meta.get('version')} (${GIT_BRANCH} : ${GIT_HASH}${GIT_HAS_LOCAL_CHANGES ? ' : MODIFIED' : ''})' + VERSION_SUFFIX;
 	}
 	#else
+	*/
 	static function get_VERSION():String
 	{
 	  return 'v${FlxG.stage.application.meta.get('version')}' + VERSION_SUFFIX;
 	}
-	#end
+	//#end
 
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
@@ -116,7 +120,17 @@ class Main extends Sprite
 	private function setupGame():Void
 	{
 		ClientPrefs.loadDefaultKeys();
-		addChild(new FlxGame(gameWidth, gameHeight, initialState, framerate, framerate, skipSplash, startFullscreen));
+		var game:FlxGame = new FlxGame(gameWidth, gameHeight, initialState, framerate, framerate, skipSplash, startFullscreen);
+
+#if SOUNDTRAY
+		// FlxG.game._customSoundTray wants just the class, it calls new from
+		// create() in there, which gets called when it's added to stage
+		// which is why it needs to be added before addChild(game) here
+		@:privateAccess
+		game._customSoundTray = funkin.ui.options.FunkinSoundTray;
+#end
+
+		addChild(game);
 
 		#if !mobile
 		fpsVar = new FPSDisplay(10, 3, 0xFFFFFF);
@@ -151,7 +165,8 @@ class Main extends Sprite
 	function onCrash(e:UncaughtErrorEvent):Void
 	{
 		// Always use the non-public build version text for the start of the error message
-		var errMsg:String = 'Flavor Rave v${FlxG.stage.application.meta.get('version')} (${GIT_BRANCH} : ${GIT_HASH}${GIT_HAS_LOCAL_CHANGES ? ' : MODIFIED' : ''})$VERSION_SUFFIX\n\n';
+		// var errMsg:String = 'Flavor Rave v${FlxG.stage.application.meta.get('version')} (${GIT_BRANCH} : ${GIT_HASH}${GIT_HAS_LOCAL_CHANGES ? ' : MODIFIED' : ''})$VERSION_SUFFIX\n\n';
+		var errMsg:String = 'Flavor Rave v${FlxG.stage.application.meta.get('version')}\n\n';
 		var path:String;
 		var callStack:Array<StackItem> = CallStack.exceptionStack(true);
 		var dateNow:String = Date.now().toString();

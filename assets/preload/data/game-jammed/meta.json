@@ -4,9 +4,16 @@
 		"artist": "DatDavi, Genechip, & Zeroh",
 		"titleCardStep": 65,
 		"charter": "Srife5",
+		"pauseArt": "troubleshootin",
+		"pauseartist": "Ciablue",
 		"extraCharacter": [true, true]
 	},
 	"dialogue": {
 		"introDialogue": "dreamcast"
+	},
+	"freeplay": {
+		"characters": ["troubleshootin", "flavorrave"],
+		"stage": "funktrix",
+		"isOnePlayer": false
 	}
 }

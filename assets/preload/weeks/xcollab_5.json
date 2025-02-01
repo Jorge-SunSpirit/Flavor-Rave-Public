@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["GAME-JAMMED"]
+	],
+
+	"weekCharacters": [
+		"Sour",
+		"Sweet",
+		"Torrent",
+		"Nitro"
+	],
+	"charaSelect": [
+		"flavorrave",
+		"troubleshootin"
+	],
+	"weekBackground": "sweetroom",
+	"weekType": "Collab",
+	"storyName": "Collab Stories",
+	"weekBefore": "xcollab_4",
+	"weekName": "Suspicious Links",
+	"location": "Sweet's Room",
+	"startUnlocked": false,
+	"categoryType": "collab",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}
