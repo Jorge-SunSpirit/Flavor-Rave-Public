@@ -42,7 +42,7 @@
 		},
 		{
 			"realName": "Amai Hisa",
-			"iconName": "Hisa",
+			"iconName": "hisa",
 			"description": "Background, CG, & Concept Artist, Pause Menu Artist",
 			"color": [255,166,166],
 			"twitter": "https://twitter.com/AmaiHisa",
@@ -50,7 +50,7 @@
 		},
 		{
 			"realName": "CoffeeBean",
-			"iconName": "Coffee",
+			"iconName": "coffee",
 			"description": "Sprite Artist, Animator",
 			"color": [250,255,115],
 			"twitter": "https://twitter.com/coffeebeanfreak",
@@ -74,7 +74,7 @@
 		},
 		{
 			"realName": "Faceless",
-			"iconName": "Faceless",
+			"iconName": "faceless",
 			"description": "Sprite Artist, Animator",
 			"color": [162,8,196],
 			"twitter": "https://twitter.com/ThenameFaceless",
@@ -98,7 +98,7 @@
 		},
 		{
 			"realName": "Ito Saihara",
-			"iconName": "Ito",
+			"iconName": "ito",
 			"description": "Sprite Artist",
 			"color": [245,66,126],
 			"twitter": "https://twitter.com/ItoSaihara_",
@@ -106,7 +106,7 @@
 		},
 		{
 			"realName": "JC_Hearts",
-			"iconName": "JC",
+			"iconName": "jc",
 			"description": "Main Menu, Character Portrait, & Pause Menu Artist",
 			"color": [252,146,201],
 			"twitter": "https://twitter.com/jc_hearts",
@@ -114,7 +114,7 @@
 		},
 		{
 			"realName": "JoaDash",
-			"iconName": "Joa",
+			"iconName": "joa",
 			"description": "Sprite Artist, Animator",
 			"color": [33,45,145],
 			"twitter": "https://x.com/joadash_",
@@ -122,7 +122,7 @@
 		},
 		{
 			"realName": "JohnnyAnimates",
-			"iconName": "Johnny",
+			"iconName": "johnny",
 			"description": "Animator, Pause Menu Artist",
 			"color": [49,156,225],
 			"twitter": "https://bsky.app/profile/johnnyanimates.bsky.social",
@@ -146,7 +146,7 @@
 		},
 		{
 			"realName": "Kixel",
-			"iconName": "Kixel",
+			"iconName": "kixel",
 			"description": "Sprite & Pause Menu Artist, Animator",
 			"color": [245,66,149],
 			"twitter": "https://twitter.com/KixelArt",
@@ -162,7 +162,7 @@
 		},
 		{
 			"realName": "LV",
-			"iconName": "LV",
+			"iconName": "lv",
 			"description": "Background & Concept Artist, Animator",
 			"color": [255,194,71],
 			"twitter": "https://twitter.com/LVArts_",
@@ -170,7 +170,7 @@
 		},
 		{
 			"realName": "Millxr",
-			"iconName": "Miller",
+			"iconName": "miller",
 			"description": "Sprite & Pause Menu Artist, Animator",
 			"color": [133,81,201],
 			"twitter": "https://linktr.ee/Mill3r_the0ne",
@@ -178,7 +178,7 @@
 		},
 		{
 			"realName": "Mochoco",
-			"iconName": "Coco",
+			"iconName": "coco",
 			"description": "Sprite Artist, Animator, Pause Menu Artist",
 			"color": [166,64,27],
 			"twitter": "https://x.com/mochocofrappe",
@@ -186,7 +186,7 @@
 		},
 		{
 			"realName": "Nayyco",
-			"iconName": "Nayyco",
+			"iconName": "nayyco",
 			"description": "Background, Character & Pause Menu Artist,\nHair Stylist",
 			"color": [179,12,35],
 			"twitter": "https://twitter.com/nayyco",
@@ -210,7 +210,7 @@
 		},
 		{
 			"realName": "Spyrodile",
-			"iconName": "Spyrodile",
+			"iconName": "spyrodile",
 			"description": "Character Artist",
 			"color": [177,29,245],
 			"twitter": "https://twitter.com/Spyrodile",
@@ -218,7 +218,7 @@
 		},
 		{
 			"realName": "STS-Puelle",
-			"iconName": "Pia",
+			"iconName": "pia",
 			"description": "Main Menu & Pause Menu Artist",
 			"color": [55,166,64],
 			"twitter": "https://twitter.com/STS_PiaEsaya",
@@ -226,7 +226,7 @@
 		},
 		{
 			"realName": "Cammy",
-			"iconName": "Cammy",
+			"iconName": "cammy",
 			"description": "Background Artist",
 			"color": [85,69,128],
 			"twitter": "https://bsky.app/profile/icedragonsden.bsky.social",
@@ -258,7 +258,7 @@
 		},
 		{
 			"realName": "LilyTheDrawDork",
-			"iconName": "Lily",
+			"iconName": "lily",
 			"description": "Intro Animation",
 			"color": [82,110,255],
 			"twitter": "https://twitter.com/LilyTheDrawDork",
@@ -282,7 +282,7 @@
 		},
 		{
 			"realName": "PK",
-			"iconName": "pk",
+			"iconName": "PK",
 			"description": "Pause Menu Artist",
 			"color": [187,147,250],
 			"twitter": "https://x.com/vivalapk",
@@ -290,7 +290,7 @@
 		},
 		{
 			"realName": "RixFX",
-			"iconName": "RixFX",
+			"iconName": "rixfx",
 			"description": "Background & Sprite Artist, Animator",
 			"color": [189,4,102],
 			"twitter": "https://twitter.com/rixfx_",
@@ -298,7 +298,7 @@
 		},
 		{
 			"realName": "SaltedSporks",
-			"iconName": "Sporks",
+			"iconName": "sporks",
 			"description": "Sprite Artist, Animator",
 			"color": [255,238,112],
 			"twitter": "https://twitter.com/saltedsporks",
@@ -314,7 +314,7 @@
 		},
 		{
 			"realName": "YokuTzen",
-			"iconName": "Yoku",
+			"iconName": "yoku",
 			"description": "Sprite Artist, Animator",
 			"color": [153,71,204],
 			"twitter": "https://twitter.com/YokuTzen_",
@@ -338,7 +338,7 @@
 		},
 		{
 			"realName": "Weeg",
-			"iconName": "Weeg",
+			"iconName": "weeg",
 			"description": "Programmer",
 			"color": [255,105,175],
 			"twitter": "https://linktr.ee/itisiweeg",
@@ -346,7 +346,7 @@
 		},
 		{
 			"realName": "Cerbera",
-			"iconName": "Cerbera",
+			"iconName": "cerbera",
 			"description": "Charter",
 			"color": [255,77,222],
 			"twitter": "https://twitter.com/Cerberaa",
@@ -370,7 +370,7 @@
 		},
 		{
 			"realName": "Srife5",
-			"iconName": "Srife",
+			"iconName": "srife",
 			"description": "Charter",
 			"color": [230,41,51],
 			"twitter": "https://twitter.com/strife55",
@@ -378,7 +378,7 @@
 		},
 		{
 			"realName": "DatDavi",
-			"iconName": "DatDavi",
+			"iconName": "datdavi",
 			"description": "Composer",
 			"color": [121,64,227],
 			"twitter": "https://twitter.com/dat_davi",
@@ -386,7 +386,7 @@
 		},
 		{
 			"realName": "DPZ",
-			"iconName": "DPZ",
+			"iconName": "dpz",
 			"description": "Composer",
 			"color": [247,166,25],
 			"twitter": "https://youtube.com/@dpzmusic?si=IrFjQgJ1-Babsdbk",
@@ -394,7 +394,7 @@
 		},
 		{
 			"realName": "DrazicallyDTM",
-			"iconName": "Draz",
+			"iconName": "draz",
 			"description": "Composer",
 			"color": [69,8,112],
 			"twitter": "https://twitter.com/DrazicallyDTM",
@@ -402,7 +402,7 @@
 		},
 		{
 			"realName": "Eden_essence",
-			"iconName": "Eden",
+			"iconName": "eden",
 			"description": "Composer",
 			"color": [68,46,128],
 			"twitter": "https://x.com/edxn_essence",
@@ -410,7 +410,7 @@
 		},
 		{
 			"realName": "Genechip",
-			"iconName": "Genechip",
+			"iconName": "genechip",
 			"description": "Composer",
 			"color": [250,57,115],
 			"twitter": "https://twitter.com/genechipp",
@@ -418,7 +418,7 @@
 		},
 		{
 			"realName": "GGalactigal",
-			"iconName": "Haruka",
+			"iconName": "haruka",
 			"description": "Composer",
 			"color": [217,22,70],
 			"twitter": "https://twitter.com/GGalactigal",
@@ -456,7 +456,7 @@
 		},
 		{
 			"realName": "Kreagato",
-			"iconName": "Krea",
+			"iconName": "krea",
 			"description": "Composer",
 			"color": [255,77,222],
 			"twitter": "https://twitter.com/Kreagato",
@@ -464,7 +464,7 @@
 		},
 		{
 			"realName": "Matt$",
-			"iconName": "Matt",
+			"iconName": "matt",
 			"description": "Composer",
 			"color": [10,255,75],
 			"twitter": "https://twitter.com/matt_currency",
@@ -472,7 +472,7 @@
 		},
 		{
 			"realName": "nasadotexe",
-			"iconName": "Nasa",
+			"iconName": "nasa",
 			"description": "Composer",
 			"color": [214,152,250],
 			"twitter": "https://x.com/Nasadotexe",
@@ -480,7 +480,7 @@
 		},
 		{
 			"realName": "Noichi",
-			"iconName": "Noichi",
+			"iconName": "noichi",
 			"description": "Composer",
 			"color": [222,67,40],
 			"twitter": "https://linktr.ee/Noichi_",
@@ -488,7 +488,7 @@
 		},
 		{
 			"realName": "RixFX",
-			"iconName": "RixFX",
+			"iconName": "rixfx",
 			"description": "Composer",
 			"color": [189,4,102],
 			"twitter": "https://twitter.com/rixfx_",
@@ -496,7 +496,7 @@
 		},
 		{
 			"realName": "SaltedSporks",
-			"iconName": "Sporks",
+			"iconName": "sporks",
 			"description": "Composer",
 			"color": [255,238,112],
 			"twitter": "https://twitter.com/saltedsporks",
@@ -504,7 +504,7 @@
 		},
 		{
 			"realName": "Stardust Tunes",
-			"iconName": "Stardust",
+			"iconName": "stardust",
 			"description": "Composer",
 			"color": [54,7,163],
 			"twitter": "https://twitter.com/StardustTunes",
@@ -520,7 +520,7 @@
 		},
 		{
 			"realName": "Zeroh",
-			"iconName": "Zeroh",
+			"iconName": "zeroh",
 			"description": "Composer",
 			"color": [227,14,95],
 			"twitter": "https://twitter.com/catsmirkk",
@@ -825,7 +825,7 @@
 		},
 		{
 			"realName": "Amai Hisa",
-			"iconName": "Hisa",
+			"iconName": "hisa",
 			"description": "Voice of Sweet & Tangy",
 			"color": [255,166,166],
 			"twitter": "https://twitter.com/AmaiHisa",
@@ -833,7 +833,7 @@
 		},
 		{
 			"realName": "Kyle DeNigris",
-			"iconName": "Kyle",
+			"iconName": "kyle",
 			"description": "Voice of Showman",
 			"color": [240,48,58],
 			"twitter": "https://bsky.app/profile/itsamewario.bsky.social",
@@ -849,7 +849,7 @@
 		},
 		{
 			"realName": "Tyanni Mah",
-			"iconName": "Tyanni",
+			"iconName": "tyanni",
 			"description": "Voice of Umami",
 			"color": [145,64,207],
 			"twitter": "https://www.voicebytyanni.com/",
@@ -857,7 +857,7 @@
 		},
 		{
 			"realName": "Sandy Can",
-			"iconName": "Sandy",
+			"iconName": "sandy",
 			"description": "Voice of Spicy",
 			"color": [216,86,245],
 			"twitter": "https://sandycanvo.com/",
@@ -865,7 +865,7 @@
 		},
 		{
 			"realName": "Faceless",
-			"iconName": "Faceless",
+			"iconName": "faceless",
 			"description": "Voice of Smoky",
 			"color": [162,8,196],
 			"twitter": "https://twitter.com/ThenameFaceless",
@@ -897,7 +897,7 @@
 		},
 		{
 			"realName": "James Dijit",
-			"iconName": "James",
+			"iconName": "james",
 			"description": "Voice of Bitter",
 			"color": [212,55,99],
 			"twitter": "https://x.com/JamesDijit",
@@ -905,7 +905,7 @@
 		},
 		{
 			"realName": "JChearts",
-			"iconName": "JC",
+			"iconName": "jc",
 			"description": "Voice of Sun-Dried",
 			"color": [252,146,201],
 			"twitter": "https://twitter.com/jc_hearts",
@@ -913,7 +913,7 @@
 		},
 		{
 			"realName": "Maxwell Flinch",
-			"iconName": "Maxwell",
+			"iconName": "maxwell",
 			"description": "Voice of Synthetic",
 			"color": [37,115,36],
 			"twitter": "https://bsky.app/profile/maxwellflinch.bsky.social",
@@ -921,7 +921,7 @@
 		},
 		{
 			"realName": "NNovasaur",
-			"iconName": "Nova",
+			"iconName": "nova",
 			"description": "Voice of Rika",
 			"color": [253,255,125],
 			"twitter": "https://twitter.com/NNovasaur",
@@ -929,7 +929,7 @@
 		},
 		{
 			"realName": "Melissa MekRose",
-			"iconName": "Melissa",
+			"iconName": "melissa",
 			"description": "Voice of Daisy",
 			"color": [255,163,59],
 			"twitter": "https://twitter.com/Ms_Mekrose",
@@ -937,7 +937,7 @@
 		},
 		{
 			"realName": "PhantomFear",
-			"iconName": "PhantomFear",
+			"iconName": "phantomfear",
 			"description": "Voice of Torrent",
 			"color": [214,79,255],
 			"twitter": "https://twitter.com/PhantomFearOP",
@@ -945,7 +945,7 @@
 		},
 		{
 			"realName": "PincerProd",
-			"iconName": "Pincer",
+			"iconName": "pincer",
 			"description": "Voice of Nitro",
 			"color": [48,63,179],
 			"twitter": "https://twitter.com/PincerProd",
@@ -961,7 +961,7 @@
 		},
 		{
 			"realName": "Mellodi",
-			"iconName": "Mellodi",
+			"iconName": "mellodi",
 			"description": "Voice of TBD-tan",
 			"color": [255,181,220],
 			"twitter": "https://x.com/RealMelodyHope",
@@ -1089,7 +1089,7 @@
 		},
 		{
 			"realName": "Funkin' Crew",
-			"iconName": "BF",
+			"iconName": "bf",
 			"description": "ninjamuffin99, PhantomArcade, Kawai Sprite, evilsk8r",
 			"color": [193,59,255],
 			"twitter": "https://funkin.me/",
