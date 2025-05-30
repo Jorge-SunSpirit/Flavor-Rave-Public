@@ -1,0 +1,89 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "I didn't expect to be asked about that. I wouldn't consider myself to be the most fashionable person, but I do love all the cute clothes you can find all over Enzync!",
+			"animation": "think",
+			"chara": "sun"
+		},
+		{
+			"text": "The brand I love the most is called Soleil! They're based in New Togarashi, and they make some of the most comfy casual wear ever! Nearly half my wardrobe comes from them.",
+			"animation": "determined",
+			"chara": "sun",
+			"tvArt" : "soleil",
+			"sound" : "laugh"
+		},
+		{
+			"text": "Even my headphones! They were made as a special collab between Soleil and the New Togarashi music and tech brand, Scoville. The perfect mix of comfy with perfect sound quality!",
+			"chara": "sun"
+		},
+		{
+			"text": "Another brand I LOVE is Sugarplum. Genuinely some of the cutest clothes I've ever seen. They've got there own store here in Main Street's Ensemble Mall.",
+			"chara": "sun",
+			"animation": "excited",
+			"tvArt" : "sugarplum",
+			"sound" : "lookiehere"
+		},
+		{
+			"text": "The pastel colors their clothes come in are perfect for the summer, and they make super comfy pajamas too for when the sun goes down.",
+			"chara": "sun"
+		},
+		{
+			"text": "Sometimes, the brands here get real wild. Just yesterday we saw that new clothing line from Zest's Best, and it was baffling on the eyes.",
+			"chara": "syn",
+			"tvArt" : "zestbest"
+		},
+		{
+			"text": "No offence to any viewers who wear that brand, heh.",
+			"animation": "p03",
+			"chara": "syn",
+			"sound" : "lol"
+		},
+		{
+			"text": "Zest's Best has some really nice looking stuff every now and then, but it feels like everything that they make is fit exclusively for supermodels.",
+			"animation": "nervous",
+			"chara": "sun",
+			"sound" : "wellumm"
+		},
+		{
+			"text": "Soleil and the other brands I shop actually come in plus sizes, or even just sizes that could fit an average person.",
+			"chara": "sun"
+		},
+		{
+			"text": "Those clothes are super limited too. It's never the same things from that brand each month.",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "I think what that Zest guy lacks in actual style, he makes up for in knowledge of exploiting people's FOMO and brand awareness.",
+			"chara": "syn",
+			"sound" : "robolaugh"
+		},
+		{
+			"text": "Though that brand ain't even the most outrageous here in the city. That honor goes to Truffle's. Their prices on fancy suits are criminal.",
+			"chara": "syn"
+		},
+		{
+			"text": "It's no wonder it's the only brand you see that Showman guy wearing...",
+			"animation": "upset",
+			"chara": "syn",
+			"sound" : "eugh"
+		},
+		{
+			"text": "I should honestly spice up my wardrobe soon. I've been wearing the same stuff for years, now that I'm really thinking about it.",
+			"animation": "think",
+			"chara": "sun",
+			"sound" : "hmm"
+		},
+		{
+			"text": "I wouldn't mind a little accessory for myself one day. Maybe a funny little hat... or a pair of dumb-looking shades.",
+			"animation": "hueh",
+			"chara": "syn",
+			"sound" : "hearmeout"
+		},
+		{
+			"text": "...or both.",
+			"chara": "syn"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"image": "gameover/BitterGO",
+	"animation": "BitterGO",
+	"spriteOffset": [600,560],
+	"flip_x": false,
+	"scale": 1.1,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "bitter/1",
+			"subtitles": "Gutter trash...:dur:1.902"
+		},
+		{
+			"sound": "bitter/2",
+			"subtitles": "Don't patronize me.:dur:1.754"
+		}
+	]
+}

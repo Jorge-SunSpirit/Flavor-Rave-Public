@@ -1,0 +1,147 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SweetIdle0"
+		},
+		{
+			"offsets": [
+				217,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SweetLeft0"
+		},
+		{
+			"offsets": [
+				2,
+				-17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SweetDown0"
+		},
+		{
+			"offsets": [
+				5,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SweetUp0"
+		},
+		{
+			"offsets": [
+				-3,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SweetRight0"
+		},
+		{
+			"offsets": [
+				-5,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "SweetScaredIdle"
+		},
+		{
+			"offsets": [
+				33,
+				8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "scared",
+			"indices": [],
+			"name": "SweetScaredTrans"
+		},
+		{
+			"offsets": [
+				222,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "SweetScaredLeft"
+		},
+		{
+			"offsets": [
+				0,
+				-18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "SweetScaredDown"
+		},
+		{
+			"offsets": [
+				-1,
+				19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "SweetScaredUp"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				7
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "SweetScaredRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SweetCloseS",
+	"position": [
+		-20,
+		90
+	],
+	"healthicon": "sweet",
+	"flip_x": true,
+	"healthbar_colors": [
+		240,
+		196,
+		189
+	],
+	"camera_position": [
+		-50,
+		50
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"noteskin": "Sweet",
+	"healthbar_image": "sweet",
+	"musicNoteOffset": [-5000,-5000]
+}

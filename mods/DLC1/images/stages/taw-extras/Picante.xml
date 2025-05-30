@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Picante.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Picante0000" x="5" y="5" width="324" height="594" frameX="0" frameY="-17" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0001" x="5" y="5" width="324" height="594" frameX="0" frameY="-17" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0002" x="334" y="5" width="315" height="593" frameX="-4" frameY="-18" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0003" x="334" y="5" width="315" height="593" frameX="-4" frameY="-18" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0004" x="654" y="5" width="312" height="601" frameX="-6" frameY="-10" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0005" x="654" y="5" width="312" height="601" frameX="-6" frameY="-10" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0006" x="971" y="5" width="309" height="608" frameX="-7" frameY="-3" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0007" x="971" y="5" width="309" height="608" frameX="-7" frameY="-3" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0008" x="1285" y="5" width="309" height="611" frameX="-7" frameY="0" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0009" x="1285" y="5" width="309" height="611" frameX="-7" frameY="0" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0010" x="1599" y="5" width="309" height="611" frameX="-7" frameY="0" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0011" x="1599" y="5" width="309" height="611" frameX="-7" frameY="0" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0012" x="1599" y="5" width="309" height="611" frameX="-7" frameY="0" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0013" x="1599" y="5" width="309" height="611" frameX="-7" frameY="0" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0014" x="1599" y="5" width="309" height="611" frameX="-7" frameY="0" frameWidth="324" frameHeight="611"/>
+	<SubTexture name="Picante0015" x="1599" y="5" width="309" height="611" frameX="-7" frameY="0" frameWidth="324" frameHeight="611"/>
+</TextureAtlas>

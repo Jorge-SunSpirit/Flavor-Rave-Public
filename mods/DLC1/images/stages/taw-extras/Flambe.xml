@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Flambe.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Flambe0000" x="5" y="5" width="380" height="625" frameX="0" frameY="-26" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0001" x="5" y="5" width="380" height="625" frameX="0" frameY="-26" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0002" x="390" y="5" width="381" height="627" frameX="-2" frameY="-25" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0003" x="390" y="5" width="381" height="627" frameX="-2" frameY="-25" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0004" x="776" y="5" width="381" height="636" frameX="-5" frameY="-16" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0005" x="776" y="5" width="381" height="636" frameX="-5" frameY="-16" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0006" x="1162" y="5" width="381" height="644" frameX="-6" frameY="-8" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0007" x="1162" y="5" width="381" height="644" frameX="-6" frameY="-8" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0008" x="1548" y="5" width="379" height="652" frameX="-7" frameY="-1" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0009" x="1548" y="5" width="379" height="652" frameX="-7" frameY="-1" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0010" x="5" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0011" x="5" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0012" x="389" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0013" x="389" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0014" x="773" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0015" x="773" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0016" x="1157" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0017" x="1157" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0018" x="5" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0019" x="5" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0020" x="389" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0021" x="389" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+	<SubTexture name="Flambe0022" x="773" y="662" width="379" height="653" frameX="-7" frameY="0" frameWidth="387" frameHeight="653"/>
+</TextureAtlas>

@@ -1,5 +1,6 @@
 package;
 
+import flash.media.Sound;
 import flixel.util.FlxColor;
 import flixel.FlxG;
 import flixel.util.FlxSave;
@@ -16,6 +17,8 @@ import sys.io.File;
 #else
 import openfl.utils.Assets;
 #end
+
+import ClientPrefs;
 
 class CoolUtil
 {
@@ -226,5 +229,16 @@ class CoolUtil
 		return #if (flixel < "5.0.0") folder #else FlxG.stage.application.meta.get('company')
 			+ '/'
 			+ FlxSave.validate(FlxG.stage.application.meta.get('file')) #end;
+	}
+
+	// Awesome function to get the proper voice clip for the selected announcer! If said voice clip doesn't exist, just use the default announcer's.
+	public static function getAnnouncerLine(line:String, ?async:Bool = false):Sound
+	{
+		if (Paths.fileExists("sounds/announcer/" + ClientPrefs.announcer + "/" + line + ".ogg", SOUND))
+		{
+			return Paths.sound("announcer/" + ClientPrefs.announcer + "/" + line);
+		}
+
+		return Paths.sound("announcer/default/" + line);
 	}
 }

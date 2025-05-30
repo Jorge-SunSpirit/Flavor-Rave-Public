@@ -83,37 +83,39 @@ function onCreatePost()
 end
 
 function onStepHit()
-
 	if curStep >= 490 and curStep <= 511 then
 		setProperty('isCameraOnForcedPos', true);
 		setProperty('camFollow.y', 310);
 		setProperty('camFollow.x', 390);
 	end
-	if curStep == 512 then
-		setProperty('isCameraOnForcedPos', false);
-	end
-	
 	if curStep >= 1024 and curStep <= 1154 then
 		setProperty('isCameraOnForcedPos', true);
 		setProperty('camFollow.y', 350);
 		setProperty('camFollow.x', 710);
 	end
-	if curStep == 870 then
+end
+
+function thingie(num)
+	num = tonumber(num)
+	if num == 512 then
+		setProperty('isCameraOnForcedPos', false);
+	end
+	if num == 870 then
 		doTweenY('fade', 'fade', -1060, 1);
 	end
-	if curStep == 874 then
+	if num == 874 then
 		setProperty('cutbg.alpha', 1);
 		setProperty('swing.alpha', 1);
 		setProperty('swing2.alpha', 1);
 		setProperty('swing3.alpha', 1);
 	end	
-	if curStep == 878 then
+	if num == 878 then
 		runTimer('cutscenetime', 0.2);
 	end
-	if curStep == 880 then
+	if num == 880 then
 		setProperty('cutscenecool.alpha', 1);
 	end
-	if curStep == 912 then
+	if num == 912 then
 		setProperty('cutbg.alpha', 0.0001);
 		setProperty('cutscenecool.alpha', 0.0001);
 		setProperty('leftcrowd.alpha', 1);
@@ -122,15 +124,15 @@ function onStepHit()
 		setProperty('backbops2.alpha', 0.0001);
 		setProperty('saff.alpha', 0.0001);
 	end
-	if curStep == 1155 then -- fade to white
+	if num == 1155 then -- fade to white
 		setProperty('isCameraOnForcedPos', false);
 		doTweenAlpha('camHUD', 'camHUD', 0, 1);
 		doTweenAlpha('whitehueh', 'whitehueh', 1, 1);
 	end 
-	if curStep == 1165 then -- fade to colored image
+	if num == 1165 then -- fade to colored image
 		doTweenAlpha('46', '46', 1, 1);
 	end
-	if curStep == 1185 then -- fade to colored image
+	if num == 1185 then -- fade to colored image
 		doTweenAlpha('47', '47', 1, 1);
 	end
 end

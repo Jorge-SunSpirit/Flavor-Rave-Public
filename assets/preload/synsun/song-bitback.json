@@ -1,0 +1,14 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Sour dropped this remix today! I'm happy someone requested it, cause I've been DYING to listen to it.",
+			"chara": "sun",
+			"bgm": "GiveALilBitBack"
+		},
+		{
+			"text": "That's odd... If this is a remix, why can't I find the original? Where could this song be from?",
+			"chara": "syn"
+		}
+	]
+}

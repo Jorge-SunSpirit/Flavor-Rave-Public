@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageText;
 import Metadata.MetadataSong;
 import flixel.FlxSprite;
 import flixel.group.FlxSpriteGroup;
@@ -48,9 +49,11 @@ class FlavorHUD extends FlxSpriteGroup
 	public var pointer:FlxSprite;
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
-	public var metadata:FlxText;
-	public var score:FlxText;
-	public var lyrics:FlxText;
+	public var metadata:LanguageText;
+	public var score:LanguageText;
+	public var lyrics:LanguageText;
+	public var forceP1Frame:String = '';
+	public var forceP2Frame:String = '';
 
 	public var allowScroll:Bool = true;
 
@@ -71,10 +74,9 @@ class FlavorHUD extends FlxSpriteGroup
 		}
 
 		var songName:String = songData != null ? '${songData.name} - ${songData.artist}' : PlayState.SONG.song;
-		metadata = new FlxText(hudData.metadata.position[0], hudData.metadata.position[1], 0, songName);
-		metadata.setFormat(Paths.font("Krungthep.ttf"), Std.int(hudData.metadata.scale), FlxColor.WHITE, LEFT);
+		metadata = new LanguageText(hudData.metadata.position[0], hudData.metadata.position[1], 0, songName, Std.int(hudData.metadata.scale), 'krungthep');
+		metadata.setStyle(FlxColor.WHITE, LEFT);
 		metadata.setBorderStyle(OUTLINE, FlxColor.BLACK, 1.5, 1.5);
-		metadata.antialiasing = ClientPrefs.globalAntialiasing;
 		if (metadata.width > 255) resetMetadata(false);
 		metadata.clipRect = new FlxRect(timeBar.x - metadata.x, timeBar.y - metadata.y, timeBar.width, timeBar.height);
 
@@ -96,10 +98,9 @@ class FlavorHUD extends FlxSpriteGroup
 		pointer = new FlxSprite(385, 67).loadGraphic(Paths.image('healthpointer'));
 		pointer.antialiasing = ClientPrefs.globalAntialiasing;
 
-		lyrics = new FlxText(lyricBar.x + 20, lyricBar.y + 8, 663, "");
-		lyrics.setFormat(Paths.font("Krungthep.ttf"), Std.int(hudData.lyric.scale), FlxColor.WHITE, CENTER);
+		lyrics = new LanguageText(lyricBar.x + 20, lyricBar.y + 8, 663, "", Std.int(hudData.lyric.scale), 'krungthep');
+		lyrics.setStyle(FlxColor.WHITE, CENTER);
 		lyrics.setBorderStyle(OUTLINE, FlxColor.BLACK, 1.5, 1.5);
-		lyrics.antialiasing = ClientPrefs.globalAntialiasing;
 		lyrics.visible = useLyrics;
 
 		if (ClientPrefs.downScroll)
@@ -109,9 +110,8 @@ class FlavorHUD extends FlxSpriteGroup
 			lyrics.setPosition(lyricBar.x + 20, lyricBar.y + 16);
 		}
 
-		score = new FlxText(hudData.score.position[0], hudData.score.position[1], 0, "");
-		score.setFormat(Paths.font("Krungthep.ttf"), Std.int(hudData.score.scale), FlxColor.WHITE, LEFT);
-		score.antialiasing = ClientPrefs.globalAntialiasing;
+		score = new LanguageText(hudData.score.position[0], hudData.score.position[1], 0, "", Std.int(hudData.score.scale), 'krungthep');
+		score.setStyle(FlxColor.WHITE, LEFT);
 
 		iconP1 = new HealthIcon(p1.healthIcon, true);
 		iconP1.scale.set(hudData.p1.scale, hudData.p1.scale);
@@ -217,6 +217,26 @@ class FlavorHUD extends FlxSpriteGroup
 			{
 				iconP1Check.animation.curAnim.curFrame = iconP1Check.neutralIndex;
 				iconP2Check.animation.curAnim.curFrame = iconP2Check.neutralIndex;
+			}
+
+			switch (forceP1Frame.toLowerCase())
+			{
+				case 'happy':
+					iconP1Check.animation.curAnim.curFrame = iconP1Check.winningIndex;
+				case 'angry':
+					iconP1Check.animation.curAnim.curFrame = iconP1Check.losingIndex;
+				case 'neutral':
+					iconP1Check.animation.curAnim.curFrame = iconP1Check.neutralIndex;
+			}
+
+			switch (forceP2Frame.toLowerCase())
+			{
+				case 'happy':
+					iconP2Check.animation.curAnim.curFrame = iconP2Check.winningIndex;
+				case 'angry':
+					iconP2Check.animation.curAnim.curFrame = iconP2Check.losingIndex;
+				case 'neutral':
+					iconP2Check.animation.curAnim.curFrame = iconP2Check.neutralIndex;
 			}
 		}
 	}

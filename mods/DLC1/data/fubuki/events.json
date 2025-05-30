@@ -2,6 +2,16 @@
 	"song": {
 		"events": [
 			[
+				2093.02325581395,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"24"
+					]
+				]
+			],
+			[
 				9767.44186046511,
 				[
 					[
@@ -22,6 +32,26 @@
 				]
 			],
 			[
+				12558.1395348837,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"144"
+					]
+				]
+			],
+			[
+				18139.5348837209,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"208"
+					]
+				]
+			],
+			[
 				23720.9302325581,
 				[
 					[
@@ -32,12 +62,37 @@
 				]
 			],
 			[
+				30697.6744186046,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"352"
+					]
+				]
+			],
+			[
 				34883.7209302326,
 				[
 					[
 						"Change Camera Zoom",
 						"0.73",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"400"
+					]
+				]
+			],
+			[
+				40465.1162790698,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"464"
 					]
 				]
 			],
@@ -48,6 +103,16 @@
 						"Change Camera Zoom",
 						"0.9",
 						"2"
+					]
+				]
+			],
+			[
+				45697.6744186047,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"524"
 					]
 				]
 			],
@@ -63,6 +128,11 @@
 						"Change Camera Zoom",
 						"0.72",
 						"0.6"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"544"
 					]
 				]
 			],
@@ -92,6 +162,16 @@
 				]
 			],
 			[
+				90174.4186046511,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1034"
+					]
+				]
+			],
+			[
 				92093.0232558139,
 				[
 					[
@@ -108,6 +188,11 @@
 						"Screen Flash",
 						"0.3",
 						"white"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1056"
 					]
 				]
 			],
@@ -118,6 +203,11 @@
 						"Play SFX",
 						"icedragon",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1088"
 					]
 				]
 			],
@@ -138,6 +228,31 @@
 						"Change Camera Bump frequency",
 						"16",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1312"
+					]
+				]
+			],
+			[
+				115813.953488372,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1328"
+					]
+				]
+			],
+			[
+				117209.302325581,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1344"
 					]
 				]
 			],
@@ -247,6 +362,16 @@
 				]
 			],
 			[
+				125232.558139535,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1436"
+					]
+				]
+			],
+			[
 				125581.395348837,
 				[
 					[
@@ -263,6 +388,11 @@
 						"Change Camera Bump frequency",
 						"4",
 						"0.7"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1440"
 					]
 				]
 			],
@@ -273,6 +403,11 @@
 						"Play SFX",
 						"firefox",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1472"
 					]
 				]
 			],
@@ -303,6 +438,31 @@
 						"Screen Flash",
 						"0.5",
 						"white"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1696"
+					]
+				]
+			],
+			[
+				167005.813953488,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1915"
+					]
+				]
+			],
+			[
+				168837.209302326,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1936"
 					]
 				]
 			],
@@ -318,6 +478,31 @@
 						"Change Camera Zoom",
 						"0.45",
 						"true"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1952"
+					]
+				]
+			],
+			[
+				171627.906976744,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1968"
+					]
+				]
+			],
+			[
+				175813.953488372,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2016"
 					]
 				]
 			],
@@ -338,6 +523,31 @@
 						"Change Camera Zoom",
 						"0.73",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"2208"
+					]
+				]
+			],
+			[
+				193255.813953489,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2216"
+					]
+				]
+			],
+			[
+				214883.720930233,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2464"
 					]
 				]
 			],

@@ -287,6 +287,8 @@ class Highscore
 		var isBeaten:Bool = false;
 		switch (forceSide.toLowerCase())
 		{
+			case 'both':
+				isBeaten = getScore(song, diff) > 0 && getScore(song + '-opponent', diff) > 0;
 			case 'left':
 				isBeaten = getScore(song + '-opponent', diff) > 0;
 			case 'right':
@@ -343,5 +345,21 @@ class Highscore
 		{
 			songCombo = FlxG.save.data.songCombo;
 		}			
+	}
+
+	public static function checkBonusWeeks():Void
+	{
+		if (WeekData.weekCompleted.get("extra_0"))
+			WeekData.weekCompleted.set("xextra_0", true);
+		if (WeekData.weekCompleted.get("extra_1"))
+			WeekData.weekCompleted.set("xcollab_1", true);
+		if (WeekData.weekCompleted.get("extra_2"))
+			WeekData.weekCompleted.set("xcollab_2", true);
+		if (WeekData.weekCompleted.get("extra_3"))
+			WeekData.weekCompleted.set("xcollab_3", true);
+		if (WeekData.weekCompleted.get("extra_4"))
+			WeekData.weekCompleted.set("xcollab_4", true);
+		if (WeekData.weekCompleted.get("extra_5"))
+			WeekData.weekCompleted.set("xcollab_5", true);
 	}
 }

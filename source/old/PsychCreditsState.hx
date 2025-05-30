@@ -86,51 +86,7 @@ class PsychCreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [
 			 //Name - Icon name - Description - Link - BG Color
-			['Flavor Rave Team - Team TBD'],
-			['SirDusterBuster',		'duster',		'Director / Artist / Animator / UI Design',								'https://twitter.com/SirDusterBuster',	'A1D8EC'],
-			['LezaLeza',			'leza',			'Lead Character Designer / Artist',							'https://twitter.com/lezanikat',		'FD84B8'],
-			['HighPoweredKeyz',			'hpk',			'Voice of Sour & Musician',							'https://twitter.com/HighPoweredArt',		'FF3232'],
-			['Miss Beepy',			'beepy',			'Voice of Sweet & CG Artist',							'https://twitter.com/MissBeepy',		'FF9EC8'],
-			['Grand Hammer 6',			'grand',			'Artist / Animator',							'https://twitter.com/GrandHammer6',		'FFB981'],
-			['Juno Songs',			'juno',			'BG Artist',							'https://twitter.com/JunoSongsYT',		'B25ED9'],
-			['Kairii',			'kairii',			'Musician',							'https://www.youtube.com/@RiiStudios',		'FF4D7D'],
-			['DatDavi',			'davi',			'Musician',							'https://twitter.com/dat_davi',		'7C4DA2'],
-			['aytanner',			'aytanner',			'Musician',							'https://twitter.com/aytanner_',		'FFEA88'],
-			['GGalactigal',			'ggal',			'Musician',							'https://twitter.com/GGalactigal',		'ED157C'],
-			['Chompo',			'chompo',			'Charter',							'https://twitter.com/MrChompsALot',		'84C25F'],
-			['Flootena',			'flootena',			'Charter',							'https://twitter.com/FlootenaDX',		'63539B'],
-			['Jorge - Sun Spirit',			'jorge',			'Programmer',							'https://twitter.com/Jorge_SunSpirit',		'FF8B51'],
-			['M&M',			'mandm',			'Programmer',							'https://linktr.ee/ActualMandM',		'AE5291'],
-			[''],
-
-			['Mythical Engine Team'],
-			['Awoofle',		'awoo',		'Main Programmer of Mythical Engine',								'https://twitter.com/Awoofle',	'444444'],
-			['Codexes',			'codexes',			'Additional Programmer of Mythical Engine',							'https://twitter.com/Codexes1',		'B42F71'],
-			['Binpuki',			'binpuki',			'Additional Programmer of Mythical Engine',							'https://twitter.com/binpuki_',		'a983fb'],
-			[''],
-			['Psych Engine Team'],
-			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
-			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',		'B42F71'],
-			['shubs',				'shubs',			'Additional Programmer of Psych Engine',						'https://twitter.com/yoshubs',			'5E99DF'],
-			[''],
-			['Former Engine Members'],
-			['bb-panzu',			'bb',				'Ex-Programmer of Psych Engine',								'https://twitter.com/bbsub3',			'3E813A'],
-			[''],
-			['Engine Contributors'],
-			['iFlicky',				'flicky',			'Composer of Psync\nMade the Dialogue Sounds',		'https://twitter.com/flicky_i',			'9E29CF'],
-			['SqirraRNG',			'sqirra',			'Crash Handler and Base code for\nChart Editor\'s Waveform',	'https://twitter.com/gedehari',			'E1843A'],
-			['EliteMasterEric',		'mastereric',		'Runtime Shaders support',										'https://twitter.com/EliteMasterEric',	'FFBD40'],
-			['PolybiusProxy',		'proxy',			'.MP4 Video Loader Library (hxCodec)',							'https://twitter.com/polybiusproxy',	'DCD294'],
-			['KadeDev',				'kade',				'Fixed some cool stuff on Chart Editor\nand other PRs',			'https://twitter.com/kade0912',			'64A250'],
-			['Keoiki',				'keoiki',			'Note Splash Animations',										'https://twitter.com/Keoiki_',			'D2D2D2'],
-			['Nebula the Zorua',	'nebula',			'LUA JIT Fork and some Lua reworks',							'https://twitter.com/Nebula_Zorua',		'7D40B2'],
-			['Smokey',				'smokey',			'Sprite Atlas Support',											'https://twitter.com/Smokey_5_',		'483D92'],
-			[''],
-			["Funkin' Crew"],
-			['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",							'https://twitter.com/ninja_muffin99',	'CF2D2D'],
-			['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",								'https://twitter.com/PhantomArcade3K',	'FADC45'],
-			['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",								'https://twitter.com/evilsk8r',			'5ABD4B'],
-			['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",								'https://twitter.com/kawaisprite',		'378FC7']
+			['nothing to see here'],
 		];
 		
 		for(i in pisspoop){
@@ -178,7 +134,7 @@ class PsychCreditsState extends MusicBeatState
 		add(descBox);
 
 		descText = new FlxText(50, FlxG.height + offsetThing - 25, 1180, "", 32);
-		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
+		descText.setFormat(Language.font.get('vcr'), 32, FlxColor.WHITE, CENTER/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
 		descText.scrollFactor.set();
 		//descText.borderSize = 2.4;
 		descBox.sprTracker = descText;

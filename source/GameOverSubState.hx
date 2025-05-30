@@ -13,6 +13,7 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import haxe.Json;
 import openfl.utils.Assets;
+import achievements.Achievements;
 
 using StringTools;
 #if MODS_ALLOWED
@@ -32,7 +33,7 @@ typedef GOFile = {
 
 typedef GOSound = {
 	var sound:String;
-	var opponent:String;
+	var subtitles:String;
 }
 
 class GameOverSubState extends MusicBeatSubstate
@@ -43,6 +44,7 @@ class GameOverSubState extends MusicBeatSubstate
 	var tryagain:FlxSprite;
 	var camFollow:FlxPoint;
 	var camFollowPos:FlxObject;
+	var subtitles:SubtitlesObject;
 	var updateCamera:Bool = false;
 	var playingDeathSound:Bool = false;
 	var curSelected:Int = 0;
@@ -71,6 +73,13 @@ class GameOverSubState extends MusicBeatSubstate
 		chara.scrollFactor.set(0, 0);
 		chara.offset.x = chara.spriteOffset[0];
 		add(chara);
+
+		//doing stupid gameover check here I don't care
+		if (!ClientPrefs.goCharacterMap.get(goChara))
+		{
+			ClientPrefs.goCharacterMap.set(goChara, true);
+			ClientPrefs.saveSettings();
+		}
 
 		var outshined:FlxSprite = new FlxSprite(0,-200).loadGraphic(Paths.image('gameover/outshined'));
 		outshined.antialiasing = ClientPrefs.globalAntialiasing;
@@ -105,6 +114,12 @@ class GameOverSubState extends MusicBeatSubstate
 		nobutt.alpha = 0.001;
 		add(nobutt);
 
+		subtitles = new SubtitlesObject(0,0);
+		subtitles.screenCenter(Y);
+		subtitles.y += 270;
+		subtitles.antialiasing = ClientPrefs.globalAntialiasing;
+		add(subtitles);
+
 		var blackShit:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
 		blackShit.scrollFactor.set(0, 0);
 		add(blackShit);
@@ -122,7 +137,7 @@ class GameOverSubState extends MusicBeatSubstate
 		camFollowPos.setPosition(0, 0);
 		add(camFollowPos);
 
-		FlxG.sound.play(Paths.sound('newgameover'));
+		FlxG.sound.play(CoolUtil.getAnnouncerLine('newgameover'));
 
 		FlxTween.tween(blackShit, {alpha: 0}, 0.1, {ease: FlxEase.sineOut, startDelay: 1.147});
 		FlxTween.tween(chara, {'offset.y': chara.spriteOffset[1]}, 1, {ease: FlxEase.cubeOut, startDelay: 1.147});
@@ -134,6 +149,7 @@ class GameOverSubState extends MusicBeatSubstate
 			FlxTween.tween(tryagain, {alpha: 1}, 0.2, {ease: FlxEase.sineOut});
 			FlxTween.tween(yesbutt, {alpha: 1}, 0.3, {ease: FlxEase.sineOut});
 			FlxTween.tween(nobutt, {alpha: 1}, 0.3, {ease: FlxEase.sineOut});
+			checkifAchivComp();
 		});
 
 	}
@@ -226,6 +242,19 @@ class GameOverSubState extends MusicBeatSubstate
 		yesbutt.animation.play((curSelected == 0 ? 'highlight' : 'idle'));
 	}
 
+	function checkifAchivComp()
+	{
+		//hella lazy code not sorry
+		var isfalse:Bool = false;
+		for (value in ClientPrefs.goCharacterMap)
+		{
+			if (!value)
+				isfalse = true;
+		}
+		if (!isfalse)
+			Achievements.unlockAchievement('allgameovers');
+	}
+
 	override function beatHit()
 	{
 		super.beatHit();
@@ -245,6 +274,10 @@ class GameOverSubState extends MusicBeatSubstate
 					FlxG.sound.music.fadeIn(0.2, 1, 4);
 				}
 			});
+
+			if (ClientPrefs.subtitles)
+				subtitles.setupSubtitles(chara.goSubtitles);
+			
 		}
 		else
 		{
@@ -260,6 +293,7 @@ class GameOverSubState extends MusicBeatSubstate
 		FlxTween.tween(yesbutt, {alpha: 0}, 0.5, {ease: FlxEase.sineOut});
 		FlxTween.tween(nobutt, {alpha: 0}, 0.5, {ease: FlxEase.sineOut});
 		FlxG.sound.music.stop();
+		subtitles.justincase();
 		FlxG.sound.play(Paths.music('gameOverEnd'));
 		if (thingie)
 		{
@@ -302,6 +336,7 @@ class GOCharater extends FlxSprite
 	var text:FlxSprite;
 	public var spriteOffset:Array<Float> = [0,0];
 	public var goSound:String;
+	public var goSubtitles:String;
 
 	public function new(x:Float = 0, y:Float = 0, name:String)
 	{
@@ -314,13 +349,13 @@ class GOCharater extends FlxSprite
 			if (!FileSystem.exists(path)) 
 				path = Paths.getPreloadPath(characterPath);
 			if (!FileSystem.exists(path))
-				path = Paths.getPreloadPath('characters/gameover/bf.json');
+				path = Paths.getPreloadPath('characters/gameover/sour.json');
 
 			//trace(path + ' Mods_Allowed');
 		#else
 			path = Paths.getPreloadPath(characterPath);
 			if (!Assets.exists(path))
-				path = Paths.getPreloadPath('characters/gameover/bf.json');
+				path = Paths.getPreloadPath('characters/gameover/sour.json');
 		#end
 
 		//trace(path);
@@ -344,15 +379,10 @@ class GOCharater extends FlxSprite
 		setGraphicSize(Std.int(width * json.scale));
 		updateHitbox();
 
-		var soundArray:Array<GOSound> = json.goSound;
-		var theArrayofAllTime:Array<String> = [];
-		var chara:String = (!PlayState.instance.opponentPlay ? PlayState.instance.dad.curCharacter : PlayState.instance.boyfriend.curCharacter);
+		var random:Int = FlxG.random.int(0, json.goSound.length - 1);
 
-		for (sound in soundArray) {
-			if (sound.opponent == '' || sound.opponent == chara)
-				theArrayofAllTime.push(sound.sound);
-		}
-		goSound = theArrayofAllTime[FlxG.random.int(0, theArrayofAllTime.length - 1)];
-		//trace(goSound);
+		goSound = json.goSound[random].sound;
+		goSubtitles = Language.flavor.get("gameover_" + name + '_' + random, json.goSound[random].subtitles);
+		goSubtitles = json.goSound[random].subtitles;
 	}
 }

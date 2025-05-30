@@ -8,15 +8,19 @@
 	"goSound": [
 		{
 			"sound": "smoky/1",
-			"opponent": ""
+			"subtitles": "Hmph...:dur:1.069[NL]More practice...:dur:1.276"
+		},
+		{
+			"sound": "smoky/2",
+			"subtitles": "Ugh...:dur:1.602[NL]Next Time.:dur:0.995"
 		},
 		{
 			"sound": "spicy/1",
-			"opponent": ""
+			"subtitles": "Hey, *ughs* what?:dur:1.539"
 		},
 		{
 			"sound": "spicy/2",
-			"opponent": ""
+			"subtitles": "Awww, no fair!:dur:1.956"
 		}
 	]
 }

@@ -31,7 +31,7 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 {
 	public function new()
 	{
-		title = 'Gameplay Settings';
+		title = Language.option.get('gameplay_menu', 'Gameplay');
 		rpcTitle = 'Gameplay Settings Menu'; //for Discord Rich Presence
 
 		// TODO: can we port over the controller code from psych experimental
@@ -67,7 +67,7 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		addOption(option);
 
 		var option:Option = new Option('Opponent Notes',
-			'If unchecked, opponent notes get hidden in Middlescroll.',
+			'If unchecked, opponent notes get hidden during gameplay.',
 			'opponentStrums',
 			'bool',
 			true);

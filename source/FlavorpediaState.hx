@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageText;
 import cpp.Int16;
 #if discord_rpc
 import Discord.DiscordClient;
@@ -26,6 +27,7 @@ import lime.utils.Assets;
 import haxe.Json;
 import shaders.TwoToneMask;
 import flixel.sound.FlxSound;
+import SubtitlesObject;
 
 #if MODS_ALLOWED
 import sys.FileSystem;
@@ -44,6 +46,7 @@ typedef CharacterArray = {
 	var tag:Null<String>; // the tag
 	var bgs:Null<String>; // the bg
 	var voicelines:Array<String>;//add voicelines here, ideally it would be ['1', '2', '3', etc] The directory it will use is (sounds/flavorpedia/(charaname)/(sound))
+	var subtitles:Null<String>;
 	var songCheck:Null<String>; // leave blank if unlocked by default
 	var link:Null<String>;
 }
@@ -64,7 +67,10 @@ class FlavorpediaState extends MusicBeatState
 	var backgrounds:FlxTypedGroup<FlxSprite>;
 
 	var charaStuff:Array<Array<Dynamic>> = [];
-	var flavorText:FlxText;
+	var flavorText:LanguageText;
+
+	var subtitles:SubtitlesObject;
+
 	public var bufferArray:Array<CharacterArray> = [];
 
 	override function create()
@@ -83,8 +89,8 @@ class FlavorpediaState extends MusicBeatState
 		tags = new FlxTypedGroup<FlxSprite>();
 		add(tags);
 
-		flavorText = new FlxText(706, 268, 476, "", 24);
-		flavorText.setFormat(Paths.font("Krungthep.ttf"), 18, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		flavorText = new LanguageText(706, 268, 494, "", 18, 'krungthep');
+		flavorText.setStyle(FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(flavorText);
 
 		var path:String = Paths.getPreloadPath('data/flavorpediaData.json');
@@ -105,7 +111,14 @@ class FlavorpediaState extends MusicBeatState
 			#end
 
 			if (isBeaten)
-				charaStuff.push([peep.chara, peep.flavorText, peep.tag, peep.bgs, peep.voicelines, peep.link]);
+				charaStuff.push([Language.flavor.get("flavorpedia_" + peep.chara, peep.chara), 
+				Language.flavor.get("flavorpedia_" + peep.chara + "_desc", peep.flavorText), 
+				Language.flavor.get("flavorpedia_" + peep.chara + "_tag", peep.tag), 
+				Language.flavor.get("flavorpedia_" + peep.chara + "_bg", peep.bgs), 
+				peep.voicelines,
+				Language.flavor.get("flavorpedia_" + peep.chara + "_subtitles", peep.subtitles),  
+				peep.link]);
+				//charaStuff.push([peep.chara, peep.flavorText, peep.tag, peep.bgs, peep.voicelines, peep.link]);
 		}
 
 		#if MODS_ALLOWED
@@ -129,8 +142,15 @@ class FlavorpediaState extends MusicBeatState
 					isBeaten = true;
 					#end
 		
+					
 					if (isBeaten)
-						charaStuff.push([peep.chara, peep.flavorText, peep.tag, peep.bgs, peep.voicelines, peep.link]);
+						charaStuff.push([Language.flavor.get("flavorpedia_" + peep.chara, peep.chara), 
+						Language.flavor.get("flavorpedia_" + peep.chara + "_desc", peep.flavorText), 
+						Language.flavor.get("flavorpedia_" + peep.chara + "_tag", peep.tag), 
+						Language.flavor.get("flavorpedia_" + peep.chara + "_bg", peep.bgs), 
+						peep.voicelines,
+						Language.flavor.get("flavorpedia_" + peep.chara + "_subtitles", peep.subtitles),  
+						peep.link]);
 				}
 
 			}
@@ -167,6 +187,12 @@ class FlavorpediaState extends MusicBeatState
 		linkSprite.antialiasing = ClientPrefs.globalAntialiasing;
 		linkSprite.alpha = 0.001;
 		add(linkSprite);
+
+		subtitles = new SubtitlesObject(0,0);
+		subtitles.screenCenter(Y);
+		subtitles.y += 270;
+		subtitles.antialiasing = ClientPrefs.globalAntialiasing;
+		add(subtitles);
 
 		arrows = new FlxSpriteGroup();
 		add(arrows);
@@ -312,7 +338,7 @@ class FlavorpediaState extends MusicBeatState
 			FlxTween.tween(flavorText, {alpha: 1}, 0.35, {ease: FlxEase.circOut});
 		}});
 
-		if(charaStuff[curSelected][5] != null && charaStuff[curSelected][5] != '')
+		if(charaStuff[curSelected][6] != null && charaStuff[curSelected][6] != '')
 			{
 				FlxTween.cancelTweensOf(linkSprite.alpha);
 				FlxTween.tween(linkSprite, {alpha: 1}, 0.2, {ease: FlxEase.circOut});
@@ -365,6 +391,14 @@ class FlavorpediaState extends MusicBeatState
 				}
 			}
 			charaVoice.play();
+
+			if (ClientPrefs.subtitles)
+			{
+				subtitles.justincase();
+				if (ClientPrefs.subtitles)
+					subtitles.setupSubtitles(charaStuff[curSelected][5]);
+			}
+
 			FlxG.sound.music.fadeOut(0.2, 0.12);
 			for (vocal in FreeplayState.vocalTracks)
 			{
@@ -382,7 +416,7 @@ class FlavorpediaState extends MusicBeatState
 
 	function openLink()
 	{
-		if(charaStuff[curSelected][5] != null && charaStuff[curSelected][5] != '')
+		if(charaStuff[curSelected][6] != null && charaStuff[curSelected][6] != '')
 		{
 			FlxTween.cancelTweensOf(linkSprite.scale.x);
 			FlxTween.cancelTweensOf(linkSprite.scale.y);
@@ -390,7 +424,7 @@ class FlavorpediaState extends MusicBeatState
 			{
 				FlxTween.tween(linkSprite, {"scale.x": 1, "scale.y": 1}, 0.1, {ease: FlxEase.circOut});
 			}});
-			CoolUtil.browserLoad(charaStuff[curSelected][5]);
+			CoolUtil.browserLoad(charaStuff[curSelected][6]);
 		}
 	}
 

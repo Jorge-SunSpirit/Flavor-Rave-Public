@@ -102,6 +102,43 @@ function onCreate()
 	addLuaSprite('spotlight', true);
 	setProperty('spotlight.flipX', true);
 	--setProperty('spotlight.alpha', 0.0001);
+	
+	makeLuaSprite('SourBG', 'closeup/SourBG', -50, -0);
+	setScrollFactor('SourBG', 0, 0);
+	scaleObject('SourBG', 1.2, 1.2);
+	addLuaSprite('SourBG', false);
+	setProperty('SourBG.alpha', 0.0001);
+	setObjectCamera('SourBG', 'effect');
+	
+	makeLuaSprite('SweetBG', 'closeup/SweetBG', -50, -0);
+	setScrollFactor('SweetBG', 0, 0);
+	scaleObject('SweetBG', 1.2, 1.2);
+	addLuaSprite('SweetBG', false);
+	setProperty('SweetBG.alpha', 0.0001);
+	setObjectCamera('SweetBG', 'effect');
+	
+	makeLuaSprite('TangyBG', 'stages/livewire-extras/tangyBG', -0, -50);
+	setScrollFactor('TangyBG', 0, 0);
+	scaleObject('TangyBG', 1.2, 1.2);
+	addLuaSprite('TangyBG', false);
+	setProperty('TangyBG.alpha', 0.0001);
+	setObjectCamera('TangyBG', 'effect');
+    screenCenter('TangyBG');
+	
+	makeLuaSprite('TangyBGAngryEnd', 'stages/livewire-extras/TangyAngryBG', -400, -250);
+	setScrollFactor('TangyBGAngryEnd', 0.3, 0.3);
+	scaleObject('TangyBGAngryEnd', 1.5, 1.5);
+	addLuaSprite('TangyBGAngryEnd', false);
+	setProperty('TangyBGAngryEnd.alpha', 0.0001);
+    screenCenter('TangyBGAngryEnd');
+	
+	makeLuaSprite('TangyBGAngry', 'stages/livewire-extras/TangyAngryBG', -0, -0);
+	setScrollFactor('TangyBGAngry', 0, 0);
+	scaleObject('TangyBGAngry', 1.1, 1.1);
+	addLuaSprite('TangyBGAngry', false);
+	setProperty('TangyBGAngry.alpha', 0.0001);
+	setObjectCamera('TangyBGAngry', 'effect');
+    screenCenter('TangyBGAngry');
 end
 
 function onCreatePost()

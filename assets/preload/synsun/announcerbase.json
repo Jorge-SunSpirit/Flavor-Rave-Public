@@ -1,0 +1,15 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Wanna switch up your experience? Try a new announcer!",
+			"chara": "synthetic",
+			"allowExit": true,
+			"choices":
+			[
+				{"text": "Default", "jsonreDirect": "announcer-default"},
+				{"text": "TBD-tan", "jsonreDirect": "announcer-tbd-tan"}
+			]
+		}
+	]
+}

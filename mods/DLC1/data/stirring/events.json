@@ -2,6 +2,46 @@
 	"song": {
 		"events": [
 			[
+				0,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1"
+					]
+				]
+			],
+			[
+				1500,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"16"
+					]
+				]
+			],
+			[
+				5062.5,
+				[
+					[
+						"Play SFX",
+						"stirring-intro",
+						"0.7"
+					]
+				]
+			],
+			[
+				9000,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"96"
+					]
+				]
+			],
+			[
 				9375,
 				[
 					[
@@ -28,6 +68,146 @@
 						"Change Camera Zoom",
 						"1.2",
 						"0.7"
+					],
+					[
+						"Change Camera Bump frequency",
+						"999",
+						"0.001"
+					]
+				]
+			],
+			[
+				32625,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				33750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				34875,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				35437.5,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				36000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				36281.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				36750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					],
+					[
+						"Change Camera Zoom",
+						"1.3",
+						"0.7"
+					]
+				]
+			],
+			[
+				37875,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				39000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				40125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				40687.5,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				41250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				41531.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
 					]
 				]
 			],
@@ -36,8 +216,178 @@
 				[
 					[
 						"Change Camera Zoom",
-						"0.8",
+						"0.75",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"448"
+					]
+				]
+			],
+			[
+				43125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				44250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				44625,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"476"
+					]
+				]
+			],
+			[
+				45375,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				45843.75,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				46500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				46781.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				47250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					],
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.8"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"504"
+					]
+				]
+			],
+			[
+				48375,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				49500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				49875,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"532"
+					]
+				]
+			],
+			[
+				50625,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				51093.75,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				51750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
+					]
+				]
+			],
+			[
+				52031.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.021",
+						"0.025"
 					]
 				]
 			],
@@ -48,6 +398,66 @@
 						"Change Camera Zoom",
 						"1",
 						"1"
+					],
+					[
+						"Change Camera Bump frequency",
+						"12",
+						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"560"
+					]
+				]
+			],
+			[
+				58500,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"624"
+					]
+				]
+			],
+			[
+				59250,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"632"
+					]
+				]
+			],
+			[
+				61500,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"656"
+					]
+				]
+			],
+			[
+				79125,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"844"
+					]
+				]
+			],
+			[
+				81562.5,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"870"
 					]
 				]
 			],
@@ -58,6 +468,11 @@
 						"Screen Flash",
 						"0.5",
 						"white"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1040"
 					]
 				]
 			],
@@ -82,12 +497,27 @@
 				]
 			],
 			[
+				131250,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1400"
+					]
+				]
+			],
+			[
 				133500,
 				[
 					[
 						"Change Camera Zoom",
 						"1",
 						"0.5"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1424"
 					]
 				]
 			],
@@ -98,6 +528,71 @@
 						"Change Camera Zoom",
 						"1.25",
 						"0.5"
+					],
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					],
+					[
+						"Screen Flash",
+						"0.4",
+						"white"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1584"
+					]
+				]
+			],
+			[
+				149250,
+				[
+					[
+						"Play Animation",
+						"scared",
+						"bf"
+					]
+				]
+			],
+			[
+				150281.25,
+				[
+					[
+						"Alt Idle Animation",
+						"bf",
+						"-alt"
+					]
+				]
+			],
+			[
+				150375,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1604"
+					]
+				]
+			],
+			[
+				159750,
+				[
+					[
+						"Screen Flash",
+						"0.3",
+						"red"
+					],
+					[
+						"Play SFX",
+						"shatter",
+						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1704"
 					]
 				]
 			],
@@ -108,6 +603,21 @@
 						"Change Camera Zoom",
 						"0.75",
 						"0.7"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1724"
+					]
+				]
+			],
+			[
+				163406.25,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1743"
 					]
 				]
 			],
@@ -116,8 +626,233 @@
 				[
 					[
 						"Change Camera Zoom",
-						"0.85",
-						"0.7"
+						"0.9",
+						"true"
+					],
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Screen Flash",
+						"0.3",
+						"white"
+					],
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					],
+					[
+						"Alt Idle Animation",
+						"bf",
+						"-sad"
+					],
+					[
+						"Change Camera Bump frequency",
+						"999",
+						"0.001"
+					],
+					[
+						"Add Camera Zoom",
+						"0.026",
+						"0.025"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1744"
+					]
+				]
+			],
+			[
+				164625,
+				[
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.026",
+						"0.025"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1756"
+					]
+				]
+			],
+			[
+				165750,
+				[
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.026",
+						"0.025"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1768"
+					]
+				]
+			],
+			[
+				166875,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				167343.75,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				168000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				168281.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				168750,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"true"
+					],
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.026",
+						"0.025"
+					],
+					[
+						"Screen Flash",
+						"0.3",
+						"white"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1800"
+					]
+				]
+			],
+			[
+				169875,
+				[
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.026",
+						"0.025"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1812"
+					]
+				]
+			],
+			[
+				171000,
+				[
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.026",
+						"0.025"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1824"
+					]
+				]
+			],
+			[
+				172125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				172593.75,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				173250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				173531.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
 					]
 				]
 			],
@@ -125,9 +860,214 @@
 				174000,
 				[
 					[
+						"Add Camera Zoom",
+						"0.026",
+						"0.025"
+					],
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1856"
+					]
+				]
+			],
+			[
+				175125,
+				[
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.026",
+						"0.025"
+					],
+					[
 						"Change Camera Zoom",
-						"1",
-						"0.7"
+						"0.9",
+						"true"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1868"
+					]
+				]
+			],
+			[
+				176250,
+				[
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.026",
+						"0.025"
+					],
+					[
+						"Change Camera Zoom",
+						"1.6",
+						"true"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1880"
+					]
+				]
+			],
+			[
+				177375,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				177843.75,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				178500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				178781.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				179250,
+				[
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.026",
+						"0.025"
+					],
+					[
+						"Change Camera Zoom",
+						"0.4",
+						"0.3"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1912"
+					]
+				]
+			],
+			[
+				180375,
+				[
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Add Camera Zoom",
+						"0.026",
+						"0.025"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1924"
+					]
+				]
+			],
+			[
+				181500,
+				[
+					[
+						"Call on Luas",
+						"mother",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"1.3",
+						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1936"
+					]
+				]
+			],
+			[
+				182625,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				183093.75,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				183750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
+					]
+				]
+			],
+			[
+				184031.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.005",
+						"0.005"
 					]
 				]
 			],
@@ -135,9 +1075,14 @@
 				184500,
 				[
 					[
-						"Change Camera Zoom",
-						"0.75",
-						"2"
+						"Add Camera Zoom",
+						"0.015",
+						"0.01"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1968"
 					]
 				]
 			],
@@ -153,6 +1098,141 @@
 						"Change Character",
 						"dad",
 						"sour"
+					],
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				187593.75,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2001"
+					]
+				]
+			],
+			[
+				192375,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2052"
+					]
+				]
+			],
+			[
+				195562.5,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2086"
+					]
+				]
+			],
+			[
+				197250,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2104"
+					]
+				]
+			],
+			[
+				198562.5,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2118"
+					]
+				]
+			],
+			[
+				199312.5,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2126"
+					]
+				]
+			],
+			[
+				210750,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2248"
+					]
+				]
+			],
+			[
+				211500,
+				[
+					[
+						"Change Camera Bump frequency",
+						"999",
+						"1"
+					]
+				]
+			],
+			[
+				211875,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2260"
+					]
+				]
+			],
+			[
+				213937.5,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2282"
+					]
+				]
+			],
+			[
+				216375,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2308"
+					]
+				]
+			],
+			[
+				217500,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2320"
+					]
+				]
+			],
+			[
+				222000,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2368"
 					]
 				]
 			]

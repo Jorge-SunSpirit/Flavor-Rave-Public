@@ -4,40 +4,81 @@
 			"name": "Livewire-FC",
 			"fancyName": "Punk Tactics",
 			"unlockCondition": "Achieve a Full Combo on Livewire",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "The Leftovers is... an unsightly place. I've been asked to assist in funding developments for it's improvement, but to me, that feels like throwing money at a lost cause. I'll leave it to Enzync City's officials to try and tidy that place up.",
 			"hidden": false,
+			"showmanEmote": "mad",
 			"icon": "default"
 		},
 		{
 			"name": "Lodestar Shanty-FC",
 			"fancyName": "Pirate Dreams Never End",
 			"unlockCondition": "Achieve a Full Combo on Lodestar Shanty",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "I have not strolled by the docks ever since the Coast Guard’s boats were wrecked and washed onto the beach. I’m a prime target for those brutish buccaneers!",
 			"hidden": false,
+			"showmanEmote": "mad",
 			"icon": "default"
 		},
 		{
 			"name": "¡Carrera Loca!-FC",
 			"fancyName": "Amor Relámpago",
 			"unlockCondition": "Achieve a Full Combo on ¡Carrera Loca!",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "I never found Corianda to be too confusing of a place to navigate. Just follow the sun to the waters and the moon to the mountains! Being as tall as I am also helps as well.",
 			"hidden": false,
+			"showmanEmote": "normal",
 			"icon": "default"
 		},
 		{
 			"name": "Stirring-FC",
 			"fancyName": "Shaken and Stirred",
 			"unlockCondition": "Achieve a Full Combo on Stirring",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "The vintage experience in the Preheats would be a nice little vacation one day, though no more than just that. Things are a little TOO vintage and quiet there, even for me! Even though I'm certain I out-age most of their residents, ahaha.",
 			"hidden": false,
+			"showmanEmote": "point",
 			"icon": "default"
 		},
 		{
 			"name": "Fubuki-FC",
 			"fancyName": "Beast Blessings",
 			"unlockCondition": "Achieve a Full Combo on Fubuki",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "I don't entirely subscribe to the idea of 'ancient beasts' controlling the weather, though winters in Togarashi Town are anything but normal. It can snow like mad there while the rest of Enzync remains untouched!",
 			"hidden": false,
+			"showmanEmote": "think",
+			"icon": "default"
+		},
+		{
+			"name": "That's a Wrap!-FC",
+			"fancyName": "Wrapped up Nicely",
+			"unlockCondition": "Achieve a Full Combo on That's a Wrap!",
+			"showmanDialogue": "Those two were a curious bunch. They left the venue just as soon as they got there, and I can't seem to find them anymore. Shame, there's a rare open slot at the showroom this Friday night!",
+			"hidden": false,
+			"showmanEmote": "normal",
+			"icon": "default"
+		},
+		{
+			"name": "fullclear",
+			"fancyName": "The Whole Shebang!",
+			"unlockCondition": "Complete all Fully Brewed Story Mode Content.",
+			"showmanDialogue": "This may be the end of this story's first chapter, but it is merely the beginning of a grand tale unfolding! The world is full of sights and sounds we've yet to see!",
+			"hidden": false,
+			"showmanEmote": "point",
+			"icon": "prime"
+		},
+		{
+			"name": "fullclearer",
+			"fancyName": "Matter of Perspective",
+			"unlockCondition": "Play both sides of all Fully Brewed Story Mode Content.",
+			"showmanDialogue": "When I look back on those old performances I've hosted, I always find something new to appreciate. It may be about the profit at first, but don't think I can't fully appreciate the art of the performance too.",
+			"hidden": false,
+			"showmanEmote": "normal",
+			"icon": "prime"
+		},
+		{
+			"name": "allgameovers",
+			"fancyName": "Happens to All of Us",
+			"unlockCondition": "Outshine as every character at least once, including collab characters.",
+			"showmanDialogue": "When faced with defeat, one must always pick themselves up and try again! Though another alternative I like is to always think 10 steps ahead of everyone else, then failure is nigh impossible!",
+			"hidden": false,
+			"showmanEmote": "point",
 			"icon": "default"
 		}
 	]

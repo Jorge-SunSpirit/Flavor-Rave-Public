@@ -1,0 +1,147 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 30,
+			"name": "SourRunIdle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				60,
+				82
+			],
+			"anim": "raveintro",
+			"fps": 26,
+			"name": "SourRunRave",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-120,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SourRunLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				-53
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SourRunDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-130,
+				13
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SourRunUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-60
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SourRunRight",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-40,
+				-17
+			],
+			"anim": "idle-alt",
+			"fps": 22,
+			"name": "SourTiredIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-120,
+				0
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "SourTiredLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				-53
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "SourTiredDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-130,
+				13
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "SourTiredUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-66
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "SourTiredRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SourRun",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "sour",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		235,
+		169
+	],
+	"camera_position": [
+		450,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"noteskin": "Sour",
+	"healthbar_image": "sour",
+	"musicNoteOffset": [-4500,-2000]
+}

@@ -1,0 +1,343 @@
+{
+	"dialogue": [
+		{
+			"background": "z1",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"bgm": "GiveALilBitBack",
+			"bgmVolume": 0.22,
+			"text": "Listen, guys... I wish I had more opponents for you two, but I'm all fresh out!"
+		},
+		{
+			"background": "z1",
+			"border": "wall",
+			"chara": ["gf", 0, true],
+			"text": "???"
+		},
+		{
+			"background": "z1",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "At this point, there’s barely anyone you guys HAVEN’T fought yet."
+		},
+		{
+			"background": "z2",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"sound": ["tbdtan","yoyo"],
+			"text": "Y’know what? Why don't you guys visit those schoolgirls again? You haven't been to their club in a while."
+		},
+		{
+			"background": "z2",
+			"border": "wall",
+			"chara": ["bf", 0, true],
+			"text": "Skee dep."
+		},
+		{
+			"background": "z2",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "You’ve been chilling with them outside of their game?"
+		},
+		{
+			"background": "z2",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "Right… I forgot you gave them their good ending."
+		},
+		{
+			"background": "z3",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "Ooh! What about those ninjas? You liked the ninjas, right?"
+		},
+		{
+			"background": "z3",
+			"border": "wall",
+			"chara": ["gf", 0, true],
+			"text": "*blank stare*"
+		},
+		{
+			"background": "z3",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "...yeah, I know they're still busy…"
+		},
+		{
+			"background": "z1",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "Sorry, guys, I don’t know what to tell you. There just hasn’t been that many new people on my radar lately. Everyone I know has been real busy."
+		},
+		{
+			"background": "z4",
+			"border": "wall",
+			"chara": ["bf", 0, true],
+			"text": "Boop dee?"
+		},
+		{
+			"background": "z4",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "...those guys?"
+		},
+		{
+			"background": "z4",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "They’re… from someplace special. I don’t know how to explain it, but their world isn’t built like the others I’ve helped take you guys to."
+		},
+		{
+			"background": "z4",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "I only let people in if they have special permission, otherwise things might get really out of whack… and you two are real good at throwing other universes for a big loop, no offence."
+		},
+		{
+			"background": "z4",
+			"border": "wall",
+			"chara": ["gf", 0, true],
+			"text": "*curious look*"
+		},
+		{
+			"background": "z4",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "I can tell you two really wanna see what it’s all about, but I can’t let that place get all weird. It’s... very important to me."
+		},
+		{
+			"background": "z4",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "What if you guys, like… turn everyone scary and evil or something?"
+		},
+		{
+			"background": "z4",
+			"border": "wall",
+			"chara": ["bf", 0, true],
+			"text": "Bep."
+		},
+		{
+			"background": "z4",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"sound": ["tbdtan","geez"],
+			"text": "Look, it’s happened to you two more than enough for it to be a concern, okay?!"
+		},
+		{
+			"background": "z5",
+			"border": "wall",
+			"chara": ["gf", 0, true],
+			"text": "*stare*"
+		},
+		{
+			"background": "z5",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "..."
+		},
+		{
+			"background": "z5",
+			"border": "wall",
+			"chara": ["bf", 0, true],
+			"text": "*the return of the intense unbreaking eye contact*"
+		},
+		{
+			"background": "z5",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"sound": ["tbdtan","okfine"],
+			"text": "Rrrghhh, fine, fine! Ok, listen!"
+		},
+		{
+			"background": "z5",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "If you wanna go there, you gotta blend in, ok? That should hopefully prevent anything weird from happening. I’ll throw something together for you two real quick."
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["tbdtan", 0, true],
+			"sound": ["tbdtan","youready"],
+			"text": "…and there! Okay, now listen up, you two. While you’re in this world, you’re no longer Boyfriend and Girlfriend, capiche? "
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["default", 0, false],
+			"text": "[Back inside the world of Flavor Rave…]"
+		},
+		{
+			"background": "z6",
+			"border": "parkinglot",
+			"chara": ["showman", 2, true],
+			"sound": ["showman","aha"],
+			"text": "Aha! Just in time, it's my favorite patrons! I appreciate you two arriving on such short notice!"
+		},
+		{
+			"background": "z6",
+			"border": "parkinglot",
+			"chara": ["sour", 2, true],
+			"text": "It’s been a while, Showman. I ain’t saying no to performing back here again, especially with Sweet!"
+		},
+		{
+			"background": "z6",
+			"border": "parkinglot",
+			"chara": ["sweet", 2, true],
+			"text": "Good evening, Mr. Showman. I’m honored to be invited back!"
+		},
+		{
+			"background": "z6",
+			"border": "parkinglot",
+			"chara": ["showman", 0, true],
+			"sound": ["showman","ofcourse"],
+			"text": "But of course! Well, it’s a bit of a special circumstance tonight. My most recent applicants have insisted that you join them for a performance tonight!"
+		},
+		{
+			"background": "z6",
+			"border": "parkinglot",
+			"chara": ["showman", 0, true],
+			"text": "I don’t usually spend this much on accommodation, but they were a rather persuasive bunch, and if tonight’s show carries the same energy as your last performance here, then it’ll surely be a spectacle!"
+		},
+		{
+			"background": "z6",
+			"border": "parkinglot",
+			"chara": ["sour", 0, true],
+			"text": "Forreal? That’s crazy, actually."
+		},
+		{
+			"background": "z6",
+			"border": "parkinglot",
+			"chara": ["sweet", 0, true],
+			"text": "Who requested us? Is it someone we know?"
+		},
+		{
+			"background": "z6",
+			"border": "parkinglot",
+			"chara": ["showman", 0, true],
+			"sound": ["showman","laugh"],
+			"text": "They haven’t told me where they’re from, but they’ve got spunk just like you two! They also happen to be a romantic duo as well. Allow me to introduce…"
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["showman", 2, true],
+			"text": "Funky and Saucy!"
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["funky", 2, true],
+			"text": "Yeah! What’s good, dudes? I'm Funky, and my girl here is Saucy!"
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["saucy", 0, true],
+			"text": "Pfft, these names are so stupid… I love ‘em."
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["sweet", 2, true],
+			"text": "It's nice to meet you! How do you do, you two?"
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["sour", 0, true],
+			"text": "Sup! Y'all from around here? Don't think I've heard of you two before."
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["saucy", 0, true],
+			"text": "Oh, we're not from here. Our home city is... somewhere else, heh."
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["funky", 2, true],
+			"text": "We're feelin' REAL good. You guys were just the kind of people we wanted to meet."
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["funky", 0, true],
+			"text": "You ready to start singin'?"
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["sour", 0, true],
+			"text": "Ready? Like, right now? Don’t the show start tonight?"
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["saucy", 0, true],
+			"text": "Yeah… waiting isn’t our thing. Nothing’s stopping us from getting a little bit of action before."
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["sour", 0, true],
+			"text": "Getting right into it, eh? Hell yeah, you’re speaking my language!"
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["sweet", 2, true],
+			"text": "This is our first time performing together, so a nice pre-show warmup would be lovely!"
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["funky", 2, true],
+			"text": "I’m vibin' heavy with this world already. Plus, this place makes us look hot as shit, not gonna lie."
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["saucy", 2, true],
+			"text": "Ahaha, babe~ You’re so right, though."
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["saucy", 0, true],
+			"text": "This speaker that the helmet girl gave me is way too small to sit my ass down on, so I'll get up and groove with you this time 'round, baby."
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["sweet", 2, true],
+			"text": "We're ready when you are!"
+		},
+		{
+			"background": "z7",
+			"border": "parkinglot",
+			"chara": ["funky", 2, true],
+			"text": "Hell funkin' yeah!"
+		},
+		{
+			"background": "z8",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "..."
+		},
+		{
+			"background": "z8",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "Hmm… they’re blending in a lot better than I thought. They even get to talk properly in this world, too…"
+		},
+		{
+			"background": "z8",
+			"border": "wall",
+			"chara": ["tbdtan", 0, true],
+			"text": "Man, now I’m a little jealous. I want in on this!"
+		}
+	]
+}

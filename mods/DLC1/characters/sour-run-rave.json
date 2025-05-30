@@ -1,0 +1,136 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-11,
+				-42
+			],
+			"anim": "idle",
+			"fps": 30,
+			"name": "SourRunIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-120,
+				-35
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SourRunLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				-123
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SourRunDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-132,
+				-1
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SourRunUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				-109
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SourRunRight",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-11,
+				-33
+			],
+			"anim": "idle-alt",
+			"fps": 30,
+			"name": "SourRunKeyIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-120,
+				-35
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "SourRunKeyLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-150,
+				-119
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "SourRunKeyDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-162,
+				1
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "SourRunKeyUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				-91
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "SourRunKeyRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SourRun-RAVE",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "sour",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		235,
+		169
+	],
+	"camera_position": [
+		450,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"noteskin": "Sour",
+	"healthbar_image": "sour",
+	"musicNoteOffset": [100, 0]
+}

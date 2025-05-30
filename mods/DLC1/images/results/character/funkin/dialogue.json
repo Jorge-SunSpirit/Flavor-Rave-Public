@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "C'mon, one song? I expected a full ass week here! Two more, right now, dudes!",
+			"rank": "S",
+			"boxSprite": "box-F"
+		},
+		{
+			"name": "Daddy would LOVE this stage. The helmet girl better let us take the rest of our crew here one day.",
+			"rank": "A",
+			"boxSprite": "box-S"
+		},
+		{
+			"name": "We gotta start popping into more places like this with actual musicians.",
+			"rank": "B",
+			"boxSprite": "box-F"
+		},
+		{
+			"name": "They called our song `Weird and Raunchy`. Pfft, that was tame as hell. They'd piss themsevles if they heard the love song I wrote for you in the Literature Club.",
+			"rank": "C",
+			"boxSprite": "box-S"
+		},
+		{
+			"name": "Ugh, forget that one. I looked like an absolute dipshit.",
+			"rank": "D",
+			"boxSprite": "box-F"
+		}
+	]
+}

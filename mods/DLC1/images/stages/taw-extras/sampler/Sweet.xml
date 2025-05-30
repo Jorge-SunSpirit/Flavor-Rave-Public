@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sweet.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sweet dance0000" x="5" y="5" width="440" height="560" frameX="0" frameY="-12" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0001" x="5" y="5" width="440" height="560" frameX="0" frameY="-12" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0002" x="450" y="5" width="440" height="563" frameX="-3" frameY="-9" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0003" x="450" y="5" width="440" height="563" frameX="-3" frameY="-9" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0004" x="895" y="5" width="440" height="571" frameX="-8" frameY="-2" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0005" x="895" y="5" width="440" height="571" frameX="-8" frameY="-2" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0006" x="1340" y="5" width="440" height="572" frameX="-8" frameY="-1" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0007" x="1340" y="5" width="440" height="572" frameX="-8" frameY="-1" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0008" x="1340" y="5" width="440" height="572" frameX="-8" frameY="-1" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0009" x="1340" y="5" width="440" height="572" frameX="-8" frameY="-1" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0010" x="1340" y="5" width="440" height="572" frameX="-8" frameY="-1" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0011" x="1340" y="5" width="440" height="572" frameX="-8" frameY="-1" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0012" x="5" y="582" width="441" height="566" frameX="-16" frameY="-10" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0013" x="5" y="582" width="441" height="566" frameX="-16" frameY="-10" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0014" x="451" y="582" width="440" height="569" frameX="-14" frameY="-7" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0015" x="451" y="582" width="440" height="569" frameX="-14" frameY="-7" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0016" x="896" y="582" width="440" height="571" frameX="-8" frameY="-2" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0017" x="896" y="582" width="440" height="571" frameX="-8" frameY="-2" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0018" x="1341" y="582" width="440" height="573" frameX="-8" frameY="0" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0019" x="1341" y="582" width="440" height="573" frameX="-8" frameY="0" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0020" x="1341" y="582" width="440" height="573" frameX="-8" frameY="0" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0021" x="1341" y="582" width="440" height="573" frameX="-8" frameY="0" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0022" x="1341" y="582" width="440" height="573" frameX="-8" frameY="0" frameWidth="457" frameHeight="576"/>
+	<SubTexture name="sweet dance0023" x="1341" y="582" width="440" height="573" frameX="-8" frameY="0" frameWidth="457" frameHeight="576"/>
+</TextureAtlas>

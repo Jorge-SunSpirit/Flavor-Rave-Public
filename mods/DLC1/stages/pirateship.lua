@@ -97,7 +97,7 @@ function onCreate()
 	setProperty('midpir8.alpha', 0.0001);
 	addLuaSprite('midpir8', false);
 
-	makeAnimatedLuaSprite('leftpir8', 'stages/lady-morton/LeftPirates', posX + 320, posY + 3866);
+	makeAnimatedLuaSprite('leftpir8', 'stages/lady-morton/LeftPirates', posX + 320, posY + 3905);
 	addAnimationByPrefix('leftpir8', 'appear', 'Appear', 24, false);
 	addAnimationByPrefix('leftpir8', 'idle', 'LeftPirate', 24, false);
 	setScrollFactor('leftpir8', 1, 1);

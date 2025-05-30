@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PortalTime.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PortalTime0000" x="5" y="5" width="9" height="10" frameX="-587" frameY="-330" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0001" x="5" y="5" width="9" height="10" frameX="-587" frameY="-330" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0002" x="19" y="5" width="24" height="32" frameX="-574" frameY="-318" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0003" x="19" y="5" width="24" height="32" frameX="-574" frameY="-318" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0004" x="48" y="5" width="457" height="324" frameX="-555" frameY="-301" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0005" x="48" y="5" width="457" height="324" frameX="-555" frameY="-301" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0006" x="510" y="5" width="494" height="344" frameX="-520" frameY="-290" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0007" x="510" y="5" width="494" height="344" frameX="-520" frameY="-290" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0008" x="1009" y="5" width="850" height="429" frameX="-171" frameY="-221" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0009" x="1009" y="5" width="850" height="429" frameX="-171" frameY="-221" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0010" x="1864" y="5" width="859" height="623" frameX="-158" frameY="-35" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0011" x="1864" y="5" width="859" height="623" frameX="-158" frameY="-35" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0012" x="2728" y="5" width="880" height="673" frameX="-139" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0013" x="2728" y="5" width="880" height="673" frameX="-139" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0014" x="3613" y="5" width="915" height="660" frameX="-104" frameY="0" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0015" x="3613" y="5" width="915" height="660" frameX="-104" frameY="0" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0016" x="4533" y="5" width="1151" height="660" frameX="-15" frameY="0" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0017" x="4533" y="5" width="1151" height="660" frameX="-15" frameY="0" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0018" x="5689" y="5" width="1176" height="652" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0019" x="5689" y="5" width="1176" height="652" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0020" x="6870" y="5" width="1176" height="652" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0021" x="6870" y="5" width="1176" height="652" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0022" x="5" y="683" width="1194" height="668" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0023" x="5" y="683" width="1194" height="668" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0024" x="1204" y="683" width="1194" height="668" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0025" x="1204" y="683" width="1194" height="668" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0026" x="2403" y="683" width="1198" height="697" frameX="0" frameY="0" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0027" x="2403" y="683" width="1198" height="697" frameX="0" frameY="0" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0028" x="3606" y="683" width="1198" height="697" frameX="0" frameY="0" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0029" x="3606" y="683" width="1198" height="697" frameX="0" frameY="0" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0030" x="4809" y="683" width="1176" height="719" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0031" x="4809" y="683" width="1176" height="719" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0032" x="5990" y="683" width="1176" height="719" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0033" x="5990" y="683" width="1176" height="719" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0034" x="5" y="1407" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0035" x="5" y="1407" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0036" x="1204" y="1407" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0037" x="1204" y="1407" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0038" x="2403" y="1407" width="1198" height="729"/>
+	<SubTexture name="PortalTime0039" x="2403" y="1407" width="1198" height="729"/>
+	<SubTexture name="PortalTime0040" x="3606" y="1407" width="1198" height="729"/>
+	<SubTexture name="PortalTime0041" x="3606" y="1407" width="1198" height="729"/>
+	<SubTexture name="PortalTime0042" x="4809" y="1407" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0043" x="4809" y="1407" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0044" x="5990" y="1407" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0045" x="5990" y="1407" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0046" x="5" y="2141" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0047" x="5" y="2141" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0048" x="1204" y="2141" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0049" x="1204" y="2141" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0050" x="2403" y="2141" width="1198" height="729"/>
+	<SubTexture name="PortalTime0051" x="2403" y="2141" width="1198" height="729"/>
+	<SubTexture name="PortalTime0052" x="3606" y="2141" width="1198" height="729"/>
+	<SubTexture name="PortalTime0053" x="3606" y="2141" width="1198" height="729"/>
+	<SubTexture name="PortalTime0054" x="4809" y="2141" width="1184" height="726" frameX="0" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0055" x="4809" y="2141" width="1184" height="726" frameX="0" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0056" x="5998" y="2141" width="1184" height="726" frameX="0" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0057" x="5998" y="2141" width="1184" height="726" frameX="0" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0058" x="5" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0059" x="5" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0060" x="1204" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0061" x="1204" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0062" x="2403" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0063" x="2403" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0064" x="3606" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0065" x="3606" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0066" x="4809" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0067" x="4809" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0068" x="5990" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0069" x="5990" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0070" x="5" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0071" x="5" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0072" x="1204" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0073" x="1204" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0074" x="2403" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0075" x="2403" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0076" x="3606" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0077" x="3606" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0078" x="4809" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0079" x="4809" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0080" x="5990" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0081" x="5990" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0082" x="5" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0083" x="5" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0084" x="1204" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0085" x="1204" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0086" x="2403" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0087" x="2403" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0088" x="3606" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0089" x="3606" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0090" x="4809" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0091" x="4809" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0092" x="5990" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0093" x="5990" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0094" x="5" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0095" x="5" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0096" x="1204" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0097" x="1204" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0098" x="2403" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0099" x="2403" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0100" x="3606" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0101" x="3606" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0102" x="4809" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0103" x="4809" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0104" x="5990" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0105" x="5990" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0106" x="5" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0107" x="5" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0108" x="1204" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0109" x="1204" y="2875" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0110" x="2403" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0111" x="2403" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0112" x="3606" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0113" x="3606" y="2875" width="1198" height="729"/>
+	<SubTexture name="PortalTime0114" x="4809" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0115" x="4809" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0116" x="5990" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0117" x="5990" y="2875" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0118" x="5" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0119" x="5" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0120" x="1204" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0121" x="1204" y="3609" width="1194" height="727" frameX="-2" frameY="-1" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0122" x="2403" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0123" x="2403" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0124" x="3606" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0125" x="3606" y="3609" width="1198" height="729"/>
+	<SubTexture name="PortalTime0126" x="4809" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0127" x="4809" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0128" x="5990" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+	<SubTexture name="PortalTime0129" x="5990" y="3609" width="1176" height="726" frameX="-8" frameY="-2" frameWidth="1198" frameHeight="729"/>
+</TextureAtlas>

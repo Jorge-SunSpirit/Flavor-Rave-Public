@@ -1,5 +1,7 @@
 package;
 
+import Language.LanguageText;
+import Language.LanguageTypeText;
 import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
@@ -54,8 +56,8 @@ class ResultsScreenSubState extends MusicBeatSubstate
 	public var dialoguebox:FlxSprite;
 	public var resultbox:FlxSprite;
 	
-	public var dialogueText:FlxTypeText;
-	public var comboText:FlxText;
+	public var dialogueText:LanguageTypeText;
+	public var comboText:LanguageText;
 	
 	public var finalresult:FlxSprite;
 	public var rank:FlxSprite;
@@ -83,7 +85,7 @@ class ResultsScreenSubState extends MusicBeatSubstate
 			});
 
 			new FlxTimer().start(0.1, function(tmr:FlxTimer) {
-				FlxG.sound.play(Paths.sound('rating-FC'), 1);
+				FlxG.sound.play(CoolUtil.getAnnouncerLine('rating-FC'), 1);
 			});
 		}
 
@@ -120,6 +122,8 @@ class ResultsScreenSubState extends MusicBeatSubstate
 		pauseMusic = new FlxSound();
 		switch (resultType)
 		{
+			case 'mute':
+				trace('We aint startin no music??????');
 			case 'fakeout':
 				pauseMusic.loadEmbedded(Paths.music('results_jingle_fakeout'), false, true);
 			default:
@@ -181,10 +185,8 @@ class ResultsScreenSubState extends MusicBeatSubstate
 		dialoguebox.alpha = 0.001;
 		add(dialoguebox);
 
-		dialogueText = new FlxTypeText(62.8, 570, 713, theArrayofAllTime[rand].name, 24);
-		dialogueText.font = Paths.font("Krungthep.ttf");
+		dialogueText = new LanguageTypeText(62.8, 570, 713, theArrayofAllTime[rand].name, 24, 'krungthep');
 		dialogueText.setBorderStyle(OUTLINE, FlxColor.BLACK, 1.25);
-		dialogueText.antialiasing = ClientPrefs.globalAntialiasing;
 		dialogueText.alpha = 0.001;
 		add(dialogueText);
 
@@ -195,13 +197,17 @@ class ResultsScreenSubState extends MusicBeatSubstate
 		resultbox.updateHitbox();
 		add(resultbox);
 		
-		var score:String = "Score: " + (PlayState.isStoryMode ? PlayState.campaignScore : PlayState.instance.songScore) + '\n';
-		var biggercombo:Int = PlayState.instance.highestCombo + 1;
-		var biggestCombro:String = (PlayState.isStoryMode ?  "" : "Highest Combo: " + biggercombo + '\n');
-		var misses:String = "Combo Breaks: " + (PlayState.isStoryMode ? PlayState.campaignMisses : PlayState.instance.songMisses) + '\n';
+		var score:String = Language.gameplay.get("score_score", "Score") + ": "
+			+ (PlayState.isStoryMode ? PlayState.campaignScore : PlayState.instance.songScore) + '\n';
 
-		comboText = new FlxText(878, PlayState.isStoryMode ? 565 : 550, 400,
-		'${score}${biggestCombro}${misses}').setFormat(Paths.font("FOT-Carat Std UB.otf"), 30, FlxColor.WHITE, LEFT);
+		var biggercombo:Int = PlayState.instance.highestCombo + 1;
+		var biggestCombro:String = (PlayState.isStoryMode ? "" : Language.gameplay.get("results_highest_combo", "Highest Combo") + ": "+ biggercombo + '\n');
+
+		var misses:String = Language.gameplay.get("score_misses", "Misses") + ": "
+			+ (PlayState.isStoryMode ? PlayState.campaignMisses : PlayState.instance.songMisses) + '\n';
+
+		comboText = new LanguageText(878, PlayState.isStoryMode ? 565 : 550, 400, '${score}${biggestCombro}${misses}', 30, 'carat');
+		comboText.setStyle(FlxColor.WHITE, LEFT);
 		comboText.scrollFactor.set();
 		comboText.alpha = 0.001;
 		add(comboText);
@@ -217,6 +223,28 @@ class ResultsScreenSubState extends MusicBeatSubstate
 		rank.antialiasing = ClientPrefs.globalAntialiasing;
 		rank.scale.set(0.001,0.001);
 		add(rank);
+
+		if (!ClientPrefs.lowQuality)
+		{
+			//gotta hide the normally invisible stuff
+			var hideborderthignieawmdsa1 = new FlxSprite(-640, -180).makeGraphic(640, 1440, FlxColor.BLACK);
+			hideborderthignieawmdsa1.scrollFactor.set();
+			hideborderthignieawmdsa1.antialiasing = false;
+			insert(999996, hideborderthignieawmdsa1);
+			var hideborderthignieawmdsa2 = new FlxSprite(1280, -180).makeGraphic(640, 1440, FlxColor.BLACK);
+			hideborderthignieawmdsa2.scrollFactor.set();
+			hideborderthignieawmdsa2.antialiasing = false;
+			insert(999997, hideborderthignieawmdsa2);
+
+			var hideborderthignieawmdsa3 = new FlxSprite(-640, -360).makeGraphic(2560, 360, FlxColor.BLACK);
+			hideborderthignieawmdsa3.scrollFactor.set();
+			hideborderthignieawmdsa3.antialiasing = false;
+			insert(999998, hideborderthignieawmdsa3);
+			var hideborderthignieawmdsa = new FlxSprite(-640, 720).makeGraphic(2560, 360, FlxColor.BLACK);
+			hideborderthignieawmdsa.scrollFactor.set();
+			hideborderthignieawmdsa.antialiasing = false;
+			insert(999999, hideborderthignieawmdsa);
+		}
 
 		var homestatic:FlxSprite = new FlxSprite();
 		homestatic.frames = Paths.getSparrowAtlas('sweetroom/static', 'tbd');
@@ -239,6 +267,46 @@ class ResultsScreenSubState extends MusicBeatSubstate
 
 		switch(resultType)
 		{
+			case 'mute':
+				new FlxTimer().start(delayTimer, function(tmr:FlxTimer)
+				{
+					FlxTween.tween(background, {alpha: 0.5}, 0.5);
+					FlxTween.tween(finalresult, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 1});
+					stroke.animation.play('idle');
+					stroke.alpha = 1;
+					FlxTween.tween(charaSprite, {x: -58}, 0.7, {ease: FlxEase.expoOut, startDelay: 0.5});
+					
+					new FlxTimer().start(1, function(tmr:FlxTimer) {
+						FlxTween.color(stroke, 0.3, stroke.color, 0xFFFFFFFF, { onComplete: function(twn:FlxTween)
+							{
+								FlxTween.tween(stroke, {alpha: 0}, 0.5, {ease: FlxEase.expoOut, startDelay: 0.2});
+								strokefinal.alpha = 1;
+							}
+						});
+					});
+					FlxTween.tween(dialoguebox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2, onComplete: function(twn:FlxTween)
+					{
+						dialogueText.alpha = 1;
+						dialogueText.start(0.04, true);
+					}});
+					FlxTween.tween(resultbox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2});
+					FlxTween.tween(comboText, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2.5});
+					
+					new FlxTimer().start(4.8, function(tmr:FlxTimer) {
+						FlxTween.tween(rank, {"scale.x": 1.2, "scale.y": 1.2}, 0.1, {ease: FlxEase.cubeIn, onComplete: function(twn:FlxTween)
+						{
+							FlxTween.tween(rank, {"scale.x": 1, "scale.y": 1}, 0.3, {ease: FlxEase.bounceOut});
+		
+							new FlxTimer().start(1, function(tmr:FlxTimer) {
+								if(Paths.fileExists("sounds/announcer/" + ClientPrefs.announcer +'/ratings/' + rankingLetter + '.ogg', SOUND))
+								{
+									FlxG.sound.play(CoolUtil.getAnnouncerLine('ratings/' + rankingLetter), 1);
+								}
+							});
+						}});	
+						canpressbuttons = true;
+					});
+				});
 			case 'fakeout':
 				new FlxTimer().start(delayTimer, function(tmr:FlxTimer)
 					{
@@ -289,7 +357,7 @@ class ResultsScreenSubState extends MusicBeatSubstate
 								FlxTween.tween(rank, {"scale.x": 1, "scale.y": 1}, 0.3, {ease: FlxEase.bounceOut});
 			
 								new FlxTimer().start(1, function(tmr:FlxTimer) {
-								FlxG.sound.play(Paths.sound('ratings/Fakeout'), 1);
+								FlxG.sound.play(CoolUtil.getAnnouncerLine('ratings/Fakeout'), 1);
 								});
 							}});	
 							canpressbuttons = true;
@@ -329,8 +397,10 @@ class ResultsScreenSubState extends MusicBeatSubstate
 									FlxTween.tween(rank, {"scale.x": 1, "scale.y": 1}, 0.3, {ease: FlxEase.bounceOut});
 				
 									new FlxTimer().start(1, function(tmr:FlxTimer) {
-										if(Paths.fileExists('sounds/ratings/${rankingLetter}.ogg', SOUND))
-											FlxG.sound.play(Paths.sound('ratings/${rankingLetter}'), 1);
+										if(Paths.fileExists("sounds/announcer/" + ClientPrefs.announcer +'/ratings/' + rankingLetter + '.ogg', SOUND))
+										{
+											FlxG.sound.play(CoolUtil.getAnnouncerLine('ratings/' + rankingLetter), 1);
+										}
 									});
 									canpressbuttons = true;
 								}});	
@@ -370,8 +440,10 @@ class ResultsScreenSubState extends MusicBeatSubstate
 									FlxTween.tween(rank, {"scale.x": 1, "scale.y": 1}, 0.3, {ease: FlxEase.bounceOut});
 				
 									new FlxTimer().start(1, function(tmr:FlxTimer) {
-										if(Paths.fileExists('sounds/ratings/${rankingLetter}.ogg', SOUND))
-											FlxG.sound.play(Paths.sound('ratings/${rankingLetter}'), 1);
+										if(Paths.fileExists("sounds/announcer/" + ClientPrefs.announcer +'/ratings/' + rankingLetter + '.ogg', SOUND))
+										{
+											FlxG.sound.play(CoolUtil.getAnnouncerLine('ratings/' + rankingLetter), 1);
+										}
 									});
 								}});	
 								canpressbuttons = true;

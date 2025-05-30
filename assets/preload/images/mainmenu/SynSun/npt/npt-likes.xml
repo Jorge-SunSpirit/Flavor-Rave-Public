@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="npt-likes.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="None0000" x="12" y="12" width="94" height="50" frameX="-68" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="None0001" x="12" y="12" width="94" height="50" frameX="-68" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Low0002" x="118" y="12" width="118" height="50" frameX="-68" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Low0003" x="118" y="12" width="118" height="50" frameX="-68" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="ALowMed0004" x="248" y="12" width="118" height="50" frameX="-68" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="ALowMed0005" x="248" y="12" width="118" height="50" frameX="-68" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Med0006" x="378" y="12" width="142" height="51" frameX="-67" frameY="-67" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Med0007" x="378" y="12" width="142" height="51" frameX="-67" frameY="-67" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Med0008" x="532" y="12" width="139" height="47" frameX="-70" frameY="-69" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Med0009" x="532" y="12" width="139" height="47" frameX="-70" frameY="-69" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Med0010" x="683" y="12" width="140" height="49" frameX="-69" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Med0011" x="683" y="12" width="140" height="49" frameX="-69" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Med0012" x="835" y="12" width="141" height="50" frameX="-68" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Med0013" x="835" y="12" width="141" height="50" frameX="-68" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AMedHigh0014" x="12" y="75" width="141" height="51" frameX="-67" frameY="-67" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AMedHigh0015" x="12" y="75" width="141" height="51" frameX="-67" frameY="-67" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AMedHigh0016" x="165" y="75" width="138" height="47" frameX="-70" frameY="-69" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AMedHigh0017" x="165" y="75" width="138" height="47" frameX="-70" frameY="-69" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AMedHigh0018" x="315" y="75" width="139" height="49" frameX="-69" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AMedHigh0019" x="315" y="75" width="139" height="49" frameX="-69" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AMedHigh0020" x="466" y="75" width="140" height="50" frameX="-68" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AMedHigh0021" x="466" y="75" width="140" height="50" frameX="-68" frameY="-68" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="High0022" x="618" y="75" width="176" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="High0023" x="618" y="75" width="176" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="High0024" x="12" y="208" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="High0025" x="12" y="208" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="High0026" x="234" y="208" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="High0027" x="234" y="208" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="High0028" x="456" y="208" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="High0029" x="456" y="208" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AHighMax0030" x="678" y="208" width="176" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AHighMax0031" x="678" y="208" width="176" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AHighMax0032" x="12" y="409" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AHighMax0033" x="12" y="409" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AHighMax0034" x="234" y="409" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AHighMax0035" x="234" y="409" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AHighMax0036" x="456" y="409" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="AHighMax0037" x="456" y="409" width="210" height="189" frameX="0" frameY="0" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0038" x="678" y="409" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0039" x="678" y="409" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0040" x="12" y="610" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0041" x="12" y="610" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0042" x="221" y="610" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0043" x="221" y="610" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0044" x="430" y="610" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0045" x="430" y="610" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0046" x="639" y="610" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0047" x="639" y="610" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0048" x="12" y="743" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0049" x="12" y="743" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0050" x="221" y="743" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0051" x="221" y="743" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0052" x="430" y="743" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+	<SubTexture name="Max0053" x="430" y="743" width="197" height="121" frameX="-34" frameY="-34" frameWidth="231" frameHeight="189"/>
+</TextureAtlas>

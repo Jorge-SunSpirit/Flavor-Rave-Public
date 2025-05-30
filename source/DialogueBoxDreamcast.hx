@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageTypeText;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.text.FlxTypeText;
@@ -48,7 +49,7 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 	var border:FlxSprite;
 	var box:FlxSprite;
 	var charaIcon:HealthIcon;
-	var dialogueText:FlxTypeText;
+	var dialogueText:LanguageTypeText;
 	var modiOpti:FlxSprite;
 
 	public var finishThing:Void->Void = null;
@@ -99,10 +100,8 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 		charaIcon.setPosition(974, 458);
 		add(charaIcon);
 
-		dialogueText = new FlxTypeText(250, 570, 776, "", 24);
-		dialogueText.font = Paths.font("Krungthep.ttf");
+		dialogueText = new LanguageTypeText(250, 570, 776, "", 24, 'krungthep');
 		dialogueText.setBorderStyle(OUTLINE, FlxColor.BLACK, 1.25);
-		dialogueText.antialiasing = ClientPrefs.globalAntialiasing;
 		add(dialogueText);
 
 		modiOpti = new FlxSprite(0, 687).loadGraphic(Paths.image('dreamcast/buttons'));
@@ -304,6 +303,7 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 		else
 		{
 			allowInput = false;
+			var endimmSpeed:Float = 0.01;
 
 			switch (curDialogue.command.toLowerCase())
 			{
@@ -324,9 +324,6 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 						if (!curDialogue.endImmediately)
 							endDialogue();
 					});
-
-					if (curDialogue.endImmediately)
-						endDialogue();
 				}
 				case 'resumemusic':
 				{
@@ -339,9 +336,6 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 						if (!curDialogue.endImmediately)
 							endDialogue();
 					});
-
-					if (curDialogue.endImmediately)
-						endDialogue();
 				}
 				case 'stopmusic':
 				{
@@ -364,9 +358,6 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 						if (!curDialogue.endImmediately)
 							endDialogue();
 					});
-
-					if (curDialogue.endImmediately)
-						endDialogue();
 				}
 				case 'fadein':
 				{
@@ -386,10 +377,7 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 
 					if (curDialogue.endImmediately)
 					{
-						new FlxTimer().start(0.5, function(tmr:FlxTimer)
-						{
-							endDialogue();
-						});
+						endimmSpeed = 0.5;
 					}
 				}
 				case 'fadeout':
@@ -411,10 +399,7 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 
 					if (curDialogue.endImmediately)
 					{
-						new FlxTimer().start(0.5, function(tmr:FlxTimer)
-						{
-							endDialogue();
-						});
+						endimmSpeed = 0.5;
 					}
 				}
 				case 'flash':
@@ -425,11 +410,11 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 					PlayState.instance.camOther.fade(0xFFFFFFFF, curDialogue.number, true, function()
 					{
 						if (!curDialogue.endImmediately)
+						{
+							trace(curDialogue.endImmediately);
 							endDialogue();
+						}
 					});
-
-					if (curDialogue.endImmediately)
-						endDialogue();
 				}
 				case 'playsound':
 				{
@@ -441,9 +426,6 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 						if (!curDialogue.endImmediately)
 							endDialogue();
 					});
-
-					if (curDialogue.endImmediately)
-						endDialogue();
 				}
 				case 'timer':
 				{
@@ -466,9 +448,16 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 							endDialogue();
 					});
 
-					if (curDialogue.endImmediately)
-						endDialogue();
+					
 				}
+			}
+
+			if (curDialogue.endImmediately)
+			{
+				new FlxTimer().start(endimmSpeed, function(tmr:FlxTimer)
+				{
+					endDialogue();
+				});
 			}
 		}
 

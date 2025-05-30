@@ -2,6 +2,46 @@
 	"song": {
 		"events": [
 			[
+				214.285714285714,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2"
+					]
+				]
+			],
+			[
+				535.714285714286,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"5"
+					]
+				]
+			],
+			[
+				857.142857142857,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"8"
+					]
+				]
+			],
+			[
+				1178.57142857143,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"11"
+					]
+				]
+			],
+			[
 				1714.28571428571,
 				[
 					[
@@ -18,6 +58,11 @@
 						"Play SFX",
 						"smokepuff",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"16"
 					]
 				]
 			],
@@ -28,6 +73,11 @@
 						"Change Camera Zoom",
 						"0.74",
 						"0.5"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"80"
 					]
 				]
 			],
@@ -63,6 +113,11 @@
 						"Change Camera Zoom",
 						"1",
 						"0.5"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"272"
 					]
 				]
 			],
@@ -83,6 +138,11 @@
 						"Play Animation",
 						"raveintro",
 						"dad"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"368"
 					]
 				]
 			],
@@ -93,6 +153,16 @@
 						"Play SFX",
 						"RaveEngage",
 						""
+					]
+				]
+			],
+			[
+				40928.5714285714,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"382"
 					]
 				]
 			],
@@ -117,12 +187,37 @@
 				]
 			],
 			[
+				41464.2857142857,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"387"
+					]
+				]
+			],
+			[
 				42857.1428571429,
 				[
 					[
 						"Play Animation",
 						"appear",
 						"dad"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"400"
+					]
+				]
+			],
+			[
+				43928.5714285714,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"410"
 					]
 				]
 			],
@@ -138,6 +233,11 @@
 						"Spawn Smoky Particles",
 						"backstreet/smonk",
 						"up"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"416"
 					]
 				]
 			],
@@ -212,6 +312,16 @@
 				]
 			],
 			[
+				84107.1428571429,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"785"
+					]
+				]
+			],
+			[
 				84642.8571428572,
 				[
 					[
@@ -228,6 +338,11 @@
 						"Change Camera Zoom",
 						"0.9",
 						"0.1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"790"
 					]
 				]
 			],
@@ -248,6 +363,11 @@
 						"Change Camera Zoom",
 						"0.85",
 						"0.5"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"864"
 					]
 				]
 			],
@@ -258,6 +378,41 @@
 						"Change Camera Zoom",
 						"0.55",
 						"2"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"992"
+					]
+				]
+			],
+			[
+				107571.428571429,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1004"
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1008"
+					]
+				]
+			],
+			[
+				114857.142857143,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1072"
 					]
 				]
 			],
@@ -268,6 +423,16 @@
 						"Change Camera Zoom",
 						"0.5",
 						"0.8"
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1120"
 					]
 				]
 			],
@@ -288,6 +453,11 @@
 						"Screen Flash",
 						"0.3",
 						"white"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1136"
 					]
 				]
 			],
@@ -313,6 +483,11 @@
 						"Change Camera Zoom",
 						"0.7",
 						"0.1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1392"
 					]
 				]
 			],

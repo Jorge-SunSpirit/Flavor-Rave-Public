@@ -1,0 +1,423 @@
+{
+	"dialogue": [
+		{
+			"background": "a10",
+			"border": "enzync-night",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","please"],
+			"text": "M-miss Tangy! Please put him down… this instant!"
+		},
+		{
+			"background": "a10",
+			"border": "enzync-night",
+			"chara": ["tangy", 0, true],
+			"text": "..."
+		},
+		{
+			"background": "blackhueh",
+			"border": "enzync-night",
+			"chara": ["sour", 1, true],
+			"text": "Gah-! Ugh…"
+		},
+		{
+			"background": "a11",
+			"border": "enzync-night",
+			"chara": ["tangy", 2, true],
+			"text": "You don’t know how satisfying it was to do that."
+		},
+		{
+			"background": "a11",
+			"border": "enzync-night",
+			"chara": ["tangy", 1, true],
+			"text": "Now get this through your thick skull, Sour. You’re not special. All you have is luck… and lucky is all you’ll ever be."
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["default", 0, false],
+			"text": "[A few weeks later since Sour's scuffle with Tangy…]"
+		},
+		{
+			"background": "b1",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","man"],
+			"text": "I should've been over this already…"
+		},
+		{
+			"background": "b1",
+			"chara": ["sour", 1, true],
+			"text": "I can't help but feel awful about how our first week together turned out still. All my plans going wrong… losing my cool in front of her… ugh…"
+		},
+		{
+			"command": "flash",
+			"number": 0.4,
+			"endImmediately": true
+		},
+		{
+			"background": "blackhueh",
+			"border": "enzync-night-flash",
+			"chara": ["sweet", 1, true],
+			"text": "Sour? You're ok, right? Please tell me you’re ok."
+		},
+		{
+			"background": "blackhueh",
+			"border": "enzync-night-flash",
+			"chara": ["sour", 0, true],
+			"text": "Urgh, yeah…"
+		},
+		{
+			"background": "blackhueh",
+			"border": "enzync-night-flash",
+			"chara": ["sour", 0, true],
+			"text": "Sweet, I… Geez, I'm so sorry about all this, I really am! I didn't think she'd be around, and-"
+		},
+		{
+			"background": "a5",
+			"border": "enzync-night-flash",
+			"chara": ["sweet", 0, true],
+			"bgmVolume": 0.3,
+			"bgm": "SuchSweetSorrow",
+			"sound": ["sweet","sourlove"],
+			"text": "It's ok, Sour. You don't have to explain everything to me right now. Please, just take a deep breath for me, ok?"
+		},
+		{
+			"background": "a5",
+			"border": "enzync-night-flash",
+			"chara": ["sour", 0, true],
+			"text": "*deep breath*"
+		},
+		{
+			"background": "a5",
+			"border": "enzync-night-flash",
+			"chara": ["sour", 0, true],
+			"text": "Wait, Sweet… doesn't your boat leave soon?"
+		},
+		{
+			"background": "a5",
+			"border": "enzync-night-flash",
+			"chara": ["sweet", 0, true],
+			"text": "Indeed, but… I don't want to leave you while you feel like this. So, please, raise your head and look at me, Sour."
+		},
+		{
+			"background": "a5",
+			"border": "enzync-night-flash",
+			"chara": ["sweet", 0, true],
+			"text": "There’s so much I want to say, and I know there’s so little time left right now... but there’s always going to be more time for us in the future. I’ll wait as long as it takes."
+		},
+		{
+			"background": "a5",
+			"border": "enzync-night-flash",
+			"chara": ["sweet", 0, true],
+			"text": "Maybe soon, I'll get to share my hometown with you like you shared yours with me. The Preheats is always open to you."
+		},
+		{
+			"background": "a5",
+			"border": "enzync-night-flash",
+			"chara": ["sweet", 0, true],
+			"text": "No matter what happens, or where we end up, or even how things come to be, we'll be together again another day to make even more wonderful memories."
+		},
+		{
+			"background": "a5",
+			"border": "enzync-night-flash",
+			"chara": ["sweet", 0, true],
+			"text": "Because despite all that happened… This has still been the most wonderful week of my life."
+		},
+		{
+			"background": "a5",
+			"border": "enzync-night-flash",
+			"chara": ["sweet", 0, true],
+			"text": "It might be hard to believe, but I mean that… with all my heart."
+		},
+		{
+			"background": "a5",
+			"border": "enzync-night-flash",
+			"chara": ["sweet", 1, true],
+			"text": "I... have to go now... but we can talk more once I'm back home, ok?"
+		},
+		{
+			"background": "blackhueh",
+			"border": "enzync-night-flash",
+			"chara": ["sour", 0, true],
+			"text": "*deep breath*"
+		},
+		{
+			"background": "blackhueh",
+			"border": "enzync-night-flash",
+			"chara": ["sour", 0, true],
+			"text": "Yeah... I'd like that."
+		},
+		{
+			"background": "blackhueh",
+			"border": "enzync-night-flash",
+			"chara": ["sweet", 0, true],
+			"text": "Sour... I love you so much."
+		},
+		{
+			"background": "blackhueh",
+			"border": "enzync-night-flash",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","sweetlove"],
+            "bgm": "stop",
+			"text": "I… I love you too, Sweet."
+		},
+		{
+			"command": "flash",
+			"number": 0.4,
+			"endImmediately": true,
+			"text": "      "
+		},
+		{
+			"background": "b1point5",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "I gotta make it up to her somehow… but I ain’t gonna see her again for a while."
+		},
+		{
+			"background": "b1point5",
+			"border": "black",
+			"chara": ["sour", 1, true],
+			"text": "I could take a flight over to her place, but the ticket prices hiked up real bad this month. Just another damn problem to add to the list."
+		},
+		{
+			"background": "b1point5",
+			"border": "black",
+			"chara": ["salty", 0, true],
+			"sound": ["salty","aye"],
+			"text": "Bring me my usual. And make it nice an’ snappy! I gotsta bail quick before ol’ Vinegar spots me ship."
+		},
+		{
+			"background": "b1point5",
+			"border": "black",
+			"chara": ["salty", 0, true],
+			"text": "…aye, ye know I always tip handsomely! Yahaharr!"
+		},
+		{
+			"background": "b1point5",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "…I don’t even know anymore, man. This blows."
+		},
+		{
+			"background": "b1point5",
+			"border": "black",
+			"chara": ["salty", 0, true],
+			"sound": ["salty","ahoythere"],
+			"text": "Aye, ye be talkin’ a boatload o' troubles out loud there, boy. What ails ye?"
+		},
+		{
+			"background": "b2",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "Oh, uh... Sorry, my bad."
+		},
+		{
+			"background": "b2",
+			"border": "black",
+			"chara": ["sour", 1, true],
+			"text": "(I really gotta stop doing that…)"
+		},
+		{
+			"background": "b2",
+			"border": "black",
+			"chara": ["salty", 2, true],
+			"sound": ["salty","chinup"],
+			"text": "No need for apologizin’! If ye thoughts be loud enough to escape yer head, then it's better spoken than left unsaid!"
+		},
+		{
+			"background": "b2",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "…"
+		},
+		{
+			"background": "b2",
+			"border": "black",
+			"chara": ["salty", 1, true],
+			"text": "…somethin’ caught in ye throat now?"
+		},
+		{
+			"background": "b3",
+			"border": "black",
+			"chara": ["sour", 1, true],
+			"bgmVolume": 0.2,
+			"bgm": "SaltySeas",
+			"sound": ["sour","what"],
+			"text": "…what the hell are you?"
+		},
+		{
+			"background": "b3",
+			"border": "black",
+			"chara": ["salty", 0, true],
+			"sound": ["salty","blimey"],
+			"text": "Ya can’t be more blind than me, boy! Not when both yer eyes still work! I’m a pirate, tried and true!"
+		},
+		{
+			"background": "b3",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "Yeah, I see that, clearly. But… what for? You a new act lookin’ to make it big in Enzync or something?"
+		},
+		{
+			"background": "b3",
+			"border": "black",
+			"chara": ["salty", 2, true],
+			"text": "This is no act, I can assure ye! And I can prove it to ye real quick! Come, step outside! Hold me drink, bartender!"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["salty", 2, true],
+			"sound": ["salty","laugh"],
+			"text": "Take a gander at my beauty of a ship, boy!"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","yowhat"],
+			"text": "-THE HELL?! How’d you get a whole ass pirate ship in here?!"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["salty", 2, true],
+			"text": "Very carefully. Efficiently, too!"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["salty", 2, true],
+			"text": "I make me trips here quite fast, ya hear? The Coast Guard isn’t partial to me crew’s visits, but the drinks they be servin’ here are more than worth a little scuffle!"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["sour", 1, true],
+			"text": "You crazy, man?!"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["salty", 2, true],
+			"sound": ["salty","nay"],
+			"text": "Some may think so, but I prefer to think of it as bein’ a lil’ adventurous!"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["salty", 0, true],
+			"text": "Now, enough about ME, tell me what’s botherin’ YE, boy! Sailors love a good tale!"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["sour", 1, true],
+			"text": "…how do I even transition from this?"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["sour", 0, true],
+			"text": "I mean… It's just some relationship business. I feel like I screwed up real bad the last time I saw my partner. Wanted to treat her to a nice few weeks away from her home, then everything fell apart."
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["sour", 0, true],
+			"text": "I want to make it up to her so bad, but it’s hard when she lives across the ocean-"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["salty", 0, true],
+			"text": "Across the ocean, ye say?"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["sour", 0, true],
+			"text": "Yeah, she’s all the way over in the Preheats."
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["salty", 2, true],
+			"text": "The Preheats? Ah, that place takes me back! An ol’ colleague of mine lives down there, a real quiet fellow he is. Been meaning to give ‘im a visit."
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["salty", 2, true],
+			"sound": ["salty","yoho"],
+			"text": "Tell ye what, boy! I’ll getcha cross the ocean waves to the docks of Corianda! Then yer one step closer to reaching yer sweetie pie!"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["salty", 2, true],
+			"text": "Just promise me that if ye see that ol’ lug out there, tell ‘im Salty’s waitin’ to get the ol’ group back together!"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["sour", 0, true],
+			"text": "F-forreal?!"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","ughlikethefnfsong"],
+			"text": "(Oh god… am I really about to take this weirdo up on this? I still freakin’ HATE boats!)"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["sour", 0, true],
+			"text": "(Ghh… but I don’t know how else I’m gonna see her again soon… ah, screw it.)"
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["sour", 0, true],
+			"text": "S-sure, y’know what, man? I’ll take you up on that."
+		},
+		{
+			"background": "b4",
+			"border": "lady-morton",
+			"chara": ["salty", 2, true],
+			"sound": ["salty","aboard"],
+			"text": "Yarr! That’s the ticket, boy! Now let’s get ready to sail!"
+		},
+		{
+			"background": "b5",
+			"border": "lady-morton",
+			"chara": ["salty", 2, true],
+			"text": "Ahoy, me hearties! We’ve got ourselves a young spirit needin’ to be set to sea! Adobo, prepare the sails and the supplies!"
+		},
+		{
+			"background": "b5",
+			"chara": ["default", 0, false],
+			"sound": ["pirate-crew","adobo-aye"],
+			"text": "Aye aye, Captain Salty!"
+		},
+		{
+			"background": "b5",
+			"border": "lady-morton",
+			"chara": ["salty", 2, true],
+			"text": "And Sharp, round up the rest of our crew, then take to the crow’s nest! Oh, and fetch me drink from the bar, too."
+		},
+		{
+			"background": "b5",
+			"chara": ["default", 0, false],
+			"sound": ["pirate-crew","sharp-aye"],
+			"text": "…aye."
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "(Oh, I’m so gonna regret this once we hit the ocean… But… I want to see her again so badly. I’ll send her a text that I’m on my way.)"
+		}
+	]
+}

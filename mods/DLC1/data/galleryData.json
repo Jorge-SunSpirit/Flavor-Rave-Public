@@ -44,10 +44,52 @@
 			"songCheck": "Livewire"
 		},
 		{
+			"image": "dramatang",
+			"caption": "UPDATE 2.5 - Think what you want.",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Livewire"
+		},
+		{
 			"image": "punchtang",
 			"caption": "UPDATE 2.5 - Knock you Out!",
 			"artist": "Hisa",
 			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Livewire"
+		},
+		{
+			"image": "lmaoyouwish",
+			"caption": "UPDATE 2.5 - You wish.",
+			"artist": "Juno Songs",
+			"url": "https://twitter.com/JunoSongsYT",
+			"songCheck": "Livewire"
+		},
+		{
+			"image": "zestbest",
+			"caption": "UPDATE 2.5 - Zest's Best Model",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Livewire"
+		},
+		{
+			"image": "zestad",
+			"caption": "UPDATE 2.5 - The New Zest's Best Line",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Livewire"
+		},
+		{
+			"image": "streettangy",
+			"caption": "UPDATE 2.5 - Lady of The Leftovers.",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "Livewire"
+		},
+		{
+			"image": "td",
+			"caption": "UPDATE 2.5 - Vandal",
+			"artist": "over_x6",
+			"url": "https://x.com/over_x6",
 			"songCheck": "Livewire"
 		},
 		{
@@ -93,6 +135,13 @@
 			"songCheck": "Lodestar Shanty"
 		},
 		{
+			"image": "ensemble",
+			"caption": "UPDATE 2.5 - The Ensemble",
+			"artist": "SkyHighProductions",
+			"twitter": "https://x.com/jcat_d",
+			"songCheck": "Carrera Loca"
+		},
+		{
 			"image": "bitterref",
 			"caption": "UPDATE 2.5 - Bitter Design Ref",
 			"artist": "Space Dust",
@@ -121,6 +170,20 @@
 			"songCheck": "Stirring"
 		},
 		{
+			"image": "swaprival",
+			"caption": "UPDATE 2.5 - Swapping The Whole Wardrobe",
+			"artist": "Space Dust",
+			"twitter": "https://x.com/SPACEE_DUST_",
+			"songCheck": "Stirring"
+		},
+		{
+			"image": "bitterherbal",
+			"caption": "UPDATE 2.5 - Togarashi Tea Connoisseurs",
+			"artist": "Space Dust",
+			"twitter": "https://x.com/SPACEE_DUST_",
+			"songCheck": "Stirring"
+		},
+		{
 			"image": "bitterwrong",
 			"caption": "UPDATE 2.5 - Bitter's Tricks",
 			"artist": "Space Dust",
@@ -135,11 +198,60 @@
 			"songCheck": "Stirring"
 		},
 		{
+			"image": "pianobitter",
+			"caption": "UPDATE 2.5 - Lonesome Piano",
+			"artist": "Space Dust",
+			"twitter": "https://x.com/SPACEE_DUST_",
+			"songCheck": "Stirring"
+		},
+		{
+			"image": "bitterhome",
+			"caption": "UPDATE 2.5 - Melancholy Memory",
+			"artist": "Space Dust",
+			"twitter": "https://x.com/SPACEE_DUST_",
+			"songCheck": "Stirring"
+		},
+		{
 			"image": "guardians",
 			"caption": "UPDATE 2.5 - Weather Beasts of Togarashi Town",
 			"artist": "Spyrodile & Emeruga",
 			"url": "https://x.com/Spyrodile",
 			"songCheck": "Fubuki"
+		},
+		{
+			"image": "bfgf",
+			"caption": "FULLY BREWED - Funky & Saucy Final Designs",
+			"artist": "SirDusterBuster & Juno Songs",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"image": "pico",
+			"caption": "FULLY BREWED - Neapolitan, Picante, & Flambé Concept Designs",
+			"artist": "SirDusterBuster",
+			"url": "https://twitter.com/sirdusterbuster",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"image": "crewspeaker",
+			"caption": "FULLY BREWED - Neapolitan, Picante, & Flambé Pose Concepts",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"image": "pastblast",
+			"caption": "FULLY BREWED - A Blast from the Past!",
+			"artist": "Hisa",
+			"url": "https://x.com/AmaiHisa",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"image": "taw",
+			"caption": "FULLY BREWED - That's a Wrap! Finale Art",
+			"artist": "RixFX",
+			"url": "https://x.com/rix_again",
+			"songCheck": "That's a Wrap"
 		},
 		{
 			"image": "thankyou",

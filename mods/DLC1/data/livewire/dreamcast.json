@@ -211,7 +211,7 @@
 		{
 			"background": "blackhueh",
 			"chara": ["default", 0, false],
-			"text": "[The Next Satuday...]"
+			"text": "[The Next Saturday...]"
 		},
 		{
 			"background": "a3",
@@ -249,7 +249,25 @@
 			"background": "a6",
 			"border": "enzync-night",
 			"chara": ["sweet", 1, true],
-			"text": "...especially since you wanted to do all these things for me. But... Sour. Please listen to me."
+			"text": "...especially since you wanted to do all these things for me."
+		},
+		{
+			"background": "a4",
+			"border": "enzync-night",
+			"chara": ["sour", 0, true],
+			"text": "And now you already gotta head back home..."
+		},
+		{
+			"background": "a6",
+			"border": "enzync-night",
+			"chara": ["sweet", 1, true],
+			"text": "I know, I know, but... Sour. Please listen to me."
+		},
+		{
+			"background": "a6",
+			"border": "enzync-night",
+			"chara": ["sour", 0, true],
+			"text": "..."
 		},
 		{
 			"background": "a6",
@@ -261,7 +279,7 @@
 			"background": "a6",
 			"border": "enzync-night",
 			"chara": ["sour", 0, true],
-			"text": "...Sweet? "
+			"text": "...Sweet?"
 		},
 		{
 			"background": "a7",

@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageText;
 import flixel.group.FlxSpriteGroup;
 import flixel.FlxG;
 import flixel.FlxSprite;
@@ -43,7 +44,7 @@ class GalleryState extends MusicBeatState
 
 	var switchState:FlxSprite;
 	var artwork:FlxSprite;
-	var authorText:FlxText;
+	var authorText:LanguageText;
 	var arrows:FlxSpriteGroup;
 	var gallerybuttons:FlxSpriteGroup;
 	var returnSprite:FlxSprite;
@@ -96,11 +97,9 @@ class GalleryState extends MusicBeatState
 		switchState.antialiasing = ClientPrefs.globalAntialiasing;
 		add(switchState);
 
-		authorText = new FlxText(0, 0, FlxG.width, "", 35);
-		authorText.font = Paths.font("Krungthep.ttf");
+		authorText = new LanguageText(0, 0, FlxG.width, "", 35, 'krungthep');
 		authorText.setBorderStyle(OUTLINE, FlxColor.BLACK);
 		authorText.borderSize = 4;
-		authorText.antialiasing = ClientPrefs.globalAntialiasing;
 		artwork.alpha = 1;
 		add(authorText);
 
@@ -139,6 +138,7 @@ class GalleryState extends MusicBeatState
 		{
 			if (controls.BACK)
 			{
+				canPressButtons = false;
 				if (!inGallery)	MusicBeatState.switchState(new MainMenuState());
 				else	backtoSelector();
 

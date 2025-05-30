@@ -1,0 +1,178 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "SaucyIdle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			],
+			"name": "SaucyIdle"
+		},
+		{
+			"offsets": [
+				-5,
+				-71
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SaucyDown"
+		},
+		{
+			"offsets": [
+				95,
+				-25
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SaucyLeft"
+		},
+		{
+			"offsets": [
+				-100,
+				-28
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SaucyRight"
+		},
+		{
+			"offsets": [
+				-19,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SaucyUp"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				95,
+				-34
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "SaucyMissLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-105,
+				-28
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "SaucyMissRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				-87
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "SaucyMissDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				10
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "SaucyMissUp",
+			"indices": []
+		},
+		{
+			"offsets": [
+				105,
+				-4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "yeah",
+			"indices": [],
+			"name": "SaucyYeah"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Saucy",
+	"position": [
+		20,
+		80
+	],
+	"healthicon": "saucy",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		75,
+		115
+	],
+	"camera_position": [
+		30,
+		-30
+	],
+	"sing_duration": 5,
+	"scale": 1,
+	"noteskin": "Funkin'",
+	"healthbar_image": "saucy",
+	"musicNoteOffset": [0,0]
+}

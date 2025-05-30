@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageText;
 import Controls.Control;
 import flixel.FlxCamera;
 import flixel.FlxG;
@@ -29,14 +30,14 @@ class PauseSubState extends MusicBeatSubstate
 	var curSelected:Int = 0;
 
 	var pauseMusic:FlxSound;
-	var practiceText:FlxText;
-	var skipTimeText:FlxText;
+	var practiceText:LanguageText;
+	var skipTimeText:LanguageText;
 	var skipTimeTracker:Alphabet;
 	var pauseArt:FlxSprite;
 	
 	var curTime:Float = Math.max(0, Conductor.songPosition);
 	var canpressbuttons:Bool = false;
-	//var botplayText:FlxText;
+	//var botplayText:LanguageText;
 
 	public static var songName:String = '';
 
@@ -105,39 +106,40 @@ class PauseSubState extends MusicBeatSubstate
 		disk.angularVelocity = 50;
 		add(disk);
 
-		var levelInfo:FlxText = new FlxText(20, 15, 0, PlayState.hasMetadata ? PlayState.metadata.song.name : PlayState.SONG.song, 32);
-		levelInfo.antialiasing = ClientPrefs.globalAntialiasing;
-		levelInfo.setFormat(Paths.font("Krungthep.ttf"), 32);
+		var levelInfo:LanguageText = new LanguageText(20, 15, 0,
+			PlayState.hasMetadata ? PlayState.metadata.song.name : PlayState.SONG.song, 32, 'krungthep');
 		levelInfo.setBorderStyle(OUTLINE, 0xFF220B2B, 2, 1);
 		levelInfo.updateHitbox();
 		add(levelInfo);
 
-		var levelDifficulty:FlxText = new FlxText(20, 15 + 36, 0, (PlayState.hasMetadata ? PlayState.metadata.song.artist + " : Composer" : CoolUtil.difficultyString()), 32);
-		levelDifficulty.antialiasing = ClientPrefs.globalAntialiasing;
-		levelDifficulty.setFormat(Paths.font('Krungthep.ttf'), 20);
+		var text:String = (PlayState.hasMetadata && PlayState.metadata.song.artist != null) ? PlayState.metadata.song.artist + " : " + Language.option.get("pause_composer", "Composer") : 'N/A';
+
+		var levelDifficulty:LanguageText = new LanguageText(20, 15 + 36, 0,
+			(PlayState.hasMetadata ? text : CoolUtil.difficultyString()), 20, 'krungthep');
 		levelDifficulty.setBorderStyle(OUTLINE, 0xFF220B2B, 2, 1);
 		levelDifficulty.updateHitbox();
 		add(levelDifficulty);
 
-		var blueballedTxt:FlxText = new FlxText(20, 15 + 56, 0, (PlayState.hasMetadata && PlayState.metadata.song.charter != null ? PlayState.metadata.song.charter : "N/A") + " : Charter", 32);
-		blueballedTxt.antialiasing = ClientPrefs.globalAntialiasing;
-		blueballedTxt.setFormat(Paths.font('Krungthep.ttf'), 20);
+		text = " : " + Language.option.get("pause_charter", "Charter");
+
+		var blueballedTxt:LanguageText = new LanguageText(20, 15 + 56, 0,
+			(PlayState.hasMetadata && PlayState.metadata.song.charter != null ? PlayState.metadata.song.charter : "N/A") + text, 20, 'krungthep');
 		blueballedTxt.setBorderStyle(OUTLINE, 0xFF220B2B, 2, 1);
 		blueballedTxt.updateHitbox();
 		if (PlayState.hasMetadata && PlayState.metadata.song.charter != null)
 			add(blueballedTxt);
 
-		var pauseartTxt:FlxText = new FlxText(20, 15 + 76, 0, (PlayState.hasMetadata && PlayState.metadata.song.pauseartist != null ? PlayState.metadata.song.pauseartist : "N/A") + " : Pause Art", 32);
-		pauseartTxt.antialiasing = ClientPrefs.globalAntialiasing;
-		pauseartTxt.setFormat(Paths.font('Krungthep.ttf'), 20);
+		text = " : " + Language.option.get("pause_art", "Pause Art");
+
+		var pauseartTxt:LanguageText = new LanguageText(20, 15 + 76, 0,
+			(PlayState.hasMetadata && PlayState.metadata.song.pauseartist != null ? PlayState.metadata.song.pauseartist : "N/A") + text,
+			20, 'krungthep');
 		pauseartTxt.setBorderStyle(OUTLINE, 0xFF220B2B, 2, 1);
 		pauseartTxt.updateHitbox();
 		if (PlayState.hasMetadata && PlayState.metadata.song.pauseartist != null)
 			add(pauseartTxt);
 
-		practiceText = new FlxText(20, 15 + 101, 0, "PRACTICE MODE", 32);
-		practiceText.antialiasing = ClientPrefs.globalAntialiasing;
-		practiceText.setFormat(Paths.font('Krungthep.ttf'), 32);
+		practiceText = new LanguageText(20, 15 + 101, 0, Language.option.get('setting_practice_mode', 'Practice Mode').toUpperCase(), 32, 'krungthep');
 		practiceText.setBorderStyle(OUTLINE, 0xFF220B2B, 2, 1);
 		practiceText.x = FlxG.width - (practiceText.width + 20);
 		practiceText.updateHitbox();
@@ -508,8 +510,8 @@ class PMenuItem extends FlxSpriteGroup
 
 	var bg:FlxSprite;
 	var tinybg:FlxSprite;
-	var text:FlxText;
-	var skipTimeText:FlxText;
+	var text:LanguageText;
+	var skipTimeText:LanguageText;
 	public var hasSkipTime:Int = 0;
 	var curTime:Float = Math.max(0, Conductor.songPosition);
 
@@ -528,9 +530,8 @@ class PMenuItem extends FlxSpriteGroup
 			tinybg.antialiasing = ClientPrefs.globalAntialiasing;
 			add(tinybg);
 
-			skipTimeText = new FlxText(550, 20, 108, item, 30);
-			skipTimeText.setFormat(Paths.font("Krungthep.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-			skipTimeText.antialiasing = ClientPrefs.globalAntialiasing;
+			skipTimeText = new LanguageText(550, 20, 108, item, 30, 'krungthep');
+			skipTimeText.setStyle(FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 			skipTimeText.borderSize = 2;
 			add(skipTimeText);
 			if (item == 'Skip Time') updateSkipTimeText(curTime);
@@ -549,9 +550,8 @@ class PMenuItem extends FlxSpriteGroup
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
-		text = new FlxText(38, 20, 406, item, 50);
-		text.setFormat(Paths.font("Krungthep.ttf"), 50, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		text.antialiasing = ClientPrefs.globalAntialiasing;
+		text = new LanguageText(38, 20, 406, Language.option.get('pause_' + item, item), 50, 'krungthep');
+		text.setStyle(FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		text.borderSize = 4;
 		if (text.height > 80)
 		{

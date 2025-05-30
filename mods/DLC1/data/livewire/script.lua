@@ -1,4 +1,5 @@
 local newstime = false;
+local pulsetime = false;
 
 function onCreate()
 	posX = -0;
@@ -6,43 +7,16 @@ function onCreate()
 	scale = 1;
 
 	addHaxeLibrary('FlxBackdrop', 'flixel.addons.display');
-	
-	makeLuaSprite('SourBG', 'closeup/SourBG', -50, -0);
-	setScrollFactor('SourBG', 0, 0);
-	scaleObject('SourBG', 1.2, 1.2);
-	addLuaSprite('SourBG', false);
-	setProperty('SourBG.alpha', 0.0001);
-	setObjectCamera('SourBG', 'effect');
-	
-	makeLuaSprite('SweetBG', 'closeup/SweetBG', -50, -0);
-	setScrollFactor('SweetBG', 0, 0);
-	scaleObject('SweetBG', 1.2, 1.2);
-	addLuaSprite('SweetBG', false);
-	setProperty('SweetBG.alpha', 0.0001);
-	setObjectCamera('SweetBG', 'effect');
-	
-	makeLuaSprite('TangyBG', 'stages/livewire-extras/tangyBG', -0, -50);
-	setScrollFactor('TangyBG', 0, 0);
-	scaleObject('TangyBG', 1.2, 1.2);
-	addLuaSprite('TangyBG', false);
-	setProperty('TangyBG.alpha', 0.0001);
-	setObjectCamera('TangyBG', 'effect');
-    screenCenter('TangyBG');
 
-	makeLuaSprite('TangyBGAngryEnd', 'stages/livewire-extras/TangyAngryBG', -400, -250);
-	setScrollFactor('TangyBGAngryEnd', 0.3, 0.3);
-	scaleObject('TangyBGAngryEnd', 1.5, 1.5);
-	addLuaSprite('TangyBGAngryEnd', false);
-	setProperty('TangyBGAngryEnd.alpha', 0.0001);
-    screenCenter('TangyBGAngryEnd');
-	
-	makeLuaSprite('TangyBGAngry', 'stages/livewire-extras/TangyAngryBG', -0, -0);
-	setScrollFactor('TangyBGAngry', 0, 0);
-	scaleObject('TangyBGAngry', 1.2, 1.2);
-	addLuaSprite('TangyBGAngry', false);
-	setProperty('TangyBGAngry.alpha', 0.0001);
-	setObjectCamera('TangyBGAngry', 'effect');
-    screenCenter('TangyBGAngry');
+	makeAnimatedLuaSprite('CoolEffects', 'stages/livewire-extras/BGIntroEffects', 0, 0);
+	addAnimationByPrefix('CoolEffects', 'idle', 'BGEffects', 24, true);
+	playAnim('CoolEffects', 'idle');
+	scaleObject('CoolEffects', 1.2, 1.2);
+	setScrollFactor('CoolEffects', 0, 0);
+	addLuaSprite('CoolEffects', false);
+	setProperty('CoolEffects.alpha', 0.0001);
+	setObjectCamera('CoolEffects', 'effect');
+    screenCenter('CoolEffects');
 
 	makeAnimatedLuaSprite('intro1', 'stages/livewire-extras/SourIntro', posX - 100, posY);
 	addAnimationByPrefix('intro1', 'idle', 'SourIntro', 24, false);
@@ -73,6 +47,14 @@ function onCreate()
 	addLuaSprite('intro4', false);
 	setObjectCamera('intro4', 'effect')
 	setProperty('intro4.alpha', 0.0001);
+	
+	makeAnimatedLuaSprite('intro5', 'stages/livewire-extras/TangyIntro3', -94, -180);
+	addAnimationByPrefix('intro5', 'idle', 'TangyIntroEnd', 24, false);
+	setScrollFactor('intro5', 0, 0);
+	scaleObject('intro5', 1.2, 1.2);
+	addLuaSprite('intro5', false);
+	setObjectCamera('intro5', 'effect')
+	setProperty('intro5.alpha', 0.0001);
 
 	makeLuaSprite('CutinBG', 'stages/livewire-extras/cutinBG', -0, -0);
 	setScrollFactor('CutinBG', 0, 0);
@@ -145,21 +127,11 @@ function onCreate()
 
 	makeAnimatedLuaSprite('TangyCutin', 'stages/livewire-extras/TangyCutin', -300, 402);
 	addAnimationByPrefix('TangyCutin', 'idle', 'TangyCutin1', 24, true);
-	playAnim('TangyCutin', 'idle');
+	playAnim('TangyCutin', 'idle', true);
 	setScrollFactor('TangyCutin', 0, 0);
 	addLuaSprite('TangyCutin', false);
 	setObjectCamera('TangyCutin', 'effect')
 	setProperty('TangyCutin.alpha', 0.0001);
-
-	makeAnimatedLuaSprite('CoolEffects', 'stages/livewire-extras/BGIntroEffects', 0, 0);
-	addAnimationByPrefix('CoolEffects', 'idle', 'BGEffects', 24, false);
-	playAnim('CoolEffects', 'idle');
-	scaleObject('CoolEffects', 1.2, 1.2);
-	setScrollFactor('CoolEffects', 0, 0);
-	addLuaSprite('CoolEffects', false);
-	setObjectCamera('CoolEffects', 'effect')
-	setProperty('CoolEffects.alpha', 0.0001);
-    screenCenter('CutinBG');
 
 	makeAnimatedLuaSprite('Cut1', 'stages/livewire-extras/Cutscene/HatThrow', 256, 0);
 	addAnimationByPrefix('Cut1', 'idle', 'HatThrow', 24, false);
@@ -223,6 +195,21 @@ function onCreate()
 	addLuaSprite('leftygrabbed', false);
 	setProperty('leftygrabbed.alpha', 0.0001);
 
+	makeLuaSprite('greenscreen', '', -100, -100);
+    makeGraphic('greenscreen', 1280*2, 720*2, 'A3FF49');
+    setScrollFactor('greenscreen', 0, 0);
+    screenCenter('greenscreen');
+	setObjectCamera('greenscreen', 'effect');
+	setProperty('greenscreen.alpha', 0.0001);
+	addLuaSprite('greenscreen', false);
+
+	makeLuaSprite('Pulse', 'stages/livewire-extras/bgpulse', -0, -0);
+	setScrollFactor('Pulse', 0, 0);
+	scaleObject('Pulse', 1.25, 1.25);
+	addLuaSprite('Pulse', false);
+	setProperty('Pulse.alpha', 0.0001);
+    screenCenter('Pulse');
+
 	makeLuaSprite('coolborder', 'stages/livewire-extras/coolborder', -0, -0);
 	setScrollFactor('coolborder', 0, 0);
 	addLuaSprite('coolborder', false);
@@ -236,6 +223,14 @@ function onCreate()
     screenCenter('dramablack');
 	setProperty('dramablack.alpha', 0.0001);
 	addLuaSprite('dramablack', false);
+
+	makeAnimatedLuaSprite('TTBB', 'stages/livewire-extras/TTBB', 0, 0);
+	addAnimationByPrefix('TTBB', 'idle', 'TTBB', 24, false);
+	setScrollFactor('TTBB', 0, 0);
+	addLuaSprite('TTBB', true);
+    screenCenter('TTBB');
+	setObjectCamera('TTBB', 'effect')
+	setProperty('TTBB.alpha', 0.0001);
 
 	makeLuaSprite('black', '', -100, -100);
     makeGraphic('black', 1280*2, 720*2, '000000');
@@ -253,12 +248,20 @@ function onCreatePost()
 	stageType(1);
 	
 	if not opponentPlay and isStoryMode then
-		setProperty('isFakeout', true)
+		setProperty('resultType', 'fakeout')
 	end
 end
 
-function onStepHit()
-	if curStep == 1 then
+function onStartCountdown()
+	playAnim('TangyCutin', 'idle', true); --Normalize her eye turn thignie for both story and freeplay
+end
+
+function thingie(num)
+	num = tonumber(num)
+	if num == 1 then
+		setProperty('gf.alpha', 0.001);
+		setProperty('dad.alpha', 0.001);
+		setProperty('boyfriend.alpha', 0.001);
 		doTweenY('diskY', 'disk', 1000, 1, "quadInOut");
 		doTweenAlpha('black', 'black', 0.0001, 0.5);
 		setProperty('intro1.alpha', 1);
@@ -267,10 +270,10 @@ function onStepHit()
 		setProperty('SourBG.alpha', 1);
 		runTimer('cutscene1', 0.01);
 	end
-	if curStep == 24 then
+	if num == 24 then
 		doTweenAlpha('black', 'black', 1, 0.7);
 	end
-	if curStep == 32 then
+	if num == 32 then
 		setProperty('intro1.alpha', 0.0001);
 		doTweenAlpha('black', 'black', 0.0001, 0.5);
 		setProperty('SourBG.alpha', 0.0001);
@@ -280,10 +283,10 @@ function onStepHit()
 		doTweenX('SweetBGX', 'SweetBG', 25, 6);
 		runTimer('cutscene2', 0.01);
 	end
-	if curStep == 56 then
+	if num == 56 then
 		doTweenAlpha('black', 'black', 1, 0.7);
 	end
-	if curStep == 64 then
+	if num == 64 then
 		setProperty('intro2.alpha', 0.0001);
 		doTweenAlpha('black', 'black', 0.0001, 0.5);
 		setProperty('SweetBG.alpha', 0.0001);
@@ -293,24 +296,44 @@ function onStepHit()
 		doTweenY('TangyBGY', 'TangyBG', 50, 3);
 		runTimer('cutscene3', 0.01);
 	end
-	if curStep == 88 then
+	if num == 88 then
 		doTweenAlpha('black', 'black', 1, 0.7);
 	end
-	if curStep == 96 then
+	if num == 96 then
 		setProperty('intro3.alpha', 0.0001);
 		doTweenAlpha('black', 'black', 0.0001, 0.5);
 		setProperty('intro4.alpha', 1);
 		runTimer('cutscene4', 0.01);
 	end
-	if curStep == 116 then
+	if num == 116 then
 		setProperty('TangyBG.alpha', 0.0001);
 		setProperty('intro4.alpha', 0.0001);
 		setProperty('black.alpha', 1);
 	end
-	if curStep == 120 then
+	if num == 120 then
+		setProperty('greenscreen.alpha', 1);
+		doTweenAlpha('greenscreen', 'greenscreen', 0.0001, 0.8);
+		setProperty('black.alpha', 0.0001);
+		setProperty('CoolEffects.alpha', 1);
+		setProperty('TangyBGAngry.alpha', 1);
+		setProperty('intro5.alpha', 1);
+		runTimer('cutscene5', 0.01);
+	end
+	if num == 132 then
+		setProperty('black.alpha', 1);
+		setProperty('gf.alpha', 1);
+		setProperty('dad.alpha', 1);
+		setProperty('boyfriend.alpha', 1);
+		setProperty('greenscreen.alpha', 1);
+		setProperty('intro5.alpha', 0.0001);
+		doTweenAlpha('greenscreen', 'greenscreen', 0.0001, 0.8);
+		setProperty('CoolEffects.alpha', 0.001);
+		setProperty('TangyBGAngry.alpha', 0.001);
+	end
+	if num == 136 then
 		setProperty('black.alpha', 0.0001);
 	end
-	if curStep == 384 then
+	if num == 384 then
 		setProperty('black.alpha', 1);
 		setProperty('leftlight.alpha', 0.0001);
 		setProperty('rightlight.alpha', 0.0001);
@@ -319,7 +342,7 @@ function onStepHit()
 		doTweenY('city1Y', 'city1', 0, 3, "quadInOut");
 		doTweenY('city2Y', 'city2', 0, 3, "quadInOut");
 	end
-	if curStep == 394 then
+	if num == 394 then
 		setProperty('CutinBG.alpha', 1);
 		setProperty('city1.alpha', 1);
 		setProperty('city2.alpha', 1);
@@ -329,19 +352,19 @@ function onStepHit()
 		setProperty('dad.alpha', 0.0001);
 		doTweenAlpha('black', 'black', 0.0001, 4);
 	end
-	if curStep == 402 then
+	if num == 402 then
 		doTweenAlpha('TangyCutin', 'TangyCutin', 1, 2, "quadInOut");
 		doTweenX('TangyCutinX', 'TangyCutin', -12, 3, "quadInOut");
 	end
-	if curStep == 448 then
+	if num == 448 then
 		doTweenAlpha('SourCutin', 'SourCutin', 1, 2, "quadInOut");
 		doTweenX('SourCutinX', 'SourCutin', 631, 3, "quadInOut");
 	end
-	if curStep == 504 then
+	if num == 504 then
 		doTweenX('SourCutinX', 'SourCutin', 1431, 1, "quadInOut");
 		doTweenX('TangyCutinX', 'TangyCutin', -800, 1, "quadInOut");
 	end
-	if curStep == 512 then
+	if num == 512 then
 		setProperty('TangyCutin.alpha', 0.0001);
 		setProperty('SourCutin.alpha', 0.0001);
 		doTweenAlpha('TangyDrama', 'TangyDrama', 1, 2, "quadInOut");
@@ -349,10 +372,10 @@ function onStepHit()
 		doTweenAlpha('SourDrama', 'SourDrama', 1, 2, "quadInOut");
 		doTweenX('SourDramaX', 'SourDrama', 720, 4.5, "quadInOut");
 	end
-	if curStep == 554 then
+	if num == 554 then
 		doTweenY('diskY', 'disk', 100, 2, "quadInOut");
 	end
-	if curStep == 640 then
+	if num == 640 then
 		newstime = true
 		setProperty('CutinBG.alpha', 0.0001);
 		setProperty('city1.alpha', 0.0001);
@@ -374,11 +397,29 @@ function onStepHit()
 		setProperty('barTop.alpha', 0.0001);
 		setProperty('barBottom.alpha', 0.0001);
 	end
-	if curStep == 1168 then
+	if num == 896 then
+		doTweenX('TTBBqX', 'TTBB.scale', 1.1, 2, "quadInOut");
+		doTweenY('TTBBwY', 'TTBB.scale', 1.1, 2, "quadInOut");
+		runTimer('SFIV', 0.001);
+		setProperty('TTBB.alpha', 1);
+		setProperty('TangyBG.alpha', 1);
+	end
+	if num == 920 then
+		setProperty('TangyBG.alpha', 0.0001);
+		setProperty('greenscreen.alpha', 0.8);
+		doTweenAlpha('greenscreen', 'greenscreen', 0.0001, 0.8);
+		setProperty('TTBB.alpha', 0.0001);
+	end
+	if num == 1152 then
+		setProperty('defaultCamZoom', 0.9);
+		stageType(0);
+	end
+	if num == 1168 then
 		setProperty('black.alpha', 1);
+		setProperty('TangyBGAngryEnd.alpha', 0.0001);
 		setProperty('coolborder.alpha', 0.0001);
 	end
-	if curStep == 1180 then
+	if num == 1180 then
 		doTweenAlpha('camHUD', 'camHUD', 0.0001, 0.5);
 		setProperty('TangyBGAngry.y', -50);
 		setProperty('TangyBGAngry.alpha', 1);
@@ -386,26 +427,26 @@ function onStepHit()
 		playAnim('Cut1', 'idle');
 		setProperty('Cut1.alpha', 1);
 	end
-	if curStep == 1200 then
+	if num == 1200 then
 		playAnim('Cut2', 'idle');
 		setProperty('Cut1.alpha', 0.0001);
 		setProperty('Cut2.alpha', 1);
 	end
-	if curStep == 1232 then
+	if num == 1232 then
 		playAnim('Cut3', 'idle');
 		setProperty('Cut2.alpha', 0.0001);
 		setProperty('Cut3.alpha', 1);
 	end
-	if curStep == 1264 then
+	if num == 1264 then
 		playAnim('Cut4', 'idle');
 		setProperty('Cut3.alpha', 0.0001);
 		setProperty('Cut4.alpha', 1);
 	end
-	if curStep == 1280 then
+	if num == 1280 then
 		newstime = false
 		doTweenAlpha('camHUD', 'camHUD', 1, 1);
 	end
-	if curStep == 1296 then
+	if num == 1296 then
 		doTweenColor('building-cool', 'building-cool', '00f5be', '0.8', 'linear')
 		doTweenColor('backcity-cool', 'backcity-cool', '09d2ff', '0.4', 'linear')
 		doTweenColor('Sky-cool', 'Sky-cool', '1c29cc ', '0.2', 'linear')
@@ -416,40 +457,52 @@ function onStepHit()
 		setProperty('barBottom.alpha', 1);
 		stageType(2);
 	end
-	if curStep == 1552 then
+	if num == 1551 then
+		setObjectCamera('CoolEffects', 'hueh');
 		newsBeatSpeed = 4;
+		pulsetime = true
 	end
-	if curStep == 1792 then
+	if num == 1680 then
+		setProperty('greenscreen.alpha', 1);
+		doTweenAlpha('greenscreen', 'greenscreen', 0.0001, 0.8);
+		setProperty('CoolEffects.alpha', 1);
+		setProperty('TangyBGAngryEnd.alpha', 1);
+	end
+	if num == 1792 then
+		pulsetime = false
+		doTweenAlpha('CoolEffects', 'CoolEffects', 0.0001, 0.2);
 		doTweenY('barTop', 'barTop', -102, 0.25, "circinout");
 		doTweenY('barBottom', 'barBottom', 822, 0.25, "circinout");
 	end
-	if curStep == 1808 then
+	if num == 1808 then
 		doTweenY('barTop', 'barTop', -40, 0.25, "circinout");
 		doTweenY('barBottom', 'barBottom', 668, 0.25, "circinout");
+		setProperty('TangyBGAngryEnd.alpha', 0.0001);
 		setProperty('coolborder.alpha', 1);
 		setProperty('black.alpha', 1);
 		setProperty('CutinBG.alpha', 1);
 		setProperty('city1.alpha', 1);
 		setProperty('city2.alpha', 1);
 	end
-	if curStep == 1824 then
+	if num == 1824 then
 		doTweenAlpha('black', 'black', 0.0001, 4);
 	end
-	if curStep == 1842 then
+	if num == 1842 then
 		doTweenAlpha('End1A', 'End1', 1, 1);
 		doTweenX('End1X', 'End1', 80, 20);
 	end
-	if curStep == 1872 then
+	if num == 1872 then
 		doTweenAlpha('End1A', 'End1', 0.0001, 1);
 		doTweenAlpha('End2A', 'End2', 1, 1);
 		doTweenX('End2X', 'End2', 80, 20);
 	end
-	if curStep == 1912 then
+	if num == 1912 then
 		doTweenAlpha('End2A', 'End2', 0.0001, 1);
 		doTweenAlpha('End3A', 'End3', 1, 1);
 		doTweenX('End3X', 'End3', 80, 20);
 	end
-	if curStep == 1936 then
+	if num == 1936 then
+		doTweenX('CoolEffects', 'CoolEffects', -520, 1);
 		doTweenY('barTop', 'barTop', -102, 0.25, "circinout");
 		doTweenY('barBottom', 'barBottom', 822, 0.25, "circinout");
 		setProperty('End3.alpha', 0.0001);
@@ -459,13 +512,23 @@ function onStepHit()
 		setProperty('TangyBGAngryEnd.alpha', 1);
 		stageType(3);
 	end
-	if curStep == 2128 then
+	if num == 2064 then
+		setProperty('camFollow.x', 262);
+		setProperty('camFollow.y', 0);
+		scaleObject('CoolEffects', 1.5, 1.5);
+		setProperty('CoolEffects.alpha', 1);
+		setProperty('isCameraOnForcedPos', true);
+	end
+	if num == 2128 then
 		setProperty('black.alpha', 1);
 		setProperty('camHUD.alpha', 0.0001);
 	end
 end
 
 function onTimerCompleted(tag, loops, loopsLeft)
+	if tag == 'SFIV' then
+		playAnim('TTBB', 'idle');
+	end
 	if tag == 'cutscene1' then
 		playAnim('intro1', 'idle');
 	end
@@ -477,6 +540,9 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	end
 	if tag == 'cutscene4' then
 		playAnim('intro4', 'idle');
+	end
+	if tag == 'cutscene5' then
+		playAnim('intro5', 'idle');
 	end
 end
 
@@ -593,5 +659,9 @@ function onBeatHit()
 			danced = true;
 			playAnim('news', 'paper2');
 		end
+	end
+	if curBeat % 1 == 0 and pulsetime then
+		setProperty('Pulse.alpha', 1);
+		doTweenAlpha('Pulse', 'Pulse', 0.00001, 0.5);
 	end
 end

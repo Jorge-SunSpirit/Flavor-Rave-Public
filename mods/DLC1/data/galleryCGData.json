@@ -26,12 +26,6 @@
 			"songCheck": "Livewire"
 		},
 		{
-			"image": "a5",
-			"caption": "CGs - Livewire",
-			"artist": "Hisa",
-			"songCheck": "Livewire"
-		},
-		{
 			"image": "a6",
 			"caption": "CGs - Livewire",
 			"artist": "Hisa",
@@ -68,6 +62,102 @@
 			"songCheck": "Livewire"
 		},
 		{
+			"image": "b1",
+			"caption": "CGs - Lodestar Shanty",
+			"artist": "Amai Hisa",
+			"songCheck": "Lodestar Shanty"
+		},
+		{
+			"image": "a5",
+			"caption": "CGs - Lodestar Shanty",
+			"artist": "Amai Hisa",
+			"songCheck": "Lodestar Shanty"
+		},
+		{
+			"image": "b2",
+			"caption": "CGs - Lodestar Shanty",
+			"artist": "Amai Hisa",
+			"songCheck": "Lodestar Shanty"
+		},
+		{
+			"image": "b3",
+			"caption": "CGs - Lodestar Shanty",
+			"artist": "Amai Hisa",
+			"songCheck": "Lodestar Shanty"
+		},
+		{
+			"image": "b4",
+			"caption": "CGs - Lodestar Shanty",
+			"artist": "Amai Hisa",
+			"songCheck": "Lodestar Shanty"
+		},
+		{
+			"image": "b5",
+			"caption": "CGs - Lodestar Shanty",
+			"artist": "Amai Hisa",
+			"songCheck": "Lodestar Shanty"
+		},
+		{
+			"image": "d1",
+			"caption": "CGs - ¡Carrera Loca!",
+			"artist": "Space Dust",
+			"songCheck": "Carrera Loca"
+		},
+		{
+			"image": "d2",
+			"caption": "CGs - ¡Carrera Loca!",
+			"artist": "Space Dust",
+			"songCheck": "Carrera Loca"
+		},
+		{
+			"image": "d3",
+			"caption": "CGs - ¡Carrera Loca!",
+			"artist": "Space Dust",
+			"songCheck": "Carrera Loca"
+		},
+		{
+			"image": "d4",
+			"caption": "CGs - ¡Carrera Loca!",
+			"artist": "Space Dust",
+			"songCheck": "Carrera Loca"
+		},
+		{
+			"image": "d5",
+			"caption": "CGs - ¡Carrera Loca!",
+			"artist": "Space Dust",
+			"songCheck": "Carrera Loca"
+		},
+		{
+			"image": "s1",
+			"caption": "CGs - Stirring",
+			"artist": "Space Dust",
+			"songCheck": "Stirring"
+		},
+		{
+			"image": "s2",
+			"caption": "CGs - Stirring",
+			"artist": "Space Dust",
+			"songCheck": "Stirring"
+		},
+		{
+			"image": "s3",
+			"caption": "CGs - Stirring",
+			"artist": "Space Dust",
+			"songCheck": "Stirring"
+		},
+		{
+			"image": "s4",
+			"caption": "CGs - Stirring",
+			"artist": "Space Dust",
+			"songCheck": "Stirring"
+		},
+		{
+			"image": "s5",
+			"caption": "CGs - Stirring",
+			"artist": "Space Dust",
+			"songCheck": "Stirring"
+		},
+		{
 			"image": "c1",
 			"caption": "CGs - Fubuki",
 			"artist": "Space Dust",
@@ -96,6 +186,54 @@
 			"caption": "CGs - Fubuki",
 			"artist": "Space Dust",
 			"songCheck": "Fubuki"
+		},
+		{
+			"image": "z1",
+			"caption": "CGs - That's a Wrap!",
+			"artist": "Amai Hisa",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"image": "z2",
+			"caption": "CGs - That's a Wrap!",
+			"artist": "Amai Hisa",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"image": "z3",
+			"caption": "CGs - That's a Wrap!",
+			"artist": "Amai Hisa",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"image": "z4",
+			"caption": "CGs - That's a Wrap!",
+			"artist": "Amai Hisa",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"image": "z5",
+			"caption": "CGs - That's a Wrap!",
+			"artist": "Amai Hisa",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"image": "z6",
+			"caption": "CGs - That's a Wrap!",
+			"artist": "Amai Hisa",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"image": "z7",
+			"caption": "CGs - That's a Wrap!",
+			"artist": "Amai Hisa",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"image": "z8",
+			"caption": "CGs - That's a Wrap!",
+			"artist": "Amai Hisa",
+			"songCheck": "That's a Wrap"
 		}
 	]
 }

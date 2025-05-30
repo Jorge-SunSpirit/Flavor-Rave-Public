@@ -88,6 +88,11 @@
 						"Change Camera Bump frequency",
 						"8",
 						"1.2"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"512"
 					]
 				]
 			],
@@ -157,12 +162,47 @@
 				]
 			],
 			[
+				101953.125,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"870"
+					]
+				]
+			],
+			[
+				102421.875,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"874"
+					]
+				]
+			],
+			[
+				102890.625,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"878"
+					]
+				]
+			],
+			[
 				103125,
 				[
 					[
 						"Change Camera Bump frequency",
 						"4",
 						"1.2"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"880"
 					]
 				]
 			],
@@ -208,6 +248,11 @@
 						"Change Camera Bump frequency",
 						"8",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"912"
 					]
 				]
 			],
@@ -263,6 +308,36 @@
 						"Change Camera Bump frequency",
 						"16",
 						"1"
+					]
+				]
+			],
+			[
+				135351.5625,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1155"
+					]
+				]
+			],
+			[
+				136523.4375,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1165"
+					]
+				]
+			],
+			[
+				138867.1875,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1185"
 					]
 				]
 			]

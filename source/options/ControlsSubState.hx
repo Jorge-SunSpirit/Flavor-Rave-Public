@@ -63,8 +63,8 @@ class ControlsSubState extends MusicBeatSubstate {
 	];
 
 	private var grpOptions:FlxTypedGroup<Alphabet>;
-	private var grpInputs:Array<AttachedText> = [];
-	private var grpInputsAlt:Array<AttachedText> = [];
+	private var grpInputs:Array<AttachedAlphaText> = [];
+	private var grpInputsAlt:Array<AttachedAlphaText> = [];
 	var rebindingKey:Bool = false;
 	var nextAccept:Int = 5;
 
@@ -84,7 +84,17 @@ class ControlsSubState extends MusicBeatSubstate {
 				isCentered = true;
 			}
 
-			var optionText:Alphabet = new Alphabet(200, 300, optionShit[i][0], true);
+			var langKey:String = '';
+			if(isCentered) {
+				langKey = 'keygroup_' + optionShit[i][0];
+			}
+			else {
+				langKey = 'key_' + optionShit[i][1];
+			}
+
+			langKey = Language.option.get(langKey, optionShit[i][0]);
+
+			var optionText:Alphabet = new Alphabet(200, 300, langKey, true);
 			optionText.isMenuItem = true;
 			if(isCentered) {
 				optionText.screenCenter(X);
@@ -277,13 +287,13 @@ class ControlsSubState extends MusicBeatSubstate {
 
 	private function addBindTexts(optionText:Alphabet, num:Int) {
 		var keys:Array<Dynamic> = ClientPrefs.keyBinds.get(optionShit[num][1]);
-		var text1 = new AttachedText(InputFormatter.getKeyName(keys[0]), 400, -10, true);
+		var text1 = new AttachedAlphaText(InputFormatter.getKeyName(keys[0]), 400, -10, true);
 		text1.setPosition(optionText.x + 400, optionText.y - 55);
 		text1.sprTracker = optionText;
 		grpInputs.push(text1);
 		add(text1);
 
-		var text2 = new AttachedText(InputFormatter.getKeyName(keys[1]), 700, -10, true);
+		var text2 = new AttachedAlphaText(InputFormatter.getKeyName(keys[1]), 700, -10, true);
 		text2.setPosition(optionText.x + 650, optionText.y - 55);
 		text2.sprTracker = optionText;
 		grpInputsAlt.push(text2);
@@ -292,13 +302,13 @@ class ControlsSubState extends MusicBeatSubstate {
 
 	function reloadKeys() {
 		while(grpInputs.length > 0) {
-			var item:AttachedText = grpInputs[0];
+			var item:AttachedAlphaText = grpInputs[0];
 			item.kill();
 			grpInputs.remove(item);
 			item.destroy();
 		}
 		while(grpInputsAlt.length > 0) {
-			var item:AttachedText = grpInputsAlt[0];
+			var item:AttachedAlphaText = grpInputsAlt[0];
 			item.kill();
 			grpInputsAlt.remove(item);
 			item.destroy();

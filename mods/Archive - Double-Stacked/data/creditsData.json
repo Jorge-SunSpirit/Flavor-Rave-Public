@@ -1,0 +1,41 @@
+{
+	"peeps": [
+		{
+			"realName": "Zonian",
+			"iconName": "zonian",
+			"description": "Sprite Artist",
+			"color": [96,237,40],
+			"whichrole": "Guest Artists"
+		},
+		{
+			"realName": "Double-Stacked",
+			"iconName": "rhythmrobo",
+			"description": "Composed by HighPoweredKeyz ft. DatDavi",
+			"color": [45,250,100],
+			"whichrole": "Music"
+		},
+		{
+			"realName": "Carimelle",
+			"iconName": "Carimelle",
+			"description": "Voice of Tioda",
+			"color": [203,89,255],
+			"twitter": "https://twitter.com/carimellevo",
+			"whichrole": "Voices"
+		},
+		{
+			"realName": "Bel Rusape Jr.",
+			"iconName": "Bel",
+			"description": "Voice of Pyroller",
+			"color": [59,55,120],
+			"twitter": "https://twitter.com/BelRusapeVO",
+			"whichrole": "Voices"
+		},
+		{
+			"realName": "Tioda & Pyroller",
+			"iconName": "rhythmrobo",
+			"description": "Rhythm Robo / Vs. Tioda\n(Zonian, EnigmaticQube, & Team TBD)",
+			"color": [39,232,43],
+			"whichrole": "Cameos"
+		}
+	]
+}

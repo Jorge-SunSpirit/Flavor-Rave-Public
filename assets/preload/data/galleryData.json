@@ -34,7 +34,7 @@
 		{
 			"image": "makeship",
 			"caption": "PROMO - Makeship Sweet Plush Art",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa"
 		},
 		{
@@ -266,13 +266,13 @@
 		{
 			"image": "sweeteye2",
 			"caption": "EXTRAS - Sweet's Other Eye",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa"
 		},
 		{
 			"image": "stoicsmoky",
 			"caption": "EXTRAS - Smoky Render",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Wasabi"
 		},
@@ -306,109 +306,109 @@
 		{
 			"image": "hisacasual",
 			"caption": "EXTRAS - Chill n' Casual",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa"
 		},
 		{
 			"image": "hisalavender",
 			"caption": "EXTRAS - Lovely and Lavender",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa"
 		},
 		{
 			"image": "hisashow",
 			"caption": "EXTRAS - The Greatest, Showman",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa"
 		},
 		{
 			"image": "hisamidnight",
 			"caption": "EXTRAS - Man of the Shadows",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Tres Leches"
 		},
 		{
 			"image": "hisaglow",
 			"caption": "EXTRAS - Contrast",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Tres Leches"
 		},
 		{
 			"image": "hisahair",
 			"caption": "EXTRAS - Hair Stylin'",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Tres Leches"
 		},
 		{
 			"image": "hisacousins",
 			"caption": "EXTRAS - Cool Cousins",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Applewood"
 		},
 		{
 			"image": "hisaumami",
 			"caption": "EXTRAS - Afternoon Vibe",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Applewood"
 		},
 		{
 			"image": "hisaselfie",
 			"caption": "EXTRAS - Picture Perfect",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Caramelize"
 		},
 		{
 			"image": "hisafans",
 			"caption": "EXTRAS - Passionate Fans",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Wasabi"
 		},
 		{
 			"image": "hisawasabi",
 			"caption": "EXTRAS - Shadow Manifest",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Wasabi"
 		},
 		{
 			"image": "hisaflavor",
 			"caption": "EXTRAS - Fast Friends",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Flavorscape"
 		},
 		{
 			"image": "hisahangout",
 			"caption": "EXTRAS - Girls' Hangout",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Flavorscape"
 		},
 		{
 			"image": "hisasoda",
 			"caption": "EXTRAS - Post-Shift Soda",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
-			"songCheck": "Double-Stacked"
+			"songCheck": "Applewood"
 		},
 		{
 			"image": "hisaheartstrings",
 			"caption": "EXTRAS - Sunset Dance",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "Heartstrings"
 		},
 		{
 			"image": "hisasynsun",
 			"caption": "EXTRAS - Stream Team",
-			"artist": "Hisa",
+			"artist": "Amai Hisa",
 			"url": "https://x.com/AmaiHisa",
 			"songCheck": "n0.pressur3.temp"
 		},
@@ -417,6 +417,12 @@
 			"caption": "FANART - Resting on Clouds",
 			"artist": "JChearts",
 			"url": "https://x.com/jc_hearts"
+		},
+		{
+			"image": "hittingthat",
+			"caption": "FANART - He's hitting that pose.",
+			"artist": "Space Dust",
+			"url": "https://x.com/SPACEE_DUST_"
 		},
 		{
 			"image": "sweethand",
@@ -528,10 +534,23 @@
 			"songCheck": "Caramelize"
 		},
 		{
+			"image": "valentine",
+			"caption": "FANART - For Sour",
+			"artist": "Emeruga",
+			"url": "https://x.com/Emeruga"
+		},
+		{
 			"image": "cocosun",
 			"caption": "FANART - Silly Streamer",
-			"artist": "Cocopuffs",
+			"artist": "Mochoco",
 			"url": "https://x.com/cocopuffswow"
+		},
+		{
+			"image": "writing",
+			"caption": "FANART - She may be cooking...",
+			"artist": "Mochoco",
+			"url": "https://x.com/cocopuffswow",
+			"songCheck": "Caramelize"
 		},
 		{
 			"image": "flavorrain",
@@ -563,6 +582,30 @@
 			"artist": "Marzipan",
 			"url": "https://x.com/Marzipan_4",
 			"songCheck": "Wasabi"
+		},
+		{
+			"image": "stanmoon1",
+			"caption": "COMIC - Stan & Moon 1",
+			"artist": "Amai Hisa",
+			"url": "https://x.com/AmaiHisa"
+		},
+		{
+			"image": "stanmoon2",
+			"caption": "COMIC - Stan & Moon 2",
+			"artist": "Amai Hisa",
+			"url": "https://x.com/AmaiHisa"
+		},
+		{
+			"image": "stanmoon3",
+			"caption": "COMIC - Stan & Moon 3",
+			"artist": "Amai Hisa",
+			"url": "https://x.com/AmaiHisa"
+		},
+		{
+			"image": "kyle",
+			"caption": "EXTRAS - Koolest Guy Around",
+			"artist": "Nayyco",
+			"url": "https://twitter.com/nayyco"
 		}
 	]
 }

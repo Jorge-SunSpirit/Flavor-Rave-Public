@@ -1,0 +1,60 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "...you mean downtown Enzync City? 'The Leftovers' is just a rude nickname people gave to that part of the city.",
+			"animation": "sad",
+			"chara": "sun"
+		},
+		{
+			"text": "At this point, everybody just calls the downtown area The Leftovers, even the people who live there.",
+			"chara": "syn"
+		},
+		{
+			"text": "I hate calling it that. It feels so... disingenuous to everyone who lives there. ",
+			"chara": "sun"
+		},
+		{
+			"text": "It can't be helped. That's the one piece of the city they don't put that much effort into looking nice.",
+			"animation": "sad",
+			"chara": "syn",
+			"sound" : "well"
+		},
+		{
+			"text": "Once this city became 'Culture Capital No.1', it didn't make sense for city officials to appease those who cannot afford 'culture'.",
+			"chara": "syn"
+		},
+		{
+			"text": "I think they're hoping the residents will either just buy one of the nicer apartments here in the main part of the city or leave entirely with how little they put into maintaining it.",
+			"animation": "quiet",
+			"chara": "sun"
+		},
+		{
+			"text": "I love this city a lot, but... that mindset from the people running this place...",
+			"chara": "sun"
+		},
+		{
+			"text": "...to be frank, its disgusting.",
+			"chara": "sun"
+		},
+		{
+			"text": "A lot of my friends from the Robotics Club lived in the downtown area. They're the same people who helped bring you to life, Syn...",
+			"animation": "blush",
+			"chara": "sun",
+			"sound" : "grumble"
+		},
+		{
+			"text": "Stuff like this is probably why they all moved away when school was over...",
+			"chara": "sun"
+		},
+		{
+			"text": "Lots of folks are still living there, though I doubt we’ll see it get any improvements anytime soon.",
+			"animation": "sad",
+			"chara": "syn"
+		},
+		{
+			"text": "It's a cheap place and still gives you close access to everything here in the city, but it's bare minimum living.",
+			"chara": "syn"
+		}
+	]
+}

@@ -4,7 +4,8 @@
 			"name": "Cranberry Pop-FC",
 			"fancyName": "Pop 'til You Drop",
 			"unlockCondition": "Achieve a Full Combo on Cranberry Pop",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "My showroom's bookings are a fickle task to manage with so many performers lining up. Things were particularly booked when those two applied, so I had a little idea...",
+			"showmanEmote": "think",
 			"hidden": false,
 			"icon": "default"
 		},
@@ -12,7 +13,8 @@
 			"name": "Rockcandy-FC",
 			"fancyName": "Genre-Colliding Beats",
 			"unlockCondition": "Achieve a Full Combo on Rockcandy",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "Even when they weren't working together, they made such a strong impression. This is when I truly knew my secret little strategy paid off, ahaha!",
+			"showmanEmote": "normal",
 			"hidden": false,
 			"icon": "default"
 		},
@@ -20,7 +22,8 @@
 			"name": "TIMESHOCK!-FC",
 			"fancyName": "Ready to RAVE?",
 			"unlockCondition": "Achieve a Full Combo on TIMESHOCK!",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "What a spectacle that was! I don't typically get this excited for performances, but even I was out of my seat! The passion! The bravado! The reception! THE SHEER PROFIT!",
+			"showmanEmote": "point",
 			"hidden": false,
 			"icon": "default"
 		},
@@ -28,7 +31,8 @@
 			"name": "Rainbow Sorbet-FC",
 			"fancyName": "Lovely Lavender",
 			"unlockCondition": "Achieve a Full Combo on Rainbow Sorbet",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "I'm purely a man of business, but I often end up an accidental matchmaker, ahaha! I suppose a lovely place like Lavender Park does ripen the conditions for young romance to form.",
+			"showmanEmote": "normal",
 			"hidden": false,
 			"icon": "default"
 		},
@@ -36,7 +40,8 @@
 			"name": "Sugarcoat It-FC",
 			"fancyName": "I'm not gonna...",
 			"unlockCondition": "Achieve a Full Combo on Sugarcoat It",
-			"showmanDialogue": "",
+			"showmanDialogue": "Those two really made their mark on music history that day. `The young duo oceans apart who's passion and love sparked on stage.` And it all happened at my showroom! We make magic happen here!",
+			"showmanEmote": "point",
 			"hidden": false,
 			"icon": "default"
 		},
@@ -45,6 +50,7 @@
 			"fancyName": "Flavor Fiesta",
 			"unlockCondition": "Achieve a Full Combo on Tres Leches",
 			"showmanDialogue": "Corianda's home to some of the best musicians I've invited to my Showroom! I will say, that man's voice feels so familiar... like a voice I haven't heard in maybe... 20 years?",
+			"showmanEmote": "think",
 			"hidden": false,
 			"icon": "default"
 		},
@@ -52,16 +58,18 @@
 			"name": "Applewood-FC",
 			"fancyName": "Get Your Groove On",
 			"unlockCondition": "Achieve a Full Combo on Applewood",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "Main Street gets many unique performances throughout the day, mostly from those who have yet to afford a performance at my prestigious showroom, ahaha! I jest, I jest.",
 			"hidden": false,
+			"showmanEmote": "point",
 			"icon": "default"
 		},
 		{
 			"name": "Caramelize-FC",
 			"fancyName": "Creme Brulee",
 			"unlockCondition": "Achieve a Full Combo on Caramelize",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "The culture of New Togarashi seems to inspire a very loud, in-your-face attitude in the youth. When it brings fourth stunning performers, I welcome it! But when it doesn't...",
 			"hidden": false,
+			"showmanEmote": "think",
 			"icon": "default"
 		},
 		{
@@ -69,6 +77,7 @@
 			"fancyName": "Shadowbringer",
 			"unlockCondition": "Achieve a Full Combo on Wasabi",
 			"showmanDialogue": "The folks of Old Togarashi are lovely people, both the young and the old! I quite envy their quiet, disciplined lifestyles within the bustling cityscape.",
+			"showmanEmote": "normal",
 			"hidden": false,
 			"icon": "default"
 		},
@@ -78,13 +87,15 @@
 			"unlockCondition": "Achieve a Full Combo on Flavorscape",
 			"showmanDialogue": "Ahaha, I had quite the musical talent of my own back then. A real touch of gold, they’d say! And with the power of RAVE, who would’ve thought that such a compliment would become literal?",
 			"hidden": false,
+			"showmanEmote": "point",
 			"icon": "default"
 		},
 		{
 			"name": "Ignatius-FC",
 			"fancyName": "Eternal Flame, Baby!",
 			"unlockCondition": "Achieve a Full Combo on Ignatius",
-			"showmanDialogue": "This is a placeholder!",
+			"showmanDialogue": "The blend of old and new... a combo an audience can never get enough of. I wonder if I'll see those two on my stage one day... The Spicy & Smoky Spring Mix... yes, perfect!",
+			"showmanEmote": "think",
 			"hidden": false,
 			"icon": "default"
 		},
@@ -94,6 +105,7 @@
 			"unlockCondition": "Achieve a Full Combo on MegaHeartz",
 			"showmanDialogue": "EnZ-TV must've took cuts in the security department once GlazeCorp pulled funding. An important city resource shouldn’t be breached so easily by a couple of rowdy youth!",
 			"hidden": false,
+			"showmanEmote": "mad",
 			"icon": "default"
 		},
 		{
@@ -102,14 +114,16 @@
 			"unlockCondition": "Achieve a Full Combo on Imitation Station",
 			"showmanDialogue": "Vocal mimicry… I recall a colleague of mine being very invested in the concept. It’s not my cup of tea, personally, and others clearly felt the same. Nearly put himself outta business with that fixation!",
 			"hidden": false,
+			"showmanEmote": "think",
 			"icon": "default"
 		},
 		{
 			"name": "Heartstrings-FC",
 			"fancyName": "After-Life of the Party",
 			"unlockCondition": "Achieve a Full Combo on Heartstrings",
-			"showmanDialogue": "Rumors say that spirits run amok all over the world. If any ghost has an unspent family fortune they’d like to use on a post-mortem performance, my Showroom will gladly be open to any symphonic specters!",
+			"showmanDialogue": "Rumors say that spirits run amok all over the world. If any ghost has an unspent family fortune they’d like to use on a post-mortem performance, my showroom will gladly be open to any symphonic specters!",
 			"hidden": false,
+			"showmanEmote": "point",
 			"icon": "default"
 		},
 		{
@@ -118,14 +132,25 @@
 			"unlockCondition": "Achieve a Full Combo on GAME-JAMMED",
 			"showmanDialogue": "I only use as much technology as is absolutely necessary. I don’t trust how easy it is for those new-fangled computers to get hijacked, and with how tech continues to advance, things will just continue to get out of hand!",
 			"hidden": false,
+			"showmanEmote": "mad",
+			"icon": "default"
+		},
+		{
+			"name": "synsunfound",
+			"fancyName": "We're Doing It Live",
+			"unlockCondition": "Discover a hidden song within one of the menus.",
+			"showmanDialogue": "Y'know, people have been more eager to watch live performances from their homes via the internet. Perhaps e-tickets are a viable revenue for my showroom. They'd be not much cheaper than REAL tickets, of course, ahaha!",
+			"hidden": false,
+			"showmanEmote": "think",
 			"icon": "default"
 		},
 		{
 			"name": "n0.pressur3.temp-FC",
 			"fancyName": "Streamer Overload",
 			"unlockCondition": "Achieve a Full Combo on n0.pressur3.temp",
-			"showmanDialogue": "I issued quite a lengthy letter to the owners of that livestream. I would’ve taken harsher action, but I learned that my colleague’s daughter is the one behind the site. I trust him to teach her not to allow such breaches of privacy.",
+			"showmanDialogue": "I issued quite a lengthy letter to the owners of that livestream. I would’ve taken harsher action, but I learned that my colleague’s niece is the one behind the site. I trust him to teach her not to allow such breaches of privacy.",
 			"hidden": false,
+			"showmanEmote": "mad",
 			"icon": "default"
 		}
 	]

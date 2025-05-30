@@ -1,0 +1,147 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-75,
+				277
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SavoryLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-99,
+				236
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SavoryDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-86,
+				316
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SavoryUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-121,
+				213
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SavoryRight",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-97,
+				258
+			],
+			"loop": true,
+			"fps": 26,
+			"anim": "idle",
+			"indices": [],
+			"name": "SavoryIdle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-134,
+				246
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "SavoryGuitarLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-150,
+				237
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "SavoryGuitarDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-123,
+				314
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "SavoryGuitarUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-158,
+				217
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "SavoryGuitarRight",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-159,
+				254
+			],
+			"anim": "idle-alt",
+			"fps": 26,
+			"name": "SavoryGuitarIdle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-95,
+				219
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "toss",
+			"loop": true,
+			"name": "SavoryToss"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SavoryRun",
+	"position": [
+		-200,
+		310
+	],
+	"healthicon": "savory",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		0,
+		120
+	],
+	"camera_position": [
+		-200,
+		-150
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"noteskin": "Savory",
+	"healthbar_image": "savory",
+	"musicNoteOffset": [0,-400]
+}

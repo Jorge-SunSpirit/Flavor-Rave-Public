@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageText;
 import cpp.Int16;
 #if discord_rpc
 import Discord.DiscordClient;
@@ -65,10 +66,10 @@ class FlavorpediaSideState extends MusicBeatState
 
 	var charaStuff:Array<Array<Dynamic>> = [];
 
-	var flavorName:FlxText;
-	var flavorcreator:FlxText;
-	var flavordesc:FlxText;
-	var flavorplace:FlxText;
+	var flavorName:LanguageText;
+	var flavorcreator:LanguageText;
+	var flavordesc:LanguageText;
+	var flavorplace:LanguageText;
 
 	public var bufferArray:Array<SideCharacterArray> = [];
 
@@ -108,20 +109,20 @@ class FlavorpediaSideState extends MusicBeatState
 		titleBar.antialiasing = ClientPrefs.globalAntialiasing;
 		add(titleBar);
 
-		flavorName = new FlxText(845, 110, 420, "", 24);
-		flavorName.setFormat(Paths.font("FOT-Carat Std UB.otf"), 50, FlxColor.WHITE, LEFT);
+		flavorName = new LanguageText(845, 110, 420, "", 50, 'carat');
+		flavorName.setStyle(FlxColor.WHITE, LEFT);
 		add(flavorName);
 
-		flavorcreator = new FlxText(845, 190, 420, "", 24);
-		flavorcreator.setFormat(Paths.font("Krungthep.ttf"), 30, FlxColor.WHITE, LEFT);
+		flavorcreator = new LanguageText(845, 190, 420, "", 30, 'krungthep');
+		flavorcreator.setStyle(FlxColor.WHITE, LEFT);
 		add(flavorcreator);
 
-		flavordesc = new FlxText(684, 270, 554, "", 24);
-		flavordesc.setFormat(Paths.font("Krungthep.ttf"), 20, FlxColor.WHITE, CENTER);
+		flavordesc = new LanguageText(684, 270, 554, "", 20, 'krungthep');
+		flavordesc.setStyle(FlxColor.WHITE, CENTER);
 		add(flavordesc);
 
-		flavorplace = new FlxText(687, 670, 554, "", 24);
-		flavorplace.setFormat(Paths.font("Krungthep.ttf"), 40, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		flavorplace = new LanguageText(687, 670, 554, "", 40, 'krungthep');
+		flavorplace.setStyle(FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		flavorplace.setBorderStyle(OUTLINE, FlxColor.BLACK);
 		flavorplace.borderSize = 3;
 		add(flavorplace);
@@ -145,9 +146,15 @@ class FlavorpediaSideState extends MusicBeatState
 				#end
 
 				if (isBeaten)
-					charaStuff.push([peep.chara, peep.name, peep.design, peep.desc, peep.place, peep.songCheck, peep.link]);
+					charaStuff.push([peep.chara, 
+						Language.flavor.get("flavorpediaside_" + peep.name + "_name", peep.name), 
+						Language.flavor.get("flavorpediaside_" + peep.name + "_design", peep.design), 
+						Language.flavor.get("flavorpediaside_" + peep.name + "_desc", peep.desc), 
+						peep.place, 
+						peep.songCheck, 
+						peep.link]);
 				else
-					charaStuff.push(["blank", "???", "???", "???", "Not Found", '', '']);
+					charaStuff.push([Language.flavor.get("flavorpediaside_blank", "blank"), "???", "???", "???", Language.flavor.get("flavorpediaside_notfound", "Not Found"), '', '']);
 			}
 		}
 
@@ -175,9 +182,15 @@ class FlavorpediaSideState extends MusicBeatState
 						#end
 		
 						if (isBeaten)
-							charaStuff.push([peep.chara, peep.name, peep.design, peep.desc, peep.place, peep.songCheck, peep.link]);
+							charaStuff.push([peep.chara, 
+							Language.flavor.get("flavorpediaside_" + peep.name + "_name", peep.name), 
+							Language.flavor.get("flavorpediaside_" + peep.name + "_design", peep.design), 
+							Language.flavor.get("flavorpediaside_" + peep.name + "_desc", peep.desc), 
+							peep.place, 
+							peep.songCheck, 
+							peep.link]);
 						else
-							charaStuff.push(["blank", "???", "???", "???", "Not Found", '', '']);
+							charaStuff.push([Language.flavor.get("flavorpediaside_blank", "blank"), "???", "???", "???", Language.flavor.get("flavorpediaside_notfound", "Not Found"), '', '']);
 					}
 				}
 

@@ -10,9 +10,9 @@
 	"hide_girlfriend": false,
 
 	"camera_boyfriend": [-700, -300],
-	"camera_opponent": [-350, 80],
+	"camera_opponent": [-320, 80],
 	"camera_girlfriend": [0, -100],
 	"camera_center": [562, 365],
 	"camera_speed": 1,
-	"camera_boundaries": [-30, -85, 1648, 558]
+	"camera_boundaries": [-130, -185, 1648, 558]
 }

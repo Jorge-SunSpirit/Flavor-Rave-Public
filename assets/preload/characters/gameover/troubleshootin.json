@@ -8,11 +8,11 @@
 	"goSound": [
 		{
 			"sound": "troubleshootin/1",
-			"opponent": ""
+			"subtitles": "Shoot:dur:1.022"
 		},
 		{
 			"sound": "troubleshootin/2",
-			"opponent": ""
+			"subtitles": "Relax, I always have a back door open.:dur:3.244"
 		}
 	]
 }

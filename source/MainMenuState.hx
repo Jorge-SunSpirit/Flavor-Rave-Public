@@ -43,12 +43,14 @@ class MainMenuState extends MusicBeatState
 	var sunsynSound:FlxSound;
 	var sidebar:FlxSprite;
 	var backdrop:FlxBackdrop;
+	var scrollText:FlxBackdrop;
 	var liveIcon:FlxSprite;
 	var synsunIcon:FlxSprite;
 	var lilIconInt:Int = 0;
 	var achievementIcon:FlxSprite;
 	var synthRand:Bool = false;
 	var glowwowo:FlxSprite;
+	var border:FlxSprite;
 	//Stealing this from DDTO
 	var colorTween1:FlxSprite = new FlxSprite(-9000, -9000).makeGraphic(1, 1, 0xFF1ABBD4);
 	var colorTween2:FlxSprite = new FlxSprite(-9000, -9000).makeGraphic(1, 1, 0xFF1B7AB1);
@@ -56,12 +58,14 @@ class MainMenuState extends MusicBeatState
 	var glowTimer:FlxTimer;
 	public static var fromSpecificState:Int = 0;
 
+	public static var canClickSynthetic:Bool = false;
+
 	var optionShit:Array<Array<Dynamic>> = [
-		['story',0xFF3CFDFD, 0xFFFFFF77],
-		['freeplay',0xFFD1FC59, 0xFF26592D],
-		['fp',0xFF8E2D9D, 0xFFC9ECFF],
-		['gallery',0xFFB61E1E, 0xFF282222],
-		['options',0xFF271F2A, 0xFFE2E75D],
+		['story',0xFF3CFDFD, 0xFFFCFC9B],
+		['freeplay',0xFFD1FC59, 0xFF53BE7E],
+		['fp',0xFFAD34C2, 0xFFACE6FF],
+		['gallery',0xFFC62121, 0xFF483646],
+		['options',0xFF583268, 0xFFE2E75D],
 		['credits',0xFFFF6FB0, 0xFF71E5FF ]
 	];
 
@@ -71,7 +75,7 @@ class MainMenuState extends MusicBeatState
 
 	override function create()
 	{
-		FlxG.mouse.visible = ClientPrefs.menuMouse;
+		FlxG.mouse.visible = true;
 
 		#if MODS_ALLOWED
 		Paths.pushGlobalMods();
@@ -108,6 +112,20 @@ class MainMenuState extends MusicBeatState
 		menuArt = new FlxSprite(1280,-56).loadGraphic(Paths.image('mainmenu/art/' + optionShit[curSelected][0]));
 		menuArt.antialiasing = ClientPrefs.globalAntialiasing;
 		add(menuArt);
+
+		scrollText = new FlxBackdrop(Paths.image('mainmenu/SynSun/scrolltext/story'), X);
+		scrollText.setPosition(0, 400);
+		scrollText.velocity.set(-40, 0);
+		scrollText.antialiasing = ClientPrefs.globalAntialiasing;
+		add(scrollText);
+		FlxTween.tween(scrollText, {y: 329}, (0.5), {ease: FlxEase.sineOut});
+
+		border = new FlxSprite().loadGraphic(Paths.image('mainmenu/border'));
+		border.screenCenter();
+		border.antialiasing = ClientPrefs.globalAntialiasing;
+		border.alpha = 0.001;
+		FlxTween.tween(border, {alpha: 1}, (0.5), {ease: FlxEase.sineOut});
+		add(border);
 
 		var scan:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mainmenu/scanlines'));
 		scan.screenCenter();
@@ -182,21 +200,6 @@ class MainMenuState extends MusicBeatState
 		add(sidebar);
 		FlxTween.tween(sidebar, {x: -1649}, fromSpecificState == 1 ? 0.001 : 0.5, {ease: FlxEase.sineOut});
 
-		if (firstStart)
-		{
-			synthRand = true;
-			new FlxTimer().start(0.5, function(tmr:FlxTimer)
-			{
-			FlxG.sound.music.fadeOut(0.2, 0.12);
-			syn.animation.play('greeting');
-			sun.animation.play('greeting');
-			firstStart = false;
-			sunsynSound = new FlxSound().loadEmbedded(Paths.sound('sunsynth/greetings/greeting${FlxG.random.int(1, 10)}'));
-			sunsynSound.onComplete = function() {FlxG.sound.music.fadeIn(4, 0.12, 0.8);}
-			new FlxTimer().start(0.7, function(tmr:FlxTimer){sunsynSound.play();});
-			});
-		}
-
 		glowwowo = new FlxSprite(0, 0).loadGraphic(Paths.image('mainmenu/buttons/selectglow'));
 		glowwowo.antialiasing = ClientPrefs.globalAntialiasing;
 		glowwowo.alpha = 0.001;
@@ -213,6 +216,92 @@ class MainMenuState extends MusicBeatState
 			menuItems.add(menuObject);
 			if (fromSpecificState != 1)
 				FlxTween.tween(menuObject, {x: -10}, (0.5), {ease: FlxEase.sineOut, startDelay: (0.1 + (0.1 * i))});
+
+
+			//preload assets
+			var potoat:FlxSprite = new FlxSprite(0,-113).loadGraphic(Paths.image('mainmenu/SynSun/scrolltext/' + optionShit[i][0]));
+			potoat.antialiasing = ClientPrefs.globalAntialiasing;
+			potoat.alpha = 0.001;
+			add(potoat);
+		}
+
+		if (firstStart)
+		{
+			synthRand = true;
+			var randInt:Int = FlxG.random.int(1, 10);
+			var pookiedookiebear:String = ""; //Thanks chibi
+			new FlxTimer().start(0.5, function(tmr:FlxTimer)
+			{
+				FlxG.sound.music.fadeOut(0.2, 0.12);
+				firstStart = false;
+				sunsynSound = new FlxSound().loadEmbedded(Paths.sound('sunsynth/greetings/greeting${randInt}'));
+				switch (randInt) //Hard coded but it's ok. I'm happy with this :)
+				{
+					case 1:
+						pookiedookiebear = "Sun-Dried: Hi there!:dur:1.269[NL]Synthetic: What's shakin'!:dur:1.140";
+						syn.animation.play('greeting');
+						sun.animation.play('greeting');
+					case 2:
+						pookiedookiebear = "Sun-Dried: It's so good to see you again.:dur:2.328";
+						sun.animation.play('greeting');
+					case 3:
+						pookiedookiebear = "Sun-Dried: Let's get started!:dur:1.345[NL]Synthetic: Jump to it!:dur:0.965";
+						syn.animation.play('greeting');
+						sun.animation.play('greeting');
+					case 4:
+						pookiedookiebear = "Synthetic: If I had hands, I'd wave hello.:dur:2.358";
+						syn.animation.play('greeting');
+					case 5:
+						pookiedookiebear = "Synthetic: It's groovin' time,:dur:1.566[NL]WOOOO:dur:0.76";
+						syn.animation.play('greeting');
+					case 6:
+						pookiedookiebear = "Sun-Dried: Hai!:dur:1.167";
+						sun.animation.play('greeting');
+					case 7:
+						pookiedookiebear = "Synthetic: Welcome back!:dur:1.404[NL]Sun-Dried: We missed you!:dur:1.676";
+						syn.animation.play('greeting');
+						sun.animation.play('greeting');
+					case 8:
+						pookiedookiebear = "Sun-Dried: Ready to rave?:dur:1.331[NL]Synthetic: You know it, Sunny!:dur:1.371";
+						syn.animation.play('greeting');
+						sun.animation.play('greeting');
+					case 9:
+						pookiedookiebear = "Sun-Dried: We got company, Synthetic.:dur:2.134";
+						sun.animation.play('greeting');
+					case 10:
+						pookiedookiebear = "Synthetic: Wanna listen to some tunes?:dur:2.026";
+						syn.animation.play('greeting');
+				}
+				sunsynSound.onComplete = function() {
+					FlxG.sound.music.fadeIn(4, 0.12, 0.8);
+					new FlxTimer().start(4, function(tmr:FlxTimer)
+					{
+						canClickSynthetic = true;
+					});
+				}
+				new FlxTimer().start(0.7, function(tmr:FlxTimer)
+					{
+						sunsynSound.play();
+						if (ClientPrefs.subtitles)
+						{
+							var subtitles:SubtitlesObject = new SubtitlesObject(0,0);
+							subtitles.screenCenter(Y);
+							subtitles.y += 270;
+							subtitles.antialiasing = ClientPrefs.globalAntialiasing;
+							add(subtitles);
+							subtitles.justincase();
+							subtitles.setupSubtitles(Language.flavor.get("mainmenu_" + randInt, pookiedookiebear));
+						}
+					
+					});
+			});
+
+			//Subtitle support for this menu
+		}
+		// Don't lock them out of the Password screen if they don't wait!!!
+		else if (!canClickSynthetic)
+		{
+			canClickSynthetic = true;
 		}
 
 		fromSpecificState = 0;
@@ -266,6 +355,7 @@ class MainMenuState extends MusicBeatState
 			{
 				selectedSomethin = true;
 				FlxG.sound.play(Paths.sound('cancelMenu'));
+				TitleState.firstStart = false;
 				MusicBeatState.switchState(new TitleState());
 			}
 
@@ -280,6 +370,12 @@ class MainMenuState extends MusicBeatState
 				MusicBeatState.switchState(new MasterEditorMenu());
 			}
 			#end
+
+			if (FlxG.mouse.overlaps(syn) && FlxG.mouse.justPressed && canClickSynthetic)
+			{
+				selectedSomethin = true;
+				MusicBeatState.switchState(new PasswordState());
+			}
 
 			if (ClientPrefs.menuMouse)
 			{
@@ -398,6 +494,10 @@ class MainMenuState extends MusicBeatState
 		FlxTween.tween(achievementIcon, {y: 720}, 0.3, {ease: FlxEase.sineOut});
 		FlxTween.cancelTweensOf(glowwowo);
 		FlxTween.tween(glowwowo, {alpha: 0.001, "scale.y": 0.001}, 0.1, {ease: FlxEase.sineOut});
+		FlxTween.cancelTweensOf(scrollText);
+		FlxTween.tween(scrollText, {y: 500}, (0.3), {ease: FlxEase.sineOut});
+		FlxTween.cancelTweensOf(border);
+		FlxTween.tween(border, {alpha: 0.001}, (0.5), {ease: FlxEase.sineOut});
 		menuItems.forEach(function(obj:MMenuItem)
 		{
 			FlxTween.cancelTweensOf(obj);
@@ -466,6 +566,7 @@ class MainMenuState extends MusicBeatState
 			FlxTween.cancelTweensOf(obj);
 			if (obj.ID == curSelected)
 			{
+				scrollText.loadGraphic(Paths.image('mainmenu/SynSun/scrolltext/' + obj.name));
 				FlxTween.tween(obj, {x: 10}, 0.25, {ease: FlxEase.sineOut});
 				obj.highlighted(true);
 
@@ -566,10 +667,13 @@ class MMenuItem extends FlxSpriteGroup
 
 	var bg:FlxSprite;
 	var text:FlxSprite;
+	public var name:String;
 
 	public function new(x:Float = 0, y:Float = 0, item:String)
 	{
 		super(x, y);
+
+		name = item;
 
 		bg = new FlxSprite().loadGraphic(Paths.image('mainmenu/buttons/'+ item +'back'));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;

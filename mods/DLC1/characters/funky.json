@@ -1,0 +1,136 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "FunkyIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				53,
+				-152
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "FunkyDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				-32
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "FunkyLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				-23
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "FunkyRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				43,
+				40
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "FunkyUp",
+			"indices": []
+		},
+		{
+			"offsets": [
+				180,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "FunkyMissLeft"
+		},
+		{
+			"offsets": [
+				-3,
+				8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "FunkyMissRight"
+		},
+		{
+			"offsets": [
+				58,
+				-162
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "FunkyMissDown"
+		},
+		{
+			"offsets": [
+				46,
+				40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "FunkyMissUp"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				9
+			],
+			"anim": "yeah",
+			"fps": 24,
+			"name": "FunkyYeah",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Funky",
+	"position": [
+		20,
+		80
+	],
+	"healthicon": "funky",
+	"flip_x": true,
+	"healthbar_colors": [
+		66,
+		255,
+		255
+	],
+	"camera_position": [
+		60,
+		80
+	],
+	"sing_duration": 5,
+	"scale": 1,
+	"noteskin": "Funkin'",
+	"healthbar_image": "funky",
+	"musicNoteOffset": [0,0]
+}

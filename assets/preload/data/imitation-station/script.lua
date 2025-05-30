@@ -127,26 +127,30 @@ function onCreate()
 	setProperty('ratingCharNote', true);
 end
 
-function onStepHit()
-	if curStep == 1 then
+function onCreatePost()
+	setProperty('dad.missRecolor', false);
+end
+
+function thingie(num)
+	num = tonumber(num)
+	if num == 1 then
 		doTweenAlpha('black', 'black', 0.9);
-		setProperty('dad.color', 0x00000000);
-		setProperty('dad.missRecolor', false);
-		setProperty('boyfriend.color', 0x00000000);
+		--setProperty('dad.color', 0x00000000);
+		--setProperty('boyfriend.color', 0x00000000);
 		setProperty('rude1.color', 0x00000000);
 	end
-	if curStep == 16 then
+	if num == 16 then
 		doTweenAlpha('black', 'black', 0.8, 0.15);
 		setProperty('leftlight.alpha', 1);
 		setProperty('backbops.color', 0xFFFFFF);
 		setProperty('backbops2.color', 0xFFFFFF);
 	end
-	if curStep == 22 then
+	if num == 22 then
 		doTweenAlpha('black', 'black', 0.7, 0.15);
 		setProperty('rude1.color', 0xFFFFFF);
 		setProperty('rightlight.alpha', 1);
 	end
-	if curStep == 32 then
+	if num == 32 then
 		doTweenAlpha('black', 'black', 0.6, 0.15);
 		setProperty('backbops.color', 0x00000000);
 		setProperty('backbops2.color', 0x00000000);
@@ -154,18 +158,18 @@ function onStepHit()
 		setProperty('leftlight.alpha', 0);
 		setProperty('rightlight.alpha', 0);
 	end
-	if curStep == 48 then
+	if num == 48 then
 		doTweenAlpha('black', 'black', 0.5, 0.15);
 		setProperty('leftlight.alpha', 1);
 		setProperty('backbops.color', 0xFFFFFF);
 		setProperty('backbops2.color', 0xFFFFFF);
 	end
-	if curStep == 54 then
+	if num == 54 then
 		doTweenAlpha('black', 'black', 0.4, 0.15);
 		setProperty('rude1.color', 0xFFFFFF);
 		setProperty('rightlight.alpha', 1);
 	end
-	if curStep == 64 then
+	if num == 64 then
 		doTweenAlpha('black', 'black', 0.3, 0.15);
 		setProperty('backbops.color', 0x00000000);
 		setProperty('backbops2.color', 0x00000000);
@@ -173,18 +177,18 @@ function onStepHit()
 		setProperty('leftlight.alpha', 0);
 		setProperty('rightlight.alpha', 0);
 	end
-	if curStep == 80 then
+	if num == 80 then
 		doTweenAlpha('black', 'black', 0.2, 0.15);
 		setProperty('leftlight.alpha', 1);
 		setProperty('backbops.color', 0xFFFFFF);
 		setProperty('backbops2.color', 0xFFFFFF);
 	end
-	if curStep == 88 then
+	if num == 88 then
 		doTweenAlpha('black', 'black', 0.1, 0.15);
 		setProperty('rude1.color', 0xFFFFFF);
 		setProperty('rightlight.alpha', 1);
 	end
-	if curStep == 96 then
+	if num == 96 then
 		doTweenAlpha('black', 'black', 0, 0.15);
 		setProperty('backbops.color', 0x00000000);
 		setProperty('backbops2.color', 0x00000000);
@@ -192,7 +196,7 @@ function onStepHit()
 		setProperty('leftlight.alpha', 0);
 		setProperty('rightlight.alpha', 0);
 	end
-	if curStep == 112 then
+	if num == 112 then
 		setProperty('leftlight.alpha', 1);
 		setProperty('rightlight.alpha', 1);
 		setProperty('spotlight.alpha', 1);
@@ -200,57 +204,57 @@ function onStepHit()
 		setProperty('backbops2.color', 0xFFFFFF);
 		setProperty('rude1.color', 0xFFFFFF);
 		setProperty('dad.color', 0xFFFFFF);
-		setProperty('boyfriend.color', 0xFFFFFF);
-		setProperty('dad.missRecolor', true);
+		--setProperty('boyfriend.color', 0xFFFFFF);
+		--setProperty('dad.missRecolor', true);
 	end
-	if curStep == 128 then
-	setProperty('isCameraOnForcedPos', false);
+	if num == 128 then
+		setProperty('isCameraOnForcedPos', false);
 	end
-	if curStep == 640 then
+	if num == 640 then
 		doTweenY('barTop', 'barTop', 0, 0.5, "circinout");
 		doTweenY('barBottom', 'barBottom', 628, 0.5, "circinout");
 		doTweenAlpha('ddto', 'ddto', 1, 2);
 		doTweenAlpha('spotlight', 'spotlight', 0.001, 2);
 	end
-	if curStep == 646 then
+	if num == 646 then
 		doTweenAlpha('windows', 'windows', 1, 2);
 		doTweenAlpha('gf', 'gf', 1, 3);
 	end
-	if curStep == 700 then
+	if num == 700 then
 		doTweenAlpha('gf', 'gf', 0.0001, 2);
 	end
-	if curStep == 768 then
+	if num == 768 then
 		doTweenAlpha('gf', 'gf', 1, 3);
 	end
-	if curStep == 826 then
+	if num == 826 then
 		doTweenAlpha('gf', 'gf', 0.0001, 2);
 	end
-	if curStep == 896 then
+	if num == 896 then
 		setProperty('infinite.alpha', 1);
 		setProperty('ddto.alpha', 0);
 		setProperty('windows.alpha', 0);
 	end
-	if curStep == 900 then
+	if num == 900 then
 		doTweenAlpha('gf', 'gf', 1, 1);
 	end
-	if curStep == 956 then
+	if num == 956 then
 		doTweenAlpha('gf', 'gf', 0.0001, 2);
 	end
-	if curStep == 1024 then
+	if num == 1024 then
 		setProperty('isCameraOnForcedPos', true);
 		setProperty('camFollow.y', 300);
 		setProperty('camFollow.x', 710);
 		doTweenAlpha('badending', 'badending', 1, 2);
 		doTweenAlpha('gf', 'gf', 1, 2);
 	end
-	if curStep == 1090 then
+	if num == 1090 then
 		doTweenAlpha('gf', 'gf', 0.0001, 2);
 	end
-	if curStep == 1152 then
+	if num == 1152 then
 		setProperty('infinite.alpha', 0);
 		doTweenY('fade', 'fade', -1060, 1);
 	end
-	if curStep == 1158 then
+	if num == 1158 then
 		setProperty('isCameraOnForcedPos', false);
 		setProperty('badending.alpha', 0);
 		setProperty('citynight.alpha', 1);
@@ -261,7 +265,7 @@ function onStepHit()
 		setProperty('leftlight.alpha', 0);
 		setProperty('rightlight.alpha', 0);
 	end
-	if curStep == 1434 then
+	if num == 1434 then
 		doTweenAlpha('SkyDay', 'SkyDay', 1, 14);
 		doTweenAlpha('cityday', 'cityday', 1, 14);
 		doTweenAlpha('morning', 'morning', 0.8, 16);

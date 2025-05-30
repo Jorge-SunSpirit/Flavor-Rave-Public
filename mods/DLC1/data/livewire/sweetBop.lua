@@ -8,8 +8,9 @@ local bopR = '-right';
 local panL = 'righttoleft';
 local panR = 'lefttoright';
 
-function onStepHit()
-	if curStep == 1168 then
+function thingie(num)
+	num = tonumber(num)
+	if num == 1168 then
 		isLooking = false;
 	end
 end

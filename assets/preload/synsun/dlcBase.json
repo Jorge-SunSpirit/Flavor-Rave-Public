@@ -1,0 +1,14 @@
+{
+	"allowEscape": false,
+	"dialogue":
+	[
+		{
+			"text": "Booting up my DLC database! Here's what we got for you today!",
+			"animation": "happy",
+			"chara": "syn"
+		},
+		{
+			"command": "opendlcmenu"
+		}
+	]
+}

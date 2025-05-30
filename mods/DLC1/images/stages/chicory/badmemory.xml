@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="badmemory.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="badmemory0000" x="5" y="5" width="1179" height="698"/>
+	<SubTexture name="badmemory0001" x="5" y="5" width="1179" height="698"/>
+	<SubTexture name="badmemory0002" x="5" y="5" width="1179" height="698"/>
+	<SubTexture name="badmemory0003" x="5" y="708" width="1179" height="698"/>
+	<SubTexture name="badmemory0004" x="5" y="708" width="1179" height="698"/>
+	<SubTexture name="badmemory0005" x="5" y="708" width="1179" height="698"/>
+</TextureAtlas>

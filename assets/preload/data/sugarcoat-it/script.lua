@@ -42,7 +42,7 @@ function onCreate()
 	setProperty('speedline.alpha', 0.001);
 	addLuaSprite('speedline', false);
 
-	makeAnimatedLuaSprite('crowd0', 'bg1/Background_Cameo_Assets2', -522, 35);
+	makeAnimatedLuaSprite('crowd0', 'bg1/Background_Cameo_Assets2', -522, 125);
 	addAnimationByPrefix('crowd0', 'idle', 'All', 24, false);
 	playAnim('crowd0', 'idle');
 	finishAnim('crowd0');

@@ -74,10 +74,17 @@ class DiscordClient
 	{
 		var startTimestamp:Float = if(hasStartTimestamp) Date.now().getTime() else 0;
 
-		if (endTimestamp > 0)
-		{
-			endTimestamp = startTimestamp + endTimestamp;
-		}
+		// Anti-leak measures
+		#if !PUBLIC_BUILD
+			state = null;
+			startTimestamp = 0;
+			endTimestamp = 0;
+		#else
+			if (endTimestamp > 0)
+			{
+				endTimestamp = startTimestamp + endTimestamp;
+			}
+		#end
 
 		DiscordRpc.presence({
 			details: details,

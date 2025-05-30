@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ShowmanBow.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ShowmanBow0000" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0001" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0002" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0003" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0004" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0005" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0006" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0007" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0008" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0009" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0010" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0011" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0012" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0013" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0014" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0015" x="5" y="5" width="1011" height="806" frameX="-17" frameY="0" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0016" x="1021" y="5" width="1017" height="799" frameX="-17" frameY="-4" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0017" x="1021" y="5" width="1017" height="799" frameX="-17" frameY="-4" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0018" x="2043" y="5" width="1041" height="746" frameX="-13" frameY="-22" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0019" x="2043" y="5" width="1041" height="746" frameX="-13" frameY="-22" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0020" x="5" y="816" width="1056" height="503" frameX="-7" frameY="-263" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0021" x="5" y="816" width="1056" height="503" frameX="-7" frameY="-263" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0022" x="1066" y="816" width="1077" height="482" frameX="-1" frameY="-286" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0023" x="1066" y="816" width="1077" height="482" frameX="-1" frameY="-286" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0024" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0025" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0026" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0027" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0028" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0029" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0030" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0031" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0032" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0033" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0034" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0035" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0036" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0037" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0038" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+	<SubTexture name="ShowmanBow0039" x="2148" y="816" width="1083" height="478" frameX="0" frameY="-290" frameWidth="1083" frameHeight="806"/>
+</TextureAtlas>

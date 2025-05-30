@@ -1,0 +1,41 @@
+{
+	"character":
+	[
+		{
+			"chara": "mrthrowdown",
+			"name": "Mr. Throwdown",
+			"design": "\nDeveloper OC",
+			"desc": "A passerby patron at Uncle Hearty's",
+			"place": "Uncle Hearty's",
+			"songCheck": "Double-Stacked",
+			"link": "https://x.com/SirDusterBuster"
+		},
+		{
+			"chara": "richard",
+			"name": "Richard",
+			"design": "Developer OC",
+			"desc": "A passerby patron at Uncle Hearty's",
+			"place": "Uncle Hearty's",
+			"songCheck": "Double-Stacked",
+			"link": "https://x.com/Jorge_SunSpirit"
+		},
+		{
+			"chara": "sutazu",
+			"name": "Chef Sutazu",
+			"design": "Developer Mutual OC",
+			"desc": "A passerby patron at Uncle Hearty's",
+			"place": "Uncle Hearty's",
+			"songCheck": "Double-Stacked",
+			"link": "https://x.com/BigFriendHaver"
+		},
+		{
+			"chara": "sven",
+			"name": "Sven",
+			"design": "FNF: Soft",
+			"desc": "A passerby patron at Uncle Hearty's",
+			"place": "Uncle Hearty's",
+			"songCheck": "Double-Stacked",
+			"link": "https://gamebanana.com/mods/523551"
+		}
+	]
+}

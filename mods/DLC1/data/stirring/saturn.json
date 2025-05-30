@@ -1,0 +1,66 @@
+{
+	"dialogue": [
+		{
+			"background": "s6",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "You good, Sweet? You look worried."
+		},
+		{
+			"background": "s6",
+			"border": "black",
+			"chara": ["sweet", 1, true],
+			"text": "Ah-! I'm ok, Sour. My apologies. It's just..."
+		},
+		{
+			"background": "s6",
+			"border": "black",
+			"chara": ["sweet", 1, true],
+			"text": "Before you arrived, there was a man I was talking to."
+		},
+		{
+			"background": "s6",
+			"border": "black",
+			"chara": ["sweet", 1, true],
+			"text": "Everything was nice at first, but... then he became very distressed. I wanted to help him, but… I don’t know where he went."
+		},
+		{
+			"background": "s6",
+			"border": "black",
+			"chara": ["sweet", 1, true],
+			"text": "I hope he's ok…"
+		},
+		{
+			"background": "s6",
+			"border": "black",
+			"chara": ["bitter", 1, true],
+			"text": "..."
+		},
+		{
+			"background": "s6",
+			"border": "black",
+			"chara": ["bitter", 1, true],
+			"sound": ["bitter","gasp"],
+			"text": "…what have I done..?"
+		},
+		{
+			"background": "s6",
+			"border": "black",
+			"chara": ["bitter", 1, true],
+			"text": "This place… and her words… it all goes right back to you… Every moment torn to pieces by your terrible visage… and your piercing gaze…"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["bitter", 1, true],
+			"sound": ["bitter","mother"],
+			"text": "Mother..."
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["default", 0, false],
+			"text": "[To be continued… in another story.]"
+		}
+	]
+}

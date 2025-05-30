@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="memoryfog.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="badborder0000" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0001" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0002" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0003" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0004" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0005" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0006" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0007" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0008" x="1290" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0009" x="1290" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0010" x="1290" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0011" x="1290" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0012" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0013" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0014" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0015" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0016" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0017" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0018" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0019" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="badborder0020" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="badborder0021" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="badborder0022" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="badborder0023" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="badborder0024" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="badborder0025" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="badborder0026" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="badborder0027" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="badborder0028" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="badborder0029" x="2575" y="730" width="1280" height="720"/>
+	<SubTexture name="badborder0030" x="2575" y="730" width="1280" height="720"/>
+	<SubTexture name="badborder0031" x="5" y="1455" width="1280" height="720"/>
+	<SubTexture name="badborder0032" x="5" y="1455" width="1280" height="720"/>
+	<SubTexture name="badborder0033" x="1290" y="1455" width="1280" height="720"/>
+	<SubTexture name="badborder0034" x="1290" y="1455" width="1280" height="720"/>
+	<SubTexture name="badborder0035" x="2575" y="1455" width="1280" height="720"/>
+	<SubTexture name="badborder0036" x="2575" y="1455" width="1280" height="720"/>
+	<SubTexture name="badborder0037" x="5" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0038" x="5" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0039" x="1290" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0040" x="1290" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0041" x="2575" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0042" x="2575" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0043" x="2575" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0044" x="2575" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0045" x="2575" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0046" x="2575" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0047" x="2575" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0048" x="2575" y="2180" width="1280" height="720"/>
+	<SubTexture name="badborder0049" x="2575" y="2180" width="1280" height="720"/>
+</TextureAtlas>

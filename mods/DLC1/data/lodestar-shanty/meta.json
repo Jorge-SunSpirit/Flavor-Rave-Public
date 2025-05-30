@@ -1,7 +1,7 @@
 {
 	"song": {
 		"name": "Lodestar Shanty",
-		"artist": "JACKALRUIN & Juno Songs",
+		"artist": "Team TBD / Juno Songs",
 		"charter": "Cerbera",
 		"titleCardStep": 96,
 		"pauseartist": "Juno Songs",
@@ -12,6 +12,9 @@
 		"noteChangesStrum": true,
 		"noteChangesRating": true,
 		"disableHealth": false
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
 	},
 	"freeplay": {
 		"characters": ["sour", "salty"],

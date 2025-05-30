@@ -1,5 +1,6 @@
 package options;
 
+import Language.LanguageText;
 #if discord_rpc
 import Discord.DiscordClient;
 #end
@@ -139,6 +140,7 @@ class OptionsState extends MusicBeatState
 			}
 	
 			if (controls.BACK) {
+				allowInput = false;
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				switch(whichState)
 				{
@@ -226,11 +228,9 @@ class OptionsItem extends FlxSpriteGroup
 		selection.scale.set(0.9, 0.9);
 		add(selection);
 
-		var weekText:FlxText = new FlxText(16, 40, 593, weekName);
-		weekText.setFormat(Paths.font("Krungthep.ttf"), 38, FlxColor.WHITE, FlxTextAlign.CENTER);
+		var weekText:LanguageText = new LanguageText(16, 40, 593, Language.option.get('options_' + weekName, weekName), 38, 'krungthep');
+		weekText.setStyle(FlxColor.WHITE, FlxTextAlign.CENTER);
 		weekText.setBorderStyle(OUTLINE, 0xFF220B2B, 3.5, 1);
-		weekText.antialiasing = ClientPrefs.globalAntialiasing;
-		weekText.updateHitbox();
 		add(weekText);
 	}
 

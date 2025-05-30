@@ -1,0 +1,12 @@
+{
+	"achievements": [
+		{
+			"name": "Double-Stacked-FC",
+			"fancyName": "Satisfied Customer",
+			"unlockCondition": "Achieve a Full Combo on Double-Stacked",
+			"showmanDialogue": "Ah, Uncle Hearty’s a man whom I have much respect for. An absolute GENIUS in the field of marketing and people-pleasing, and a lively drinking buddy! Though I am not too partial to the food his establishment serves…",
+			"hidden": false,
+			"icon": "default"
+		}
+	]
+}

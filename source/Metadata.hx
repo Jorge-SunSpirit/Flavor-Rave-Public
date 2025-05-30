@@ -41,4 +41,5 @@ typedef MetadataFreeplay =
 	var characters:Null<Array<String>>;
 	var stage:Null<String>;
 	var isOnePlayer:Null<Bool>;
+	var selectionHSB:Null<Array<Float>>; //Hue sat brightness
 }

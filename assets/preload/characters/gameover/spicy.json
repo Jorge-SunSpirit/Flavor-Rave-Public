@@ -8,11 +8,11 @@
 	"goSound": [
 		{
 			"sound": "spicy/1",
-			"opponent": ""
+			"subtitles": "Hey, *ughs* what?:dur:1.539"
 		},
 		{
 			"sound": "spicy/2",
-			"opponent": ""
+			"subtitles": "Awww, no fair!:dur:1.956"
 		}
 	]
 }

@@ -114,7 +114,7 @@ class HitGraph extends Sprite
 		tf.antiAliasType = AntiAliasType.NORMAL;
 		tf.gridFitType = GridFitType.PIXEL;
 		#end
-		tf.defaultTextFormat = new TextFormat(Paths.font("vcr.ttf"), Size, Color.to24Bit());
+		tf.defaultTextFormat = new TextFormat(Language.font.get('vcr'), Size, Color.to24Bit());
 		tf.alpha = Color.alphaFloat;
 		tf.autoSize = TextFieldAutoSize.LEFT;
 		return tf;

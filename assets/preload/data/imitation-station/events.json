@@ -8,6 +8,111 @@
 						"Force BF/DAD on character specific notes",
 						"true",
 						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1"
+					]
+				]
+			],
+			[
+				1600,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"16"
+					]
+				]
+			],
+			[
+				2200,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"22"
+					]
+				]
+			],
+			[
+				3200,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"32"
+					]
+				]
+			],
+			[
+				4800,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"48"
+					]
+				]
+			],
+			[
+				5400,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"54"
+					]
+				]
+			],
+			[
+				6400,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"64"
+					]
+				]
+			],
+			[
+				8000,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"80"
+					]
+				]
+			],
+			[
+				8800,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"88"
+					]
+				]
+			],
+			[
+				9600,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"96"
+					]
+				]
+			],
+			[
+				11200,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"112"
 					]
 				]
 			],
@@ -23,6 +128,11 @@
 						"Note Camera Movement",
 						"8",
 						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"128"
 					]
 				]
 			],
@@ -43,6 +153,51 @@
 						"Change Camera Zoom",
 						"0.84",
 						"0.7"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"640"
+					]
+				]
+			],
+			[
+				64600,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"646"
+					]
+				]
+			],
+			[
+				70000,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"700"
+					]
+				]
+			],
+			[
+				76800,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"768"
+					]
+				]
+			],
+			[
+				82600,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"826"
 					]
 				]
 			],
@@ -68,6 +223,31 @@
 						"Change Camera Bump frequency",
 						"8",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"896"
+					]
+				]
+			],
+			[
+				90000,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"900"
+					]
+				]
+			],
+			[
+				95600,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"956"
 					]
 				]
 			],
@@ -88,6 +268,41 @@
 						"Change Camera Zoom",
 						"0.6",
 						"3"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1024"
+					]
+				]
+			],
+			[
+				109000,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1090"
+					]
+				]
+			],
+			[
+				115200,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1152"
+					]
+				]
+			],
+			[
+				115500,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1155"
 					]
 				]
 			],
@@ -112,6 +327,16 @@
 					[
 						"Change Camera Zoom",
 						"0.9"
+					]
+				]
+			],
+			[
+				115800,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1158"
 					]
 				]
 			],
@@ -147,6 +372,16 @@
 						"Change Strum Skin",
 						"dad",
 						"ratings/nikku/NikkuMimicNOTE_assets"
+					]
+				]
+			],
+			[
+				143400,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1434"
 					]
 				]
 			],

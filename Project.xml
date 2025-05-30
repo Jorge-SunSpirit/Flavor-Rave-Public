@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="FNF: Flavor Rave" file="FlavorRave" package="com.teamtbd.flavorrave" main="Main" version="2.5.0" company="TeamTBD" />
+	<app title="FNF: Flavor Rave - FULLY BREWED" file="FlavorRave" package="com.teamtbd.flavorrave" main="Main" version="2.5 - Fully Brewed" company="TeamTBD" />
 
 	<!-- NOTE TO SELF: DISABLE THIS IF ISSUES ARE FOUND -->
 	<haxedef name="LINC_LUA_RELATIVE_DYNAMIC_LIB"/> <!-- stable luas PUT AFTER FIRST LINE WITH APP NAME AND ETC -->
@@ -18,19 +18,16 @@
 	<!-- ____________________________ Window Settings ___________________________ -->
 
 	<!--These window settings apply to all targets-->
-	<window width="1280" height="720" fps="" background="#000000" hardware="true" vsync="false" />
+	<window width="1280" height="720" fps="60" background="#000000" hardware="true" vsync="false" />
 
 	<!--HTML5-specific-->
 	<window if="html5" resizable="true" />
 
 	<!--Desktop-specific-->
-	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" vsync="false"/>
+	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true"/>
 
 	<!--Mobile-specific-->
 	<window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" resizable="false"/>
-
-	<!--Switch-specific-->
-	<window if="switch" orientation="landscape" fullscreen="true" width="0" height="0" resizable="true" />
 
 	<!-- _____________________________ Path Settings ____________________________ -->
 
@@ -45,7 +42,7 @@
 	<define name="SOUNDTRAY" />
 
 	<!-- Uncomment this for public builds. -->
-	<!-- <define name="PUBLIC_BUILD" unless="FORCE_DEBUG_VERSION" /> -->
+	<define name="PUBLIC_BUILD" unless="FORCE_DEBUG_VERSION" />
 
 	<!-- Rollback song if game stalls for over 1/10 of a second -->
 	<!-- <define name="SONG_ROLLBACK" /> -->
@@ -114,6 +111,10 @@
 	<haxelib name="hxvlc" if="VIDEOS_ALLOWED"/>
 	<haxelib name="discord_rpc" if="desktop"/>
 	<haxelib name="hxcpp-debug-server" if="debug"/>
+
+	<!-- Visualizer specific haxelibs.-->
+	<haxelib name="funkin.vis" />
+	<haxelib name="grig.audio" />
 
 	<!-- <haxelib name="markdown" /> -->
 	<!-- <haxelib name="HtmlParser" /> -->

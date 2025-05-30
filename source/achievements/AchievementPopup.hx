@@ -1,5 +1,6 @@
 package achievements;
 
+import Language.LanguageText;
 import openfl.events.Event;
 import openfl.geom.Matrix;
 import flash.display.BitmapData;
@@ -62,8 +63,8 @@ class AchievementPopup extends openfl.display.Sprite {
 		// achievement name/description
 		var textX = 103;
 
-		var text:FlxText = new FlxText(0, 0, 500, 'TEST!!!', 16);
-		text.setFormat(Paths.font("FOT-Carat Std UB.otf"), 25, FlxColor.WHITE, LEFT);
+		var text:LanguageText = new LanguageText(0, 0, 500, 'TEST!!!', 25, 'carat');
+		text.setStyle(FlxColor.WHITE, LEFT);
 		text.setBorderStyle(OUTLINE, FlxColor.BLACK);
 		text.borderSize = 2;
 		drawTextAt(text, fancyName, textX, 22);
@@ -90,7 +91,7 @@ class AchievementPopup extends openfl.display.Sprite {
 	}
 
 	var bitmaps:Array<BitmapData> = [];
-	function drawTextAt(text:FlxText, str:String, textX:Float, textY:Float)
+	function drawTextAt(text:LanguageText, str:String, textX:Float, textY:Float)
 	{
 		text.text = str;
 		text.updateHitbox();

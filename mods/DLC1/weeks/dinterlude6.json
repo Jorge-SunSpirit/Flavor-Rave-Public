@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["Carrera Loca"]
+	],
+
+	"weekCharacters": [
+		"Savory",
+		"Sour",
+		"empty",
+		"empty"
+	],
+	"charaSelect": [
+		"savory",
+		"sour"
+	],
+	"weekBackground": "corianda",
+	"weekType": "Interlude",
+	"storyName": "Interlude 6",
+	"weekBefore": "dinterlude5",
+	"weekName": "Sunset Rush",
+	"location": "Corianda",
+	"startUnlocked": false,
+	"categoryType": "story",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

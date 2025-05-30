@@ -72,7 +72,10 @@ class ChartingState extends MusicBeatState
 		'GF Sing Alt',
 		'Extra Character Sing Alt',
 		'Duo Character Sing Alt',
-		'No Animation'
+		'No Animation',
+		'Trail Note',
+		'Trail Note GF',
+		'Trail Note Extra'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -459,7 +462,7 @@ class ChartingState extends MusicBeatState
 		for (i in 0...tipTextArray.length) {
 			var tipText:FlxText = new FlxText(UI_box.x, UI_box.y + UI_box.height + 8, 0, tipTextArray[i], 16);
 			tipText.y += i * 12;
-			tipText.setFormat(Paths.font("vcr.ttf"), 14, FlxColor.WHITE, LEFT/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
+			tipText.setFormat(Language.font.get('vcr'), 14, FlxColor.WHITE, LEFT/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
 			//tipText.borderSize = 2;
 			tipText.scrollFactor.set();
 			add(tipText);
@@ -1890,15 +1893,6 @@ class ChartingState extends MusicBeatState
 				}
 			}
 
-
-			if (FlxG.keys.justPressed.BACKSPACE) {
-				PlayState.chartingMode = false;
-				MusicBeatState.switchState(new editors.MasterEditorMenu());
-				FlxG.sound.playMusic(Paths.music(ClientPrefs.mainmenuMusic));
-				FlxG.mouse.visible = false;
-				return;
-			}
-
 			if(FlxG.keys.justPressed.Z && FlxG.keys.pressed.CONTROL) {
 				undo();
 			}
@@ -2795,7 +2789,7 @@ class ChartingState extends MusicBeatState
 				if(typeInt == null) theType = '?';
 
 				var daText:AttachedFlxText = new AttachedFlxText(0, 0, 100, theType, 24);
-				daText.setFormat(Paths.font("vcr.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+				daText.setFormat(Language.font.get('vcr'), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 				daText.xAdd = -32;
 				daText.yAdd = 6;
 				daText.borderSize = 1;
@@ -2820,7 +2814,7 @@ class ChartingState extends MusicBeatState
 				if(note.eventLength > 1) text = note.eventLength + ' Events:\n' + note.eventName;
 
 				var daText:AttachedFlxText = new AttachedFlxText(0, 0, 400, text, 12);
-				daText.setFormat(Paths.font("vcr.ttf"), 12, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE_FAST, FlxColor.BLACK);
+				daText.setFormat(Language.font.get('vcr'), 12, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE_FAST, FlxColor.BLACK);
 				daText.xAdd = -410;
 				daText.borderSize = 1;
 				if(note.eventLength > 1) daText.yAdd += 8;

@@ -132,6 +132,8 @@ function onCreatePost()
 	initLuaShader('glitch');
 	addCharacterToList('sour-back-RAVE', 'extra');
 	addCharacterToList('sweet-back-RAVE', 'bf');
+	addCharacterToList('sour-RAVE', 'extra');
+	addCharacterToList('sweet-RAVE', 'bf');
 	
 	setProperty('ratingCharNote', true);
 	setProperty('healthCharNote', true);
@@ -143,7 +145,7 @@ function funnyStep(thingie)
 		doTweenAlpha('ravevin', 'ravevin', 1, 2.4);
 	end
 	if thingie == "1024" then
-		setProperty('ravevin.alpha', 0);
+		doTweenAlpha('ravevin', 'ravevin', 0.001, 0.001);
 		setProperty('gf.alpha', 0);
 		setProperty('dad.alpha', 0);
 		setProperty('Rave.alpha', 1);
@@ -197,7 +199,7 @@ function funnyStep(thingie)
 		setProperty('gays.color', 0x00000000);
 		setProperty('gays2.color', 0x00000000);
 		setProperty('firebg.alpha', 0.8);
-		setProperty('white.alpha', 0.0001);
+		doTweenAlpha('white', 'white', 0.0001, 0.001)
 		setProperty('dad.alpha', 1);
 		setProperty('spicyIntro.alpha', 0.0001);
 		goku = true
@@ -213,7 +215,43 @@ function funnyStep(thingie)
 		doTweenY('barTop', 'barTop', -102, 0.4, "circinout");
 		doTweenY('barBottom', 'barBottom', 822, 0.4, "circinout");
 	end
+	if thingie == "2271" then
+		goku = false
+		setProperty('camFollow.x', 781);
+		setProperty('camFollow.y', 394);
+		doTweenAlpha('boyfriend', 'boyfriend', 1, 0.1, 'circout')
+		doTweenAlpha('extraChar', 'extraChar', 1, 0.1, 'circout')
+	end
+	if thingie == "2304" then
+		setProperty('white.alpha', 1);
+		doTweenAlpha('white', 'white', 0.001, 0.3)
+		setProperty('boyfriendGroup.x', 1050)
+		setProperty('boyfriendGroup.y', 0)
+		setProperty('extraGroup.x', 1125)
+		setObjectOrder('extraGroup', getObjectOrder('boyfriendGroup')+1);
+		
+		setProperty('dadGroup.x', -175)
+		setProperty('dadGroup.y', 175)
+		setProperty('gfGroup.x', -50)
+		setProperty('gfGroup.y', -0)
+	end
 	if thingie == "2816" then
+		setProperty('dadGroup.x', 330)
+		setProperty('dadGroup.y', 105)
+		setProperty('gfGroup.x', 450)
+		setProperty('gfGroup.y', -70)
+		setProperty('boyfriendGroup.x', -175)
+		setProperty('boyfriendGroup.y', 230)
+		setProperty('extraGroup.x', 1225)
+		setProperty('extraGroup.y', 170)
+		
+		triggerEvent('Change Character','extra','sour-back-RAVE');
+		triggerEvent('Change Character','bf','sweet-back-RAVE');
+		setScrollFactor('boyfriendGroup', 1.1, 1.1);
+		setScrollFactor('extraGroup', 1.1, 1.1);
+		scaleObject('boyfriend', 1.5, 1.5);
+		scaleObject('extraChar', 1.5, 1.5);
+		goku = true
 		setProperty('fsbg.alpha', 0);
 		setProperty('stars.alpha', 0);
 		setProperty('rift.alpha', 0);

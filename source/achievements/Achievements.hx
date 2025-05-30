@@ -8,6 +8,7 @@ import lime.utils.Assets;
 import haxe.Json;
 import achievements.AchievementPopup;
 
+using StringTools;
 #if MODS_ALLOWED
 import sys.FileSystem;
 import sys.io.File;
@@ -23,6 +24,7 @@ typedef Achievement =
 	var fancyName:String;
 	var unlockCondition:String;
 	var showmanDialogue:String;
+	var showmanEmote:String;
 	var hidden:Bool;
 	var icon:String;
 }
@@ -30,10 +32,11 @@ typedef Achievement =
 class Achievements {
 	public static var achivementVarMap:Map<String, Achievement> = new Map<String, Achievement>();
 	public static var achievementArray:Array<String> = [];
+	public static var goCharacterMap:Map<String, Bool> = new Map<String, Bool>();
 
 	public static function init()
 	{
-		var temp:Map<String, Dynamic> = ClientPrefs.achievementMap;
+		var temp:Map<String, Bool> = ClientPrefs.achievementMap;
 
 		var path:String = Paths.getPreloadPath('data/achievements.json');
 		var rawJson = Assets.getText(path);
@@ -79,6 +82,8 @@ class Achievements {
 		}
 		#end
 		ClientPrefs.achievementMap = temp;
+
+		getGOCharacters();
 	}
 
 	public static function unlockAchievement(name:String, forcePop:Bool = false)
@@ -118,5 +123,73 @@ class Achievements {
 
 		var newPop:AchievementPopup = new AchievementPopup(achieve, endFunc);
 		_popups.push(newPop);
+	}
+
+	public static function checkfullclearer()
+	{
+		var hasEverBeenfalse:Bool = false;
+		for (key in ClientPrefs.songBothSideClearMap.keys()) 
+		{
+			if (key == "Lodestar Shanty") continue;
+			
+			if (Highscore.checkBeaten(key, 0, 'both'))
+			{
+				ClientPrefs.goCharacterMap.set(key, true);
+				trace(key + ' Apples');
+			}
+			else
+			{
+				hasEverBeenfalse = true;
+				trace(key + ' false');
+			}
+		}
+		if (!hasEverBeenfalse)
+			Achievements.unlockAchievement('fullclearer');
+		
+		ClientPrefs.saveSettings();
+	}
+
+	public static function getGOCharacters()
+	{
+		#if MODS_ALLOWED
+		var directories:Array<String> = [Paths.mods('characters/gameover/'), Paths.mods(Paths.currentModDirectory + '/characters/gameover/'), Paths.getPreloadPath('characters/gameover/')];
+		for(mod in Paths.getGlobalMods())
+			directories.push(Paths.mods(mod + '/characters/gameover/'));
+		#else
+		var directories:Array<String> = [Paths.getPreloadPath('characters/gameover/')];
+		#end
+
+		var tempMap:Map<String, Bool> = new Map<String, Bool>();
+		var characters:Array<String> = [];
+
+		#if MODS_ALLOWED
+		for (i in 0...directories.length) 
+		{
+			var directory:String = directories[i];
+			if(FileSystem.exists(directory)) 
+			{
+				for (file in FileSystem.readDirectory(directory)) 
+				{
+					var path = haxe.io.Path.join([directory, file]);
+					if (!FileSystem.isDirectory(path) && file.endsWith('.json')) 
+					{
+						var charToCheck:String = file.substr(0, file.length - 5);
+						if(!tempMap.exists(charToCheck)) 
+						{
+							tempMap.set(charToCheck, true);
+							characters.push(charToCheck);
+						}
+					}
+				}
+			}
+		}
+		#end
+
+		for (i in 0...characters.length)
+		{
+			//standard remove null from map
+			var theBool:Bool = ClientPrefs.goCharacterMap.get(characters[i]) ? true : false;
+			ClientPrefs.goCharacterMap.set(characters[i], theBool);
+		}
 	}
 }

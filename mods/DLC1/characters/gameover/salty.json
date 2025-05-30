@@ -8,11 +8,11 @@
 	"goSound": [
 		{
 			"sound": "salty/1",
-			"opponent": ""
+			"subtitles": "YARRR:dur:0.730[NL]Sea water in me good eye!:dur:1.988"
 		},
 		{
 			"sound": "salty/2",
-			"opponent": ""
+			"subtitles": "Can't be losing me sea legs now.:dur:2.772[NL]I only got one left.:dur:1.263"
 		}
 	]
 }

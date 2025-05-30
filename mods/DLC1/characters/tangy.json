@@ -103,7 +103,7 @@
 	"no_antialiasing": false,
 	"image": "characters/Tangy",
 	"position": [
-		20,
+		40,
 		190
 	],
 	"healthicon": "tangy",
@@ -114,8 +114,8 @@
 		20
 	],
 	"camera_position": [
-		30,
-		-225
+		210,
+		-235
 	],
 	"sing_duration": 6,
 	"scale": 1.11,

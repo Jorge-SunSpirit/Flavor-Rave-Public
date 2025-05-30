@@ -1,0 +1,7 @@
+{
+	"name": "Mod Template",
+	"type": "Template",
+	"release": "XX.XX.20XX",
+	"description": "Mod Description",
+	"runsGlobally": true
+}

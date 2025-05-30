@@ -1,0 +1,30 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "We're taking viewer requests for background music! What's the vibe for today?",
+			"chara": "synthetic",
+			"allowExit": true,
+			"choices":
+			[
+				{"text": "Citric Acid", "jsonreDirect": "song-citricacid"},
+				{"text": "solr_powr.ogg", "jsonreDirect": "song-solr_powr"},
+				{"text": "110th Street", "jsonreDirect": "song-110street"},
+				{"text": "Lavender Park", "jsonreDirect": "song-lavenderpark"},
+				{"text": "Walk the Walk", "jsonreDirect": "song-walkthewalk", "songCheck": "Tres Leches"},
+				{"text": "In the Mix", "jsonreDirect": "song-inthemix", "songCheck": "Applewood"},
+				{"text": "Togarashi Central", "jsonreDirect": "song-togarashicentral", "songCheck": "Flavorscape"},
+				{"text": "Dial it Back!", "jsonreDirect": "song-dialitback", "songCheck": "Flavorscape"},
+				{"text": "Stifled Strings", "jsonreDirect": "song-stifledstrings", "songCheck": "Flavorscape"},
+				{"text": "ReKindled", "jsonreDirect": "song-rekindled", "songCheck": "Ignatius"},
+				{"text": "Acid Rain", "jsonreDirect": "song-acidrain", "songCheck": "Livewire"},
+				{"text": "Such Sweet Sorrow", "jsonreDirect": "song-sweetsorrow", "songCheck": "Lodestar Shanty"},
+				{"text": "Salty Seas", "jsonreDirect": "song-salty", "songCheck": "Lodestar Shanty"},
+				{"text": "Talk the Talk", "jsonreDirect": "song-talkthetalk", "songCheck": "Carrera Loca"},
+				{"text": "A Glass Half Empty", "jsonreDirect": "song-glasshalfempty", "songCheck": "Stirring"},
+				{"text": "Give a Lil Bit Back (Remix)", "jsonreDirect": "song-bitback", "songCheck": "That's a Wrap"}
+
+			]
+		}
+	]
+}

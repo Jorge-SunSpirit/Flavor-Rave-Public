@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "S-Rank Text!",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "A-Rank Text!",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "B-Rank Text!",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "C-Rank Text!",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "D-Rank Text!",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

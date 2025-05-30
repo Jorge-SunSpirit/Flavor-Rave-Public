@@ -1,10 +1,11 @@
 package;
 
+import Language.LanguageText;
 import flixel.math.FlxMath;
 import flixel.math.FlxPoint;
 import flixel.text.FlxText;
 
-class AlphabetText extends FlxText
+class AlphabetText extends LanguageText
 {
 	public var isMenuItem:Bool = false;
 	public var targetY:Int = 0;
@@ -14,9 +15,11 @@ class AlphabetText extends FlxText
 	public var distancePerItem:FlxPoint = new FlxPoint(20, 120);
 	public var startPosition:FlxPoint = new FlxPoint(0, 0); // for the calculations
 
-	public function new(X:Float = 0, Y:Float = 0, FieldWidth:Float = 0, ?Text:String, Size:Int = 8, EmbeddedFont:Bool = true)
+	public function new(X:Float = 0, Y:Float = 0, FieldWidth:Float = 0, ?Text:String, Size:Int = 8, ?Font:String)
 	{
-		super(X, Y, FieldWidth, Text, Size, EmbeddedFont);
+		super(X, Y, FieldWidth, Text, Size, Font);
+		this.startPosition.x = X;
+		this.startPosition.y = Y;
 	}
 
 	override function update(elapsed:Float)

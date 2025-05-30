@@ -46,6 +46,8 @@ class ClientPrefs {
 	public static var hitsoundVolume:Float = 0;
 	public static var checkForUpdates:Bool = true;
 	public static var watermarks:Bool = false;
+	public static var subtitles:Bool = true;
+	public static var fullscreen:Bool = false;
 	#if SONG_ROLLBACK
 	public static var songRollback:Bool = false;
 	#end
@@ -71,7 +73,29 @@ class ClientPrefs {
 		'opponentplay' => false
 	];
 
-	public static var achievementMap:Map<String, Dynamic> = new Map<String, Dynamic>();
+	public static var achievementMap:Map<String, Bool> = new Map<String, Bool>();
+	public static var goCharacterMap:Map<String, Bool> = new Map<String, Bool>();
+	public static var songBothSideClearMap:Map<String, Bool> = [
+		"Applewood"	=> false,
+		"Caramelize"	=> false,
+		"Cranberry Pop"	=> false,
+		"Flavorscape"	=> false,
+		"GAME-JAMMED"	=> false,
+		"Heartstrings"	=> false,
+		"Ignatius"	=> false,
+		"Imitation Station"	=> false,
+		"MegaHeartz"	=> false,
+		"n0.pressur3.temp"	=> false,
+		"Rainbow Sorbet"	=> false,
+		"Rockcandy"	=> false,
+		"Sugarcoat It"	=> false,
+		"TIMESHOCK!"	=> false,
+		"Tres Leches"	=> false,
+		"Wasabi"	=> false,
+		"Fubuki"	=> false,
+		"Livewire"	=> false,
+		"Stirring"	=> false,
+		"That's a Wrap"	=> false];//EXCLAMATION MARK
 
 	public static var comboOffset:Array<Int> = [0, 0, 0, 0];
 	public static var ratingOffset:Float = 0;
@@ -109,6 +133,8 @@ class ClientPrefs {
 	];
 	public static var defaultKeys:Map<String, Array<FlxKey>> = null;
 
+	public static var announcer:String = "default";
+
 	public static function loadDefaultKeys() {
 		defaultKeys = keyBinds.copy();
 		//trace(defaultKeys);
@@ -119,13 +145,13 @@ class ClientPrefs {
 		FlxG.save.data.middleScroll = middleScroll;
 		FlxG.save.data.opponentStrums = opponentStrums;
 		FlxG.save.data.watermarks = watermarks;
+		FlxG.save.data.subtitles = subtitles;
 		#if SONG_ROLLBACK
 		FlxG.save.data.songRollback = songRollback;
 		#end
 		FlxG.save.data.showFPS = showFPS;
 		FlxG.save.data.showMemory = showMemory;
 		FlxG.save.data.showPeak = showPeak;
-		//FlxG.save.data.fpsBorder = fpsBorder;
 		FlxG.save.data.flashing = flashing;
 		FlxG.save.data.globalAntialiasing = globalAntialiasing;
 		FlxG.save.data.noteSkin = noteSkin;
@@ -134,8 +160,6 @@ class ClientPrefs {
 		FlxG.save.data.shaders = shaders;
 		FlxG.save.data.framerate = framerate;
 		FlxG.save.data.gpuTextures = gpuTextures;
-		//FlxG.save.data.cursing = cursing;
-		//FlxG.save.data.violence = violence;
 		FlxG.save.data.noteOffset = noteOffset;
 		FlxG.save.data.hideHud = hideHud;
 		FlxG.save.data.ghostTapping = ghostTapping;
@@ -152,13 +176,14 @@ class ClientPrefs {
 		FlxG.save.data.laneAlpha = laneAlpha;
 		FlxG.save.data.comboOffset = comboOffset;
 		FlxG.save.data.achievementMap = achievementMap;
+		FlxG.save.data.goCharacterMap = goCharacterMap;
+		FlxG.save.data.songBothSideClearMap = songBothSideClearMap;
 		FlxG.save.data.ratingOffset = ratingOffset;
 		FlxG.save.data.marvelousWindow = marvelousWindow;
 		FlxG.save.data.sickWindow = sickWindow;
 		FlxG.save.data.goodWindow = goodWindow;
 		FlxG.save.data.badWindow = badWindow;
 		FlxG.save.data.shitWindow = shitWindow;
-		//FlxG.save.data.safeFrames = safeFrames;
 		FlxG.save.data.gameplaySettings = gameplaySettings;
 		FlxG.save.data.controllerMode = controllerMode;
 		FlxG.save.data.autoPause = autoPause;
@@ -167,6 +192,8 @@ class ClientPrefs {
 		FlxG.save.data.hitsoundVolume = hitsoundVolume;
 		FlxG.save.data.checkForUpdates = checkForUpdates;
 		FlxG.save.data.pastOGWeek = pastOGWeek;
+		FlxG.save.data.announcer = announcer;
+		FlxG.save.data.fullscreen = fullscreen;
 		FlxG.save.flush();
 
 		var save:FlxSave = new FlxSave();
@@ -238,14 +265,14 @@ class ClientPrefs {
 		if(FlxG.save.data.gpuTextures != null) {
 			gpuTextures = FlxG.save.data.gpuTextures;
 		}
-		/*if(FlxG.save.data.cursing != null) {
-			cursing = FlxG.save.data.cursing;
-		}
-		if(FlxG.save.data.violence != null) {
-			violence = FlxG.save.data.violence;
-		}*/
 		if(FlxG.save.data.achievementMap != null) {
 			achievementMap = FlxG.save.data.achievementMap;
+		}
+		if(FlxG.save.data.goCharacterMap != null) {
+			goCharacterMap = FlxG.save.data.goCharacterMap;
+		}
+		if(FlxG.save.data.songBothSideClearMap != null) {
+			songBothSideClearMap = FlxG.save.data.songBothSideClearMap;
 		}
 		if(FlxG.save.data.hideHud != null) {
 			hideHud = FlxG.save.data.hideHud;
@@ -310,11 +337,6 @@ class ClientPrefs {
 		if(FlxG.save.data.shitWindow != null) {
 			shitWindow = FlxG.save.data.shitWindow;
 		}
-		/*
-		if(FlxG.save.data.safeFrames != null) {
-			safeFrames = FlxG.save.data.safeFrames;
-		}
-		*/
 		if(FlxG.save.data.controllerMode != null) {
 			controllerMode = FlxG.save.data.controllerMode;
 		}
@@ -323,6 +345,10 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.menuMouse != null) {
 			menuMouse = FlxG.save.data.menuMouse;
+		}
+		if(FlxG.save.data.fullscreen != null) {
+			fullscreen = FlxG.save.data.fullscreen;
+			FlxG.fullscreen = fullscreen;
 		}
 		if(FlxG.save.data.mainmenuMusic != null) {
 			if(Paths.fileExists('music/${mainmenuMusic}.ogg', MUSIC))
@@ -356,6 +382,12 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.watermarks != null) {
 			watermarks = FlxG.save.data.watermarks;
+		}
+		if(FlxG.save.data.subtitles != null) {
+			subtitles = FlxG.save.data.subtitles;
+		}
+		if(FlxG.save.data.announcer != null) {
+			announcer = FlxG.save.data.announcer;
 		}
 		#if SONG_ROLLBACK
 		if(FlxG.save.data.songRollback != null) {

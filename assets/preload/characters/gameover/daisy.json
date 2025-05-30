@@ -8,11 +8,11 @@
 	"goSound": [
 		{
 			"sound": "daisy/1",
-			"opponent": ""
+			"subtitles": "Ooooh... Brutal...:dur:2.250"
 		},
 		{
 			"sound": "daisy/2",
-			"opponent": ""
+			"subtitles": "Too bad...:dur:1.568"
 		}
 	]
 }

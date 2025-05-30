@@ -34,6 +34,7 @@
 			"background": "blackhueh",
 			"character": "Savory",
 			"chara": ["savory", 0, true],
+			"sound": ["savory","untilwemeet"],
 			"text": "Savor your moments together. I know too well what it’s like to have something loved lost so quickly."
 		},
 		{
@@ -102,6 +103,7 @@
 			"background": "42",
 			"chara": ["sour", 0, true],
 			"bgm": "InTheMix",
+			"bgmVolume": 0.2,
 			"text": "Wh- Umami? Wasn't expecting to see you today. I thought you worked all weekdays.",
 			"voice": ""
 		},

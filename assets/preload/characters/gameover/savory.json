@@ -8,11 +8,11 @@
 	"goSound": [
 		{
 			"sound": "savory/1",
-			"opponent": ""
+			"subtitles": "No puedo cantar con el estómago vacío...:dur:3.315"
 		},
 		{
 			"sound": "savory/2",
-			"opponent": ""
+			"subtitles": "He perdido el toque...:dur:1.943"
 		}
 	]
 }

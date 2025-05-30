@@ -1,5 +1,6 @@
 package options;
 
+import Language.LanguageText;
 import NoteSkin.NoteArray;
 import flixel.FlxCamera;
 import flixel.FlxG;
@@ -27,10 +28,10 @@ class NoteOffsetState extends MusicBeatState
 	public var camGame:FlxCamera;
 	public var camOther:FlxCamera;
 
-	var coolText:FlxText;
+	var coolText:LanguageText;
 	var rating:FlxSprite;
 	var comboNums:FlxSpriteGroup;
-	var dumbTexts:FlxTypedGroup<FlxText>;
+	var dumbTexts:FlxTypedGroup<LanguageText>;
 
 	public var grpNoteLanes:FlxTypedGroup<FlxSprite>;
 	public var strumLineNotes:FlxTypedGroup<StrumNote>;
@@ -40,11 +41,11 @@ class NoteOffsetState extends MusicBeatState
 	var delayMax:Int = 1000;
 	var timeBarBG:FlxSprite;
 	var timeBar:FlxBar;
-	var timeTxt:FlxText;
+	var timeTxt:LanguageText;
 	var beatText:Alphabet;
 	var beatTween:FlxTween;
 
-	var changeModeText:FlxText;
+	var changeModeText:LanguageText;
 
 	var bumpers:Array<BGSprite> = [];
 	var lights_2:Array<BGSprite> = [];
@@ -224,7 +225,7 @@ class NoteOffsetState extends MusicBeatState
 		grpNoteLanes.cameras = [camHUD];
 		add(grpNoteLanes);
 
-		coolText = new FlxText(0, 0, 0, '', 32);
+		coolText = new LanguageText(0, 0, 0, '', 32);
 		coolText.screenCenter();
 		coolText.x = FlxG.width * 0.35;
 
@@ -308,7 +309,7 @@ class NoteOffsetState extends MusicBeatState
 			}
 		}
 
-		dumbTexts = new FlxTypedGroup<FlxText>();
+		dumbTexts = new FlxTypedGroup<LanguageText>();
 		dumbTexts.cameras = [camHUD];
 		add(dumbTexts);
 		createTexts();
@@ -317,7 +318,7 @@ class NoteOffsetState extends MusicBeatState
 
 		// Note delay stuff
 		
-		beatText = new Alphabet(0, 0, 'Beat Hit!', true);
+		beatText = new Alphabet(0, 0, Language.option.get('delay_beat_hit', 'Beat Hit!'), true);
 		beatText.scaleX = 0.6;
 		beatText.scaleY = 0.6;
 		beatText.x += 260;
@@ -326,8 +327,8 @@ class NoteOffsetState extends MusicBeatState
 		beatText.visible = false;
 		add(beatText);
 		
-		timeTxt = new FlxText(0, 600, FlxG.width, "", 32);
-		timeTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		timeTxt = new LanguageText(0, 600, FlxG.width, "", 32, 'vcr');
+		timeTxt.setStyle(FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		timeTxt.scrollFactor.set();
 		timeTxt.borderSize = 2;
 		timeTxt.visible = false;
@@ -363,8 +364,8 @@ class NoteOffsetState extends MusicBeatState
 		blackBox.cameras = [camHUD];
 		add(blackBox);
 
-		changeModeText = new FlxText(0, 4, FlxG.width, "", 32);
-		changeModeText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
+		changeModeText = new LanguageText(0, 4, FlxG.width, "", 32, 'vcr');
+		changeModeText.setStyle(FlxColor.WHITE, CENTER);
 		changeModeText.scrollFactor.set();
 		changeModeText.cameras = [camHUD];
 		add(changeModeText);
@@ -626,8 +627,8 @@ class NoteOffsetState extends MusicBeatState
 	{
 		for (i in 0...4)
 		{
-			var text:FlxText = new FlxText(10, 48 + (i * 30), 0, '', 24);
-			text.setFormat(Paths.font("vcr.ttf"), 24, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			var text:LanguageText = new LanguageText(10, 48 + (i * 30), 0, '', 24, 'vcr');
+			text.setStyle(FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 			text.scrollFactor.set();
 			text.borderSize = 2;
 			dumbTexts.add(text);
@@ -646,9 +647,9 @@ class NoteOffsetState extends MusicBeatState
 		{
 			switch(i)
 			{
-				case 0: dumbTexts.members[i].text = 'Rating Offset:';
+				case 0: dumbTexts.members[i].text = Language.option.get('combo_rating_offset', 'Rating Offset') + ':';
 				case 1: dumbTexts.members[i].text = '[' + ClientPrefs.comboOffset[0] + ', ' + ClientPrefs.comboOffset[1] + ']';
-				case 2: dumbTexts.members[i].text = 'Numbers Offset:';
+				case 2: dumbTexts.members[i].text = Language.option.get('combo_numbers_offset', 'Numbers Offset') + ':';
 				case 3: dumbTexts.members[i].text = '[' + ClientPrefs.comboOffset[2] + ', ' + ClientPrefs.comboOffset[3] + ']';
 			}
 		}
@@ -657,7 +658,7 @@ class NoteOffsetState extends MusicBeatState
 	function updateNoteDelay()
 	{
 		ClientPrefs.noteOffset = Math.round(barPercent);
-		timeTxt.text = 'Current offset: ' + Math.floor(barPercent) + ' ms';
+		timeTxt.text = Language.option.get('delay_current_offset', 'Current offset') + ': ' + Math.floor(barPercent) + ' ms';
 	}
 
 	function updateMode()
@@ -673,10 +674,16 @@ class NoteOffsetState extends MusicBeatState
 		timeTxt.visible = !onComboMenu;
 		beatText.visible = !onComboMenu;
 
-		if(onComboMenu)
-			changeModeText.text = '< Combo Offset (Press Accept to Switch) >';
-		else
-			changeModeText.text = '< Note/Beat Delay (Press Accept to Switch) >';
+		{			
+			changeModeText.text = '< ';
+	
+			if(onComboMenu)
+				changeModeText.text += Language.option.get('combo_offset', 'Combo Offset');
+			else
+				changeModeText.text += Language.option.get('note_delay', 'Note/Beat Delay');
+	
+			changeModeText.text += ' (' + Language.option.get('switch_on_accept', 'Press Accept to Switch') + ') >';
+		}
 
 		changeModeText.text = changeModeText.text.toUpperCase();
 		FlxG.mouse.visible = onComboMenu;

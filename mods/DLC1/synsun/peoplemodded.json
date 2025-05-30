@@ -1,0 +1,16 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "This",
+			"chara": "doesn't matter",
+			"allowExit": true,
+			"choices":
+			[
+				{"text": "Tangy", "jsonreDirect": "people-tangy", "songCheck": "Livewire"},
+				{"text": "Salty", "jsonreDirect": "people-salty", "songCheck": "Lodestar Shanty"},
+				{"text": "Bitter", "jsonreDirect": "people-bitter", "songCheck": "Stirring"}
+			]
+		}
+	]
+}

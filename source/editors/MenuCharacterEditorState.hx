@@ -74,7 +74,7 @@ class MenuCharacterEditorState extends MusicBeatState
 		var tipText:FlxText = new FlxText(0, 540, FlxG.width,
 			"Arrow Keys - Change Offset (Hold shift for 10x speed)
 			\nSpace - Play \"Start Press\" animation (Boyfriend Character Type)", 16);
-		tipText.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, CENTER);
+		tipText.setFormat(Language.font.get('vcr'), 16, FlxColor.WHITE, CENTER);
 		tipText.scrollFactor.set();
 		add(tipText);
 

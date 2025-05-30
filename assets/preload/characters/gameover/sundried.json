@@ -8,11 +8,11 @@
 	"goSound": [
 		{
 			"sound": "sundried/1",
-			"opponent": ""
+			"subtitles": "This is embarrasing:dur:1.942"
 		},
 		{
 			"sound": "sundried/2",
-			"opponent": ""
+			"subtitles": "Womp womp :(:dur:1.227"
 		}
 	]
 }

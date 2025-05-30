@@ -241,6 +241,8 @@ class Character extends FlxSprite
 						noteSplash = skin.noteSplash;
 						ratings_folder = skin.ratings_folder;
 					}
+					if (ClientPrefs.noteSkin == 'Default' && note == 'NOTE_assets' && PlayState.instance.songArrowSkin != null && PlayState.instance.songArrowSkin.length > 1)
+						note = PlayState.instance.songArrowSkin;
 				}
 				else if (json.noteskin != null)
 				{

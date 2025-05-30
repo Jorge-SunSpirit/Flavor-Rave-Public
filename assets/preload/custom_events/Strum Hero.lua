@@ -79,17 +79,21 @@ function bringIn(what)
 			noteTweenX("NoteMove7", 6, 641, speed, "circinout")
 			noteTweenX("NoteMove8", 7, 753, speed, "circinout")
 			
-			if opponentPlay then 
-				noteTweenAlpha("NoteFade1", 4, 0.07, speed, "circinout")
-				noteTweenAlpha("NoteFade2", 5, 0.07, speed, "circinout")
-				noteTweenAlpha("NoteFade3", 6, 0.07, speed, "circinout")
-				noteTweenAlpha("NoteFade4",	7, 0.07, speed, "circinout")
-			else
-				noteTweenAlpha("NoteFade1", 0, 0.07, speed, "circinout")
-				noteTweenAlpha("NoteFade2", 1, 0.07, speed, "circinout")
-				noteTweenAlpha("NoteFade3", 2, 0.07, speed, "circinout")
-				noteTweenAlpha("NoteFade4", 3, 0.07, speed, "circinout")
+			
+			if opponentstrums then
+				if opponentPlay then 
+					noteTweenAlpha("NoteFade1", 4, 0.07, speed, "circinout")
+					noteTweenAlpha("NoteFade2", 5, 0.07, speed, "circinout")
+					noteTweenAlpha("NoteFade3", 6, 0.07, speed, "circinout")
+					noteTweenAlpha("NoteFade4",	7, 0.07, speed, "circinout")
+				else
+					noteTweenAlpha("NoteFade1", 0, 0.07, speed, "circinout")
+					noteTweenAlpha("NoteFade2", 1, 0.07, speed, "circinout")
+					noteTweenAlpha("NoteFade3", 2, 0.07, speed, "circinout")
+					noteTweenAlpha("NoteFade4", 3, 0.07, speed, "circinout")
+				end
 			end
+			
 		end
 	else
 		playAnim('laneBG', 'idle', true, true);
@@ -109,14 +113,17 @@ function bringIn(what)
 			noteTweenX('dad5', 1, defaultOpponentStrumX1, speed, "circinout")
 			noteTweenX('dad6', 2, defaultOpponentStrumX2, speed, "circinout")
 			noteTweenX('dad7', 3, defaultOpponentStrumX3, speed, "circinout")
-			noteTweenAlpha("NoteFade1", 0, 1, speed, "circinout")
-			noteTweenAlpha("NoteFade2", 1, 1, speed, "circinout")
-			noteTweenAlpha("NoteFade3", 2, 1, speed, "circinout")
-			noteTweenAlpha("NoteFade4", 3, 1, speed, "circinout")
-			noteTweenAlpha("NoteFade5", 4, 1, speed, "circinout")
-			noteTweenAlpha("NoteFade6", 5, 1, speed, "circinout")
-			noteTweenAlpha("NoteFade7", 6, 1, speed, "circinout")
-			noteTweenAlpha("NoteFade8", 7, 1, speed, "circinout")
+			
+			if opponentstrums then
+				noteTweenAlpha("NoteFade1", 0, 1, speed, "circinout")
+				noteTweenAlpha("NoteFade2", 1, 1, speed, "circinout")
+				noteTweenAlpha("NoteFade3", 2, 1, speed, "circinout")
+				noteTweenAlpha("NoteFade4", 3, 1, speed, "circinout")
+				noteTweenAlpha("NoteFade5", 4, 1, speed, "circinout")
+				noteTweenAlpha("NoteFade6", 5, 1, speed, "circinout")
+				noteTweenAlpha("NoteFade7", 6, 1, speed, "circinout")
+				noteTweenAlpha("NoteFade8", 7, 1, speed, "circinout")
+			end
 		end
 	end
 end

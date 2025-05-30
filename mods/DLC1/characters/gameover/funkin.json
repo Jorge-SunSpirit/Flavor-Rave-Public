@@ -1,0 +1,22 @@
+{
+	"image": "gameover/FunkinGO",
+	"animation": "FunkinGO",
+	"spriteOffset": [695,580],
+	"flip_x": false,
+	"scale": 1,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "funkin/1",
+			"subtitles": "You can't tell me these guys are your hardest opponents?!:dur:2.908[NL]Keep up!:dur:1.042"
+		},
+		{
+			"sound": "funkin/2",
+			"subtitles": "Alright you two, let's get you back home before someone notices.:dur:3.512"
+		},
+		{
+			"sound": "funkin/3",
+			"subtitles": "Oh you gotta be kidding me!:dur:1.585[NL]*breaths*:dur:0.431[NL]Ye:dur:0.283[NL]Gehc:dur:0.381[NL]WHAT!?:dur:1.101"
+		}
+	]
+}

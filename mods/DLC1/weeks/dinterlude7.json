@@ -1,0 +1,28 @@
+{
+	"songs": [
+		["Stirring"]
+	],
+
+	"weekCharacters": [
+		"Sweet",
+		"Bitter",
+		"empty",
+		"empty"
+	],
+	"charaSelect": [
+		"sweet",
+		"bitter"
+	],
+	"force1P": false,
+	"weekBackground": "chicory",
+	"weekType": "Interlude",
+	"storyName": "Interlude 7",
+	"weekBefore": "dinterlude6",
+	"weekName": "Waltz of Woes",
+	"location": "Chicory's Cuisines",
+	"startUnlocked": false,
+	"categoryType": "story",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

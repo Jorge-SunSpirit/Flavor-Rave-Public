@@ -1,0 +1,64 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Hmm… that name isn’t ringing any bells. Are they someone up and coming?",
+			"animation": "think",
+			"chara": "sun"
+		},
+		{
+			"text": "Not that I know of. I’m not seeing anything in my quick searches.",
+			"chara": "syn"
+		},
+		{
+			"text": "I could try digging a little deeper… and that isn’t finding me much, either.",
+			"animation": "search",
+			"chara": "syn",
+			"sound" : "beepboop"
+		},
+		{
+			"text": "Closest thing I can see is the title of an old song by a very snazzy looking singer from across the ocean.",
+			"chara": "syn"
+		},
+		{
+			"text": "‘Bitter’ by Cappuccino, from about 26 years ago. It’s a song she wrote while she was pregnant apparently, named after and dedicated to her not-yet-born child.",
+			"animation": "reset",
+			"chara": "syn",
+			"tvArt" : "cap"
+		},
+		{
+			"text": "This has to be what the chat is talking about, cause I’m not finding any other results for this name.",
+			"chara": "syn"
+		},
+		{
+			"text": "The guy this song’s named after might be making a name for themselves. Maybe someone local heard about them?",
+			"animation": "reset",
+			"chara": "sun",
+			"sound" : "hmm"
+		},
+		{
+			"text": "Maybe, but they’re VERY underground if that is the case.",
+			"chara": "syn"
+		},
+		{
+			"text": "Heck, looking into this Cappuccino lady some more, she hasn’t been seen in public for a long time, and Bitter was the last song she ever released.",
+			"animation": "confused",
+			"chara": "syn",
+			"sound" : "oh"
+		},
+		{
+			"text": "She probably got busy being a parent once their kid was born, but usually you’ll hear something about them during or after that kind of stuff. Strange…",
+			"chara": "syn"
+		},
+		{
+			"text": "Let’s do some of our own research in our off time. I’ve been very interested in overseas music ever since I’ve started listening to Sweet.",
+			"chara": "sun"
+		},
+		{
+			"text": "If we find anything interesting, we'll report it to you all next time we're live!",
+			"animation": "determined",
+			"chara": "sun",
+			"sound" : "giggle"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "This",
+			"chara": "doesn't matter",
+			"allowExit": true,
+			"choices":
+			[
+				{"text": "Placeholder", "jsonreDirect": "people-placeholder"}
+			]
+		}
+	]
+}

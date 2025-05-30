@@ -2,12 +2,42 @@
 	"song": {
 		"events": [
 			[
+				0,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1"
+					]
+				]
+			],
+			[
+				649.350649350649,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"10"
+					]
+				]
+			],
+			[
 				5064.93506493506,
 				[
 					[
 						"Play SFX",
 						"jump",
 						"1"
+					]
+				]
+			],
+			[
+				6298.7012987013,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"97"
 					]
 				]
 			],
@@ -27,12 +57,22 @@
 				]
 			],
 			[
+				12467.5324675325,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"192"
+					]
+				]
+			],
+			[
 				24545.4545454545,
 				[
 					[
 						"Lyric Display",
 						"Oh!",
-						""
+						"lodestarlyric_1"
 					]
 				]
 			],
@@ -52,7 +92,7 @@
 					[
 						"Lyric Display",
 						"Come, me hearties, sing along! Lift up ye spirits high!",
-						""
+						"lodestarlyric_2"
 					],
 					[
 						"Change Camera Zoom",
@@ -67,7 +107,7 @@
 					[
 						"Lyric Display",
 						"Hoist the mizzen, anchors weigh, let the Jolly Roger fly!",
-						""
+						"lodestarlyric_3"
 					]
 				]
 			],
@@ -77,7 +117,7 @@
 					[
 						"Lyric Display",
 						"Spread right out the treasure map! Wake up and smell the ale!",
-						""
+						"lodestarlyric_4"
 					]
 				]
 			],
@@ -87,7 +127,7 @@
 					[
 						"Lyric Display",
 						"Throw ye worries in the brig, this pirate’s settin’ sail!",
-						""
+						"lodestarlyric_5"
 					]
 				]
 			],
@@ -97,7 +137,7 @@
 					[
 						"Lyric Display",
 						"When the storms befuddle you, pick up an oar and row!",
-						""
+						"lodestarlyric_6"
 					]
 				]
 			],
@@ -107,7 +147,7 @@
 					[
 						"Lyric Display",
 						"Scuttle all yer troubles, lose ye woes in the undertow!",
-						""
+						"lodestarlyric_7"
 					]
 				]
 			],
@@ -117,7 +157,7 @@
 					[
 						"Lyric Display",
 						"Scurvy or the Navy, we can blow ‘em all away.",
-						""
+						"lodestarlyric_8"
 					]
 				]
 			],
@@ -127,7 +167,7 @@
 					[
 						"Lyric Display",
 						"Free to lose yerself at sea: The Pirate’s way! Oh!",
-						""
+						"lodestarlyric_9"
 					]
 				]
 			],
@@ -137,7 +177,7 @@
 					[
 						"Lyric Display",
 						"Yo-ho! Yo-ho! Across the ocean waves!",
-						""
+						"lodestarlyric_10"
 					],
 					[
 						"Change Camera Zoom",
@@ -152,7 +192,7 @@
 					[
 						"Lyric Display",
 						"The seven seas spur ever on a soul that spills of RAVE!",
-						""
+						"lodestarlyric_11"
 					]
 				]
 			],
@@ -162,7 +202,7 @@
 					[
 						"Lyric Display",
 						"Yo-ho! Yo-ho! We sail the salty straits!",
-						""
+						"lodestarlyric_12"
 					]
 				]
 			],
@@ -172,7 +212,7 @@
 					[
 						"Lyric Display",
 						"Wind be at our backs, me boy! Adventure sure awaits!",
-						""
+						"lodestarlyric_13"
 					]
 				]
 			],
@@ -222,12 +262,132 @@
 				]
 			],
 			[
+				85194.8051948053,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1312"
+					]
+				]
+			],
+			[
 				86493.5064935066,
 				[
 					[
 						"Change Camera Zoom",
 						"0.8",
 						"0.5"
+					]
+				]
+			],
+			[
+				87857.142857143,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1353"
+					]
+				]
+			],
+			[
+				88051.9480519482,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1356"
+					]
+				]
+			],
+			[
+				90259.7402597404,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1390"
+					]
+				]
+			],
+			[
+				90714.2857142859,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1397"
+					]
+				]
+			],
+			[
+				90909.0909090911,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1400"
+					]
+				]
+			],
+			[
+				93376.6233766236,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1438"
+					]
+				]
+			],
+			[
+				93961.0389610391,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1447"
+					]
+				]
+			],
+			[
+				94155.8441558443,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1450"
+					]
+				]
+			],
+			[
+				97142.8571428573,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1496"
+					]
+				]
+			],
+			[
+				97662.3376623379,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1504"
+					]
+				]
+			],
+			[
+				97792.207792208,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1506"
 					]
 				]
 			],
@@ -242,12 +402,62 @@
 				]
 			],
 			[
+				101168.831168831,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1558"
+					]
+				]
+			],
+			[
+				101688.311688312,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1566"
+					]
+				]
+			],
+			[
+				101883.116883117,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1569"
+					]
+				]
+			],
+			[
+				104350.64935065,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1607"
+					]
+				]
+			],
+			[
+				105454.545454546,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1624"
+					]
+				]
+			],
+			[
 				105974.025974026,
 				[
 					[
 						"Lyric Display",
 						"Come, me boy, and join me crew to lift yer spirits high!",
-						""
+						"lodestarlyric_14"
 					],
 					[
 						"Change Camera Zoom",
@@ -262,7 +472,7 @@
 					[
 						"Lyric Display",
 						"The sea shall wash away your doubt as the Jolly Roger flies!",
-						""
+						"lodestarlyric_15"
 					]
 				]
 			],
@@ -272,7 +482,7 @@
 					[
 						"Lyric Display",
 						"Tides that roar and skies of pitch would bend a lubber’s heart.",
-						""
+						"lodestarlyric_16"
 					]
 				]
 			],
@@ -282,7 +492,7 @@
 					[
 						"Lyric Display",
 						"But those who brave the roughest waves shall ne’r be kept apart!",
-						""
+						"lodestarlyric_17"
 					]
 				]
 			],
@@ -292,7 +502,7 @@
 					[
 						"Lyric Display",
 						"You, me boy, know what ye want. To what lengths would ye go?",
-						""
+						"lodestarlyric_18"
 					]
 				]
 			],
@@ -302,7 +512,7 @@
 					[
 						"Lyric Display",
 						"Flush with vim and vigor, you're her young and feisty beau!",
-						""
+						"lodestarlyric_19"
 					]
 				]
 			],
@@ -312,7 +522,7 @@
 					[
 						"Lyric Display",
 						"You would see yer sweetie-pie, it matters not how far.",
-						""
+						"lodestarlyric_20"
 					]
 				]
 			],
@@ -322,7 +532,7 @@
 					[
 						"Lyric Display",
 						"Trust me crew, and we will get you to yer lodestar!",
-						""
+						"lodestarlyric_21"
 					]
 				]
 			],
@@ -332,7 +542,7 @@
 					[
 						"Lyric Display",
 						"Yo-ho! Yo-ho! Across the ocean waves!",
-						""
+						"lodestarlyric_22"
 					],
 					[
 						"Change Camera Zoom",
@@ -347,7 +557,7 @@
 					[
 						"Lyric Display",
 						"The seven seas spur ever on a soul that spills of RAVE!",
-						""
+						"lodestarlyric_23"
 					]
 				]
 			],
@@ -357,7 +567,7 @@
 					[
 						"Lyric Display",
 						"Yo-ho! Yo-ho! We sail the salty straits!",
-						""
+						"lodestarlyric_24"
 					]
 				]
 			],
@@ -367,7 +577,7 @@
 					[
 						"Lyric Display",
 						"Wind be at our backs, me boy! Yer treasured love awaits!",
-						""
+						"lodestarlyric_25"
 					]
 				]
 			],
@@ -387,7 +597,7 @@
 					[
 						"Lyric Display",
 						"There ain’t a wave a pirate’s soul can’t tame.",
-						""
+						"lodestarlyric_26"
 					]
 				]
 			],
@@ -397,7 +607,7 @@
 					[
 						"Lyric Display",
 						"To fan yer spark into a flame!",
-						""
+						"lodestarlyric_27"
 					]
 				]
 			],
@@ -407,7 +617,7 @@
 					[
 						"Lyric Display",
 						"Just take a step away from what’s to blame.",
-						""
+						"lodestarlyric_28"
 					]
 				]
 			],
@@ -417,7 +627,7 @@
 					[
 						"Lyric Display",
 						"That means the railing, boy! C’mere!",
-						""
+						"lodestarlyric_29"
 					]
 				]
 			],
@@ -427,7 +637,7 @@
 					[
 						"Lyric Display",
 						"This song will wash away yer fear! ",
-						""
+						"lodestarlyric_30"
 					],
 					[
 						"Change Camera Zoom",
@@ -458,6 +668,11 @@
 						"Change Camera Zoom",
 						"1",
 						"0.52"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"2592"
 					]
 				]
 			],
@@ -632,12 +847,22 @@
 				]
 			],
 			[
+				181818.181818183,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2800"
+					]
+				]
+			],
+			[
 				182310.064935066,
 				[
 					[
 						"Lyric Display",
 						"Way ho! (Way ho!)",
-						""
+						"lodestarlyric_31"
 					]
 				]
 			],
@@ -648,6 +873,16 @@
 						"Change Camera Zoom",
 						"0.85",
 						"0.7"
+					]
+				]
+			],
+			[
+				182922.077922079,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2817"
 					]
 				]
 			],
@@ -687,7 +922,7 @@
 					[
 						"Lyric Display",
 						"Yo ho ho!",
-						""
+						"lodestarlyric_32"
 					]
 				]
 			],
@@ -697,7 +932,7 @@
 					[
 						"Lyric Display",
 						"Way ho! (Way ho!)",
-						""
+						"lodestarlyric_33"
 					]
 				]
 			],
@@ -737,7 +972,17 @@
 					[
 						"Lyric Display",
 						"Ahoy, me hearties! Bring ‘er home!",
-						""
+						"lodestarlyric_34"
+					]
+				]
+			],
+			[
+				193051.948051949,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"2973"
 					]
 				]
 			],
@@ -747,12 +992,17 @@
 					[
 						"Lyric Display",
 						"Yo-ho! Yo-ho! Across the ocean waves!",
-						""
+						"lodestarlyric_35"
 					],
 					[
 						"Call on Luas",
 						"chants",
 						"2"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"3000"
 					]
 				]
 			],
@@ -778,6 +1028,21 @@
 						"Call on Luas",
 						"chants",
 						"2"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"3012"
+					]
+				]
+			],
+			[
+				196298.701298702,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"3023"
 					]
 				]
 			],
@@ -802,12 +1067,22 @@
 				]
 			],
 			[
+				197727.272727274,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"3045"
+					]
+				]
+			],
+			[
 				197758.116883118,
 				[
 					[
 						"Lyric Display",
 						"The seven seas spur ever on a soul that spills of RAVE!",
-						""
+						"lodestarlyric_36"
 					]
 				]
 			],
@@ -857,7 +1132,7 @@
 					[
 						"Lyric Display",
 						"Yo-ho! Yo-ho! We sail the salty straits!",
-						""
+						"lodestarlyric_37"
 					],
 					[
 						"Call on Luas",
@@ -902,7 +1177,7 @@
 					[
 						"Lyric Display",
 						"Wind be at our backs, me boy! Yer treasured love awaits!",
-						""
+						"lodestarlyric_38"
 					]
 				]
 			],
@@ -952,7 +1227,7 @@
 					[
 						"Lyric Display",
 						"Yo-ho! Yo-ho! Across the ocean waves!",
-						""
+						"lodestarlyric_39"
 					],
 					[
 						"Call on Luas",
@@ -968,6 +1243,11 @@
 						"Add Camera Zoom",
 						"0.015",
 						"0.03"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"3192"
 					]
 				]
 			],
@@ -1007,7 +1287,7 @@
 					[
 						"Lyric Display",
 						"The seven seas spur ever on a soul that spills of RAVE!",
-						""
+						"lodestarlyric_40"
 					]
 				]
 			],
@@ -1057,7 +1337,7 @@
 					[
 						"Lyric Display",
 						"Yo-ho! Yo-ho! We sail the salty straits!",
-						""
+						"lodestarlyric_41"
 					],
 					[
 						"Call on Luas",
@@ -1097,12 +1377,22 @@
 				]
 			],
 			[
+				216493.506493508,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"3334"
+					]
+				]
+			],
+			[
 				216623.376623378,
 				[
 					[
 						"Lyric Display",
 						"Wind be at our backs, me boy-",
-						""
+						"lodestarlyric_42"
 					],
 					[
 						"Change Camera Zoom",
@@ -1117,7 +1407,7 @@
 					[
 						"Lyric Display",
 						"-c'mon now, Sour! Don't be coy!",
-						""
+						"lodestarlyric_43"
 					]
 				]
 			],
@@ -1127,7 +1417,7 @@
 					[
 						"Lyric Display",
 						"Wind be at our backs, me boy! Yer treasured love awaits!!!",
-						""
+						"lodestarlyric_44"
 					]
 				]
 			],
@@ -1157,7 +1447,7 @@
 					[
 						"Lyric Display",
 						"Yah har har har har har har!",
-						""
+						"lodestarlyric_45"
 					],
 					[
 						"Play Animation",
@@ -1173,6 +1463,16 @@
 						"Lyric Display",
 						"",
 						""
+					]
+				]
+			],
+			[
+				229090.90909091,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"3528"
 					]
 				]
 			]

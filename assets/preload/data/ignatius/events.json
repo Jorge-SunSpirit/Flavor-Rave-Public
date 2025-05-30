@@ -2,12 +2,52 @@
 	"song": {
 		"events": [
 			[
+				1020.40816326531,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"10"
+					]
+				]
+			],
+			[
 				1224.48979591837,
 				[
 					[
 						"Note Camera Movement",
 						"10",
 						""
+					]
+				]
+			],
+			[
+				2448.97959183673,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"24"
+					]
+				]
+			],
+			[
+				5306.12244897959,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"52"
+					]
+				]
+			],
+			[
+				5918.36734693878,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"58"
 					]
 				]
 			],
@@ -23,6 +63,21 @@
 						"Play SFX",
 						"FireWoosh",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"80"
+					]
+				]
+			],
+			[
+				11428.5714285714,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"112"
 					]
 				]
 			],
@@ -488,6 +543,41 @@
 						"Change Camera Zoom",
 						"1",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1168"
+					]
+				]
+			],
+			[
+				119795.918367347,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1174"
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1176"
+					]
+				]
+			],
+			[
+				126122.448979592,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1236"
 					]
 				]
 			],
@@ -508,6 +598,11 @@
 						"Change Camera Bump frequency",
 						"8",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1296"
 					]
 				]
 			],
@@ -528,6 +623,11 @@
 						"Change Camera Zoom",
 						"1.2",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1424"
 					]
 				]
 			],
@@ -563,6 +663,11 @@
 						"Play SFX",
 						"RAVEsfx",
 						"0.9"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1520"
 					]
 				]
 			],
@@ -578,6 +683,16 @@
 						"Change Camera Bump frequency",
 						"16",
 						"1"
+					]
+				]
+			],
+			[
+				156734.693877551,
+				[
+					[
+						"Strum Hero",
+						"true",
+						"1.5"
 					]
 				]
 			],
@@ -600,11 +715,6 @@
 						"white"
 					],
 					[
-						"Change Camera Zoom",
-						"1.1",
-						"0.5"
-					],
-					[
 						"Play SFX",
 						"RAVEFlash",
 						"1"
@@ -613,6 +723,11 @@
 						"Change Camera Bump frequency",
 						"4",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1552"
 					]
 				]
 			],
@@ -628,6 +743,16 @@
 						"Change Camera Bump frequency",
 						"8",
 						"1"
+					],
+					[
+						"Strum Hero",
+						"false",
+						"1.5"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1808"
 					]
 				]
 			],
@@ -658,6 +783,11 @@
 						"Change Camera Bump frequency",
 						"16",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1936"
 					]
 				]
 			]

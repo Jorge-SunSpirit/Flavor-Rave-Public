@@ -8,11 +8,11 @@
 	"goSound": [
 		{
 			"sound": "ace/1",
-			"opponent": ""
+			"subtitles": "*sigh* haha... It's all good fun, yeah?:dur:2.214"
 		},
 		{
 			"sound": "ace/2",
-			"opponent": ""
+			"subtitles": "Woah! Too hot!:dur:1.184"
 		}
 	]
 }

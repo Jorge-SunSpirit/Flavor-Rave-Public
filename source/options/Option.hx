@@ -25,7 +25,7 @@ using StringTools;
 
 class Option
 {
-	private var child:Alphabet;
+	private var child:AlphabetText;
 	public var text(get, set):String;
 	public var onChange:Void->Void = null; //Pressed enter (on Bool type options) or pressed/held left/right (on other types)
 
@@ -49,11 +49,13 @@ class Option
 	public var displayFormat:String = '%v'; //How String/Float/Percent/Int values are shown, %v = Current value, %d = Default value
 	public var description:String = '';
 	public var name:String = 'Unknown';
+	public var enName:String = 'Unknown'; //The name in English
 
 	public function new(name:String, description:String = '', variable:String, type:String = 'bool', defaultValue:Dynamic = 'null variable value', ?options:Array<String> = null)
 	{
-		this.name = name;
-		this.description = description;
+		this.enName = name;
+		this.name = Language.option.get('setting_' + name, name);
+		this.description = Language.option.get('description_' + name, description);
 		this.variable = variable;
 		this.type = type;
 		this.defaultValue = defaultValue;
@@ -116,7 +118,7 @@ class Option
 		Reflect.setProperty(ClientPrefs, variable, value);
 	}
 
-	public function setChild(child:Alphabet)
+	public function setChild(child:AlphabetText)
 	{
 		this.child = child;
 	}

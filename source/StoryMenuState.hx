@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageText;
 #if discord_rpc
 import Discord.DiscordClient;
 #end
@@ -36,8 +37,8 @@ class StoryMenuState extends MusicBeatState
 	public var curDifficulty:Int = 0;
 	var curWeek:Int = 0;
 	
-	var txtTracklist:FlxText;
-	var theLocation:FlxText;
+	var txtTracklist:LanguageText;
+	var theLocation:LanguageText;
 
 	var grpWeekText:FlxTypedGroup<StoryItem>;
 	var grpWeekCharacters:FlxTypedGroup<FlxSprite>;
@@ -96,7 +97,7 @@ class StoryMenuState extends MusicBeatState
 		
 		switch (storyMenuCat[curPage])
 		{
-			case 'extra':
+			case 'extra' | 'bonus':
 				headerSprite = 'story_menuy/StoryMenuHeaderBonus';
 			case 'collab':
 				headerSprite = 'story_menuy/StoryMenuHeaderCollab';
@@ -146,7 +147,7 @@ class StoryMenuState extends MusicBeatState
 					if (isLocked)
 						menuItem = new StoryItem(8, 106 + (i * 150), "Locked", "???", "???", weekNumber);
 					else
-						menuItem = new StoryItem(8, 106 + (i * 150), weekFile.weekType, weekFile.storyName, weekFile.weekName, weekNumber);
+						menuItem = new StoryItem(8, 106 + (i * 150), weekFile.weekType, Language.flavor.get("story_" + weekFile.fileName + "_storyName", weekFile.storyName), Language.flavor.get("story_" + weekFile.fileName + "_weekName", weekFile.weekName), weekNumber);
 					menuItem.ID = i;
 					grpWeekText.add(menuItem);
 					num++;
@@ -171,17 +172,13 @@ class StoryMenuState extends MusicBeatState
 		}
 		add(grpWeekCharacters);
 		
-		txtTracklist = new FlxText(671, 540, 570, "", 30);
-		txtTracklist.antialiasing = ClientPrefs.globalAntialiasing;
+		txtTracklist = new LanguageText(671, 540, 570, "", 30, 'krungthep');
 		txtTracklist.alignment = LEFT;
-		txtTracklist.font = Paths.font("Krungthep.ttf");
 		txtTracklist.color = FlxColor.WHITE;
 		add(txtTracklist);
 
-		theLocation = new FlxText(650, 215, 630, "", 35);
-		theLocation.antialiasing = ClientPrefs.globalAntialiasing;
+		theLocation = new LanguageText(650, 215, 630, "", 35, 'krungthep');
 		theLocation.alignment = LEFT;
-		theLocation.font = Paths.font("Krungthep.ttf");
 		theLocation.color = FlxColor.WHITE;
 		theLocation.setBorderStyle(OUTLINE, 0xFF420757, 2, 1);
 		add(theLocation);
@@ -295,8 +292,9 @@ class StoryMenuState extends MusicBeatState
 			}
 		}
 
-		if (controls.BACK && !selectedWeek #if !FORCE_DEBUG_VERSION && ClientPrefs.pastOGWeek #end)
+		if (controls.BACK && canPressbuttons && !selectedWeek #if !FORCE_DEBUG_VERSION && ClientPrefs.pastOGWeek #end)
 		{
+			canPressbuttons = false;
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 			MusicBeatState.switchState(new MainMenuState());
 		}
@@ -322,6 +320,7 @@ class StoryMenuState extends MusicBeatState
 
 	public var selectedWeek:Bool = false;
 	var stopspamming:Bool = false;
+	var canPressbuttons:Bool = true;
 
 	public function selectWeek()
 	{
@@ -488,7 +487,7 @@ class StoryMenuState extends MusicBeatState
 class StoryItem extends FlxSpriteGroup
 {
 	var selection:FlxSprite;
-	var scoreText:FlxText;
+	var scoreText:LanguageText;
 	public var weekienumbie:Int;
 
 	public function new(x:Float = 0, y:Float = 0, boxType:String, chapter:String, weekName:String, weekNumberthingie:Int)
@@ -509,17 +508,15 @@ class StoryItem extends FlxSpriteGroup
 		add(selection);
 		//wah
 
-		var chapterText:FlxText = new FlxText(22, 15, 301, chapter);
-		chapterText.setFormat(Paths.font("Krungthep.ttf"), 20, FlxColor.WHITE, FlxTextAlign.LEFT);
+		var chapterText:LanguageText = new LanguageText(22, 15, 301, chapter, 20, 'krungthep');
+		chapterText.setStyle(FlxColor.WHITE, FlxTextAlign.LEFT);
 		chapterText.setBorderStyle(OUTLINE, 0xFF220B2B, 2, 1);
-		chapterText.antialiasing = ClientPrefs.globalAntialiasing;
 		chapterText.updateHitbox();
 		add(chapterText);
 
-		var weekText:FlxText = new FlxText(21, 47, 593, weekName);
-		weekText.setFormat(Paths.font("Krungthep.ttf"), 50, FlxColor.WHITE, FlxTextAlign.LEFT);
+		var weekText:LanguageText = new LanguageText(21, 47, 593, weekName, 50, 'krungthep');
+		weekText.setStyle(FlxColor.WHITE, FlxTextAlign.LEFT);
 		weekText.setBorderStyle(OUTLINE, 0xFF220B2B, 3.5, 1);
-		weekText.antialiasing = ClientPrefs.globalAntialiasing;
 		weekText.updateHitbox();
 		add(weekText);
 	}

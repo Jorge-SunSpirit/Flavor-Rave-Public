@@ -6,6 +6,9 @@
 		"pauseartist": "Millxr",
 		"pauseArt": "sour"
 	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
 	"freeplay": {
 		"characters": ["sour", "savory"],
 		"stage": "corianda",

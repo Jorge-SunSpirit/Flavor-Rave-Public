@@ -6,7 +6,8 @@
 			"flavorText": "Enzync City isn't all glitz and glamour for everyone who lives there. The less wealthy residents live in the southernmost part of the city, given the unflattering nickname of 'The Leftovers'. Tangy had grown up in the Leftovers, living through a plethora of rough conditions that shaped her to be tough and standoffish.\n\nHer encounters with those from the well-off areas of Enzync City filled her with a deep sense of spite and anger. She resents people who have everything in life handed to them, and no person to her represents that sense of undeserved luck in life more than Sour, whom Tangy has made her eternal rival. With Sour's popularity became too big to ignore, Tangy wants nothing more than to tear him down.",
 			"tag": "tangy",
 			"bgs": "tangy",
-			"voicelines": ["1"]
+			"voicelines": ["1"],
+			"subtitles": "Whatever you wanna know...:dur:1.369[NL]I'm not telling you.:dur:1.435[NL]Don't make me repeat myself.:dur:2.221"
 			
 		},
 		{
@@ -15,7 +16,18 @@
 			"tag": "salty",
 			"bgs": "salty",
 			"songCheck": "Lodestar Shanty",
-			"voicelines": ["1"]
+			"voicelines": ["1"],
+			"subtitles": "Ye think the world moved past the need for pirates?:dur:3.093[NL]Bahaha! What hogwash!:dur:3.102[NL]Leave these treacherous seas to an ol' salt, like me! Mwehehehe!:dur:6.224"
+			
+		},
+		{
+			"chara": "bitter",
+			"flavorText": "Bitter is a polite man hailing from a quiet, unassuming town far east from The Preheats. He had become tired of the monotony he faced in his hometown, deciding to travel to sate his desire for something more in life. His most recent trip had him visit Enzync City across the ocean to witness many interesting new faces, the most interesting to him being Sweet, who he watched perform during her bout with the Togarashi Town residents alongside Sour.\n\nSomething seems to trouble the young man beyond his boredom, though very little knows him personally enough to understand what that may be.",
+			"tag": "bitter",
+			"bgs": "bitter",
+			"songCheck": "Stirring",
+			"voicelines": ["1"],
+			"subtitles": "You...:dur:1.362[NL]I know you...:dur:2.04[NL]Heh... heheheheheheheh... *inhales*:dur:2.921[NL]Oh, this couldn't be more perfect.:dur:3.32"
 			
 		},
 		{
@@ -25,7 +37,27 @@
 			"bgs": "ace",
 			"voicelines": ["1"],
 			"songCheck": "Fubuki",
-			"link": "https://gamebanana.com/mods/311759"
+			"link": "https://gamebanana.com/mods/311759",
+			"subtitles": "Let's chill!:dur:1.5"
+			
+		},
+		{
+			"chara": "funkin",
+			"flavorText": "It’s no secret who these two really are. Boyfriend and Girlfriend have managed to manifest into just about any world you could imagine, remixed and reimagined in thousands of different ways, all in the name of getting funky and battling new opponents. No boundaries or rules or any force in the universe can stop their music or their passionate and deeply provocative desire for each other.\n\nTheir escapades into the Flavor Rave universe is yet another one of their attempts to find new challengers. Taking the nicknames `Funky` and `Saucy` in order to blend in, they seek to challenge this world’s top stars before their story moves to new mediums.",
+			"tag": "funkin",
+			"bgs": "funkin",
+			"voicelines": ["1"],
+			"songCheck": "That's a Wrap"
+			
+		},
+		{
+			"chara": "tbdtan",
+			"flavorText": "This rebellious idol girl serves as the mascot for Team TBD. In lore, she’s a misfit schoolgirl by day who hides her identity under her tricked-out helmet to become an underground idol by night. She adores music, always seeking out unique and interesting performers to expand her repertoire of connections and tunes. Her sense of not fitting into her own world inspired her to start breaking through into different universes to find new people and sounds.\n\nThis naturally led her to come in contact with Boyfriend and Girlfriend, who come to her often for recommendations of new opponents or to gain access into new worlds.",
+			"tag": "tbdtan",
+			"bgs": "tbdtan",
+			"voicelines": ["1"],
+			"songCheck": "That's a Wrap",
+			"subtitles": "Alright you two.:dur:0.929[NL]Let's get you back home before someone notices.:dur:2.582"
 			
 		}
 	]

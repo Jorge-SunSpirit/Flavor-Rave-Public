@@ -166,31 +166,32 @@ function onCreatePost()
 	setProperty('gf.color', 0x00000000);
 end
 
-function onStepHit()
+function thingie(num)
+	num = tonumber(num)
 	if not getProperty('endingSong') then
-		if curStep == 4 then
+		if num == 4 then
 			doTweenAlpha('black', 'black', 0, 4);
 		end
-		if curStep == 64 then
+		if num == 64 then
 		setProperty('introstatic.alpha', 0.0001);
 		setProperty('dad.color', 0xFFFFFF);
 		setProperty('gf.color', 0xFFFFFF);
 		end
-		if curStep == 752 then
+		if num == 752 then
 			for aaa=1,table.maxn(timers2) do
 				runTimer(timers2[aaa][1], timers2[aaa][2], 1)
 			end
 		end
-		if curStep == 768 then
+		if num == 768 then
 			callOnLuas('swapBG', {'2'})
 			
 		end
-		if curStep == 774 then
+		if num == 774 then
 			for aaa=1,table.maxn(timers1) do
 				runTimer(timers1[aaa][1], timers1[aaa][2], 1)
 			end
 		end
-		if curStep == 1040 then
+		if num == 1040 then
 			--Center Camera
 			setProperty('isCameraOnForcedPos', true);
 			setProperty('camFollow.x', 350);
@@ -203,18 +204,18 @@ function onStepHit()
 			setProperty('cutinBG2.y', 0);
 			doTweenAlpha('cutinBG2', 'cutinBG2', 1, 1.5, "circout");
 		end
-		if curStep == 1044 then
+		if num == 1044 then
 			setProperty('torrentCutIn.alpha', 1);
 			doTweenY('torrentCutIn', 'torrentCutIn', 0, 0.5, "circout");
 			playAnim('torrentCutIn', 'idle', true);
 		end
-		if curStep == 1054 then -- You can remove this. Thought it looked cool
+		if num == 1054 then -- You can remove this. Thought it looked cool
 			--In hindsight, this is kinda stupid.
 			doTweenY('torrentCutInScaleY', 'torrentCutIn.scale', 3, 0.3, "circout");
 			doTweenX('torrentCutInScaleX', 'torrentCutIn.scale', 3, 0.3, "circout");
 			doTweenX('torrentCutInX', 'torrentCutIn', 500, 0.3, "circout");
 		end
-		if curStep == 1056 then
+		if num == 1056 then
 			if shadersEnabled then removeSpriteShader('cutinBG'); end
 			setProperty('cutinBG.alpha', 0.0001);
 			doTweenX('cutinBG', 'cutinBG2', -1280, 0.3, "circout");
@@ -222,34 +223,34 @@ function onStepHit()
 			setProperty('white.alpha', 1);
 			doTweenAlpha('white', 'white', 0, 0.7);
 		end
-		if curStep == 1064 then
+		if num == 1064 then
 			callOnLuas('getJammed', {})
 		end
-		if curStep == 1168 then
+		if num == 1168 then
 			setProperty('isCameraOnForcedPos', false);
 			setProperty('defaultCamZoom', 0.75);
 		end
-		if curStep == 1184 then
+		if num == 1184 then
 			setProperty('isCameraOnForcedPos', true);
 			setProperty('camFollow.x', 350);
 			setProperty('camFollow.y', 400);
 			setProperty('defaultCamZoom', 0.5);
 		end
-		if curStep == 1312 then
+		if num == 1312 then
 			setProperty('isCameraOnForcedPos', false);
 			setProperty('defaultCamZoom', 0.6);
 		end
-		if curStep == 1424 then
+		if num == 1424 then
 			setProperty('isCameraOnForcedPos', true);
 			setProperty('camFollow.x', 350);
 			setProperty('camFollow.y', 400);
 			setProperty('defaultCamZoom', 0.5);
 		end
-		if curStep == 1440 then
+		if num == 1440 then
 			setProperty('isCameraOnForcedPos', false);
 			setProperty('defaultCamZoom', 0.6);
 		end
-		if curStep == 1583 then
+		if num == 1583 then
 			setProperty('isCameraOnForcedPos', true);
 			setProperty('camFollow.x', 350);
 			setProperty('camFollow.y', 400);

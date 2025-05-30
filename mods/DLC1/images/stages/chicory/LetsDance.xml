@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="LetsDance.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MidSongGesture0000" x="5" y="5" width="88" height="301" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0001" x="5" y="5" width="88" height="301" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0002" x="98" y="5" width="229" height="363" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0003" x="98" y="5" width="229" height="363" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0004" x="332" y="5" width="493" height="404" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0005" x="332" y="5" width="493" height="404" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0006" x="830" y="5" width="711" height="479" frameX="-5" frameY="-97" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0007" x="830" y="5" width="711" height="479" frameX="-5" frameY="-97" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0008" x="1546" y="5" width="764" height="403" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0009" x="1546" y="5" width="764" height="403" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0010" x="2315" y="5" width="772" height="381" frameX="-5" frameY="-101" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0011" x="2315" y="5" width="772" height="381" frameX="-5" frameY="-101" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0012" x="3092" y="5" width="773" height="380" frameX="-5" frameY="-101" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0013" x="3092" y="5" width="773" height="380" frameX="-5" frameY="-101" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0014" x="3092" y="5" width="773" height="380" frameX="-5" frameY="-101" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0015" x="3092" y="5" width="773" height="380" frameX="-5" frameY="-101" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0016" x="3092" y="5" width="773" height="380" frameX="-5" frameY="-101" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0017" x="3092" y="5" width="773" height="380" frameX="-5" frameY="-101" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0018" x="5" y="489" width="1231" height="481" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0019" x="5" y="489" width="1231" height="481" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0020" x="1241" y="489" width="1231" height="558" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0021" x="1241" y="489" width="1231" height="558" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0022" x="2477" y="489" width="1231" height="602" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0023" x="2477" y="489" width="1231" height="602" frameX="-5" frameY="0" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0024" x="5" y="1096" width="1231" height="523" frameX="-5" frameY="-101" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0025" x="5" y="1096" width="1231" height="523" frameX="-5" frameY="-101" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0026" x="1241" y="1096" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0027" x="1241" y="1096" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0028" x="2477" y="1096" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0029" x="2477" y="1096" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0030" x="5" y="1635" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0031" x="5" y="1635" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0032" x="5" y="1635" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0033" x="5" y="1635" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0034" x="5" y="1635" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0035" x="5" y="1635" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0036" x="1241" y="1635" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0037" x="1241" y="1635" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0038" x="2477" y="1635" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0039" x="2477" y="1635" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0040" x="5" y="2174" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0041" x="5" y="2174" width="1231" height="534" frameX="-5" frameY="-104" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0042" x="1241" y="2174" width="1231" height="594" frameX="-5" frameY="-79" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0043" x="1241" y="2174" width="1231" height="594" frameX="-5" frameY="-79" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0044" x="2477" y="2174" width="1231" height="594" frameX="-5" frameY="-79" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0045" x="2477" y="2174" width="1231" height="594" frameX="-5" frameY="-79" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0046" x="5" y="2773" width="1236" height="594" frameX="0" frameY="-79" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0047" x="5" y="2773" width="1236" height="594" frameX="0" frameY="-79" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0048" x="5" y="2773" width="1236" height="594" frameX="0" frameY="-79" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0049" x="5" y="2773" width="1236" height="594" frameX="0" frameY="-79" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0050" x="5" y="2773" width="1236" height="594" frameX="0" frameY="-79" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0051" x="5" y="2773" width="1236" height="594" frameX="0" frameY="-79" frameWidth="1236" frameHeight="673"/>
+	<SubTexture name="MidSongGesture0052" x="5" y="2773" width="1236" height="594" frameX="0" frameY="-79" frameWidth="1236" frameHeight="673"/>
+</TextureAtlas>

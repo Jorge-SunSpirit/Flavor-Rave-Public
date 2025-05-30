@@ -1,0 +1,12 @@
+{
+	"peeps": [
+		{
+			"realName": "Penkaru",
+			"iconName": "Penkaru",
+			"description": "Voice of Kool Guy Kyle",
+			"color": [245,56,100],
+			"twitter": "https://www.youtube.com/@thedudepenkaru",
+			"whichrole": "Voices"
+		}
+	]
+}

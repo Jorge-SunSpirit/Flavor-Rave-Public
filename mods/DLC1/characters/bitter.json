@@ -1,58 +1,157 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Bitter Idle",
-			"indices": []
+			"indices": [],
+			"name": "Bitter Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				53,
-				-9
+				39,
+				-8
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Bitter Left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Bitter Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				45,
+				46,
+				-4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bitter Right"
+		},
+		{
+			"offsets": [
+				-24,
+				-76
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bitter Down"
+		},
+		{
+			"offsets": [
+				66,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Bitter Up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Bitter Angry Idle"
+		},
+		{
+			"offsets": [
+				38,
 				-1
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Bitter Right",
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "Bitter Angry Left"
+		},
+		{
+			"offsets": [
+				-22,
+				-76
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "Bitter Angry Down"
+		},
+		{
+			"offsets": [
+				46,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "Bitter Angry Right"
+		},
+		{
+			"offsets": [
+				60,
+				59
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "Bitter Angry Up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-5
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Bitter Miss Left",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-23,
-				-78
+				36,
+				-3
 			],
-			"anim": "singDOWN",
+			"anim": "singRIGHTmiss",
 			"fps": 24,
-			"name": "Bitter Down",
+			"name": "Bitter Miss Right",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				55,
-				62
+				-21,
+				-94
 			],
-			"anim": "singUP",
+			"anim": "singDOWNmiss",
 			"fps": 24,
-			"name": "Bitter Up",
+			"name": "Bitter Miss Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				59,
+				60
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Bitter Miss Up",
 			"indices": []
 		}
 	],
@@ -60,7 +159,7 @@
 	"image": "characters/bitter",
 	"position": [
 		0,
-		-80
+		-120
 	],
 	"healthicon": "bitter",
 	"flip_x": false,

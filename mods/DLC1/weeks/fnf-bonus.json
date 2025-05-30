@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["That's a Wrap"]
+	],
+
+	"weekCharacters": [
+		"Sour",
+		"Sweet",
+		"Funky",
+		"Saucy"
+	],
+	"charaSelect": [
+		"funkin",
+		"flavorrave"
+	],
+	"weekBackground": "showroom",
+	"weekType": "Bonus",
+	"storyName": "Special Bonus",
+	"weekBefore": "dinterlude6",
+	"weekName": "Coming Full Circle",
+	"location": "Showman's Showroom",
+	"startUnlocked": false,
+	"categoryType": "bonus",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

@@ -1,0 +1,80 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "You know that massive pirate ship we see at the dock every now and then? Looks like we know who’s in charge of that whole thing.",
+			"tvArt" : "salty",
+			"chara": "syn"
+		},
+		{
+			"text": "Woah! His costume is awesome! Ahahah, my uncle would love this guy!",
+			"animation": "excited",
+			"chara": "sun",
+			"sound" : "woah"
+		},
+		{
+			"text": "So, crazy thing. That isn’t a costume. He’s a fully legitimate pirate, if the huge ship wasn’t already the big giveaway.",
+			"chara": "syn"
+		},
+		{
+			"text": "Whuh, forreal? Those still exist nowadays?",
+			"animation": "think",
+			"chara": "sun",
+			"sound" : "really"
+		},
+		{
+			"text": "That’s the thing, they SHOULDN'T. Old fashioned pirates actually existed for a lot longer than you’d expect out in distant parts of the world, though that type of sailor still fell out of fashion eventually.",
+			"animation": "confused",
+			"chara": "syn",
+			"sound" : "thatswhatimsayin"
+		},
+		{
+			"text": "Salty and his crew are the last legitimate pirates in the whole world. That begs the question of HOW though... and more importantly, WHY?",
+			"chara": "syn"
+		},
+		{
+			"text": "Nobody produces those kinds of pirate ships anymore, so it beats me how this guy got his own.",
+			"chara": "syn"
+		},
+		{
+			"text": "Could be a stolen vintage ship from somewhere, but the original owner must've caught on by now with how much of a name Salty's crew has made for themselves.",
+			"chara": "syn"
+		},
+		{
+			"text": "Are there even places out in the world for a pirate to plunder and steal from?",
+			"chara": "sun",
+			"sound" : "doesnotcompute"
+		},
+		{
+			"text": "The more I see of them, the more I think they're just regular sailors who REALLY like the pirate aesthetic. They're probably not the scary pillaging type like in the movies.",
+			"animation": "laugh",
+			"chara": "sun",
+			"sound" : "laugh"
+		},
+		{
+			"text": "It looks so fun, though! The silly outfits, the shanties, and just exploring the ocean!",
+			"chara": "sun"
+		},
+		{
+			"text": "The authorities here in Enzync probably have their hands full dealing with Salty's antics, pulling up on their docks whenever he pleases.",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "I KNOW Captain Vinegar from the Coast Guard wouldn’t tolerate a trespasser, though I haven’t seen her or any of her crew active lately.",
+			"chara": "sun"
+		},
+		{
+			"text": "I’m pretty ok with that. Captain Vinegar is TERRIFYING!",
+			"animation": "quiet",
+			"chara": "syn",
+			"sound" : "whoopsies"
+		},
+		{
+			"text": "Agreed. Her eyes pierce into your soul…",
+			"animation": "nervous",
+			"chara": "sun",
+			"sound" : "eugh"
+		}
+	]
+}

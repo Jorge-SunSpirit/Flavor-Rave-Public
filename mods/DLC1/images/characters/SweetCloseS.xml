@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SweetCloseS.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SweetDown0000" x="6" y="6" width="446" height="659" frameX="-1" frameY="-8" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetDown0001" x="6" y="6" width="446" height="659" frameX="-1" frameY="-8" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetDown0002" x="458" y="6" width="447" height="664" frameX="0" frameY="-3" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetDown0003" x="458" y="6" width="447" height="664" frameX="0" frameY="-3" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetDown0004" x="911" y="6" width="447" height="666" frameX="0" frameY="-1" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetDown0005" x="911" y="6" width="447" height="666" frameX="0" frameY="-1" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetDown0006" x="1364" y="6" width="448" height="667"/>
+	<SubTexture name="SweetDown0007" x="1364" y="6" width="448" height="667"/>
+	<SubTexture name="SweetDown0008" x="1364" y="6" width="448" height="667"/>
+	<SubTexture name="SweetDown0009" x="1364" y="6" width="448" height="667"/>
+	<SubTexture name="SweetDown0010" x="1364" y="6" width="448" height="667"/>
+	<SubTexture name="SweetDown0011" x="1364" y="6" width="448" height="667"/>
+	<SubTexture name="SweetDown0012" x="1364" y="6" width="448" height="667"/>
+	<SubTexture name="SweetDown0013" x="1364" y="6" width="448" height="667"/>
+	<SubTexture name="SweetIdle0000" x="1818" y="6" width="452" height="674" frameX="0" frameY="-2" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0001" x="1818" y="6" width="452" height="674" frameX="0" frameY="-2" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0002" x="2276" y="6" width="450" height="674" frameX="0" frameY="-5" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0003" x="2276" y="6" width="450" height="674" frameX="0" frameY="-5" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0004" x="2732" y="6" width="449" height="675" frameX="0" frameY="-4" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0005" x="2732" y="6" width="449" height="675" frameX="0" frameY="-4" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0006" x="3187" y="6" width="449" height="676" frameX="0" frameY="-2" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0007" x="3187" y="6" width="449" height="676" frameX="0" frameY="-2" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0008" x="3642" y="6" width="450" height="676" frameX="0" frameY="0" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0009" x="3642" y="6" width="450" height="676" frameX="0" frameY="0" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0010" x="4098" y="6" width="452" height="674" frameX="0" frameY="-2" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0011" x="4098" y="6" width="452" height="674" frameX="0" frameY="-2" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0012" x="1818" y="6" width="452" height="674" frameX="0" frameY="-2" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0013" x="1818" y="6" width="452" height="674" frameX="0" frameY="-2" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0014" x="1818" y="6" width="452" height="674" frameX="0" frameY="-2" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetIdle0015" x="1818" y="6" width="452" height="674" frameX="0" frameY="-2" frameWidth="452" frameHeight="679"/>
+	<SubTexture name="SweetLeft0000" x="4556" y="6" width="643" height="671" frameX="0" frameY="-3" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0001" x="4556" y="6" width="643" height="671" frameX="0" frameY="-3" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0002" x="5205" y="6" width="638" height="672" frameX="-5" frameY="-1" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0003" x="5205" y="6" width="638" height="672" frameX="-5" frameY="-1" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0004" x="5849" y="6" width="627" height="673" frameX="-17" frameY="0" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0005" x="5849" y="6" width="627" height="673" frameX="-17" frameY="0" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0006" x="6482" y="6" width="625" height="673" frameX="-19" frameY="0" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0007" x="6482" y="6" width="625" height="673" frameX="-19" frameY="0" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0008" x="6482" y="6" width="625" height="673" frameX="-19" frameY="0" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0009" x="6482" y="6" width="625" height="673" frameX="-19" frameY="0" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0010" x="6482" y="6" width="625" height="673" frameX="-19" frameY="0" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0011" x="6482" y="6" width="625" height="673" frameX="-19" frameY="0" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0012" x="6482" y="6" width="625" height="673" frameX="-19" frameY="0" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetLeft0013" x="6482" y="6" width="625" height="673" frameX="-19" frameY="0" frameWidth="644" frameHeight="674"/>
+	<SubTexture name="SweetRight0000" x="7113" y="6" width="476" height="666" frameX="0" frameY="-3" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0001" x="7113" y="6" width="476" height="666" frameX="0" frameY="-3" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0002" x="7595" y="6" width="472" height="668" frameX="0" frameY="0" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0003" x="7595" y="6" width="472" height="668" frameX="0" frameY="0" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0004" x="6" y="688" width="470" height="667" frameX="0" frameY="0" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0005" x="6" y="688" width="470" height="667" frameX="0" frameY="0" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0006" x="482" y="688" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0007" x="482" y="688" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0008" x="482" y="688" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0009" x="482" y="688" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0010" x="482" y="688" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0011" x="482" y="688" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0012" x="482" y="688" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetRight0013" x="482" y="688" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredDown0000" x="957" y="688" width="446" height="659" frameX="-1" frameY="-8" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetScaredDown0001" x="957" y="688" width="446" height="659" frameX="-1" frameY="-8" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetScaredDown0002" x="1409" y="688" width="447" height="664" frameX="0" frameY="-3" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetScaredDown0003" x="1409" y="688" width="447" height="664" frameX="0" frameY="-3" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetScaredDown0004" x="1862" y="688" width="447" height="666" frameX="0" frameY="-1" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetScaredDown0005" x="1862" y="688" width="447" height="666" frameX="0" frameY="-1" frameWidth="448" frameHeight="667"/>
+	<SubTexture name="SweetScaredDown0006" x="2315" y="688" width="448" height="667"/>
+	<SubTexture name="SweetScaredDown0007" x="2315" y="688" width="448" height="667"/>
+	<SubTexture name="SweetScaredDown0008" x="2315" y="688" width="448" height="667"/>
+	<SubTexture name="SweetScaredDown0009" x="2315" y="688" width="448" height="667"/>
+	<SubTexture name="SweetScaredDown0010" x="2315" y="688" width="448" height="667"/>
+	<SubTexture name="SweetScaredDown0011" x="2315" y="688" width="448" height="667"/>
+	<SubTexture name="SweetScaredDown0012" x="2315" y="688" width="448" height="667"/>
+	<SubTexture name="SweetScaredDown0013" x="2315" y="688" width="448" height="667"/>
+	<SubTexture name="SweetScaredIdle0000" x="2769" y="688" width="462" height="638" frameX="0" frameY="-1" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0001" x="2769" y="688" width="462" height="638" frameX="0" frameY="-1" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0002" x="3237" y="688" width="457" height="634" frameX="0" frameY="-5" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0003" x="3237" y="688" width="457" height="634" frameX="0" frameY="-5" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0004" x="3700" y="688" width="455" height="635" frameX="-1" frameY="-4" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0005" x="3700" y="688" width="455" height="635" frameX="-1" frameY="-4" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0006" x="4161" y="688" width="455" height="638" frameX="-1" frameY="-1" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0007" x="4161" y="688" width="455" height="638" frameX="-1" frameY="-1" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0008" x="4622" y="688" width="457" height="639" frameX="-1" frameY="0" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0009" x="4622" y="688" width="457" height="639" frameX="-1" frameY="0" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0010" x="5085" y="688" width="462" height="638" frameX="0" frameY="-1" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0011" x="5085" y="688" width="462" height="638" frameX="0" frameY="-1" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0012" x="2769" y="688" width="462" height="638" frameX="0" frameY="-1" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0013" x="2769" y="688" width="462" height="638" frameX="0" frameY="-1" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0014" x="2769" y="688" width="462" height="638" frameX="0" frameY="-1" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredIdle0015" x="2769" y="688" width="462" height="638" frameX="0" frameY="-1" frameWidth="462" frameHeight="639"/>
+	<SubTexture name="SweetScaredLeft0000" x="5553" y="688" width="643" height="649" frameX="0" frameY="-3" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0001" x="5553" y="688" width="643" height="649" frameX="0" frameY="-3" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0002" x="6202" y="688" width="638" height="651" frameX="-5" frameY="-1" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0003" x="6202" y="688" width="638" height="651" frameX="-5" frameY="-1" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0004" x="6846" y="688" width="627" height="652" frameX="-17" frameY="0" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0005" x="6846" y="688" width="627" height="652" frameX="-17" frameY="0" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0006" x="7479" y="688" width="625" height="652" frameX="-19" frameY="0" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0007" x="7479" y="688" width="625" height="652" frameX="-19" frameY="0" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0008" x="7479" y="688" width="625" height="652" frameX="-19" frameY="0" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0009" x="7479" y="688" width="625" height="652" frameX="-19" frameY="0" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0010" x="7479" y="688" width="625" height="652" frameX="-19" frameY="0" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0011" x="7479" y="688" width="625" height="652" frameX="-19" frameY="0" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0012" x="7479" y="688" width="625" height="652" frameX="-19" frameY="0" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredLeft0013" x="7479" y="688" width="625" height="652" frameX="-19" frameY="0" frameWidth="644" frameHeight="652"/>
+	<SubTexture name="SweetScaredRight0000" x="6" y="1361" width="476" height="666" frameX="0" frameY="-3" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0001" x="6" y="1361" width="476" height="666" frameX="0" frameY="-3" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0002" x="488" y="1361" width="472" height="668" frameX="0" frameY="0" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0003" x="488" y="1361" width="472" height="668" frameX="0" frameY="0" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0004" x="966" y="1361" width="470" height="667" frameX="0" frameY="0" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0005" x="966" y="1361" width="470" height="667" frameX="0" frameY="0" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0006" x="1442" y="1361" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0007" x="1442" y="1361" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0008" x="1442" y="1361" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0009" x="1442" y="1361" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0010" x="1442" y="1361" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0011" x="1442" y="1361" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0012" x="1442" y="1361" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredRight0013" x="1442" y="1361" width="469" height="667" frameX="0" frameY="-1" frameWidth="476" frameHeight="669"/>
+	<SubTexture name="SweetScaredTrans0000" x="1917" y="1361" width="450" height="674" frameX="-33" frameY="-13" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0001" x="1917" y="1361" width="450" height="674" frameX="-33" frameY="-13" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0002" x="2373" y="1361" width="449" height="664" frameX="-33" frameY="-23" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0003" x="2373" y="1361" width="449" height="664" frameX="-33" frameY="-23" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0004" x="2828" y="1361" width="446" height="684" frameX="-33" frameY="-6" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0005" x="2828" y="1361" width="446" height="684" frameX="-33" frameY="-6" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0006" x="3280" y="1361" width="448" height="690" frameX="-33" frameY="0" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0007" x="3280" y="1361" width="448" height="690" frameX="-33" frameY="0" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0008" x="3734" y="1361" width="449" height="673" frameX="-33" frameY="-15" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0009" x="3734" y="1361" width="449" height="673" frameX="-33" frameY="-15" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0010" x="4189" y="1361" width="450" height="677" frameX="-33" frameY="-11" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0011" x="4189" y="1361" width="450" height="677" frameX="-33" frameY="-11" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0012" x="4189" y="1361" width="450" height="677" frameX="-33" frameY="-11" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0013" x="4189" y="1361" width="450" height="677" frameX="-33" frameY="-11" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0014" x="4189" y="1361" width="450" height="677" frameX="-33" frameY="-11" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0015" x="4189" y="1361" width="450" height="677" frameX="-33" frameY="-11" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0016" x="4189" y="1361" width="450" height="677" frameX="-33" frameY="-11" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0017" x="4189" y="1361" width="450" height="677" frameX="-33" frameY="-11" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0018" x="4189" y="1361" width="450" height="677" frameX="-33" frameY="-11" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0019" x="4189" y="1361" width="450" height="677" frameX="-33" frameY="-11" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0020" x="4645" y="1361" width="451" height="673" frameX="-33" frameY="-15" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0021" x="4645" y="1361" width="451" height="673" frameX="-33" frameY="-15" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0022" x="5102" y="1361" width="457" height="604" frameX="-32" frameY="-41" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0023" x="5102" y="1361" width="457" height="604" frameX="-32" frameY="-41" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0024" x="5565" y="1361" width="455" height="629" frameX="-36" frameY="-16" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0025" x="5565" y="1361" width="455" height="629" frameX="-36" frameY="-16" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0026" x="6026" y="1361" width="488" height="639" frameX="-7" frameY="-6" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0027" x="6026" y="1361" width="488" height="639" frameX="-7" frameY="-6" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0028" x="6520" y="1361" width="500" height="638" frameX="0" frameY="-7" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0029" x="6520" y="1361" width="500" height="638" frameX="0" frameY="-7" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0030" x="7026" y="1361" width="462" height="638" frameX="-38" frameY="-7" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0031" x="7026" y="1361" width="462" height="638" frameX="-38" frameY="-7" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0032" x="7026" y="1361" width="462" height="638" frameX="-38" frameY="-7" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredTrans0033" x="7026" y="1361" width="462" height="638" frameX="-38" frameY="-7" frameWidth="500" frameHeight="690"/>
+	<SubTexture name="SweetScaredUp0000" x="7494" y="1361" width="467" height="651" frameX="0" frameY="0" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0001" x="7494" y="1361" width="467" height="651" frameX="0" frameY="0" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0002" x="6" y="2057" width="464" height="646" frameX="0" frameY="-5" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0003" x="6" y="2057" width="464" height="646" frameX="0" frameY="-5" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0004" x="476" y="2057" width="461" height="642" frameX="0" frameY="-10" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0005" x="476" y="2057" width="461" height="642" frameX="0" frameY="-10" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0006" x="943" y="2057" width="459" height="641" frameX="0" frameY="-10" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0007" x="943" y="2057" width="459" height="641" frameX="0" frameY="-10" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0008" x="943" y="2057" width="459" height="641" frameX="0" frameY="-10" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0009" x="943" y="2057" width="459" height="641" frameX="0" frameY="-10" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0010" x="943" y="2057" width="459" height="641" frameX="0" frameY="-10" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0011" x="943" y="2057" width="459" height="641" frameX="0" frameY="-10" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0012" x="943" y="2057" width="459" height="641" frameX="0" frameY="-10" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetScaredUp0013" x="943" y="2057" width="459" height="641" frameX="0" frameY="-10" frameWidth="467" frameHeight="652"/>
+	<SubTexture name="SweetUp0000" x="1408" y="2057" width="467" height="685" frameX="0" frameY="0" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0001" x="1408" y="2057" width="467" height="685" frameX="0" frameY="0" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0002" x="1881" y="2057" width="464" height="684" frameX="0" frameY="-5" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0003" x="1881" y="2057" width="464" height="684" frameX="0" frameY="-5" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0004" x="2351" y="2057" width="461" height="681" frameX="0" frameY="-10" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0005" x="2351" y="2057" width="461" height="681" frameX="0" frameY="-10" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0006" x="2818" y="2057" width="459" height="681" frameX="0" frameY="-10" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0007" x="2818" y="2057" width="459" height="681" frameX="0" frameY="-10" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0008" x="2818" y="2057" width="459" height="681" frameX="0" frameY="-10" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0009" x="2818" y="2057" width="459" height="681" frameX="0" frameY="-10" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0010" x="2818" y="2057" width="459" height="681" frameX="0" frameY="-10" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0011" x="2818" y="2057" width="459" height="681" frameX="0" frameY="-10" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0012" x="2818" y="2057" width="459" height="681" frameX="0" frameY="-10" frameWidth="467" frameHeight="691"/>
+	<SubTexture name="SweetUp0013" x="2818" y="2057" width="459" height="681" frameX="0" frameY="-10" frameWidth="467" frameHeight="691"/>
+</TextureAtlas>

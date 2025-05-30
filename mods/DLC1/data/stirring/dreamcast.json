@@ -1,0 +1,248 @@
+{
+	"dialogue": [
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["default", 0, false],
+			"text": "[Earlier today...]"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "Hey, Sweet, I know this is sudden, but I found a ride to the Preheats."
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "It’s… a lot to explain, but if it's alright with you and your folks, would I be ok to visit? I think I’ll be able to get there tonight if all goes well."
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sweet", 2, true],
+			"sound": ["sweet","wonderful"],
+			"text": "Oh my gosh! Yes, yes, please do! I'll let my parents know right now, and I’ll make sure everything is prepared for when you arrive!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"sound": ["sour","letsgo"],
+			"chara": ["sour", 2, true],
+			"text": "Oh, word? Sick! Should we meet up somewhere when I get there?"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sweet", 0, true],
+			"text": "Hmm… oh! I know just the place!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sweet", 2, true],
+			"text": "Let’s meet up at Chicory’s Cuisines! It’s a big restaurant right at the border of Corianda and The Preheats, high up top on the mountainside, you can’t miss it!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sweet", 0, true],
+			"text": "Oh, also, also! If you get lost on your way through Corianda, just call out for the Wayfinder! He'll be able to help you through. Give him my regards."
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "…the Wayfinder, huh? Sure, I'll keep that in mind, Sweet. I'll see you then!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"sound": ["sweet","sourlove"],
+			"chara": ["sweet", 2, true],
+			"text": "See you soon… my love. Eheheh~ "
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","laugh"],
+			"text": "Ayy, I see you pulling out the pet names now!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"sound": ["salty","aye"],
+			"chara": ["salty", 0, true],
+			"text": "Aye, ye ready to board yet, me boy? We've a long voyage t’go!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["sour", 0, true],
+			"text": "Oops, heh, that's my ride all ready. Be there soon, baby."
+		},
+		{
+			"background": "blackhueh",
+			"border": "black",
+			"chara": ["default", 0, false],
+			"text": "[Later That Afternoon, at Chicory’s Cuisines…]"
+		},
+		{
+			"background": "s1",
+			"border": "chicory",
+			"chara": ["sweet", 0, true],
+			"text": "Ehehe… father told me this was where he took mother as their first date together."
+		},
+		{
+			"background": "s2",
+			"border": "chicory",
+			"chara": ["sweet", 0, true],
+			"text": "(Though I suppose this place was more lively all that time ago… Its awfully quiet and empty tonight.)"
+		},
+		{
+			"background": "s2",
+			"border": "chicory",
+			"chara": ["sweet", 0, true],
+			"text": "(I wonder how close Sour is... he hasn't messaged back yet.)"
+		},
+		{
+			"background": "s3",
+			"border": "chicory",
+			"bgm": "SuchSweetSorrow",
+			"bgmVolume": 0.35,
+			"chara": ["bitter", 0, true],
+			"text": "…"
+		},
+		{
+			"background": "s3",
+			"border": "chicory",
+			"chara": ["sweet", 0, true],
+			"text": "(Ah, what lovely music playing!)"
+		},
+		{
+			"background": "s3",
+			"border": "chicory",
+			"chara": ["default", 0, false],
+			"text": "[The sound of the lonesome piano fills the restaurant, Sweet sitting to listen as she waits for her partner.]"
+		},
+		{
+			"background": "s3",
+			"border": "chicory",
+			"chara": ["default", 0, false],
+            "bgm": "stop",
+			"text": "[The piano player soon comes to a halt.]"
+		},
+		{
+			"background": "s3",
+			"border": "chicory",
+			"chara": ["bitter", 1, true],
+			"text": "…Not even this… but then… what..?"
+		},
+		{
+			"background": "s3",
+			"border": "chicory",
+			"sound": ["sweet","bravo"],
+			"chara": ["sweet", 2, true],
+			"text": "Ah, bravo!"
+		},
+		{
+			"background": "s3",
+			"border": "chicory",
+			"chara": ["bitter", 0, true],
+			"sound": ["bitter","pardonme"],
+			"bgm": "AGlassHalfEmpty",
+			"bgmVolume": 0.25,
+			"text": "Hmm...? Apologies, I wasn't anticipating an audience-"
+		},
+		{
+			"background": "s3",
+			"border": "chicory",
+			"chara": ["sweet", 0, true],
+			"text": "I suppose it is a quiet afternoon here, eheh. I didn't mean to startle you, sir."
+		},
+		{
+			"background": "s3",
+			"border": "chicory",
+			"chara": ["bitter", 0, true],
+			"text": "You… hold on, I recognize you."
+		},
+		{
+			"background": "s3",
+			"border": "chicory",
+			"sound": ["sweet","oh"],
+			"chara": ["sweet", 0, true],
+			"text": "Oh? You do?"
+		},
+		{
+			"background": "s4",
+			"border": "chicory",
+			"chara": ["bitter", 2, true],
+			"text": "Ah, yes. I know now. Togarashi Town, just a few weeks earlier from today."
+		},
+		{
+			"background": "s4",
+			"border": "chicory",
+			"chara": ["bitter", 2, true],
+			"text": "I happened to be in the area as a big crowd gathered around the central gate. You were among a group of other performers there that day, am I correct?"
+		},
+		{
+			"background": "s4",
+			"border": "chicory",
+			"chara": ["sweet", 2, true],
+			"text": "Indeed! Ah, every opportunity I had to perform overseas was a blessing, being able to reach so many new people."
+		},
+		{
+			"background": "s4",
+			"border": "chicory",
+			"chara": ["sweet", 2, true],
+			"text": "It makes me even more happy to see someone from my hometown here in the Preheats witness it live too!"
+		},
+		{
+			"background": "s4",
+			"border": "chicory",
+			"chara": ["bitter", 0, true],
+			"text": "Ah, I'm… not a Preheats resident myself. I'm just passing through tonight."
+		},
+		{
+			"background": "s5",
+			"border": "chicory",
+			"chara": ["bitter", 0, true],
+			"sound": ["bitter","mayi"],
+			"text": "Though… Perhaps you can tell me more about this place and what makes it so… special..?"
+		},
+		{
+			"background": "s5",
+			"border": "chicory",
+			"chara": ["bitter", 0, true],
+			"text": "I've heard many things about The Preheats. Supposedly it's a place of great importance. I want to understand why."
+		},
+		{
+			"background": "s5",
+			"border": "chicory",
+			"sound": ["sweet","well"],
+			"chara": ["sweet", 0, true],
+			"text": "Well, there's lots of things that make this place special, at least to me."
+		},
+		{
+			"background": "s5",
+			"border": "chicory",
+			"chara": ["sweet", 0, true],
+			"text": "I am waiting for someone to arrive, but in the meantime, I wouldn't mind telling you what it's like here. Perhaps you can tell me more about yourself and where you're from as well!"
+		},
+		{
+			"background": "s5",
+			"border": "chicory",
+			"chara": ["sweet", 0, true],
+			"text": "Ah, always forgetting my manners, eheh… My name is Sweet."
+		},
+		{
+			"background": "s5",
+			"border": "chicory",
+			"chara": ["bitter", 0, true],
+			"sound": ["bitter","ofcourse"],
+			"text": "Sweet… I see. You may call me Bitter."
+		}
+	]
+}

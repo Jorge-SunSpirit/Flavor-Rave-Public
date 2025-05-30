@@ -1,0 +1,27 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "",
+			"animation": "greeting",
+			"chara": "synthetic",
+			"command": "autoSkip"
+		},
+		{
+			"text": "What'll be today's topic, viewers?",
+			"chara": "sundried",
+			"tvArt" : "synsun",
+			"animation": "greeting",
+			"allowExit": true,
+			"choices":
+			[
+				{"text": "People", "jsonreDirect": "peoplebase"},
+				{"text": "Locations", "jsonreDirect": "placesbase", "songCheck": "Applewood"},
+				{"text": "Other Topics", "jsonreDirect": "thingsbase", "songCheck": "Flavorscape"},
+				{"text": "Change Announcer", "jsonreDirect": "announcerbase"},
+				{"text": "Change Menu Music", "jsonreDirect": "songbase"},
+				{"text": "View DLC", "jsonreDirect": "dlcBase"}
+			]
+		}
+	]
+}

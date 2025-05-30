@@ -8,6 +8,31 @@
 						"Play SFX",
 						"typing",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1"
+					]
+				]
+			],
+			[
+				5142.85714285714,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"48"
+					]
+				]
+			],
+			[
+				5571.42857142857,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"52"
 					]
 				]
 			],
@@ -28,6 +53,11 @@
 						"Play Animation",
 						"intro",
 						"dad"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"64"
 					]
 				]
 			],
@@ -138,6 +168,11 @@
 						"Add Camera Zoom",
 						"0.015",
 						"0.02"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"128"
 					]
 				]
 			],
@@ -162,6 +197,26 @@
 				]
 			],
 			[
+				41142.8571428572,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"384"
+					]
+				]
+			],
+			[
+				54857.1428571429,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"512"
+					]
+				]
+			],
+			[
 				58500,
 				[
 					[
@@ -182,6 +237,26 @@
 				]
 			],
 			[
+				68464.2857142858,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"639"
+					]
+				]
+			],
+			[
+				82178.5714285714,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"767"
+					]
+				]
+			],
+			[
 				96000,
 				[
 					[
@@ -192,12 +267,37 @@
 				]
 			],
 			[
+				96107.1428571428,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"897"
+					]
+				]
+			],
+			[
+				123321.428571428,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1151"
+					]
+				]
+			],
+			[
 				144000,
 				[
 					[
 						"Change Camera Zoom",
 						"1",
 						"1.4"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1344"
 					]
 				]
 			],
@@ -208,6 +308,36 @@
 						"Change Camera Zoom",
 						"14",
 						"3.4"
+					]
+				]
+			],
+			[
+				147642.857142857,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1378"
+					]
+				]
+			],
+			[
+				148928.571428571,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1390"
+					]
+				]
+			],
+			[
+				150750,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1407"
 					]
 				]
 			],
@@ -223,6 +353,16 @@
 						"Spawn Particles",
 						"closeup/virtualheart",
 						"500"
+					],
+					[
+						"Add Camera Zoom",
+						"0",
+						"0.03"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1408"
 					]
 				]
 			],
@@ -246,8 +386,33 @@
 					],
 					[
 						"Screen Flash",
-						"0.7",
+						"1.4",
 						"cyan"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1664"
+					]
+				]
+			],
+			[
+				185142.857142857,
+				[
+					[
+						"Add Camera Zoom",
+						"0.03",
+						"0.04"
+					],
+					[
+						"Screen Flash",
+						"1.4",
+						"cyan"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1728"
 					]
 				]
 			]

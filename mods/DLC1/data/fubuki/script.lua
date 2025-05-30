@@ -182,34 +182,35 @@ function onUpdate(elapsed)
 	setProperty('colorSwap.hue',  intendedHue + (math.sin(globalTime / sineTime) * sineAmp));
 end
 
-function onStepHit()
-	if curStep == 24 then
+function thingie(num)
+	num = tonumber(num)
+	if num == 24 then
 		doTweenAlpha('black', 'black', 0.0001, 7);
 	end
-	if curStep == 144 then
+	if num == 144 then
 		setProperty('isCameraOnForcedPos', false);
 		doTweenAlpha('dad', 'dad', 1, 2);
 	end
-	if curStep == 208 then
+	if num == 208 then
 		doTweenAlpha('boyfriend', 'boyfriend', 1, 2);
 	end
-	if curStep == 352 then
+	if num == 352 then
 		doTweenAlpha('extraChar', 'extraChar', 1, 2);
 	end
-	if curStep == 400 then
+	if num == 400 then
 		setProperty('isCameraOnForcedPos', true);
 		setProperty('camFollow.x', 845);
 		setProperty('camFollow.y', 339);
 	end
-	if curStep == 464 then
+	if num == 464 then
 		setProperty('isCameraOnForcedPos', false);
 	end
-	if curStep == 524 then
+	if num == 524 then
 		doTweenAlpha('boyfriend', 'boyfriend', 0.0001, 1.2);
 		doTweenAlpha('dad', 'dad', 0.0001, 1.2);
 		doTweenAlpha('extraChar', 'extraChar', 0.0001, 1.2);
 	end
-	if curStep == 544 then
+	if num == 544 then
 		doTweenAlpha('snowstorm', 'snowstorm', 0.0001, 1);
 		doTweenAlpha('clouds', 'clouds', 0.3, 2);
 		setProperty('boyfriend.alpha', 1);
@@ -220,11 +221,11 @@ function onStepHit()
 		setProperty('extraChar.color', 0xFFFFFF);
 		setProperty('dad.missRecolor', true);
 	end
-	if curStep == 1034 then
+	if num == 1034 then
 		doTweenAlpha('clouds', 'clouds', 0.7, 2);
 		doTweenAlpha('white', 'white', 1, 1.5, "easeincirc");
 	end
-	if curStep == 1056 then
+	if num == 1056 then
 		setProperty('dad.missRecolor', false);
 		doTweenAlpha('white', 'white', 0.0001, 1);
 		setProperty('icedragonBG.alpha', 1);
@@ -238,11 +239,11 @@ function onStepHit()
 		setProperty('dad.color', 0x00000000);
 		setProperty('extraChar.color', 0x00000000);
 	end
-	if curStep == 1088 then
+	if num == 1088 then
 		doTweenAlpha('icedragonAlpha', 'icedragon', 1, 5);
 		doTweenX('icedragonX', 'icedragon', -1280, 8, "quartout");
 	end
-	if curStep == 1312 then
+	if num == 1312 then
 		setProperty('dad.missRecolor', true);
 		setProperty('boyfriend.color', 0xFFFFFF);
 		setProperty('dad.color', 0xFFFFFF);
@@ -253,17 +254,17 @@ function onStepHit()
 		doTweenX('icedragonX', 'icedragon', -1480, 1, "quartout");
 		setProperty('isCameraOnForcedPos', false);
 	end
-	if curStep == 1328 then
+	if num == 1328 then
 		doTweenAlpha('clouds', 'clouds', 0.0001, 2);
 		doTweenAlpha('snow', 'snow', 0.0001, 3);
 	end
-	if curStep == 1344 then
+	if num == 1344 then
 		doTweenAlpha('vin', 'vin', 1, 3);
 	end
-	if curStep == 1436 then
+	if num == 1436 then
 		setProperty('black.alpha', 1);
 	end
-	if curStep == 1440 then
+	if num == 1440 then
 		setProperty('ember.alpha', 1);
 		setProperty('dad.missRecolor', false);
 		setProperty('black.alpha', 0.0001);
@@ -279,11 +280,11 @@ function onStepHit()
 		setProperty('dad.color', 0x00000000);
 		setProperty('extraChar.color', 0x00000000);
 	end
-	if curStep == 1472 then
+	if num == 1472 then
 		doTweenAlpha('firefoxAlpha', 'firefox', 1, 5);
 		doTweenX('firefoxX', 'firefox', -1280, 7, "quartout");
 	end
-	if curStep == 1696 then
+	if num == 1696 then
 		setProperty('dad.missRecolor', true);
 		doTweenAlpha('vin', 'vin', 0.0001, 2);
 		doTweenAlpha('ember', 'ember', 0.0001, 1.2);
@@ -299,15 +300,15 @@ function onStepHit()
 		setProperty('isCameraOnForcedPos', false);
 		doTweenX('firefoxX', 'firefox', -1280, 2, "quartout");
 	end
-	if curStep == 1915 then
+	if num == 1915 then
 		setProperty('isCameraOnForcedPos', true);
 		setProperty('camFollow.x', 845);
 		doTweenY('moveCam', 'camFollow', -1110, 2.5, "easeincirc");
 	end
-	if curStep == 1936 then
+	if num == 1936 then
 		doTweenAlpha('white', 'white', 1, 0.7, "easeincirc");
 	end
-	if curStep == 1952 then
+	if num == 1952 then
 		setProperty('clouds.alpha', 0.25);
 		setProperty('nightBG.alpha', 1);
 		setProperty('lightfloor.alpha', 1);
@@ -318,23 +319,23 @@ function onStepHit()
 		setBlendMode('firefox', 'overlay');
 		doTweenAlpha('white', 'white', 0.0001, 0.7);
 	end
-	if curStep == 1968 then
+	if num == 1968 then
 		doTweenY('moveCam', 'camFollow', 200, 4);
 	end
-	if curStep == 2016 then
+	if num == 2016 then
 		doTweenAlpha('icedragon', 'icedragon', 0.4, 2);
 		doTweenX('icedragonX', 'icedragon', -1280, 3.5, "quartout");
 		doTweenAlpha('firefox', 'firefox', 0.4, 2);
 		doTweenX('firefoxX', 'firefox', -1280, 5.5, "quartout");
 	end
-	if curStep == 2208 then
+	if num == 2208 then
 		setProperty('isCameraOnForcedPos', false);
 	end
-	if curStep == 2216 then
+	if num == 2216 then
 		doTweenAlpha('icedragon', 'icedragon', 0.0001, 2);
 		doTweenAlpha('firefox', 'firefox', 0.0001, 2);
 	end
-	if curStep == 2464 then
+	if num == 2464 then
 		doTweenAlpha('clouds', 'clouds', 0.0001, 3);
 		doTweenAlpha('ember', 'ember', 0.0001, 4);
 		doTweenAlpha('snow', 'snow', 0.0001, 4);

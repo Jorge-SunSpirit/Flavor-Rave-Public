@@ -126,6 +126,10 @@ function eventStep(step)
 			setProperty('SweetTV.alpha', 0.0001);
 			setProperty('RikaTV.alpha', 0.0001);
 			setProperty('SourTV.alpha', 0.0001);
+			doTweenX('borderXScale', 'border.scale', 1, 2, "quadOut");
+			doTweenY('borderYScale', 'border.scale', 1, 2, "quadOut");
+			doTweenX('borderX', 'border', -640, 2, "quadOut");
+			doTweenY('borderY', 'border', -360, 2, "quadOut");
 			if not middlescroll then
 				noteTweenX('bf', 4, defaultPlayerStrumX0 - 75, 1, "quadOut")
 				noteTweenX('bf1', 5, defaultPlayerStrumX1 - 75, 1, "quadOut")

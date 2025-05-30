@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SourFunky.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SourFunky0000" x="5" y="5" width="1619" height="825" frameX="0" frameY="-26" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0001" x="5" y="5" width="1619" height="825" frameX="0" frameY="-26" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0002" x="5" y="5" width="1619" height="825" frameX="-6" frameY="-20" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0003" x="1629" y="5" width="1613" height="831" frameX="-6" frameY="-20" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0004" x="5" y="841" width="1632" height="853" frameX="-8" frameY="0" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0005" x="5" y="841" width="1632" height="853" frameX="-8" frameY="0" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0006" x="1642" y="841" width="1629" height="845" frameX="-10" frameY="-8" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0007" x="1642" y="841" width="1629" height="845" frameX="-10" frameY="-8" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0008" x="1629" y="5" width="1613" height="831" frameX="-6" frameY="-20" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0009" x="1629" y="5" width="1613" height="831" frameX="-6" frameY="-20" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0010" x="5" y="5" width="1619" height="825" frameX="0" frameY="-26" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0011" x="5" y="5" width="1619" height="825" frameX="0" frameY="-26" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0012" x="5" y="1699" width="1620" height="824" frameX="0" frameY="-27" frameWidth="1640" frameHeight="853"/>
+	<SubTexture name="SourFunky0013" x="5" y="1699" width="1620" height="824" frameX="0" frameY="-27" frameWidth="1640" frameHeight="853"/>
+</TextureAtlas>

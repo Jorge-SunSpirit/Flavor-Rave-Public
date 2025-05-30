@@ -2,22 +2,22 @@
 <TextureAtlas imagePath="lefty_grab.png">
 	<!-- Created with Adobe Animate version 21.0.6.41649 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="LeftyPlace0000" x="8" y="8" width="845" height="937" frameX="-11" frameY="0" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0001" x="8" y="8" width="845" height="937" frameX="-11" frameY="0" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0002" x="8" y="8" width="845" height="937" frameX="-11" frameY="0" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0003" x="861" y="8" width="818" height="915" frameX="-12" frameY="-18" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0004" x="861" y="8" width="818" height="915" frameX="-12" frameY="-18" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0005" x="861" y="8" width="818" height="915" frameX="-12" frameY="-18" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0006" x="1687" y="8" width="814" height="935" frameX="-16" frameY="-10" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0007" x="1687" y="8" width="814" height="935" frameX="-16" frameY="-10" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0008" x="1687" y="8" width="814" height="935" frameX="-16" frameY="-10" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0009" x="2509" y="8" width="799" height="931" frameX="-8" frameY="-4" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0010" x="2509" y="8" width="799" height="931" frameX="-8" frameY="-4" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0011" x="2509" y="8" width="799" height="931" frameX="-8" frameY="-4" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0012" x="8" y="953" width="820" height="933" frameX="-10" frameY="-15" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0013" x="8" y="953" width="820" height="933" frameX="-10" frameY="-15" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0014" x="8" y="953" width="820" height="933" frameX="-10" frameY="-15" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0015" x="836" y="953" width="839" height="935" frameX="0" frameY="-5" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0016" x="836" y="953" width="839" height="935" frameX="0" frameY="-5" frameWidth="856" frameHeight="948"/>
-	<SubTexture name="LeftyPlace0017" x="836" y="953" width="839" height="935" frameX="0" frameY="-5" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0000" x="5" y="5" width="845" height="937" frameX="-11" frameY="0" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0001" x="5" y="5" width="845" height="937" frameX="-11" frameY="0" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0002" x="5" y="5" width="845" height="937" frameX="-11" frameY="0" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0003" x="855" y="5" width="818" height="915" frameX="-12" frameY="-18" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0004" x="855" y="5" width="818" height="915" frameX="-12" frameY="-18" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0005" x="855" y="5" width="818" height="915" frameX="-12" frameY="-18" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0006" x="1678" y="5" width="814" height="935" frameX="-16" frameY="-10" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0007" x="1678" y="5" width="814" height="935" frameX="-16" frameY="-10" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0008" x="1678" y="5" width="814" height="935" frameX="-16" frameY="-10" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0009" x="2497" y="5" width="799" height="931" frameX="-8" frameY="-4" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0010" x="2497" y="5" width="799" height="931" frameX="-8" frameY="-4" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0011" x="2497" y="5" width="799" height="931" frameX="-8" frameY="-4" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0012" x="5" y="947" width="820" height="933" frameX="-10" frameY="-15" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0013" x="5" y="947" width="820" height="933" frameX="-10" frameY="-15" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0014" x="5" y="947" width="820" height="933" frameX="-10" frameY="-15" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0015" x="830" y="947" width="839" height="935" frameX="0" frameY="-5" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0016" x="830" y="947" width="839" height="935" frameX="0" frameY="-5" frameWidth="856" frameHeight="948"/>
+	<SubTexture name="LeftyPlace0017" x="830" y="947" width="839" height="935" frameX="0" frameY="-5" frameWidth="856" frameHeight="948"/>
 </TextureAtlas>

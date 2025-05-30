@@ -1,5 +1,6 @@
 package options;
 
+import Language.LanguageText;
 #if discord_rpc
 import Discord.DiscordClient;
 #end
@@ -33,13 +34,13 @@ class BaseOptionsMenu extends MusicBeatSubstate
 	private var curSelected:Int = 0;
 	private var optionsArray:Array<Option>;
 
-	private var grpOptions:FlxTypedGroup<Alphabet>;
+	private var grpOptions:FlxTypedGroup<AlphabetText>;
 	private var checkboxGroup:FlxTypedGroup<CheckboxThingie>;
 	private var grpTexts:FlxTypedGroup<AttachedText>;
 
 	private var kyle:BGSprite = null;
 	private var descBox:FlxSprite;
-	private var descText:FlxText;
+	private var descText:LanguageText;
 
 	public var title:String;
 	public var rpcTitle:String;
@@ -58,7 +59,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		#end
 
 		// avoids lagspikes while scrolling through menus!
-		grpOptions = new FlxTypedGroup<Alphabet>();
+		grpOptions = new FlxTypedGroup<AlphabetText>();
 		add(grpOptions);
 
 		grpTexts = new FlxTypedGroup<AttachedText>();
@@ -69,28 +70,26 @@ class BaseOptionsMenu extends MusicBeatSubstate
 
 		for (i in 0...optionsArray.length)
 		{
-			var optionText:Alphabet = new Alphabet(340, 300, optionsArray[i].name, true);
+			var optionText:AlphabetText = new AlphabetText(340, 300, optionsArray[i].name, 48, 'krungthep');
 			optionText.isMenuItem = true;
 			optionText.targetY = i;
-			optionText.scaleX = 0.8;
-			optionText.scaleY = 0.8;
+			optionText.setBorderStyle(OUTLINE, 0xFF151515, 3);
 			grpOptions.add(optionText);
 
 			if(optionsArray[i].type == 'bool') {
 				var checkbox:CheckboxThingie = new CheckboxThingie(optionText.x - 105, optionText.y, optionsArray[i].getValue() == true);
 				checkbox.sprTracker = optionText;
-				checkbox.offsetY = -100;
-				checkbox.offsetX = -50;
+				checkbox.offsetY = -48;
+				checkbox.offsetX = -8;
 				checkbox.ID = i;
 				checkboxGroup.add(checkbox);
 			} else {
 				optionText.x -= 80;
 				optionText.startPosition.x -= 80;
-				var valueText:AttachedText = new AttachedText('' + optionsArray[i].getValue(), optionText.width, -50, true);
+				var valueText:AttachedText = new AttachedText('' + optionsArray[i].getValue(), optionText.width + 16, 0, 48, 'krungthep');
 				valueText.sprTracker = optionText;
 				valueText.copyAlpha = true;
-				valueText.scaleX = 0.8;
-				valueText.scaleY = 0.8;
+				valueText.setBorderStyle(OUTLINE, 0xFF151515, 3);
 				valueText.ID = i;
 				grpTexts.add(valueText);
 				optionsArray[i].setChild(valueText);
@@ -118,8 +117,8 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		add(descBox);
 		insert(1000, descBox);
 
-		descText = new FlxText(50, 600, 1180, "", 32);
-		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		descText = new LanguageText(50, 600, 1180, "", 28, 'krungthep');
+		descText.setStyle(FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		descText.scrollFactor.set();
 		descText.borderSize = 2.4;
 		add(descText);
@@ -273,7 +272,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			}
 
 			if(ClientPrefs.menuMouse){
-				grpOptions.forEach(function(spr:Alphabet)
+				grpOptions.forEach(function(spr:AlphabetText)
 				{
 					if(FlxG.mouse.overlaps(spr))
 					{
@@ -386,7 +385,12 @@ class BaseOptionsMenu extends MusicBeatSubstate
 	function updateTextFrom(option:Option) {
 		var text:String = option.displayFormat;
 		var val:Dynamic = option.getValue();
-		if(option.type == 'percent') val *= 100;
+		switch(option.type) {
+			case 'percent':
+				val *= 100;
+			case 'string':
+				val = Language.option.get('setting_' + option.enName + '-$val', val);
+		}
 		var def:Dynamic = option.defaultValue;
 		option.text = text.replace('%v', val).replace('%d', def);
 	}

@@ -38,7 +38,7 @@ class VisualsUISubState extends BaseOptionsMenu
 
 	public function new()
 	{
-		title = 'Visuals and UI';
+		title = Language.option.get('visuals_menu', 'Visuals and UI');
 		rpcTitle = 'Visuals & UI Settings Menu'; //for Discord Rich Presence
 
 		// for note skins
@@ -92,6 +92,13 @@ class VisualsUISubState extends BaseOptionsMenu
 			'hideHud',
 			'bool',
 			false);
+		addOption(option);
+
+		var option:Option = new Option('Subtitles',
+			'Enable and disable subtitles throughout the mod',
+			'subtitles',
+			'bool',
+			true);
 		addOption(option);
 
 		/*

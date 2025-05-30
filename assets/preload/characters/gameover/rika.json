@@ -8,11 +8,11 @@
 	"goSound": [
 		{
 			"sound": "rika/1",
-			"opponent": ""
+			"subtitles": "Ugh... Stupid, buggy, signal.:dur:2.516"
 		},
 		{
 			"sound": "rika/2",
-			"opponent": ""
+			"subtitles": "Way to kill the vibe.:dur:1.557"
 		}
 	]
 }

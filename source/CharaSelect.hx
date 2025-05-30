@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageText;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxBackdrop;
@@ -31,9 +32,9 @@ class CharaSelect extends MusicBeatSubstate
 	var selectSound:FlxSound;
 
 	var scoreBox:FlxSprite;
-	var scoreText:FlxText;
-	var comboText:FlxText;
-	public var diffCalcText:FlxText;
+	var scoreText:LanguageText;
+	var comboText:LanguageText;
+	public var diffCalcText:LanguageText;
 
 	var lerpScore:Int = 0;
 	var lerpAccuracy:Float = 0;
@@ -147,23 +148,20 @@ class CharaSelect extends MusicBeatSubstate
 		scoreBox.screenCenter(X);
 		add(scoreBox);
 
-		scoreText = new FlxText(470, 522, 350, "", 24);
-		scoreText.setFormat(Paths.font("Krungthep.ttf"), 23, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		scoreText.antialiasing = ClientPrefs.globalAntialiasing;
+		scoreText = new LanguageText(470, 522, 350, "", 23, 'krungthep');
+		scoreText.setStyle(FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreText.alpha = 0.001;
 		scoreText.screenCenter(X);
 		add(scoreText);
 
-		comboText = new FlxText(scoreText.x, scoreText.y + 35, 350, "", 24);
-		comboText.setFormat(Paths.font("Krungthep.ttf"), 23, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		comboText.antialiasing = ClientPrefs.globalAntialiasing;
+		comboText = new LanguageText(scoreText.x, scoreText.y + 35, 350, "", 23, 'krungthep');
+		comboText.setStyle(FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		comboText.alpha = 0.001;
 		if (whichState == 'freeplay') add(comboText);
 
-		diffCalcText = new FlxText(scoreText.x, comboText.y + 35, 350, "", 24);
+		diffCalcText = new LanguageText(scoreText.x, comboText.y + 35, 350, "", 23, 'krungthep');
 		diffCalcText.font = scoreText.font;
-		diffCalcText.setFormat(Paths.font("Krungthep.ttf"), 23, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		diffCalcText.antialiasing = ClientPrefs.globalAntialiasing;
+		diffCalcText.setStyle(FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		diffCalcText.alpha = 0.001;
 		add(diffCalcText);
 
@@ -231,14 +229,14 @@ class CharaSelect extends MusicBeatSubstate
 			ratingSplit[1] += '0';
 		}
 
-		scoreText.text = "PERSONAL BEST: " + lerpScore;
+		scoreText.text = Language.gameplay.get('select_personal_best', "Personal Best").toUpperCase() + ": " + lerpScore;
 
 		if (combo == "" || combo == null) {
-			comboText.text = "RANK: N/A";
+			comboText.text = Language.gameplay.get('select_rank', "Rank").toUpperCase() + ": N/A";
 			comboText.color = 0xFF8A8A8A;
 		}
 		else {
-			comboText.text = "RANK: " + letter + " | " + combo + " (" + ratingSplit.join('.') + "%)";
+			comboText.text = Language.gameplay.get('select_rank', "Rank").toUpperCase() + ": " + letter + " | " + combo + " (" + ratingSplit.join('.') + "%)";
 			comboText.color = 0xFFFFFFFF;
 		}
 
@@ -296,9 +294,12 @@ class CharaSelect extends MusicBeatSubstate
 		FRFadeTransition.type = 'songTrans';
 		var impatient:Bool = FlxG.keys.pressed.F;
 
-		if((whichState == 'story' || whichState == 'sunsyn') && Paths.fileExists('sounds/charselect/' + (curSelected == 0 ? p2thingie : p1thingie) + '-story.ogg', SOUND) && !impatient)
+		//Subtitle support for this menu
+		//Only for what the character says, not for the announcer. Announcer support isn't hard but would much rather not deal with it
+
+		if((whichState == 'story' || whichState == 'sunsyn') && Paths.fileExists("sounds/announcer/" + ClientPrefs.announcer + "/charselect/" + (curSelected == 0 ? p2thingie : p1thingie) + '-story.ogg', SOUND) && !impatient)
 		{
-			selectSound = new FlxSound().loadEmbedded(Paths.sound('charselect/' + (curSelected == 0 ? p2thingie : p1thingie) + '-story'));
+			selectSound = new FlxSound().loadEmbedded(CoolUtil.getAnnouncerLine('charselect/' + (curSelected == 0 ? p2thingie : p1thingie) + '-story'));
 			selectSound.onComplete = function() 
 			{
 				ClientPrefs.gameplaySettings.set('opponentplay', curSelected == 0 ? true : false);
@@ -309,9 +310,9 @@ class CharaSelect extends MusicBeatSubstate
 				selectSound.play();
 			});
 		}
-		else if(Paths.fileExists('sounds/charselect/' + (curSelected == 0 ? p2thingie : p1thingie) + '.ogg', SOUND) && !impatient)
+		else if(Paths.fileExists("sounds/announcer/" + ClientPrefs.announcer + "/charselect/" + (curSelected == 0 ? p2thingie : p1thingie) + '.ogg', SOUND) && !impatient)
 		{
-			selectSound = new FlxSound().loadEmbedded(Paths.sound('charselect/' + (curSelected == 0 ? p2thingie : p1thingie)));
+			selectSound = new FlxSound().loadEmbedded(CoolUtil.getAnnouncerLine('charselect/' + (curSelected == 0 ? p2thingie : p1thingie)));
 			selectSound.onComplete = function() 
 			{
 				ClientPrefs.gameplaySettings.set('opponentplay', curSelected == 0 ? true : false);
@@ -422,12 +423,12 @@ class CharaSelect extends MusicBeatSubstate
 				PlayState.SONG = Song.loadFromJson(poop, curSong.toLowerCase());
 				PlayState.storyDifficulty = difficulty;
 		
-				diffCalcText.text = 'RATING: ${DiffCalc.CalculateDiff(PlayState.SONG, .93, chara == 1)}';
+				diffCalcText.text = '${Language.gameplay.get('score_rating', "Rating").toUpperCase()}: ${DiffCalc.CalculateDiff(PlayState.SONG, .93, chara == 1)}';
 			}
 			catch (e)
 			{
 				FlxG.log.warn('$curSong: Song doesn\'t exist!');
-				diffCalcText.text = 'RATING: N/A';
+				diffCalcText.text = '${Language.gameplay.get('score_rating', "Rating").toUpperCase()}: N/A';
 			}
 		}
 		else
@@ -450,14 +451,14 @@ class CharaSelect extends MusicBeatSubstate
 				}
 
 				if (minRating != maxRating)
-					diffCalcText.text = 'RATING: $minRating-$maxRating';
+					diffCalcText.text = '${Language.gameplay.get('score_rating', "Rating").toUpperCase()}: $minRating-$maxRating';
 				else
-					diffCalcText.text = 'RATING: $maxRating';
+					diffCalcText.text = '${Language.gameplay.get('score_rating', "Rating").toUpperCase()}: $maxRating';
 			}
 			catch (e)
 			{
 				FlxG.log.warn('$curSong: A song doesn\'t exist!');
-				diffCalcText.text = 'RATING: N/A';
+				diffCalcText.text = '${Language.gameplay.get('score_rating', "Rating").toUpperCase()}: N/A';
 			}
 		}
 	}

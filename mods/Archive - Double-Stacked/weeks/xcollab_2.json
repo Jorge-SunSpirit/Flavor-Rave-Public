@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["Double-Stacked"]
+	],
+
+	"weekCharacters": [
+		"Sour",
+		"Sweet",
+		"Tioda",
+		"Pyroller"
+	],
+	"charaSelect": [
+		"flavorrave",
+		"rhythmrobo"
+	],
+	"weekBackground": "burger",
+	"weekType": "Collab",
+	"storyName": "Collab Stories",
+	"weekBefore": "xcollab_5",
+	"weekName": "Bots n' Burgers",
+	"location": "Uncle Hearty's Fast Food",
+	"startUnlocked": false,
+	"categoryType": "collab",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

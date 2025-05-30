@@ -1,0 +1,18 @@
+{
+	"image": "gameover/RR_GO",
+	"animation": "RhythmRoboGO",
+	"spriteOffset": [620,660],
+	"flip_x": false,
+	"scale": 0.9,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "rhythmrobo/1",
+			"subtitles": "Tioda: Awww, my burger :(:dur:1.932[NL]Pyroller: It's just burgers. Not that serious.:dur:3.068"
+		},
+		{
+			"sound": "rhythmrobo/2",
+			"subtitles": "Pyroller: We travelled all the way here for this!?:dur:2.469[NL]Tioda: Was all that hype for nothing?:dur:1.788"
+		}
+	]
+}

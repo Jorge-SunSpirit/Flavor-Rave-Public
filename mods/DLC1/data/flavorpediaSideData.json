@@ -28,12 +28,12 @@
 		},
 		{
 			"chara": "coco",
-			"name": "Coco",
+			"name": "Mochoco",
 			"design": "Team TBD Dev",
 			"desc": "The mod devs hide among the pirate crew!",
 			"place": "The Lady Morton",
 			"songCheck": "Lodestar Shanty",
-			"link": "https://x.com/cocopuffswow"
+			"link": "https://x.com/mochocofrappe"
 		},
 		{
 			"chara": "coni",
@@ -45,7 +45,7 @@
 		},
 		{
 			"chara": "faceless",
-			"name": "Faceless",
+			"name": "Ace",
 			"design": "Team TBD Dev",
 			"desc": "The mod devs hide among the pirate crew!",
 			"place": "The Lady Morton",
@@ -146,7 +146,31 @@
 			"desc": "A Togarashi Town visitor during the frigid winter.",
 			"place": "Togarashi Town (Winter)",
 			"songCheck": "Fubuki",
-			"link": "https://x.com/_shinseinaken_"
+			"link": "https://bsky.app/profile/shinseinaken.bsky.social"
+		},
+		{
+			"chara": "picante",
+			"name": "Picante",
+			"design": "Flavor Rave Original(?)",
+			"desc": "A friend of Funky and Saucy, joining them in their special performance. He won't elaborate on his origins, choosing to make rude gestures instead.",
+			"place": "Showman's Showroom",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"chara": "neo",
+			"name": "Neapolitan \n￙",
+			"design": "Flavor Rave Original(?)",
+			"desc": "A friend of Funky and Saucy, joining them in their special performance. She won't elaborate on her origins and is VERY quick to threaten you.",
+			"place": "Showman's Showroom",
+			"songCheck": "That's a Wrap"
+		},
+		{
+			"chara": "flambe",
+			"name": "Flambé",
+			"design": "Flavor Rave Original(?)",
+			"desc": "A friend of Funky and Saucy, joining them in their special performance. He won't elaborate on his origins, only talking about pyrotechnics.",
+			"place": "Showman's Showroom",
+			"songCheck": "That's a Wrap"
 		}
 	]
 }

@@ -24,10 +24,6 @@ function onCreate()
 	setScrollFactor('deskbg', 1, 1);
 	addLuaSprite('deskbg', false);
 	
-	makeLuaSprite('liveIcon', 'mainmenu/SynSun/live', 10, 10);
-	setScrollFactor('liveIcon', 1, 1);
-	setObjectCamera('liveIcon', 'effect');
-	addLuaSprite('liveIcon', true);
 end
 
 function onCreatePost()

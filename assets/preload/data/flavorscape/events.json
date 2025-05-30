@@ -267,6 +267,41 @@
 				]
 			],
 			[
+				158511.627906977,
+				[
+					[
+						"Strum Hero",
+						"true",
+						"1"
+					],
+					[
+						"Call on Luas",
+						"funnyStep",
+						"2271"
+					]
+				]
+			],
+			[
+				160744.186046512,
+				[
+					[
+						"Call on Luas",
+						"funnyStep",
+						"2304"
+					],
+					[
+						"Change Character",
+						"bf",
+						"sweet-RAVE"
+					],
+					[
+						"Change Character",
+						"extra",
+						"sour-RAVE"
+					]
+				]
+			],
+			[
 				165209.302325581,
 				[
 					[
@@ -337,6 +372,11 @@
 					[
 						"Change Camera Bump frequency",
 						"16",
+						"1"
+					],
+					[
+						"Strum Hero",
+						"false",
 						"1"
 					]
 				]

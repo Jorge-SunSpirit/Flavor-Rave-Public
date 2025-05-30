@@ -60,7 +60,6 @@ function onCreate()
 	setScrollFactor('strum', 0, 0);
     screenCenter('strum');
 	addLuaSprite('strum', false);
-	setObjectCamera('strum', 'effect');
 	setProperty('strum.alpha', 0.0001);
 	
 	makeLuaSprite('dramawhite', '', -100, -100);

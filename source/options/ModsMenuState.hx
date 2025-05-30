@@ -20,16 +20,21 @@ import flixel.ui.FlxButton;
 import flixel.util.FlxColor;
 import haxe.Json;
 import haxe.format.JsonParser;
+import haxe.Http;
 import lime.utils.Assets;
 import openfl.display.BitmapData;
 import openfl.utils.Assets as OpenFlAssets;
 import sys.FileSystem;
 import sys.io.File;
-import sys.io.File;
 
 import flixel.math.FlxMath;
 
 import flixel.addons.display.FlxBackdrop;
+
+import flash.display.Bitmap;
+import flash.display.Loader;
+import flash.net.URLRequest;
+import flash.events.Event;
 
 using StringTools;
 /*import haxe.zip.Reader;
@@ -52,6 +57,7 @@ class ModsMenuState extends MusicBeatState
 	var descriptionTxt:FlxText;
 	var needaReset = false;
 	private static var curSelected:Int = 0;
+	public static var wayEntered:String = 'options';
 
 	var modsList:Array<Dynamic> = [];
 
@@ -59,6 +65,16 @@ class ModsMenuState extends MusicBeatState
 	var visibleWhenHasMods:Array<FlxBasic> = [];
 
 	var officialList:Array<String> = ["DLC1", "Tres Leches (HQ)"]; // Keeps these two on top.
+
+	// DLC List Loading
+	private var dlcData:String;
+	private var dlcURL:String = "https://itisiweeg.neocities.org/testFile.json";
+	// Image loading
+	private var urlToUse:URLRequest;
+	private var loader:Loader;
+
+	var imagesToLoad:Array<String> = [];
+	var downloadingImages:Bool = false;
 
 	override function create()
 	{
@@ -78,7 +94,7 @@ class ModsMenuState extends MusicBeatState
 
 		noModsTxt = new FlxText(0, 0, FlxG.width, "DLC THING DIDN'T WORK\nUH OH", 48);
 		if(FlxG.random.bool(0.1)) noModsTxt.text += '\nLike I said, I\'m Psychic!.'; //maizono
-		noModsTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		noModsTxt.setFormat(Language.font.get('vcr'), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		noModsTxt.scrollFactor.set();
 		noModsTxt.borderSize = 2;
 		add(noModsTxt);
@@ -120,6 +136,23 @@ class ModsMenuState extends MusicBeatState
 		}
 		saveTxt();
 
+		//grabDLCList();
+		var http = new Http(dlcURL);
+		http.onData = function(data:String)
+		{
+			if (data != dlcData)
+			{
+				trace("DATA LOADED! DATA: " + data);
+				dlcData = data;
+				grabDLCList();
+			}
+		}
+		http.onError = function (error) {
+			trace('error: $error');
+		}
+
+		http.request();
+
 		var i:Int = 0;
 		var len:Int = modsList.length;
 		while (i < modsList.length)
@@ -132,57 +165,19 @@ class ModsMenuState extends MusicBeatState
 			}
 
 			var newMod:ModMetadata = new ModMetadata(values[0]);
+			newMod.downloaded = true;
 			if (newMod.hidden)
 			{
 				i++;
 				continue;
 			}
 			mods.push(newMod);
-
-			newMod.bg = new FlxSprite(0, 0).loadGraphic(Paths.image('dlc/box_reg'));
-			newMod.bg.screenCenter(X);
-			add(newMod.bg);
-
-			newMod.typeText = new FlxText(newMod.bg.x + 260, newMod.bg.y + 115, newMod.bg.width - 280, mods[i].type, 30);
-			newMod.typeText.setFormat(Paths.font("goodbyeDespair.ttf"), 30, 0xFAFFFFF, LEFT);
-			add(newMod.typeText);
-
-			newMod.releaseText = new FlxText(newMod.typeText.x, newMod.typeText.y, newMod.typeText.width, "RELEASED: " + mods[i].release, 30);
-			newMod.releaseText.setFormat(Paths.font("goodbyeDespair.ttf"), 30, 0xFAFFFFF, RIGHT);
-			add(newMod.releaseText);
-
-			newMod.alphabet = new FlxText(newMod.bg.x + 260, newMod.bg.y + 30, newMod.bg.width - 280, ">" + mods[i].name, 45);
-			newMod.alphabet.setFormat(Paths.font("goodbyeDespair.ttf"), 45, 0xFAFFFFF, LEFT);
-			add(newMod.alphabet);
-			//Don't ever cache the icons, it's a waste of loaded memory
-			var loadedIcon:BitmapData = null;
-			var iconToUse:String = Paths.mods(values[0] + '/pack.png');
-			if(FileSystem.exists(iconToUse))
-			{
-				loadedIcon = BitmapData.fromFile(iconToUse);
-			}
-
-			newMod.icon = new AttachedSprite();
-			if(loadedIcon != null)
-			{
-				newMod.icon.loadGraphic(loadedIcon, true, 150, 150);//animated icon support
-				var totalFrames = Math.floor(loadedIcon.width / 150) * Math.floor(loadedIcon.height / 150);
-				newMod.icon.animation.add("icon", [for (i in 0...totalFrames) i],10);
-				newMod.icon.animation.play("icon");
-			}
-			else
-			{
-				newMod.icon.loadGraphic(Paths.image('dlc/placeholder-icon'));
-			}
-			newMod.icon.sprTracker = newMod.bg;
-			newMod.icon.xAdd = 17;
-			newMod.icon.yAdd = 13;
-			add(newMod.icon);
+			loadDLCGraphics(newMod);
 			i++;
 		}
 
 		descriptionTxt = new FlxText(mods[0].alphabet.x, mods[0].bg.y + 70, mods[0].bg.width - 280, "", 30);
-		descriptionTxt.setFormat(Paths.font("goodbyeDespair.ttf"), 30, 0xFAFFFFF, LEFT);
+		descriptionTxt.setFormat(Language.font.get('despair'), 30, 0xFFFFB5, LEFT);
 		descriptionTxt.scrollFactor.set();
 		add(descriptionTxt);
 		visibleWhenHasMods.push(descriptionTxt);
@@ -213,6 +208,56 @@ class ModsMenuState extends MusicBeatState
 		FlxG.mouse.visible = true;
 
 		super.create();
+	}
+
+	function loadDLCGraphics(newMod:ModMetadata, ?skipIcon:Bool = false)
+	{
+		newMod.bg = new FlxSprite(0, 0).loadGraphic(Paths.image('dlc/box_reg'));
+		newMod.bg.screenCenter(X);
+		add(newMod.bg);
+
+		newMod.downloadedText = new FlxText(newMod.bg.x + 260, newMod.bg.y + 10, newMod.bg.width - 280, (newMod.downloaded ? "" : "NOT INSTALLED - PRESS CONFIRM TO DOWNLOAD"), 24);
+		newMod.downloadedText.setFormat(Language.font.get('despair'), 24, 0xFF3737, CENTER);
+		add(newMod.downloadedText);
+
+		newMod.typeText = new FlxText(newMod.bg.x + 260, newMod.bg.y + 115, newMod.bg.width - 280, newMod.type, 30);
+		newMod.typeText.setFormat(Language.font.get('despair'), 30, 0xFAFFFFF, LEFT);
+		add(newMod.typeText);
+
+		newMod.releaseText = new FlxText(newMod.typeText.x, newMod.typeText.y, newMod.typeText.width, "RELEASED: " + newMod.release, 30);
+		newMod.releaseText.setFormat(Language.font.get('despair'), 30, 0xFAFFFFF, RIGHT);
+		add(newMod.releaseText);
+
+		newMod.alphabet = new FlxText(newMod.bg.x + 260, newMod.bg.y + 30, newMod.bg.width - 280, ">" + newMod.name, 45);
+		newMod.alphabet.setFormat(Language.font.get('despair'), 45, 0xFAFFFFF, LEFT);
+		add(newMod.alphabet);
+		//Don't ever cache the icons, it's a waste of loaded memory
+		var loadedIcon:BitmapData = null;
+		var iconToUse:String = Paths.mods(newMod.folder + '/pack.png');
+		if(FileSystem.exists(iconToUse))
+		{
+			loadedIcon = BitmapData.fromFile(iconToUse);
+		}
+
+		newMod.icon = new AttachedSprite();
+		if(loadedIcon != null)
+		{
+			newMod.icon.loadGraphic(loadedIcon, true, 223, 127);//animated icon support
+			var totalFrames = Math.floor(loadedIcon.width / 223) * Math.floor(loadedIcon.height / 127);
+			newMod.icon.animation.add("icon", [for (i in 0...totalFrames) i],10);
+			newMod.icon.animation.play("icon");
+			newMod.hasIcon = true;
+		}
+		else if (!skipIcon)
+		{
+			newMod.icon.loadGraphic(Paths.image('dlc/placeholder-icon'));
+			newMod.hasIcon = true;
+		}
+		newMod.icon.sprTracker = newMod.bg;
+		newMod.icon.xAdd = 17;
+		newMod.icon.yAdd = 13;
+		add(newMod.icon);
+		if(skipIcon) newMod.icon.visible = false;
 	}
 
 	/*function getIntArray(max:Int):Array<Int>{
@@ -293,11 +338,21 @@ class ModsMenuState extends MusicBeatState
 			noModsTxt.alpha = 1 - Math.sin((Math.PI * noModsSine) / 180);
 		}
 
+		if (controls.ACCEPT)
+		{
+			if (mods[curSelected].downloaded == false)
+			{
+				FlxG.sound.play(Paths.sound('confirmMenu'));
+				CoolUtil.browserLoad(mods[curSelected].link);
+			}
+		}
+
 		if(canExit && controls.BACK)
 		{
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 			FlxG.mouse.visible = false;
 			saveTxt();
+			Language.init(); // Languages are set up as mods so we need to re-init here
 			if(needaReset)
 			{
 				//MusicBeatState.switchState(new TitleState());
@@ -320,7 +375,14 @@ class ModsMenuState extends MusicBeatState
 			}
 			else
 			{
-				MusicBeatState.switchState(new OptionsState());
+				switch (wayEntered)
+				{
+					default:
+						MusicBeatState.switchState(new OptionsState());
+					case 'synsun':
+						MusicBeatState.switchState(new SunSynthState());
+				}
+				wayEntered = 'options';
 			}
 		}
 		if(FlxG.mouse.wheel != 0)
@@ -340,6 +402,7 @@ class ModsMenuState extends MusicBeatState
 		}
 		updatePosition(elapsed);
 		super.update(elapsed);
+		getDLCImages();
 	}
 
 	function setAllLabelsOffset(button:FlxButton, x:Float, y:Float)
@@ -382,7 +445,7 @@ class ModsMenuState extends MusicBeatState
 				}
 
 				// correct layering
-				var stuffArray:Array<FlxSprite> = [mod.bg, descriptionTxt, mod.typeText, mod.releaseText, mod.alphabet, mod.icon];
+				var stuffArray:Array<FlxSprite> = [mod.bg, descriptionTxt, mod.typeText, mod.downloadedText, mod.releaseText, mod.alphabet, mod.icon];
 				for (obj in stuffArray)
 				{
 					remove(obj);
@@ -412,8 +475,9 @@ class ModsMenuState extends MusicBeatState
 				mods[i].bg.y = FlxMath.lerp(mods[i].bg.y, intendedPos, CoolUtil.boundTo(elapsed * 12, 0, 1));
 			}
 
-			mods[i].alphabet.x = mods[i].typeText.x = mods[i].bg.x + 260;
+			mods[i].alphabet.x = mods[i].typeText.x = mods[i].downloadedText.x = mods[i].bg.x + 260;
 			mods[i].alphabet.y = mods[i].bg.y + 30;
+			mods[i].downloadedText.y = mods[i].bg.y + 10;
 
 			mods[i].typeText.y = mods[i].releaseText.y = mods[i].bg.y + 115;
 
@@ -424,7 +488,87 @@ class ModsMenuState extends MusicBeatState
 		}
 	}
 
-	var cornerSize:Int = 11;
+	function grabDLCList()
+	{
+		if (dlcData == null) return;
+		var extraData:Array<Dynamic> = [];
+
+		// PLACEHOLDER UNTIL I GET SOMETHING UP AND RUNNING
+		var rawData = dlcData;
+		if (!rawData.startsWith("{"))
+		{
+			// Small way to prevent non-JSON formatted files from being loaded.
+			trace("FILE LOADED NOT A JSON! TERMINATING!");
+			return;
+		}
+		extraData = Json.parse(rawData).data;
+		if (extraData == null) return;
+		trace(extraData[1].description);
+
+		for (i in 0...extraData.length)
+		{
+			var exists:Bool = false;
+			for (j in 0...modsList.length)
+			{
+				if (modsList[j][0] == extraData[i].folder)
+				{
+					exists = true;
+					trace("FOLDER EXISTS! SKIP!");
+					break;
+				}
+			}
+			if (!exists)
+			{
+				trace("FOLDER DOES NOT EXIST: " + extraData[i].folder + "! TRY TO DOWNLOAD IT!");
+				imagesToLoad.push(extraData[i].thumb);
+				addUndownloadedMod(extraData[i]);
+			}
+		}
+
+		trace("GOTTA LOAD THESE IMAGES: " + imagesToLoad);
+
+	}
+
+	function addUndownloadedMod(data:Dynamic)
+	{
+		var metadata = new ModMetadata("");
+		metadata.name = data.name;
+		metadata.type = data.type;
+		metadata.release = data.release;
+		metadata.description = data.description;
+		metadata.link = data.link;
+		mods.insert(0, metadata);
+
+		loadDLCGraphics(metadata, true);
+	}
+
+	function getDLCImages()
+	{
+		if (downloadingImages || imagesToLoad.length < 1) return;
+		urlToUse = new URLRequest(imagesToLoad[0]);
+		loader = new Loader();
+
+		loader.contentLoaderInfo.addEventListener(Event.COMPLETE, urlImageLoaded);
+		loader.load(urlToUse);
+		downloadingImages = true;
+	}
+
+	function urlImageLoaded(event:Event)
+	{
+		trace("CONGRATS DIPSHIT! YOU LOADED: " + imagesToLoad[0] + "! Here's it's raw data: " + event.target.content);
+		var bitmap:Bitmap = event.target.content;
+		for (i in 0...mods.length)
+		{
+			if (!mods[i].hasIcon)
+			{
+				trace("adding icon to: " + mods[i].name);
+				mods[i].icon.loadGraphic(bitmap.bitmapData);
+				mods[i].icon.visible = true;
+			}
+		}
+		imagesToLoad.remove(imagesToLoad[0]);
+		downloadingImages = false;
+	}
 
 	/*var _file:FileReference = null;
 	function installMod() {
@@ -504,6 +648,11 @@ class ModMetadata
 
 	public var releaseText:FlxText;
 	public var typeText:FlxText;
+	public var downloadedText:FlxText;
+
+	public var downloaded:Bool;
+	public var hasIcon:Bool;
+	public var link:String;
 
 	public function new(folder:String)
 	{
@@ -514,6 +663,9 @@ class ModMetadata
 		this.type = "Psych Engine Mod";
 		this.release = "IDK LOL";
 		this.hidden = false;
+		this.downloaded = false;
+		this.link = "";
+		this.hasIcon = false;
 
 		//Try loading json
 		var path = Paths.mods(folder + '/pack.json');

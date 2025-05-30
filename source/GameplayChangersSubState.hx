@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageText;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.group.FlxGroup.FlxTypedGroup;
@@ -33,7 +34,7 @@ class GameplayChangersSubState extends MusicBeatSubstate
 	var menuBG:FlxSprite;
 	var background:FlxSprite;
 
-	var txtGrp:FlxTypedGroup<FlxText> = new FlxTypedGroup<FlxText>();
+	var txtGrp:FlxTypedGroup<LanguageText> = new FlxTypedGroup<LanguageText>();
 
 	public function new()
 	{
@@ -51,9 +52,8 @@ class GameplayChangersSubState extends MusicBeatSubstate
 
 		for (i in 0...modifierData.length)
 		{
-			var modText:FlxText = new FlxText(280, 720, 714, modifierData[i][1], 26);
-			modText.setFormat(Paths.font("Krungthep.ttf"), 26, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-			modText.antialiasing = ClientPrefs.globalAntialiasing;
+			var modText:LanguageText = new LanguageText(280, 720, 714, Language.option.get('setting_' + modifierData[i][1], modifierData[i][1]), 26, 'krungthep');
+			modText.setStyle(FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 			modText.ID = i;
 			txtGrp.add(modText);
 			FlxTween.tween(modText, {y: 113 + (i * 36)}, 0.25, {ease: FlxEase.quadOut, startDelay: 0.05 + (i * 0.05)});
@@ -138,14 +138,16 @@ class GameplayChangersSubState extends MusicBeatSubstate
 
 	function updateText():Void
 	{
-		txtGrp.forEach(function(txt:FlxText)
+		txtGrp.forEach(function(txt:LanguageText)
 		{
 			txt.alpha = (txt.ID == curSelected) ? 1 : 0.4;
 
+			var langText:String = Language.option.get('setting_' + modifierData[txt.ID][1], modifierData[txt.ID][1]);
+
 			if (txt.ID == curSelected)
-				txt.text = '> ${modifierData[txt.ID][1]}: < ${displayValue(txt.ID)} >';
+				txt.text = '> $langText: < ${displayValue(txt.ID)} >';
 			else
-				txt.text = '${modifierData[txt.ID][1]}: < ${displayValue(txt.ID)} >';
+				txt.text = '$langText: < ${displayValue(txt.ID)} >';
 		});
 	}
 
@@ -232,7 +234,7 @@ class GameplayChangersSubState extends MusicBeatSubstate
 		updateText();
 	}
 
-	function onMouseOver(txt:FlxText):Void
+	function onMouseOver(txt:LanguageText):Void
 	{
 		if (acceptInput && curSelected != txt.ID)
 		{
@@ -242,7 +244,7 @@ class GameplayChangersSubState extends MusicBeatSubstate
 		}
 	}
 
-	function onMouseDown(txt:FlxText):Void
+	function onMouseDown(txt:LanguageText):Void
 	{
 		if (acceptInput && modifierData[curSelected][4] != 'float')
 			changeModifier(1);
@@ -275,16 +277,16 @@ class GameplayChangersSubState extends MusicBeatSubstate
 			{
 				if (modifierData[ID][4] == 'bool')
 				{
-					display = value ? "ON" : "OFF";
+					display = (value ? Language.gameplay.get('setting-on', "On") : Language.gameplay.get('setting-off', "Off")).toUpperCase();
 				}
 				else
 				{
-					display = value;
+					display = Language.gameplay.get("setting_" + modifierData[ID][0] + '-$value', value);
 				}
 			}
 			case 'scrolltype':
 			{
-				display = value.toUpperCase();
+				display = Language.gameplay.get("setting_" + modifierData[ID][0] + '-$value', value).toUpperCase();
 			}
 			case 'scrollspeed':
 			{

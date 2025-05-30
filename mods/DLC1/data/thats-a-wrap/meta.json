@@ -1,0 +1,21 @@
+{
+	"song": {
+		"name": "That's a Wrap!",
+		"artist": "RixFX ft. HighPoweredKeyz, Amai Hisa, & Flyplague",
+		"charter": "Flootena",
+		"pauseartist": "Chibisprinklez",
+		"extraCharacter": [true, true],
+		"titleCardStep": 8,
+		"pauseArt": "funkin"
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast"
+	},
+	"control": {
+		"happyEnding": true
+	},
+	"freeplay": {
+		"characters": ["flavorrave", "funkin"],
+		"stage": "showroom"
+	}
+}

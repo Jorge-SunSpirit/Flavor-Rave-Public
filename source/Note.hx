@@ -152,13 +152,13 @@ class Note extends FlxSprite
 					noAnimation = true;
 					noMissAnimation = true;
 
-				case 'GF Sing' | 'GF Sing Alt':
+				case 'GF Sing' | 'GF Sing Alt' | 'Trail Note GF':
 					gfNote = true;
 
 					if (value.endsWith('Alt'))
 						animSuffix = '-alt';
 
-				case 'Extra Character Sing' | 'Extra Character Sing Alt':
+				case 'Extra Character Sing' | 'Extra Character Sing Alt' | 'Trail Note Extra':
 					extraCharNote = true;
 
 					if (value.endsWith('Alt'))

@@ -8,11 +8,11 @@
 	"goSound": [
 		{
 			"sound": "synthetic/1",
-			"opponent": ""
+			"subtitles": "Ummm...:dur:1.562[NL]Sunny...:dur:1.811[NL]Help?:dur:1.238"
 		},
 		{
 			"sound": "synthetic/2",
-			"opponent": ""
+			"subtitles": "*ERR*:dur:0.378[NL]*RARA*:dur:0.751[NL]ERRAR ERRAR:dur:1.087[NL]*ZEERAPH*:dur:0.476[NL]*ZIPHP ZAGP*:dur:0.709[NL]*ZAGPH STU PUTP*:dur:1.141"
 		}
 	]
 }

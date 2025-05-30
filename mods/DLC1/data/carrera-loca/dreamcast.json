@@ -1,0 +1,244 @@
+{
+	"dialogue": [
+		{
+			"background": "blackhueh",
+			"border": "lady-morton",
+			"chara": ["salty", 2, true],
+			"sound": ["salty","yoho"],
+			"bgm": "SaltySeas",
+			"bgmVolume": 0.2,
+			"text": "Aye, we've reached the docks, me boy! The folks here ain't privy to our visits, so ye best head out quick."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"sound": ["pirate-crew","adobo-safe"],
+			"text": "Safe travels, matey!"
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"sound": ["pirate-crew","sharp-bye"],
+			"text": "…bye."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","ughlikethefnfsong"],
+			"text": "Urgh… finally…"
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["sour", 0, true],
+			"text": "Well… thanks for helping me get here, Salty."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["salty", 2, true],
+			"text": "But of course! Ye were a fine temporary member of me crew, Sour me boy!"
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["sour", 0, true],
+			"text": "Heh heh… forreal though. I appreciate it. Wish I could've gotten more into the fun y'all were having."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["salty", 0, true],
+			"text": "In due time, ye will have yerself a proper pair o’ sea legs."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["salty", 2, true],
+			"text": "And tell ye what! If ye or yer sweetiepie spot me ship out at sea wherever ye may be, jus' call to us with a “Way ho!” and we'll wrangle ye up and bring ye wherever ye need!"
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["salty", 2, true],
+			"text": "As long as yer prepared to join us in song again with that piano-lookin’ doohickey o’ yours, of course! Yahahaharrr!!!"
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["sour", 0, true],
+			"text": "Bet, bet. I'll try not to be a stranger."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["salty", 0, true],
+			"text": "Good! Now go, me boy! It won't be long ‘till sundown!"
+		},
+		{
+			"background": "blackhueh",
+			"border": "corianda",
+            "bgm": "stop",
+			"chara": ["default", 0, false],
+			"text": "[Sour begins his walk through Corianda…]"
+		},
+		{
+			"background": "d1",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","man"],
+			"text": "Geez, who designed these roads? This feels like a maze. "
+		},
+		{
+			"background": "d1",
+			"chara": ["default", 0, false],
+			"text": "[More time passes. Sour cannot determine whether or not he's made any progress through the town.]"
+		},
+		{
+			"background": "d1",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","areyoukidding"],
+			"text": "Nah, what the actual hell is this layout? How does anyone get through here?!"
+		},
+		{
+			"background": "d1",
+			"chara": ["sour", 1, true],
+			"text": "I really hope I ain't keeping her waiting… She did say to call for someone if I got lost… what was their name again..?"
+		},
+		{
+			"background": "d2",
+			"chara": ["sour", 0, true],
+			"text": "Uhh… was something like… Seeker… or Finder…"
+		},
+		{
+			"background": "d2",
+			"chara": ["sour", 0, true],
+			"text": "Wayfinder! Yo, Wayfinder! You out there?"
+		},
+		{
+			"background": "d2",
+			"chara": ["savory", 0, true],
+			"text": "…*tired grumbles*"
+		},
+		{
+			"background": "d2",
+			"chara": ["sour", 0, true],
+			"text": "Hmm?"
+		},
+		{
+			"background": "d3",
+			"chara": ["savory", 0, true],
+			"sound": ["savory","ahem"],
+			"bgm": "WalkTheWalk",
+			"bgmVolume": 0.2,
+			"text": "...disculpe, señor. Were you the one calling for me?"
+		},
+		{
+			"background": "d3",
+			"chara": ["sour", 0, true],
+			"text": "…yes?"
+		},
+		{
+			"background": "d3",
+			"chara": ["sour", 0, true],
+			"text": "[Was this guy sleeping in the alley? This early too?]"
+		},
+		{
+			"background": "d3",
+			"chara": ["sour", 0, true],
+			"text": "…are you the Wayfinder?"
+		},
+		{
+			"background": "d3",
+			"chara": ["savory", 0, true],
+			"text": "Sí... You must be lost if you call for my aid. How shall I assist?"
+		},
+		{
+			"background": "d3",
+			"chara": ["sour", 0, true],
+			"text": "Uhh… I'm trying to reach this restaurant up at the top of this place… Chicory’s Cuisines. If you can, like, help me find my way there, that would be dope."
+		},
+		{
+			"background": "d3",
+			"chara": ["savory", 0, true],
+			"text": "*tired nod*"
+		},
+		{
+			"background": "d3",
+			"chara": ["savory", 0, true],
+			"sound": ["savory","isee"],
+			"text": "Understood. Come, let us be on our way."
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["default", 0, false],
+			"text": "[The two begin a slow walk through Corianda.]"
+		},
+		{
+			"background": "d4",
+			"chara": ["savory", 0, true],
+			"text": "..."
+		},
+		{
+			"background": "d4",
+			"chara": ["sour", 0, true],
+			"text": "Oh, uhh… almost forgot. My partner wanted to give you her best regards, I think."
+		},
+		{
+			"background": "d4",
+			"chara": ["savory", 0, true],
+			"sound": ["savory","hmm"],
+			"text": "Partner… hmm…"
+		},
+		{
+			"background": "d4",
+			"chara": ["savory", 0, true],
+			"text": "Partner... partner... do you happen to mean… Sweet?"
+		},
+		{
+			"background": "d4",
+			"chara": ["sour", 0, true],
+			"text": "Yeah, that's her."
+		},
+		{
+			"background": "d4",
+			"chara": ["savory", 2, true],
+			"bgm": "TalkTheTalk",
+			"bgmVolume": 0.27,
+			"text": "Ah, you should've said something sooner, amigo! ¡Rápido, no nos queda mucho tiempo antes del atardecer!"
+		},
+		{
+			"background": "d4",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","what"],
+			"text": "Wh- huh? Where was this energy 20 minutes ago?!"
+		},
+		{
+			"background": "d4",
+			"chara": ["savory", 0, true],
+			"text": "Ah, you see… I had assisted Sweet when she first stepped into this town, searching for her boat to reach you."
+		},
+		{
+			"background": "d4",
+			"chara": ["savory", 0, true],
+			"text": "On her return trip, she called for me to give her thanks for my prior assistance. It was a very touching gesture… but…"
+		},
+		{
+			"background": "d5",
+			"chara": ["savory", 0, true],
+			"text": "...once she was already long gone through the town, I discovered she had dropped this."
+		},
+		{
+			"background": "d5",
+			"chara": ["sour", 1, true],
+			"text": "Her baton? Crap, I gotta get that back to her!"
+		},
+		{
+			"background": "d4",
+			"chara": ["savory", 0, true],
+			"text": "Follow my lead! I know the fastest route to the edge of town. You don't mind sprinting there, no?"
+		},
+		{
+			"background": "d4",
+			"chara": ["sour", 0, true],
+			"sound": ["sour","ok"],
+			"text": "It's been a long day… but I don't want to leave her waiting too much longer. Let's go, Wayfinder!"
+		},
+		{
+			"background": "d4",
+			"chara": ["savory", 2, true],
+			"text": "¡Vamos, muchacho!"
+		}
+	]
+}

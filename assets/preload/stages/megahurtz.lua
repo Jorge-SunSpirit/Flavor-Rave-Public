@@ -146,10 +146,12 @@ function onCreatePost()
 	
 	makeLuaSprite('border', 'enZ-TV/tvborder', 0, 0);
 	setScrollFactor('border', 0, 0);
-	scaleObject('border', 1, 1);
+	scaleObject('border', 2, 2);
 	addLuaSprite('border', true);
-	setProperty('border.alpha', 0.001);
+	setProperty('border.alpha', 1);
 	setObjectCamera('border', 'effect');
+	screenCenter('border');
+	
 	addCharacterToList('sour-mh', 'bf');
 	addCharacterToList('rika-day', 'dad');
 	addCharacterToList('sweet-mh', 'extra');
@@ -173,7 +175,7 @@ function swapBG(which)
 		setProperty('roof.alpha', 0.001);
 		setProperty('tvfront.alpha', 0.001);
 		setProperty('vcr.alpha', 0.001);
-		setProperty('border.alpha', 0.001);
+		--setProperty('border.alpha', 0.001);
 		
 		setProperty('tvScreens.alpha', 1);
 		setProperty('computerRoom.alpha', 1);
@@ -236,7 +238,7 @@ function swapBG(which)
 		setProperty('roof.alpha', 1);
 		setProperty('vcr.alpha', 1);
 		setProperty('tvfront.alpha', 1);
-		setProperty('border.alpha', 1);
+		--setProperty('border.alpha', 1);
 		
 		setProperty('tvScreens.alpha', 0.001);
 		setProperty('bottomscreens.alpha', 0.001);

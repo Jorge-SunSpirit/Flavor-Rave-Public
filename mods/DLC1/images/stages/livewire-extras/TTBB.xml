@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TTBB.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TTBB0000" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0001" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0002" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0003" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0004" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0005" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0006" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0007" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0008" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0009" x="1290" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0010" x="1290" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0011" x="1290" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0012" x="1290" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0013" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0014" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0015" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0016" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0017" x="2575" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0018" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0019" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0020" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0021" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0022" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0023" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0024" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0025" x="5" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0026" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0027" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0028" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0029" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0030" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0031" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0032" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0033" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0034" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0035" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0036" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0037" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0038" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0039" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0040" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0041" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0042" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0043" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0044" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0045" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0046" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="TTBB0047" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0048" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0049" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0050" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0051" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0052" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0053" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0054" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0055" x="5" y="5" width="1280" height="720"/>
+	<SubTexture name="TTBB0056" x="5" y="5" width="1280" height="720"/>
+</TextureAtlas>

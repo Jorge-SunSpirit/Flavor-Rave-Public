@@ -2,14 +2,6 @@
 	"character":
 	[
 		{
-			"chara": "showman",
-			"name": "Showman",
-			"design": "Flavor Rave Original\nDesigned by Duster",
-			"desc": "An enigmatic entrepreneur who runs and owns Enzync's biggest showroom. His mannerisms and methods of driving sales are questionable.",
-			"place": "Showman's Showroom",
-			"songCheck": "Cranberry Pop"
-		},
-		{
 			"chara": "stan",
 			"name": "Stan",
 			"design": "Flavor Rave Original\nDesigned by Hisa",
@@ -201,15 +193,6 @@
 			"place": "Togarashi Town",
 			"songCheck": "Caramelize",
 			"link": "https://gamebanana.com/mods/310161"
-		},
-		{
-			"chara": "bitter",
-			"name": "Bitter",
-			"design": "Flavor Rave Original\nDesigned by Space Dust",
-			"desc": "A mysterious young man who hides his true feelings under his charming exterior.",
-			"place": "Togarashi Town",
-			"songCheck": "Flavorscape",
-			"link": "https://twitter.com/SPACEE_DUST_"
 		},
 		{
 			"chara": "citrus",

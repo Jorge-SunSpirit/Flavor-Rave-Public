@@ -8,11 +8,11 @@
 	"goSound": [
 		{
 			"sound": "tangy/1",
-			"opponent": ""
+			"subtitles": "I.... Hate you.:dur:2.091"
 		},
 		{
 			"sound": "tangy/2",
-			"opponent": ""
+			"subtitles": "Screw singing, I'll fight you!:dur:1.875"
 		}
 	]
 }

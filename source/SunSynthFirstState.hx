@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageTypeText;
 import cpp.Int16;
 #if discord_rpc
 import Discord.DiscordClient;
@@ -29,6 +30,12 @@ import flixel.sound.FlxSound;
 import SunSynthState.ThaiDialogueFile;
 import SunSynthState.DialogueArray;
 import MainMenuState.MMenuItem;
+
+//Listen, look. It looks and sounds stupid that this code is here. BUT This is so when we want to call it in lua it actually exists.
+import shaders.DropShadowShader;
+import shaders.DifferenceShader;
+import shaders.InvertMask;
+import VisualizerBar;
 
 using StringTools;
 
@@ -63,7 +70,7 @@ class SunSynthFirstState extends MusicBeatState
 	var menuItems:FlxTypedGroup<MMenuItem>;
 	var optionShit:Array<String> = ['story','freeplay','fp','gallery','options','credits'];
 
-	var dialogueText:FlxTypeText;
+	var dialogueText:LanguageTypeText;
 	var currentDialogue:Int = 0;
 	public var finishThing:Void->Void = null;
 	public var nextDialogueThing:Void->Void = null;
@@ -94,6 +101,11 @@ class SunSynthFirstState extends MusicBeatState
 		menuArt = new FlxSprite(375,-56).loadGraphic(Paths.image('mainmenu/SynSun/tv/synsun'));
 		menuArt.antialiasing = ClientPrefs.globalAntialiasing;
 		add(menuArt);
+
+		var border:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mainmenu/border'));
+		border.screenCenter();
+		border.antialiasing = ClientPrefs.globalAntialiasing;
+		add(border);
 
 		var scan:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mainmenu/scanlines'));
 		scan.screenCenter();
@@ -175,12 +187,10 @@ class SunSynthFirstState extends MusicBeatState
 		dialogueBox.alpha = 0.001;
 		add(dialogueBox);
 
-		dialogueText = new FlxTypeText(474, 548, 768, "", 24);
-		dialogueText.font = Paths.font("Krungthep.ttf");
+		dialogueText = new LanguageTypeText(474, 548, 768, "", 24, 'krungthep');
 		dialogueText.setBorderStyle(OUTLINE, FlxColor.BLACK);
 		dialogueText.borderSize = 2;
 		dialogueText.delay = 0.01;
-		dialogueText.antialiasing = ClientPrefs.globalAntialiasing;
 		add(dialogueText);
 
 		transBlack = new FlxSprite();
@@ -353,22 +363,26 @@ class SunSynthFirstState extends MusicBeatState
 
 	function loadDialogueJSon(json:String)
 	{
-		var jsonPath:String = 'images/mainmenu/SynSun/dialogue/$json.json';
+		var jsonPath:String = 'synsun/$json.json';
+		var jsonPathsuffix:String = 'synsun/$json' + Language.flavor.get("synsun_suffix", "") + '.json';
 		var path:String = '';
 		var tjson:ThaiDialogueFile;
 		
 		#if MODS_ALLOWED
-			path = Paths.modFolders(jsonPath);
+			//Awesome if chain hueh
+			path = Paths.modFolders(jsonPathsuffix);
+			if (!FileSystem.exists(path)) 
+				path = Paths.modFolders(jsonPath);
 			if (!FileSystem.exists(path)) 
 				path = Paths.getPreloadPath(jsonPath);
 			if (!FileSystem.exists(path))
-				path = Paths.getPreloadPath('images/mainmenu/SynSun/dialogue/base.json');
+				path = Paths.getPreloadPath('synsun/error.json');
 
 			tjson = cast Json.parse(File.getContent(path));
 		#else
 			path = Paths.getPreloadPath(jsonPath);
 			if (!Assets.exists(path))
-				path = Paths.getPreloadPath('images/mainmenu/SynSun/dialogue/base.json');
+				path = Paths.getPreloadPath('synsun/error.json');
 
 			tjson = cast Json.parse(Assets.getText(path)); 
 		#end

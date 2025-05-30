@@ -18,15 +18,15 @@
 		{
 			"skinName": "Ace",
 			"note": "ratings/ace/AceNOTE_assets",
-			"noteSplash": ["noteSplashes", 20, 0, 1, 0.6],
+			"noteSplash": ["ratings/ace/splash", 20, 0, 1, 0.6],
 			"ratings_folder": "ace",
 			"songReq": "Fubuki"
 		},
 		{
 			"skinName": "Bitter",
 			"note": "ratings/bitter/bitterNOTE_assets",
-			"noteSplash": ["noteSplashes", 20, 0, 1, 0.6],
-			"ratings_folder": "",
+			"noteSplash": ["ratings/bitter/NOTE_splashes", -80, -80, 0.5, 1],
+			"ratings_folder": "bitter",
 			"songReq": "Stirring"
 		}
 	]

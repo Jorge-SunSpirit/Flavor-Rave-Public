@@ -1,5 +1,7 @@
 package;
 
+import Language.LanguageText;
+import Language.LanguageTypeText;
 import cpp.Int16;
 #if discord_rpc
 import Discord.DiscordClient;
@@ -26,6 +28,7 @@ import lime.utils.Assets;
 import haxe.Json;
 import shaders.TwoToneMask;
 import flixel.sound.FlxSound;
+import options.ModsMenuState;
 
 using StringTools;
 
@@ -84,7 +87,7 @@ class SunSynthState extends MusicBeatState
 	
 	var letmeout:Bool = true;
 	var allowEscape:Bool = false;
-	var dialogueText:FlxTypeText;
+	var dialogueText:LanguageTypeText;
 	var currentDialogue:Int = 0;
 	public var finishThing:Void->Void = null;
 	public var nextDialogueThing:Void->Void = null;
@@ -128,10 +131,7 @@ class SunSynthState extends MusicBeatState
 		menuArt.antialiasing = ClientPrefs.globalAntialiasing;
 		add(menuArt);
 
-		var scan:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mainmenu/scanlines'));
-		scan.screenCenter();
-		scan.antialiasing = ClientPrefs.globalAntialiasing;
-		add(scan);
+		
 
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mainmenu/BG'));
 		bg.screenCenter();
@@ -195,12 +195,10 @@ class SunSynthState extends MusicBeatState
 		dialogueBox.alpha = 0.001;
 		add(dialogueBox);
 
-		dialogueText = new FlxTypeText(474, 548, 768, "", 24);
-		dialogueText.font = Paths.font("Krungthep.ttf");
+		dialogueText = new LanguageTypeText(474, 548, 768, "", 24, 'krungthep');
 		dialogueText.setBorderStyle(OUTLINE, FlxColor.BLACK);
 		dialogueText.borderSize = 2;
 		dialogueText.delay = 0.01;
-		dialogueText.antialiasing = ClientPrefs.globalAntialiasing;
 		add(dialogueText);
 
 		modiOpti = new FlxSprite(0, 687).loadGraphic(Paths.image('dreamcast/buttons2', 'tbd'));
@@ -236,7 +234,7 @@ class SunSynthState extends MusicBeatState
 
 		if (allowInput)
 		{
-			if (choicerStuff.length >= 2)
+			if (choicerStuff.length >= 1)
 			{
 				if (controls.ACCEPT)
 				{
@@ -357,7 +355,7 @@ class SunSynthState extends MusicBeatState
 			curDialogue.command = '';
 		if (curDialogue.allowExit == null)
 			letmeout = false;
-		if (curDialogue.choices == null || curDialogue.choices.length < 2)
+		if (curDialogue.choices == null || curDialogue.choices.length < 1)
 			curDialogue.choices = null;
 
 		killVoice();
@@ -431,8 +429,10 @@ class SunSynthState extends MusicBeatState
 			}
 			else
 				endDialogue();
+
+			// trace("Choices are: " + curDialogue.choices + ". That's " + (curDialogue.choices != null ? curDialogue.choices.length : 0) + " choices! Wow!");
 			
-			if (curDialogue.choices != null && curDialogue.choices.length >= 2)
+			if (curDialogue.choices != null && curDialogue.choices.length > 0)
 			{
 				createChoicer(curDialogue.choices);
 				changeItem();
@@ -451,6 +451,15 @@ class SunSynthState extends MusicBeatState
 				{
 					// Invalid command, immediately end incase this is an older build playing newer commands so we don't softlock
 					endDialogue();
+				}
+				case 'relivefirst':
+				{
+					MusicBeatState.switchState(new SunSynthFirstState());
+				}
+				case 'opendlcmenu':
+				{
+					ModsMenuState.wayEntered = 'synsun';
+					MusicBeatState.switchState(new ModsMenuState());
 				}
 				case 'songstart':
 				{
@@ -551,23 +560,29 @@ class SunSynthState extends MusicBeatState
 
 	function loadDialogueJSon(json:String)
 	{
+		//Figure out how to approach doing translations for this menu. 
+		//First idea was using the language system to load a different json. Main worry is mod support with addative files. Main reason why Flavorpedia is the way it is.
 		allowInput = false;
-		var jsonPath:String = 'images/mainmenu/SynSun/dialogue/$json.json';
+		var jsonPath:String = 'synsun/$json.json';
+		var jsonPathsuffix:String = 'synsun/$json' + Language.flavor.get("synsun_suffix", "") + '.json';
 		var path:String = '';
 		var tjson:ThaiDialogueFile;
 		
 		#if MODS_ALLOWED
-			path = Paths.modFolders(jsonPath);
+			//Awesome if chain hueh
+			path = Paths.modFolders(jsonPathsuffix);
+			if (!FileSystem.exists(path)) 
+				path = Paths.modFolders(jsonPath);
 			if (!FileSystem.exists(path)) 
 				path = Paths.getPreloadPath(jsonPath);
 			if (!FileSystem.exists(path))
-				path = Paths.getPreloadPath('images/mainmenu/SynSun/dialogue/base.json');
+				path = Paths.getPreloadPath('synsun/error.json');
 
 			tjson = cast Json.parse(File.getContent(path));
 		#else
 			path = Paths.getPreloadPath(jsonPath);
 			if (!Assets.exists(path))
-				path = Paths.getPreloadPath('images/mainmenu/SynSun/dialogue/base.json');
+				path = Paths.getPreloadPath('synsun/error.json');
 
 			tjson = cast Json.parse(Assets.getText(path)); 
 		#end
@@ -605,6 +620,7 @@ class SunSynthState extends MusicBeatState
 
 	function createChoicer(thechoicerArray:Array<ChoicerArray>)
 	{
+		// trace("CREATING CHOICER FROM: " + currentJson);
 		allowInput = false;
 		var thearray:Array<ChoicerArray> = [];
 
@@ -614,19 +630,18 @@ class SunSynthState extends MusicBeatState
 				thearray.push(choicer);
 		}
 
-		if (currentJson == 'peoplebase' || currentJson == 'placesbase')
+		if (currentJson == 'peoplebase' || currentJson == 'placesbase' || currentJson == "announcerbase" || currentJson == "thingsbase")
 		{
 			#if MODS_ALLOWED
-			var curMJase:String = 'placesmodded';
-			if (currentJson == 'peoplebase')
-				curMJase = 'peoplemodded';
+			var curMJase:String = currentJson.replace("base", "modded");
 
 			var modsDirectories:Array<String> = Paths.getGlobalMods();
 			for (folder in modsDirectories)
 			{
 				//This idea works and it's almost great. BUT 
-				var modPath:String = Paths.modFolders('images/mainmenu/SynSun/dialogue/${curMJase}.json', folder);
-				if (FileSystem.exists(modPath))
+				var modPath:String = Paths.modFolders('synsun/${curMJase}.json', folder);
+				var modPathSuffix:String = Paths.modFolders('synsun/${curMJase}' + Language.flavor.get("synsun_suffix", "") + '.json', folder);
+				if (FileSystem.exists(modPathSuffix) || !FileSystem.exists(modPathSuffix) && FileSystem.exists(modPath))
 				{
 					var json:ThaiDialogueFile = cast Json.parse(File.getContent(modPath));
 					var choicerStuff:Array<ChoicerArray> = json.dialogue[0].choices;
@@ -687,9 +702,19 @@ class SunSynthState extends MusicBeatState
 		{
 			allowInput = true;
 			loadDialogueJSon(theJsonFile);
+			if (theJsonFile.startsWith("announcer-")) switchAnnouncer(theJsonFile.replace("announcer-", ""));
 		});
 
 		FlxG.sound.play(Paths.sound('confirmMenu'));
+	}
+
+	function switchAnnouncer(choice:String)
+	{
+		ClientPrefs.announcer = choice;
+		ClientPrefs.saveSettings();
+		new FlxTimer().start(1, function(tmr:FlxTimer){
+			FlxG.sound.play(Paths.sound("sunsynth/announcer-select/" + choice));
+		});
 	}
 
 	function backToMainChoicer()
@@ -715,7 +740,7 @@ class SunSynthState extends MusicBeatState
 class SSMenuItem extends FlxSpriteGroup
 {
 	var bg:FlxSprite;
-	var text:FlxText;
+	var text:LanguageText;
 
 	public var json:String;
 
@@ -732,9 +757,8 @@ class SSMenuItem extends FlxSpriteGroup
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
-		text = new FlxText(38, 20, 604, item, 40);
-		text.setFormat(Paths.font("Krungthep.ttf"), 40, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		text.antialiasing = ClientPrefs.globalAntialiasing;
+		text = new LanguageText(38, 20, 604, item, 40, 'krungthep');
+		text.setStyle(FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		text.borderSize = 4;
 		add(text);
 	}

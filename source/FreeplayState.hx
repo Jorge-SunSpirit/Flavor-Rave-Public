@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageText;
 import options.OptionsState;
 #if discord_rpc
 import Discord.DiscordClient;
@@ -23,6 +24,7 @@ import lime.utils.Assets;
 import openfl.utils.Assets as OpenFlAssets;
 import haxe.Json;
 import achievements.Achievements;
+import shaders.ColorSwap;
 
 #if MODS_ALLOWED
 import sys.FileSystem;
@@ -35,14 +37,19 @@ class FreeplayState extends MusicBeatState
 {
 	var songs:Array<SongMetadata> = [];
 
-	var selector:FlxText;
+	var storySongs:Array<SongMetadata> = [];
+	var collabsongs:Array<SongMetadata> = [];
+	var bonussongs:Array<SongMetadata> = [];
+	var uncategorizedsongs:Array<SongMetadata> = [];
+
+	var selector:LanguageText;
 	private static var curSelected:Int = 0;
 	public var curDifficulty:Int = -1;
 	private static var lastDifficultyName:String = '';
 
-	var diffText:FlxText;
-	public var previewText:FlxText;
-	var helpText:FlxText;
+	var diffText:LanguageText;
+	public var previewText:LanguageText;
+	var helpText:LanguageText;
 
 	private var grpSongs:FlxTypedGroup<FMenuItem>;
 	private var curPlaying:Bool = false;
@@ -79,19 +86,19 @@ class FreeplayState extends MusicBeatState
 
 			var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[i]);
 			var leSongs:Array<String> = [];
-			var leChars:Array<String> = [];
 
 			#if FORCE_DEBUG_VERSION
 				FlxG.log.warn('[WD] ${leWeek.weekName} (${leWeek.fileName}) is normally locked, but forcing unlocked due to debug.');
 			#else
 			if (!leWeek.startUnlocked && !WeekData.weekCompleted.exists(leWeek.fileName))
+			{
 				continue;
+			}
 			#end
 
 			for (j in 0...leWeek.songs.length)
 			{
 				leSongs.push(leWeek.songs[j][0]);
-				leChars.push(leWeek.songs[j][1]);
 			}
 
 			WeekData.setDirectoryFromWeek(leWeek);
@@ -101,6 +108,7 @@ class FreeplayState extends MusicBeatState
 				var theStage:String = 'emptystage';
 				var isOneP:Bool = false;
 				var visualname:String = '';
+				var selectionHSB:Array<Float> = [0, 0, 0];
 
 				// read the metadata
 				var metadata:Metadata = null;
@@ -128,12 +136,12 @@ class FreeplayState extends MusicBeatState
 		
 					hasmeta = true;
 					metadata = cast Json.parse(rawJson);
-					trace('[${song[0]}] Metadata Found!!!');
+					//trace('[${song[0]}] Metadata Found!!!');
 				}
 				catch (e)
 				{
 					hasmeta = false;
-					trace('[${song[0]}] Metadata either doesn\'t exist or contains an error!');
+					//trace('[${song[0]}] Metadata either doesn\'t exist or contains an error!');
 				}
 
 				//It crashes workaround will def work!!!
@@ -146,13 +154,15 @@ class FreeplayState extends MusicBeatState
 						theStage = metadata.freeplay.stage;
 					if (metadata.freeplay.isOnePlayer != null)
 						isOneP = metadata.freeplay.isOnePlayer;
-					if (metadata.song.name != null)
+					if (metadata.song != null && metadata.song.name != null)
 						visualname = metadata.song.name;
+					if (metadata.freeplay.selectionHSB != null)
+						selectionHSB = metadata.freeplay.selectionHSB;
 				}
 
 				var p1:String = cSelect[0];
 				var p2:String = cSelect[1];
-				addSong(song[0], i, [p1, p2], theStage, isOneP, visualname);
+				addSong(song[0], i, [p1, p2], theStage, isOneP, visualname, selectionHSB, leWeek.categoryType);
 
 				if (Highscore.checkBeaten(song[0], 0) && Highscore.checkSongFC(song[0], 0))
 					Achievements.unlockAchievement(song[0] + '-FC');
@@ -160,10 +170,14 @@ class FreeplayState extends MusicBeatState
 					Achievements.unlockAchievement(song[0] + '-LEFTFC');
 				if (Highscore.checkBeaten(song[0], 0, 'right') && Highscore.checkSongSideFC(song[0], 0))
 					Achievements.unlockAchievement(song[0] + '-RIGHTFC');
+				if (Highscore.checkBeaten("That's a Wrap", 0) && Highscore.checkBeaten("Fubuki", 0)) //I hate my life
+					Achievements.unlockAchievement('fullclear');
+				if (Highscore.checkBeaten("n0.pressur3.temp", 0))
+					Achievements.unlockAchievement('synsunfound');
 			}
 		}
-
 		WeekData.loadTheFirstEnabledMod();
+		Achievements.checkfullclearer();
 
 		bg = new FlxSprite().loadGraphic(Paths.image('freeplay/stage/emptystage'));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
@@ -197,6 +211,7 @@ class FreeplayState extends MusicBeatState
 		grpSongs = new FlxTypedGroup<FMenuItem>();
 		add(grpSongs);
 
+		sortSongs();
 		for (i in 0...songs.length)
 		{
 			var namer:String = (songs[i].visualName != '' ? songs[i].visualName : songs[i].songName);
@@ -208,14 +223,14 @@ class FreeplayState extends MusicBeatState
 
 		WeekData.setDirectoryFromWeek();
 
-		diffText = new FlxText(8, 600, 0, "", 24);
-		diffText.setFormat(Paths.font("Krungthep.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		diffText.antialiasing = ClientPrefs.globalAntialiasing;
+		diffText = new LanguageText(8, 600, 0, "", 30, 'krungthep');
+		diffText.setStyle(FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(diffText);
 
-		previewText = new FlxText(diffText.x, diffText.y + 35, 0, "PLAYBACK RATE: < " + FlxMath.roundDecimal(ClientPrefs.getGameplaySetting('songspeed', 1), 2) + "x >", 24);
-		previewText.setFormat(Paths.font("Krungthep.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		previewText.antialiasing = ClientPrefs.globalAntialiasing;
+		previewText = new LanguageText(diffText.x, diffText.y + 35, 0,
+			'${Language.option.get("setting_playback_rate", "Playback Rate").toUpperCase}: < '
+			+ FlxMath.roundDecimal(ClientPrefs.getGameplaySetting('songspeed', 1), 2) + "x >", 30, 'krungthep');
+		previewText.setStyle(FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(previewText);
 
 		if(curSelected >= songs.length) curSelected = 0;
@@ -244,9 +259,35 @@ class FreeplayState extends MusicBeatState
 	}
 
 	//Redundant and might be worth removing but keeping just incase
-	public function addSong(songName:String, weekNum:Int, charaSelect:Array<String>, stage:String, isOnePW:Bool = false, visuName:String = '')
+	public function addSong(songName:String, weekNum:Int, charaSelect:Array<String>, stage:String, isOnePW:Bool = false, visuName:String = '', hsb:Array<Float>, ?categ:String = '')
 	{
-		songs.push(new SongMetadata(songName, weekNum, charaSelect, stage, isOnePW, visuName));
+		trace(songName + ' ' + categ);
+		switch (categ.toLowerCase())
+		{
+			case 'story':
+				storySongs.push(new SongMetadata(songName, weekNum, charaSelect, stage, isOnePW, visuName, hsb));
+			case 'collab':
+				collabsongs.push(new SongMetadata(songName, weekNum, charaSelect, stage, isOnePW, visuName, hsb));
+			case 'extra':
+				bonussongs.push(new SongMetadata(songName, weekNum, charaSelect, stage, isOnePW, visuName, hsb));
+			default:
+				uncategorizedsongs.push(new SongMetadata(songName, weekNum, charaSelect, stage, isOnePW, visuName, hsb));
+		}
+	}
+
+	public function sortSongs()
+	{
+		for (i in 0...storySongs.length)
+			songs.push(storySongs[i]);
+
+		for (i in 0...collabsongs.length)
+			songs.push(collabsongs[i]);
+
+		for (i in 0...bonussongs.length)
+			songs.push(bonussongs[i]);
+
+		for (i in 0...uncategorizedsongs.length)
+			songs.push(uncategorizedsongs[i]);
 	}
 
 	var instPlaying:Int = -1;
@@ -478,7 +519,8 @@ class FreeplayState extends MusicBeatState
 		diffText.visible = CoolUtil.difficulties.length > 1;
 		previewText.visible = ClientPrefs.getGameplaySetting('songspeed', 1) != 1 || CoolUtil.difficulties.length > 1;
 		diffText.text = 'DIFFICULTY: < ${CoolUtil.difficultyString()} >';
-		previewText.text = "PLAYBACK RATE: " + FlxMath.roundDecimal(ClientPrefs.getGameplaySetting('songspeed', 1), 2) + "x";
+		previewText.text = '${Language.option.get("setting_playback_rate", "Playback Rate").toUpperCase()}: '
+			+ FlxMath.roundDecimal(ClientPrefs.getGameplaySetting('songspeed', 1), 2) + "x";
 	}
 
 	function changeSelection(change:Int = 0, playSound:Bool = true, ?instantScroll:Bool = false)
@@ -530,7 +572,7 @@ class FreeplayState extends MusicBeatState
 			else
 				FlxTween.tween(item, {x: 582 - (item.ID * 96), y: 450 + (item.ID * 106)}, scrollSpeed, {ease: FlxEase.circOut});
 
-			item.highlighted((item.ID == 0 ? true : false));
+			item.highlighted((item.ID == 0 ? true : false), songs[curSelected].hsbArray);
 		}
 
 		CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
@@ -584,8 +626,9 @@ class SongMetadata
 	public var charaSelect:Array<String> = ['sour', 'sweet'];
 	public var theStage:String = "";
 	public var force1P:Bool = false;
+	public var hsbArray:Array<Float> = [0, 0, 0];
 
-	public function new(song:String, week:Int, charaSelect:Array<String>, theStage:String, force1P:Bool = false, vName:String = '')
+	public function new(song:String, week:Int, charaSelect:Array<String>, theStage:String, force1P:Bool = false, vName:String = '', hsbArray:Array<Float>)
 	{
 		this.songName = song;
 		this.visualName = vName;
@@ -594,6 +637,7 @@ class SongMetadata
 		this.charaSelect = charaSelect;
 		this.theStage = theStage;
 		this.force1P = force1P;
+		this.hsbArray = hsbArray;
 		if(this.folder == null) this.folder = '';
 	}
 }
@@ -601,32 +645,44 @@ class SongMetadata
 class FMenuItem extends FlxSpriteGroup
 {
 	var bg:FlxSprite;
-	var text:FlxText;
+	var text:LanguageText;
+	public var colorSwap:ColorSwap;
 
 	public function new(x:Float = 0, y:Float = 0, item:String)
 	{
 		super(x, y);
 
+		colorSwap = new ColorSwap();
 		bg = new FlxSprite();
 		bg.frames = Paths.getSparrowAtlas('freeplay/button');//curSong
 		bg.animation.addByPrefix('highlighted', 'button_selected', 24, false);
 		bg.animation.addByPrefix('idle', 'button_deselected', 24, false);
 		bg.animation.play('idle');
+		bg.shader = colorSwap.shader;
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
-		text = new FlxText(38, 16, 604, item, 40);
-		text.setFormat(Paths.font("Krungthep.ttf"), 40, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		text.antialiasing = ClientPrefs.globalAntialiasing;
+		text = new LanguageText(38, 16, 604, item, 40, 'krungthep');
+		text.setStyle(FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		text.borderSize = 4;
 		add(text);
 	}
 
-	public function highlighted(bool:Bool)
+	public function highlighted(bool:Bool, hsb:Array<Float>)
 	{
 		if (bool)
+		{
 			bg.animation.play('highlighted');
+			colorSwap.hue = hsb[0];
+			colorSwap.saturation = hsb[1];
+			colorSwap.brightness = hsb[2];
+		}
 		else
+		{
 			bg.animation.play('idle');
+			colorSwap.hue = 0;
+			colorSwap.saturation = 0;
+			colorSwap.brightness = 0;
+		}
 	}
 }

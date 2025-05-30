@@ -1,79 +1,80 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="LeftyTime.png">
-	<!-- Created with Adobe Animate version 21.0.6.41649 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="LeftyTime0000" x="8" y="8" width="322" height="601" frameX="-436" frameY="0" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0001" x="8" y="8" width="322" height="601" frameX="-436" frameY="0" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0002" x="338" y="8" width="390" height="469" frameX="-376" frameY="-485" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0003" x="338" y="8" width="390" height="469" frameX="-376" frameY="-485" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0004" x="736" y="8" width="351" height="379" frameX="-378" frameY="-740" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0005" x="736" y="8" width="351" height="379" frameX="-378" frameY="-740" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0006" x="1095" y="8" width="340" height="366" frameX="-377" frameY="-775" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0007" x="1095" y="8" width="340" height="366" frameX="-377" frameY="-775" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0008" x="1443" y="8" width="339" height="365" frameX="-377" frameY="-782" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0009" x="1443" y="8" width="339" height="365" frameX="-377" frameY="-782" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0010" x="1790" y="8" width="337" height="363" frameX="-378" frameY="-787" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0011" x="1790" y="8" width="337" height="363" frameX="-378" frameY="-787" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0012" x="2135" y="8" width="335" height="328" frameX="-362" frameY="-736" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0013" x="2135" y="8" width="335" height="328" frameX="-362" frameY="-736" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0014" x="2478" y="8" width="298" height="316" frameX="-379" frameY="-823" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0015" x="2478" y="8" width="298" height="316" frameX="-379" frameY="-823" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0016" x="2784" y="8" width="367" height="285" frameX="-437" frameY="-860" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0017" x="2784" y="8" width="367" height="285" frameX="-437" frameY="-860" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0018" x="3159" y="8" width="337" height="348" frameX="-566" frameY="-778" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0019" x="3159" y="8" width="337" height="348" frameX="-566" frameY="-778" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0020" x="3504" y="8" width="265" height="405" frameX="-631" frameY="-556" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0021" x="3504" y="8" width="265" height="405" frameX="-631" frameY="-556" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0022" x="8" y="617" width="475" height="289" frameX="-328" frameY="-549" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0023" x="491" y="617" width="291" height="467" frameX="-253" frameY="-673" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0024" x="491" y="617" width="291" height="467" frameX="-253" frameY="-673" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0025" x="790" y="617" width="566" height="353" frameX="-294" frameY="-885" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0026" x="1364" y="617" width="471" height="576" frameX="-437" frameY="-604" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0027" x="1364" y="617" width="471" height="576" frameX="-437" frameY="-604" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0028" x="1843" y="617" width="607" height="591" frameX="-350" frameY="-512" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0029" x="1843" y="617" width="607" height="591" frameX="-350" frameY="-512" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0030" x="2458" y="617" width="720" height="623" frameX="-185" frameY="-524" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0031" x="2458" y="617" width="720" height="623" frameX="-185" frameY="-524" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0032" x="3186" y="617" width="676" height="617" frameX="-209" frameY="-561" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0033" x="3186" y="617" width="676" height="617" frameX="-209" frameY="-561" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0034" x="8" y="1248" width="568" height="539" frameX="-255" frameY="-571" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0035" x="584" y="1248" width="576" height="488" frameX="-239" frameY="-620" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0036" x="584" y="1248" width="576" height="488" frameX="-239" frameY="-620" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0037" x="1168" y="1248" width="249" height="379" frameX="-426" frameY="-668" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0038" x="1168" y="1248" width="249" height="379" frameX="-426" frameY="-668" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0039" x="1425" y="1248" width="86" height="79" frameX="-511" frameY="-847" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0040" x="1519" y="1248" width="77" height="85" frameX="-523" frameY="-834" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0041" x="1519" y="1248" width="77" height="85" frameX="-523" frameY="-834" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0042" x="1604" y="1248" width="400" height="500" frameX="-356" frameY="-678" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0043" x="2012" y="1248" width="939" height="902" frameX="-99" frameY="-508" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0044" x="2012" y="1248" width="939" height="902" frameX="-99" frameY="-508" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0045" x="2959" y="1248" width="850" height="747" frameX="-127" frameY="-592" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0046" x="2959" y="1248" width="850" height="747" frameX="-127" frameY="-592" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0047" x="8" y="2158" width="1034" height="834" frameX="-30" frameY="-564" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0048" x="8" y="2158" width="1034" height="834" frameX="-30" frameY="-564" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0049" x="8" y="2158" width="1034" height="834" frameX="-30" frameY="-564" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0050" x="1050" y="2158" width="1044" height="733" frameX="-27" frameY="-608" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0051" x="1050" y="2158" width="1044" height="733" frameX="-27" frameY="-608" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0052" x="1050" y="2158" width="1044" height="733" frameX="-27" frameY="-608" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0053" x="2102" y="2158" width="794" height="667" frameX="0" frameY="-642" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0054" x="2102" y="2158" width="794" height="667" frameX="0" frameY="-642" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0055" x="2102" y="2158" width="794" height="667" frameX="0" frameY="-642" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0056" x="2904" y="2158" width="764" height="612" frameX="-16" frameY="-671" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0057" x="2904" y="2158" width="764" height="612" frameX="-16" frameY="-671" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0058" x="2904" y="2158" width="764" height="612" frameX="-16" frameY="-671" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0059" x="8" y="3000" width="530" height="592" frameX="-248" frameY="-672" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0060" x="8" y="3000" width="530" height="592" frameX="-248" frameY="-672" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0061" x="8" y="3000" width="530" height="592" frameX="-248" frameY="-672" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0062" x="546" y="3000" width="510" height="640" frameX="-272" frameY="-640" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0063" x="546" y="3000" width="510" height="640" frameX="-272" frameY="-640" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0064" x="546" y="3000" width="510" height="640" frameX="-272" frameY="-640" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0065" x="1064" y="3000" width="528" height="624" frameX="-281" frameY="-672" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0066" x="1064" y="3000" width="528" height="624" frameX="-281" frameY="-672" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0067" x="1064" y="3000" width="528" height="624" frameX="-281" frameY="-672" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0068" x="1600" y="3000" width="558" height="675" frameX="-246" frameY="-642" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0069" x="1600" y="3000" width="558" height="675" frameX="-246" frameY="-642" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0070" x="1600" y="3000" width="558" height="675" frameX="-246" frameY="-642" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0071" x="2166" y="3000" width="532" height="659" frameX="-257" frameY="-645" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0072" x="2166" y="3000" width="532" height="659" frameX="-257" frameY="-645" frameWidth="1071" frameHeight="1410"/>
-	<SubTexture name="LeftyTime0073" x="2166" y="3000" width="532" height="659" frameX="-257" frameY="-645" frameWidth="1071" frameHeight="1410"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="LeftyTime.png" width="3341" height="3366">
+	<SubTexture name="LeftyTime0000" x="2962" y="1762" width="321" height="601" frameX="-437" frameY="-0" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0001" x="2962" y="1762" width="321" height="601" frameX="-437" frameY="-0" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0002" x="2931" y="628" width="390" height="469" frameX="-376" frameY="-485" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0003" x="2931" y="628" width="390" height="469" frameX="-376" frameY="-485" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0004" x="2984" y="1103" width="351" height="379" frameX="-378" frameY="-740" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0005" x="2984" y="1103" width="351" height="379" frameX="-378" frameY="-740" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0006" x="2963" y="2369" width="339" height="366" frameX="-377" frameY="-775" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0007" x="2963" y="2369" width="339" height="366" frameX="-377" frameY="-775" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0008" x="580" y="2953" width="339" height="365" frameX="-377" frameY="-782" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0009" x="580" y="2953" width="339" height="365" frameX="-377" frameY="-782" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0010" x="6" y="2971" width="337" height="362" frameX="-378" frameY="-788" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0011" x="6" y="2971" width="337" height="362" frameX="-378" frameY="-788" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0012" x="2426" y="2990" width="335" height="327" frameX="-362" frameY="-737" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0013" x="2426" y="2990" width="335" height="327" frameX="-362" frameY="-737" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0014" x="925" y="2956" width="297" height="315" frameX="-380" frameY="-824" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0015" x="925" y="2956" width="297" height="315" frameX="-380" frameY="-824" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0016" x="1456" y="2949" width="367" height="285" frameX="-437" frameY="-860" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0017" x="1456" y="2949" width="367" height="285" frameX="-437" frameY="-860" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0018" x="2963" y="2741" width="337" height="348" frameX="-566" frameY="-778" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0019" x="2963" y="2741" width="337" height="348" frameX="-566" frameY="-778" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0020" x="2767" y="3095" width="405" height="265" rotated="true" frameX="-631" frameY="-556" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0021" x="2767" y="3095" width="405" height="265" rotated="true" frameX="-631" frameY="-556" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0022" x="1161" y="2476" width="289" height="474" rotated="true" frameX="-328" frameY="-549" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0023" x="3001" y="6" width="291" height="466" frameX="-253" frameY="-674" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0024" x="3001" y="6" width="291" height="466" frameX="-253" frameY="-674" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0025" x="2068" y="2455" width="352" height="566" rotated="true" frameX="-294" frameY="-886" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0026" x="580" y="2476" width="575" height="471" rotated="true" frameX="-437" frameY="-605" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0027" x="580" y="2476" width="575" height="471" rotated="true" frameX="-437" frameY="-605" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0028" x="2319" y="628" width="606" height="591" frameX="-351" frameY="-512" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0029" x="2319" y="628" width="606" height="591" frameX="-351" frameY="-512" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0030" x="1702" y="1826" width="720" height="623" frameX="-185" frameY="-524" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0031" x="1702" y="1826" width="720" height="623" frameX="-185" frameY="-524" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0032" x="2319" y="6" width="676" height="616" frameX="-209" frameY="-561" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0033" x="2319" y="6" width="676" height="616" frameX="-209" frameY="-561" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0034" x="6" y="2426" width="568" height="539" frameX="-255" frameY="-571" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0035" x="1486" y="2455" width="576" height="488" frameX="-239" frameY="-620" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0036" x="1486" y="2455" width="576" height="488" frameX="-239" frameY="-620" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0037" x="1829" y="3027" width="378" height="249" rotated="true" frameX="-426" frameY="-669" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0038" x="1829" y="3027" width="378" height="249" rotated="true" frameX="-426" frameY="-669" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0039" x="951" y="846" width="86" height="79" frameX="-511" frameY="-847" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0040" x="951" y="931" width="77" height="85" frameX="-523" frameY="-834" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0041" x="951" y="931" width="77" height="85" frameX="-523" frameY="-834" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0042" x="1785" y="651" width="499" height="399" rotated="true" frameX="-357" frameY="-679" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0043" x="6" y="846" width="939" height="902" frameX="-99" frameY="-508" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0044" x="6" y="846" width="939" height="902" frameX="-99" frameY="-508" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0045" x="951" y="1056" width="745" height="850" rotated="true" frameX="-127" frameY="-593" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0046" x="951" y="1056" width="745" height="850" rotated="true" frameX="-127" frameY="-593" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0047" x="6" y="6" width="1034" height="834" frameX="-30" frameY="-564" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0048" x="6" y="6" width="1034" height="834" frameX="-30" frameY="-564" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0049" x="6" y="6" width="1034" height="834" frameX="-30" frameY="-564" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0050" x="1046" y="6" width="733" height="1044" rotated="true" frameX="-27" frameY="-608" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0051" x="1046" y="6" width="733" height="1044" rotated="true" frameX="-27" frameY="-608" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0052" x="1046" y="6" width="733" height="1044" rotated="true" frameX="-27" frameY="-608" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0053" x="6" y="1754" width="794" height="666" frameX="-0" frameY="-643" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0054" x="6" y="1754" width="794" height="666" frameX="-0" frameY="-643" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0055" x="6" y="1754" width="794" height="666" frameX="-0" frameY="-643" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0056" x="1702" y="1056" width="611" height="764" rotated="true" frameX="-16" frameY="-672" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0057" x="1702" y="1056" width="611" height="764" rotated="true" frameX="-16" frameY="-672" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0058" x="1702" y="1056" width="611" height="764" rotated="true" frameX="-16" frameY="-672" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0059" x="2428" y="2392" width="529" height="592" frameX="-249" frameY="-672" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0060" x="2428" y="2392" width="529" height="592" frameX="-249" frameY="-672" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0061" x="2428" y="2392" width="529" height="592" frameX="-249" frameY="-672" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0062" x="1785" y="6" width="510" height="639" frameX="-272" frameY="-641" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0063" x="1785" y="6" width="510" height="639" frameX="-272" frameY="-641" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0064" x="1785" y="6" width="510" height="639" frameX="-272" frameY="-641" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0065" x="2428" y="1762" width="528" height="624" frameX="-281" frameY="-672" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0066" x="2428" y="1762" width="528" height="624" frameX="-281" frameY="-672" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0067" x="2428" y="1762" width="528" height="624" frameX="-281" frameY="-672" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0068" x="806" y="1912" width="674" height="558" rotated="true" frameX="-246" frameY="-643" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0069" x="806" y="1912" width="674" height="558" rotated="true" frameX="-246" frameY="-643" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0070" x="806" y="1912" width="674" height="558" rotated="true" frameX="-246" frameY="-643" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0071" x="2319" y="1225" width="659" height="531" rotated="true" frameX="-257" frameY="-645" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0072" x="2319" y="1225" width="659" height="531" rotated="true" frameX="-257" frameY="-645" frameWidth="1071" frameHeight="1410"/>
+	<SubTexture name="LeftyTime0073" x="2319" y="1225" width="659" height="531" rotated="true" frameX="-257" frameY="-645" frameWidth="1071" frameHeight="1410"/>
 </TextureAtlas>

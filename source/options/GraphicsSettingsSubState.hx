@@ -33,8 +33,16 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 {
 	public function new()
 	{
-		title = 'Graphics';
+		title = Language.option.get('graphics_menu', 'Graphics');
 		rpcTitle = 'Graphics Settings Menu'; //for Discord Rich Presence
+
+		var option:Option = new Option('Fullscreen',
+			'If checked, makes the game take up the entire screen.',
+			'fullscreen',
+			'bool',
+			false);
+		option.onChange = onChangeFullscreen;
+		addOption(option);
 
 		//I'd suggest using "Low Quality" as an example for making your own option since it is the simplest here
 		var option:Option = new Option('Low Quality', //Name
@@ -68,7 +76,6 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 			false); //Default value
 		addOption(option);
 
-		//Apparently other framerates isn't correctly supported on Browser? Probably it has some V-Sync shit enabled by default, idk
 		var option:Option = new Option('Framerate', 
 			"Pretty self explanatory, isn't it?",
 			'framerate',
@@ -97,6 +104,11 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 				sprite.antialiasing = ClientPrefs.globalAntialiasing;
 			}
 		}
+	}
+
+	function onChangeFullscreen()
+	{
+		FlxG.fullscreen = ClientPrefs.fullscreen;
 	}
 
 	function onChangeFramerate()

@@ -6,14 +6,24 @@
 			"flavorText": "Sour, the loud, energetic son of one of Enzync City's top charting performers, had a deep love of music instilled in him at a young age, and as he grew up, he wanted nothing more than to follow in his mom's footsteps and become a hit musician. Sour exploded in popularity in Enzync City's underground music scene as a hyped up keytar player and a skilled dancer, gaining him enough of his own funds and clout to land him his first major concert.\n\nSour keeps cool and chill for the most part, but he tends to get into his own head and stress himself out. Music and dance helps him quickly get back in the groove.",
 			"tag": "sour",
 			"bgs": "sour",
-			"voicelines": ["1"]
+			"voicelines": ["1"],
+			"subtitles": "I play EDM beats that make people get up and dance.:dur:2.767[NL]You already know:dur:1.028[NL]It's Sour!:dur:0.976"
 		},
 		{
 			"chara": "sweet",
 			"flavorText": "Born and raised in the old-fashioned, mountainous community of the Preheats, Sweet is a beacon of light to music's past, granting a new generation the wonders of classical music. She inherits her father's singing and her mother's skills as a conductor, putting both skills to great use in her performances.\n\nShe spent her whole life in the Preheats, not knowing what the world was like beyond her cozy hometown, so as she got older, she put in the work to travel across the ocean to see new things and spread her talents to new places, showing others the kindness and positivity that her hometown instilled in her.",
 			"tag": "sweet",
 			"bgs": "sweet",
-			"voicelines": ["1"]
+			"voicelines": ["1"],
+			"subtitles": "Ah!:dur:0.942[NL]My name is Sweet.:dur:1.754[NL]Nearly forgot my manners, haha.:dur:1.842[NL]*Sigh*:dur:0.772[NL]Uhm... It's always a pleasure to meet new faces.:dur:3.333"
+		},
+		{
+			"chara": "showman",
+			"flavorText": "A man who's old enough to have seen the music industry change many times. Showman is one of Enzync City’s elites, sitting on a very hefty fortune he gained in his youth that he’s yet to reveal how he accrued. With a portion of his funds, he invested in his own performance venue in Enzync and has since more than tripled his wealth presenting countless musicians at his showroom, many of which getting their first tastes of major success and stardom up on his stage.\n\nHe has a keen eye for details and can sniff out the potential of a new performer very easily. It is said that what he does is in the name of music, though it’s mostly in the name of profits.",
+			"tag": "showman",
+			"bgs": "showman",
+			"voicelines": ["1"],
+			"subtitles": "When you order tickets to events in my showroom, you'll know you're only getting the best in entertainment!:dur:4.856[NL]and that's the Showman's guarantee!:dur:2.87"
 		},
 		{
 			"chara": "savory",
@@ -21,7 +31,8 @@
 			"tag": "savory",
 			"bgs": "savory",
 			"voicelines": ["1"],
-			"songCheck": "Tres Leches"
+			"songCheck": "Tres Leches",
+			"subtitles": "Ever find yourself lost in the sunctuous streets of Corianda?:dur:4.432[NL]I shall be your guide.:dur:2.315[NL]Savory, a tu servicio.:dur:3.008"
 		},
 		{
 			"chara": "umami",
@@ -29,7 +40,8 @@
 			"tag": "umami",
 			"bgs": "umami",
 			"voicelines": ["1"],
-			"songCheck": "Applewood"
+			"songCheck": "Applewood",
+			"subtitles": "Life's got you down? Then Umami's got your back:dur:3.054[NL]*giggle*:dur:1.949"
 		},
 		{
 			"chara": "spicy",
@@ -37,7 +49,8 @@
 			"tag": "spicy",
 			"bgs": "spicy",
 			"voicelines": ["1"],
-			"songCheck": "Caramelize"
+			"songCheck": "Caramelize",
+			"subtitles": "I'm sweet like cinnamon and sour like lime on fiesta chicken!:dur:5.233[NL]The best of both worlds!:dur:1.736[NL]It's Spicy, baby!:dur:3.546"
 		},
 		{
 			"chara": "smoky",
@@ -45,14 +58,16 @@
 			"tag": "smoky",
 			"bgs": "smoky",
 			"voicelines": ["1"],
-			"songCheck": "Wasabi"
+			"songCheck": "Wasabi",
+			"subtitles": "Smoky...:dur:0.982[NL]is my name.:dur:1.479[NL]I'm not the same performer most have known me as.:dur:3.081[NL]Things are different now...:dur:1.65[NL]and for the better.:dur:1.541"
 		},
 		{
 			"chara": "synsun",
 			"flavorText": "Sun-Dried is a programming prodigy, whose interest in computer science at a young age lead her to become a very skilled coder. Her love of computers mixes with her love of robotics, and soon that love would bring forth the construction of Synthetic, a refurbished computer with a custom made AI that turns the vintage machine into a friendly companion.\n\nSun-Dried's third biggest passion is music, expressing her love of news in the music industry via her own blog, and now her own livestream hosted by herself and Synthetic. Due to how Synthetic is programmed, he tends to cause a little mischief, choosing to seek out answers that are the most entertaining over ones that are immediately true.",
 			"tag": "synsun",
 			"bgs": "synsun",
-			"voicelines": ["1"]
+			"voicelines": ["1"],
+			"subtitles": "Synthetic: I'm Synthetic!:dur:1.166[NL]and that's my buddy, Sunny.:dur:1.703[NL]Welcome to SynSun!:dur:1.543[NL]Sun-Dried: Hey there!:dur:0.998[NL]Looking for the latest in the music scene? We got you covered!:dur:3.532"
 		},
 		{
 			"chara": "rika",
@@ -61,7 +76,8 @@
 			"bgs": "rika",
 			"voicelines": ["1"],
 			"songCheck": "MegaHeartz",
-			"link": "https://gamebanana.com/mods/408207"
+			"link": "https://gamebanana.com/mods/408207",
+			"subtitles": "I make this look good!:dur:2.5"
 		},
 		{
 			"chara": "nikku",
@@ -79,7 +95,8 @@
 			"voicelines": ["1"],
 			"bgs": "daisy",
 			"songCheck": "Heartstrings",
-			"link": "https://gamebanana.com/mods/331943"
+			"link": "https://gamebanana.com/mods/331943",
+			"subtitles": "You made the right choice!:dur:2"
 		},
 		{
 			"chara": "troubleshootin",
@@ -88,7 +105,8 @@
 			"bgs": "troubleshootin",
 			"voicelines": ["1"],
 			"songCheck": "GAME-JAMMED",
-			"link": "https://gamebanana.com/mods/320006"
+			"link": "https://gamebanana.com/mods/320006",
+			"subtitles": "Torrent: See, what did I tell you? It IS just that easy.:dur:4.25"
 		}
 	]
 }

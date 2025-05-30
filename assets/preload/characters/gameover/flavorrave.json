@@ -8,23 +8,23 @@
 	"goSound": [
 		{
 			"sound": "sour/1",
-			"opponent": ""
+			"subtitles": "Yo, what!?:dur:2.319"
 		},
 		{
 			"sound": "sour/2",
-			"opponent": ""
+			"subtitles": "Now that's just stupid!:dur:1.593"
 		},
 		{
 			"sound": "sweet/1",
-			"opponent": ""
+			"subtitles": "Please! One more chance!:dur:2.319"
 		},
 		{
 			"sound": "flavorrave/1",
-			"opponent": ""
+			"subtitles": "Let's try that again.:dur:2.112"
 		},
 		{
 			"sound": "sweet/2",
-			"opponent": ""
+			"subtitles": "Curtain call...:dur:1.380"
 		}
 	]
 }

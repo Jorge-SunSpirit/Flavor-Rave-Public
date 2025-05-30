@@ -2,12 +2,27 @@
 	"song": {
 		"events": [
 			[
+				357.142857142857,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"4"
+					]
+				]
+			],
+			[
 				7619.04761904762,
 				[
 					[
 						"Screen Flash",
 						"0.6",
 						"white"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"64"
 					]
 				]
 			],
@@ -42,12 +57,37 @@
 				]
 			],
 			[
+				89523.8095238096,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"752"
+					]
+				]
+			],
+			[
 				91428.5714285715,
 				[
 					[
 						"Change Camera Bump frequency",
 						"16",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"768"
+					]
+				]
+			],
+			[
+				92142.8571428572,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"774"
 					]
 				]
 			],
@@ -118,6 +158,11 @@
 						"Change Camera Bump frequency",
 						"16",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1040"
 					]
 				]
 			],
@@ -128,6 +173,26 @@
 						"Play SFX",
 						"gj-jam",
 						"1"
+					]
+				]
+			],
+			[
+				124285.714285714,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1044"
+					]
+				]
+			],
+			[
+				125476.190476191,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1054"
 					]
 				]
 			],
@@ -153,6 +218,21 @@
 						"Screen Flash",
 						"0.2",
 						"white"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1056"
+					]
+				]
+			],
+			[
+				126666.666666667,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1064"
 					]
 				]
 			],
@@ -163,6 +243,11 @@
 						"Change Camera Bump frequency",
 						"16",
 						"1.3"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1168"
 					]
 				]
 			],
@@ -173,6 +258,31 @@
 						"Change Camera Bump frequency",
 						"4",
 						"1.3"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1184"
+					]
+				]
+			],
+			[
+				156190.476190476,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1312"
+					]
+				]
+			],
+			[
+				169523.809523809,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1424"
 					]
 				]
 			],
@@ -183,6 +293,11 @@
 						"Change Camera Bump frequency",
 						"16",
 						"1.1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1440"
 					]
 				]
 			],
@@ -233,6 +348,16 @@
 						"Change Camera Bump frequency",
 						"16",
 						"1"
+					]
+				]
+			],
+			[
+				188452.380952381,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1583"
 					]
 				]
 			]

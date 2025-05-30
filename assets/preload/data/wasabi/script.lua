@@ -95,19 +95,49 @@ function onCreate()
 end
 
 function onStepHit()
-	if curStep == 2 then
+	if curStep >= 240 and curStep <= 272 then
+		setProperty('isCameraOnForcedPos', true);
+		setProperty('camFollow.y', 317);
+		setProperty('camFollow.x', 670);
+	end
+	if curStep >= 360 and curStep <= 383 then
+		doTweenAlpha('black', 'black', 0.9, 0.3);
+		setProperty('isCameraOnForcedPos', true);
+		setProperty('camFollow.y', 250);
+		setProperty('camFollow.x', 360);
+	end
+	if curStep >= 832 and curStep <= 864 then
+		setProperty('isCameraOnForcedPos', true);
+		setProperty('camFollow.y', 317);
+		setProperty('camFollow.x', 670);
+	end
+	if curStep >= 1104 and curStep <= 1392 then
+		setProperty('isCameraOnForcedPos', true);
+		setProperty('camFollow.y', 190);
+		setProperty('camFollow.x', 800);
+	end
+	if curStep >= 1424 and curStep <= 1487 then
+		setProperty('isCameraOnForcedPos', true);
+		setProperty('camFollow.y', 317);
+		setProperty('camFollow.x', 670);
+	end
+end
+
+function thingie(num)
+	num = tonumber(num)
+	if num == 2 then
 		doTweenY('BGCityMono', 'BGCityMono', -700, 0.4, "circinout");
 	end
-	if curStep == 5 then
+	if num == 5 then
 		doTweenY('RoadMono', 'RoadMono', -700, 0.4, "circinout");
 	end
-	if curStep == 8 then
+	if num == 8 then
 		doTweenY('LeftBuildingsMono', 'LeftBuildingsMono', -700, 0.4, "circinout");
 	end
-	if curStep == 11 then
+	if num == 11 then
 		doTweenY('RightBuildingsMono', 'RightBuildingsMono', -700, 0.4, "circinout");
 	end
-	if curStep == 16 then
+	if num == 16 then
 		setProperty('SkyMono.alpha', 0.0001);
 		setProperty('BGCityMono.alpha', 0.0001);
 		setProperty('RoadMono.alpha', 0.0001);
@@ -116,27 +146,16 @@ function onStepHit()
 		setProperty('dad.alpha', 1);
 		setProperty('boyfriend.alpha', 1);
 	end
-	if curStep == 80 then
+	if num == 80 then
 		setProperty('isCameraOnForcedPos', false);
 	end
-	if curStep >= 240 and curStep <= 272 then
-		setProperty('isCameraOnForcedPos', true);
-		setProperty('camFollow.y', 317);
-		setProperty('camFollow.x', 670);
-	end
-	if curStep == 272 then
+	if num == 272 then
 		setProperty('isCameraOnForcedPos', false);
 		doTweenAlpha('black', 'black', 0.7, 1);
 		doTweenY('smokeTop', 'smokeTop', -100, 1, "circinout");
 		doTweenY('smokeBottom', 'smokeBottom', 528, 1, "circinout");
 	end
-	if curStep >= 360 and curStep <= 383 then
-		doTweenAlpha('black', 'black', 0.9, 0.3);
-		setProperty('isCameraOnForcedPos', true);
-		setProperty('camFollow.y', 250);
-		setProperty('camFollow.x', 360);
-	end
-	if curStep == 368 then
+	if num == 368 then
 		if not middlescroll then
 			noteTweenAlpha('dad4', 0, 0, 1, "circout")
 			noteTweenAlpha('dad5', 1, 0, 1, "circout")
@@ -144,12 +163,12 @@ function onStepHit()
 			noteTweenAlpha('dad7', 3, 0, 1, "circout")
 		end
 	end
-	if curStep == 382 then
+	if num == 382 then
 		doTweenAlpha('dad', 'dad', 0.00001, 0.2);
 		runTimer('smokintime', 0.2);
 		doTweenAlpha('trans', 'trans', 1, 0.2);
 	end
-	if curStep == 387 then
+	if num == 387 then
 		doTweenY('barTop', 'barTop', 0, 0.2, "circinout");
 		doTweenY('barBottom', 'barBottom', 628, 0.2, "circinout");
 		setProperty('smokeTop.alpha', 0.0001);
@@ -164,7 +183,7 @@ function onStepHit()
 		setProperty('dad.x', getProperty('boyfriend.x') + 240);
 		setProperty('dad.y', getProperty('boyfriend.y') - 220);
 	end
-	if curStep == 400 then
+	if num == 400 then
 		doTweenAlpha('dad', 'dad', 1, 0.2);
 		if not middlescroll then
 			noteTweenX('bf', 0, defaultPlayerStrumX0, 1, "circinout")
@@ -177,18 +196,23 @@ function onStepHit()
 			noteTweenX('dad7', 7, defaultOpponentStrumX3, 1, "circinout")
 		end
 	end
-	if curStep == 410 then
-		if not middlescroll then
+	if num == 410 then
+		if not middlescroll and not opponentPlay then
 			noteTweenAlpha('dad4', 0, defaultOpponentAlpha0, 0.2, "circout")
 			noteTweenAlpha('dad5', 1, defaultOpponentAlpha1, 0.2, "circout")
 			noteTweenAlpha('dad6', 2, defaultOpponentAlpha2, 0.2, "circout")
 			noteTweenAlpha('dad7', 3, defaultOpponentAlpha3, 0.2, "circout")
+		elseif not middlescroll then
+			noteTweenAlpha('dad4', 0, defaultPlayerAlpha0, 0.2, "circout")
+			noteTweenAlpha('dad5', 1, defaultPlayerAlpha1, 0.2, "circout")
+			noteTweenAlpha('dad6', 2, defaultPlayerAlpha2, 0.2, "circout")
+			noteTweenAlpha('dad7', 3, defaultPlayerAlpha3, 0.2, "circout")
 		end
 	end
-	if curStep == 416 then
+	if num == 416 then
 		doTweenAlpha('black', 'black', 0, 1);
 	end
-	if curStep == 785 then
+	if num == 785 then
 		runTimer('smokintime', 0.2);
 		if not middlescroll then
 			noteTweenX('bf', 4, defaultPlayerStrumX0, 1, "circinout")
@@ -201,46 +225,36 @@ function onStepHit()
 			noteTweenX('dad7', 3, defaultOpponentStrumX3, 1, "circinout")
 		end
 	end
-	if curStep == 790 then
+	if num == 790 then
 		doTweenY('barTop', 'barTop', -102, 0.25, "circinout");
 		doTweenY('barBottom', 'barBottom', 822, 0.25, "circinout");
 		setProperty('floorPurse.alpha', 0.0001);
 		setProperty('isCameraOnForcedPos', false);
 	end
-	if curStep >= 832 and curStep <= 864 then
-		setProperty('isCameraOnForcedPos', true);
-		setProperty('camFollow.y', 317);
-		setProperty('camFollow.x', 670);
-	end
-	if curStep == 864 then
+	if num == 864 then
 		setProperty('isCameraOnForcedPos', false);
 	end
-	if curStep == 992 then
+	if num == 992 then
 		doTweenAlpha('dramablack', 'dramablack', 1, 0.7);
 	end
-	if curStep == 1004 then
+	if num == 1004 then
 		runHaxeCode('game.boyfriend.setColorTransform(1, 1, 1, 1, 255, 255, 255, 0);')
 		runHaxeCode('game.dad.setColorTransform(1, 1, 1, 1, 255, 255, 255, 0);')
 		setProperty('boyfriend.alpha', 0);
 		setProperty('black.alpha', 1);
 	end
-	if curStep == 1008 then
+	if num == 1008 then
 		doTweenAlpha('dramablack', 'dramablack', 0, 2);
 	end
-	if curStep == 1072 then
+	if num == 1072 then
 		doTweenAlpha('boyfriend', 'boyfriend', 1, 2);
 	end
-	if curStep >= 1104 and curStep <= 1392 then
-		setProperty('isCameraOnForcedPos', true);
-		setProperty('camFollow.y', 190);
-		setProperty('camFollow.x', 800);
-	end
-	if curStep == 1120 then
+	if num == 1120 then
 		funkyBumps = 1;
 		doTweenAlpha('moon', 'moon', 1, 2);
 		playAnim('trans', 'normal');
 	end
-	if curStep == 1136 then
+	if num == 1136 then
 		setProperty('SkyMono.alpha', 1);
 		setProperty('BGCityMono.alpha', 1);
 		setProperty('RoadMono.alpha', 1);
@@ -252,7 +266,7 @@ function onStepHit()
 		setProperty('dad.color', 0x00000000);
 		funkyBumps = 2;
 	end
-	if curStep == 1392 then
+	if num == 1392 then
 		setProperty('black.alpha', 0);
 		setProperty('moon.alpha', 0);
 		setProperty('SkyMono.alpha', 0.0001);
@@ -263,11 +277,6 @@ function onStepHit()
 		setProperty('isCameraOnForcedPos', false);
 		setProperty('boyfriend.color', 0xFFFFFF);
 		setProperty('dad.color', 0xFFFFFF);
-	end
-	if curStep >= 1424 and curStep <= 1487 then
-		setProperty('isCameraOnForcedPos', true);
-		setProperty('camFollow.y', 317);
-		setProperty('camFollow.x', 670);
 	end
 end
 

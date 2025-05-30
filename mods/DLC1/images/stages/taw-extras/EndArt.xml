@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="EndArt.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="EndAnim0000" x="5" y="5" width="1286" height="724"/>
+	<SubTexture name="EndAnim0001" x="1296" y="5" width="1286" height="724"/>
+	<SubTexture name="EndAnim0002" x="2587" y="5" width="1017" height="724" frameX="0" frameY="0" frameWidth="1286" frameHeight="724"/>
+	<SubTexture name="EndAnim0003" x="5" y="734" width="999" height="724" frameX="0" frameY="0" frameWidth="1286" frameHeight="724"/>
+</TextureAtlas>

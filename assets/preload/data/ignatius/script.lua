@@ -86,50 +86,51 @@ function onCreate()
 	
 end
 
-function onStepHit()
-	if curStep == 10 then
+function thingie(num)
+	num = tonumber(num)
+	if num == 10 then
 		doTweenAlpha('dramablack', 'dramablack', 0, 3);
 	end
-	if curStep == 24 then
+	if num == 24 then
 		doTweenAlpha('text1', 'text1', 1, 2);
 	end
-	if curStep == 52 then
+	if num == 52 then
 		doTweenAlpha('text2', 'text2', 1, 2);
 		doTweenY('barTop', 'barTop', -102, 2, "circinout");
 		doTweenY('barBottom', 'barBottom', 822, 2, "circinout");
 	end
-	if curStep == 58 then
+	if num == 58 then
 		doTweenAlpha('boyfriend', 'boyfriend', 1, 1.4);
 		doTweenAlpha('dad', 'dad', 1, 1.4);
 	end
-	if curStep == 80 then
+	if num == 80 then
 		setProperty('boyfriend.color', 0xFFFFFF);
 		setProperty('dad.color', 0xFFFFFF);
 		setProperty('text1.alpha', 0.0001);
 		setProperty('text2.alpha', 0.0001);
 		setProperty('paper.alpha', 0.0001);
 	end
-	if curStep == 112 then
+	if num == 112 then
 		setProperty('isCameraOnForcedPos', false);
 		removeLuaSprite('text1');
 		removeLuaSprite('text2');
 	end
-	if curStep == 1168 then
+	if num == 1168 then
 		doTweenAlpha('dramablack', 'dramablack', 1, 0.4);
 	end
-	if curStep == 1174 then
+	if num == 1174 then
 		setProperty('black.alpha', 1);
 		runHaxeCode('game.boyfriend.setColorTransform(1, 1, 1, 1, 255, 255, 255, 0);')
 		runHaxeCode('game.dad.setColorTransform(1, 1, 1, 1, 255, 255, 255, 0);')
 		setProperty('dad.alpha', 0);
 	end
-	if curStep == 1176 then
+	if num == 1176 then
 		doTweenAlpha('dramablack', 'dramablack', 0.0001, 3);
 	end
-	if curStep == 1236 then
+	if num == 1236 then
 		doTweenAlpha('dad', 'dad', 1, 2);
 	end
-	if curStep == 1296 then
+	if num == 1296 then
 		setProperty('black.alpha', 0.0001);
 		runHaxeCode('game.boyfriend.setColorTransform(1, 1, 1, 1, 0, 0, 0, 0);')
 		runHaxeCode('game.dad.setColorTransform(1, 1, 1, 1, 0, 0, 0, 0);')
@@ -137,27 +138,42 @@ function onStepHit()
 		doTweenY('smokeTop', 'smokeTop', -100, 1, "circinout");
 		doTweenY('smokeBottom', 'smokeBottom', 528, 1, "circinout");
 	end
-	if curStep == 1424 then
+	if num == 1424 then
 		doTweenY('smokeTop', 'smokeTop', -302, 1.6, "circinout");
 		doTweenY('smokeBottom', 'smokeBottom', 722, 1.6, "circinout");
 		doTweenAlpha('vin', 'vin', 0.4, 3);
 	end
-	if curStep == 1520 then
+	if num == 1520 then
 		doTweenAlpha('white', 'white', 1, 2);
 	end
-	if curStep == 1552 then
-		goku = true
+	if num == 1552 then
 		setProperty('white.alpha', 0.0001);
 		setProperty('borderfire.alpha', 1);
+		setProperty('fireback.alpha', 1);
+		setProperty('boyfriendGroup.x', 1000)
+		setProperty('boyfriendGroup.y', 200)
+		setProperty('dadGroup.x', -100)
+		setObjectOrder('dadGroup', getObjectOrder('boyfriendGroup')+1);
+		setProperty('dramashadow.alpha', 0.0001);
+		setProperty('isCameraOnForcedPos', true);
+		setProperty('camFollow.x', 781);
+		setProperty('camFollow.y', 394);
+		setProperty('camera.target.x', 781);
+		setProperty('camera.target.y', 394);
+		setProperty('defaultCamZoom', 1);
+	end
+	if num == 1808 then
+		goku = true
+		setProperty('white.alpha', 1);
+		setProperty('fireback.alpha', 0.001);
+		doTweenAlpha('white', 'white', 0.001, 0.5);
+		setProperty('black.alpha', 0.5);
 		setProperty('boyfriendGroup.x', 550)
 		setProperty('boyfriendGroup.y', -70)
 		setProperty('dadGroup.x', 330)
 		setProperty('dadGroup.y', 105)
-		setObjectOrder('dadGroup', getObjectOrder('boyfriendGroup')+1);
-		setProperty('dramashadow.alpha', 0.0001);
-		setProperty('black.alpha', 0.5);
 	end
-	if curStep == 1936 then
+	if num == 1936 then
 		doTweenAlpha('borderfire', 'borderfire', 0, 3);
 	end
 end
@@ -172,14 +188,12 @@ end
 
 function onMoveCamera(focus)
 	if goku then
-		if focus == 'gf' or focus == 'dad' then
-			if focus == 'dad' then
-				setProperty('camFollow.x', 763);
-				setProperty('camFollow.y', 458);
-			else
-				setProperty('camFollow.x', 763);
-				setProperty('camFollow.y', 146);
-			end
+		if focus == 'dad' then
+			setProperty('camFollow.x', 763);
+			setProperty('camFollow.y', 458);
+		else
+			setProperty('camFollow.x', 763);
+			setProperty('camFollow.y', 146);
 		end
 	end
 end

@@ -1,5 +1,6 @@
 package;
 
+import Language.LanguageText;
 import Controls.KeyboardScheme;
 import flixel.FlxG;
 import flixel.FlxObject;
@@ -38,7 +39,6 @@ using StringTools;
 
 typedef CreditsFile ={
 	var peeps:Array<Peeps>;
-	var listoroles:Array<String>;
 }
 
 typedef Peeps = {
@@ -47,7 +47,7 @@ typedef Peeps = {
 	var description:String;
 	var color:Array<Int>;
 	var twitter:String;
-	var whichrole:Int;
+	var whichrole:String;
 	var hiddenType:String;
 }
 
@@ -62,13 +62,13 @@ class CreditsState extends MusicBeatState
 
 	var rolelist:Array<String> = [];
 	
-	private var grpNames:FlxTypedGroup<FlxText>;
+	private var grpNames:FlxTypedGroup<LanguageText>;
 	private var cardArray:FlxTypedGroup<CMenuItem>;
 
 	//hueh
 	public var bufferArray:Array<Peeps> = [];
 	var creditsStuff:Array<Array<Dynamic>> = [];
-	var modRoleText:FlxText;
+	var modRoleText:LanguageText;
 
 	var buttonL:FlxSprite;
 	var buttonR:FlxSprite;
@@ -107,7 +107,7 @@ class CreditsState extends MusicBeatState
 		cardArray = new FlxTypedGroup<CMenuItem>();
 		add(cardArray);
 
-		grpNames = new FlxTypedGroup<FlxText>();
+		grpNames = new FlxTypedGroup<LanguageText>();
 		add(grpNames);
 
 		
@@ -128,11 +128,10 @@ class CreditsState extends MusicBeatState
 		fg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(fg);
 
-		modRoleText = new FlxText(684, 640, 526, '', 50);
-		modRoleText.setFormat(Paths.font("Krungthep.ttf"), 50, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, 0xFF000000);
+		modRoleText = new LanguageText(684, 640, 526, '', 50, 'krungthep');
+		modRoleText.setStyle(FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, 0xFF000000);
 		modRoleText.borderSize = 3;
-		modRoleText.antialiasing = ClientPrefs.globalAntialiasing;
-		modRoleText.text = rolelist[curPage];
+		modRoleText.text = Language.flavor.get("credits_" + rolelist[curPage], rolelist[curPage]);
 		add(modRoleText);
 
 		super.create();
@@ -187,6 +186,7 @@ class CreditsState extends MusicBeatState
 
 			if (controls.BACK)
 			{
+				selectedSomethin = true;
 				curPage = 0;
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				MusicBeatState.switchState(new MainMenuState());
@@ -219,7 +219,7 @@ class CreditsState extends MusicBeatState
 					}
 				}
 
-				grpNames.forEach(function(spr:FlxText)
+				grpNames.forEach(function(spr:LanguageText)
 				{
 					if(FlxG.mouse.overlaps(spr))
 					{
@@ -310,6 +310,11 @@ class CreditsState extends MusicBeatState
 
 	function createMenuGraphic()
 	{
+		cardArray.forEach(function(obj:CMenuItem)
+		{
+			obj.deselect();
+		});
+
 		var menuCard:CMenuItem = new CMenuItem(1280, 200, creditsStuff[curSelected][0], creditsStuff[curSelected][1], creditsStuff[curSelected][2], creditsStuff[curSelected][4]);
 		menuCard.antialiasing = ClientPrefs.globalAntialiasing;
 		menuCard.angle = FlxG.random.int(-10, 10);
@@ -323,6 +328,7 @@ class CreditsState extends MusicBeatState
 				ease: FlxEase.backInOut,
 				onComplete: function(flxTween:FlxTween)
 				{
+					FlxTween.cancelTweensOf(cardArray.members[1].icon);
 					cardArray.remove(cardArray.members[1], true);
 				}
 			});
@@ -335,13 +341,19 @@ class CreditsState extends MusicBeatState
 		var rawJson = Assets.getText(path);
 		var json:CreditsFile = cast Json.parse(rawJson);
 
-		rolelist = json.listoroles;
+		//rolelist = json.listoroles;
 		bufferArray = json.peeps;
 
 		for (peep in bufferArray)
 		{
-			if (peep.whichrole == curPage)
-				creditsStuff.push([peep.realName, peep.iconName, peep.description, peep.twitter, peep.color, peep.whichrole]);
+			if (!rolelist.contains(peep.whichrole))
+				rolelist.insert(rolelist.length, peep.whichrole);
+		}
+
+		for (peep in bufferArray)
+		{
+			if (peep.whichrole == rolelist[curPage])
+				creditsStuff.push([peep.realName, peep.iconName, Language.flavor.get("credits_" + peep.iconName + "_desc", peep.description), peep.twitter, peep.color, peep.whichrole]);
 		}
 
 		#if MODS_ALLOWED
@@ -358,8 +370,14 @@ class CreditsState extends MusicBeatState
 
 				for (peep in bufferArray)
 				{
-					if (peep.whichrole == curPage)
-						creditsStuff.push([peep.realName, peep.iconName, peep.description, peep.twitter, peep.color, peep.whichrole]);
+					if (!rolelist.contains(peep.whichrole))
+						rolelist.insert(rolelist.length, peep.whichrole);
+				}
+
+				for (peep in bufferArray)
+				{
+					if (peep.whichrole == rolelist[curPage])
+						creditsStuff.push([peep.realName, peep.iconName, Language.flavor.get("credits_" + peep.iconName + "_desc", peep.description), peep.twitter, peep.color, peep.whichrole]);
 				}
 
 			}
@@ -369,10 +387,9 @@ class CreditsState extends MusicBeatState
 		for (i in 0...creditsStuff.length)
 		{
 			//Text names
-			var nameText:FlxText = new FlxText(52 + (i * 24), 138 + (i * 59), 0, creditsStuff[i][0], 32);
-			nameText.setFormat(Paths.font("Krungthep.ttf"), 32, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			var nameText:LanguageText = new LanguageText(52 + (i * 24), 138 + (i * 59), 0, creditsStuff[i][0], 32, 'krungthep');
+			nameText.setStyle(FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 			nameText.borderSize = 2;
-			nameText.antialiasing = ClientPrefs.globalAntialiasing;
 			nameText.ID = i;
 			grpNames.add(nameText);
 		}
@@ -386,7 +403,7 @@ class CreditsState extends MusicBeatState
 		grpNames.clear();
 		creditsStuff = [];
 		loadAssets();
-		modRoleText.text = rolelist[curPage];
+		modRoleText.text = Language.flavor.get("credits_" + rolelist[curPage], rolelist[curPage]);
 	}
 }
 
@@ -395,14 +412,15 @@ class CMenuItem extends FlxSpriteGroup
 	var song:String;
 
 	var bg:FlxSprite;
-	var icon:FlxSprite;
-	var name:FlxText;
-	var text:FlxText;
+	public var icon:FlxSprite;
+	var name:LanguageText;
+	var text:LanguageText;
+	var specialDeselect:Bool = false;
 
 	public function new(x:Float = 0, y:Float = 0, namee:String = '???', icon:String = 'default', wha:String = '???', ?color:Array<Int>)
 	{
 		super(x, y);
-		var iconString:String = icon.toLowerCase();
+		var iconString:String = icon;
 
 		bg = new FlxSprite().loadGraphic(Paths.image('credits/Ticket'));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
@@ -419,25 +437,33 @@ class CMenuItem extends FlxSpriteGroup
 		this.icon.origin.set(bg.origin.x - this.icon.origin.x, bg.origin.y - this.icon.origin.y);
 		add(this.icon);
 
-		name = new FlxText(234, 104, 451 /* 0 */, namee, 40);
-		name.setFormat(Paths.font("Krungthep.ttf"), 40, FlxColor.WHITE, LEFT);
-		name.antialiasing = ClientPrefs.globalAntialiasing;
+		name = new LanguageText(234, 104, 451 /* 0 */, namee, 40, 'krungthep');
+		name.setStyle(FlxColor.WHITE, LEFT);
 		name.origin.set(bg.origin.x - name.origin.x, bg.origin.y - name.origin.y);
 		add(name);
 
-		/* Squish name if too long
-		{
-			if (name.frameWidth > 451)
-				name.scale.x = 451 / name.frameWidth;
-
-			name.updateHitbox();
-		}
-		*/
-
-		text = new FlxText(234, 178, 451, wha, 30);
-		text.setFormat(Paths.font("Krungthep.ttf"), 30, FlxColor.WHITE, LEFT);
-		text.antialiasing = ClientPrefs.globalAntialiasing;
+		text = new LanguageText(234, 178, 451, wha, 30, 'krungthep');
+		text.setStyle(FlxColor.WHITE, LEFT);
 		text.origin.set(bg.origin.x - text.origin.x, bg.origin.y - text.origin.y);
 		add(text);
+
+		if (iconString == 'specialthanks')
+		{
+			specialDeselect = true;
+			name.visible = false;
+			text.visible = false;
+			bg.visible = false;
+			this.icon.offset.x += 10;
+			this.icon.offset.y = 200;
+		}
+	}
+
+	public function deselect()
+	{
+		if (specialDeselect)
+		{
+			if (icon.alpha == 1)
+				FlxTween.tween(icon, {alpha: 0}, 0.25, {ease: FlxEase.circOut});
+		}
 	}
 }

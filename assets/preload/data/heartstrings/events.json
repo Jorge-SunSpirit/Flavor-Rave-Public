@@ -2,6 +2,26 @@
 	"song": {
 		"events": [
 			[
+				2608.69565217391,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"20"
+					]
+				]
+			],
+			[
+				2739.13043478261,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"21"
+					]
+				]
+			],
+			[
 				4173.91304347826,
 				[
 					[
@@ -28,6 +48,91 @@
 						"Play SFX",
 						"neonsignon",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"42"
+					]
+				]
+			],
+			[
+				5608.69565217391,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"43"
+					]
+				]
+			],
+			[
+				5739.13043478261,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"44"
+					]
+				]
+			],
+			[
+				5869.5652173913,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"45"
+					]
+				]
+			],
+			[
+				6391.30434782609,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"49"
+					]
+				]
+			],
+			[
+				6521.73913043478,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"50"
+					]
+				]
+			],
+			[
+				6652.17391304348,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"51"
+					]
+				]
+			],
+			[
+				6782.60869565217,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"52"
+					]
+				]
+			],
+			[
+				6913.04347826087,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"53"
 					]
 				]
 			],
@@ -48,6 +153,11 @@
 						"Play SFX",
 						"spotlight",
 						"0.6"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"64"
 					]
 				]
 			],
@@ -68,6 +178,11 @@
 						"Change Camera Zoom",
 						"0.75",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"96"
 					]
 				]
 			],
@@ -88,6 +203,11 @@
 						"Change Camera Zoom",
 						"0.9",
 						"0.8"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"516"
 					]
 				]
 			],
@@ -143,6 +263,11 @@
 						"Change Camera Bump frequency",
 						"8",
 						"1"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"768"
 					]
 				]
 			],
@@ -153,6 +278,21 @@
 						"Change Camera Zoom",
 						"0.85",
 						"0.4"
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1008"
+					]
+				]
+			],
+			[
+				133434.782608696,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1023"
 					]
 				]
 			],
@@ -183,6 +323,26 @@
 						"Spawn Spinning Particles",
 						"closeup/DaisyParticle",
 						"650"
+					]
+				]
+			],
+			[
+				135000,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1035"
+					]
+				]
+			],
+			[
+				136304.347826087,
+				[
+					[
+						"Call on Luas",
+						"thingie",
+						"1045"
 					]
 				]
 			],
@@ -218,6 +378,11 @@
 						"Camera Bopping",
 						"0",
 						""
+					],
+					[
+						"Call on Luas",
+						"thingie",
+						"1280"
 					]
 				]
 			],

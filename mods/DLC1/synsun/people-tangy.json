@@ -1,0 +1,119 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "I’ve been seeing a whole lot about this girl lately. At first I was thinking this new wave of RAVE was all for good, but then Tangy here strolled up out of nowhere and nearly crushed the life out of Sour!",
+			"tvArt" : "tangy",
+			"chara": "syn"
+		},
+		{
+			"text": "...",
+			"animation": "sad",
+			"chara": "sun",
+			"sound" : "grumble"
+		},
+		{
+			"text": "Someone should’ve called the authorities! This could’ve ended horribly-!",
+			"animation": "alert",
+			"chara": "syn"
+		},
+		{
+			"text": "...",
+			"chara": "sun"
+		},
+		{
+			"text": "…you ok, Sunny? I know that look means something’s on your mind.",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "I… mhhhh… This feels wrong to say… and I know what happened was really bad… but… something doesn’t feel right.",
+			"chara": "sun"
+		},
+		{
+			"text": "Could you explain why? If you don’t mind me asking, of course.",
+			"chara": "syn"
+		},
+		{
+			"text": "That girl… Tangy. I’m only now learning her name because of this whole thing. I’ve met her once before, not even a year ago, too.",
+			"chara": "sun"
+		},
+		{
+			"text": "Really? That was after I was built, and we’ve been inseparable. I feel like I would’ve seen her, too.",
+			"chara": "syn"
+		},
+		{
+			"text": "Well, you did… the thing is… We were out on a walk on Main Street, and she ran right past us in a hurry.",
+			"chara": "sun"
+		},
+		{
+			"text": "She was a little too close and bumped into me, and… I dropped you on the sidewalk… and you broke into pieces.",
+			"animation": "blush",
+			"chara": "sun"
+		},
+		{
+			"text": "WHAT?! So that’s what happened that day??? One moment I blacked out and suddenly I rebooted back in your room.",
+			"animation": "alert",
+			"chara": "syn",
+			"sound" : "whatLOUD"
+		},
+		{
+			"text": " I was freaking out really bad. I locked up in a panic, not knowing what to do… but… then I saw someone kneel down next to me.",
+			"chara": "sun"
+		},
+		{
+			"text": "It was her… Tangy. She stayed there with me on the sidewalk for nearly half an hour, trying to help me piece together what wasn’t broken and gathering together what couldn’t be fixed.",
+			"chara": "sun"
+		},
+		{
+			"text": "Then afterwards… she apologized. She felt so nice and reassuring to be around, even for just that moment.",
+			"chara": "sun"
+		},
+		{
+			"text": "Wow, I… never knew that.",
+			"animation": "sad",
+			"chara": "syn",
+			"sound" : "oh"
+		},
+		{
+			"text": "That’s why something feels off about what happened that night. SOMETHING had to provoke her to do that.",
+			"animation": "sad",
+			"chara": "sun"
+		},
+		{
+			"text": "What she did was still wrong, but… do people just change like that so quickly? People have been saying nasty things about her like she's some menace, but… do ‘bad’ people just decide to be so nice to someone they’ve never met like she did with me?",
+			"chara": "sun"
+		},
+		{
+			"text": "From what I'm seeing, those who know her say she's got a very tough, street punk attitude, but I'm not seeing any other instances of altercations like this.",
+			"chara": "syn"
+		},
+		{
+			"text": "That moment I had with her felt so genuine. I’m worried about her… a-and about Sour too..! I hope they’re both ok. I don’t want people to think I don’t care about him too in all this…",
+			"chara": "sun"
+		},
+		{
+			"text": "Ghhhh… I’m just rambling at this point. I really don’t know… ",
+			"animation": "blush",
+			"chara": "sun"
+		},
+		{
+			"text": "Hey… It’s ok, Sunny. Let’s both mellow out regarding this whole thing.",
+			"animation": "reset",
+			"chara": "syn",
+			"sound" : "heyquiet"
+		},
+		{
+			"text": "I know you don’t like sifting through drama, so… I’ll keep an eye on things during our off time. Hopefully Tangy and Sour are both fine.",
+			"chara": "syn"
+		},
+		{
+			"text": "Thank you, Syn…",
+			"chara": "sun"
+		},
+		{
+			"text": "Sorry about all this, viewers… ",
+			"chara": "sun"
+		}
+	]
+}

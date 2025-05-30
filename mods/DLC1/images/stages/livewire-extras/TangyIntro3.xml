@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TangyIntro3.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TangyIntroEnd0000" x="6" y="6" width="653" height="594" frameX="-153" frameY="-139" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0001" x="6" y="6" width="653" height="594" frameX="-153" frameY="-139" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0002" x="665" y="6" width="1071" height="809" frameX="-10" frameY="-2" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0003" x="665" y="6" width="1071" height="809" frameX="-10" frameY="-2" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0004" x="1742" y="6" width="1056" height="771" frameX="-35" frameY="-43" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0005" x="1742" y="6" width="1056" height="771" frameX="-35" frameY="-43" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0006" x="2804" y="6" width="1196" height="840"/>
+	<SubTexture name="TangyIntroEnd0007" x="6" y="852" width="1196" height="840"/>
+	<SubTexture name="TangyIntroEnd0008" x="1208" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0009" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0010" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0011" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0012" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0013" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0014" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0015" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0016" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0017" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0018" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0019" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0020" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0021" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0022" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0023" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0024" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0025" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0026" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0027" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0028" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0029" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0030" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0031" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0032" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0033" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0034" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0035" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0036" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0037" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0038" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0039" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0040" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0041" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0042" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0043" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0044" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0045" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0046" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0047" x="1877" y="852" width="690" height="618" frameX="-139" frameY="-118" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0048" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0049" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0050" x="2573" y="852" width="672" height="631" frameX="-140" frameY="-105" frameWidth="1196" frameHeight="840"/>
+	<SubTexture name="TangyIntroEnd0051" x="3251" y="852" width="663" height="652" frameX="-150" frameY="-84" frameWidth="1196" frameHeight="840"/>
+</TextureAtlas>

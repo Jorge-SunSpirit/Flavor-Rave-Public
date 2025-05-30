@@ -1,0 +1,24 @@
+{
+  "map": [
+    {
+      "key": "carat",
+      "value": "FOT-Carat Std UB.otf"
+    },
+    {
+      "key": "despair",
+      "value": "goodbyeDespair.ttf"
+    },
+    {
+      "key": "krungthep",
+      "value": "Krungthep.ttf"
+    },
+    {
+      "key": "pixel",
+      "value": "pixel-latin.ttf"
+    },
+    {
+      "key": "vcr",
+      "value": "vcr.ttf"
+    }
+  ]
+}
