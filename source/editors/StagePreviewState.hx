@@ -92,6 +92,7 @@ class StagePreviewState extends MusicBeatState
 	public var boyfriendCameraOffset:Array<Float> = null;
 	public var opponentCameraOffset:Array<Float> = null;
 	public var girlfriendCameraOffset:Array<Float> = null;
+	public var extraCameraOffset:Array<Float> = null;
 	public var centerCameraOffset:Array<Float> = null;
 
 	// Flixel UI
@@ -148,6 +149,7 @@ class StagePreviewState extends MusicBeatState
 				camera_boyfriend: [0, 0],
 				camera_opponent: [0, 0],
 				camera_girlfriend: [0, 0],
+				camera_extra: [0, 0],
 				camera_center: [0, 0],
 				camera_speed: 1,
 				camera_boundaries: null
@@ -174,6 +176,10 @@ class StagePreviewState extends MusicBeatState
 		girlfriendCameraOffset = stageData.camera_girlfriend;
 		if (girlfriendCameraOffset == null)
 			girlfriendCameraOffset = [0, 0];
+
+		extraCameraOffset = stageData.camera_extra;
+		if (extraCameraOffset == null)
+			extraCameraOffset = [0, 0];
 
 		centerCameraOffset = stageData.camera_center;
 		if (centerCameraOffset == null)

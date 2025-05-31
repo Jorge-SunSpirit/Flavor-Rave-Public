@@ -33,6 +33,28 @@ class Achievements {
 	public static var achivementVarMap:Map<String, Achievement> = new Map<String, Achievement>();
 	public static var achievementArray:Array<String> = [];
 	public static var goCharacterMap:Map<String, Bool> = new Map<String, Bool>();
+	public static var songBothSideClearMap:Array<String> = [
+		"applewood",
+		"caramelize",
+		"cranberry-pop",
+		"flavorscape",
+		"game-jammed",
+		"heartstrings",
+		"ignatius",
+		"imitation-station",
+		"megaheartz",
+		"n0.pressur3.temp",
+		"rainbow-sorbet",
+		"rockcandy",
+		"sugarcoat-it",
+		"timeshock",
+		"tres-leches",
+		"wasabi",
+		"fubuki",
+		"livewire",
+		"carrera-loca",
+		"stirring",
+		"thats-a-wrap"];
 
 	public static function init()
 	{
@@ -128,19 +150,15 @@ class Achievements {
 	public static function checkfullclearer()
 	{
 		var hasEverBeenfalse:Bool = false;
-		for (key in ClientPrefs.songBothSideClearMap.keys()) 
+		for (key in songBothSideClearMap) 
 		{
-			if (key == "Lodestar Shanty") continue;
-			
 			if (Highscore.checkBeaten(key, 0, 'both'))
 			{
-				ClientPrefs.goCharacterMap.set(key, true);
-				trace(key + ' Apples');
+				//Yeah idk man
 			}
 			else
 			{
 				hasEverBeenfalse = true;
-				trace(key + ' false');
 			}
 		}
 		if (!hasEverBeenfalse)
@@ -176,7 +194,7 @@ class Achievements {
 						var charToCheck:String = file.substr(0, file.length - 5);
 						if(!tempMap.exists(charToCheck)) 
 						{
-							tempMap.set(charToCheck, true);
+							tempMap.set(charToCheck, false);
 							characters.push(charToCheck);
 						}
 					}
@@ -187,9 +205,10 @@ class Achievements {
 
 		for (i in 0...characters.length)
 		{
-			//standard remove null from map
+			//standard remove null from map and checks for gameovers properly. So if mods are missing that adds them, then it'll ignore it
 			var theBool:Bool = ClientPrefs.goCharacterMap.get(characters[i]) ? true : false;
-			ClientPrefs.goCharacterMap.set(characters[i], theBool);
+			tempMap.set(characters[i], theBool);
 		}
+		ClientPrefs.goCharacterMap = tempMap;
 	}
 }

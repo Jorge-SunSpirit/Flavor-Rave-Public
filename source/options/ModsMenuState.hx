@@ -537,6 +537,7 @@ class ModsMenuState extends MusicBeatState
 		metadata.release = data.release;
 		metadata.description = data.description;
 		metadata.link = data.link;
+		metadata.imageLink = data.thumb;
 		mods.insert(0, metadata);
 
 		loadDLCGraphics(metadata, true);
@@ -559,11 +560,13 @@ class ModsMenuState extends MusicBeatState
 		var bitmap:Bitmap = event.target.content;
 		for (i in 0...mods.length)
 		{
-			if (!mods[i].hasIcon)
+			if (!mods[i].hasIcon && mods[i].imageLink == imagesToLoad[0])
 			{
 				trace("adding icon to: " + mods[i].name);
 				mods[i].icon.loadGraphic(bitmap.bitmapData);
 				mods[i].icon.visible = true;
+				mods[i].hasIcon = true;
+				break;
 			}
 		}
 		imagesToLoad.remove(imagesToLoad[0]);
@@ -653,6 +656,7 @@ class ModMetadata
 	public var downloaded:Bool;
 	public var hasIcon:Bool;
 	public var link:String;
+	public var imageLink:String;
 
 	public function new(folder:String)
 	{
@@ -665,6 +669,7 @@ class ModMetadata
 		this.hidden = false;
 		this.downloaded = false;
 		this.link = "";
+		this.imageLink = "";
 		this.hasIcon = false;
 
 		//Try loading json

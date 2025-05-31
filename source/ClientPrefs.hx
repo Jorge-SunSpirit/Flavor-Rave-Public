@@ -75,28 +75,6 @@ class ClientPrefs {
 
 	public static var achievementMap:Map<String, Bool> = new Map<String, Bool>();
 	public static var goCharacterMap:Map<String, Bool> = new Map<String, Bool>();
-	public static var songBothSideClearMap:Map<String, Bool> = [
-		"Applewood"	=> false,
-		"Caramelize"	=> false,
-		"Cranberry Pop"	=> false,
-		"Flavorscape"	=> false,
-		"GAME-JAMMED"	=> false,
-		"Heartstrings"	=> false,
-		"Ignatius"	=> false,
-		"Imitation Station"	=> false,
-		"MegaHeartz"	=> false,
-		"n0.pressur3.temp"	=> false,
-		"Rainbow Sorbet"	=> false,
-		"Rockcandy"	=> false,
-		"Sugarcoat It"	=> false,
-		"TIMESHOCK!"	=> false,
-		"Tres Leches"	=> false,
-		"Wasabi"	=> false,
-		"Fubuki"	=> false,
-		"Livewire"	=> false,
-		"Stirring"	=> false,
-		"That's a Wrap"	=> false];//EXCLAMATION MARK
-
 	public static var comboOffset:Array<Int> = [0, 0, 0, 0];
 	public static var ratingOffset:Float = 0;
 	public static var marvelousWindow:Float = 16;
@@ -177,7 +155,6 @@ class ClientPrefs {
 		FlxG.save.data.comboOffset = comboOffset;
 		FlxG.save.data.achievementMap = achievementMap;
 		FlxG.save.data.goCharacterMap = goCharacterMap;
-		FlxG.save.data.songBothSideClearMap = songBothSideClearMap;
 		FlxG.save.data.ratingOffset = ratingOffset;
 		FlxG.save.data.marvelousWindow = marvelousWindow;
 		FlxG.save.data.sickWindow = sickWindow;
@@ -270,9 +247,6 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.goCharacterMap != null) {
 			goCharacterMap = FlxG.save.data.goCharacterMap;
-		}
-		if(FlxG.save.data.songBothSideClearMap != null) {
-			songBothSideClearMap = FlxG.save.data.songBothSideClearMap;
 		}
 		if(FlxG.save.data.hideHud != null) {
 			hideHud = FlxG.save.data.hideHud;
