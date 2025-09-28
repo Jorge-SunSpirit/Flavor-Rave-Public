@@ -28,6 +28,12 @@ import sys.io.File;
 @:access(openfl.display.BitmapData)
 class Paths
 {
+	#if MOD_REDIRECT
+	public static inline final trail = #if macos '../../../../../../../' #else '../../../../' #end;
+	#end
+
+	public static inline final MODS_DIRECTORY = #if MOD_REDIRECT trail + #end 'mods';
+
 	inline public static var SOUND_EXT = "ogg";
 	inline public static var VIDEO_EXT = "mp4";
 
@@ -154,8 +160,7 @@ class Paths
 
 	inline static function getLibraryPathForce(file:String, library:String)
 	{
-		var returnPath = '$library:assets/$library/$file';
-		return returnPath;
+		return '$library:assets/$library/$file';
 	}
 
 	inline public static function getPreloadPath(file:String = '')
@@ -457,7 +462,7 @@ class Paths
 
 	#if MODS_ALLOWED
 	inline static public function mods(key:String = '') {
-		return 'mods/' + key;
+		return '$MODS_DIRECTORY/' + key;
 	}
 
 	inline static public function modsFont(key:String) {
@@ -510,20 +515,31 @@ class Paths
 		if(modDirString != null && modDirString.length > 0) {
 			var fileToCheck:String = mods(modDirString + '/' + key);
 			if(FileSystem.exists(fileToCheck)) {
-				return fileToCheck;
+				return checkTranslatorMods(fileToCheck, key);
 			}
 		}
 
 		if (modDirString == forceWhichFolder)
 			return null;
 
+		//afterwards find through all global mods
 		for(mod in getGlobalMods()){
 			var fileToCheck:String = mods(mod + '/' + key);
 			if(FileSystem.exists(fileToCheck))
 				return fileToCheck;
 		}
 		
-		return 'mods/' + key;
+		return '$MODS_DIRECTORY/' + key;
+	}
+
+	static public function checkTranslatorMods(fullDir:String, ogKey:String)
+	{
+		for(mod in getTranslationMods()){
+			var fileToCheck:String = mods(mod + '/' + ogKey);
+			if(FileSystem.exists(fileToCheck))
+				return fileToCheck;
+		}
+		return fullDir;
 	}
 
 	public static var globalMods:Array<String> = [];
@@ -555,11 +571,40 @@ class Paths
 		return globalMods;
 	}
 
+	public static var transMods:Array<String> = [];
+
+	static public function getTranslationMods()
+		return transMods;
+
+	static public function pushTranslationMods() // prob a better way to do this but idc
+	{
+		transMods = [];
+		var modsDirectories:Array<String> = Paths.getModDirectories();
+		for (folder in modsDirectories)
+		{
+			var path = Paths.mods(folder + '/pack.json');
+			if(FileSystem.exists(path)) {
+				try{
+					var rawJson:String = File.getContent(path);
+					if(rawJson != null && rawJson.length > 0) {
+						var stuff:Dynamic = Json.parse(rawJson);
+						var isTrans:String = Reflect.getProperty(stuff, "modtype");
+						if(isTrans.toLowerCase().trim() == "translation")transMods.push(folder);
+					}
+				} catch(e:Dynamic){
+					trace(e);
+					transMods.push(folder);
+				}
+			}
+		}
+		return transMods;
+	}
+
 	static public function getModDirectories():Array<String> {
 		var list:Array<String> = [];
 		var modsFolder:String = mods();
 		if(FileSystem.exists(modsFolder)) {
-			for (folder in FileSystem.readDirectory(modsFolder)) {
+			for (folder in CoolUtil.readDirectory(modsFolder)) {
 				var path = haxe.io.Path.join([modsFolder, folder]);
 				if (sys.FileSystem.isDirectory(path) && !ignoreModFolders.contains(folder) && !list.contains(folder)) {
 					list.push(folder);

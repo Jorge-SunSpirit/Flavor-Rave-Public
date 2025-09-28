@@ -1,0 +1,25 @@
+{
+	"song": {
+		"name": "saff",
+		"artist": "Noichi",
+		"charter": "Cerbera",
+		"titleCardStep": 112,
+		"pauseartist": "SkyHighProductions",
+		"pauseArt": "saff",
+		"extraCharacter": [true, true]
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast",
+		"endDialogue": "saturn"
+	},
+	"freeplay": {
+		"characters": ["saff", "flavorrave"],
+		"stage": "greenhouse",
+		"isOnePlayer": false
+	},
+	"control": {
+		"noteChangesHealth": true,
+		"noteChangesStrum": true,
+		"noteChangesRating": true
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"peeps": [
+		{
+			"realName": "saff",
+			"iconName": "saff",
+			"description": "composed by noichi",
+			"color": [58,36,171],
+			"whichrole": "Music"
+		},
+		{
+			"realName": "SUPERFAN",
+			"iconName": "gummy",
+			"description": "Composed by Mochoco",
+			"color": [255,203,112],
+			"whichrole": "Music"
+		},
+		{
+			"realName": "Gummy's Grand Tales",
+			"iconName": "gummy",
+			"description": "\nCutscene Song\nComposed by Mochoco",
+			"color": [255,203,112],
+			"whichrole": "Music"
+		},
+		{
+			"realName": "Gazoogaloo",
+			"iconName": "gaz",
+			"description": "Pause Menu Artist",
+			"color": [255,251,130],
+			"twitter": "https://x.com/slinkyraccoon?s=21",
+			"whichrole": "Guest Artists"
+		},
+		{
+			"realName": "Teethlust",
+			"iconName": "teeth",
+			"description": "Background Artist",
+			"color": [219,2,53],
+			"twitter": "https://x.com/teethlust",
+			"whichrole": "Artists"
+		},
+		{
+			"realName": "Zankow",
+			"iconName": "zankow",
+			"description": "Background Artist, Sprite Artist",
+			"color": [255,82,122],
+			"twitter": "https://x.com/zankow139_2",
+			"whichrole": "Guest Artists"
+		},
+		{
+			"realName": "CeladonVA",
+			"iconName": "celadon",
+			"description": "Voice of Gummy",
+			"color": [85,33,110],
+			"twitter": "https://x.com/Celadon_VA",
+			"whichrole": "Voices"
+		},
+		{
+			"realName": "Lillian Craig",
+			"iconName": "lillian",
+			"description": "Voice of Herbal",
+			"color": [45,110,59],
+			"twitter": "https://www.youtube.com/@lilliancraig4690",
+			"whichrole": "Voices"
+		},
+		{
+			"realName": "Su Ling Chan",
+			"iconName": "suling",
+			"description": "Voice of Saff",
+			"color": [200,143,201],
+			"twitter": "https://x.com/SuChanVA",
+			"whichrole": "Voices"
+		},
+		{
+			"realName": "Dashawn Ricks",
+			"iconName": "dashawn",
+			"description": "Voice of Floral",
+			"color": [63,38,145],
+			"twitter": "https://dashawnricks.carrd.co/",
+			"whichrole": "Voices"
+		}
+	]
+}

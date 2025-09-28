@@ -383,6 +383,5 @@ class GOCharater extends FlxSprite
 
 		goSound = json.goSound[random].sound;
 		goSubtitles = Language.flavor.get("gameover_" + name + '_' + random, json.goSound[random].subtitles);
-		goSubtitles = json.goSound[random].subtitles;
 	}
 }

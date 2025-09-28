@@ -2414,13 +2414,17 @@ class FunkinLua {
 			PlayState.instance.modchartTexts.set(tag, leText);
 		});
 
-		Lua_helper.add_callback(lua, "setTextString", function(tag:String, text:String) {
+		Lua_helper.add_callback(lua, "setTextString", function(tag:String, text:String, ?trans:String = '') {
 			var obj:FlxText = getTextObject(tag);
 			if(obj != null)
 			{
-				obj.text = text;
+				if (trans != null && trans != '')
+					obj.text = Language.flavor.get(trans, text);
+				else
+					obj.text = text;
+
 				return true;
-			}
+			}	
 			luaTrace("setTextString: Object " + tag + " doesn't exist!", false, false, FlxColor.RED);
 			return false;
 		});
@@ -2838,7 +2842,7 @@ class FunkinLua {
 			var list:Array<String> = [];
 			#if sys
 			if(FileSystem.exists(folder)) {
-				for (folder in FileSystem.readDirectory(folder)) {
+				for (folder in CoolUtil.readDirectory(folder)) {
 					if (!list.contains(folder)) {
 						list.push(folder);
 					}

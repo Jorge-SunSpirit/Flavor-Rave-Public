@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="butterfly.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Butterfly instance 10000" x="6" y="6" width="208" height="232"/>
+	<SubTexture name="Butterfly instance 10001" x="6" y="6" width="208" height="232"/>
+	<SubTexture name="Butterfly instance 10002" x="6" y="6" width="208" height="232"/>
+	<SubTexture name="Butterfly instance 10003" x="6" y="6" width="208" height="232"/>
+	<SubTexture name="Butterfly instance 10004" x="6" y="6" width="208" height="232"/>
+	<SubTexture name="Butterfly instance 10005" x="6" y="6" width="208" height="232"/>
+	<SubTexture name="Butterfly instance 10006" x="220" y="6" width="208" height="232"/>
+	<SubTexture name="Butterfly instance 10007" x="220" y="6" width="208" height="232"/>
+	<SubTexture name="Butterfly instance 10008" x="220" y="6" width="208" height="232"/>
+	<SubTexture name="Butterfly instance 10009" x="220" y="6" width="208" height="232"/>
+	<SubTexture name="Butterfly instance 10010" x="220" y="6" width="208" height="232"/>
+	<SubTexture name="Butterfly instance 10011" x="220" y="6" width="208" height="232"/>
+</TextureAtlas>

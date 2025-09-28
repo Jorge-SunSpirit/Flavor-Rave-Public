@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["SUPERFAN"]
+	],
+
+	"weekCharacters": [
+		"Smoky",
+		"Gummy",
+		"Empty",
+		"Empty"
+	],
+	"charaSelect": [
+		"smoky",
+		"gummy"
+	],
+	"weekBackground": "backstreets",
+	"weekType": "Bonus",
+	"storyName": "DLC Chapter",
+	"weekBefore": "dinterlude7",
+	"weekName": "Tea Time Troubles",
+	"location": "Togarashi Backstreets",
+	"startUnlocked": false,
+	"categoryType": "bonus",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

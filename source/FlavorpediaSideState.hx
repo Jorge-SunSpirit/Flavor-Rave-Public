@@ -145,11 +145,12 @@ class FlavorpediaSideState extends MusicBeatState
 				isBeaten = true;
 				#end
 
+
 				if (isBeaten)
 					charaStuff.push([peep.chara, 
-						Language.flavor.get("flavorpediaside_" + peep.name + "_name", peep.name), 
-						Language.flavor.get("flavorpediaside_" + peep.name + "_design", peep.design), 
-						Language.flavor.get("flavorpediaside_" + peep.name + "_desc", peep.desc), 
+						Language.flavor.get("flavorpediaside_" + peep.chara + "_name", peep.name), 
+						Language.flavor.get("flavorpediaside_" + peep.chara + "_design", peep.design), 
+						Language.flavor.get("flavorpediaside_" + peep.chara + "_desc", peep.desc), 
 						peep.place, 
 						peep.songCheck, 
 						peep.link]);
@@ -180,12 +181,13 @@ class FlavorpediaSideState extends MusicBeatState
 						if (!isBeaten) FlxG.log.warn('[FP] ${peep.name} is normally locked, but forcing unlocked due to debug.');
 						isBeaten = true;
 						#end
-		
+
+
 						if (isBeaten)
 							charaStuff.push([peep.chara, 
-							Language.flavor.get("flavorpediaside_" + peep.name + "_name", peep.name), 
-							Language.flavor.get("flavorpediaside_" + peep.name + "_design", peep.design), 
-							Language.flavor.get("flavorpediaside_" + peep.name + "_desc", peep.desc), 
+							Language.flavor.get("flavorpediaside_" + peep.chara + "_name", peep.name), 
+							Language.flavor.get("flavorpediaside_" + peep.chara + "_design", peep.design), 
+							Language.flavor.get("flavorpediaside_" + peep.chara + "_desc", peep.desc), 
 							peep.place, 
 							peep.songCheck, 
 							peep.link]);

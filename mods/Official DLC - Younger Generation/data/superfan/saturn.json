@@ -1,0 +1,179 @@
+{
+	"dialogue": [
+		{
+			"background": "gummy10",
+			"chara": ["gummy", 2, true],
+			"border": "default",
+			"text": "…and there! A special art piece to commemorate this important moment! Look, that’s us!!",
+			"voice": ""
+		},
+		{
+			"background": "gummy10",
+			"chara": ["smoky", 0, true],
+			"text": "I…",
+			"voice": ""
+		},
+		{
+			"background": "gummy10",
+			"chara": ["smoky", 1, true],
+			"sound": ["smoky","grunt"],
+			"text": "(Urgh... I think my head is spinning... I really need some of that tea-)",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["herbal", 0, false],
+			"sound": ["herbal","longtime"],
+			"text": "Ah, Smoky. Fancy running into you out in the backstreets today. I assume you came by to browse my shop, is that correct?",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["smoky", 0, true],
+			"text": "Ah- Indeed, Herbal. I noticed everything was closed in town today.",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["herbal", 0, false],
+			"sound": ["herbal","hmm"],
+			"text": "It's been like this for almost a month now… we've been told that there's a mass renovation in the works, but no word on when they’ll finish.",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["herbal", 0, false],
+			"text": "I miss my little shop dearly… but I am happy to have run into you today. I happen to have your usual tea order on hand.",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["herbal", 0, false],
+			"text": "Consider this a gift for your frequent patronage.",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["smoky", 1, true],
+			"sound": ["smoky","thankyou"],
+			"text": "Heh, thank you. I greatly appreciate it.",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["gummy", 2, true],
+			"text": "Wait, is that Wild Berry tea?",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["gummy", 0, true],
+			"sound": ["gummy","woahthree"],
+			"text": "Ooo, hey hey, ma'am! Do you have any more of that stuff? That’s my mama and papa's favorite, and I'm on a VERY important quest to fetch them some!",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["herbal", 0, false],
+			"sound": ["herbal","laugh"],
+			"text": "Aren't you the sweetest little dewdrop, ahaha~",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["herbal", 0, false],
+			"sound": ["herbal","apologies"],
+			"text": "Alas, that was all I had on hand. My apologies, dear.",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["gummy", 1, true],
+			"text": "No more...? And all the shops are still closed, too…",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["gummy", 1, true],
+			"text": "Shoot… in a shocking twist, Gummy had ffffphhh... weeeghhh... f-failed her quest… Mama and Papa are gonna be s-so sad...",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["smoky", 0, true],
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "gummy7",
+			"chara": ["gummy", 1, true],
+			"text": "What grave consequences await our hero..? Find out next t-time on-",
+			"voice": ""
+		},
+		{
+			"background": "gummy8",
+			"chara": ["smoky", 0, true],
+			"text": "Here, kid. How about we make a trade?",
+			"voice": ""
+		},
+		{
+			"background": "gummy8",
+			"chara": ["gummy", 1, true],
+			"text": "-wehh..?",
+			"voice": ""
+		},
+		{
+			"background": "gummy8",
+			"chara": ["smoky", 0, true],
+			"text": "You let me keep this drawing, and… you take this tea to your parents.",
+			"voice": ""
+		},
+		{
+			"background": "gummy8",
+			"chara": ["smoky", 2, true],
+			"text": "Tell them your 'quest' was a success. Is that fair?",
+			"voice": ""
+		},
+		{
+			"background": "gummy8",
+			"chara": ["gummy", 1, true],
+			"text": "Wrgghhghgh... gwrrrghghh...  *sniffle sniffle*",
+			"voice": ""
+		},
+		{
+			"background": "gummy9",
+			"chara": ["gummy", 1, true],
+			"sound": ["gummy","crys"],
+			"text": "WAAAHHHHGHHHH! Thank you so much!!! *triple sniffle*",
+			"voice": ""
+		},
+		{
+			"background": "gummy9",
+			"chara": ["smoky", 2, true],
+			"sound": ["smoky","chuckle"],
+			"text": "And keep at it with your art, kid. I know you'll make your parents very proud.",
+			"voice": ""
+		},
+		{
+			"background": "gummy9",
+			"chara": ["gummy", 1, true],
+			"text": "This is the best episode ever… Thank you, thanky you!",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["gummy", 0, true],
+			"bgm": "gummytale",
+			"bgmVolume": 0.5,
+			"text": "And so, the day was saved from the generous offerings of the ashen cloud. Our sobby-eyed star, Gummy, sets off on her journey back home.",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["gummy", 2, true],
+			"sound": ["gummy","nexttime"],
+			"text": "What adventures await our hero next? Find out on the next exciting episode of… Gummy's Grand Tales! Cut to credits!",
+			"voice": ""
+		}
+	]
+}

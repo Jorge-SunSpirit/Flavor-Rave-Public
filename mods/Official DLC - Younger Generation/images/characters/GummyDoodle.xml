@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GummyDoodle.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GummyDown instance 10000" x="6" y="6" width="349" height="323" frameX="0" frameY="-25" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10001" x="6" y="6" width="349" height="323" frameX="0" frameY="-25" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10002" x="361" y="6" width="308" height="349" frameX="-20" frameY="0" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10003" x="361" y="6" width="308" height="349" frameX="-20" frameY="0" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10004" x="675" y="6" width="320" height="344" frameX="-12" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10005" x="675" y="6" width="320" height="344" frameX="-12" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10006" x="675" y="6" width="320" height="344" frameX="-12" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10007" x="675" y="6" width="320" height="344" frameX="-12" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10008" x="1001" y="6" width="314" height="344" frameX="-17" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10009" x="1001" y="6" width="314" height="344" frameX="-17" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10010" x="1001" y="6" width="314" height="344" frameX="-17" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10011" x="1001" y="6" width="314" height="344" frameX="-17" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10012" x="675" y="6" width="320" height="344" frameX="-12" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10013" x="675" y="6" width="320" height="344" frameX="-12" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10014" x="675" y="6" width="320" height="344" frameX="-12" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyDown instance 10015" x="675" y="6" width="320" height="344" frameX="-12" frameY="-5" frameWidth="349" frameHeight="349"/>
+	<SubTexture name="GummyIdle instance 10000" x="1321" y="6" width="208" height="386"/>
+	<SubTexture name="GummyIdle instance 10001" x="1321" y="6" width="208" height="386"/>
+	<SubTexture name="GummyIdle instance 10002" x="1321" y="6" width="208" height="386"/>
+	<SubTexture name="GummyIdle instance 10003" x="1321" y="6" width="208" height="386"/>
+	<SubTexture name="GummyIdle instance 10004" x="1535" y="6" width="204" height="380" frameX="-2" frameY="-4" frameWidth="208" frameHeight="386"/>
+	<SubTexture name="GummyIdle instance 10005" x="1535" y="6" width="204" height="380" frameX="-2" frameY="-4" frameWidth="208" frameHeight="386"/>
+	<SubTexture name="GummyIdle instance 10006" x="1535" y="6" width="204" height="380" frameX="-2" frameY="-4" frameWidth="208" frameHeight="386"/>
+	<SubTexture name="GummyIdle instance 10007" x="1535" y="6" width="204" height="380" frameX="-2" frameY="-4" frameWidth="208" frameHeight="386"/>
+	<SubTexture name="GummyLeft instance 10000" x="6" y="398" width="307" height="373" frameX="0" frameY="-1" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10001" x="6" y="398" width="307" height="373" frameX="0" frameY="-1" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10002" x="319" y="398" width="295" height="374" frameX="-26" frameY="-4" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10003" x="319" y="398" width="295" height="374" frameX="-26" frameY="-4" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10004" x="620" y="398" width="288" height="374" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10005" x="620" y="398" width="288" height="374" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10006" x="620" y="398" width="288" height="374" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10007" x="620" y="398" width="288" height="374" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10008" x="914" y="398" width="289" height="378" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10009" x="914" y="398" width="289" height="378" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10010" x="914" y="398" width="289" height="378" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10011" x="914" y="398" width="289" height="378" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10012" x="620" y="398" width="288" height="374" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10013" x="620" y="398" width="288" height="374" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10014" x="620" y="398" width="288" height="374" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyLeft instance 10015" x="620" y="398" width="288" height="374" frameX="-31" frameY="0" frameWidth="321" frameHeight="378"/>
+	<SubTexture name="GummyRight instance 10000" x="1209" y="398" width="373" height="330" frameX="-12" frameY="0" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10001" x="1209" y="398" width="373" height="330" frameX="-12" frameY="0" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10002" x="1588" y="398" width="342" height="311" frameX="-12" frameY="-16" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10003" x="1588" y="398" width="342" height="311" frameX="-12" frameY="-16" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10004" x="6" y="782" width="355" height="327" frameX="0" frameY="-2" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10005" x="6" y="782" width="355" height="327" frameX="0" frameY="-2" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10006" x="6" y="782" width="355" height="327" frameX="0" frameY="-2" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10007" x="6" y="782" width="355" height="327" frameX="0" frameY="-2" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10008" x="367" y="782" width="347" height="324" frameX="-2" frameY="-3" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10009" x="367" y="782" width="347" height="324" frameX="-2" frameY="-3" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10010" x="367" y="782" width="347" height="324" frameX="-2" frameY="-3" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10011" x="367" y="782" width="347" height="324" frameX="-2" frameY="-3" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10012" x="6" y="782" width="355" height="327" frameX="0" frameY="-2" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10013" x="6" y="782" width="355" height="327" frameX="0" frameY="-2" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10014" x="6" y="782" width="355" height="327" frameX="0" frameY="-2" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyRight instance 10015" x="6" y="782" width="355" height="327" frameX="0" frameY="-2" frameWidth="385" frameHeight="330"/>
+	<SubTexture name="GummyUp instance 10000" x="720" y="782" width="208" height="434" frameX="-9" frameY="0" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10001" x="720" y="782" width="208" height="434" frameX="-9" frameY="0" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10002" x="934" y="782" width="221" height="396" frameX="0" frameY="-32" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10003" x="934" y="782" width="221" height="396" frameX="0" frameY="-32" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10004" x="1161" y="782" width="211" height="412" frameX="-6" frameY="-19" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10005" x="1161" y="782" width="211" height="412" frameX="-6" frameY="-19" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10006" x="1161" y="782" width="211" height="412" frameX="-6" frameY="-19" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10007" x="1161" y="782" width="211" height="412" frameX="-6" frameY="-19" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10008" x="1378" y="782" width="212" height="405" frameX="-5" frameY="-23" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10009" x="1378" y="782" width="212" height="405" frameX="-5" frameY="-23" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10010" x="1378" y="782" width="212" height="405" frameX="-5" frameY="-23" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10011" x="1378" y="782" width="212" height="405" frameX="-5" frameY="-23" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10012" x="1161" y="782" width="211" height="412" frameX="-6" frameY="-19" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10013" x="1161" y="782" width="211" height="412" frameX="-6" frameY="-19" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10014" x="1161" y="782" width="211" height="412" frameX="-6" frameY="-19" frameWidth="221" frameHeight="434"/>
+	<SubTexture name="GummyUp instance 10015" x="1161" y="782" width="211" height="412" frameX="-6" frameY="-19" frameWidth="221" frameHeight="434"/>
+</TextureAtlas>

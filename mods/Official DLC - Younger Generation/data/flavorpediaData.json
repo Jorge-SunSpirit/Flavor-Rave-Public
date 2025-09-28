@@ -1,0 +1,25 @@
+{
+	"character":
+	[
+		{
+			"chara": "saff",
+			"flavorText": "One of the few kids living within The Preheats. Saff, short for Saffron, is the 11-year-old daughter of the town's green thumb, Floral. Saff grew up without a mother and would often be babysat by the various Preheats residents, though most had trouble figuring her out. Sweet was her most frequent babysitter, as Saff had the strongest attachment to her, an attachment that is still strong to this day.\n\nSaff's biggest interest is art, and she considers herself a stern critic in all aspects of the form. She can be very creatively rude with her comments and critiques, getting major reactions out of people. She also has a habit of wandering wherever she feels like, ending up in random places unsupervised.",
+			"tag": "saff",
+			"bgs": "saff",
+			"songCheck": "saff",
+			"voicelines": ["1"],
+			"subtitles": "Uhh, who wrote this?:dur:1.71[NL]It's so loooooooong and borrrrrring!:dur:3.301[NL]You could've paid me to make this menu worth looking at.:dur:3.020"
+			
+		},
+		{
+			"chara": "gummy",
+			"flavorText": "A hyperactive 10-year-old kid living in New Togarashi. Gummy’s parents are both animators for a prolific anime studio in the city, and that love of art and animation was deeply instilled in Gummy as she grew up. She aspires to be the world’s greatest storyteller, spending all her time making stories and drawing just about everything and everyone she sees.\n\nGummy turns her daily life into an adventure, recording herself on a hand-me-down camera and narrating over it in a series she calls `Gummy’s Grand Tales’. She keeps a large collection of each episode she’s recorded in hopes to publish it as a slice-of-life series and pave the way to becoming a showrunner of her own anime series at the studio her parents work at.",
+			"tag": "gummy",
+			"bgs": "gummy",
+			"songCheck": "SUPERFAN",
+			"voicelines": ["1"],
+			"subtitles": "Oooooh, hey! Welcome to my page!!!:dur:3.12[NL]So, like, I wanna tell you about everything about what I like.:dur:3.03[NL]My favorite foods,:dur:1.021[NL]my favorite animes to watch,:dur:0.923[NL]my favorite colors,:dur:0.728[NL]my favorite things to draw,:dur:1.053[NL]my favorite animes to watch-:dur:0.988[NL]Ooh! And! And!:dur:1.26[NL]I can tell you about the new hit slice-of-life show I'm working on, starring me!:dur:3.573[NL]It's called 'Gummy's Grand Tales', and I-:dur:2.813"
+			
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"achievements": [
+		{
+			"name": "saff-FC",
+			"fancyName": "saff's achievement",
+			"unlockCondition": "achieve a full combo on saff",
+			"showmanDialogue": "That little girl in the purple hat is an enigma! My showroom has top of the line security, and somehow she managed to sneak on stage! That's due for a lifetime ban! And yet, she disappeared just as soon as she arrived. Kids these days...",
+			"hidden": false,
+			"showmanEmote": "mad",
+			"icon": "default"
+		},
+		{
+			"name": "SUPERFAN-FC",
+			"fancyName": "The Rainbow Connection",
+			"unlockCondition": "Achieve a Full Combo on SUPERFAN",
+			"showmanDialogue": "The tea shops in Togarashi's Backstreets are quite lovely. I'd pay patronage to them more often, but they tend to be a little... small for me. Perhaps those mass renovations will fix that particular issue right up?",
+			"hidden": false,
+			"showmanEmote": "think",
+			"icon": "default"
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SickSourIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				-1
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SickSourLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-9
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SickSourDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				9
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SickSourUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-12
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SickSourRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SourSeasickSing",
+	"position": [
+		-85,
+		240
+	],
+	"healthicon": "sour",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		235,
+		169
+	],
+	"camera_position": [
+		-270,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 0.95,
+	"noteskin": "Sour",
+	"healthbar_image": "sour",
+	"musicNoteOffset": [0,-200]
+}

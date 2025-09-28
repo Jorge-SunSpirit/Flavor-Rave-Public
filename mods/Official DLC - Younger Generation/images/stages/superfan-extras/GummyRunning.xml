@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GummyRunning.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FASTER instance 10000" x="6" y="6" width="569" height="572" frameX="0" frameY="-1" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10001" x="6" y="6" width="569" height="572" frameX="0" frameY="-1" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10002" x="581" y="6" width="547" height="570" frameX="-20" frameY="0" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10003" x="581" y="6" width="547" height="570" frameX="-20" frameY="0" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10004" x="1134" y="6" width="587" height="569" frameX="-11" frameY="-5" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10005" x="1134" y="6" width="587" height="569" frameX="-11" frameY="-5" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10006" x="6" y="584" width="566" height="569" frameX="-26" frameY="-8" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10007" x="6" y="584" width="566" height="569" frameX="-26" frameY="-8" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10008" x="6" y="6" width="569" height="572" frameX="0" frameY="-1" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10009" x="6" y="6" width="569" height="572" frameX="0" frameY="-1" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10010" x="581" y="6" width="547" height="570" frameX="-20" frameY="0" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10011" x="581" y="6" width="547" height="570" frameX="-20" frameY="0" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10012" x="1134" y="6" width="587" height="569" frameX="-11" frameY="-5" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10013" x="1134" y="6" width="587" height="569" frameX="-11" frameY="-5" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10014" x="6" y="584" width="566" height="569" frameX="-26" frameY="-8" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="FASTER instance 10015" x="6" y="584" width="566" height="569" frameX="-26" frameY="-8" frameWidth="598" frameHeight="577"/>
+	<SubTexture name="GummyRun instance 10000" x="578" y="584" width="559" height="572" frameX="-6" frameY="-1" frameWidth="594" frameHeight="577"/>
+	<SubTexture name="GummyRun instance 10001" x="578" y="584" width="559" height="572" frameX="-6" frameY="-1" frameWidth="594" frameHeight="577"/>
+	<SubTexture name="GummyRun instance 10002" x="1143" y="584" width="552" height="570" frameX="-11" frameY="0" frameWidth="594" frameHeight="577"/>
+	<SubTexture name="GummyRun instance 10003" x="1143" y="584" width="552" height="570" frameX="-11" frameY="0" frameWidth="594" frameHeight="577"/>
+	<SubTexture name="GummyRun instance 10004" x="6" y="1162" width="581" height="569" frameX="-13" frameY="-5" frameWidth="594" frameHeight="577"/>
+	<SubTexture name="GummyRun instance 10005" x="6" y="1162" width="581" height="569" frameX="-13" frameY="-5" frameWidth="594" frameHeight="577"/>
+	<SubTexture name="GummyRun instance 10006" x="593" y="1162" width="588" height="569" frameX="0" frameY="-8" frameWidth="594" frameHeight="577"/>
+	<SubTexture name="GummyRun instance 10007" x="593" y="1162" width="588" height="569" frameX="0" frameY="-8" frameWidth="594" frameHeight="577"/>
+</TextureAtlas>

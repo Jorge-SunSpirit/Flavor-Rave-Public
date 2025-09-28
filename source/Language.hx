@@ -87,7 +87,7 @@ class LanguageData
 	inline private function formatKey(key:String)
 	{
 		var invalidChars = ~/[~&\\;:<>#]/;
-		var hideChars = ~/[.,'"%?!]/;
+		var hideChars = ~/[.,'"%?!¡]/;
 
 		var key = invalidChars.split(key.replace(' ', '_')).join('');
 		key = hideChars.split(key).join("").toLowerCase().trim().replace(':', '');

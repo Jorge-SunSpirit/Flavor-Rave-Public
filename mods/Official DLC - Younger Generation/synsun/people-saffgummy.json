@@ -1,0 +1,232 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "Today's one of my favorite events of the month! It's Fanart Showcase day!",
+			"sound" : "yeahyeah",
+			"animation": "determined",
+			"chara": "sun"
+		},
+		{
+			"text": "I love and cherish every piece of fanwork we get, and I wanna spotlight the amazing viewers who make these amazing things for us!",
+			"chara": "sun"
+		},
+		{
+			"text": "Today's fanart comes from two lil’ youngsters. Gummy, Age 10, from New Togarashi, and… this handwriting is harder to read…",
+			"tvArt" : "saffgummy",
+			"chara": "syn"
+		},
+		{
+			"text": "Saff..? I think that's correct… Age 11, from… The Preheats? Huh, wasn't expecting anyone to know us from over there.",
+			"sound" : "hmm",
+			"animation": "confused",
+			"chara": "syn"
+		},
+		{
+			"text": "I've been gushing about this one all day. Genuinely the cutest art I've been gifted ever. I even framed it and put it up in my bedroom, eheh.",
+			"sound" : "giggle",
+			"animation": "happy",
+			"chara": "sun"
+		},
+		{
+			"text": "To show our appreciation, I’m so happy to welcome both Gummy and Saff to the stream today! Syn, would you do the honors of reading their chat messages?",
+			"animation": "reset",
+			"chara": "sun"
+		},
+		{
+			"text": "Saff, Gummy, you're now live on my chatbot system! Welcome to the SynSun stream!",
+			"sound" : "live",
+			"animation": "happy",
+			"chara": "syn"
+		},
+		{
+			"text": "GUMMY: Im on the stream! Hi Mama! Hi Papa! Hi Sunny! Hi Syn-Syn! Hi hi internet peoples!!!",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "saff: hi",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "Hi! Awwh, I love the energy! So, you two, how did you learn about our stream?",
+			"sound" : "hi",
+			"chara": "sun"
+		},
+		{
+			"text": "GUMMY: So like I was coming home from school 1 day and Mama and Papa had the BIGGEST smiley faces ever!",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "GUMMY: I was like 'whats going on?' and they were like 'we just got back from this amazing concert!' and I was like ‘ooooo tell me more!’ so they were like ‘of course sweetie wheel tell you all about it!’ and then",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "Uhh… maybe cut to the chase a little bit, kid? This section of the stream ain't meant to take very long",
+			"sound" : "hmm",
+			"animation": "sad",
+			"chara": "syn"
+		},
+		{
+			"text": "GUMMY: Right right! No filler/flashbacks just action! Got it!",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "GUMMY: I wanted to hear more about those kool musicians that do all the crazy anime power stuff but Mama and Papa dont let me on a lot of websites but they found this one and said it was perfect 4 me!!!",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "GUMMY: And they were right!!! I watch the stream every day after school and Papa reads all the blogs to me when him and Mama come home from work! Everything I learn gives me so much inspiration 4 my art and comics!",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "Gosh, you're gonna make me teary-eyed, Gummy. That is so sweet!",
+			"sound" : "laugh",
+			"animation": "excited",
+			"chara": "sun"
+		},
+		{
+			"text": "Tell your parents how much I appreciate their approval. I try my best to keep this stream and all my blogs accessible for all ages.",
+			"chara": "sun"
+		},
+		{
+			"text": "Heh, We're happy to be of service! Now, what about you, Saff?",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "saff: huh",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "We're asking you the same question now. How did you learn about our stream?",
+			"animation": "reset",
+			"chara": "syn"
+		},
+		{
+			"text": "saff: i dont watch this show",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "You… don't? Didn't you help Gummy make the fanart, though?",
+			"sound" : "wha",
+			"animation": "think",
+			"chara": "sun"
+		},
+		{
+			"text": "saff: do we win a prize",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "…no? This is just a fanart showcase. Fanart is just for fun, eheh.",
+			"chara": "sun"
+		},
+		{
+			"text": "GUMMY: IT WAS SO MUCH FUN!!!1",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "saff: oh",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "saff: whatevr",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "Wait… says here that you're from The Preheats, kid. How'd you get all the way over to New Togarashi from there to help make that art?",
+			"sound" : "what",
+			"animation": "upset",
+			"chara": "syn"
+		},
+		{
+			"text": "saff: walked",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "But… There's an entire ocean between Togarashi Town and The Preheats. I know Sweet has said in interviews before that getting from The Preheats to Enzync tends to be a struggle sometimes, too…",
+			"chara": "sun"
+		},
+		{
+			"text": "saff: sweet",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "saff: is she there",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "saff: put sweet on",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "Ahah, sorry, Sweet isn't here, as much as I'd love to have her in the studio for a live interview. Maybe one day...",
+			"sound" : "eeh",
+			"animation": "nervous",
+			"chara": "sun"
+		},
+		{
+			"text": "saff: meh",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "Well, uhh… I think that wraps up this little segment. Thank you for joining us today, you two. Keep shining, and thank you so much for the art!",
+			"animation": "happy",
+			"chara": "sun"
+		},
+		{
+			"text": "GUMMY: YEAH!!! EVERYONE LOOK OUT 4 THE RELEASE OF MY AWESOME SLICE OF LIFE SERIES GUMMYS GRAND TALES COMING SOON TO-",
+			"animation": "search",
+			"chara": "syn"
+		},
+		{
+			"text": "< CHATBOT SYSTEM DISABLED >",
+			"sound" : "beepboop",
+			"animation": "quiet",
+			"chara": "syn"
+		},
+		{
+			"text": "[Psst… no offense to them, but... not sure if I want to try interviewing kids again.]",
+			"sound" : "psst",
+			"chara": "syn"
+		},
+		{
+			"text": "[Hey, they were very nice though.]",
+			"animation": "nervous",
+			"chara": "sun"
+		},
+		{
+			"text": "[Even that Saff kid?]",
+			"animation": "confused",
+			"chara": "syn"
+		},
+		{
+			"text": "[Umm… she’s a little strange… but…]",
+			"sound" : "hmm",
+			"animation": "exhale",
+			"chara": "sun"
+		},
+		{
+			"text": "Eheh, anyways, onto the next segment of our stream!",
+			"animation": "happy",
+			"chara": "sun"
+		}
+	]
+}

@@ -1,0 +1,561 @@
+{
+	"song": {
+		"events": [
+			[
+				1951.21951219512,
+				[
+					[
+						"Note Camera Movement",
+						"12",
+						""
+					]
+				]
+			],
+			[
+				18658.5365853659,
+				[
+					[
+						"Change Camera Zoom",
+						"1.2",
+						"true"
+					],
+					[
+						"Set Camera Speed",
+						"999",
+						""
+					]
+				]
+			],
+			[
+				20856.7329370773,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				22201.2707522033,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				22873.5396597664,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				23545.8085673294,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				23881.9430211109,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				24218.0774748924,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				24554.2119286739,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				24890.3463824554,
+				[
+					[
+						"Add Camera Zoom",
+						"0.017",
+						"0.02"
+					],
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"0.7"
+					]
+				]
+			],
+			[
+				24974.3799959008,
+				[
+					[
+						"Set Camera Speed",
+						"",
+						""
+					],
+					[
+						"Change Camera Zoom",
+						"0.7",
+						"1"
+					]
+				]
+			],
+			[
+				35646.6489034638,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"1"
+					]
+				]
+			],
+			[
+				46402.9514244723,
+				[
+					[
+						"Call on Luas",
+						"funnycam",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"1",
+						"true"
+					],
+					[
+						"Change Camera Bump frequency",
+						"6",
+						"1"
+					]
+				]
+			],
+			[
+				49092.0270547244,
+				[
+					[
+						"Call on Luas",
+						"funnycam",
+						"3"
+					]
+				]
+			],
+			[
+				51781.1026849765,
+				[
+					[
+						"Call on Luas",
+						"funnycam",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"1.1",
+						"true"
+					]
+				]
+			],
+			[
+				52285.3043656487,
+				[
+					[
+						"Call on Luas",
+						"funnycam",
+						"2"
+					]
+				]
+			],
+			[
+				53125.6405001025,
+				[
+					[
+						"Call on Luas",
+						"funnycam",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"1.2",
+						"true"
+					]
+				]
+			],
+			[
+				53629.8421807748,
+				[
+					[
+						"Call on Luas",
+						"funnycam",
+						"3"
+					]
+				]
+			],
+			[
+				54470.1783152286,
+				[
+					[
+						"Play Animation",
+						"gone",
+						"dad"
+					],
+					[
+						"Call on Luas",
+						"funnycam",
+						"1"
+					],
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"true"
+					]
+				]
+			],
+			[
+				55478.5816765731,
+				[
+					[
+						"Change Camera Zoom",
+						"0.7",
+						"0.3"
+					],
+					[
+						"Call on Luas",
+						"funnycam",
+						"4"
+					]
+				]
+			],
+			[
+				78671.8589874975,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"0.8"
+					]
+				]
+			],
+			[
+				89428.1615085059,
+				[
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.6"
+					]
+				]
+			],
+			[
+				92117.237138758,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.6"
+					]
+				]
+			],
+			[
+				94806.3127690101,
+				[
+					[
+						"Change Camera Zoom",
+						"1.1",
+						"0.6"
+					]
+				]
+			],
+			[
+				97327.3211723715,
+				[
+					[
+						"Play Animation",
+						"gone",
+						"dad"
+					]
+				]
+			],
+			[
+				97495.3883992622,
+				[
+					[
+						"Change Camera Zoom",
+						"0.95",
+						"0.8"
+					]
+				]
+			],
+			[
+				98839.9262143883,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				100184.464029514,
+				[
+					[
+						"Note Camera Movement",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				102873.539659766,
+				[
+					[
+						"Note Camera Movement",
+						"10",
+						""
+					]
+				]
+			],
+			[
+				110940.766550523,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				121697.069071531,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				140520.598483296,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				141865.136298422,
+				[
+					[
+						"Play Animation",
+						"gone",
+						"dad"
+					]
+				]
+			],
+			[
+				143209.674113548,
+				[
+					[
+						"Screen Flash",
+						"0.8",
+						"yellow"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				153965.976634556,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"1.1",
+						"0.8"
+					]
+				]
+			],
+			[
+				164722.279155564,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				196627.562292182,
+				[
+					[
+						"Play Animation",
+						"gone",
+						"dad"
+					],
+					[
+						"Call on Luas",
+						"funnycam",
+						"5"
+					]
+				]
+			],
+			[
+				197972.100107308,
+				[
+					[
+						"Screen Flash",
+						"0.4",
+						"cyan"
+					]
+				]
+			],
+			[
+				203350.251367812,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					]
+				]
+			],
+			[
+				206039.326998064,
+				[
+					[
+						"Change Camera Bump frequency",
+						"2",
+						"0.7"
+					]
+				]
+			],
+			[
+				207383.86481319,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				208728.402628317,
+				[
+					[
+						"Screen Flash",
+						"0.8",
+						"cyan"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				230241.007670333,
+				[
+					[
+						"Screen Flash",
+						"0.4",
+						"purple"
+					]
+				]
+			],
+			[
+				230241.007670333,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				232930.083300585,
+				[
+					[
+						"Screen Flash",
+						"0.4",
+						"purple"
+					]
+				]
+			],
+			[
+				235619.158930837,
+				[
+					[
+						"Screen Flash",
+						"0.4",
+						"purple"
+					]
+				]
+			],
+			[
+				238308.234561089,
+				[
+					[
+						"Screen Flash",
+						"0.4",
+						"purple"
+					]
+				]
+			],
+			[
+				240997.310191341,
+				[
+					[
+						"Screen Flash",
+						"0.7",
+						"green"
+					]
+				]
+			]
+		]
+	}
+}

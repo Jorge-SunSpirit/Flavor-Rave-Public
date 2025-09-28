@@ -1,0 +1,22 @@
+{
+	"song": {
+		"name": "SUPERFAN",
+		"artist": "Mochoco",
+		"charter": "Cerbera",
+		"titleCardStep": 64,
+		"pauseartist": "Gazoogaloo",
+		"pauseArt": "gummy"
+	},
+	"dialogue": {
+		"introDialogue": "dreamcast",
+		"endDialogue": "saturn"
+	},
+	"freeplay": {
+		"characters": ["gummy", "smoky"],
+		"stage": "backstreets",
+		"isOnePlayer": false
+	},
+	"control": {
+		"happyEnding": true
+	}
+}

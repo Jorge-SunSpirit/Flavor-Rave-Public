@@ -154,17 +154,26 @@ class ResultsScreenSubState extends MusicBeatSubstate
 		#end
 		var json:Dioson = cast Json.parse(rawJson);
 		var dioArray:Array<TheDialogue> = json.dialogue;
-		var theArrayofAllTime:Array<TheDialogue> = [];
+		var imMadName:String = 'man';
+		var imMadBox:String = 'box';
 
 		for (dialogue in dioArray) 
 		{
-			if (dialogue.rank == rankingLetter)
-				theArrayofAllTime.push(dialogue);
-		}
-
-		if (theArrayofAllTime[0] == null)
-		{
-			theArrayofAllTime.push(dioArray[0]);
+			switch (resultType)
+			{
+				case 'fakeout':
+					if (dialogue.rank == "A")
+					{
+						imMadName = dialogue.name;
+						imMadBox = dialogue.boxSprite;
+					}
+				default:
+					if (dialogue.rank == rankingLetter)
+					{
+						imMadName = dialogue.name;
+						imMadBox = dialogue.boxSprite;
+					}
+			}
 		}
 
 		charaSprite = new FlxSprite(FlxG.width, -34).loadGraphic(Paths.image('results/character/${chara1}/render'));
@@ -179,13 +188,12 @@ class ResultsScreenSubState extends MusicBeatSubstate
 		charaSprite2.updateHitbox();
 		add(charaSprite2);
 
-		var rand:Int = FlxG.random.int(0, theArrayofAllTime.length - 1);
-		dialoguebox = new FlxSprite(0, 456).loadGraphic(Paths.image('results/character/${thingie}/${theArrayofAllTime[rand].boxSprite}'));
+		dialoguebox = new FlxSprite(0, 456).loadGraphic(Paths.image('results/character/${thingie}/${imMadBox}'));
 		dialoguebox.antialiasing = ClientPrefs.globalAntialiasing;
 		dialoguebox.alpha = 0.001;
 		add(dialoguebox);
 
-		dialogueText = new LanguageTypeText(62.8, 570, 713, theArrayofAllTime[rand].name, 24, 'krungthep');
+		dialogueText = new LanguageTypeText(62.8, 570, 713, Language.flavor.get("results_" + thingie + "_" + rankingLetter, imMadName), 24, 'krungthep');
 		dialogueText.setBorderStyle(OUTLINE, FlxColor.BLACK, 1.25);
 		dialogueText.alpha = 0.001;
 		add(dialogueText);
@@ -221,7 +229,7 @@ class ResultsScreenSubState extends MusicBeatSubstate
 		
 		rank = new FlxSprite(878, 79).loadGraphic(Paths.image('results/Score${rankingLetter}'));
 		rank.antialiasing = ClientPrefs.globalAntialiasing;
-		rank.scale.set(0.001,0.001);
+		rank.scale.set(0.0001,0.0001);
 		add(rank);
 
 		if (!ClientPrefs.lowQuality)
@@ -332,19 +340,6 @@ class ResultsScreenSubState extends MusicBeatSubstate
 
 						FlxTween.tween(dialoguebox, {alpha: 1}, 0.5, {ease: FlxEase.expoOut, startDelay: 2.75, onComplete: function(twn:FlxTween)
 						{
-							theArrayofAllTime = [];
-							for (dialogue in dioArray) 
-							{
-								if (dialogue.rank == 'A')
-									theArrayofAllTime.push(dialogue);
-							}
-					
-							if (theArrayofAllTime[0] == null)
-							{
-								theArrayofAllTime.push(dioArray[0]);
-							}
-
-							dialogueText.resetText(theArrayofAllTime[rand].name);
 							dialogueText.alpha = 1;
 							dialogueText.start(0.04, true);
 						}});

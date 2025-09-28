@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PaintTransition.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PaintTransition0000" x="6" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0001" x="6" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0002" x="6" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0003" x="6" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0004" x="6" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0005" x="6" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0006" x="6" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0007" x="6" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0008" x="1292" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0009" x="1292" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0010" x="1292" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0011" x="1292" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0012" x="1292" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0013" x="1292" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0014" x="1292" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0015" x="1292" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0016" x="2578" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0017" x="2578" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0018" x="2578" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0019" x="2578" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0020" x="2578" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0021" x="2578" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0022" x="2578" y="6" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0023" x="6" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0024" x="6" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0025" x="6" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0026" x="6" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0027" x="6" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0028" x="6" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0029" x="6" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0030" x="1292" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0031" x="1292" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0032" x="1292" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0033" x="1292" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0034" x="1292" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0035" x="2578" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0036" x="2578" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0037" x="2578" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0038" x="2578" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0039" x="2578" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0040" x="2578" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0041" x="2578" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0042" x="2578" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0043" x="2578" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0044" x="2578" y="732" width="1280" height="720"/>
+	<SubTexture name="PaintTransition0045" x="2578" y="732" width="1280" height="720"/>
+</TextureAtlas>

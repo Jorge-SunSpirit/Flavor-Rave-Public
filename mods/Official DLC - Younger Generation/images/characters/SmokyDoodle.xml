@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SmokyDoodle.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SmokyDown instance 10000" x="6" y="6" width="352" height="402" frameX="0" frameY="-28" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10001" x="6" y="6" width="352" height="402" frameX="0" frameY="-28" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10002" x="364" y="6" width="319" height="433" frameX="-9" frameY="0" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10003" x="364" y="6" width="319" height="433" frameX="-9" frameY="0" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10004" x="689" y="6" width="320" height="421" frameX="-10" frameY="-10" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10005" x="689" y="6" width="320" height="421" frameX="-10" frameY="-10" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10006" x="689" y="6" width="320" height="421" frameX="-10" frameY="-10" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10007" x="689" y="6" width="320" height="421" frameX="-10" frameY="-10" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10008" x="1015" y="6" width="323" height="426" frameX="-7" frameY="-7" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10009" x="1015" y="6" width="323" height="426" frameX="-7" frameY="-7" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10010" x="1015" y="6" width="323" height="426" frameX="-7" frameY="-7" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10011" x="1015" y="6" width="323" height="426" frameX="-7" frameY="-7" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10012" x="689" y="6" width="320" height="421" frameX="-10" frameY="-10" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10013" x="689" y="6" width="320" height="421" frameX="-10" frameY="-10" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10014" x="689" y="6" width="320" height="421" frameX="-10" frameY="-10" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyDown instance 10015" x="689" y="6" width="320" height="421" frameX="-10" frameY="-10" frameWidth="352" frameHeight="433"/>
+	<SubTexture name="SmokyIdle instance 10000" x="1344" y="6" width="245" height="466" frameX="0" frameY="0" frameWidth="247" frameHeight="469"/>
+	<SubTexture name="SmokyIdle instance 10001" x="1344" y="6" width="245" height="466" frameX="0" frameY="0" frameWidth="247" frameHeight="469"/>
+	<SubTexture name="SmokyIdle instance 10002" x="1344" y="6" width="245" height="466" frameX="0" frameY="0" frameWidth="247" frameHeight="469"/>
+	<SubTexture name="SmokyIdle instance 10003" x="1344" y="6" width="245" height="466" frameX="0" frameY="0" frameWidth="247" frameHeight="469"/>
+	<SubTexture name="SmokyIdle instance 10004" x="1595" y="6" width="247" height="469"/>
+	<SubTexture name="SmokyIdle instance 10005" x="1595" y="6" width="247" height="469"/>
+	<SubTexture name="SmokyIdle instance 10006" x="1595" y="6" width="247" height="469"/>
+	<SubTexture name="SmokyIdle instance 10007" x="1595" y="6" width="247" height="469"/>
+	<SubTexture name="SmokyLeft instance 10000" x="6" y="481" width="341" height="441" frameX="0" frameY="-3" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10001" x="6" y="481" width="341" height="441" frameX="0" frameY="-3" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10002" x="353" y="481" width="322" height="440" frameX="-23" frameY="-6" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10003" x="353" y="481" width="322" height="440" frameX="-23" frameY="-6" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10004" x="681" y="481" width="311" height="445" frameX="-33" frameY="-1" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10005" x="681" y="481" width="311" height="445" frameX="-33" frameY="-1" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10006" x="681" y="481" width="311" height="445" frameX="-33" frameY="-1" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10007" x="681" y="481" width="311" height="445" frameX="-33" frameY="-1" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10008" x="998" y="481" width="314" height="446" frameX="-31" frameY="0" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10009" x="998" y="481" width="314" height="446" frameX="-31" frameY="0" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10010" x="998" y="481" width="314" height="446" frameX="-31" frameY="0" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10011" x="998" y="481" width="314" height="446" frameX="-31" frameY="0" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10012" x="681" y="481" width="311" height="445" frameX="-33" frameY="-1" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10013" x="681" y="481" width="311" height="445" frameX="-33" frameY="-1" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10014" x="681" y="481" width="311" height="445" frameX="-33" frameY="-1" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyLeft instance 10015" x="681" y="481" width="311" height="445" frameX="-33" frameY="-1" frameWidth="345" frameHeight="446"/>
+	<SubTexture name="SmokyRight instance 10000" x="1318" y="481" width="326" height="463" frameX="-8" frameY="0" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10001" x="1318" y="481" width="326" height="463" frameX="-8" frameY="0" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10002" x="1650" y="481" width="306" height="451" frameX="0" frameY="-12" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10003" x="1650" y="481" width="306" height="451" frameX="0" frameY="-12" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10004" x="6" y="950" width="301" height="455" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10005" x="6" y="950" width="301" height="455" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10006" x="6" y="950" width="301" height="455" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10007" x="6" y="950" width="301" height="455" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10008" x="313" y="950" width="302" height="456" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10009" x="313" y="950" width="302" height="456" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10010" x="313" y="950" width="302" height="456" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10011" x="313" y="950" width="302" height="456" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10012" x="6" y="950" width="301" height="455" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10013" x="6" y="950" width="301" height="455" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10014" x="6" y="950" width="301" height="455" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyRight instance 10015" x="6" y="950" width="301" height="455" frameX="0" frameY="-7" frameWidth="334" frameHeight="463"/>
+	<SubTexture name="SmokyUp instance 10000" x="621" y="950" width="241" height="547" frameX="-12" frameY="0" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10001" x="621" y="950" width="241" height="547" frameX="-12" frameY="0" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10002" x="868" y="950" width="268" height="514" frameX="0" frameY="-34" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10003" x="868" y="950" width="268" height="514" frameX="0" frameY="-34" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10004" x="1142" y="950" width="249" height="518" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10005" x="1142" y="950" width="249" height="518" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10006" x="1142" y="950" width="249" height="518" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10007" x="1142" y="950" width="249" height="518" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10008" x="1397" y="950" width="256" height="521" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10009" x="1397" y="950" width="256" height="521" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10010" x="1397" y="950" width="256" height="521" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10011" x="1397" y="950" width="256" height="521" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10012" x="1142" y="950" width="249" height="518" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10013" x="1142" y="950" width="249" height="518" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10014" x="1142" y="950" width="249" height="518" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+	<SubTexture name="SmokyUp instance 10015" x="1142" y="950" width="249" height="518" frameX="-6" frameY="-27" frameWidth="268" frameHeight="548"/>
+</TextureAtlas>

@@ -707,7 +707,7 @@ class PlayState extends MusicBeatState
 		{
 			if(FileSystem.exists(folder))
 			{
-				for (file in FileSystem.readDirectory(folder))
+				for (file in CoolUtil.readDirectory(folder))
 				{
 					if(file.endsWith('.lua') && !filesPushed.contains(file))
 					{
@@ -1001,7 +1001,7 @@ class PlayState extends MusicBeatState
 		{
 			if(FileSystem.exists(folder))
 			{
-				for (file in FileSystem.readDirectory(folder))
+				for (file in CoolUtil.readDirectory(folder))
 				{
 					if(file.endsWith('.lua') && !filesPushed.contains(file))
 					{
@@ -2739,16 +2739,6 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
-		#if SONG_ROLLBACK
-		if (ClientPrefs.songRollback && FlxG.sound.music.playing && elapsed >= FlxG.maxElapsed)
-		{
-			FlxG.log.add('Game stalled for 1/10 of a second or more, rolling back');
-			resyncVocals(Conductor.songPosition);
-			elapsed = 0;
-			return;
-		}
-		#end
-
 		callOnLuas('onUpdate', [elapsed]);
 
 		if (!endingSong)
@@ -4110,6 +4100,7 @@ class PlayState extends MusicBeatState
 
 		updateTime = false;
 		FlxG.sound.music.volume = 0;
+		FlxG.sound.music.pause();
 		for (vocal in vocalTracks)
 		{
 			vocal.volume = 0;
@@ -5415,6 +5406,8 @@ class PlayState extends MusicBeatState
 	}
 
 	public static function cancelMusicFadeTween() {
+		if(FlxG.sound.music == null) return;
+
 		if(FlxG.sound.music.fadeTween != null) {
 			FlxG.sound.music.fadeTween.cancel();
 		}

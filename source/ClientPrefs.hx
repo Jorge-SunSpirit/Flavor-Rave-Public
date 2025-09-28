@@ -47,10 +47,6 @@ class ClientPrefs {
 	public static var checkForUpdates:Bool = true;
 	public static var watermarks:Bool = false;
 	public static var subtitles:Bool = true;
-	public static var fullscreen:Bool = false;
-	#if SONG_ROLLBACK
-	public static var songRollback:Bool = false;
-	#end
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
 		'scrolltype' => 'multiplicative', 
@@ -124,9 +120,6 @@ class ClientPrefs {
 		FlxG.save.data.opponentStrums = opponentStrums;
 		FlxG.save.data.watermarks = watermarks;
 		FlxG.save.data.subtitles = subtitles;
-		#if SONG_ROLLBACK
-		FlxG.save.data.songRollback = songRollback;
-		#end
 		FlxG.save.data.showFPS = showFPS;
 		FlxG.save.data.showMemory = showMemory;
 		FlxG.save.data.showPeak = showPeak;
@@ -170,7 +163,6 @@ class ClientPrefs {
 		FlxG.save.data.checkForUpdates = checkForUpdates;
 		FlxG.save.data.pastOGWeek = pastOGWeek;
 		FlxG.save.data.announcer = announcer;
-		FlxG.save.data.fullscreen = fullscreen;
 		FlxG.save.flush();
 
 		var save:FlxSave = new FlxSave();
@@ -320,10 +312,6 @@ class ClientPrefs {
 		if(FlxG.save.data.menuMouse != null) {
 			menuMouse = FlxG.save.data.menuMouse;
 		}
-		if(FlxG.save.data.fullscreen != null) {
-			fullscreen = FlxG.save.data.fullscreen;
-			FlxG.fullscreen = fullscreen;
-		}
 		if(FlxG.save.data.mainmenuMusic != null) {
 			if(Paths.fileExists('music/${mainmenuMusic}.ogg', MUSIC))
 				mainmenuMusic = FlxG.save.data.mainmenuMusic;
@@ -363,11 +351,6 @@ class ClientPrefs {
 		if(FlxG.save.data.announcer != null) {
 			announcer = FlxG.save.data.announcer;
 		}
-		#if SONG_ROLLBACK
-		if(FlxG.save.data.songRollback != null) {
-			songRollback = FlxG.save.data.songRollback;
-		}
-		#end
 		var save:FlxSave = new FlxSave();
 		save.bind('controls_v2', CoolUtil.getSavePath());
 		if(save != null && save.data.customControls != null) {

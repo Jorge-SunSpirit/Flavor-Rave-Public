@@ -102,11 +102,6 @@ class SunSynthFirstState extends MusicBeatState
 		menuArt.antialiasing = ClientPrefs.globalAntialiasing;
 		add(menuArt);
 
-		var border:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mainmenu/border'));
-		border.screenCenter();
-		border.antialiasing = ClientPrefs.globalAntialiasing;
-		add(border);
-
 		var scan:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mainmenu/scanlines'));
 		scan.screenCenter();
 		scan.antialiasing = ClientPrefs.globalAntialiasing;

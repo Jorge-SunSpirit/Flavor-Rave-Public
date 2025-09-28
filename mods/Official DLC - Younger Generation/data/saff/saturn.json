@@ -1,0 +1,77 @@
+{
+	"dialogue": [
+		{
+			"background": "blackhueh",
+			"chara": ["floral", 2, false],
+			"sound": ["floral","laugh"],
+			"border": "greenhouse",
+			"text": "Hooo-whee... I must've dozed off for a while. Where did you three run off to?",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","ughlikethefnfsong"],
+			"border": "greenhouse",
+			"text": "EVERYWHERE.",
+			"voice": ""
+		},		
+		{
+			"background": "blackhueh",
+			"chara": ["sour", 1, true],
+			"border": "greenhouse",
+			"text": "I've ran more this week than the entirety of this year prior...",
+			"voice": ""
+		},	
+		{
+			"background": "blackhueh",
+			"chara": ["sweet", 1, true],
+			"border": "greenhouse",
+			"text": "Huff... huff... I hope that bit of playtime was fun, Saffron.",
+			"voice": ""
+		},	
+		{
+			"background": "blackhueh",
+			"chara": ["sweet", 1, true],
+			"border": "greenhouse",
+			"text": "Surely now you'll give Sour, a chance, right..?",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["saff", 0, true],
+			"border": "greenhouse",
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["sour", 1, true],
+			"border": "greenhouse",
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["sweet", 1, true],
+			"border": "greenhouse",
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["saff", 1, true],
+			"border": "greenhouse",
+			"sound": ["saff","didisayno"],
+			"text": "No. I don't like him.",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["sour", 1, true],
+			"border": "greenhouse",
+			"text": "OH, WHATEVER.",
+			"voice": ""
+		}
+	]
+}

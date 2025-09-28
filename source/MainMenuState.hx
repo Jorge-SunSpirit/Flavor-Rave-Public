@@ -79,6 +79,7 @@ class MainMenuState extends MusicBeatState
 
 		#if MODS_ALLOWED
 		Paths.pushGlobalMods();
+		Paths.pushTranslationMods();
 		#end
 		WeekData.loadTheFirstEnabledMod();
 

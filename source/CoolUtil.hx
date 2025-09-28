@@ -152,9 +152,17 @@ class CoolUtil
 	}
 
 	#if sys
+	// Hi Linux! Why do you not read this in alphabetical order :(
+	public static function readDirectory(directory:String):Array<String>
+	{
+		var list:Array<String> = FileSystem.readDirectory(directory);
+		list.sort(function(a, b) return a > b ? 1 : -1);
+		return list;
+	}
+
 	public static function coolPathArray(path:String):Array<String>
 	{
-		return FileSystem.readDirectory(FileSystem.absolutePath(path));
+		return readDirectory(FileSystem.absolutePath(path));
 	}
 	#end
 

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SmokyYay.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SmokyYay0000" x="10" y="10" width="604" height="637" frameX="0" frameY="0" frameWidth="605" frameHeight="637"/>
+	<SubTexture name="SmokyYay0001" x="10" y="10" width="604" height="637" frameX="0" frameY="0" frameWidth="605" frameHeight="637"/>
+	<SubTexture name="SmokyYay0002" x="10" y="10" width="604" height="637" frameX="0" frameY="0" frameWidth="605" frameHeight="637"/>
+	<SubTexture name="SmokyYay0003" x="10" y="10" width="604" height="637" frameX="0" frameY="0" frameWidth="605" frameHeight="637"/>
+	<SubTexture name="SmokyYay0004" x="624" y="10" width="605" height="633" frameX="0" frameY="-3" frameWidth="605" frameHeight="637"/>
+	<SubTexture name="SmokyYay0005" x="624" y="10" width="605" height="633" frameX="0" frameY="-3" frameWidth="605" frameHeight="637"/>
+	<SubTexture name="SmokyYay0006" x="624" y="10" width="605" height="633" frameX="0" frameY="-3" frameWidth="605" frameHeight="637"/>
+	<SubTexture name="SmokyYay0007" x="624" y="10" width="605" height="633" frameX="0" frameY="-3" frameWidth="605" frameHeight="637"/>
+</TextureAtlas>

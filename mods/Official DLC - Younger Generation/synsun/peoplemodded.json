@@ -1,0 +1,14 @@
+{
+	"dialogue":
+	[
+		{
+			"text": "This",
+			"chara": "doesn't matter",
+			"allowExit": true,
+			"choices":
+			[
+				{"text": "Saff & Gummy", "jsonreDirect": "people-saffgummy", "songCheck": "saff"}
+			]
+		}
+	]
+}

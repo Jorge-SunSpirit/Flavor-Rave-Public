@@ -1,0 +1,20 @@
+{
+	"peeps": [
+		{
+			"realName": "Chibisprinklez",
+			"iconName": "chibi",
+			"description": "Voice of Furikake",
+			"color": [255,107,137],
+			"twitter": "https://x.com/Chibisprinklez",
+			"whichrole": "Voices"
+		},
+		{
+			"realName": "Loganne Digma",
+			"iconName": "loganne",
+			"description": "Voice of Nori",
+			"color": [255,153,202],
+			"twitter": "https://x.com/Loganne_Digma",
+			"whichrole": "Voices"
+		}
+	]
+}

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="saff.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SaffDown0000" x="7" y="7" width="310" height="402" frameX="0" frameY="-14" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0001" x="7" y="7" width="310" height="402" frameX="0" frameY="-14" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0002" x="324" y="7" width="305" height="410" frameX="-9" frameY="-6" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0003" x="324" y="7" width="305" height="410" frameX="-9" frameY="-6" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0004" x="636" y="7" width="308" height="416" frameX="-6" frameY="0" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0005" x="636" y="7" width="308" height="416" frameX="-6" frameY="0" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0006" x="951" y="7" width="311" height="416" frameX="-3" frameY="0" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0007" x="951" y="7" width="311" height="416" frameX="-3" frameY="0" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0008" x="951" y="7" width="311" height="416" frameX="-3" frameY="0" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0009" x="951" y="7" width="311" height="416" frameX="-3" frameY="0" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0010" x="951" y="7" width="311" height="416" frameX="-3" frameY="0" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0011" x="951" y="7" width="311" height="416" frameX="-3" frameY="0" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0012" x="951" y="7" width="311" height="416" frameX="-3" frameY="0" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffDown0013" x="951" y="7" width="311" height="416" frameX="-3" frameY="0" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffGone0000" x="1269" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0001" x="1269" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0002" x="1269" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0003" x="1269" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0004" x="1269" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0005" x="1269" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0006" x="1269" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0007" x="1269" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0008" x="1545" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0009" x="1545" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0010" x="1545" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0011" x="1545" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0012" x="1545" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0013" x="1545" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0014" x="1545" y="7" width="269" height="472"/>
+	<SubTexture name="SaffGone0015" x="1545" y="7" width="269" height="472"/>
+	<SubTexture name="SaffIdle0000" x="1821" y="7" width="271" height="477" frameX="0" frameY="-10" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0001" x="1821" y="7" width="271" height="477" frameX="0" frameY="-10" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0002" x="2099" y="7" width="273" height="478" frameX="-2" frameY="-9" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0003" x="2099" y="7" width="273" height="478" frameX="-2" frameY="-9" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0004" x="2379" y="7" width="274" height="482" frameX="-5" frameY="-5" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0005" x="2379" y="7" width="274" height="482" frameX="-5" frameY="-5" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0006" x="2660" y="7" width="274" height="484" frameX="-4" frameY="-3" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0007" x="2660" y="7" width="274" height="484" frameX="-4" frameY="-3" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0008" x="2941" y="7" width="273" height="488" frameX="-2" frameY="0" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0009" x="2941" y="7" width="273" height="488" frameX="-2" frameY="0" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0010" x="3221" y="7" width="274" height="488" frameX="-1" frameY="0" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0011" x="3221" y="7" width="274" height="488" frameX="-1" frameY="0" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0012" x="3221" y="7" width="274" height="488" frameX="-1" frameY="0" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0013" x="3221" y="7" width="274" height="488" frameX="-1" frameY="0" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0014" x="3221" y="7" width="274" height="488" frameX="-1" frameY="0" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffIdle0015" x="3221" y="7" width="274" height="488" frameX="-1" frameY="0" frameWidth="279" frameHeight="488"/>
+	<SubTexture name="SaffLeft0000" x="3502" y="7" width="346" height="451" frameX="0" frameY="-7" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0001" x="3502" y="7" width="346" height="451" frameX="0" frameY="-7" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0002" x="7" y="502" width="343" height="456" frameX="-4" frameY="-3" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0003" x="7" y="502" width="343" height="456" frameX="-4" frameY="-3" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0004" x="357" y="502" width="338" height="459" frameX="-9" frameY="0" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0005" x="357" y="502" width="338" height="459" frameX="-9" frameY="0" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0006" x="702" y="502" width="336" height="459" frameX="-11" frameY="0" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0007" x="702" y="502" width="336" height="459" frameX="-11" frameY="0" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0008" x="702" y="502" width="336" height="459" frameX="-11" frameY="0" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0009" x="702" y="502" width="336" height="459" frameX="-11" frameY="0" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0010" x="702" y="502" width="336" height="459" frameX="-11" frameY="0" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0011" x="702" y="502" width="336" height="459" frameX="-11" frameY="0" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0012" x="702" y="502" width="336" height="459" frameX="-11" frameY="0" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffLeft0013" x="702" y="502" width="336" height="459" frameX="-11" frameY="0" frameWidth="347" frameHeight="459"/>
+	<SubTexture name="SaffMissDown0000" x="7" y="7" width="310" height="402" frameX="0" frameY="-13" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffMissDown0001" x="7" y="7" width="310" height="402" frameX="0" frameY="-13" frameWidth="314" frameHeight="416"/>
+	<SubTexture name="SaffMissDown0002" x="1045" y="502" width="349" height="378" frameX="-11" frameY="-36" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissDown0003" x="1045" y="502" width="349" height="378" frameX="-11" frameY="-36" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissDown0004" x="1401" y="502" width="324" height="415" frameX="-5" frameY="0" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissDown0005" x="1401" y="502" width="324" height="415" frameX="-5" frameY="0" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissDown0006" x="1732" y="502" width="324" height="415" frameX="-5" frameY="0" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissDown0007" x="1732" y="502" width="324" height="415" frameX="-5" frameY="0" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissDown0008" x="1732" y="502" width="324" height="415" frameX="-5" frameY="0" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissDown0009" x="1732" y="502" width="324" height="415" frameX="-5" frameY="0" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissDown0010" x="1732" y="502" width="324" height="415" frameX="-5" frameY="0" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissDown0011" x="1732" y="502" width="324" height="415" frameX="-5" frameY="0" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissDown0012" x="1732" y="502" width="324" height="415" frameX="-5" frameY="0" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissDown0013" x="1732" y="502" width="324" height="415" frameX="-5" frameY="0" frameWidth="360" frameHeight="415"/>
+	<SubTexture name="SaffMissLeft0000" x="2063" y="502" width="351" height="451" frameX="0" frameY="0" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0001" x="2063" y="502" width="351" height="451" frameX="0" frameY="0" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0002" x="2421" y="502" width="353" height="414" frameX="-4" frameY="-38" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0003" x="2421" y="502" width="353" height="414" frameX="-4" frameY="-38" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0004" x="2781" y="502" width="330" height="436" frameX="-21" frameY="-16" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0005" x="2781" y="502" width="330" height="436" frameX="-21" frameY="-16" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0006" x="3118" y="502" width="330" height="436" frameX="-21" frameY="-16" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0007" x="3118" y="502" width="330" height="436" frameX="-21" frameY="-16" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0008" x="3118" y="502" width="330" height="436" frameX="-21" frameY="-16" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0009" x="3118" y="502" width="330" height="436" frameX="-21" frameY="-16" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0010" x="3118" y="502" width="330" height="436" frameX="-21" frameY="-16" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0011" x="3118" y="502" width="330" height="436" frameX="-21" frameY="-16" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0012" x="3118" y="502" width="330" height="436" frameX="-21" frameY="-16" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissLeft0013" x="3118" y="502" width="330" height="436" frameX="-21" frameY="-16" frameWidth="357" frameHeight="452"/>
+	<SubTexture name="SaffMissRight0000" x="3455" y="502" width="296" height="468" frameX="-4" frameY="0" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0001" x="3455" y="502" width="296" height="468" frameX="-4" frameY="0" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0002" x="7" y="977" width="361" height="420" frameX="0" frameY="-48" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0003" x="7" y="977" width="361" height="420" frameX="0" frameY="-48" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0004" x="375" y="977" width="317" height="451" frameX="-4" frameY="-17" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0005" x="375" y="977" width="317" height="451" frameX="-4" frameY="-17" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0006" x="375" y="977" width="317" height="451" frameX="-4" frameY="-17" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0007" x="375" y="977" width="317" height="451" frameX="-4" frameY="-17" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0008" x="375" y="977" width="317" height="451" frameX="-4" frameY="-17" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0009" x="375" y="977" width="317" height="451" frameX="-4" frameY="-17" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0010" x="375" y="977" width="317" height="451" frameX="-4" frameY="-17" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0011" x="375" y="977" width="317" height="451" frameX="-4" frameY="-17" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0012" x="375" y="977" width="317" height="451" frameX="-4" frameY="-17" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissRight0013" x="375" y="977" width="317" height="451" frameX="-4" frameY="-17" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffMissUp0000" x="699" y="977" width="307" height="504" frameX="-19" frameY="0" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0001" x="699" y="977" width="307" height="504" frameX="-19" frameY="0" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0002" x="1013" y="977" width="334" height="450" frameX="0" frameY="-54" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0003" x="1013" y="977" width="334" height="450" frameX="0" frameY="-54" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0004" x="1354" y="977" width="317" height="478" frameX="-8" frameY="-26" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0005" x="1354" y="977" width="317" height="478" frameX="-8" frameY="-26" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0006" x="1354" y="977" width="317" height="478" frameX="-8" frameY="-26" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0007" x="1354" y="977" width="317" height="478" frameX="-8" frameY="-26" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0008" x="1354" y="977" width="317" height="478" frameX="-8" frameY="-26" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0009" x="1354" y="977" width="317" height="478" frameX="-8" frameY="-26" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0010" x="1354" y="977" width="317" height="478" frameX="-8" frameY="-26" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0011" x="1354" y="977" width="317" height="478" frameX="-8" frameY="-26" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0012" x="1354" y="977" width="317" height="478" frameX="-8" frameY="-26" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffMissUp0013" x="1354" y="977" width="317" height="478" frameX="-8" frameY="-26" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffRight0000" x="3455" y="502" width="296" height="468" frameX="-23" frameY="0" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffRight0001" x="3455" y="502" width="296" height="468" frameX="-23" frameY="0" frameWidth="361" frameHeight="468"/>
+	<SubTexture name="SaffRight0002" x="1678" y="977" width="293" height="467" frameX="-12" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffRight0003" x="1678" y="977" width="293" height="467" frameX="-12" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffRight0004" x="1978" y="977" width="300" height="467" frameX="-1" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffRight0005" x="1978" y="977" width="300" height="467" frameX="-1" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffRight0006" x="2285" y="977" width="301" height="467" frameX="0" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffRight0007" x="2285" y="977" width="301" height="467" frameX="0" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffRight0008" x="2285" y="977" width="301" height="467" frameX="0" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffRight0009" x="2285" y="977" width="301" height="467" frameX="0" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffRight0010" x="2285" y="977" width="301" height="467" frameX="0" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffRight0011" x="2285" y="977" width="301" height="467" frameX="0" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffRight0012" x="2285" y="977" width="301" height="467" frameX="0" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffRight0013" x="2285" y="977" width="301" height="467" frameX="0" frameY="-1" frameWidth="319" frameHeight="468"/>
+	<SubTexture name="SaffUp0000" x="699" y="977" width="307" height="504" frameX="-9" frameY="0" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffUp0001" x="699" y="977" width="307" height="504" frameX="-9" frameY="0" frameWidth="334" frameHeight="504"/>
+	<SubTexture name="SaffUp0002" x="2593" y="977" width="313" height="497" frameX="0" frameY="-7" frameWidth="316" frameHeight="504"/>
+	<SubTexture name="SaffUp0003" x="2593" y="977" width="313" height="497" frameX="0" frameY="-7" frameWidth="316" frameHeight="504"/>
+	<SubTexture name="SaffUp0004" x="2913" y="977" width="311" height="492" frameX="0" frameY="-12" frameWidth="316" frameHeight="504"/>
+	<SubTexture name="SaffUp0005" x="2913" y="977" width="311" height="492" frameX="0" frameY="-12" frameWidth="316" frameHeight="504"/>
+	<SubTexture name="SaffUp0006" x="3231" y="977" width="309" height="492" frameX="-2" frameY="-12" frameWidth="316" frameHeight="504"/>
+	<SubTexture name="SaffUp0007" x="3231" y="977" width="309" height="492" frameX="-2" frameY="-12" frameWidth="316" frameHeight="504"/>
+	<SubTexture name="SaffUp0008" x="3231" y="977" width="309" height="492" frameX="-2" frameY="-12" frameWidth="316" frameHeight="504"/>
+	<SubTexture name="SaffUp0009" x="3231" y="977" width="309" height="492" frameX="-2" frameY="-12" frameWidth="316" frameHeight="504"/>
+	<SubTexture name="SaffUp0010" x="3231" y="977" width="309" height="492" frameX="-2" frameY="-12" frameWidth="316" frameHeight="504"/>
+	<SubTexture name="SaffUp0011" x="3231" y="977" width="309" height="492" frameX="-2" frameY="-12" frameWidth="316" frameHeight="504"/>
+	<SubTexture name="SaffUp0012" x="3231" y="977" width="309" height="492" frameX="-2" frameY="-12" frameWidth="316" frameHeight="504"/>
+	<SubTexture name="SaffUp0013" x="3231" y="977" width="309" height="492" frameX="-2" frameY="-12" frameWidth="316" frameHeight="504"/>
+</TextureAtlas>

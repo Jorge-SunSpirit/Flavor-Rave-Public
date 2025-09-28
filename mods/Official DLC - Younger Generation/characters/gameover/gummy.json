@@ -1,0 +1,18 @@
+{
+	"image": "gameover/GummyGO",
+	"animation": "GummyGO",
+	"spriteOffset": [660,570],
+	"flip_x": false,
+	"scale": 0.7,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "gummy/1",
+			"subtitles": "Urrgh... This episode needs a reshoot! Wahhh...:dur:4.282"
+		},
+		{
+			"sound": "gummy/2",
+			"subtitles": "Bleaaaaauuuuuughhhhh...:dur:3.474"
+		}
+	]
+}

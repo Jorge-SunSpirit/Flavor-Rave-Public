@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "The S stands for 'Saff'. That means this is the only rank you should ever be getting.",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Sure, whatever.",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Meh.",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I'm already bored again. I'm leaving.",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "I'd play this badly too if I had to look at Sour's painfully bright hair the whole time.",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

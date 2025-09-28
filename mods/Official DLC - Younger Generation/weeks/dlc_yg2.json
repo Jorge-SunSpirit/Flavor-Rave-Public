@@ -1,0 +1,27 @@
+{
+	"songs": [
+		["saff"]
+	],
+
+	"weekCharacters": [
+		"Sour",
+		"Sweet",
+		"Saff",
+		"Empty"
+	],
+	"charaSelect": [
+		"flavorrave",
+		"saff"
+	],
+	"weekBackground": "greenhouse",
+	"weekType": "Bonus",
+	"storyName": "DLC Chapter",
+	"weekBefore": "dlc_yg1",
+	"weekName": "Wandering Away",
+	"location": "Floral's Greenhouse",
+	"startUnlocked": false,
+	"categoryType": "bonus",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "Normal"
+}

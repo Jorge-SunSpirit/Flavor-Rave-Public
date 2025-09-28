@@ -1,0 +1,34 @@
+{
+	"dialogue": [
+		{
+			"name": "...",
+			"rank": "",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Wahoooey!!! Best episode of the season! Anime of the year! Best leading role goes to Gummy!",
+			"rank": "S",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Mom and dad are gonna love this episode!",
+			"rank": "A",
+			"boxSprite": "box"
+		},
+		{
+			"name": "This is the beginning of a super-tacular, new arc in Gummy's Grand Tales!",
+			"rank": "B",
+			"boxSprite": "box"
+		},
+		{
+			"name": "That was mega cool! Though why does this still feel like a filler episode..?",
+			"rank": "C",
+			"boxSprite": "box"
+		},
+		{
+			"name": "Weheheh... Every good protagonist has to start somewhere, right..?",
+			"rank": "D",
+			"boxSprite": "box"
+		}
+	]
+}

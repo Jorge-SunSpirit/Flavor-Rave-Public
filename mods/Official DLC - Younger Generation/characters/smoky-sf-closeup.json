@@ -1,0 +1,136 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				57,
+				-12
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SmokyLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-44,
+				-25
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SmokyDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-64,
+				47
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SmokyUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				76,
+				11
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SmokyRight",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-40,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "SmokyIdle"
+		},
+		{
+			"offsets": [
+				210,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "SmokyShamLeft"
+		},
+		{
+			"offsets": [
+				35,
+				-21
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "SmokyShamDown"
+		},
+		{
+			"offsets": [
+				42,
+				47
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "SmokyShamUp"
+		},
+		{
+			"offsets": [
+				37,
+				11
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "SmokyShamRight"
+		},
+		{
+			"offsets": [
+				86,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "SmokyShamIdle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SmokyCloseUp",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "smoky",
+	"flip_x": true,
+	"healthbar_colors": [
+		60,
+		40,
+		40
+	],
+	"camera_position": [
+		-125,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"noteskin": "Smoky",
+	"healthbar_image": "smoky",
+	"musicNoteOffset": [-100,0]
+}

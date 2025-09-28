@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-120,
+				90
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "GummyIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				76
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "GummyLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-47,
+				57
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "GummyDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-111,
+				134
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "GummyUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-147,
+				33
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "GummyRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/GummyDoodle",
+	"position": [
+		0,
+		360
+	],
+	"healthicon": "gummy",
+	"flip_x": false,
+	"healthbar_colors": [
+		249,
+		236,
+		169
+	],
+	"camera_position": [
+		80,
+		-150
+	],
+	"sing_duration": 3.5,
+	"scale": 1.2,
+	"noteskin": "Gummy",
+	"healthbar_image": "Gummy"
+}

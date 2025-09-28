@@ -2367,7 +2367,7 @@ class PreviewLua {
 			var list:Array<String> = [];
 			#if sys
 			if(FileSystem.exists(folder)) {
-				for (folder in FileSystem.readDirectory(folder)) {
+				for (folder in CoolUtil.readDirectory(folder)) {
 					if (!list.contains(folder)) {
 						list.push(folder);
 					}

@@ -29,7 +29,8 @@ class AchievementPopup extends openfl.display.Sprite {
 		var hasAntialias:Bool = ClientPrefs.globalAntialiasing;
 		if (Achievements.achivementVarMap.get(achieve) != null)
 		{
-			fancyName = Achievements.achivementVarMap.get(achieve).fancyName;
+			//fancyName = Achievements.achivementVarMap.get(achieve).fancyName;
+			fancyName = Language.flavor.get("achievement_" + achieve + "_name", Achievements.achivementVarMap.get(achieve).fancyName);
 			iconName = Achievements.achivementVarMap.get(achieve).icon;
 		}
 
@@ -68,7 +69,7 @@ class AchievementPopup extends openfl.display.Sprite {
 		text.setBorderStyle(OUTLINE, FlxColor.BLACK);
 		text.borderSize = 2;
 		drawTextAt(text, fancyName, textX, 22);
-		drawTextAt(text, "Awarded!", textX, 75);
+		drawTextAt(text, Language.flavor.get("achievement_awarded", "Awarded!"), textX, 75);
 		graphics.endFill();
 
 		text.graphic.bitmap.dispose();

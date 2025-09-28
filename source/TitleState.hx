@@ -52,6 +52,7 @@ class TitleState extends MusicBeatState
 
 	public static var initialized:Bool = false;
 	public static var firstStart:Bool = true;
+	public static var inSubState:Bool = false;
 
 	var blackScreen:FlxSprite;
 	public var colorSwap:ColorSwap;
@@ -74,8 +75,6 @@ class TitleState extends MusicBeatState
 	var logo:FlxSprite;
 	var titleText:FlxSprite;
 
-	var curWacky:Array<String> = [];
-
 	override public function create():Void
 	{
 		/*
@@ -90,6 +89,7 @@ class TitleState extends MusicBeatState
 
 		#if LUA_ALLOWED
 		Paths.pushGlobalMods();
+		Paths.pushTranslationMods();
 		#end
 
 		// Just to load a mod on start up if ya got one. For mods that change the menu music and bg
@@ -104,8 +104,6 @@ class TitleState extends MusicBeatState
 		FlxG.keys.preventDefaultKeys = [TAB];
 
 		PlayerSettings.init();
-
-		curWacky = FlxG.random.getObject(getIntroTextShit());
 
 		super.create();
 
@@ -123,12 +121,17 @@ class TitleState extends MusicBeatState
 
 		if(!initialized)
 		{
+			if(FlxG.save.data != null && FlxG.save.data.fullscreen)
+			{
+				FlxG.fullscreen = FlxG.save.data.fullscreen;
+			}
 			persistentUpdate = true;
 			persistentDraw = true;
 		}
 
 		if (FlxG.save.data.weekCompleted != null)	
 			WeekData.weekCompleted = FlxG.save.data.weekCompleted;
+			
 
 		Highscore.checkBonusWeeks();
 
@@ -315,21 +318,6 @@ class TitleState extends MusicBeatState
 			skipIntro();
 	}
 
-	function getIntroTextShit():Array<Array<String>>
-	{
-		var fullText:String = Assets.getText(Paths.txt('introText'));
-
-		var firstArray:Array<String> = fullText.split('\n');
-		var swagGoodArray:Array<Array<String>> = [];
-
-		for (i in firstArray)
-		{
-			swagGoodArray.push(i.split('--'));
-		}
-
-		return swagGoodArray;
-	}
-
 	var transitioning:Bool = false;
 	var newTitle:Bool = false;
 	var titleTimer:Float = 0;
@@ -338,6 +326,8 @@ class TitleState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+		if (inSubState) return;
+
 		angleShit1 += 0.01 / FramerateTools.timeMultiplier();
 
 		if (light1 != null && light2 != null)
@@ -383,6 +373,13 @@ class TitleState extends MusicBeatState
 
 		if (initialized && !transitioning && skippedIntro)
 		{
+			if (controls.BACK)
+			{
+				openSubState(new CloseGameSubState());
+				inSubState = true;
+				return;
+			}
+
 			if (newTitle && !pressedEnter)
 			{
 				var timer:Float = titleTimer;

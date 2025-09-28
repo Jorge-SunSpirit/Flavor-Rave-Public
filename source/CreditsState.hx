@@ -353,7 +353,9 @@ class CreditsState extends MusicBeatState
 		for (peep in bufferArray)
 		{
 			if (peep.whichrole == rolelist[curPage])
-				creditsStuff.push([peep.realName, peep.iconName, Language.flavor.get("credits_" + peep.iconName + "_desc", peep.description), peep.twitter, peep.color, peep.whichrole]);
+				creditsStuff.push([peep.realName, peep.iconName, 
+					Language.flavor.get("credits_" + peep.realName + "_" + peep.whichrole + "_desc", 
+					Language.flavor.get("credits_" + peep.iconName + "_" + peep.whichrole + "_desc", peep.description)), peep.twitter, peep.color, peep.whichrole]);
 		}
 
 		#if MODS_ALLOWED
@@ -377,7 +379,9 @@ class CreditsState extends MusicBeatState
 				for (peep in bufferArray)
 				{
 					if (peep.whichrole == rolelist[curPage])
-						creditsStuff.push([peep.realName, peep.iconName, Language.flavor.get("credits_" + peep.iconName + "_desc", peep.description), peep.twitter, peep.color, peep.whichrole]);
+						creditsStuff.push([peep.realName, peep.iconName, 
+							Language.flavor.get("credits_" + peep.realName + "_" + peep.whichrole + "_" + folder + "_desc",  
+							Language.flavor.get("credits_" + peep.iconName + "_" + peep.whichrole + "_desc", peep.description)), peep.twitter, peep.color, peep.whichrole]);
 				}
 
 			}

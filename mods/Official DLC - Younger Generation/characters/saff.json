@@ -1,0 +1,135 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-33,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SaffIdle"
+		},
+		{
+			"offsets": [
+				65,
+				107
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SaffLeft"
+		},
+		{
+			"offsets": [
+				-43,
+				64
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SaffDown"
+		},
+		{
+			"offsets": [
+				-21,
+				168
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SaffUp"
+		},
+		{
+			"offsets": [
+				-70,
+				121
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SaffRight"
+		},
+		{
+			"offsets": [
+				-39,
+				133
+			],
+			"loop": true,
+			"fps": 30,
+			"anim": "gone",
+			"indices": [],
+			"name": "SaffGone"
+		},
+		{
+			"offsets": [
+				70,
+				100
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "SaffMissLeft"
+		},
+		{
+			"offsets": [
+				-44,
+				63
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "SaffMissDown"
+		},
+		{
+			"offsets": [
+				-13,
+				167
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "SaffMissUp"
+		},
+		{
+			"offsets": [
+				-89,
+				121
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "SaffMissRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/saff",
+	"position": [
+		30,
+		370
+	],
+	"healthicon": "saff",
+	"flip_x": false,
+	"healthbar_colors": [
+		189,
+		116,
+		229
+	],
+	"camera_position": [
+		10,
+		-150
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"noteskin": "Saff",
+	"healthbar_image": "saff"
+}

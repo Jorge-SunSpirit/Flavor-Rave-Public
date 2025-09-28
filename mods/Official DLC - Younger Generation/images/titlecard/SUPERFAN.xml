@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="SUPERFAN.png" width="2636" height="2542">
+	<SubTexture name="card0000" x="1630" y="1094" width="1" height="1" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0001" x="1630" y="1094" width="1" height="1" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0002" x="1437" y="2054" width="161" height="146" rotated="true" frameX="-907" frameY="-277" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0003" x="1437" y="2054" width="161" height="146" rotated="true" frameX="-907" frameY="-277" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0004" x="2471" y="955" width="164" height="150" rotated="true" frameX="-903" frameY="-277" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0005" x="2471" y="955" width="164" height="150" rotated="true" frameX="-903" frameY="-277" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0006" x="2471" y="1" width="164" height="954" rotated="true" frameX="-99" frameY="-277" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0007" x="2471" y="1" width="164" height="954" rotated="true" frameX="-99" frameY="-277" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0008" x="1771" y="1094" width="168" height="958" rotated="true" frameX="-95" frameY="-277" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0009" x="1771" y="1094" width="168" height="958" rotated="true" frameX="-95" frameY="-277" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0010" x="2133" y="1" width="169" height="958" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0011" x="2133" y="1" width="169" height="958" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0012" x="2302" y="959" width="169" height="957" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0013" x="2302" y="959" width="169" height="957" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0014" x="1" y="2372" width="957" height="169" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0015" x="1" y="2372" width="957" height="169" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0016" x="958" y="2372" width="957" height="169" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0017" x="958" y="2372" width="957" height="169" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0018" x="1270" y="1099" width="167" height="959" rotated="true" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0019" x="1270" y="1099" width="167" height="959" rotated="true" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0020" x="1437" y="1095" width="167" height="959" rotated="true" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0021" x="1437" y="1095" width="167" height="959" rotated="true" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0022" x="1604" y="1095" width="167" height="959" rotated="true" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0023" x="1604" y="1095" width="167" height="959" rotated="true" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0024" x="2133" y="959" width="169" height="958" rotated="true" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0025" x="2133" y="959" width="169" height="958" rotated="true" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0026" x="1" y="2203" width="958" height="169" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0027" x="1" y="2203" width="958" height="169" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0028" x="959" y="2203" width="958" height="169" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0029" x="959" y="2203" width="958" height="169" frameX="-94" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0030" x="2302" y="1" width="169" height="958" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0031" x="2302" y="1" width="169" height="958" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0032" x="1" y="2034" width="1091" height="169" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0033" x="1" y="2034" width="1091" height="169" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0034" x="1101" y="1099" width="169" height="1091" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0035" x="1101" y="1099" width="169" height="1091" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0036" x="1292" y="1" width="169" height="1094" rotated="true" frameX="-94" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0037" x="1292" y="1" width="169" height="1094" rotated="true" frameX="-94" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0038" x="1" y="1338" width="1094" height="169" frameX="-94" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0039" x="1" y="1338" width="1094" height="169" frameX="-94" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0040" x="1461" y="1" width="169" height="1094" rotated="true" frameX="-94" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0041" x="1461" y="1" width="169" height="1094" rotated="true" frameX="-94" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0042" x="1630" y="1" width="167" height="1093" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0043" x="1630" y="1" width="167" height="1093" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0044" x="1" y="1698" width="1093" height="167" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0045" x="1" y="1698" width="1093" height="167" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0046" x="1797" y="1" width="167" height="1093" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0047" x="1797" y="1" width="167" height="1093" rotated="true" frameX="-95" frameY="-276" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0048" x="1" y="1865" width="1092" height="169" frameX="-95" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0049" x="1" y="1865" width="1092" height="169" frameX="-95" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0050" x="1964" y="1" width="169" height="1092" rotated="true" frameX="-95" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0051" x="1964" y="1" width="169" height="1092" rotated="true" frameX="-95" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0052" x="1964" y="1093" width="169" height="1092" rotated="true" frameX="-95" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0053" x="1964" y="1093" width="169" height="1092" rotated="true" frameX="-95" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0054" x="1" y="1507" width="1094" height="191" frameX="-94" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0055" x="1" y="1507" width="1094" height="191" frameX="-94" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0056" x="1101" y="1" width="191" height="1098" rotated="true" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0057" x="1101" y="1" width="191" height="1098" rotated="true" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0058" x="1" y="1147" width="1098" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0059" x="1" y="1147" width="1098" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0060" x="1" y="1" width="1100" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0061" x="1" y="1" width="1100" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0062" x="1" y="192" width="1100" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0063" x="1" y="192" width="1100" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0064" x="1" y="383" width="1100" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0065" x="1" y="383" width="1100" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0066" x="1" y="574" width="1100" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0067" x="1" y="574" width="1100" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0068" x="1" y="765" width="1100" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0069" x="1" y="765" width="1100" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="card0070" x="1" y="956" width="1100" height="191" frameX="-90" frameY="-271" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

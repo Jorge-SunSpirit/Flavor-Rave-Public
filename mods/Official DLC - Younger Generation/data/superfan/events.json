@@ -1,0 +1,466 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Screen Flash",
+						"0.8",
+						"yellow"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1"
+					]
+				]
+			],
+			[
+				5416.66666666667,
+				[
+					[
+						"Play SFX",
+						"writestart",
+						"1"
+					]
+				]
+			],
+			[
+				6666.66666666667,
+				[
+					[
+						"Note Camera Movement",
+						"13",
+						""
+					]
+				]
+			],
+			[
+				7666.66666666667,
+				[
+					[
+						"Play SFX",
+						"writeend",
+						"1"
+					]
+				]
+			],
+			[
+				18666.6666666667,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1.2"
+					]
+				]
+			],
+			[
+				19833.3333333333,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				20000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					]
+				]
+			],
+			[
+				21333.3333333333,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.95"
+					]
+				]
+			],
+			[
+				26666.6666666667,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				29333.3333333333,
+				[
+					[
+						"Change Camera Zoom",
+						"0.7",
+						"0.6"
+					],
+					[
+						"Call on Luas",
+						"centercam",
+						"1"
+					]
+				]
+			],
+			[
+				32000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"0.8"
+					],
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.7"
+					],
+					[
+						"Call on Luas",
+						"centercam",
+						"2"
+					]
+				]
+			],
+			[
+				53333.3333333334,
+				[
+					[
+						"Change Camera Zoom",
+						"0.95",
+						"0.7"
+					]
+				]
+			],
+			[
+				58666.6666666667,
+				[
+					[
+						"Change Camera Zoom",
+						"1",
+						"0.7"
+					]
+				]
+			],
+			[
+				61333.3333333334,
+				[
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.7"
+					]
+				]
+			],
+			[
+				64000,
+				[
+					[
+						"Screen Flash",
+						"0.6",
+						"yellow"
+					],
+					[
+						"Note Camera Movement",
+						"4",
+						""
+					]
+				]
+			],
+			[
+				85333.3333333333,
+				[
+					[
+						"Change Camera Zoom",
+						"1.5",
+						"1"
+					]
+				]
+			],
+			[
+				88000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1.1"
+					],
+					[
+						"Change Camera Zoom",
+						"1",
+						"1"
+					],
+					[
+						"Alt Idle Animation",
+						"bf",
+						"-alt"
+					]
+				]
+			],
+			[
+				109333.333333333,
+				[
+					[
+						"Screen Flash",
+						"0.65",
+						"yellow"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"0.8"
+					],
+					[
+						"Note Camera Movement",
+						"10",
+						""
+					],
+					[
+						"Alt Idle Animation",
+						"bf",
+						""
+					]
+				]
+			],
+			[
+				117333.333333333,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"0.9",
+						"0.5"
+					]
+				]
+			],
+			[
+				118500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				118666.666666667,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					],
+					[
+						"Change Camera Zoom",
+						"0.55",
+						"1"
+					],
+					[
+						"Call on Luas",
+						"centercam",
+						"1"
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1.2"
+					]
+				]
+			],
+			[
+				120250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				120500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				120750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				121000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				121166.666666667,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.02"
+					]
+				]
+			],
+			[
+				121333.333333333,
+				[
+					[
+						"Change Camera Bump frequency",
+						"4",
+						"1"
+					],
+					[
+						"Screen Flash",
+						"0.4",
+						"cyan"
+					]
+				]
+			],
+			[
+				122666.666666667,
+				[
+					[
+						"Screen Flash",
+						"0.5",
+						"yellow"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"1.1"
+					],
+					[
+						"Change Character",
+						"dad",
+						"gummy-doodle"
+					],
+					[
+						"Change Character",
+						"bf",
+						"smoky-doodle"
+					],
+					[
+						"Call on Luas",
+						"centercam",
+						"2"
+					],
+					[
+						"Change Camera Zoom",
+						"0.7",
+						"0.6"
+					]
+				]
+			],
+			[
+				130666.666666666,
+				[
+					[
+						"Change Camera Zoom",
+						"0.6",
+						"0.6"
+					],
+					[
+						"Call on Luas",
+						"centercam",
+						"1"
+					]
+				]
+			],
+			[
+				133333.333333333,
+				[
+					[
+						"Call on Luas",
+						"centercam",
+						"2"
+					],
+					[
+						"Change Camera Zoom",
+						"0.85",
+						"0.8"
+					]
+				]
+			],
+			[
+				154666.666666667,
+				[
+					[
+						"Screen Flash",
+						"0.6",
+						"yellow"
+					],
+					[
+						"Change Camera Bump frequency",
+						"8",
+						"0.8"
+					],
+					[
+						"Change Character",
+						"dad",
+						"gummy"
+					],
+					[
+						"Change Character",
+						"bf",
+						"smoky"
+					],
+					[
+						"Change Camera Zoom",
+						"0.8",
+						"0.6"
+					]
+				]
+			],
+			[
+				176000,
+				[
+					[
+						"Change Camera Bump frequency",
+						"16",
+						"1"
+					],
+					[
+						"Screen Flash",
+						"0.7",
+						"cyan"
+					]
+				]
+			]
+		]
+	}
+}

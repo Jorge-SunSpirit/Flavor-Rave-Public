@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SourSeasickSing.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SickSourDown0000" x="6" y="6" width="513" height="545" frameX="0" frameY="-8" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0001" x="6" y="6" width="513" height="545" frameX="0" frameY="-8" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0002" x="525" y="6" width="512" height="547" frameX="-1" frameY="-6" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0003" x="525" y="6" width="512" height="547" frameX="-1" frameY="-6" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0004" x="1043" y="6" width="514" height="552" frameX="-4" frameY="-1" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0005" x="1043" y="6" width="514" height="552" frameX="-4" frameY="-1" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0006" x="1563" y="6" width="514" height="553" frameX="-5" frameY="0" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0007" x="1563" y="6" width="514" height="553" frameX="-5" frameY="0" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0008" x="1563" y="6" width="514" height="553" frameX="-5" frameY="0" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0009" x="1563" y="6" width="514" height="553" frameX="-5" frameY="0" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0010" x="1563" y="6" width="514" height="553" frameX="-5" frameY="0" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0011" x="1563" y="6" width="514" height="553" frameX="-5" frameY="0" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0012" x="1563" y="6" width="514" height="553" frameX="-5" frameY="0" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourDown0013" x="1563" y="6" width="514" height="553" frameX="-5" frameY="0" frameWidth="519" frameHeight="553"/>
+	<SubTexture name="SickSourIdle0000" x="2083" y="6" width="532" height="565" frameX="0" frameY="-1" frameWidth="532" frameHeight="566"/>
+	<SubTexture name="SickSourIdle0001" x="2083" y="6" width="532" height="565" frameX="0" frameY="-1" frameWidth="532" frameHeight="566"/>
+	<SubTexture name="SickSourIdle0002" x="2621" y="6" width="532" height="566"/>
+	<SubTexture name="SickSourIdle0003" x="2621" y="6" width="532" height="566"/>
+	<SubTexture name="SickSourLeft0000" x="3159" y="6" width="516" height="566" frameX="0" frameY="0" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0001" x="3159" y="6" width="516" height="566" frameX="0" frameY="0" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0002" x="6" y="578" width="517" height="564" frameX="0" frameY="-2" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0003" x="6" y="578" width="517" height="564" frameX="0" frameY="-2" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0004" x="529" y="578" width="518" height="557" frameX="-1" frameY="-9" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0005" x="529" y="578" width="518" height="557" frameX="-1" frameY="-9" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0006" x="1053" y="578" width="519" height="560" frameX="-1" frameY="-6" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0007" x="1053" y="578" width="519" height="560" frameX="-1" frameY="-6" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0008" x="1053" y="578" width="519" height="560" frameX="-1" frameY="-6" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0009" x="1053" y="578" width="519" height="560" frameX="-1" frameY="-6" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0010" x="1053" y="578" width="519" height="560" frameX="-1" frameY="-6" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0011" x="1053" y="578" width="519" height="560" frameX="-1" frameY="-6" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0012" x="1053" y="578" width="519" height="560" frameX="-1" frameY="-6" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourLeft0013" x="1053" y="578" width="519" height="560" frameX="-1" frameY="-6" frameWidth="520" frameHeight="566"/>
+	<SubTexture name="SickSourRight0000" x="1578" y="578" width="584" height="552" frameX="-2" frameY="0" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0001" x="1578" y="578" width="584" height="552" frameX="-2" frameY="0" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0002" x="2168" y="578" width="580" height="550" frameX="-2" frameY="-2" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0003" x="2168" y="578" width="580" height="550" frameX="-2" frameY="-2" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0004" x="2754" y="578" width="561" height="550" frameX="0" frameY="-2" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0005" x="2754" y="578" width="561" height="550" frameX="0" frameY="-2" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0006" x="3321" y="578" width="559" height="552" frameX="0" frameY="0" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0007" x="3321" y="578" width="559" height="552" frameX="0" frameY="0" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0008" x="3321" y="578" width="559" height="552" frameX="0" frameY="0" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0009" x="3321" y="578" width="559" height="552" frameX="0" frameY="0" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0010" x="3321" y="578" width="559" height="552" frameX="0" frameY="0" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0011" x="3321" y="578" width="559" height="552" frameX="0" frameY="0" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0012" x="3321" y="578" width="559" height="552" frameX="0" frameY="0" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourRight0013" x="3321" y="578" width="559" height="552" frameX="0" frameY="0" frameWidth="586" frameHeight="552"/>
+	<SubTexture name="SickSourUp0000" x="6" y="1148" width="510" height="579" frameX="-1" frameY="0" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0001" x="6" y="1148" width="510" height="579" frameX="-1" frameY="0" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0002" x="522" y="1148" width="511" height="578" frameX="-1" frameY="-1" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0003" x="522" y="1148" width="511" height="578" frameX="-1" frameY="-1" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0004" x="1039" y="1148" width="523" height="563" frameX="0" frameY="-12" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0005" x="1039" y="1148" width="523" height="563" frameX="0" frameY="-12" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0006" x="1568" y="1148" width="524" height="562" frameX="0" frameY="-13" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0007" x="1568" y="1148" width="524" height="562" frameX="0" frameY="-13" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0008" x="1568" y="1148" width="524" height="562" frameX="0" frameY="-13" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0009" x="1568" y="1148" width="524" height="562" frameX="0" frameY="-13" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0010" x="1568" y="1148" width="524" height="562" frameX="0" frameY="-13" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0011" x="1568" y="1148" width="524" height="562" frameX="0" frameY="-13" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0012" x="1568" y="1148" width="524" height="562" frameX="0" frameY="-13" frameWidth="524" frameHeight="579"/>
+	<SubTexture name="SickSourUp0013" x="1568" y="1148" width="524" height="562" frameX="0" frameY="-13" frameWidth="524" frameHeight="579"/>
+</TextureAtlas>

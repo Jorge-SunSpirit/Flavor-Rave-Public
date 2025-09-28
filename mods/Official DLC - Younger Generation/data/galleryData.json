@@ -1,0 +1,96 @@
+{
+	"artwork":
+	[
+		{
+			"image": "gummyearly",
+			"caption": "YOUNGER GEN. DLC - Gummy Original Concepts",
+			"artist": "Mochoco",
+			"url": "https://x.com/mochocofrappe",
+			"songCheck": "SUPERFAN"
+		},
+		{
+			"image": "gummyfinal",
+			"caption": "YOUNGER GEN. DLC - Gummy Final Concepts",
+			"artist": "Mochoco",
+			"url": "https://x.com/mochocofrappe",
+			"songCheck": "SUPERFAN"
+		},
+		{
+			"image": "gummyparents",
+			"caption": "YOUNGER GEN. DLC - Gummy's Parents",
+			"artist": "Mochoco",
+			"url": "https://x.com/mochocofrappe",
+			"songCheck": "SUPERFAN"
+		},
+		{
+			"image": "doodlefan",
+			"caption": "YOUNGER GEN. DLC - SUPERFAN",
+			"artist": "Zankow",
+			"twitter": "https://x.com/zankow139_2",
+			"songCheck": "SUPERFAN"
+		},
+		{
+			"image": "runsmoky",
+			"caption": "YOUNGER GEN. DLC - Run, run!",
+			"artist": "Space Dust",
+			"twitter": "https://x.com/SPACEE_DUST_",
+			"songCheck": "SUPERFAN"
+		},
+		{
+			"image": "saffsketch",
+			"caption": "YOUNGER GEN. DLC - Saff Initial Sketch",
+			"artist": "SirDusterBuster",
+			"url": "https://x.com/SirDusterBuster",
+			"songCheck": "saff"
+		},
+		{
+			"image": "floral",
+			"caption": "YOUNGER GEN. DLC - Floral Final Concepts",
+			"artist": "JChearts",
+			"url": "https://x.com/jc_hearts",
+			"songCheck": "saff"
+		},
+		{
+			"image": "tuckeredout",
+			"caption": "YOUNGER GEN. DLC - Tuckered Out",
+			"artist": "LVArts",
+			"url": "https://bsky.app/profile/lvarts.bsky.social",
+			"songCheck": "saff"
+		},
+		{
+			"image": "frkids",
+			"caption": "YOUNGER GEN. DLC - Sharing is Caring",
+			"artist": "SirDusterBuster",
+			"url": "https://x.com/SirDusterBuster",
+			"songCheck": "saff"
+		},
+		{
+			"image": "bestiesmaybe",
+			"caption": "YOUNGER GEN. DLC - Besties... maybe.",
+			"artist": "Mochoco",
+			"url": "https://x.com/mochocofrappe",
+			"songCheck": "saff"
+		},
+		{
+			"image": "koolfriends",
+			"caption": "YOUNGER GEN. DLC - Sillies",
+			"artist": "Space Dust",
+			"twitter": "https://x.com/SPACEE_DUST_",
+			"songCheck": "saff"
+		},
+		{
+			"image": "arttime",
+			"caption": "YOUNGER GEN. DLC - Let's Draw Together!",
+			"artist": "Emeruga",
+			"url": "https://x.com/Emeruga",
+			"songCheck": "saff"
+		},
+		{
+			"image": "kidsart",
+			"caption": "YOUNGER GEN. DLC - Draw what you love!",
+			"artist": "Mochoco",
+			"url": "https://x.com/mochocofrappe",
+			"songCheck": "saff"
+		}
+	]
+}

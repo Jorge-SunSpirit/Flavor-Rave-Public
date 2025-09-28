@@ -326,6 +326,8 @@ class ModsMenuState extends MusicBeatState
 		var path:String = 'dlcList.txt';
 		File.saveContent(path, fileStr);
 		Paths.pushGlobalMods();
+		Paths.pushTranslationMods();
+		trace("saved mod list!: " + fileStr);
 	}
 
 	var noModsSine:Float = 0;
@@ -504,9 +506,10 @@ class ModsMenuState extends MusicBeatState
 		extraData = Json.parse(rawData).data;
 		if (extraData == null) return;
 		trace(extraData[1].description);
-
+		var pos:Int = 0;
 		for (i in 0...extraData.length)
 		{
+			if (!officialList.contains(extraData[i].folder)) officialList.push(extraData[i].folder);
 			var exists:Bool = false;
 			for (j in 0...modsList.length)
 			{
@@ -521,15 +524,36 @@ class ModsMenuState extends MusicBeatState
 			{
 				trace("FOLDER DOES NOT EXIST: " + extraData[i].folder + "! TRY TO DOWNLOAD IT!");
 				imagesToLoad.push(extraData[i].thumb);
-				addUndownloadedMod(extraData[i]);
+				addUndownloadedMod(extraData[i], pos);
+				pos++;
 			}
 		}
 
 		trace("GOTTA LOAD THESE IMAGES: " + imagesToLoad);
-
+		trace("OFFICIAL MOD LIST: " + officialList);
+		fixDLCSort();
 	}
 
-	function addUndownloadedMod(data:Dynamic)
+	function fixDLCSort()
+	{
+		var arrayPos:Int = 0;
+		for (name in officialList)
+		{
+			for (values in modsList)
+			{
+				if (values[0] == name)
+				{
+					modsList.remove(values);
+					modsList.insert(arrayPos, values);
+					arrayPos++;
+					break;
+				}
+			}
+		}
+		saveTxt();
+	}
+
+	function addUndownloadedMod(data:Dynamic, pos:Int)
 	{
 		var metadata = new ModMetadata("");
 		metadata.name = data.name;
@@ -538,7 +562,8 @@ class ModsMenuState extends MusicBeatState
 		metadata.description = data.description;
 		metadata.link = data.link;
 		metadata.imageLink = data.thumb;
-		mods.insert(0, metadata);
+		metadata.version = data.version;
+		mods.insert(pos, metadata);
 
 		loadDLCGraphics(metadata, true);
 	}
@@ -658,6 +683,8 @@ class ModMetadata
 	public var link:String;
 	public var imageLink:String;
 
+	public var version:String;
+
 	public function new(folder:String)
 	{
 		this.folder = folder;
@@ -671,6 +698,7 @@ class ModMetadata
 		this.link = "";
 		this.imageLink = "";
 		this.hasIcon = false;
+		this.version = "1.0.0";
 
 		//Try loading json
 		var path = Paths.mods(folder + '/pack.json');
@@ -686,6 +714,7 @@ class ModMetadata
 					var release:String = Reflect.getProperty(stuff, "release");
 					var type:String = Reflect.getProperty(stuff, "type");
 					var hidden:Bool = Reflect.getProperty(stuff, "hidden");
+					var version:String = Reflect.getProperty(stuff, "version");
 
 				if(name != null && name.length > 0)
 				{
@@ -709,6 +738,7 @@ class ModMetadata
 				}
 				if (release != null) this.release = release;
 				if (type != null) this.type = type;
+				if (version != null) this.version = version;
 				this.hidden = hidden;
 
 				this.restart = restart;

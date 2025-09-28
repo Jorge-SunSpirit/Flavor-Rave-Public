@@ -12,6 +12,7 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import haxe.Json;
 import openfl.utils.Assets;
+import flixel.sound.FlxSound;
 #if MODS_ALLOWED
 import sys.io.File;
 import sys.FileSystem;
@@ -43,7 +44,7 @@ typedef DreamcastDialogueLine =
 class DialogueBoxDreamcast extends FlxSpriteGroup
 {
 	var dialogueData:DreamcastDialogueFile;
-
+	var dialogueBGM:FlxSound;
 	var background:FlxSprite;
 	var background2:FlxSprite;
 	var border:FlxSprite;
@@ -108,6 +109,8 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 		modiOpti.antialiasing = ClientPrefs.globalAntialiasing;
 		modiOpti.color = 0xFF747474;
 		add(modiOpti);
+
+		dialogueBGM = new FlxSound();
 
 		startDialogue();
 	}
@@ -287,14 +290,15 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 				switch (curDialogue.bgm)
 				{
 					default:
-						FlxG.sound.playMusic(Paths.music(curDialogue.bgm), 0);
-						FlxG.sound.music.fadeIn(1, 0, curDialogue.bgmVolume);
+						dialogueBGM.loadEmbedded(Paths.music(curDialogue.bgm), true);
+						dialogueBGM.play(true, 0);
+						dialogueBGM.fadeIn(1, 0, curDialogue.bgmVolume);
 					case 'stop':
-						FlxG.sound.music.fadeOut(1, 0);
+						dialogueBGM.fadeOut(1, 0);
 					case 'resume':
-						FlxG.sound.music.fadeIn(1, 0, curDialogue.bgmVolume);
+						dialogueBGM.fadeIn(1, 0, curDialogue.bgmVolume);
 					case 'volume':
-						FlxG.sound.music.volume = curDialogue.bgmVolume;
+						dialogueBGM.volume = curDialogue.bgmVolume;
 				}
 			}
 
@@ -317,9 +321,9 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 					if (curDialogue.number == null)
 						curDialogue.number = 1;
 
-					FlxG.sound.music.fadeOut(curDialogue.number, 0, function(twn:FlxTween)
+					dialogueBGM.fadeOut(curDialogue.number, 0, function(twn:FlxTween)
 					{
-						FlxG.sound.music.pause();
+						dialogueBGM.pause();
 
 						if (!curDialogue.endImmediately)
 							endDialogue();
@@ -330,8 +334,8 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 					if (curDialogue.number == null)
 						curDialogue.number = 1;
 
-					FlxG.sound.music.play();
-					FlxG.sound.music.fadeIn(curDialogue.number, 0, curDialogue.bgmVolume, function(twn:FlxTween)
+					dialogueBGM.play();
+					dialogueBGM.fadeIn(curDialogue.number, 0, curDialogue.bgmVolume, function(twn:FlxTween)
 					{
 						if (!curDialogue.endImmediately)
 							endDialogue();
@@ -339,12 +343,12 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 				}
 				case 'stopmusic':
 				{
-					FlxG.sound.music.stop();
+					dialogueBGM.stop();
 					endDialogue();
 				}
 				case 'musicvolume':
 				{
-					FlxG.sound.music.volume = curDialogue.bgmVolume;
+					dialogueBGM.volume = curDialogue.bgmVolume;
 					endDialogue();
 				}
 				case 'musicfadeout':
@@ -353,7 +357,7 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 						curDialogue.number = 1;
 
 					// Since we use bgmVolume, anything fading out to 0 will need bgmVolume or else it'll go to 1 (sorry LOL)
-					FlxG.sound.music.fadeOut(curDialogue.number, curDialogue.bgmVolume, function(twn:FlxTween)
+					dialogueBGM.fadeOut(curDialogue.number, curDialogue.bgmVolume, function(twn:FlxTween)
 					{
 						if (!curDialogue.endImmediately)
 							endDialogue();
@@ -385,7 +389,7 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 					if (curDialogue.number == null)
 						curDialogue.number = 1.5;
 
-					FlxG.sound.music.fadeOut(curDialogue.number, 0);
+					dialogueBGM.fadeOut(curDialogue.number, 0);
 					PlayState.instance.camOther.fade(0xFF000000, curDialogue.number, false, function()
 					{
 						if (!curDialogue.endImmediately)
@@ -483,8 +487,8 @@ class DialogueBoxDreamcast extends FlxSpriteGroup
 	{
 		allowInput = false;
 
-		if (FlxG.sound.music.playing)
-			FlxG.sound.music.fadeOut(Conductor.stepCrochet / 256, 0);
+		if (dialogueBGM != null && dialogueBGM.playing)
+			dialogueBGM.fadeOut(Conductor.stepCrochet / 256, 0);
 
 		new FlxTimer().start(0.1, function(tmr:FlxTimer)
 		{

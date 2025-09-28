@@ -42,15 +42,6 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			false);
 		addOption(option);
 
-		#if SONG_ROLLBACK
-		var option:Option = new Option('Song Rollback',
-			'Rolls back time if the game stalls for over 1/10 of a second.\nFixes events breaking if you resize/move the window.\n\nDisable if you have major performance issues invoking this.',
-			'songRollback',
-			'bool',
-			false);
-		addOption(option);
-		#end
-
 		//I'd suggest using "Downscroll" as an example for making your own option since it is the simplest here
 		var option:Option = new Option('Downscroll', //Name
 			'If checked, notes go Down instead of Up, simple enough.', //Description

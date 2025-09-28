@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="doodle-bg.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BG0000" x="6" y="6" width="2400" height="1366"/>
+	<SubTexture name="BG0001" x="6" y="6" width="2400" height="1366"/>
+	<SubTexture name="BG0002" x="6" y="6" width="2400" height="1366"/>
+	<SubTexture name="BG0003" x="6" y="6" width="2400" height="1366"/>
+	<SubTexture name="BG0004" x="6" y="6" width="2400" height="1366"/>
+	<SubTexture name="BG0005" x="6" y="6" width="2400" height="1366"/>
+	<SubTexture name="BG0006" x="6" y="1378" width="2400" height="1366"/>
+	<SubTexture name="BG0007" x="6" y="1378" width="2400" height="1366"/>
+	<SubTexture name="BG0008" x="6" y="1378" width="2400" height="1366"/>
+	<SubTexture name="BG0009" x="6" y="1378" width="2400" height="1366"/>
+	<SubTexture name="BG0010" x="6" y="1378" width="2400" height="1366"/>
+	<SubTexture name="BG0011" x="6" y="1378" width="2400" height="1366"/>
+</TextureAtlas>

@@ -186,7 +186,7 @@ class Achievements {
 			var directory:String = directories[i];
 			if(FileSystem.exists(directory)) 
 			{
-				for (file in FileSystem.readDirectory(directory)) 
+				for (file in CoolUtil.readDirectory(directory)) 
 				{
 					var path = haxe.io.Path.join([directory, file]);
 					if (!FileSystem.isDirectory(path) && file.endsWith('.json')) 

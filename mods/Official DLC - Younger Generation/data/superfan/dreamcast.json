@@ -1,0 +1,124 @@
+{
+	"dialogue": [
+		{
+			"background": "blackhueh",
+			"chara": ["gummy", 2, true],
+			"border": "default",
+			"text": "It's time for another episode of everyone's favorite silly slice-of-life series! Gummy's Grand Tales!",
+			"voice": ""
+		},
+		{
+			"background": "gummy1",
+			"chara": ["gummy", 2, true],
+			"bgm": "gummytale",
+			"bgmVolume": 0.5,
+			"sound": ["gummy","todaysepisode"],
+			"text": "On today's episode… Tea Time Troubles!",
+			"voice": ""
+		},
+		{
+			"background": "gummy1",
+			"chara": ["gummy", 1, true],
+			"sound": ["gummy","gaspers"],
+			"text": "Gaspers! Mama and Papa ran out of their favorite tea! Now they can't start their day with their favorite, most flavor-ite drinks!",
+			"voice": ""
+		},
+		{
+			"background": "gummy2",
+			"chara": ["gummy", 2, true],
+			"text": "But fear not, viewers! Our tea-less troopers have entrusted me, the humble and lovable protagonist, Gummy!!! -to go on a grand quest to retrieve some more!",
+			"voice": ""
+		},
+		{
+			"background": "gummy3",
+			"chara": ["gummy", 0, true],
+			"sound": ["gummy","letsgo"],
+			"text": "And that's where today's episode begins… here in the outskirts of the city, known in legends as Old Togarashi! Gummy makes her way inside, searching for the treasured tea store…",
+			"voice": ""
+		},
+		{
+			"background": "gummy4",
+			"chara": ["smoky", 0, true],
+			"sound": ["smoky","hmm"],
+			"text": "Hmm… guess Herbal's is closed today…",
+			"voice": ""
+		},
+		{
+			"background": "gummy4",
+			"chara": ["gummy", 0, true],
+			"text": "Gummy approaches this strange, foreign land, ready to face whatever challenges are waiting for-",
+			"voice": ""
+		},
+		{
+			"background": "gummy4",
+			"chara": ["smoky", 0, true],
+			"text": "…",
+			"voice": ""
+		},
+		{
+			"background": "gummy5",
+			"chara": ["gummy", 0, true],
+			"sound": ["gummy","woahthree"],
+			"text": "Woah, woah, woah!!! Ehehehehe!! Looks like today's episode features a SPECIAL GUEST!",
+			"voice": ""
+		},
+		{
+			"background": "gummy5",
+			"chara": ["smoky", 0, true],
+			"sound": ["smoky","huh"],
+			"text": "..?",
+			"voice": ""
+		},
+		{
+			"background": "gummy5",
+			"chara": ["gummy", 2, true],
+			"sound": ["gummy","smoky"],
+			"text": "Lookie, lookie! Its really him! The Flame of Togarashi Town! Or “the ashen cloud behind it” like he says in all his interviews, heh heh.",
+			"voice": ""
+		},
+		{
+			"background": "gummy5",
+			"chara": ["smoky", 0, true],
+			"text": "I'm guessing you're... a fan?",
+			"voice": ""
+		},
+		{
+			"background": "gummy6",
+			"chara": ["gummy", 2, true],
+			"text": "Only the biggest! You're, like, the number one coolest person ever! When you and Spicy perform, it's like watching a crazy anime fight scene, but it's real!",
+			"voice": ""
+		},
+		{
+			"background": "gummy6",
+			"chara": ["gummy", 2, true],
+			"sound": ["gummy","fwoosh"],
+			"text": "The way Spicy is all like FWOOOSH with her fire and you come in all like SHWOOOOM from the smoke clouds all cool n’ spooky-like! You're just like the protags of my favorite isekai anime!",
+			"voice": ""
+		},
+		{
+			"background": "gummy6",
+			"chara": ["smoky", 0, true],
+			"text": "I'm… flattered?",
+			"voice": ""
+		},
+		{
+			"background": "gummy6",
+			"chara": ["gummy", 2, true],
+			"text": "This is an extra special episode, yes yes! You sang with a stranger in your own side arc last week, so consider this a callback!",
+			"voice": ""
+		},
+		{
+			"background": "gummy6",
+			"chara": ["gummy", 0, true],
+			"text": "The tea fetching plot can take a quick break, this is important for my character development!",
+			"voice": ""
+		},
+		{
+			"background": "gummy6",
+			"chara": ["smoky", 1, true],
+			"sound": ["smoky","what"],
+			"text": " …what do I do?",
+			"voice": ""
+		}
+	]
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="XyloTime.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="XyloTime0000" x="6" y="6" width="1023" height="380" frameX="-10" frameY="-10" frameWidth="1043" frameHeight="400"/>
+	<SubTexture name="XyloTime0001" x="6" y="6" width="1023" height="380" frameX="-10" frameY="-10" frameWidth="1043" frameHeight="400"/>
+	<SubTexture name="XyloTime0002" x="1035" y="6" width="1042" height="398" frameX="0" frameY="-1" frameWidth="1043" frameHeight="400"/>
+	<SubTexture name="XyloTime0003" x="1035" y="6" width="1042" height="398" frameX="0" frameY="-1" frameWidth="1043" frameHeight="400"/>
+	<SubTexture name="XyloTime0004" x="2083" y="6" width="1043" height="400"/>
+	<SubTexture name="XyloTime0005" x="2083" y="6" width="1043" height="400"/>
+	<SubTexture name="XyloTime0006" x="6" y="412" width="1023" height="380" frameX="-10" frameY="-10" frameWidth="1043" frameHeight="400"/>
+	<SubTexture name="XyloTime0007" x="6" y="412" width="1023" height="380" frameX="-10" frameY="-10" frameWidth="1043" frameHeight="400"/>
+	<SubTexture name="XyloTime0008" x="1035" y="412" width="1042" height="398" frameX="0" frameY="-1" frameWidth="1043" frameHeight="400"/>
+	<SubTexture name="XyloTime0009" x="1035" y="412" width="1042" height="398" frameX="0" frameY="-1" frameWidth="1043" frameHeight="400"/>
+	<SubTexture name="XyloTime0010" x="2083" y="412" width="1043" height="400"/>
+	<SubTexture name="XyloTime0011" x="2083" y="412" width="1043" height="400"/>
+</TextureAtlas>

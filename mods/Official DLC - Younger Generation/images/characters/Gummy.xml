@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Gummy.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Gummers Down0000" x="7" y="7" width="320" height="412" frameX="0" frameY="-11" frameWidth="321" frameHeight="423"/>
+	<SubTexture name="Gummers Down0001" x="7" y="7" width="320" height="412" frameX="0" frameY="-11" frameWidth="321" frameHeight="423"/>
+	<SubTexture name="Gummers Down0002" x="334" y="7" width="312" height="413" frameX="-3" frameY="-10" frameWidth="321" frameHeight="423"/>
+	<SubTexture name="Gummers Down0003" x="334" y="7" width="312" height="413" frameX="-3" frameY="-10" frameWidth="321" frameHeight="423"/>
+	<SubTexture name="Gummers Down0004" x="653" y="7" width="319" height="422" frameX="-1" frameY="-1" frameWidth="321" frameHeight="423"/>
+	<SubTexture name="Gummers Down0005" x="653" y="7" width="319" height="422" frameX="-1" frameY="-1" frameWidth="321" frameHeight="423"/>
+	<SubTexture name="Gummers Down0006" x="979" y="7" width="321" height="423"/>
+	<SubTexture name="Gummers Down0007" x="979" y="7" width="321" height="423"/>
+	<SubTexture name="Gummers Down0008" x="979" y="7" width="321" height="423"/>
+	<SubTexture name="Gummers Down0009" x="979" y="7" width="321" height="423"/>
+	<SubTexture name="Gummers Down0010" x="979" y="7" width="321" height="423"/>
+	<SubTexture name="Gummers Down0011" x="979" y="7" width="321" height="423"/>
+	<SubTexture name="Gummers Down0012" x="979" y="7" width="321" height="423"/>
+	<SubTexture name="Gummers Down0013" x="979" y="7" width="321" height="423"/>
+	<SubTexture name="Gummers Idle0000" x="1307" y="7" width="325" height="470" frameX="0" frameY="-8" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0001" x="1307" y="7" width="325" height="470" frameX="0" frameY="-8" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0002" x="1639" y="7" width="324" height="468" frameX="-6" frameY="-10" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0003" x="1639" y="7" width="324" height="468" frameX="-6" frameY="-10" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0004" x="1970" y="7" width="324" height="471" frameX="-7" frameY="-7" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0005" x="1970" y="7" width="324" height="471" frameX="-7" frameY="-7" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0006" x="2301" y="7" width="316" height="476" frameX="-18" frameY="-2" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0007" x="2301" y="7" width="316" height="476" frameX="-18" frameY="-2" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0008" x="2624" y="7" width="316" height="478" frameX="-18" frameY="0" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0009" x="2624" y="7" width="316" height="478" frameX="-18" frameY="0" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0010" x="2624" y="7" width="316" height="478" frameX="-18" frameY="0" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0011" x="2624" y="7" width="316" height="478" frameX="-18" frameY="0" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0012" x="2624" y="7" width="316" height="478" frameX="-18" frameY="0" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0013" x="2947" y="7" width="318" height="475" frameX="-25" frameY="-3" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0014" x="2947" y="7" width="318" height="475" frameX="-25" frameY="-3" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0015" x="3272" y="7" width="317" height="470" frameX="-21" frameY="-8" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0016" x="3272" y="7" width="317" height="470" frameX="-21" frameY="-8" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0017" x="3596" y="7" width="317" height="473" frameX="-20" frameY="-5" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0018" x="3596" y="7" width="317" height="473" frameX="-20" frameY="-5" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0019" x="7" y="492" width="316" height="477" frameX="-20" frameY="-1" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0020" x="7" y="492" width="316" height="477" frameX="-20" frameY="-1" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0021" x="2624" y="7" width="316" height="478" frameX="-18" frameY="0" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0022" x="2624" y="7" width="316" height="478" frameX="-18" frameY="0" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0023" x="2624" y="7" width="316" height="478" frameX="-18" frameY="0" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0024" x="2624" y="7" width="316" height="478" frameX="-18" frameY="0" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Idle0025" x="2624" y="7" width="316" height="478" frameX="-18" frameY="0" frameWidth="343" frameHeight="478"/>
+	<SubTexture name="Gummers Left0000" x="330" y="492" width="366" height="450" frameX="0" frameY="-4" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0001" x="330" y="492" width="366" height="450" frameX="0" frameY="-4" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0002" x="703" y="492" width="355" height="454" frameX="-11" frameY="0" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0003" x="703" y="492" width="355" height="454" frameX="-11" frameY="0" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0004" x="1065" y="492" width="354" height="450" frameX="-12" frameY="-4" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0005" x="1065" y="492" width="354" height="450" frameX="-12" frameY="-4" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0006" x="1426" y="492" width="354" height="448" frameX="-13" frameY="-6" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0007" x="1426" y="492" width="354" height="448" frameX="-13" frameY="-6" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0008" x="1426" y="492" width="354" height="448" frameX="-13" frameY="-6" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0009" x="1426" y="492" width="354" height="448" frameX="-13" frameY="-6" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0010" x="1426" y="492" width="354" height="448" frameX="-13" frameY="-6" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0011" x="1426" y="492" width="354" height="448" frameX="-13" frameY="-6" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0012" x="1426" y="492" width="354" height="448" frameX="-13" frameY="-6" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Left0013" x="1426" y="492" width="354" height="448" frameX="-13" frameY="-6" frameWidth="367" frameHeight="454"/>
+	<SubTexture name="Gummers Miss Down0000" x="1787" y="492" width="320" height="412" frameX="-46" frameY="0" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0001" x="1787" y="492" width="320" height="412" frameX="-46" frameY="0" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0002" x="2114" y="492" width="337" height="386" frameX="0" frameY="-26" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0003" x="2114" y="492" width="337" height="386" frameX="0" frameY="-26" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0004" x="2458" y="492" width="324" height="399" frameX="-12" frameY="-13" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0005" x="2458" y="492" width="324" height="399" frameX="-12" frameY="-13" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0006" x="2458" y="492" width="324" height="399" frameX="-12" frameY="-13" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0007" x="2458" y="492" width="324" height="399" frameX="-12" frameY="-13" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0008" x="2458" y="492" width="324" height="399" frameX="-12" frameY="-13" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0009" x="2458" y="492" width="324" height="399" frameX="-12" frameY="-13" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0010" x="2458" y="492" width="324" height="399" frameX="-12" frameY="-13" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0011" x="2458" y="492" width="324" height="399" frameX="-12" frameY="-13" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0012" x="2458" y="492" width="324" height="399" frameX="-12" frameY="-13" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Down0013" x="2458" y="492" width="324" height="399" frameX="-12" frameY="-13" frameWidth="366" frameHeight="412"/>
+	<SubTexture name="Gummers Miss Left0000" x="2789" y="492" width="366" height="450" frameX="-63" frameY="0" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0001" x="2789" y="492" width="366" height="450" frameX="-63" frameY="0" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0002" x="3162" y="492" width="434" height="429" frameX="0" frameY="-21" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0003" x="3162" y="492" width="434" height="429" frameX="0" frameY="-21" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0004" x="3603" y="492" width="393" height="439" frameX="-43" frameY="-11" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0005" x="3603" y="492" width="393" height="439" frameX="-43" frameY="-11" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0006" x="3603" y="492" width="393" height="439" frameX="-43" frameY="-11" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0007" x="3603" y="492" width="393" height="439" frameX="-43" frameY="-11" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0008" x="3603" y="492" width="393" height="439" frameX="-43" frameY="-11" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0009" x="3603" y="492" width="393" height="439" frameX="-43" frameY="-11" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0010" x="3603" y="492" width="393" height="439" frameX="-43" frameY="-11" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0011" x="3603" y="492" width="393" height="439" frameX="-43" frameY="-11" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0012" x="3603" y="492" width="393" height="439" frameX="-43" frameY="-11" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Left0013" x="3603" y="492" width="393" height="439" frameX="-43" frameY="-11" frameWidth="436" frameHeight="450"/>
+	<SubTexture name="Gummers Miss Right0000" x="1768" y="976" width="523" height="458" frameX="-7" frameY="0" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Miss Right0001" x="1768" y="976" width="523" height="458" frameX="-7" frameY="0" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Miss Right0002" x="7" y="976" width="525" height="370" frameX="0" frameY="-88" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Right0003" x="7" y="976" width="525" height="370" frameX="0" frameY="-88" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Right0004" x="539" y="976" width="509" height="404" frameX="-5" frameY="-54" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Right0005" x="539" y="976" width="509" height="404" frameX="-5" frameY="-54" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Right0006" x="539" y="976" width="509" height="404" frameX="-5" frameY="-54" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Right0007" x="539" y="976" width="509" height="404" frameX="-5" frameY="-54" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Right0008" x="539" y="976" width="509" height="404" frameX="-5" frameY="-54" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Right0009" x="539" y="976" width="509" height="404" frameX="-5" frameY="-54" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Right0010" x="539" y="976" width="509" height="404" frameX="-5" frameY="-54" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Right0011" x="539" y="976" width="509" height="404" frameX="-5" frameY="-54" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Right0012" x="539" y="976" width="509" height="404" frameX="-5" frameY="-54" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Right0013" x="539" y="976" width="509" height="404" frameX="-5" frameY="-54" frameWidth="530" frameHeight="458"/>
+	<SubTexture name="Gummers Miss Up0000" x="7" y="1490" width="340" height="514" frameX="0" frameY="0" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0001" x="7" y="1490" width="340" height="514" frameX="0" frameY="0" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0002" x="1055" y="976" width="356" height="482" frameX="-4" frameY="-32" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0003" x="1055" y="976" width="356" height="482" frameX="-4" frameY="-32" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0004" x="1418" y="976" width="343" height="507" frameX="-8" frameY="-7" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0005" x="1418" y="976" width="343" height="507" frameX="-8" frameY="-7" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0006" x="1418" y="976" width="343" height="507" frameX="-8" frameY="-7" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0007" x="1418" y="976" width="343" height="507" frameX="-8" frameY="-7" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0008" x="1418" y="976" width="343" height="507" frameX="-8" frameY="-7" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0009" x="1418" y="976" width="343" height="507" frameX="-8" frameY="-7" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0010" x="1418" y="976" width="343" height="507" frameX="-8" frameY="-7" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0011" x="1418" y="976" width="343" height="507" frameX="-8" frameY="-7" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0012" x="1418" y="976" width="343" height="507" frameX="-8" frameY="-7" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Miss Up0013" x="1418" y="976" width="343" height="507" frameX="-8" frameY="-7" frameWidth="360" frameHeight="514"/>
+	<SubTexture name="Gummers Right0000" x="1768" y="976" width="523" height="458" frameX="-2" frameY="-2" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0001" x="1768" y="976" width="523" height="458" frameX="-2" frameY="-2" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0002" x="2298" y="976" width="519" height="454" frameX="0" frameY="-6" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0003" x="2298" y="976" width="519" height="454" frameX="0" frameY="-6" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0004" x="2824" y="976" width="517" height="458" frameX="0" frameY="-2" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0005" x="2824" y="976" width="517" height="458" frameX="0" frameY="-2" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0006" x="3348" y="976" width="517" height="460" frameX="0" frameY="0" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0007" x="3348" y="976" width="517" height="460" frameX="0" frameY="0" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0008" x="3348" y="976" width="517" height="460" frameX="0" frameY="0" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0009" x="3348" y="976" width="517" height="460" frameX="0" frameY="0" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0010" x="3348" y="976" width="517" height="460" frameX="0" frameY="0" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0011" x="3348" y="976" width="517" height="460" frameX="0" frameY="0" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0012" x="3348" y="976" width="517" height="460" frameX="0" frameY="0" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Right0013" x="3348" y="976" width="517" height="460" frameX="0" frameY="0" frameWidth="525" frameHeight="460"/>
+	<SubTexture name="Gummers Up0000" x="7" y="1490" width="340" height="514" frameX="-5" frameY="0" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0001" x="7" y="1490" width="340" height="514" frameX="-5" frameY="0" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0002" x="354" y="1490" width="349" height="510" frameX="0" frameY="-4" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0003" x="354" y="1490" width="349" height="510" frameX="0" frameY="-4" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0004" x="710" y="1490" width="346" height="508" frameX="-1" frameY="-6" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0005" x="710" y="1490" width="346" height="508" frameX="-1" frameY="-6" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0006" x="1063" y="1490" width="344" height="506" frameX="-2" frameY="-8" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0007" x="1063" y="1490" width="344" height="506" frameX="-2" frameY="-8" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0008" x="1063" y="1490" width="344" height="506" frameX="-2" frameY="-8" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0009" x="1063" y="1490" width="344" height="506" frameX="-2" frameY="-8" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0010" x="1063" y="1490" width="344" height="506" frameX="-2" frameY="-8" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0011" x="1063" y="1490" width="344" height="506" frameX="-2" frameY="-8" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0012" x="1063" y="1490" width="344" height="506" frameX="-2" frameY="-8" frameWidth="349" frameHeight="514"/>
+	<SubTexture name="Gummers Up0013" x="1063" y="1490" width="344" height="506" frameX="-2" frameY="-8" frameWidth="349" frameHeight="514"/>
+</TextureAtlas>

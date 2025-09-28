@@ -1,0 +1,13 @@
+{
+	"character":
+	[
+		{
+			"chara": "floral",
+			"name": "Floral",
+			"design": "Flavor Rave Original\nDesigned by JC",
+			"desc": "Preheats resident and father of Saff. A single dad trying his best to keep the Preheats lush and lively.",
+			"place": "Floral's Greenhouse",
+			"songCheck": "saff"
+		}
+	]
+}

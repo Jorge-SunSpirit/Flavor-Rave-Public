@@ -1,0 +1,22 @@
+{
+	"image": "gameover/SaffGO",
+	"animation": "SaffGO",
+	"spriteOffset": [660,670],
+	"flip_x": false,
+	"scale": 1.2,
+	"no_antialiasing": false,
+	"goSound": [
+		{
+			"sound": "saff/1",
+			"subtitles": "Daaaaaaaaaaad!:dur:1.455[NL]Tell those chumps behind the screen to stop embarrassing me!:dur:3.972"
+		},
+		{
+			"sound": "saff/2",
+			"subtitles": "Uh, Sour was literally right there, and somehow you made me look worse!:dur:4.943"
+		},
+		{
+			"sound": "saff/3",
+			"subtitles": "Uhhh, what the- Grrrrgh-!:dur:2.665[NL]Seriously? Is this what I-:dur:1.956[NL]Is this the thanks that I get?:dur:1.698[NL]Ugh, what is going on? What is up with these people?:dur:4.405[NL]UUUAAGGHHHH!! GRK-! Guh-! GAH-! GHH-!:dur:2.665[NL]I am so annoyed, I can't even form words.:dur:3.116[NL]No, no words-! Agh, ghh-!:dur:1.504[NL]Gjhsrbasrablvrjklbvgawvebllllbrrrr-:dur:1.870[NL]BLAHHH!!!:dur:0.580"
+		}
+	]
+}

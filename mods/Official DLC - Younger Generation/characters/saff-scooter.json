@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				228
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SaffScootLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				224
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SaffScootDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				250
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SaffScootUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				237
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SaffScootRight",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-50,
+				230
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "SaffScootIdle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/saff-scooter",
+	"position": [
+		0,
+		390
+	],
+	"healthicon": "saff",
+	"flip_x": false,
+	"healthbar_colors": [
+		189,
+		116,
+		229
+	],
+	"camera_position": [
+		0,
+		-220
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"noteskin": "Saff",
+	"healthbar_image": "saff"
+}

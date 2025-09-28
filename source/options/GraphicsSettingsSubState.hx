@@ -36,14 +36,6 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		title = Language.option.get('graphics_menu', 'Graphics');
 		rpcTitle = 'Graphics Settings Menu'; //for Discord Rich Presence
 
-		var option:Option = new Option('Fullscreen',
-			'If checked, makes the game take up the entire screen.',
-			'fullscreen',
-			'bool',
-			false);
-		option.onChange = onChangeFullscreen;
-		addOption(option);
-
 		//I'd suggest using "Low Quality" as an example for making your own option since it is the simplest here
 		var option:Option = new Option('Low Quality', //Name
 			'If checked, disables some background details,\ndecreases loading times and improves performance.', //Description
@@ -104,11 +96,6 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 				sprite.antialiasing = ClientPrefs.globalAntialiasing;
 			}
 		}
-	}
-
-	function onChangeFullscreen()
-	{
-		FlxG.fullscreen = ClientPrefs.fullscreen;
 	}
 
 	function onChangeFramerate()

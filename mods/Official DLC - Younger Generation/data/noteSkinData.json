@@ -1,0 +1,19 @@
+{
+	"noteSkins":
+	[
+		{
+			"skinName": "Saff",
+			"note": "ratings/saff/saffnote",
+			"noteSplash": ["ratings/saff/saff_notesplash", -80, -70, 0.5, 0.8],
+			"ratings_folder": "saff",
+			"songReq": "saff"
+		},
+		{
+			"skinName": "Gummy",
+			"note": "ratings/gummy/Gummy_NOTE_assets",
+			"noteSplash": ["ratings/gummy/gummy_notesplash", -80, -70, 0.5, 0.8],
+			"ratings_folder": "gummy",
+			"songReq": "SUPERFAN"
+		}
+	]
+}

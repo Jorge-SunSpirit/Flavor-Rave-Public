@@ -620,7 +620,6 @@ class SunSynthState extends MusicBeatState
 
 	function createChoicer(thechoicerArray:Array<ChoicerArray>)
 	{
-		// trace("CREATING CHOICER FROM: " + currentJson);
 		allowInput = false;
 		var thearray:Array<ChoicerArray> = [];
 
@@ -630,7 +629,7 @@ class SunSynthState extends MusicBeatState
 				thearray.push(choicer);
 		}
 
-		if (currentJson == 'peoplebase' || currentJson == 'placesbase' || currentJson == "announcerbase" || currentJson == "thingsbase")
+		if (currentJson.startsWith('peoplebase')|| currentJson.startsWith('placesbase') || currentJson.startsWith("announcerbase")|| currentJson.startsWith("thingsbase"))
 		{
 			#if MODS_ALLOWED
 			var curMJase:String = currentJson.replace("base", "modded");
@@ -638,10 +637,19 @@ class SunSynthState extends MusicBeatState
 			var modsDirectories:Array<String> = Paths.getGlobalMods();
 			for (folder in modsDirectories)
 			{
-				//This idea works and it's almost great. BUT 
 				var modPath:String = Paths.modFolders('synsun/${curMJase}.json', folder);
 				var modPathSuffix:String = Paths.modFolders('synsun/${curMJase}' + Language.flavor.get("synsun_suffix", "") + '.json', folder);
-				if (FileSystem.exists(modPathSuffix) || !FileSystem.exists(modPathSuffix) && FileSystem.exists(modPath))
+				if (Language.flavor.get("synsun_suffix", "") != "" && FileSystem.exists(modPathSuffix))
+				{
+					var json:ThaiDialogueFile = cast Json.parse(File.getContent(modPathSuffix));
+					var choicerStuff:Array<ChoicerArray> = json.dialogue[0].choices;
+					for (choicer in choicerStuff)
+					{
+						if (choicer.songCheck == null || choicer.songCheck == '' || choicer.songCheck != null && Highscore.checkBeaten(choicer.songCheck, 0))
+							thearray.push(choicer);
+					}
+				}
+				else if (FileSystem.exists(modPath))
 				{
 					var json:ThaiDialogueFile = cast Json.parse(File.getContent(modPath));
 					var choicerStuff:Array<ChoicerArray> = json.dialogue[0].choices;

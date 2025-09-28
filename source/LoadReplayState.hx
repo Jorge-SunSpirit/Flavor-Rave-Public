@@ -39,7 +39,7 @@ class LoadReplayState extends MusicBeatState
 		var menuBG:FlxSprite = new FlxSprite().loadGraphic(Paths.loadImage('menuDesat'));
 		// TODO: Refactor this to use OpenFlAssets.
 		#if FEATURE_FILESYSTEM
-		controlsStrings = sys.FileSystem.readDirectory(Sys.getCwd() + "/assets/replays/");
+		controlsStrings = CoolUtil.readDirectory(Sys.getCwd() + "/assets/replays/");
 		#end
 		trace(controlsStrings);
 

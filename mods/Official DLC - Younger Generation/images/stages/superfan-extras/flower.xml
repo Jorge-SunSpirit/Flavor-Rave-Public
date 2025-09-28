@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="flower.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Flower instance 10000" x="6" y="6" width="117" height="119"/>
+	<SubTexture name="Flower instance 10001" x="6" y="6" width="117" height="119"/>
+	<SubTexture name="Flower instance 10002" x="6" y="6" width="117" height="119"/>
+	<SubTexture name="Flower instance 10003" x="6" y="6" width="117" height="119"/>
+	<SubTexture name="Flower instance 10004" x="6" y="6" width="117" height="119"/>
+	<SubTexture name="Flower instance 10005" x="6" y="6" width="117" height="119"/>
+	<SubTexture name="Flower instance 10006" x="129" y="6" width="117" height="119"/>
+	<SubTexture name="Flower instance 10007" x="129" y="6" width="117" height="119"/>
+	<SubTexture name="Flower instance 10008" x="129" y="6" width="117" height="119"/>
+	<SubTexture name="Flower instance 10009" x="129" y="6" width="117" height="119"/>
+	<SubTexture name="Flower instance 10010" x="129" y="6" width="117" height="119"/>
+	<SubTexture name="Flower instance 10011" x="129" y="6" width="117" height="119"/>
+</TextureAtlas>

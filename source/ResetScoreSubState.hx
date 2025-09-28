@@ -38,7 +38,7 @@ class ResetScoreSubState extends MusicBeatSubstate
 		add(bg);
 
 		var tooLong:Float = (name.length > 18) ? 0.8 : 1; //Fucking Winter Horrorland
-		var text:Alphabet = new Alphabet(0, 180, "Reset the score of", true);
+		var text:Alphabet = new Alphabet(0, 180, Language.flavor.get('freeplay_resetscore_desc', "Reset the score of"), true);
 		text.screenCenter(X);
 		alphabetArray.push(text);
 		text.alpha = 0;
@@ -51,11 +51,11 @@ class ResetScoreSubState extends MusicBeatSubstate
 		text.alpha = 0;
 		add(text);
 
-		yesText = new Alphabet(0, text.y + 150, 'Yes', true);
+		yesText = new Alphabet(0, text.y + 150, Language.flavor.get('freeplay_resetscore_yes', 'Yes'), true);
 		yesText.screenCenter(X);
 		yesText.x -= 200;
 		add(yesText);
-		noText = new Alphabet(0, text.y + 150, 'No', true);
+		noText = new Alphabet(0, text.y + 150, Language.flavor.get('freeplay_resetscore_no', 'No'), true);
 		noText.screenCenter(X);
 		noText.x += 200;
 		add(noText);

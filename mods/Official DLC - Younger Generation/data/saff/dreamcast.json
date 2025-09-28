@@ -1,0 +1,407 @@
+{
+	"dialogue": [
+		{
+			"background": "blackhueh",
+			"chara": ["sweet", 2, true],
+			"border": "default",
+			"bgm": "LavenderPark",
+			"bgmVolume": 0.12,
+			"text": "…and that’s everything and everyone in the mainland!",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["sour", 0, true],
+			"border": "default",
+			"text": "Wow… The Preheats is way bigger than I thought. I had the impression that it was, like, exclusive.",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["sweet", 0, true],
+			"border": "default",
+			"text": "A lot of people come and go, but there’s always plenty of occupancy.",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["sweet", 1, true],
+			"border": "default",
+			"text": "Though I’m sure you noticed, everyone around where my family is skews on the older… and frankly more reclusive side. Most people go here to retire lavishly, I suppose. That’s how I’m still the youngest.",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["sweet", 2, true],
+			"border": "default",
+			"text": "Though that isn’t so down in the town! Allow me to show you!",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","laugh"],
+			"border": "default",
+			"text": "Heh, alright!",
+			"voice": ""
+		},
+		{
+			"background": "blackhueh",
+			"chara": ["sweet", 2, true],
+			"border": "greenhouse",
+			"text": "Firstly, the greenhouse! The owner cares for the most beautiful plants!",
+			"voice": ""
+		},
+		{
+			"background": "saff1",
+			"chara": ["floral", 2, false],
+			"border": "greenhouse",
+			"text": "Oh? Is that Sweet I hear? How goes things? We’ve got your father’s favorite’s bloomed and ready if that’s what you’re here for.",
+			"voice": ""
+		},
+		{
+			"background": "saff1",
+			"chara": ["sweet", 2, true],
+			"border": "greenhouse",
+			"text": "Hello, Mr. Floral! I’m stopping in just to say hello, actually! My partner has come to visit!",
+			"voice": ""
+		},
+		{
+			"background": "saff1",
+			"chara": ["floral", 2, false],
+			"sound": ["floral","howgoesit"],
+			"border": "greenhouse",
+			"text": "Well, howdy there! Happy to welcome a new face here at Floral’s. And… well, Floral is me, eheheh.",
+			"voice": ""
+		},
+		{
+			"background": "saff2",
+			"chara": ["sour", 2, true],
+			"sound": ["sour","sup"],
+			"border": "greenhouse",
+			"text": "Sup? Name’s Sour.",
+			"voice": ""
+		},		
+		{
+			"background": "saff2",
+			"chara": ["sour", 2, true],
+			"border": "greenhouse",
+			"text": "Real nice place you got here. You run this thing all by yourself?",
+			"voice": ""
+		},	
+		{
+			"background": "saff1",
+			"chara": ["floral", 2, false],
+			"border": "greenhouse",
+			"text": "Eheh, appreciate it. I do the heavy lifting and care around here, though fortunately it's hardly a lonely endeavour. These plants take care of me just as much as I take care of them.",
+			"voice": ""
+		},
+		{
+			"background": "saff2",
+			"chara": ["sweet", 2, true],
+			"border": "greenhouse",
+			"text": "Little Saffron must keep things nice and lively here, too. Speaking of, is she here today? I haven’t seen her in a while.",
+			"voice": ""
+		},	
+		{
+			"background": "saff2",
+			"chara": ["floral", 2, false],
+			"border": "greenhouse",
+			"text": "She’s been a little hard to track lately. A little restless too, I suppose. She was right here a moment ago-",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["saff", 0, true],
+			"border": "greenhouse",
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["floral", 2, false],
+			"sound": ["floral","laugh"],
+			"border": "greenhouse",
+			"text": "Ah, there you are! Sweet was just looking for you, honey.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["saff", 0, true],
+			"border": "greenhouse",
+			"text": "Hi.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["sweet", 2, true],
+			"border": "greenhouse",
+			"text": "Saffron! You’ve gotten a little taller! You're no longer 'Little Saffron', oh my goodness! I see you’re still wearing your favorite hat your dad made.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["saff", 0, true],
+			"border": "greenhouse",
+			"text": "…who is that guy?",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["sweet", 2, true],
+			"border": "greenhouse",
+			"text": "Oh! Saffron, meet Sour! He’s my partner!",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["sour", 0, true],
+			"border": "greenhouse",
+			"text": "Uhh, hey, kid.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["saff", 1, true],
+			"sound": ["saff","ow"],
+			"border": "greenhouse",
+			"text": "…ow.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["sweet", 0, true],
+			"sound": ["sweet","hmmquestion"],
+			"border": "greenhouse",
+			"text": "…are you hurt, Saffron?",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["saff", 1, true],
+			"border": "greenhouse",
+			"text": "His green hair hurts my eyes.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["sour", 0, true],
+			"border": "greenhouse",
+			"text": "Hair? Nah, nah. This is just a hat. Everyone makes that mistake.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["sour", 1, true],
+			"border": "greenhouse",
+			"text": "[...for some reason.]",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["saff", 0, true],
+			"border": "greenhouse",
+			"text": "Your outfit hurts to look at, too. Just like your hair.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["floral", 0, false],
+			"sound": ["floral","honey"],
+			"border": "greenhouse",
+			"text": "Now, Saff, honey-",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["sour", 1, true],
+			"sound": ["sour","scoff"],
+			"border": "greenhouse",
+			"text": "What’s your deal, kid? And like I said, it’s a HAT.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["sweet", 1, true],
+			"border": "greenhouse",
+			"text": "Saffron, please be nice... She's usually a sweetheart.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["sweet", 0, true],
+			"border": "greenhouse",
+			"text": "Saffron, dear... Sour is very important to me. Remember what your dad taught you about showing others care and making people feel welcome? We want Sour to feel welcome here in our home country.",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["saff", 0, true],
+			"border": "greenhouse",
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["sour", 0, true],
+			"border": "greenhouse",
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["sweet", 0, true],
+			"border": "greenhouse",
+			"text": "...",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["saff", 1, true],
+			"sound": ["saff","seriously"],
+			"border": "greenhouse",
+			"text": "I don't like him.",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["sweet", 1, true],
+			"sound": ["sweet","what"],
+			"border": "greenhouse",
+			"text": "-Saff!",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["sour", 1, true],
+			"border": "greenhouse",
+			"sound": ["sour","areyoukidding"],
+			"text": "-I ain't even do nothing!",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["sweet", 1, true],
+			"sound": ["sweet","upsetgrunt"],
+			"border": "greenhouse",
+			"text": "Apologize, Saffron. That's really not nice to say to someone.",
+			"voice": ""
+		},
+		{
+			"background": "saff4",
+			"chara": ["saff", 1, true],
+			"sound": ["saff","no"],
+			"border": "greenhouse",
+			"text": "No. I don't like him.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["floral", 1, false],
+			"border": "greenhouse",
+			"text": "You've never been this prickly before, honey, Is something wrong?",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["saff", 1, true],
+			"sound": ["saff","nonono"],
+			"border": "greenhouse",
+			"text": "I just don't like him.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["sour", 1, true],
+			"border": "greenhouse",
+			"text": "I don't know what you want from me, kid.",
+			"voice": ""
+		},
+		{
+			"background": "saff3",
+			"chara": ["sweet", 1, true],
+			"sound": ["sweet","please"],
+			"border": "greenhouse",
+			"text": "Saffron. Sour's very nice... and an absolutely wonderful musician... and someone I love dearly. Please, I know he's new, but just give him a chance. For me, Saffron.",
+			"voice": ""
+		},
+		{
+			"background": "saff5",
+			"chara": ["saff", 0, true],
+			"border": "greenhouse",
+			"text": "…you.",
+			"voice": ""
+		},
+		{
+			"background": "saff5",
+			"chara": ["sour", 1, true],
+			"border": "greenhouse",
+			"text": "…what now?",
+			"voice": ""
+		},
+		{
+			"background": "saff5",
+			"chara": ["saff", 0, true],
+			"border": "greenhouse",
+			"text": "Play a song.",
+			"voice": ""
+		},
+		{
+			"background": "saff5",
+			"chara": ["sour", 0, true],
+			"border": "greenhouse",
+			"text": "Huh? Right now? Why?",
+			"voice": ""
+		},
+		{
+			"background": "saff5",
+			"chara": ["saff", 0, true],
+			"border": "greenhouse",
+			"text": "Cause I said so. If it's boring, I’m leaving.",
+			"voice": ""
+		},
+		{
+			"background": "saff5",
+			"chara": ["sweet", 0, true],
+			"border": "greenhouse",
+			"text": "I suppose this is a start... Would that be ok to do here, Mr. Floral?",
+			"voice": ""
+		},
+		{
+			"background": "saff5",
+			"chara": ["floral", 0, false],
+			"sound": ["floral","playaway"],
+			"border": "greenhouse",
+			"text": "I could never turn down a free performance, heh heh. Play away, you three.",
+			"voice": ""
+		},
+		{
+			"background": "saff5",
+			"chara": ["sweet", 0, true],
+			"border": "greenhouse",
+			"text": "May I join in with Sour, Saffron?",
+			"voice": ""
+		},
+		{
+			"background": "saff5",
+			"chara": ["saff", 2, true],
+			"border": "greenhouse",
+			"text": "Please do. He’s gonna need help. I might sing too. If I feel like it.",
+			"voice": ""
+		},
+		{
+			"background": "saff5",
+			"chara": ["floral", 0, false],
+			"border": "greenhouse",
+			"text": "You're gonna sing, honey? I didn’t know you had an interest in singing.",
+			"voice": ""
+		},
+		{
+			"background": "saff5",
+			"chara": ["saff", 0, true],
+			"border": "greenhouse",
+			"text": "Music is art. Singing is art, too, I think. I like art. I know good art. Make good art, now.",
+			"voice": ""
+		}
+	]
+}
